@@ -2,16 +2,19 @@
     "class_i": {
         "sequences":"class_i",
         "low":250,
-        "high":300
+        "high":300,
+        "label":"class_i"
     },
     "truncated_class_i": {
         "sequences":"class_i",
         "low":160,
-        "high":200
+        "high":200,
+        "label":"truncated_class_i"
     },
     "single_chain_class_i": {
         "sequences":"class_i",
         "low":null,
-        "high":null
+        "high":null,
+        "label":"single_chain_class_i"
     }
 }
