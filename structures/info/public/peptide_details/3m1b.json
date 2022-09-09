@@ -1,0 +1,36 @@
+{
+    "I": {
+        "actual_length": 10,
+        "actual_sequence": "TGHFGXXYPC",
+        "chain_id": "I",
+        "features": [
+            "contains_unnatural",
+            "central_gap",
+            "incorrect_start"
+        ],
+        "full_length": 16,
+        "full_sequence": "XRFXTGHFGGLYPCKX",
+        "gap_ends_at": 4,
+        "gap_length": 3,
+        "gap_sequence": "XRF",
+        "gap_start_after": 0,
+        "gapped_sequence": "---TGHFGXXYPC"
+    },
+    "J": {
+        "actual_length": 11,
+        "actual_sequence": "FTGHFGXXYPC",
+        "chain_id": "J",
+        "features": [
+            "contains_unnatural",
+            "central_gap",
+            "incorrect_start"
+        ],
+        "full_length": 16,
+        "full_sequence": "XRFXTGHFGGLYPCKX",
+        "gap_ends_at": 104,
+        "gap_length": 1,
+        "gap_sequence": "",
+        "gap_start_after": 102,
+        "gapped_sequence": "-FTGHFGXXYPC"
+    }
+}

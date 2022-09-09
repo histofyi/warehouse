@@ -1,0 +1,72 @@
+{
+    "C": {
+        "actual_length": 12,
+        "actual_sequence": "YLRYDSDVGEYR",
+        "chain_id": "C",
+        "features": [
+            "correct_sequence_and_length"
+        ],
+        "full_length": 12,
+        "full_sequence": "YLRYDSDVGEYR"
+    },
+    "F": {
+        "actual_length": 10,
+        "actual_sequence": "YLRYDSDEYR",
+        "chain_id": "F",
+        "features": [
+            "central_gap"
+        ],
+        "full_length": 12,
+        "full_sequence": "YLRYDSDVGEYR",
+        "gap_ends_at": 10,
+        "gap_length": 2,
+        "gap_sequence": "VG",
+        "gap_start_after": 7,
+        "gapped_sequence": "YLRYDSD--EYR"
+    },
+    "I": {
+        "actual_length": 10,
+        "actual_sequence": "YLRYDVGEYR",
+        "chain_id": "I",
+        "features": [
+            "central_gap"
+        ],
+        "full_length": 12,
+        "full_sequence": "YLRYDSDVGEYR",
+        "gap_ends_at": 8,
+        "gap_length": 2,
+        "gap_sequence": "SD",
+        "gap_start_after": 5,
+        "gapped_sequence": "YLRYD--VGEYR"
+    },
+    "L": {
+        "actual_length": 9,
+        "actual_sequence": "YLRYVGEYR",
+        "chain_id": "L",
+        "features": [
+            "central_gap"
+        ],
+        "full_length": 12,
+        "full_sequence": "YLRYDSDVGEYR",
+        "gap_ends_at": 8,
+        "gap_length": 3,
+        "gap_sequence": "DSD",
+        "gap_start_after": 4,
+        "gapped_sequence": "YLRY---VGEYR"
+    },
+    "O": {
+        "actual_length": 9,
+        "actual_sequence": "YLRYVGEYR",
+        "chain_id": "O",
+        "features": [
+            "central_gap"
+        ],
+        "full_length": 12,
+        "full_sequence": "YLRYDSDVGEYR",
+        "gap_ends_at": 8,
+        "gap_length": 3,
+        "gap_sequence": "DSD",
+        "gap_start_after": 4,
+        "gapped_sequence": "YLRY---VGEYR"
+    }
+}
