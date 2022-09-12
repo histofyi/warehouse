@@ -1,0 +1,35 @@
+{
+    "class_i_alpha": {
+        "chains": [
+            "E",
+            "F"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 0.76,
+        "sequence": "GPHSMRYFETAVSRRGLGEPRYISVGYVDDKEFVRFDSDAENPRYEPQVPWMEQEGPEYWERITQVAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQRMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLRTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNGNATLLR"
+    },
+    "peptide": {
+        "chains": [
+            "P",
+            "Q"
+        ],
+        "match_type": "histo:classify_peptide",
+        "sequence": "QLSPFPFDL"
+    },
+    "tcr_alpha": {
+        "chains": [
+            "A"
+        ],
+        "match_type": "stcrdab",
+        "sequence": "QSVTQPDARVTVSEGASLQLRCKYSYSATPYLFWYVQYPRQGPQLLLKYYSGDPVVQGVNGFEAEFSKSNSSFHLRKASVHRSDSAVYFCAVSHQGRYLTFGSGTKVIVLPYN",
+        "subgroup": "TRAV9"
+    },
+    "tcr_beta": {
+        "chains": [
+            "D"
+        ],
+        "match_type": "stcrdab",
+        "sequence": "EAAVTQSPRNKVAVTGEKVTLSCNQTNNHNNMYWYRQDTGHELRLIYYSYGAGSTEKGDIPDGYKASRPSQENFSLTLESATPSQTSVYFCASGGGGTLYFGAGTRLSVLSSALEHHHHHH",
+        "subgroup": "TRBV13"
+    }
+}

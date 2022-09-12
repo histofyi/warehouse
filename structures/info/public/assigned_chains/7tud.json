@@ -1,0 +1,33 @@
+{
+    "beta2m": {
+        "chains": [
+            "B"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 0.99,
+        "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+    },
+    "class_i_alpha": {
+        "chains": [
+            "A"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 0.92,
+        "sequence": "GSHSMRYFYTAMSRPGRGEPRFITVGYVDDTLFVRFDSDATSPRKEPRAPWIEQEGPEYWDRETQISKTNTQCYRENLRTALRYYNQSEAGSHIIQRMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQDRAYLEGLCVESLRRYLENGKETLQRADPPKTHVTHHPISDHEVTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+    },
+    "note": "two separate peptide fragments, c-terminal and n-terminal",
+    "peptide_fragment1": {
+        "chains": [
+            "P"
+        ],
+        "match_type": "histo:override",
+        "sequence": "EEFGRC"
+    },
+    "peptide_fragment2": {
+        "chains": [
+            "Q"
+        ],
+        "match_type": "histo:override",
+        "sequence": "GL"
+    }
+}

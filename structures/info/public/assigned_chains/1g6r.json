@@ -1,0 +1,44 @@
+{
+    "beta2m": {
+        "chains": [
+            "L",
+            "M"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 1.0,
+        "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+    },
+    "class_i_alpha": {
+        "chains": [
+            "H",
+            "I"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 1.0,
+        "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+    },
+    "peptide": {
+        "chains": [
+            "P",
+            "Q"
+        ],
+        "match_type": "histo:classify_peptide",
+        "sequence": "SIYRYYGL"
+    },
+    "tcr_alpha": {
+        "chains": [
+            "A"
+        ],
+        "match_type": "stcrdab",
+        "sequence": "QSVTQPDARVTVSEGASLQLRCKYSYSATPYLFWYVQYPRQGLQLLLKYYSGDPVVQGVNGFEAEFSKSNSSFHLRKASVHWSDSAVYFCAVSGFASALTFGSGTKVIVLPYIQNPEPAVYALKDPRSQDSTLCLFTDFDSQINVPKTMESGTFITDATVLDMKAMDSKSNGAIAWSNQTSFTCQDIFKETNATYPSSDVPC",
+        "subgroup": "TRAV9"
+    },
+    "tcr_beta": {
+        "chains": [
+            "B"
+        ],
+        "match_type": "stcrdab",
+        "sequence": "EAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGGGGTLYFGAGTRLSVLEDLRNVTPPKVSLFEPSKAEIANKQKATLVCLARGFFPDHVELSWWVNGKEVHSGVSTDPQAYKESNYSYCLSSRLRVSATFWHNPRNHFRCQVQFHGLSEEDKWPEGSPKPVTQNISAEAWGRADC",
+        "subgroup": "TRBV13"
+    }
+}

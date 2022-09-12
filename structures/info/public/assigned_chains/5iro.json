@@ -1,0 +1,53 @@
+{
+    "beta2m": {
+        "chains": [
+            "C",
+            "G",
+            "K",
+            "O",
+            "S",
+            "W"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 0.99,
+        "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+    },
+    "class_i_alpha": {
+        "chains": [
+            "A",
+            "E",
+            "I",
+            "M",
+            "Q",
+            "U"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 1.0,
+        "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+    },
+    "e319k": {
+        "chains": [
+            "D",
+            "H",
+            "L",
+            "P",
+            "T",
+            "X"
+        ],
+        "match_type": "histo:override",
+        "sequence": "AVVTEKADPCLTFNPDKCQLSFQPDGNRCAVLIKCGWECQSVAIQYKNKTRNNTLASTWQPGDPEWYTVSVPGADGFLRTVNNTFIFEHMCNTAMFMSRQYHMWPPRK"
+    },
+    "note": "rule needed for e319k?",
+    "peptide": {
+        "chains": [
+            "B",
+            "F",
+            "J",
+            "N",
+            "R",
+            "V"
+        ],
+        "match_type": "histo:classify_peptide",
+        "sequence": "LLFGYPVYV"
+    }
+}

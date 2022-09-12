@@ -1,0 +1,44 @@
+{
+    "ab_heavy": {
+        "chains": [
+            "M"
+        ],
+        "match_type": "sabdab",
+        "sabdab": "Hchain",
+        "sequence": "EVQLLESGGGLVQPGGSLRLSCAASGFTFSTYQMSWVRQAPGKGLEWVSGIVSSGGSTAYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAGELLPYYGMDVWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPK"
+    },
+    "ab_light": {
+        "chains": [
+            "K"
+        ],
+        "match_type": "sabdab",
+        "sabdab": "Lchain",
+        "sequence": "QSELTQPRSVSGSPGQSVTISCTGTSRDVGGYNYVSWYQQHPGKAPKLIIHDVIERSSGVPDRFSGSKSGNTASLTISGLQAEDEADYYCWSFAGSYYVFGTGTDVTVLGQPKANPTVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADGSPVKAGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGNTVEKTVAPT"
+    },
+    "beta2m": {
+        "chains": [
+            "B",
+            "E"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 0.99,
+        "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+    },
+    "class_i_alpha": {
+        "chains": [
+            "A",
+            "D"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 1.0,
+        "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+    },
+    "peptide": {
+        "chains": [
+            "C",
+            "F"
+        ],
+        "match_type": "histo:classify_peptide",
+        "sequence": "SLLMWITQV"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "beta2m": {
+        "chains": [
+            "L"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 1.0,
+        "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+    },
+    "class_i_alpha": {
+        "chains": [
+            "H"
+        ],
+        "match_type": "histo:assign_chains",
+        "score": 0.99,
+        "sequence": "GPHSMRYFETAVSRPGLGEPRYISVGYVDNKEFVRFDSDAENPRYEPQAPWMEQEGPEYWERITQIAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQWMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTL"
+    },
+    "note": "two separate peptides, should be split into 2 structures",
+    "peptide": {
+        "chains": [
+            "P",
+            "Q"
+        ],
+        "match_type": "histo:override",
+        "sequence": "APAAAAAAM"
+    }
+}
