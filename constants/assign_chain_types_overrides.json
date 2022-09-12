@@ -1,0 +1,170 @@
+{
+    "1ldp": {
+        "class_i_alpha":{"chains":["H"]},
+        "beta2m":{"chains":["L"]},
+        "peptide":{"chains":["P","Q"],"sequence":"APAAAAAAM"},
+        "note":"two separate peptides, should be split into 2 structures"
+    },
+    "4hkj":{
+        "class_i_alpha":{"chains":["A", "E", "I", "M"]},
+        "beta2m":{"chains":["B", "F", "J", "N"]},
+        "peptide":{"chains":["C", "G", "K", "O"]},
+        "cowpox_cpxv203":{"chains":["D", "H", "L", "P"]},
+        "note": "rule needed for cowpox_cpxv203?"
+    }, 
+    "4n0u":{    
+        "fcrn":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "serum_albumin":{"chains":["D"]},
+        "ig_gamma":{"chains":["E"]},
+        "note": "rule needed for ig_heavy chain?"
+    }, 
+    "4y16":{
+        "cd1d":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "chimeric_tcr_alpha":{"chains":["C"]},
+        "chimeric_tcr_beta":{"chains":["D"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "4y4k":{
+        "cd1d":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "chimeric_tcr_alpha":{"chains":["C"]},
+        "chimeric_tcr_beta":{"chains":["D"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "5grg":{
+        "class_i_alpha":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "peptide_fragment1":{"chains":["C"], "sequence":"SSCSSC"},
+        "peptide_fragment2":{"chains":["D"], "sequence":"PLSK"},
+        "note": "two separate peptide fragments, c-terminal and n-terminal"
+    }, 
+    "5iro":{
+        "class_i_alpha":{"chains":["A", "E", "I", "M", "Q", "U"]},
+        "beta2m":{"chains":["C", "G", "K", "O", "S", "W"]},
+        "peptide":{"chains":["B", "F", "J", "N", "R", "V"],"sequence":"LLFGYPVYV"},
+        "e319k":{"chains":["D", "H", "L", "P", "T", "X"]},
+        "note": "rule needed for e319k?"
+    }, 
+    "6cx7":{
+        "cd1d":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "chimeric_tcr_alpha":{"chains":["C"]},
+        "chimeric_tcr_beta":{"chains":["D"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "6cxf":{
+        "cd1d":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "chimeric_tcr_alpha":{"chains":["C"]},
+        "chimeric_tcr_beta":{"chains":["D"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "6qio":{
+        "serum_albumin":{"chains":["A"]},
+        "fcrn":{"chains":["B"]},
+        "beta2m":{"chains":["C"]},
+        "somatotropin":{"chains":["D"]},
+        "note": "rule needed for somatotropin?"
+    }, 
+    "6wna":{
+        "fcrn":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "ig_heavy_chain_gamma":{"chains":["H"]},
+        "note": "rule needed for ig_heavy chain?"
+    }, 
+    "6wol":{
+        "fcrn":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "ig_heavy_chain_gamma":{"chains":["H"]},
+        "note": "rule needed for ig_heavy chain?"
+    },
+    "7b5f":{
+        "fcrn":{"chains":["G"]},
+        "beta2m":{"chains":["H"]},
+        "echovirus_protein_4":{"chains":["D"]},
+        "echovirus_protein_1":{"chains":["A"]},
+        "echovirus_protein_2":{"chains":["B"]},
+        "echovirus_protein_3":{"chains":["C"]},
+        "note": "four proteins from echovirus with fcrn"
+    }, 
+    "7lli":{
+        "mr1":{"chains":["A","C"]},
+        "beta2m":{"chains":["B","D"]},
+        "tcr_gamma":{"chains":["K","E"]},
+        "tcr_delta":{"chains":["L","F"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "7llj":{
+        "mr1":{"chains":["C","G"]},
+        "beta2m":{"chains":["D","H"]},
+        "tcr_gamma":{"chains":["K","A"]},
+        "tcr_delta":{"chains":["L","B"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "7n4k":{
+        "class_i_alpha":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "peptide":{"chains":["C"], "sequence":"SSLENFRAYV"},
+        "chimeric_tcr_alpha":{"chains":["D"]},
+        "chimeric_tcr_beta":{"chains":["E"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "7ndq":{
+        "class_i_alpha":{"chains":["AAA"]},
+        "beta2m":{"chains":["BBB"]},
+        "peptide":{"chains":["CCC"], "sequence":"RMYSPVSIL"},
+        "tcr_alpha":{"chains":["DDD"]},
+        "tcr_beta":{"chains":["EEE"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "7ndt":{
+        "class_i_alpha":{"chains":["AAA","FFF"]},
+        "beta2m":{"chains":["BBB","GGG"]},
+        "peptide":{"chains":["CCC","HHH"], "sequence":"VMAPRTLIL"},
+        "tcr_alpha":{"chains":["DDD","III"]},
+        "tcr_beta":{"chains":["EEE","JJJ"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "7ndu":{
+        "class_i_alpha":{"chains":["AAA"]},
+        "beta2m":{"chains":["BBB"]},
+        "peptide":{"chains":["CCC"], "sequence":"RMYSPVSIL"},
+        "tcr_alpha":{"chains":["DDD"]},
+        "tcr_beta":{"chains":["EEE"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "7pbc":{
+        "class_i_alpha":{"chains":["CCC"]},
+        "beta2m":{"chains":["DDD"]},
+        "peptide":{"chains":["EEE","JJJ"], "sequence":"GLYDGMEHL"},
+        "tcr_alpha":{"chains":["AAA"]},
+        "tcr_beta":{"chains":["BBB"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "7pdw":{
+        "class_i_alpha":{"chains":["CCC","HHH"]},
+        "beta2m":{"chains":["DDD","III"]},
+        "peptide":{"chains":["EEE"], "sequence":"GLYDGMEHL"},
+        "tcr_alpha":{"chains":["AAA","FFF"]},
+        "tcr_beta":{"chains":["BBB","GGG"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "7ryo":{
+        "cd1a":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "tcr_gamma":{"chains":["C"]},
+        "tcr_delta":{"chains":["D"]},
+        "note":"not yet in STCRdab"
+    }, 
+    "7tud":{
+        "class_i_alpha":{"chains":["A"]},
+        "beta2m":{"chains":["B"]},
+        "peptide_fragment1":{"chains":["P"], "sequence":"EEFGRC"},
+        "peptide_fragment2":{"chains":["Q"], "sequence":"GL"},
+        "note": "two separate peptide fragments, c-terminal and n-terminal"
+    }
+}
+
+
