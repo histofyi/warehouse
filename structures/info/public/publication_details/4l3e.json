@@ -1,0 +1,74 @@
+{
+    "abstract": "T cell receptors (TCRs) are key to antigen-specific immunity and are increasingly being explored as therapeutics, most visibly in cancer immunotherapy. As TCRs typically possess only low-to-moderate affinity for their peptide/MHC (pMHC) ligands, there is a recognized need to develop affinity-enhanced TCR variants. Previous in vitro engineering efforts have yielded remarkable improvements in TCR affinity, yet concerns exist about the maintenance of peptide specificity and the biological impacts of ultra-high affinity. As opposed to in vitro engineering, computational design can directly address these issues, in theory permitting the rational control of peptide specificity together with relatively controlled increments in affinity. Here we explored the efficacy of computational design with the clinically relevant TCR DMF5, which recognizes nonameric and decameric epitopes from the melanoma-associated Melan-A/MART-1 protein presented by the class I MHC HLA-A2. We tested multiple mutations selected by flexible and rigid modeling protocols, assessed impacts on affinity and specificity, and utilized the data to examine and improve algorithmic performance. We identified multiple mutations that improved binding affinity, and characterized the structure, affinity, and binding kinetics of a previously reported double mutant that exhibits an impressive 400-fold affinity improvement for the decameric pMHC ligand without detectable binding to non-cognate ligands. The structure of this high affinity mutant indicated very little conformational consequences and emphasized the high fidelity of our modeling procedure. Overall, our work showcases the capability of computational design to generate TCRs with improved pMHC affinities while explicitly accounting for peptide specificity, as well as its potential for generating TCRs with customized antigen targeting capabilities.",
+    "bibjson": {
+        "author": [
+            {
+                "initials": "BG",
+                "lastname": "Pierce",
+                "name": "Pierce BG"
+            },
+            {
+                "initials": "LM",
+                "lastname": "Hellman",
+                "name": "Hellman LM"
+            },
+            {
+                "initials": "M",
+                "lastname": "Hossain",
+                "name": "Hossain M"
+            },
+            {
+                "initials": "NK",
+                "lastname": "Singh",
+                "name": "Singh NK"
+            },
+            {
+                "initials": "CW",
+                "lastname": "Vander Kooi",
+                "name": "Vander Kooi CW"
+            },
+            {
+                "initials": "Z",
+                "lastname": "Weng",
+                "name": "Weng Z"
+            },
+            {
+                "initials": "BM",
+                "lastname": "Baker",
+                "name": "Baker BM"
+            }
+        ],
+        "identifier": [
+            {
+                "id": "10.1371/journal.pcbi.1003478",
+                "type": "doi"
+            },
+            {
+                "id": "24550723",
+                "type": "pubmed"
+            }
+        ],
+        "issue": [
+            "2"
+        ],
+        "journal": {
+            "iso_abbreviation": "PLoS Comput. Biol.",
+            "name": ""
+        },
+        "pages": [
+            "e1003478"
+        ],
+        "title": "Computational design of the affinity and specificity of a therapeutic T cell receptor.",
+        "type": "article",
+        "url": "https://dx.plos.org/10.1371/journal.pcbi.1003478",
+        "volume": [
+            "10"
+        ],
+        "year": [
+            2014
+        ]
+    },
+    "in_pmc": "Y",
+    "in_pmce": "Y",
+    "open_access": "Y"
+}

@@ -1,0 +1,74 @@
+{
+    "abstract": "The development of immunological therapies that incorporate peptide antigens presented to T cells by MHC proteins is a long sought-after goal, particularly for cancer, where mutated neoantigens are being explored as personalized cancer vaccines. Although neoantigens can be identified through sequencing, bioinformatics and mass spectrometry, identifying those which are immunogenic and able to promote tumor rejection remains a significant challenge. Here we examined the potential of high-resolution structural modeling followed by energetic scoring of structural features for predicting neoantigen immunogenicity. After developing a strategy to rapidly and accurately model nonameric peptides bound to the common class I MHC protein HLA-A2, we trained a neural network on structural features that influence T cell receptor (TCR) and peptide binding energies. The resulting structurally-parameterized neural network outperformed methods that do not incorporate explicit structural or energetic properties in predicting CD8+ T cell responses of HLA-A2 presented nonameric peptides, while also providing insight into the underlying structural and biophysical mechanisms governing immunogenicity. Our proof-of-concept study demonstrates the potential for structure-based immunogenicity predictions in the development of personalized peptide-based vaccines.",
+    "bibjson": {
+        "author": [
+            {
+                "initials": "TP",
+                "lastname": "Riley",
+                "name": "Riley TP"
+            },
+            {
+                "initials": "GLJ",
+                "lastname": "Keller",
+                "name": "Keller GLJ"
+            },
+            {
+                "initials": "AR",
+                "lastname": "Smith",
+                "name": "Smith AR"
+            },
+            {
+                "initials": "LM",
+                "lastname": "Davancaze",
+                "name": "Davancaze LM"
+            },
+            {
+                "initials": "AG",
+                "lastname": "Arbuiso",
+                "name": "Arbuiso AG"
+            },
+            {
+                "initials": "JR",
+                "lastname": "Devlin",
+                "name": "Devlin JR"
+            },
+            {
+                "initials": "BM",
+                "lastname": "Baker",
+                "name": "Baker BM"
+            }
+        ],
+        "identifier": [
+            {
+                "id": "10.3389/fimmu.2019.02047",
+                "type": "doi"
+            },
+            {
+                "id": "31555277",
+                "type": "pubmed"
+            }
+        ],
+        "issue": [
+            null
+        ],
+        "journal": {
+            "iso_abbreviation": "Front Immunol",
+            "name": ""
+        },
+        "pages": [
+            "2047"
+        ],
+        "title": "Structure Based Prediction of Neoantigen Immunogenicity.",
+        "type": "article",
+        "url": "https://www.frontiersin.org/article/10.3389/fimmu.2019.02047/full",
+        "volume": [
+            "10"
+        ],
+        "year": [
+            2019
+        ]
+    },
+    "in_pmc": "N",
+    "in_pmce": "Y",
+    "open_access": "Y"
+}

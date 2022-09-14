@@ -1,0 +1,69 @@
+{
+    "abstract": "To date, non-wear detection algorithms commonly employ a 30, 60, or even 90 mins interval or window in which acceleration values need to be below a threshold value. A major drawback of such intervals is that they need to be long enough to prevent false positives (type I errors), while short enough to prevent false negatives (type II errors), which limits detecting both short and longer episodes of non-wear time. In this paper, we propose a novel non-wear detection algorithm that eliminates the need for an interval. Rather than inspecting acceleration within intervals, we explore acceleration right before and right after an episode of non-wear time. We trained a deep convolutional neural network that was able to infer non-wear time by detecting when the accelerometer was removed and when it was placed back on again. We evaluate our algorithm against several baseline and existing non-wear algorithms, and our algorithm achieves a perfect precision, a recall of 0.9962, and an F1 score of 0.9981, outperforming all evaluated algorithms. Although our algorithm was developed using patterns learned from a hip-worn accelerometer, we propose algorithmic steps that can easily be applied to a wrist-worn accelerometer and a retrained classification model.",
+    "bibjson": {
+        "author": [
+            {
+                "initials": "P",
+                "lastname": "Li",
+                "name": "Li P"
+            },
+            {
+                "initials": "DL",
+                "lastname": "Morris",
+                "name": "Morris DL"
+            },
+            {
+                "initials": "BE",
+                "lastname": "Willcox",
+                "name": "Willcox BE"
+            },
+            {
+                "initials": "A",
+                "lastname": "Steinle",
+                "name": "Steinle A"
+            },
+            {
+                "initials": "T",
+                "lastname": "Spies",
+                "name": "Spies T"
+            },
+            {
+                "initials": "RK",
+                "lastname": "Strong",
+                "name": "Strong RK"
+            }
+        ],
+        "identifier": [
+            {
+                "id": "10.1038/87757",
+                "type": "doi"
+            },
+            {
+                "id": "11323699",
+                "type": "pubmed"
+            }
+        ],
+        "issue": [
+            "5"
+        ],
+        "journal": {
+            "iso_abbreviation": "Nat. Immunol.",
+            "name": ""
+        },
+        "pages": [
+            "443-51"
+        ],
+        "title": "Complex structure of the activating immunoreceptor NKG2D and its MHC class I-like ligand MICA.",
+        "type": "article",
+        "url": "http://www.nature.com/articles/ni0501_443",
+        "volume": [
+            "2"
+        ],
+        "year": [
+            2001
+        ]
+    },
+    "in_pmc": "N",
+    "in_pmce": "Y",
+    "open_access": "Y"
+}
