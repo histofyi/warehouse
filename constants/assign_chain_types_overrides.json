@@ -5,6 +5,11 @@
         "peptide":{"chains":["P","Q"],"sequence":"APAAAAAAM"},
         "note":"two separate peptides, should be split into 2 structures"
     },
+    "3nwm": {
+        "class_i_alpha":{"chains":["A"]},
+        "note":"Single chain construct",
+        "force_override":true
+    },
     "4hkj":{
         "class_i_alpha":{"chains":["A", "E", "I", "M"]},
         "beta2m":{"chains":["B", "F", "J", "N"]},
@@ -79,6 +84,15 @@
         "beta2m":{"chains":["B"]},
         "ig_heavy_chain_gamma":{"chains":["H"]},
         "note": "rule needed for ig_heavy chain?"
+    },
+    "7byd":{
+        "class_i_alpha":{"chains":["A","F"]},
+        "beta2m":{"chains":["B","G"]},
+        "peptide":{"chains":["C","H"], "sequence":"GGAI"},
+        "tcr_alpha":{"chains":["D","I"]},
+        "tcr_beta":{"chains":["E","J"]},
+        "note":"Different chain assignments and short peptide",
+        "force_override":true
     },
     "7b5f":{
         "fcrn":{"chains":["G"]},

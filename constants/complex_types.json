@@ -1,0 +1,501 @@
+{
+        "1":[{
+                "components":["class_i_alpha"],
+                "unique_chains":1,
+                "label": "Single chain Class I construct",
+                "slug":"single_chain_class_i_construct"
+
+        },{
+                "components":["zag"],
+                "unique_chains":1,
+                "label": "Zinc-Alpha-2-Glycoprotein",
+                "slug":"zag"
+
+        },
+        {
+                "components":["m157"],
+                "unique_chains":1,
+                "label": "Mouse cytomegalovirus m157 protein",
+                "slug":"m157"
+
+        },
+        {
+                "components":["mica"],
+                "unique_chains":1,
+                "label": "MHC class I chain-related protein A",
+                "slug":"mica"
+
+        },
+        {
+                "components":["micb"],
+                "unique_chains":1,
+                "label": "MHC class I chain-related protein B",
+                "slug":"micb"
+
+        }],
+        "2":[{
+                "components":["hfe2","beta2m"],
+                "unique_chains":2,
+                "label": "HFE2",
+                "slug":"hfe2"
+
+        },
+        {
+                "components":["h2-t22","beta2m"],
+                "unique_chains":2,
+                "label": "H2-T22",
+                "slug":"h2-t22"
+
+        },
+        {
+                "components":["class_i_alpha","peptide"],
+                "unique_chains":2,
+                "label": "Truncated Class I with peptide",
+                "slug":"truncated_class_i_with_peptide"
+
+        },
+        {
+                "components":["class_i_alpha","beta2m"],
+                "unique_chains":2,
+                "label": "Class I without distinct peptide",
+                "slug":"class_i_possibly_without_peptide"
+
+        },
+        {
+                "components":["mr1","beta2m"],
+                "unique_chains":2,
+                "label": "MR1",
+                "slug":"mr1"
+
+        },
+        {
+                "components":["cd1a","beta2m"],
+                "unique_chains":2,
+                "label": "CD1a",
+                "slug":"cd1a"
+
+        },
+        {
+                "components":["cd1b","beta2m"],
+                "unique_chains":2,
+                "label": "CD1b",
+                "slug":"cd1b"
+
+        },
+        {
+                "components":["cd1d","beta2m"],
+                "unique_chains":2,
+                "label": "CD1d",
+                "slug":"cd1d"
+
+        },
+        {
+                "components":["fcrn","beta2m"],
+                "unique_chains":2,
+                "label": "Fc receptor (FcRn)",
+                "slug":"fcrn"
+
+        },
+        {
+                "components":["nkg2d", "mica"],
+                "unique_chains":2,
+                "label": "MICA with NKG2D",
+                "slug":"mica_with_nkg2d"
+
+        },
+        {
+                "components":["m152", "rae1"],
+                "unique_chains":2,
+                "label": "M152 with ligand RAE-1 gamma",
+                "slug":"m152_with_rae1"
+
+        },
+        {
+                "components":["zag", "pip"],
+                "unique_chains":2,
+                "label": "Zinc-Alpha-2-Glycoprotein and Prolactin inducible protein (PIP)",
+                "slug":"zag_with_pip"
+
+        }],
+        "3":[{
+                "components":["class_i_alpha","beta2m", "peptide"],
+                "unique_chains":3,
+                "label": "MHC Class I with peptide",
+                "slug":"class_i_with_peptide"
+
+        },
+        {
+                "components":["class_i_alpha","beta2m", "tapasin"],
+                "unique_chains":3,
+                "label": "MHC Class I with Tapasin",
+                "slug":"class_i_with_tapasin"
+
+        },
+        {
+                "components":["class_i_alpha","tcr_delta", "tcr_gamma"],
+                "unique_chains":3,
+                "label": "Single chain MHC Class I construct with T-cell gamma/delta receptor",
+                "slug":"single_chain_class_i_construct_with_gamma_delta_tcr"
+
+        },
+        {
+                "components":["class_i_alpha","beta2m", "tapbpr"],
+                "unique_chains":3,
+                "label": "MHC Class I with TAPBPR",
+                "slug":"class_i_with_tapbpr"
+
+        },
+        {
+                "components":["mr1","beta2m", "tapbpr"],
+                "unique_chains":3,
+                "label": "MR1 with TAPBPR",
+                "slug":"mr1_with_tapbpr"
+
+        },
+        {
+                "components":["mr1","beta2m", "cd8a"],
+                "unique_chains":3,
+                "label": "MR1 with CD8a",
+                "slug":"mr1_with_cd8a"
+
+        },
+        {
+                "components":["class_i_alpha","beta2m", "cd8"],
+                "unique_chains":3,
+                "label": "MHC Class I with CD8",
+                "slug":"class_i_with_cd8"
+
+        },
+        {
+                "components":["class_i_alpha","beta2m", "cd8a"],
+                "unique_chains":3,
+                "label": "MHC Class I with CD8a",
+                "slug":"class_i_with_cd8a"
+
+        },
+        {
+                "components":["class_i_alpha","peptide", "tcr_beta"],
+                "unique_chains":3,
+                "label": "Truncated MHC Class I with peptide and single chain TCR construct",
+                "slug":"truncated_class_i_with_peptide_and_single_chain_tcr_construct"
+
+        },
+        {
+                "components":["class_i_alpha","peptide", "pre_tcr_beta"],
+                "unique_chains":3,
+                "label": "Truncated MHC Class I with peptide and preTCRbeta",
+                "slug":"truncated_class_i_with_peptide_and_pre_tcr_beta"
+
+        },
+        {
+                "components":["fcrn","beta2m", "peptide"],
+                "unique_chains":3,
+                "label": "Fc receptor with peptide",
+                "slug":"fcrn_with_peptide_and_beta2m"
+
+        },
+        {
+                "components":["fcrn","beta2m", "ig_heavy_chain_gamma"],
+                "unique_chains":3,
+                "label": "Fc receptor with IG Gamma Heavy Chain",
+                "slug":"fcrn_with_beta2m_and_ig_heavy_chain_gamma"
+
+        },
+        {
+                "components":["fcrn","beta2m", "serum_albumin"],
+                "unique_chains":3,
+                "label": "Fc receptor with Serum Albumin",
+                "slug":"fcrn_with_beta2m_and_serum_albumin"
+
+        },
+        {
+                "components":["fcrn","beta2m", "ig_gamma_2a"],
+                "unique_chains":3,
+                "label": "Fc receptor with IG Gamma 2a",
+                "slug":"fcrn_with_beta2m_and_ig_gamma_2a"
+
+        },
+        {
+                "components":["cd1d","beta2m", "peptide"],
+                "unique_chains":3,
+                "label": "CD1d with peptide",
+                "slug":"cd1d_with_b2m_and_peptide"
+
+        },
+        {
+                "components":["cd1d","beta2m", "p99p"],
+                "unique_chains":3,
+                "label": "CD1d with helical peptide p99p",
+                "slug":"cd1d_with_b2m_and_p99p"
+
+        },
+        {
+                "components":["cd1d","beta2m", "tcr_delta"],
+                "unique_chains":3,
+                "label": "CD1d with single chain gamma TCR construct",
+                "slug":"cd1d_with_single_chain_trcr"
+
+        },
+        {
+                "components":["hfe2", "beta2m", "transferrin_receptor"],
+                "unique_chains":3,
+                "label": "HFE2 with the Transferrin Receptor",
+                "slug":"hfe2_with_beta2m_and_transferrin_receptor"
+
+        }
+        ],
+        "4":[{
+                "components":["class_i_alpha", "beta2m", "peptide", "cd8"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and CD8",
+                "slug":"class_i_with_peptide_and_cd8"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "cd8a"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and CD8 alpha",
+                "slug":"class_i_with_peptide_and_cd8a"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide_fragment1", "peptide_fragment2"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide fragments",
+                "slug":"class_i_with_peptide_fragments"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "kir"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and KIR NK receptor",
+                "slug":"class_i_with_peptide_and_kir"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "kir3"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and KIR-3 NK receptor",
+                "slug":"class_i_with_peptide_and_kir3"                
+                },
+                {
+                "components":["class_i_alpha", "peptide", "tcr_alpha", "tcr_beta"],
+                "unique_chains":4,
+                "label": "Truncated MHC Class I with peptide and T-cell alpha/beta receptor",
+                "slug":"truncatedd_class_i_with_peptide_and__alpha_beta_tcr"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "lir1"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and LIR-1",
+                "slug":"class_i_with_peptide_and_lir1"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "lirb1"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and LIR-B1",
+                "slug":"class_i_with_peptide_and_lirb1"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "lir2"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and LIR-2",
+                "slug":"class_i_with_peptide_and_lir2"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "ly49a"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and Ly49a NK receptor",
+                "slug":"class_i_with_peptide_and_ly49a"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "ly49c"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and Ly49c NK receptor",
+                "slug":"class_i_with_peptide_and_ly49c"                
+                },
+                {
+                "components":["cd1a", "beta2m", "tcr_alpha", "tcr_beta"],
+                "unique_chains":4,
+                "label": "CD1a with NKT T-cell alpha/beta receptor",
+                "slug":"cd1a_with_nkt__alpha_beta_tcr"                
+                },
+                {
+                "components":["cd1a", "beta2m", "tcr_delta", "tcr_gamma"],
+                "unique_chains":4,
+                "label": "CD1a with NKT T-cell gamma/delta receptor",
+                "slug":"cd1a_with_nkt__gamma_delta_tcr"                
+                },
+                {
+                "components":["cd1b", "beta2m", "tcr_alpha", "tcr_beta"],
+                "unique_chains":4,
+                "label": "CD1b with NKT T-cell alpha/beta receptor",
+                "slug":"cd1b_with_nkt_alpha_beta_tcr"                
+                },
+                {
+                "components":["cd1d", "beta2m", "tcr_alpha", "tcr_beta"],
+                "unique_chains":4,
+                "label": "CD1d with NKT T-cell alpha/beta receptor",
+                "slug":"cd1d_with_nkt_alpha_beta_tcr"                
+                },
+                {
+                "components":["cd1d", "beta2m", "chimeric_tcr_alpha", "chimeric_tcr_beta"],
+                "unique_chains":4,
+                "label": "CD1d with chimeric T-cell alpha/beta receptor",
+                "slug":"cd1d_with_chimeric_alpha_beta_tcr"                
+                },
+                {
+                "components":["cd1d", "beta2m", "tcr_delta", "tcr_gamma"],
+                "unique_chains":4,
+                "label": "CD1d with NKT T-cell gamma/delta receptor",
+                "slug":"cd1b_with_nkt_gamma_delta_tcr"                
+                },
+                {
+                "components":["cd1d", "beta2m", "ab_light", "ab_heavy"],
+                "unique_chains":4,
+                "label": "CD1d with antibody",
+                "slug":"cd1d_with_antibody"                
+                },
+                {
+                "components":["mr1", "beta2m", "tcr_delta", "tcr_gamma"],
+                "unique_chains":4,
+                "label": "MR1 with gamma/delta T-cell receptor",
+                "slug":"mr1_with_gamma_delta_tcr"                
+                },
+                {
+                "components":["mr1", "beta2m", "tcr_alpha", "tcr_beta"],
+                "unique_chains":4,
+                "label": "MR1 with alpha/beta T-cell receptor",
+                "slug":"mr1_with_alpha_beta_tcr"                
+                },
+                {
+                "components":["fcrn", "beta2m", "ab_light", "ab_heavy"],
+                "unique_chains":4,
+                "label": "Fc receptor (FcRn) with antibody",
+                "slug":"fcrn_with_antibody"                
+                },
+                {
+                "components":["fcrn", "beta2m", "ig_gamma_2a", "ig_gamma_2a"],
+                "unique_chains":4,
+                "label": "Fc receptor (FcRn) with IG Gamma-2",
+                "slug":"fcrn_with_ig_gamma_2"                
+                },
+                {
+                "components":["fcrn", "beta2m", "serum_albumin", "somatotropin"],
+                "unique_chains":4,
+                "label": "Fc receptor (FcRn) with Somatotropin and Serum Albumin",
+                "slug":"fcrn_with_somatotropin_and_serum_albumin"                
+                },
+                {
+                "components":["fcrn", "beta2m", "serum_albumin", "ig_gamma_2a"],
+                "unique_chains":4,
+                "label": "Fc receptor (FcRn) with IG Gamma-2 and Serum Albumin",
+                "slug":"fcrn_with_ig_gamma_2_and_serum_albumin"                
+                },
+                {
+                "components":["fcrn", "beta2m", "serum_albumin", "ig_gamma"],
+                "unique_chains":4,
+                "label": "Fc receptor (FcRn) with IG Gamma and Serum Albumin",
+                "slug":"fcrn_with_ig_gamma_and_serum_albumin"                
+                },
+                {
+                "components":["h2-t22", "beta2m", "tcr_delta", "tcr_gamma"],
+                "unique_chains":4,
+                "label": "H2-T22 with Gamma/Delta T Cell Receptor",
+                "slug":"h2_22_with_gamma_delta_tcr"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "us2"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and US2",
+                "slug":"class_i_with_peptide_and_us2"                
+                },
+                {
+                
+                "components":["ul18","beta2m", "lir1", "peptide"],
+                "unique_chains":4,
+                "label": "UL18 with peptide and LIR1",
+                "slug":"ul18_with_peptide_and_lir1"                
+                },
+                {
+                
+                "components":["class_i_alpha","beta2m", "e3", "peptide"],
+                "unique_chains":4,
+                "label": "MHC Class I with peptide and E3",
+                "slug":"class_i_with_peptide_and_e3"                
+                },
+                {
+                "components":["class_i_alpha","beta2m", "erp57","tapasin"],
+                "unique_chains":5,
+                "label": "MHC Class I with erp57 and tapasin",
+                "slug":"class_i_with_erp57_and_tapasin"                
+                },
+                {
+                "components":["class_i_alpha","beta2m", "cowpox_cpxv203","peptide"],
+                "unique_chains":5,
+                "label": "MHC Class I with peptide and cowpox cpxv203",
+                "slug":"class_i_with_peptide_and_cowpox_cpxv203"                
+                },
+                {
+                "components":["class_i_alpha","beta2m", "e319k","peptide"],
+                "unique_chains":5,
+                "label": "MHC Class I with peptide and e319k",
+                "slug":"class_i_with_peptide_and_e319k"                
+                }
+                ],
+        "5":[{
+                "components":["class_i_alpha","beta2m", "peptide","tcr_alpha","tcr_beta"],
+                "unique_chains":5,
+                "label": "MHC Class I with peptide and Alpha/Beta T cell receptor",
+                "slug":"class_i_with_peptide_and_alpha_beta_tcr"                
+                },
+                {
+                "components":["class_i_alpha","beta2m", "peptide","chimeric_tcr_alpha","chimeric_tcr_beta"],
+                "unique_chains":5,
+                "label": "MHC Class I with peptide and chimeric Alpha/Beta T cell receptor",
+                "slug":"class_i_with_peptide_and_alpha_beta_tcr"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "tcr_delta", "tcr_gamma"],
+                "unique_chains":5,
+                "label": "MHC Class I with peptide and Gamma/Delta T cell receptor",
+                "slug":"class_i_with_peptide_and_gamma_delta_tcr"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "scvf_alpha", "scvf_beta"],
+                "unique_chains":5,
+                "label": "MHC Class I with peptide and SCFV",
+                "slug":"class_i_with_peptide_and_scfv"                
+                },
+                {
+                "components":["class_i_alpha", "beta2m", "peptide", "ab_heavy", "ab_light"],
+                "unique_chains":5,
+                "label": "MHC Class I with peptide and ",
+                "slug":"class_i_with_peptide_and_antibody"                
+                },
+                {
+                "components":["class_i_alpha","beta2m", "peptide","cd8a","cd8b"],
+                "unique_chains":5,
+                "label": "MHC Class I with peptide and CD8 dimer",
+                "slug":"class_i_with_peptide_and_cd8_dimer"                
+                },
+                {
+                "components":["class_i_alpha","beta2m", "peptide","cd94","nkg2a"],
+                "unique_chains":5,
+                "label": "MHC Class I with peptide and CD94/NKG2A",
+                "slug":"class_i_with_peptide_and_cd94_and_nkg2a"                
+                },
+                {
+                "components":["class_i_alpha","beta2m", "erp57","tapasin","calreticulin"],
+                "unique_chains":5,
+                "label": "MHC Class I peptide-loading complex",
+                "slug":"class_i_plc"                
+                }
+                ],
+        "6":[
+                {
+                "components":["fcrn","beta2m", "echovirus_protein_1","echovirus_protein_2","echovirus_protein_3","echovirus_protein_4"],
+                "unique_chains":5,
+                "label": "Fc receptor (FcRn) with echovirus proteins",
+                "slug":"fcrn_with_echovirus_proteins"                
+                } 
+        ]
+
+
+}
