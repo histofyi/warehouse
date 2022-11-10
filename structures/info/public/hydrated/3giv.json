@@ -1,0 +1,264 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3giv_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:56.773298"
+        },
+        "2": {
+            "assembly_name": "3giv_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:33:57.429625"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SLFNTVATLY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-03-06",
+        "deposition_year": 2009,
+        "release_date": "2009-06-30",
+        "release_year": 2009,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3GIV | HLA-A*02:01 binding \"SLFNTVATLY\"",
+    "pdb_code": "3giv",
+    "pdb_title": "Antigen processing influences HIV-specific cytotoxic T lymphocyte immunodominance.",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "SLFNTVATLY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "SLFNTVATLY"
+        },
+        "F": {
+            "actual_length": 10,
+            "actual_sequence": "SLFNTVATLY",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "SLFNTVATLY"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "SLFNTVATLY",
+    "publication": {
+        "abstract": "Metal oxide heterostructures have gained huge attention in the energy storage applications due to their outstanding properties compared to pristine metal oxides. Herein, magnetic Fe<sub>2</sub>O<sub>3</sub>@SnO<sub>2</sub> heterostructures were synthesized by the sol-gel electrospinning method at calcination temperatures of 450 and 600\u00a0\u00b0C. XRD line profile analysis indicated that fraction of tetragonal tin oxide phase compared to rhombohedral hematite was enhanced by increasing calcination temperature. FESEM images revealed that hexagonal nanoplatelets of Fe<sub>2</sub>O<sub>3</sub> were hierarchically anchored on SnO<sub>2</sub> hollow nanofibers. Optical band gap of heterogeneous structures was increased from 2.06 to 2.40\u00a0eV by calcination process. Vibrating sample magnetometer analysis demonstrated that increasing calcination temperature of the samples reduces saturation magnetization from 2.32 to 0.92 emu g<sup>-1</sup>. The Fe<sub>2</sub>O<sub>3</sub>@SnO<sub>2</sub>-450 and Fe<sub>2</sub>O<sub>3</sub>@SnO<sub>2</sub>-600 nanofibers as active materials coated onto Ni foams (NF) and their electrochemical performance were evaluated in three and two-electrode configurations in 3\u00a0M KOH electrolyte solution. Fe<sub>2</sub>O<sub>3</sub>@SnO<sub>2</sub>-600/NF electrode exhibits a high specific capacitance of 562.3 F g<sup>-1</sup> at a current density of 1 A g<sup>-1</sup> and good cycling stability with 92.8% capacitance retention at a high current density of 10 A g<sup>-1</sup> after 3000 cycles in three-electrode system. The assembled Fe<sub>2</sub>O<sub>3</sub>@SnO<sub>2</sub>-600//activated carbon asymmetric supercapacitor device delivers a maximum energy density of 50.2 Wh kg<sup>-1</sup> at a power density of 650\u00a0W\u00a0kg<sup>-1</sup>. The results display that the Fe<sub>2</sub>O<sub>3</sub>@SnO<sub>2</sub>-600 can be a promising electrode material in supercapacitor applications.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Tenzer",
+                    "name": "Tenzer S"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Wee",
+                    "name": "Wee E"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Burgevin",
+                    "name": "Burgevin A"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Stewart-Jones",
+                    "name": "Stewart-Jones G"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Friis",
+                    "name": "Friis L"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Lamberth",
+                    "name": "Lamberth K"
+                },
+                {
+                    "initials": "CH",
+                    "lastname": "Chang",
+                    "name": "Chang CH"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Harndahl",
+                    "name": "Harndahl M"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Weimershaus",
+                    "name": "Weimershaus M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Gerstoft",
+                    "name": "Gerstoft J"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Akkad",
+                    "name": "Akkad N"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Klenerman",
+                    "name": "Klenerman P"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Fugger",
+                    "name": "Fugger L"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Buus",
+                    "name": "Buus S"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Schild",
+                    "name": "Schild H"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "van Endert",
+                    "name": "van Endert P"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Iversen",
+                    "name": "Iversen AK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.1728",
+                    "type": "doi"
+                },
+                {
+                    "id": "19412183",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "636-46"
+            ],
+            "title": "Antigen processing influences HIV-specific cytotoxic T lymphocyte immunodominance.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.1728",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3giv"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3giv"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"SLFNTVATLY\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

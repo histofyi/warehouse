@@ -1,0 +1,142 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1cg9_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:40:39.113441"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMFRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LPPLDITPY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1999-03-25",
+        "deposition_year": 1999,
+        "release_date": "2003-11-18",
+        "release_year": 2003,
+        "revision_date": "2021-11-03",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1CG9 | HLA-B*35:01 binding \"LPPLDITPY\"",
+    "pdb_code": "1cg9",
+    "pdb_title": "Complex Recognition of the Supertypic Bw6-Determinant on HLA-B and-C Molecules  \nby the Monoclonal Antibody SFR8-B6",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LPPLDITPY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LPPLDITPY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LPPLDITPY",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Menssen, R."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Orth, P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Ziegler, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Saenger, W."
+                }
+            ],
+            "identifier": [],
+            "title": "Complex Recognition of the Supertypic Bw6-Determinant on HLA-B and-C Molecules  \nby the Monoclonal Antibody SFR8-B6",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1cg9"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1cg9"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:01 binding \"LPPLDITPY\" at 2.70&#8491; resolution",
+    "unique_chain_count": 3
+}

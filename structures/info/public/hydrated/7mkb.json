@@ -1,0 +1,137 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7mkb_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:47.678482"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YLQPRTFLL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-04-22",
+        "deposition_year": 2021,
+        "release_date": "2021-05-26",
+        "release_year": 2021,
+        "revision_date": "2021-05-26",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7MKB | HLA-A*02:01 binding \"YLQPRTFLL\"",
+    "pdb_code": "7mkb",
+    "pdb_title": "Human leukocyte antigen A*0201 in complex with SARS-CoV-2 epitope YLQPRTFLL",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "YLQPRTFLL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLQPRTFLL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YLQPRTFLL",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Nyovanie, S.T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Patskovsky, Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Krogsgaard, M."
+                }
+            ],
+            "identifier": [],
+            "title": "Human leukocyte antigen A*0201 in complex with SARS-CoV-2 epitope YLQPRTFLL",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7mkb"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7mkb"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"YLQPRTFLL\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

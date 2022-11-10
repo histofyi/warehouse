@@ -1,0 +1,196 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6nux_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:37:51.003832"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDMGSLVP"
+        },
+        "cd1a": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "LKEPLSFHVIWIASFYNHSWKQNLVSGWLSDLQTHTWDSNSSTIVFLWPWSRGNFSNEEWKELETLFRIRTIRSFEGIRRYAHELQFEYPFEIQVTGGCELHSGKVSGSFLQLAYQGSDFVSFQNNSWLPYPVAGNMAKHFCKVLNQNQHENDITHNLLSDTCPRFILGLLDAGKAHLQRQVKPEAWLSHGPSPGPGHLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQRGDILPSADGTWYLRATLEVAAGEAADLSCRVKHSSLEGQDIVLYWEGSLVPRGS"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-02-03",
+        "deposition_year": 2019,
+        "release_date": "2020-01-15",
+        "release_year": 2020,
+        "revision_date": "2020-01-15",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1a",
+    "components": [
+        "cd1a",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6NUX | Non-classical MHC Class I molecule CD1a",
+    "pdb_code": "6nux",
+    "pdb_title": "Cd1a-lipid binary complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "During industrialization, humans have been exposed to increasing numbers of foreign chemicals. Failure of the immune system to tolerate drugs, cosmetics, and other skin products causes allergic contact dermatitis, a T cell-mediated disease with rising prevalence. Models of \u03b1\u03b2 T cell response emphasize T cell receptor (TCR) contact with peptide-MHC complexes, but this model cannot readily explain activation by most contact dermatitis allergens, which are nonpeptidic molecules. We tested whether CD1a, an abundant MHC I-like protein in human skin, mediates contact allergen recognition. Using CD1a-autoreactive human \u03b1\u03b2 T cell clones to screen clinically important allergens present in skin patch testing kits, we identified responses to balsam of Peru, a tree oil widely used in cosmetics and toothpaste. Additional purification identified benzyl benzoate and benzyl cinnamate as antigenic compounds within balsam of Peru. Screening of structurally related compounds revealed additional stimulants of CD1a-restricted T cells, including farnesol and coenzyme Q2. Certain general chemical features controlled response: small size, extreme hydrophobicity, and chemical constraint from rings and unsaturations. Unlike lipid antigens that protrude to form epitopes and contact TCRs, the small size of farnesol allows sequestration deeply within CD1a, where it displaces self-lipids and unmasks the CD1a surface. These studies identify molecular connections between CD1a and hypersensitivity to consumer products, defining a mechanism that could plausibly explain the many known T cell responses to oily substances.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Nicolai",
+                    "name": "Nicolai S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Wegrecki",
+                    "name": "Wegrecki M"
+                },
+                {
+                    "initials": "TY",
+                    "lastname": "Cheng",
+                    "name": "Cheng TY"
+                },
+                {
+                    "initials": "EA",
+                    "lastname": "Bourgeois",
+                    "name": "Bourgeois EA"
+                },
+                {
+                    "initials": "RN",
+                    "lastname": "Cotton",
+                    "name": "Cotton RN"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Mayfield",
+                    "name": "Mayfield JA"
+                },
+                {
+                    "initials": "GC",
+                    "lastname": "Monnot",
+                    "name": "Monnot GC"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Van Rhijn",
+                    "name": "Van Rhijn I"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "DB",
+                    "lastname": "Moody",
+                    "name": "Moody DB"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "de Jong",
+                    "name": "de Jong A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/sciimmunol.aax5430",
+                    "type": "doi"
+                },
+                {
+                    "id": "31901073",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "43"
+            ],
+            "journal": {
+                "iso_abbreviation": "Sci Immunol",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Human T cell response to CD1a and contact dermatitis allergens in botanical extracts and commercial skin care products.",
+            "type": "article",
+            "url": "https://www.science.org/doi/10.1126/sciimmunol.aax5430",
+            "volume": [
+                "5"
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6nux"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6nux"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1a at 2.20&#8491; resolution",
+    "unique_chain_count": 2
+}

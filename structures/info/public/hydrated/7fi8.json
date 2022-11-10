@@ -1,0 +1,143 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01897",
+            "locus": "h2-l",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Ld",
+            "slug": "h2_ld",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7fi8_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:27:53.391642"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "mica": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "MEPHSLRYNLTVLIWDGSVQSGFLTEVHLDGQPFLRCDRQKCRAKPQGQWAEDVLGNKTWDRETRDLTGNGKDLRMTLAHIKDQKEGLHSLQEIRVCEIHEDNSTRSSIHFYYDGELFLSNNLETKEWTMPQSSRAQTLAMNVRNFWKEDAMKTKTHWHAMHADCLQELRRYLKSGVVLRRTVPPMVNVTRSEASEGNITVTCRASGFYPWNITLSWRQDGVSLSHDTQQWGDVLPDGNGTYQTWVATRICQGEEQRFTCYMEHSGNHSTHPVPS"
+        },
+        "nkg2d": {
+            "chains": [
+                "A",
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MENSLFNQEVQIPLTESYCGPCPKNWICYKNNCYQFFDESKNWYESQASCMSQNASLLKVYSKEDQDLLKLVKSYHWMGLVHIPTNGSWQWEDGSILSPNLLTIIEMQKGDCALYASSFKGYIENCSTPNTYICMQRTV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-07-30",
+        "deposition_year": 2021,
+        "release_date": "2022-08-31",
+        "release_year": 2022,
+        "revision_date": "2022-08-31",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mica_with_nkg2d",
+    "components": [
+        "nkg2d",
+        "mica"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-l",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7FI8 | Non-classical MHC Class I molecule MICA with NKG2D",
+    "pdb_code": "7fi8",
+    "pdb_title": "Crystal structure of human MICA mutants in complex with natural killer cell receptor NKG2D",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Cai, W."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Peng, S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Xu, T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Tian, Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Li, Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Liu, J."
+                }
+            ],
+            "identifier": [],
+            "title": "Crystal structure of human MICA mutants in complex with natural killer cell receptor NKG2D",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7fi8"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7fi8"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule MICA with NKG2D at 2.80&#8491; resolution",
+    "unique_chain_count": 2
+}

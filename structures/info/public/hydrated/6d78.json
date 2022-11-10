@@ -1,0 +1,246 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6d78_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:28:50.329163"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AAGIGILTV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKEVEQNSGPLSVPEGAIASLNCTYSYRGSQSFFWYRQYSGKSPELIMFIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVNFGGGKLIFGQGTELSVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MIAGITQAPTSQILAAGRRMTLRCTQDMRHNAMYWYRQDLGLGLRLIHYSNTAGTTGKGEVPDGYSVSRANTDDFPLTLASAVPSQTSVYFCASSWSFGTEAFFGQGTRLTVVEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-04-24",
+        "deposition_year": 2018,
+        "release_date": "2019-04-03",
+        "release_year": 2019,
+        "revision_date": "2020-01-01",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6D78 | HLA-A*02:01 presenting \"AAGIGILTV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "6d78",
+    "pdb_title": "The complex between high-affinity TCR dmf5(alpha-d26y,beta-l98w) and human Class I MHC hla-a2 with the bound mart-1(27-35)peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "AAGIGILTV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length",
+                "incorrect_start"
+            ],
+            "full_length": 9,
+            "full_sequence": "AAGIGILTV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "AAGIGILTV",
+    "publication": {
+        "abstract": "T cell receptors (TCRs) have emerged as a new class of immunological therapeutics. However, though antigen specificity is a hallmark of adaptive immunity, TCRs themselves do not possess the high specificity of monoclonal antibodies. Although a necessary function of T\u00a0cell biology, the resulting cross-reactivity presents a significant challenge for TCR-based therapeutic development, as it creates the potential for off-target recognition and immune toxicity. Efforts to enhance TCR specificity by mimicking the antibody maturation process and enhancing affinity can inadvertently exacerbate TCR cross-reactivity. Here we demonstrate this concern by showing that even peptide-targeted mutations in\u00a0the TCR can introduce new reactivities against peptides that bear similarity to the original target. To counteract this, we explored a novel structure-guided approach for enhancing TCR specificity independent of affinity. Tested with the MART-1-specific TCR DMF5, our approach had a small but discernible impact on\u00a0cross-reactivity toward MART-1 homologs yet was able to eliminate DMF5 cross-recognition of more divergent, unrelated epitopes. Our study provides a proof of principle for the use of advanced structure-guided design techniques for improving TCR specificity, and it suggests new ways forward for enhancing TCRs for therapeutic use.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LM",
+                    "lastname": "Hellman",
+                    "name": "Hellman LM"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Foley",
+                    "name": "Foley KC"
+                },
+                {
+                    "initials": "NK",
+                    "lastname": "Singh",
+                    "name": "Singh NK"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Alonso",
+                    "name": "Alonso JA"
+                },
+                {
+                    "initials": "TP",
+                    "lastname": "Riley",
+                    "name": "Riley TP"
+                },
+                {
+                    "initials": "JR",
+                    "lastname": "Devlin",
+                    "name": "Devlin JR"
+                },
+                {
+                    "initials": "CM",
+                    "lastname": "Ayres",
+                    "name": "Ayres CM"
+                },
+                {
+                    "initials": "GLJ",
+                    "lastname": "Keller",
+                    "name": "Keller GLJ"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Zhang",
+                    "name": "Zhang Y"
+                },
+                {
+                    "initials": "CW",
+                    "lastname": "Vander Kooi",
+                    "name": "Vander Kooi CW"
+                },
+                {
+                    "initials": "MI",
+                    "lastname": "Nishimura",
+                    "name": "Nishimura MI"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.ymthe.2018.12.010",
+                    "type": "doi"
+                },
+                {
+                    "id": "30617019",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "Mol. Ther.",
+                "name": ""
+            },
+            "pages": [
+                "300-313"
+            ],
+            "title": "Improving T Cell Receptor On-Target Specificity via Structure-Guided Design.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S152500161830594X",
+            "volume": [
+                "27"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.35",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6d78"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6d78"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6d78"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "6d78"
+    },
+    "title": "HLA-A*02:01 presenting \"AAGIGILTV\" to Alpha/Beta T cell receptor at 2.35&#8491; resolution",
+    "unique_chain_count": 5
+}

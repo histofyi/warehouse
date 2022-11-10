@@ -1,0 +1,177 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35232",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*51:01",
+            "slug": "hla_b_51_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1e27_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:45:53.264918"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRENLRIALRYYNQSEAGSHTWQTMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVEWLRRHLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LPPVVAKEI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2000-05-18",
+        "deposition_year": 2000,
+        "release_date": "2000-09-12",
+        "release_year": 2000,
+        "revision_date": "2019-10-09",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1E27 | HLA-B*51:01 binding \"LPPVVAKEI\"",
+    "pdb_code": "1e27",
+    "pdb_title": "Nonstandard peptide binding of hla-b*5101 complexed with hiv immunodominant epitope km1(LPPVVAKEI)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LPPVVAKEI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LPPVVAKEI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LPPVVAKEI",
+    "publication": {
+        "abstract": "The crystal structures of the human MHC class I allele HLA-B*5101 in complex with 8-mer, TAFTIPSI, and 9-mer, LPPVVAKEI, immunodominant peptide epitopes from HIV-1 have been determined by x-ray crystallography. In both complexes, the hydrogen-bonding network in the N-terminal anchor (P1) pocket is rearranged as a result of the replacement of the standard tyrosine with histidine at position 171. This results in a nonstandard positioning of the peptide N terminus, which is recognized by B*5101-restricted T cell clones. Unexpectedly, the P5 peptide residues appear to act as anchors, drawing the peptides unusually deeply into the peptide-binding groove of B51. The unique characteristics of P1 and P5 are likely to be responsible for the zig-zag conformation of the 9-mer peptide and the slow assembly of B*5101. A comparison of the surface characteristics in the alpha1-helix C-terminal region for B51 and other MHC class I alleles highlights mainly electrostatic differences that may be important in determining the specificity of human killer cell Ig-like receptor binding.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "K",
+                    "lastname": "Maenaka",
+                    "name": "Maenaka K"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Maenaka",
+                    "name": "Maenaka T"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Tomiyama",
+                    "name": "Tomiyama H"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Takiguchi",
+                    "name": "Takiguchi M"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Stuart",
+                    "name": "Stuart DI"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.165.6.3260",
+                    "type": "doi"
+                },
+                {
+                    "id": "10975842",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "3260-7"
+            ],
+            "title": "Nonstandard peptide binding revealed by crystal structures of HLA-B*5101 complexed with HIV immunodominant epitopes.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.165.6.3260",
+            "volume": [
+                "165"
+            ],
+            "year": [
+                2000
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1e27"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1e27"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*51:01 binding \"LPPVVAKEI\" at 2.20&#8491; resolution",
+    "unique_chain_count": 3
+}

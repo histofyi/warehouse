@@ -1,0 +1,192 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3bgm_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:00.982202"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RQASLSISV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2007-11-27",
+        "deposition_year": 2007,
+        "release_date": "2008-10-21",
+        "release_year": 2008,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3BGM | HLA-A*02:01 binding \"RQASLSISV\"",
+    "pdb_code": "3bgm",
+    "pdb_title": "Crystal structure of pkd2 phosphopeptide bound to human Class I MHC hla-a2",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RQAXLSISV",
+            "chain_id": "C",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "RQASLSISV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RQASLSISV",
+    "publication": {
+        "abstract": "Endometriosis (EMs) occurs in approximately 50% of women with infertility. The main causes of EMs-related infertility are follicle dysplasia and reduced oocyte quality. Iron overload occurs in ovarian follicular fluid (FF) of patients with EMs, and this condition is associated with oocyte maturation disorder. However, the underlying molecular mechanism remains largely unknown. In the present study, we identified the mechanism underlying ferroptosis in ovarian granulosa cells and oocyte maturation failure in EMs based on a retrospective review of in vitro fertilization/intracytoplasmic sperm injection-frozen embryo transfer outcomes in infertile patients with EMs. Mouse granulosa cells were treated with EMs-related infertile patients' follicular fluid (EMFF) in vitro. Western blot analysis, quantitative polymerase chain reaction, fluorescence staining, and transmission electron microscopy were used to assess granulosa cells ferroptosis. The effects of exosomes were examined by nanoparticle tracking analysis, RNA-seq, and Western blot analysis. Finally, the therapeutic values of vitamin E and iron chelator (deferoxamine mesylate) in vivo were evaluated in an EMs-related infertility model. Patients with ovarian EMs experienced poorer oocyte fertility than patients with non-ovarian EMs. We observed that EMFF with iron overload-induced granulosa cell ferroptosis in vitro and in vivo. Mechanically, nuclear receptor coactivator four-dependent ferritinophagy was involved in this process. Notably, granulosa cells undergoing ferroptosis further suppressed oocyte maturation by releasing exosomes from granulosa cells. In therapeutic studies, vitamin E and iron chelators effectively alleviated EMs-related infertility models. Our study indicates a novel mechanism through which EMFF with iron overload induces ferroptosis of granulosa cells and oocyte dysmaturity in EMs-related infertility, providing a potential therapeutic strategy for EMs-related infertility.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "F",
+                    "lastname": "Mohammed",
+                    "name": "Mohammed F"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Cobbold",
+                    "name": "Cobbold M"
+                },
+                {
+                    "initials": "AL",
+                    "lastname": "Zarling",
+                    "name": "Zarling AL"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Salim",
+                    "name": "Salim M"
+                },
+                {
+                    "initials": "GA",
+                    "lastname": "Barrett-Wilt",
+                    "name": "Barrett-Wilt GA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Shabanowitz",
+                    "name": "Shabanowitz J"
+                },
+                {
+                    "initials": "DF",
+                    "lastname": "Hunt",
+                    "name": "Hunt DF"
+                },
+                {
+                    "initials": "VH",
+                    "lastname": "Engelhard",
+                    "name": "Engelhard VH"
+                },
+                {
+                    "initials": "BE",
+                    "lastname": "Willcox",
+                    "name": "Willcox BE"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.1660",
+                    "type": "doi"
+                },
+                {
+                    "id": "18836451",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "1236-43"
+            ],
+            "title": "Phosphorylation-dependent interaction between antigenic peptides and MHC class I: a molecular basis for the presentation of transformed self.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.1660",
+            "volume": [
+                "9"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3bgm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3bgm"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"RQASLSISV\" at 1.60&#8491; resolution",
+    "unique_chain_count": 3
+}

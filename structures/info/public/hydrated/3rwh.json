@@ -1,0 +1,204 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:NHP10588",
+            "locus": "mamu-b",
+            "match_type": "histo:exact",
+            "name": "Mamu-B*017:01",
+            "slug": "mamu_b_017_01",
+            "species_stem": "Mamu"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3rwh_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:36:05.214045"
+        },
+        "2": {
+            "assembly_name": "3rwh_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:36:05.691926"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "IQRTPKIQVYSRHPPENGKPNFLNCYVSGFHPSDIEVDLLKNGEKMGKVEHSDLSFSKDWSFYLLYYTEFTPNEKDEYACRVNHVTLSGPRTVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.87,
+            "sequence": "GSHSMKYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAESPREEPRAPWVEQEGPEYWEEATRRAKEAAQTHRENLRTALRYYNQSEAGSHTIQKMYGCDLGPDGRLLRGYHQSAYDGKDYIALNGDLRSWTAADMAAQNTQRKWEGNRYAERFRAYLEGECLEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTEFVETRPGGDGTFQKWGAVVVPSGEEQRYTCHVQHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "MRHVLEPF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-05-09",
+        "deposition_year": 2011,
+        "release_date": "2012-03-21",
+        "release_year": 2012,
+        "revision_date": "2012-03-21",
+        "revision_year": 2012
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "mamu-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3RWH | Mamu-B*017:01 binding \"MRHVLEPF\"",
+    "pdb_code": "3rwh",
+    "pdb_title": "Rhesus macaque MHC Class I molecule mamu-b*17-mf8",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "MRHVLEPF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "MRHVLEPF"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "MRHVLEPF",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "MRHVLEPF"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "MRHVLEPF",
+    "publication": {
+        "abstract": "The MHC class I molecule Mamu-B*17 has been associated with elite control of SIV infection in rhesus macaques, akin to the protective effects described for HLA-B*57 in HIV-infected individuals. In this study, we determined the crystal structures of Mamu-B*17 in complex with eight different peptides corresponding to immunodominant SIV(mac)239-derived CD8(+) T cell epitopes: HW8 (HLEVQGYW), GW10 (GSHLEVQGYW), MW9 (MHPAQTSQW), QW9 (QTSQWDDPW), FW9 (FQWMGYELW), MF8 (MRHVLEPF), IW9 (IRYPKTFGW), and IW11 (IRYPKTFGWLW). The structures reveal that not only P2, but also P1 and P3, can be used as N-terminal anchor residues by Mamu-B*17-restricted peptides. Moreover, the N-terminal anchor residues exhibit a broad chemical specificity, encompassing basic (H and R), bulky polar aliphatic (Q), and small (T) residues. In contrast, Mamu-B*17 exhibits a very narrow preference for aromatic residues (W and F) at the C terminus, similar to that displayed by HLA-B*57. Flexibility within the whole peptide-binding groove contributes to the accommodation of these diverse peptides, which adopt distinct conformations. Furthermore, the unusually large pocket D enables compensation from other peptide residues if P3 is occupied by an amino acid with a small side chain. In addition, residues located at likely TCR contact regions present highly flexible conformations, which may impact TCR repertoire profiles. These findings provide novel insights into the structural basis of diverse peptide accommodation by Mamu-B*17 and highlight unique atomic features that might contribute to the protective effect of this MHC I molecule in SIV-infected rhesus macaques.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Wu",
+                    "name": "Wu Y"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Gao",
+                    "name": "Gao F"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Liu",
+                    "name": "Liu J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Gostick",
+                    "name": "Gostick E"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1101726",
+                    "type": "doi"
+                },
+                {
+                    "id": "22084443",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "6382-92"
+            ],
+            "title": "Structural basis of diverse peptide accommodation by the rhesus macaque MHC class I molecule Mamu-B*17: insights into immune protection from simian immunodeficiency virus.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1101726",
+            "volume": [
+                "187"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3rwh"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3rwh"
+        }
+    },
+    "species": {
+        "common_name": "rhesus monkey",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Macaca mulatta",
+        "slug": "macaca_mulatta"
+    },
+    "tcr": null,
+    "title": "Mamu-B*017:01 binding \"MRHVLEPF\" at 2.60&#8491; resolution",
+    "unique_chain_count": 3
+}

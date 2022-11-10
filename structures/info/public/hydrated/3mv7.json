@@ -1,0 +1,265 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3mv7_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:39:07.768452"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "HPVGEADYFEY"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QVTQSPEALRLQEGESSSLNCSYTVSGLRGLFWYRQDPGKGPEFLFTLYSAGEEKEKERLKATLTKKESFLHITAPKPEDSATYLCAVQDLGTSGSRLTFGEGTQLTVNPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS",
+            "subgroup": "TRAV20"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "DSGVTQTPKHLITATGQRVTLRCSPRSGDLSVYWYQQSLDQGLQFLIQYYNGEERAKGNILERFSAQQFPDLHSELNLSSLELGDSALYFCASSARSGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV9"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2010-05-03",
+        "deposition_year": 2010,
+        "release_date": "2010-06-09",
+        "release_year": 2010,
+        "revision_date": "2011-07-20",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3MV7 | HLA-B*35:01 presenting \"HPVGEADYFEY\" to Alpha/Beta T cell receptor",
+    "pdb_code": "3mv7",
+    "pdb_title": "Crystal structure of the tk3 TCR in complex with hla-b*3501/hpvg",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "HPVGEADYFEY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "HPVGEADYFEY"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "HPVGEADYFEY",
+    "publication": {
+        "abstract": "In comparison to human leukocyte antigen (HLA) polymorphism, the impact of allelic sequence variation within T cell receptor (TCR) loci is much less understood. Particular TCR loci have been associated with autoimmunity, but the molecular basis for this phenomenon is undefined. We examined the T cell response to an HLA-B*3501-restricted epitope (HPVGEADYFEY) from Epstein-Barr virus (EBV), which is frequently dominated by a TRBV9*01(+) public TCR (TK3). However, the common allelic variant TRBV9*02, which differs by a single amino acid near the CDR2beta loop (Gln55-->His55), was never used in this response. The structure of the TK3 TCR, its allelic variant, and a nonnaturally occurring mutant (Gln55-->Ala55) in complex with HLA-B*3501(HPVGEADYFEY) revealed that the Gln55-->His55 polymorphism affected the charge complementarity at the TCR-peptide-MHC interface, resulting in reduced functional recognition of the cognate and naturally occurring variants of this EBV peptide. Thus, polymorphism in the TCR loci may contribute toward variability in immune responses and the outcome of infection.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "YC",
+                    "lastname": "Liu",
+                    "name": "Liu YC"
+                },
+                {
+                    "initials": "MJ",
+                    "lastname": "Bell",
+                    "name": "Bell MJ"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan LC"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Brennan",
+                    "name": "Brennan RM"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Burrows",
+                    "name": "Burrows JM"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Neller",
+                    "name": "Neller MA"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Khanna",
+                    "name": "Khanna R"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20100603",
+                    "type": "doi"
+                },
+                {
+                    "id": "20566715",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "1555-67"
+            ],
+            "title": "Allelic polymorphism in the T cell receptor and its impact on immune responses.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/207/7/1555/53819/Allelic-polymorphism-in-the-T-cell-receptor-and",
+            "volume": [
+                "207"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3mv7"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3mv7"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3mv7"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV20"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV9"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "3mv7"
+    },
+    "title": "HLA-B*35:01 presenting \"HPVGEADYFEY\" to Alpha/Beta T cell receptor at 2.00&#8491; resolution",
+    "unique_chain_count": 5
+}

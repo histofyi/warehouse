@@ -1,0 +1,228 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4uq3_1",
+            "chains": [
+                "A",
+                "B",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:31:42.019567"
+        },
+        "2": {
+            "assembly_name": "4uq3_2",
+            "chains": [
+                "C",
+                "D",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:31:42.444760"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "E",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GLSXXL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-06-19",
+        "deposition_year": 2014,
+        "release_date": "2014-09-17",
+        "release_year": 2014,
+        "revision_date": "2019-01-16",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4UQ3 | HLA-A*02:01 binding \"GLSXXL\"",
+    "pdb_code": "4uq3",
+    "pdb_title": "Crystal structure of hla-a0201 in complex with an azobenzene- containing peptide",
+    "peptide": {
+        "E": {
+            "actual_length": 4,
+            "actual_sequence": "GLSL",
+            "chain_id": "E",
+            "features": [
+                "contains_unnatural",
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 6,
+            "full_sequence": "GLSXXL",
+            "gap_ends_at": 6,
+            "gap_length": 2,
+            "gap_sequence": "XX",
+            "gap_start_after": 3,
+            "gapped_sequence": "GLS--L"
+        },
+        "F": {
+            "actual_length": 4,
+            "actual_sequence": "GLSL",
+            "chain_id": "F",
+            "features": [
+                "contains_unnatural",
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 6,
+            "full_sequence": "GLSXXL",
+            "gap_ends_at": 6,
+            "gap_length": 2,
+            "gap_sequence": "XX",
+            "gap_start_after": 3,
+            "gapped_sequence": "GLS--L"
+        }
+    },
+    "peptide_length": 6,
+    "peptide_length_name": "hexamer",
+    "peptide_sequence": "GLSXXL",
+    "publication": {
+        "abstract": "Bioorthogonal cleavable linkers are attractive building blocks for compounds that can be manipulated to study biological and cellular processes. Sodium dithionite sensitive azobenzene-containing (Abc) peptides were applied for the temporary stabilization of recombinant MHC complexes, which can then be employed to generate libraries of MHC tetramers after exchange with a novel epitope. This technology represents an important tool for high-throughput studies of disease-specific T\u2005cell responses.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JA",
+                    "lastname": "Choo",
+                    "name": "Choo JA"
+                },
+                {
+                    "initials": "SY",
+                    "lastname": "Thong",
+                    "name": "Thong SY"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Yap",
+                    "name": "Yap J"
+                },
+                {
+                    "initials": "WJ",
+                    "lastname": "van Esch",
+                    "name": "van Esch WJ"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Raida",
+                    "name": "Raida M"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Meijers",
+                    "name": "Meijers R"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lescar",
+                    "name": "Lescar J"
+                },
+                {
+                    "initials": "SH",
+                    "lastname": "Verhelst",
+                    "name": "Verhelst SH"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "Grotenbreg",
+                    "name": "Grotenbreg GM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/anie.201406295",
+                    "type": "doi"
+                },
+                {
+                    "id": "25348595",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "49"
+            ],
+            "journal": {
+                "iso_abbreviation": "Angew. Chem. Int. Ed. Engl.",
+                "name": ""
+            },
+            "pages": [
+                "13390-4"
+            ],
+            "title": "Bioorthogonal cleavage and exchange of major histocompatibility complex ligands by employing azobenzene-containing peptides.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/anie.201406295",
+            "volume": [
+                "53"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4uq3"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4uq3"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"GLSXXL\" at 2.10&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,212 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08576",
+            "locus": "gaga-bf2",
+            "match_type": "histo:exact",
+            "name": "Gaga-BF2*015:01",
+            "slug": "gaga_bf2_015_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6wol_1",
+            "chains": [
+                "H",
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:27.221380"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "fcrn": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "AESHLSLLYHLTAVSSPAPGTPAFWVSGWLGPQQYLSYNSLRGEAEPCGAWVWENQVSWYWEKETTDLRIKEKLFLEAFKALGGKGPYTLQGLLGCELGPDNTSVPTAKFALNGEEFMNFDLKQGTWGGDWPEALAISQRWQQQDKAANKELTFLLFSCPHRLREHLERGRGNLEWKEPPSMRLKARPSSPGFSVLTCSAFSFYPPELQLRFLRNGLAAGTGQGDFGPNSDGSFHASSSLTVKSGDEHHYCCIVQHAGLAQPLRVEL"
+        },
+        "ig_heavy_chain_gamma": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "histo:override",
+            "sequence": "GPSVFLFPPKPKDTLMISRTPEVTCVVVDVSQEDPEVQFNWYVDGVEVHNAKTKPREEQFNSTYRVVSVLTVLHQDWLNGKEYKCKVSNKGLPSSIEKTISKAKGQPREPQVYTFPPEQEEMTKNQVSLRCLVKGFYPSDIAVEWESNGQPENNYKTTKPVLDSDGSFRLESRLTVDKSRWQEGNVFSCSVMHEACSYHLCKSLSLSLG"
+        },
+        "note": "rule needed for ig_heavy chain?"
+    },
+    "chronology": {
+        "deposition_date": "2020-04-24",
+        "deposition_year": 2020,
+        "release_date": "2021-09-15",
+        "release_year": 2021,
+        "revision_date": "2021-09-22",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "fcrn_with_beta2m_and_ig_heavy_chain_gamma",
+    "components": [
+        "fcrn",
+        "beta2m",
+        "ig_heavy_chain_gamma"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6WOL | Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with Ig heavy chain gamma",
+    "pdb_code": "6wol",
+    "pdb_title": "Next generation monomeric igg4 fc bound to neonatal fc receptor",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "In a biologic therapeutic landscape that requires versatility in targeting specificity, valency and half-life modulation, the monomeric Fc fusion platform holds exciting potential for the creation of a class of monovalent protein therapeutics that includes fusion proteins and bispecific targeting molecules. Here we report a structure-guided approach to engineer monomeric Fc molecules to adapt multiple versions of half-life extension modifications. Co-crystal structures of these monomeric Fc variants with Fc neonatal receptor (FcRn) shed light into the binding interactions that could serve as a guide for engineering the half-life of antibody Fc fragments. These engineered monomeric Fc molecules also enabled the generation of a novel monovalent bispecific molecular design, which translated the FcRn binding enhancement to improvement of in vivo serum half-life.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Shan",
+                    "name": "Shan L"
+                },
+                {
+                    "initials": "NV",
+                    "lastname": "Dyk",
+                    "name": "Dyk NV"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Haskins",
+                    "name": "Haskins N"
+                },
+                {
+                    "initials": "KM",
+                    "lastname": "Cook",
+                    "name": "Cook KM"
+                },
+                {
+                    "initials": "KL",
+                    "lastname": "Rosenthal",
+                    "name": "Rosenthal KL"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Mazor",
+                    "name": "Mazor R"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Dragulin-Otto",
+                    "name": "Dragulin-Otto S"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Jiang",
+                    "name": "Jiang Y"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Wu",
+                    "name": "Wu H"
+                },
+                {
+                    "initials": "WF",
+                    "lastname": "Dall'Acqua",
+                    "name": "Dall'Acqua WF"
+                },
+                {
+                    "initials": "MJ",
+                    "lastname": "Borrok",
+                    "name": "Borrok MJ"
+                },
+                {
+                    "initials": "MM",
+                    "lastname": "Damschroder",
+                    "name": "Damschroder MM"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Oganesyan",
+                    "name": "Oganesyan V"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s42003-021-02565-5",
+                    "type": "doi"
+                },
+                {
+                    "id": "34497355",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Commun Biol",
+                "name": ""
+            },
+            "pages": [
+                "1048"
+            ],
+            "title": "In vivo pharmacokinetic enhancement of monomeric Fc and monovalent bispecific designs through structural guidance.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s42003-021-02565-5",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.49",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6wol"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6wol"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with Ig heavy chain gamma at 2.49&#8491; resolution",
+    "unique_chain_count": 3
+}

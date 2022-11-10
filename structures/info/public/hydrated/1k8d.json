@@ -1,0 +1,175 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P14429",
+            "locus": "h2-q",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "Qa-2",
+            "note": "Match to new nomenclature",
+            "score": null,
+            "slug": "qa_2",
+            "species_stem": "h2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1k8d_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:33:41.693731"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.84,
+            "sequence": "GQHSLQYFHTAVSRPGLGEPWFISVGYVDDTQFVRFDSDAENPRMEPRARWMEQEGPEYWERETQIAKGHEQSFRGSLRTAQSYYNQSKGGSHTLQWMYGCDMGSDGRLLRGYLQFAYEGRDYIALNEDLKTWTAVDMAAQITRRKWEQAGIAEKDQAYLEGTCMQSLRRYLELGKETLLRTDPPKAHVTHHPRSYGAVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCHVNHEGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILMEHIHKL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2001-10-23",
+        "deposition_year": 2001,
+        "release_date": "2001-12-19",
+        "release_year": 2001,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-q",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1K8D | Qa-2 binding \"ILMEHIHKL\"",
+    "pdb_code": "1k8d",
+    "pdb_title": "Crystal structure of the non-classical MHC Class Ib qa-2 complexed with a self peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "ILMEHIHKL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILMEHIHKL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILMEHIHKL",
+    "publication": {
+        "abstract": "<h4>Background</h4>Qa-2 is a nonclassical MHC Ib antigen, which has been implicated in both innate and adaptive immune responses, as well as embryonic development. Qa-2 has an unusual peptide binding specificity in that it requires two dominant C-terminal anchor residues and is capable of associating with a substantially more diverse array of peptide sequences than other nonclassical MHC.<h4>Results</h4>We have determined the crystal structure, to 2.3 A, of the Q9 gene of murine Qa-2 complexed with a self-peptide derived from the L19 ribosomal protein, which is abundant in the pool of peptides eluted from the Q9 groove. The 9 amino acid peptide is bound high in a shallow, hydrophobic binding groove of Q9, which is missing a C pocket. The peptide makes few specific contacts and exhibits extremely poor shape complementarity to the MHC groove, which facilitates the presentation of a degenerate array of sequences. The L19 peptide is in a centrally bulged conformation that is stabilized by intramolecular interactions from the invariant P7 histidine anchor residue and by a hydrophobic core of preferred secondary anchor residues that have minimal interaction with the MHC.<h4>Conclusions</h4>Unexpectedly, the preferred secondary peptide residues that exhibit tenuous contact with Q9 contribute significantly to the overall stability of the peptide-MHC complex. The structure of this complex implies a \"conformational\" selection by Q9 for peptide residues that optimally stabilize the large bulge rather than making intimate contact with the MHC pockets.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "X",
+                    "lastname": "He",
+                    "name": "He X"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Tabaczewski",
+                    "name": "Tabaczewski P"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Ho",
+                    "name": "Ho J"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Stroynowski",
+                    "name": "Stroynowski I"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Garcia",
+                    "name": "Garcia KC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s0969-2126(01)00689-x",
+                    "type": "doi"
+                },
+                {
+                    "id": "11738047",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "Structure",
+                "name": ""
+            },
+            "pages": [
+                "1213-24"
+            ],
+            "title": "Promiscuous antigen presentation by the nonclassical MHC Ib Qa-2 is enabled by a shallow, hydrophobic groove and self-stabilized peptide conformation.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S096921260100689X",
+            "volume": [
+                "9"
+            ],
+            "year": [
+                2001
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1k8d"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1k8d"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Qa-2 binding \"ILMEHIHKL\" at 2.30&#8491; resolution",
+    "unique_chain_count": 3
+}

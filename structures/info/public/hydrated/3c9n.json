@@ -1,0 +1,172 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35228",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*15:01",
+            "slug": "hla_b_15_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3c9n_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:29.306285"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDRETQISKTNTQTYRESLRNLRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQWRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VQQESSFVM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-02-18",
+        "deposition_year": 2008,
+        "release_date": "2008-02-26",
+        "release_year": 2008,
+        "revision_date": "2018-03-07",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3C9N | HLA-B*15:01 binding \"VQQESSFVM\"",
+    "pdb_code": "3c9n",
+    "pdb_title": "Structure of a SARS coronavirus-derived peptide bound to the human major histocompatibility complex class I molecule HLA-B*1501.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "VQQESSFVM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VQQESSFVM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VQQESSFVM",
+    "publication": {
+        "abstract": "The human leukocyte antigen (HLA) class I system comprises a highly polymorphic set of molecules that specifically bind and present peptides to cytotoxic T cells. HLA-B*1501 is a prototypical member of the HLA-B62 supertype and only two peptide-HLA-B*1501 structures have been determined. Here, the crystal structure of HLA-B*1501 in complex with a SARS coronavirus-derived nonapeptide (VQQESSFVM) has been determined at high resolution (1.87 A). The peptide is deeply anchored in the B and F pockets, but with the Glu4 residue pointing away from the floor in the peptide-binding groove, making it available for interactions with a potential T-cell receptor.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "G",
+                    "lastname": "R\ufffd\ufffdder",
+                    "name": "R\ufffd\ufffdder G"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Kristensen",
+                    "name": "Kristensen O"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Kastrup",
+                    "name": "Kastrup JS"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Buus",
+                    "name": "Buus S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Gajhede",
+                    "name": "Gajhede M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1107/s1744309108012396",
+                    "type": "doi"
+                },
+                {
+                    "id": "18540051",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "Pt 6"
+            ],
+            "journal": {
+                "iso_abbreviation": "Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun.",
+                "name": ""
+            },
+            "pages": [
+                "459-62"
+            ],
+            "title": "Structure of a SARS coronavirus-derived peptide bound to the human major histocompatibility complex class I molecule HLA-B*1501.",
+            "type": "article",
+            "url": "http://scripts.iucr.org/cgi-bin/paper?S1744309108012396",
+            "volume": [
+                "64"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.87",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3c9n"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3c9n"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*15:01 binding \"VQQESSFVM\" at 1.87&#8491; resolution",
+    "unique_chain_count": 3
+}

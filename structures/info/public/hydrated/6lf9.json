@@ -1,0 +1,229 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:SLA06131",
+            "locus": "sla-1",
+            "match_type": "histo:exact",
+            "name": "SLA-1*13:01",
+            "slug": "sla_1_13_01",
+            "species_stem": "SLA"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6lf9_1",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:40:44.452538"
+        },
+        "2": {
+            "assembly_name": "6lf9_2",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:40:44.933872"
+        },
+        "3": {
+            "assembly_name": "6lf9_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:40:45.245600"
+        },
+        "4": {
+            "assembly_name": "6lf9_4",
+            "chains": [
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:40:45.535213"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "E",
+                "B",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "ARPPKVQVYSRHPAENGKPNYLNCYVSGFHPPQIEIDLLKNGEKMNAEQSDLSFSKDWSFYLLVHTEFTPNAVDQYSCRVKHVTLDKPKIVKWDRDH"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "D",
+                "A",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "GPHSLSYFYTAVSRPDRGDSRFIAVGYVDDTQFVRFDNYAPNPRMEPRVPWIQQEGQDYWDEETRKVKDNAQTYGVGLNTLRGYYNQSEAGSHTLQSMFGCYLGPDGLLLHGYRQDAYDGADYIALNEDLRSWTAADMAAQITKRKWEAANVAERRRSYLQGLCVESLRRYLEMGKDTLQRAEPPKTHVTRHPSSDLGVTLRCWALGFYPKEISLTWQREGQDQSQDMELVETRPSGDGTFQKWAALVVPPGEEQSYTCHVQHEGLQEPLTLR"
+        },
+        "peptide": {
+            "chains": [
+                "F",
+                "C",
+                "I",
+                "L"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RVEDVTNTAEYW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-11-30",
+        "deposition_year": 2019,
+        "release_date": "2021-03-17",
+        "release_year": 2021,
+        "revision_date": "2022-03-23",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "sla-1",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6LF9 | SLA-1*13:01 binding \"RVEDVTNTAEYW\"",
+    "pdb_code": "6lf9",
+    "pdb_title": "Crystal structure of psla-1*1301 complex with dodecapeptide RVEDVTNTAEYW",
+    "peptide": {
+        "C": {
+            "actual_length": 12,
+            "actual_sequence": "RVEDVTNTAEYW",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 12,
+            "full_sequence": "RVEDVTNTAEYW"
+        },
+        "F": {
+            "actual_length": 12,
+            "actual_sequence": "RVEDVTNTAEYW",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 12,
+            "full_sequence": "RVEDVTNTAEYW"
+        },
+        "I": {
+            "actual_length": 12,
+            "actual_sequence": "RVEDVTNTAEYW",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 12,
+            "full_sequence": "RVEDVTNTAEYW"
+        },
+        "L": {
+            "actual_length": 12,
+            "actual_sequence": "RVEDVTNTAEYW",
+            "chain_id": "L",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 12,
+            "full_sequence": "RVEDVTNTAEYW"
+        }
+    },
+    "peptide_length": 12,
+    "peptide_length_name": "dodecamer",
+    "peptide_sequence": "RVEDVTNTAEYW",
+    "publication": {
+        "abstract": "Polymorphisms can affect MHC-I binding peptide length preferences, but the mechanism remains unclear. Using a random peptide library combined with LC-MS/MS and <i>de novo</i> sequencing (RPLD-MS) technique, we found that two swine MHC-I molecules with high sequence homology, SLA-1*04:01 and SLA-1*13:01, had significant differences in length preference of the binding peptides. Compared with SLA-1*04:01, SLA-1*13:01 binds fewer short peptides with 8-10 amino acids, but more long peptides. A dodecapeptide peptide (RW12) can bind to both SLA-1*04:01 and SLA-1*13:01, but their crystal structures indicate that the binding modes are significantly different: the entirety of RW12 is embedded in the peptide binding groove of SLA-1*04:01, but it obviously protrudes from the peptide binding groove of SLA-1*13:01. The structural comparative analysis showed that only five differential amino acids of SLA-1*13:01 and SLA-1*04:01 were involved in the binding of RW12, and they determine the different ways of long peptides binding, which makes SLA-1*04:01 more restrictive on long peptides than SLA-1*13:01, and thus binds fewer long peptides. In addition, we found that the N terminus of RW12 extends from the groove of SLA-1*13:01, which is similar to the case previously found in SLA-1*04:01. However, this unusual peptide binding does not affect their preferences of binding peptide length. Our study will be helpful to understand the effect of polymorphisms on the length distribution of MHC-I binding peptides, and to screen SLA-I-restricted epitopes of different lengths and to design effective epitope vaccines.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Wei, X.H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Wang, S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Zhang, N.Z."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Xia, C."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3389/fimmu.2022.820881",
+                    "type": "doi"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "-"
+            ],
+            "title": "Peptidomes and Structures Illustrate How SLA-I Micropolymorphism Influences the Preference of Binding Peptide Length.",
+            "type": "article",
+            "url": "https://www.frontiersin.org/articles/10.3389/fimmu.2022.820881/full",
+            "volume": [
+                null
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6lf9"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6lf9"
+        }
+    },
+    "species": {
+        "common_name": "Feral Pig",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Sus scrofa",
+        "slug": "sus_scrofa"
+    },
+    "tcr": null,
+    "title": "SLA-1*13:01 binding \"RVEDVTNTAEYW\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,137 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA18608",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*15:02",
+            "slug": "hla_b_15_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6uzm_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:40:35.973781"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDRNTQISKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDVGPDGRLLRGYDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "HLASSGHSL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-11-15",
+        "deposition_year": 2019,
+        "release_date": "2020-11-18",
+        "release_year": 2020,
+        "revision_date": "2022-03-16",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6UZM | HLA-B*15:02 binding \"HLASSGHSL\"",
+    "pdb_code": "6uzm",
+    "pdb_title": "HLA-B*15:02 complexed with a synthetic peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "HLASSGHSL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "HLASSGHSL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "HLASSGHSL",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Schutte, R.J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Li, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Ostrov, D.A."
+                }
+            ],
+            "identifier": [],
+            "title": "HLA-B*15:02 complexed with a synthetic peptide",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6uzm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6uzm"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*15:02 binding \"HLASSGHSL\" at 1.80&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,264 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:SLA06136",
+            "locus": "sla-1",
+            "match_type": "histo:exact",
+            "name": "SLA-1*14:02",
+            "slug": "sla_1_14_02",
+            "species_stem": "SLA"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5nq1_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:37:53.099397"
+        },
+        "2": {
+            "assembly_name": "5nq1_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:37:53.551834"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MGPHSLSYFSTAVSRPDRGDSRFIAVGYVDDTQFVRFDSDAPNPRMEPRAPWIQQEGQEYWDRNTRNVMGSAQINRVNLKTLRGYYNQSEAGSHTLQWMYGCYLGPDGLLLRGYDQFAYDGADYLALNEDLRSWTAADMAAQISKRKWEAADAAEHWRSYLQGTCVESLRRYLQMGKDTLQRAEPPKTHVTRHPSSDLGVTLRCWALGFHPKEISLTWQREGQDQSQDMELVETRPSGDGTFQKWAALVVPPGEEQSYTCHVQHEGLQEPLTLRWD"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "DFEREGYSL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-04-19",
+        "deposition_year": 2017,
+        "release_date": "2018-04-25",
+        "release_year": 2018,
+        "revision_date": "2019-05-08",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "sla-1",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5NQ1 | SLA-1*14:02 binding \"DFEREGYSL\"",
+    "pdb_code": "5nq1",
+    "pdb_title": "Porcine (sus scrofa) major histocompatibility complex, Class I, with human beta2 micro globulin, presenting DFEREGYSL",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "DFEREGYSL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "DFEREGYSL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "DFEREGYSL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "DFEREGYSL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "DFEREGYSL",
+    "publication": {
+        "abstract": "There is increasing evidence that induction of local immune responses is a key component of effective vaccines. For respiratory pathogens, for example tuberculosis and influenza, aerosol delivery is being actively explored as a method to administer vaccine antigens. Current animal models used to study respiratory pathogens suffer from anatomical disparity with humans. The pig is a natural and important host of influenza viruses and is physiologically more comparable to humans than other animal models in terms of size, respiratory tract biology and volume. It may also be an important vector in the birds to human infection cycle. A major drawback of the current pig model is the inability to analyze antigen-specific CD8+ T-cell responses, which are critical to respiratory immunity. Here we address this knowledge gap using an established in-bred pig model with a high degree of genetic identity between individuals, including the MHC (Swine Leukocyte Antigen (SLA)) locus. We developed a toolset that included long-term in vitro pig T-cell culture and cloning and identification of novel immunodominant influenza-derived T-cell epitopes. We also generated structures of the two SLA class I molecules found in these animals presenting the immunodominant epitopes. These structures allowed definition of the primary anchor points for epitopes in the SLA binding groove and established SLA binding motifs that were used to successfully predict other influenza-derived peptide sequences capable of stimulating T-cells. Peptide-SLA tetramers were constructed and used to track influenza-specific T-cells ex vivo in blood, the lungs and draining lymph nodes. Aerosol immunization with attenuated single cycle influenza viruses (S-FLU) induced large numbers of CD8+ T-cells specific for conserved NP peptides in the respiratory tract. Collectively, these data substantially increase the utility of pigs as an effective model for studying protective local cellular immunity against respiratory pathogens.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "K",
+                    "lastname": "Tungatt",
+                    "name": "Tungatt K"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Dolton",
+                    "name": "Dolton G"
+                },
+                {
+                    "initials": "SB",
+                    "lastname": "Morgan",
+                    "name": "Morgan SB"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Attaf",
+                    "name": "Attaf M"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Fuller",
+                    "name": "Fuller A"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Whalley",
+                    "name": "Whalley T"
+                },
+                {
+                    "initials": "JD",
+                    "lastname": "Hemmink",
+                    "name": "Hemmink JD"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Porter",
+                    "name": "Porter E"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Szomolay",
+                    "name": "Szomolay B"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Montoya",
+                    "name": "Montoya M"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Hammond",
+                    "name": "Hammond JA"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Townsend",
+                    "name": "Townsend A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bailey",
+                    "name": "Bailey M"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Charleston",
+                    "name": "Charleston B"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Tchilian",
+                    "name": "Tchilian E"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.ppat.1007017",
+                    "type": "doi"
+                },
+                {
+                    "id": "29772011",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Pathog.",
+                "name": ""
+            },
+            "pages": [
+                "e1007017"
+            ],
+            "title": "Induction of influenza-specific local CD8 T-cells in the respiratory tract after aerosol delivery of vaccine antigen or virus in the Babraham inbred pig.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.ppat.1007017",
+            "volume": [
+                "14"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.14",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5nq1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5nq1"
+        }
+    },
+    "species": {
+        "common_name": "Feral Pig",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Sus scrofa",
+        "slug": "sus_scrofa"
+    },
+    "tcr": null,
+    "title": "SLA-1*14:02 binding \"DFEREGYSL\" at 2.14&#8491; resolution",
+    "unique_chain_count": 3
+}

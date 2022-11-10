@@ -1,0 +1,202 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4u6y_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:41:13.487996"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "FLNKDLEVDGHFVTM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-07-30",
+        "deposition_year": 2014,
+        "release_date": "2014-12-24",
+        "release_year": 2014,
+        "revision_date": "2017-11-22",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4U6Y | HLA-A*02:01 binding \"FLNKDLEVDGHFVTM\"",
+    "pdb_code": "4u6y",
+    "pdb_title": "Crystal structure of hla-a*0201 in complex with flndk, a 15 mer self-peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 15,
+            "actual_sequence": "FLNKDLEVDGHFVTM",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 15,
+            "full_sequence": "FLNKDLEVDGHFVTM"
+        }
+    },
+    "peptide_length": 15,
+    "peptide_length_name": "pentadecamer",
+    "peptide_sequence": "FLNKDLEVDGHFVTM",
+    "publication": {
+        "abstract": "Human leukocyte antigen (HLA) class I molecules generally present peptides (p) of 8 to 11 amino acids (aa) in length. Although an increasing number of examples with lengthy (>11 aa) peptides, presented mostly by HLA-B alleles, have been reported. Here we characterize HLA-A*02:01 restricted, in addition to the HLA-B*0702 and HLA-B*4402 restricted, lengthy peptides (>11 aa) arising from the B-cell ligandome. We analyzed a number of 15-mer peptides presented by HLA-A*02:01, and confirmed pHLA-I formation by HLA folding and thermal stability assays. Surprisingly the binding affinity and stability of the 15-mer epitopes in complex with HLA-A*02:01 were comparable with the values observed for canonical length (8 to 11 aa) HLA-A*02:01-restricted peptides. We solved the structures of two 15-mer epitopes in complex with HLA-A*02:01, within which the peptides adopted distinct super-bulged conformations. Moreover, we demonstrate that T-cells can recognize the 15-mer peptides in the context of HLA-A*02:01, indicating that these 15-mer peptides represent immunogenic ligands. Collectively, our data expand our understanding of longer epitopes in the context of HLA-I, highlighting that they are not limited to the HLA-B family, but can bind the ubiquitous HLA-A*02:01 molecule, and play an important role in T-cell immunity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Hassan",
+                    "name": "Hassan C"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Chabrol",
+                    "name": "Chabrol E"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Jahn",
+                    "name": "Jahn L"
+                },
+                {
+                    "initials": "MG",
+                    "lastname": "Kester",
+                    "name": "Kester MG"
+                },
+                {
+                    "initials": "AH",
+                    "lastname": "de Ru",
+                    "name": "de Ru AH"
+                },
+                {
+                    "initials": "JW",
+                    "lastname": "Drijfhout",
+                    "name": "Drijfhout JW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "JH",
+                    "lastname": "Falkenburg",
+                    "name": "Falkenburg JH"
+                },
+                {
+                    "initials": "MH",
+                    "lastname": "Heemskerk",
+                    "name": "Heemskerk MH"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "van Veelen",
+                    "name": "van Veelen PA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M114.607028",
+                    "type": "doi"
+                },
+                {
+                    "id": "25505266",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Naturally Processed Non-Canonical HLA-A*02:01 Presented Peptides.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820492373",
+            "volume": [
+                null
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.47",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4u6y"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4u6y"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"FLNKDLEVDGHFVTM\" at 1.47&#8491; resolution",
+    "unique_chain_count": 3
+}

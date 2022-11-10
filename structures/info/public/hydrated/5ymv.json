@@ -1,0 +1,249 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08574",
+            "locus": "gaga-bf2",
+            "match_type": "histo:exact",
+            "name": "Gaga-BF2*012:01",
+            "slug": "gaga_bf2_012_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5ymv_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:36:59.016567"
+        },
+        "2": {
+            "assembly_name": "5ymv_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:36:59.512767"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "DLTPKVQVYSRFPASAGTKNVLNCFAAGFHPPKISITLMKDGVPMEGAQYSDMSFNDDWTFQRLVHADFTPSSGSTYACKVEHETLKEPQVYKWDPEF"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.89,
+            "sequence": "MELHTLRYIQTAMTDPGPGQPWFVTVGYVDGELFVHYNSTARRYVPRTEWIAAKADQQYWDGQTQIGQGNEQIDRENLGILQRRYNQTGGSHTVQWMYGCDILEGGPIRGYYQMAYDGRDFTAFDKGTMTFTAAVPEAVPTKRKWEEESEPERWKNYLEETCVEWLRRYVEYGKAELGRRERPEVRVWGKEADGILTLSCRAHGFYPRPIVVSWLKDGAVRGQDAHSGGIVPNGDGTYHTWVTIDAQPGDGDKYQCRVEHASLPQPGLYSW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AVKGVGTMV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-10-22",
+        "deposition_year": 2017,
+        "release_date": "2018-10-24",
+        "release_year": 2018,
+        "revision_date": "2019-07-31",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5YMV | Gaga-BF2*012:01 binding \"AVKGVGTMV\"",
+    "pdb_code": "5ymv",
+    "pdb_title": "Crystal structure of 9-mer peptide from influenza virus in complex with bf2*1201",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "AVKGVGTMV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "AVKGVGTMV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "AVKGVGTMV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "AVKGVGTMV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "AVKGVGTMV",
+    "publication": {
+        "abstract": "MHC molecules are found in all jawed vertebrates and are known to present peptides to T lymphocytes. In mammals, peptides can hang out either end of the peptide-binding groove of classical class II molecules, whereas the N and C termini of peptides are typically tightly bound to specific pockets in classical class I molecules. The chicken MHC, like many nonmammalian vertebrates, has a single dominantly expressed classical class I molecule encoded by the BF2 locus. We determined the structures of BF2*1201 bound to two peptides and found that the C terminus of one peptide hangs outside of the groove with a conformation much like the peptides bound to class II molecules. We found that BF2*1201 binds many peptides that hang out of the groove at the C terminus, and the sequences and structures of this MHC class I allele were determined to investigate the basis for this phenomenon. The classical class I molecules of mammals have a nearly invariant Tyr (Tyr<sup>84</sup> in humans) that coordinates the peptide C terminus, but all classical class I molecules outside of mammals have an Arg in that position in common with mammalian class II molecules. We find that this invariant Arg residue switches conformation to allow peptides to hang out of the groove of BF2*1201, suggesting that this phenomenon is common in chickens and other nonmammalian vertebrates, perhaps allowing the single dominantly expressed class I molecule to bind a larger repertoire of peptides.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Xiao",
+                    "name": "Xiao J"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Xiang",
+                    "name": "Xiang W"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Zhang",
+                    "name": "Zhang Y"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Peng",
+                    "name": "Peng W"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Zhao",
+                    "name": "Zhao M"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Niu",
+                    "name": "Niu L"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chai",
+                    "name": "Chai Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Wang",
+                    "name": "Wang F"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Qi",
+                    "name": "Qi P"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Pan",
+                    "name": "Pan C"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Han",
+                    "name": "Han L"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Wang",
+                    "name": "Wang M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Kaufman",
+                    "name": "Kaufman J"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "WJ",
+                    "lastname": "Liu",
+                    "name": "Liu WJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1800611",
+                    "type": "doi"
+                },
+                {
+                    "id": "30341185",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "3084-3095"
+            ],
+            "title": "An Invariant Arginine in Common with MHC Class II Allows Extension at the C-Terminal End of Peptides Bound to Chicken MHC Class I.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1800611",
+            "volume": [
+                "201"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5ymv"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5ymv"
+        }
+    },
+    "species": {
+        "common_name": "Chicken",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Gallus gallus",
+        "slug": "gallus_gallus"
+    },
+    "tcr": null,
+    "title": "Gaga-BF2*012:01 binding \"AVKGVGTMV\" at 2.20&#8491; resolution",
+    "unique_chain_count": 3
+}

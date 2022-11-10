@@ -1,0 +1,217 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5ddh_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:27:08.727476"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "FVLELEPEWTVK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-08-24",
+        "deposition_year": 2015,
+        "release_date": "2016-07-27",
+        "release_year": 2016,
+        "revision_date": "2016-07-27",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5DDH | HLA-A*02:01 binding \"FVLELEPEWTVK\"",
+    "pdb_code": "5ddh",
+    "pdb_title": "Structure of hla-a2:01 with the 12-mer peptide f12k",
+    "peptide": {
+        "C": {
+            "actual_length": 12,
+            "actual_sequence": "FVLELEPEWTVK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 12,
+            "full_sequence": "FVLELEPEWTVK"
+        }
+    },
+    "peptide_length": 12,
+    "peptide_length_name": "dodecamer",
+    "peptide_sequence": "FVLELEPEWTVK",
+    "publication": {
+        "abstract": "Emerging evidence supports that osteogenic differentiation of skeletal progenitors is a key determinant of overall bone formation and bone mass. Despite extensive studies showing the function of mitogen-activated protein kinases (MAPKs) in osteoblast differentiation, none of these studies show in vivo evidence of a role for MAPKs in osteoblast maturation subsequent to lineage commitment. Here, we describe how the extracellular signal-regulated kinase (ERK) pathway in osteoblasts controls bone formation by suppressing the mechanistic target of rapamycin (mTOR) pathway. We also show that, while ERK inhibition blocks the differentiation of osteogenic precursors when initiated at an early stage, ERK inhibition surprisingly promotes the later stages of osteoblast differentiation. Accordingly, inhibition of the ERK pathway using a small compound inhibitor or conditional deletion of the MAP2Ks <i>Map2k1</i> (MEK1) and <i>Map2k2</i> (MEK2), in mature osteoblasts and osteocytes, markedly increased bone formation due to augmented osteoblast differentiation. Mice with inducible deletion of the ERK pathway in mature osteoblasts also displayed similar phenotypes, demonstrating that this phenotype reflects continuous postnatal inhibition of late-stage osteoblast maturation. Mechanistically, ERK inhibition increases mitochondrial function and SGK1 phosphorylation via mTOR2 activation, which leads to osteoblast differentiation and production of angiogenic and osteogenic factors to promote bone formation. This phenotype was partially reversed by inhibiting mTOR. Our study uncovers a surprising dichotomy of ERK pathway functions in osteoblasts, whereby ERK activation promotes the early differentiation of osteoblast precursors, but inhibits the subsequent differentiation of committed osteoblasts via mTOR-mediated regulation of mitochondrial function and SGK1.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "McMurtrey",
+                    "name": "McMurtrey C"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Trolle",
+                    "name": "Trolle T"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Sansom",
+                    "name": "Sansom T"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Remesh",
+                    "name": "Remesh SG"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Kaever",
+                    "name": "Kaever T"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Bardet",
+                    "name": "Bardet W"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Jackson",
+                    "name": "Jackson K"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "McLeod",
+                    "name": "McLeod R"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Sette",
+                    "name": "Sette A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Nielsen",
+                    "name": "Nielsen M"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "IJ",
+                    "lastname": "Blader",
+                    "name": "Blader IJ"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Peters",
+                    "name": "Peters B"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Hildebrand",
+                    "name": "Hildebrand W"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.7554/elife.12556",
+                    "type": "doi"
+                },
+                {
+                    "id": "26824387",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Elife",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Toxoplasma gondii peptide ligands open the gate of the HLA class I binding groove.",
+            "type": "article",
+            "url": "https://elifesciences.org/articles/12556",
+            "volume": [
+                "5"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5ddh"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5ddh"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"FVLELEPEWTVK\" at 1.50&#8491; resolution",
+    "unique_chain_count": 3
+}

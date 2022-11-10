@@ -1,0 +1,146 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA30859",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*44:05",
+            "slug": "hla_b_44_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7tue_1",
+            "chains": [
+                "A",
+                "D",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:40:06.532921"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFITVGYVDDTLFVRFDSDATSPRKEPRAPWIEQEGPEYWDRETQISKTNTQCYRENLRTALRYYNQSEAGSHIIQRMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQDRAYLEGLCVESLRRYLENGKETLQRADPPKTHVTHHPISDHEVTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "tapasin": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GPAVIECWFVEDASGKGLAKRPGALLLRQGPGEPPPRPDLDPELYLSVHDPAGALQAAFRRYPRGAPAPHCEMSRFVPLPASAKWASGLTPAQNCPRALDGAWLMVSISSPVLSLSSLLRPQPEPQQEPVLITMATVVLTVLTHTPAPRVRLGQDALLDLSFAYMPPTSEAASSLAPGPPPFGLEWRRQHLGKGHLLLAATPGLNGQMPAAQEGAVAFAAWDDDEPWGPWTGNGTFWLPRVQPFQEGTYLATIHLPYLQGQVTLELAVYKPPKVSLMPATLARAAPGEAPPELLCLVSHFYPSGGLEVEWELRGGPGGRSQKAEGQRWLSALRHHSDGSVSLSGHLQPPPVTTEQHGARYACRIHHPSLPASGRSAEVTLEGGLEVLFQGPGGGLNDIFEAQKIEWHEGGHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2022-02-02",
+        "deposition_year": 2022,
+        "release_date": "2022-09-07",
+        "release_year": 2022,
+        "revision_date": "2022-09-28",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_tapasin",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "tapasin"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7TUE | HLA-B*44:05 with Tapasin",
+    "pdb_code": "7tue",
+    "pdb_title": "Crystal structure of Tapasin in complex with HLA-B*44:05 (T73C)",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Jiang, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Natarajan, K."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Kim, E."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Boyd, L.F."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Margulies, D.H."
+                }
+            ],
+            "identifier": [],
+            "title": "Crystal structure of Tapasin in complex with HLA-B*44:05 (T73C)",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "3.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7tue"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7tue"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*44:05 with Tapasin at 3.10&#8491; resolution",
+    "unique_chain_count": 3
+}

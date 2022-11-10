@@ -1,0 +1,184 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1hhk_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:25:56.095166"
+        },
+        "2": {
+            "assembly_name": "1hhk_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:25:56.402539"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLFGYPVYV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1993-06-30",
+        "deposition_year": 1993,
+        "release_date": "1993-10-31",
+        "release_year": 1993,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1HHK | HLA-A*02:01 binding \"LLFGYPVYV\"",
+    "pdb_code": "1hhk",
+    "pdb_title": "The antigenic identity of peptide-MHC complexes: a comparison of the conformations of five viral peptides presented by HLA-A2.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LLFGYPVYV",
+    "publication": {
+        "abstract": "Complexes of five peptides (from HIV-1, influenza A virus, HTLV-1, and hepatitis B virus proteins) bound to the human class I MHC molecule HLA-A2 have been studied by X-ray crystallography. While the peptide termini and their second and C-terminal anchor side chains are bound similarly in all five cases, the main chain and side chain conformations of each peptide are strikingly different in the center of the binding site, and these differences are accessible to direct TCR recognition. Each of the central peptide residues is seen to point up for some bound peptides, but down or sideways for others. Thus, although fixed at its ends, the structure of an MHC-bound peptide appears to be a highly complex function of its entire sequence, potentially sensitive to even small sequence differences. In contrast, MHC structural variation is relatively limited. These results offer a structural framework for understanding the role of nonanchor peptide side chains in both peptide-MHC binding affinity and TCR recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DR",
+                    "lastname": "Madden",
+                    "name": "Madden DR"
+                },
+                {
+                    "initials": "DN",
+                    "lastname": "Garboczi",
+                    "name": "Garboczi DN"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Wiley",
+                    "name": "Wiley DC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/0092-8674(93)90490-h",
+                    "type": "doi"
+                },
+                {
+                    "id": "7694806",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "Cell",
+                "name": ""
+            },
+            "pages": [
+                "693-708"
+            ],
+            "title": "The antigenic identity of peptide-MHC complexes: a comparison of the conformations of five viral peptides presented by HLA-A2.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/009286749390490H",
+            "volume": [
+                "75"
+            ],
+            "year": [
+                1993
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1hhk"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1hhk"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"LLFGYPVYV\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

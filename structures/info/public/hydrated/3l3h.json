@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3l3h_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:18.007290"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "PHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SSLENARAYV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-12-17",
+        "deposition_year": 2009,
+        "release_date": "2010-03-16",
+        "release_year": 2010,
+        "revision_date": "2021-11-10",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3L3H | H2-Db binding \"SSLENARAYV\"",
+    "pdb_code": "3l3h",
+    "pdb_title": "X-ray crystal structure of the f6a mutant of influenza a acid polymerase epitope pa224 bound to murine H2-Db MHC",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "SSLENARAYV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "SSLENARAYV"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "SSLENARAYV",
+    "publication": {
+        "abstract": "Residues within processed protein fragments bound to major histocompatibility complex class I (MHC-I) glycoproteins have been considered to function as a series of \"independent pegs\" that either anchor the peptide (p) to the MHC-I and/or interact with the spectrum of alphabeta-T-cell receptors (TCRs) specific for the pMHC-I epitope in question. Mining of the extensive pMHC-I structural database established that many self- and viral peptides show extensive and direct interresidue interactions, an unexpected finding that has led us to the idea of \"constrained\" peptides. Mutational analysis of two constrained peptides (the HLA B44 restricted self-peptide (B44DPalpha-EEFGRAFSF) and an H2-D(b) restricted influenza peptide (D(b)PA, SSLENFRAYV) demonstrated that the conformation of the prominently exposed arginine in both peptides was governed by interactions with MHC-I-orientated flanking residues from the peptide itself. Using reverse genetics in a murine influenza model, we revealed that mutation of an MHC-I-orientated residue (SSLENFRAYV --> SSLENARAYV) within the constrained PA peptide resulted in a diminished cytotoxic T lymphocyte (CTL) response and the recruitment of a limited pMHC-I specific TCR repertoire. Interactions between individual peptide positions can thus impose fine control on the conformation of pMHC-I epitopes, whereas the perturbation of such constraints can lead to a previously unappreciated mechanism of viral escape.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Theodossis",
+                    "name": "Theodossis A"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Guillonneau",
+                    "name": "Guillonneau C"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Welland",
+                    "name": "Welland A"
+                },
+                {
+                    "initials": "LK",
+                    "lastname": "Ely",
+                    "name": "Ely LK"
+                },
+                {
+                    "initials": "CS",
+                    "lastname": "Clements",
+                    "name": "Clements CS"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Williamson",
+                    "name": "Williamson NA"
+                },
+                {
+                    "initials": "AI",
+                    "lastname": "Webb",
+                    "name": "Webb AI"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Wilce",
+                    "name": "Wilce JA"
+                },
+                {
+                    "initials": "RJ",
+                    "lastname": "Mulder",
+                    "name": "Mulder RJ"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Dunstone",
+                    "name": "Dunstone MA"
+                },
+                {
+                    "initials": "PC",
+                    "lastname": "Doherty",
+                    "name": "Doherty PC"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Turner",
+                    "name": "Turner SJ"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1000032107",
+                    "type": "doi"
+                },
+                {
+                    "id": "20212169",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "5534-9"
+            ],
+            "title": "Constraints within major histocompatibility complex class I restricted peptides: presentation and consequences for T-cell recognition.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1000032107",
+            "volume": [
+                "107"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3l3h"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3l3h"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"SSLENARAYV\" at 2.70&#8491; resolution",
+    "unique_chain_count": 3
+}

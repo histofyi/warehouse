@@ -1,0 +1,265 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3gjf_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "L",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:37:30.323548"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "ab_heavy": {
+            "chains": [
+                "M"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Hchain",
+            "sequence": "EVQLLESGGGLVQPGGSLRLSCAASGFTFSTYQMSWVRQAPGKGLEWVSGIVSSGGSTAYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCAGELLPYYGMDVWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPK"
+        },
+        "ab_light": {
+            "chains": [
+                "K"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Lchain",
+            "sequence": "QSELTQPRSVSGSPGQSVTISCTGTSRDVGGYNYVSWYQQHPGKAPKLIIHDVIERSSGVPDRFSGSKSGNTASLTISGLQAEDEADYYCWSFAGSYYVFGTGTDVTVLGQPKANPTVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADGSPVKAGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGNTVEKTVAPT"
+        },
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SLLMWITQV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-03-08",
+        "deposition_year": 2009,
+        "release_date": "2009-04-28",
+        "release_year": 2009,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_antibody",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "ab_heavy",
+        "ab_light"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3GJF | HLA-A*02:01 binding \"SLLMWITQV\" with antibody",
+    "pdb_code": "3gjf",
+    "pdb_title": "Rational development of high-affinity T-cell receptor-like antibodies.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SLLMWITQV",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "G",
+                    "lastname": "Stewart-Jones",
+                    "name": "Stewart-Jones G"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Wadle",
+                    "name": "Wadle A"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Hombach",
+                    "name": "Hombach A"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Shenderov",
+                    "name": "Shenderov E"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Held",
+                    "name": "Held G"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Fischer",
+                    "name": "Fischer E"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Kleber",
+                    "name": "Kleber S"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Nuber",
+                    "name": "Nuber N"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Stenner-Liewen",
+                    "name": "Stenner-Liewen F"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Bauer",
+                    "name": "Bauer S"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "McMichael",
+                    "name": "McMichael A"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Knuth",
+                    "name": "Knuth A"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Abken",
+                    "name": "Abken H"
+                },
+                {
+                    "initials": "AA",
+                    "lastname": "Hombach",
+                    "name": "Hombach AA"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Cerundolo",
+                    "name": "Cerundolo V"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Renner",
+                    "name": "Renner C"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.0901425106",
+                    "type": "doi"
+                },
+                {
+                    "id": "19307587",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "14"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "5784-8"
+            ],
+            "title": "Rational development of high-affinity T-cell receptor-like antibodies.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.0901425106",
+            "volume": [
+                "106"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3gjf"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3gjf"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"SLLMWITQV\" with antibody at 1.90&#8491; resolution",
+    "unique_chain_count": 5
+}

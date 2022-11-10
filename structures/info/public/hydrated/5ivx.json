@@ -1,0 +1,250 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5ivx_1",
+            "chains": [
+                "A",
+                "B",
+                "E",
+                "F",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:44:23.797615"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "MSHSLRYFVTAVSRPGFGEPRYMEVGYVDNTEFVRFDSDAENPRYEPRARWIEQEGPEYWERETRRAKGNEQSFRVDLRTALRYYNQSAGGSHTLQWMAGCDVESDGRLLRGYWQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAERDRAYLEGECVEWLRRYLKNGNATLLRTDPPKAHVTHHRRPEGDVTLRCWALGFYPADITLTWQLNGEELTQEMELVETRPAGDGTFQKWASVVVPLGKEQKYTCHVEHEGLPEPLTLRWGKE"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RGPGRAFVTI"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QQVRQSPQSLTVWEGETAILNCSYENSAFDYFPWYQQFPGEGPALLISILSVSNKKEDGRFTIFFNKREKKLSLHIADSQPGDSATYFCAASASFGDNSKLIWGLGTSLVVNPNIQNPEPAVYQLKDPRSQDSTLCLFTDFDSQINVPKTMESGTFITDKCVLDMKAMDSKSNGAIAWSNQTSFTCQDIFKETN",
+            "subgroup": "TRAV14"
+        },
+        "tcr_beta": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKVTQMPRYLIKRMGENVLLECGQDMSHETMYWYRQDPGLGLQLIYISYDVDSNSEGDIPKGYRVSRKKREHFSLILDSAKTNQTSVYFCASSLGHTEVFFGKGTRLTVVEDLRNVTPPKVSLFEPSKAEIANKQKATLVCLARGFFPDHVELSWWVNGKEVHSGVCTDPQAYKESNYSYALSSRLRVSATFWHNPRNHFRCQVQFHGLSEEDKWPEGSPKPVTQNISAEAWGR",
+            "subgroup": "TRBV29"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-03-21",
+        "deposition_year": 2016,
+        "release_date": "2017-03-29",
+        "release_year": 2017,
+        "revision_date": "2017-06-21",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5IVX | H2-Dd presenting \"RGPGRAFVTI\" to Alpha/Beta T cell receptor",
+    "pdb_code": "5ivx",
+    "pdb_title": "Crystal structure of b4.2.3 t-cell receptor and H2-Dd p18-i10 complex",
+    "peptide": {
+        "P": {
+            "actual_length": 10,
+            "actual_sequence": "RGPGRAFVTI",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RGPGRAFVTI"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RGPGRAFVTI",
+    "publication": {
+        "abstract": "The molecular mechanism through which the interaction of a clonotypic \u03b1\u03b2 T-cell receptor (TCR) with a peptide-loaded major histocompatibility complex (p/MHC) leads to T-cell activation is not yet fully understood. Here we exploit a high-affinity TCR (B4.2.3) to examine the structural changes that accompany binding to its p/MHC ligand (P18-I10/H2-D<sup>d</sup>). In addition to conformational changes in complementarity-determining regions (CDRs) of the TCR seen in comparison of unliganded and bound X-ray structures, NMR characterization of the TCR \u03b2-chain dynamics reveals significant chemical shift effects in sites removed from the MHC-binding site. Remodelling of electrostatic interactions near the C\u03b2 H3 helix at the membrane-proximal face of the TCR, a region implicated in interactions with the CD3 co-receptor, suggests a possible role for an allosteric mechanism in TCR signalling. The contribution of these TCR residues to signal transduction is supported by mutagenesis and T-cell functional assays.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "K",
+                    "lastname": "Natarajan",
+                    "name": "Natarajan K"
+                },
+                {
+                    "initials": "AC",
+                    "lastname": "McShan",
+                    "name": "McShan AC"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Jiang",
+                    "name": "Jiang J"
+                },
+                {
+                    "initials": "VK",
+                    "lastname": "Kumirov",
+                    "name": "Kumirov VK"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Wang",
+                    "name": "Wang R"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Zhao",
+                    "name": "Zhao H"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Schuck",
+                    "name": "Schuck P"
+                },
+                {
+                    "initials": "ME",
+                    "lastname": "Tilahun",
+                    "name": "Tilahun ME"
+                },
+                {
+                    "initials": "LF",
+                    "lastname": "Boyd",
+                    "name": "Boyd LF"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Ying",
+                    "name": "Ying J"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Bax",
+                    "name": "Bax A"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Margulies",
+                    "name": "Margulies DH"
+                },
+                {
+                    "initials": "NG",
+                    "lastname": "Sgourakis",
+                    "name": "Sgourakis NG"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ncomms15260",
+                    "type": "doi"
+                },
+                {
+                    "id": "28508865",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "15260"
+            ],
+            "title": "An allosteric site in the T-cell receptor C\ufffd\ufffd domain plays a critical signalling role.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ncomms15260",
+            "volume": [
+                "8"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5ivx"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5ivx"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5ivx"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRAV14"
+        },
+        "beta": {
+            "chains": [
+                "F"
+            ],
+            "subgroup": "TRBV29"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "5ivx"
+    },
+    "title": "H2-Dd presenting \"RGPGRAFVTI\" to Alpha/Beta T cell receptor at 2.10&#8491; resolution",
+    "unique_chain_count": 5
+}

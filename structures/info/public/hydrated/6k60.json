@@ -1,0 +1,256 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34359",
+            "locus": "hla-g",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-G*01:01",
+            "slug": "hla_g_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6k60_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:30:04.812590"
+        },
+        "2": {
+            "assembly_name": "6k60_2",
+            "chains": [
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:30:05.338802"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGSHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSASPRMEPRAPWVEQEGPEYWEEETRNTKAHAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLGSDGRLLRGYEQYAYDGKDYLALNEDLRSWTAADTAAQISKRKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRADPPKTHVTHHPVFDYEATLRCWALGFYPAEIILTWQRDGEDQTQDVELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLMLRWKQ"
+        },
+        "lir1": {
+            "chains": [
+                "D",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGHLPKPTLWAEPGSVITQGSPVTLRCQGGQETQEYRLYREKKTAPWITRIPQELVKKGQFPIPSITWEHAGRYRCYYGSDTAGRSESSDPLELVVTGAYIKPTLSAQPSPVVNSGGNVTLQCDSQVAFDGFILCKEGEDEHPQCLNSQPHARGSSRAIFSVGPVSPSRRWWYRCYAYDSNSPYEWSLPSDLLELLVL"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "G"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RIIPRHLQL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-05-31",
+        "deposition_year": 2019,
+        "release_date": "2019-11-27",
+        "release_year": 2019,
+        "revision_date": "2019-12-25",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_lir1",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "lir1"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-g",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6K60 | HLA-G*01:01 binding \"RIIPRHLQL\" with LIR-1 NK receptor",
+    "pdb_code": "6k60",
+    "pdb_title": "Structural and functional basis for hla-g isoform recognition of immune checkpoint receptor lilrbs",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RIIPRHLQL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RIIPRHLQL"
+        },
+        "G": {
+            "actual_length": 9,
+            "actual_sequence": "RIIPRHLQL",
+            "chain_id": "G",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RIIPRHLQL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RIIPRHLQL",
+    "publication": {
+        "abstract": "Human leukocyte Ig-like receptors (LILR) LILRB1 and LILRB2 are immune checkpoint receptors that regulate a wide range of physiological responses by binding to diverse ligands, including HLA-G. HLA-G is exclusively expressed in the placenta, some immunoregulatory cells, and tumors and has several unique isoforms. However, the recognition of HLA-G isoforms by LILRs is poorly understood. In this study, we characterized LILR binding to the \u03b22-microglobulin (\u03b22m)-free HLA-G1 isoform, which is synthesized by placental trophoblast cells and tends to dimerize and multimerize. The multimerized \u03b22m-free HLA-G1 dimer lacked detectable affinity for LILRB1, but bound strongly to LILRB2. We also determined the crystal structure of the LILRB1 and HLA-G1 complex, which adopted the typical structure of a classical HLA class I complex. LILRB1 exhibits flexible binding modes with the \u03b13 domain, but maintains tight contacts with \u03b22m, thus accounting for \u03b22m-dependent binding. Notably, both LILRB1 and B2 are oriented at suitable angles to permit efficient signaling upon complex formation with HLA-G1 dimers. These structural and functional features of ligand recognition by LILRs provide novel insights into their important roles in the biological regulations.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "K",
+                    "lastname": "Kuroki",
+                    "name": "Kuroki K"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Matsubara",
+                    "name": "Matsubara H"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Kanda",
+                    "name": "Kanda R"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Miyashita",
+                    "name": "Miyashita N"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Shiroishi",
+                    "name": "Shiroishi M"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Fukunaga",
+                    "name": "Fukunaga Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Kamishikiryo",
+                    "name": "Kamishikiryo J"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Fukunaga",
+                    "name": "Fukunaga A"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Fukuhara",
+                    "name": "Fukuhara H"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Hirose",
+                    "name": "Hirose K"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Hunt",
+                    "name": "Hunt JS"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Sugita",
+                    "name": "Sugita Y"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Kita",
+                    "name": "Kita S"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Ose",
+                    "name": "Ose T"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Maenaka",
+                    "name": "Maenaka K"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1900562",
+                    "type": "doi"
+                },
+                {
+                    "id": "31694909",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Structural and Functional Basis for LILRB Immune Checkpoint Receptor Recognition of HLA-G Isoforms.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1900562",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "3.15",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6k60"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6k60"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-G*01:01 binding \"RIIPRHLQL\" with LIR-1 NK receptor at 3.15&#8491; resolution",
+    "unique_chain_count": 4
+}

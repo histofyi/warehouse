@@ -1,0 +1,234 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3kla_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:16.108810"
+        },
+        "2": {
+            "assembly_name": "3kla_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:43:16.610050"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SLLMWITQL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-11-07",
+        "deposition_year": 2009,
+        "release_date": "2010-02-16",
+        "release_year": 2010,
+        "revision_date": "2021-10-13",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3KLA | HLA-A*02:01 binding \"SLLMWITQL\"",
+    "pdb_code": "3kla",
+    "pdb_title": "Ca2+ release from the endoplasmic reticulum of NY-ESO-1-specific T cells is modulated by the affinity of TCR and by the use of the CD8 coreceptor.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SLLMWITQL",
+    "publication": {
+        "abstract": "Although several cancer immunotherapy strategies are based on the use of analog peptides and on the modulation of the TCR affinity of adoptively transferred T cells, it remains unclear whether tumor-specific T cell activation by strong and weak TCR stimuli evoke different Ca(2+) signatures from the Ca(2+) intracellular stores and whether the amplitude of Ca(2+) release from the endoplasmic reticulum (ER) can be further modulated by coreceptor binding to peptide/MHC. In this study, we combined functional, structural, and kinetic measurements to correlate the intensity of Ca(2+) signals triggered by the stimulation of the 1G4 T cell clone specific to the tumor epitope NY-ESO-1(157-165). Two analogs of the NY-ESO-1(157-165) peptide, having similar affinity to HLA-A2 molecules, but a 6-fold difference in binding affinity for the 1G4 TCR, resulted in different Ca(2+) signals and T cell activation. 1G4 stimulation by the stronger stimulus emptied the ER of stored Ca(2+), even in the absence of CD8 binding, resulting in sustained Ca(2+) influx. In contrast, the weaker stimulus induced only partial emptying of stored Ca(2+), resulting in significantly diminished and oscillatory Ca(2+) signals, which were enhanced by CD8 binding. Our data define the range of TCR/peptide MHC affinities required to induce depletion of Ca(2+) from intracellular stores and provide insights into the ability of T cells to tailor the use of the CD8 coreceptor to enhance Ca(2+) release from the ER. This, in turn, modulates Ca(2+) influx from the extracellular environment, ultimately controlling T cell activation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JL",
+                    "lastname": "Chen",
+                    "name": "Chen JL"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Morgan",
+                    "name": "Morgan AJ"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Stewart-Jones",
+                    "name": "Stewart-Jones G"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Shepherd",
+                    "name": "Shepherd D"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Bossi",
+                    "name": "Bossi G"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wooldridge",
+                    "name": "Wooldridge L"
+                },
+                {
+                    "initials": "SL",
+                    "lastname": "Hutchinson",
+                    "name": "Hutchinson SL"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "Griffiths",
+                    "name": "Griffiths GM"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "van der Merwe",
+                    "name": "van der Merwe PA"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Galione",
+                    "name": "Galione A"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Cerundolo",
+                    "name": "Cerundolo V"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.0902103",
+                    "type": "doi"
+                },
+                {
+                    "id": "20053942",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "1829-39"
+            ],
+            "title": "Ca2+ release from the endoplasmic reticulum of NY-ESO-1-specific T cells is modulated by the affinity of TCR and by the use of the CD8 coreceptor.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.0902103",
+            "volume": [
+                "184"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.65",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3kla"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3kla"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"SLLMWITQL\" at 1.65&#8491; resolution",
+    "unique_chain_count": 3
+}

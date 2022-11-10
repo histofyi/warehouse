@@ -1,0 +1,214 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:BoLA03187",
+            "locus": "bola-2",
+            "match_type": "histo:fuzzy",
+            "name": "BoLA-2*018:01",
+            "slug": "bola_2_018_01",
+            "species_stem": "BoLA"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3pwv_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:40:27.158173"
+        },
+        "2": {
+            "assembly_name": "3pwv_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:40:27.591180"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRPPKIQVYSRHPPEDGKPNYLNCYVYGFHPPQIEIDLLKNGEKIKSEQSDLSFSKDWSFYLLSHAEFTPNSKDQYSCRVKHVTLEQPRIVKWDRDL"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SHSLRYFYTAVSRPGLGEPRFIAVGYVDDTQFTRFDSDAPNPRDEPRVPWMEQEGPEYWDRNTRIYKDTAQIFRANLNTALGYYNQSEAGSHTFQEMYGCYVGPDGRLLLGFMQFAYDGRDYIALNEDLRSWTAADTAAQITKRKWEAAGEAERQRNYLEGRCVEGLRRYLENGKDTLLRADPPKAHVTHHPISDREVTLRCWALGFYPEEISLTWQHEGEDQTQDMELVETRPSGDGTFQKWAALVVPSGEEQRYTCRVQHEGLQEPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "IPAYGVLTI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2010-12-09",
+        "deposition_year": 2010,
+        "release_date": "2011-08-24",
+        "release_year": 2011,
+        "revision_date": "2011-08-24",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "bola-2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3PWV | BoLA-2*018:01 binding \"IPAYGVLTI\"",
+    "pdb_code": "3pwv",
+    "pdb_title": "An immmunodominant ctl epitope from rinderpest virus presented by cattle MHC Class I molecule n*01801 (bola-a11)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "IPAYGVLTI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IPAYGVLTI"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "IPAYGVLTI",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IPAYGVLTI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "IPAYGVLTI",
+    "publication": {
+        "abstract": "The <i>Bunyavirales</i> contain many important human pathogens that lack an antiviral therapy. The cap-snatching endonuclease (EN) of segmented negative-strand RNA viruses is an attractive target for broad-spectrum antivirals due to its essential role in initiating viral transcription. L-742,001, a previously reported diketo acid inhibitor against influenza virus EN, demonstrated potent EN inhibition and antiviral activity on various bunyaviruses. However, the precise inhibitory mechanism of the compound is still poorly understood. We recently characterized a highly active EN from Ebinur Lake virus (EBIV), a newly identified member of the <i>Orthobunyavirus</i> genus, and obtained its high-resolution structures, paving the way for structure-guided inhibitor development. Here, nine L-742,001 derivatives were designed and synthesized <i>de novo</i>, and their structure-activity relationship with EBIV EN was studied. <i>In vitro</i> biochemical data showed that the compounds inhibited the EBIV EN activity with different levels and could be divided into three categories. Five representative compounds were selected for further cell-based antiviral assay, and the results largely agreed with those of the EN assays. Furthermore, the precise binding modes of L-742,001 and its derivatives in EN were revealed by determining the high-resolution crystal structures of EN-inhibitor complexes, which suggested that the <i>p</i>-chlorobenzene is essential for the inhibitory activity and the flexible phenyl has the greatest exploration potential. This study provides an important basis for the structure-based design and optimization of inhibitors targeting EN of segmented negative-strand RNA viruses. <b>IMPORTANCE</b> The <i>Bunyavirales</i> contain many important human pathogens such as Crimean-Congo hemorrhagic fever virus and Lassa virus that pose serious threats to public health; however, currently there are no specific antiviral drugs against these viruses. The diketo acid inhibitor L-742,001 is a potential drug as it inactivates the cap-snatching endonuclease (EN) encoded by bunyaviruses. Here, we designed and synthesized nine L-742,001 derivatives and assessed the structure-activity relationship using EN of the newly identified Ebinur Lake virus (EBIV) as a research model. Our results revealed that the <i>p</i>-chlorobenzene of this broad-spectrum EN inhibitor is crucial for the inhibitory activity and the flexible phenyl \"arm\" has the best potential for further optimization. As cap-snatching ENs are present not only in bunyaviruses but also in influenza viruses, our data provide important guidelines for the development of novel and more potent diketo acid-based antiviral drugs against those viruses.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "X",
+                    "lastname": "Li",
+                    "name": "Li X"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Liu",
+                    "name": "Liu J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Gao",
+                    "name": "Gao F"
+                },
+                {
+                    "initials": "Q",
+                    "lastname": "Li",
+                    "name": "Li Q"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Li",
+                    "name": "Li X"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Zhang",
+                    "name": "Zhang N"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Xia",
+                    "name": "Xia C"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1128/JVI.00030-11",
+                    "type": "doi"
+                },
+                {
+                    "id": "21450819",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Virol.",
+                "name": ""
+            },
+            "pages": [
+                "6038-48"
+            ],
+            "title": "Two distinct conformations of a rinderpest virus epitope presented by bovine major histocompatibility complex class I N*01801: a host strategy to present featured peptides.",
+            "type": "article",
+            "url": "https://journals.asm.org/doi/10.1128/JVI.00030-11",
+            "volume": [
+                "85"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3pwv"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3pwv"
+        }
+    },
+    "species": {
+        "common_name": "Domestic cattle",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Bos taurus",
+        "slug": "bos_taurus"
+    },
+    "tcr": null,
+    "title": "BoLA-2*018:01 binding \"IPAYGVLTI\" at 2.70&#8491; resolution",
+    "unique_chain_count": 3
+}

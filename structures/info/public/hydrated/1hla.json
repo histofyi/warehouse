@@ -1,0 +1,166 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1hla_1",
+            "chains": [
+                "A",
+                "M"
+            ],
+            "downloaded_at": "2022-11-09T14:38:47.736473"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "M"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDR"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1987-10-15",
+        "deposition_year": 1987,
+        "release_date": "1988-01-16",
+        "release_year": 1988,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_possibly_without_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1HLA | HLA-A*02:01 possibly without \"peptide\"",
+    "pdb_code": "1hla",
+    "pdb_title": "Structure of the human class I histocompatibility antigen, HLA-A2.",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The class I histocompatibility antigen from human cell membranes has two structural motifs: the membrane-proximal end of the glycoprotein contains two domains with immunoglobulin-folds that are paired in a novel manner, and the region distal from the membrane is a platform of eight antiparallel beta-strands topped by alpha-helices. A large groove between the alpha-helices provides a binding site for processed foreign antigens. An unknown 'antigen' is found in this site in crystals of purified HLA-A2.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "PJ",
+                    "lastname": "Bjorkman",
+                    "name": "Bjorkman PJ"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Saper",
+                    "name": "Saper MA"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Samraoui",
+                    "name": "Samraoui B"
+                },
+                {
+                    "initials": "WS",
+                    "lastname": "Bennett",
+                    "name": "Bennett WS"
+                },
+                {
+                    "initials": "JL",
+                    "lastname": "Strominger",
+                    "name": "Strominger JL"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Wiley",
+                    "name": "Wiley DC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/329506a0",
+                    "type": "doi"
+                },
+                {
+                    "id": "3309677",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6139"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                "506-12"
+            ],
+            "title": "Structure of the human class I histocompatibility antigen, HLA-A2.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/329506a0",
+            "volume": [
+                "329"
+            ],
+            "year": [
+                null
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "3.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1hla"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1hla"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 possibly without \"peptide\" at 3.50&#8491; resolution",
+    "unique_chain_count": 2
+}

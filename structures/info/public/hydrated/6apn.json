@@ -1,0 +1,114 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6apn_1",
+            "chains": [
+                "A"
+            ],
+            "downloaded_at": "2022-11-09T14:39:21.589271"
+        },
+        "2": {
+            "assembly_name": "6apn_2",
+            "chains": [
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:39:22.012438"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.76,
+            "sequence": "LLMGTLGIVGGGGSGGGGSGGGGSIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDMGGGGSGGGGSGGGGSGGGGSGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGAYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEENLYFQGHHHHHHGLNDIFEAQKIEWHE"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-08-17",
+        "deposition_year": 2017,
+        "release_date": "2018-08-22",
+        "release_year": 2018,
+        "revision_date": "2018-08-22",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "single_chain_class_i_construct",
+    "components": [
+        "class_i_alpha"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6APN | Single chain construct of HLA-A*02:01 binding \"None\"",
+    "pdb_code": "6apn",
+    "pdb_title": "HLA-A*0201 single chain trimer with HPV.16 E7 peptide LLMGTLGIV",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Finton, K.A.K."
+                }
+            ],
+            "identifier": [],
+            "title": "HLA-A*0201 single chain trimer with HPV.16 E7 peptide LLMGTLGIV",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.22",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6apn"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6apn"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:override",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Single chain construct of HLA-A*02:01 binding \"None\" at 2.22&#8491; resolution",
+    "unique_chain_count": 1
+}

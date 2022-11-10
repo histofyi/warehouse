@@ -1,0 +1,163 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08580",
+            "locus": "gaga-bf2",
+            "match_type": "histo:fuzzy",
+            "name": "Gaga-BF2*021:01",
+            "slug": "gaga_bf2_021_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3gmo_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:45:03.553820"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWGSHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-03-14",
+        "deposition_year": 2009,
+        "release_date": "2009-11-10",
+        "release_year": 2009,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3GMO | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "3gmo",
+    "pdb_title": "Structure of mouse CD1d in complex with c8phf",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Natural killer T (NKT) cells are a subset of T cells that are activated by CD1d-glycolipid complexes through a semi-invariant alphabeta T cell receptor (NKT TCR). Upon activation, NKT cells secrete regulatory cytokines that are implicated in T helper cell responses. alpha-Galactosylceramide (alpha-GalCer) is a potent NKT cell agonist when presented by CD1d. Phenyl ring substitutions of the alpha-GalCer fatty acid moiety were recently found to be superior in eliciting regulatory cytokines. Crystal structures of four new mouse CD1d-lipid complexes (five structures), a new PBS-25 complex, and CD1d with an endogenous ligand, at 1.6-1.9 A resolution, reveal that the alpha-GalCer phenyl analogues impart minor structural differences to the A'-pocket, while the sphingosine and galactose moieties, important for NKT TCR recognition, remain virtually unchanged. The observed differences in cytokine-release profiles appear to be associated with increased stability of the CD1d-glycolipid complexes rather than increased affinity for the NKT TCR. Furthermore, comparison of mouse CD1d-glycolipid complexes in different crystallographic space groups reveals considerable conformational variation, particularly above the F'-pocket, the primary site of interaction with the NKT TCR. We propose that modifications of the sphingosine moiety or other substitutions that decrease alpha-GalCer flexibility would stabilize the F'-pocket. Such compounds might then increase CD1d affinity for the NKT TCR and further enhance the stimulatory and regulatory properties of alpha-GalCer derivatives.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Schiefner",
+                    "name": "Schiefner A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Fujio",
+                    "name": "Fujio M"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Wu",
+                    "name": "Wu D"
+                },
+                {
+                    "initials": "CH",
+                    "lastname": "Wong",
+                    "name": "Wong CH"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jmb.2009.08.061",
+                    "type": "doi"
+                },
+                {
+                    "id": "19732779",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "71-82"
+            ],
+            "title": "Structural evaluation of potent NKT cell agonists: implications for design of novel stimulatory ligands.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S002228360901081X",
+            "volume": [
+                "394"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3gmo"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3gmo"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 1.60&#8491; resolution",
+    "unique_chain_count": 2
+}

@@ -1,0 +1,172 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:SLA06150",
+            "locus": "sla-2",
+            "match_type": "histo:exact",
+            "name": "SLA-2*04:02",
+            "slug": "sla_2_04_02",
+            "species_stem": "SLA"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6a6h_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:56.313701"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "VARPPKVQVYSRHPAENGKPNYLNCYVSGFHPPQIEIDLLKNGEKMNAEQSDLSFSKDWSFYLLVHTEFTPNAVDQYSCRVKHVTLDKPKIVKWDRDH"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "GPHSLRYFDTAVSRPDRGEPRFIEVGYVDDTQFVRFDSDAPNPRMEPRAPWIQQEGQEYWDRNTRNAMGNAQIYRGNLRTALGYYNQSEAGSHTLQIMYGCDVGPDGLLLRGYSQDAYDGADYIALNEDLRSWTAADTAAQITKRKWEAANVAEQWRSYLQGTCVEWLQKYLQMGKDTLQRAEPPKTHVTRHPSSDLGVTLRCWALGFYPKEISLTWQREGQDQSQDMELVETRPSGDGTFQKWAALVVPPGEEQSYTCHVQHEGLQEPLTLRWD"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "MTAHIVVPY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-06-28",
+        "deposition_year": 2018,
+        "release_date": "2019-07-03",
+        "release_year": 2019,
+        "revision_date": "2020-01-15",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "sla-2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6A6H | SLA-2*04:02 binding \"MTAHIVVPY\"",
+    "pdb_code": "6a6h",
+    "pdb_title": "Crystal structure of swine major histocompatibility complex Class I sla-2*040202 for 2.3 angstrom",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "MTAHIVVPY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MTAHIVVPY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "MTAHIVVPY",
+    "publication": {
+        "abstract": "Presentation of viral epitopes by swine MHC I (termed leukocyte antigen class I, SLA I) to cytotoxic T lymphocytes (CTLs) is crucial for swine immunity. The SLA-2 structure, however, remains largely unknown. To illustrate the structural basis of swine CTL epitope presentation, the crystal structure of SLA-2*04:02:02 complexed with one peptide, derived from foot-and-mouth disease virus (FMDV), was analyzed in this study. SLA-2*04:02:02 and swine \u03b22-microglobulin (s\u03b22m) were refolded in vitro in the presence of peptides. X-ray diffraction data of SLA-2*04:02:02-peptide-s\u03b22m (referred to as p/SLA-2*04:02:02) were collected. The diffraction dataset was 2.3\u202f\u00c5 in resolution and the space group was P3(2)21. Relevant data included a\u202f=\u202f101.8\u202f\u00c5, b\u202f=\u202f101.8\u202f\u00c5, c\u202f=\u202f73.455\u202f\u00c5,\u03b1\u202f=\u202f90.00\u00b0, \u03b2\u202f=\u202f90.00\u00b0, \u03b3\u202f=\u202f120.00\u00b0. The structure of p/SLA-2*04:02:02 was analyzed. The results revealed that Glu24, Met68, Gly76, and Gln173 in PBG of SLA-2*04:02:02 are different from other MHC I. Furthermore, Asn63 is different from other SLA I. Gln57, Met174 and Gln180 in PBG of SLA I are different from other species' MHC I. All of these features are different from known mammalian peptide-MHC class I complexes (referred to as p/MHC I). In addition, P4-His, P6-Val, and P8-Pro in the peptide were exposed, and these residues as epitopes can be presented by SLA-2*04:02:02. This study not only provides a structural basis for peptide presentation by SLA-2, but also screens one potential FMDV CTL epitope. The results may be of interest in future vaccine development.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Ning",
+                    "name": "Ning S"
+                },
+                {
+                    "initials": "ZB",
+                    "lastname": "Wang",
+                    "name": "Wang ZB"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Qi",
+                    "name": "Qi P"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Xiao",
+                    "name": "Xiao J"
+                },
+                {
+                    "initials": "XJ",
+                    "lastname": "Wang",
+                    "name": "Wang XJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.rvsc.2019.11.002",
+                    "type": "doi"
+                },
+                {
+                    "id": "31760318",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Res. Vet. Sci.",
+                "name": ""
+            },
+            "pages": [
+                "90-98"
+            ],
+            "title": "Crystallization of SLA-2*04:02:02 complexed with a CTL epitope derived from FMDV.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0034528819303285",
+            "volume": [
+                "128"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.31",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6a6h"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6a6h"
+        }
+    },
+    "species": {
+        "common_name": "Feral Pig",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Sus scrofa",
+        "slug": "sus_scrofa"
+    },
+    "tcr": null,
+    "title": "SLA-2*04:02 binding \"MTAHIVVPY\" at 2.31&#8491; resolution",
+    "unique_chain_count": 3
+}

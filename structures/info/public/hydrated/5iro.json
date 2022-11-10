@@ -1,0 +1,292 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5iro_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:32:30.316358"
+        },
+        "2": {
+            "assembly_name": "5iro_2",
+            "chains": [
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:32:31.731526"
+        },
+        "3": {
+            "assembly_name": "5iro_3",
+            "chains": [
+                "I",
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:32:32.081836"
+        },
+        "4": {
+            "assembly_name": "5iro_4",
+            "chains": [
+                "M",
+                "N",
+                "O",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:32:32.492672"
+        },
+        "5": {
+            "assembly_name": "5iro_5",
+            "chains": [
+                "Q",
+                "R",
+                "S",
+                "T"
+            ],
+            "downloaded_at": "2022-11-09T14:32:32.850110"
+        },
+        "6": {
+            "assembly_name": "5iro_6",
+            "chains": [
+                "U",
+                "V",
+                "W",
+                "X"
+            ],
+            "downloaded_at": "2022-11-09T14:32:33.231420"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "C",
+                "G",
+                "K",
+                "O",
+                "S",
+                "W"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "E",
+                "I",
+                "M",
+                "Q",
+                "U"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "e319k": {
+            "chains": [
+                "D",
+                "H",
+                "L",
+                "P",
+                "T",
+                "X"
+            ],
+            "match_type": "histo:override",
+            "sequence": "AVVTEKADPCLTFNPDKCQLSFQPDGNRCAVLIKCGWECQSVAIQYKNKTRNNTLASTWQPGDPEWYTVSVPGADGFLRTVNNTFIFEHMCNTAMFMSRQYHMWPPRK"
+        },
+        "note": "rule needed for e319k?",
+        "peptide": {
+            "chains": [
+                "B",
+                "F",
+                "J",
+                "N",
+                "R",
+                "V"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLFGYPVYV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-03-14",
+        "deposition_year": 2016,
+        "release_date": "2016-08-24",
+        "release_year": 2016,
+        "revision_date": "2019-12-11",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_e319k",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "e319k",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5IRO | HLA-A*02:01 binding \"LLFGYPVYV\" with Human adenovirus type 4 E3-19K ",
+    "pdb_code": "5iro",
+    "pdb_title": "Crystal structure of a complex between the human adenovirus type 4 e3-19k protein and MHC class molecule hla-a2/tax",
+    "peptide": {
+        "B": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "B",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "J": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "J",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "N": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "N",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "R": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "R",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "V": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "V",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LLFGYPVYV",
+    "publication": {
+        "abstract": "Adenoviruses (Ads) subvert MHC class I Ag presentation and impair host anti-Ad cellular activities. Specifically, the Ad-encoded E3-19K immunomodulatory protein targets MHC class I molecules for retention within the endoplasmic reticulum of infected cells. We report the x-ray crystal structure of the Ad type 4 (Ad4) E3-19K of species E bound to HLA-A2 at 2.64-\u00c5 resolution. Structural analysis shows that Ad4 E3-19K adopts a tertiary fold that is shared only with Ad2 E3-19K of species C. A comparative analysis of the Ad4 E3-19K/HLA-A2 structure with our x-ray structure of Ad2 E3-19K/HLA-A2 identifies species-specific features in HLA-A2 recognition. Our analysis also reveals common binding characteristics that explain the promiscuous, and yet high-affinity, association of E3-19K proteins with HLA-A and HLA-B molecules. We also provide structural insights into why E3-19K proteins do not associate with HLA-C molecules. Overall, our study provides new information about how E3-19K proteins selectively engage with MHC class I to abrogate Ag presentation and counteract activation of CD8(+) T cells. The significance of MHC class I Ag presentation for controlling viral infections, as well as the threats of viral infections in immunocompromised patients, underline our efforts to characterize viral immunoevasins, such as E3-19K.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Li",
+                    "name": "Li L"
+                },
+                {
+                    "initials": "BD",
+                    "lastname": "Santarsiero",
+                    "name": "Santarsiero BD"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bouvier",
+                    "name": "Bouvier M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1600541",
+                    "type": "doi"
+                },
+                {
+                    "id": "27385781",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "1399-407"
+            ],
+            "title": "Structure of the Adenovirus Type 4 (Species E) E3-19K/HLA-A2 Complex Reveals Species-Specific Features in MHC Class I Recognition.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1600541",
+            "volume": [
+                "197"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.64",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5iro"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5iro"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"LLFGYPVYV\" with Human adenovirus type 4 E3-19K  at 2.64&#8491; resolution",
+    "unique_chain_count": 5
+}

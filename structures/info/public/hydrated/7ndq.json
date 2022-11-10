@@ -1,0 +1,266 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34202",
+            "locus": "hla-e",
+            "match_type": "histo:exact",
+            "name": "HLA-E*01:03",
+            "slug": "hla_e_01_03",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7ndq_1",
+            "chains": [
+                "AAA",
+                "BBB",
+                "CCC",
+                "DDD",
+                "EEE"
+            ],
+            "downloaded_at": "2022-11-09T14:28:32.575842"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "BBB"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "AAA"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MGSHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRFDNDAASPRMVPRAPWMEQEGSEYWDRETRSARDTAQIFRVNLRTLRGYYNQSEAGSHTLQWMHGCELGPDGRFLRGYEQFAYDGKDYLTLNEDLRSWTAVDTAAQISEQKSNDASEAEHQRAYLEDTCVEWLHKYLEKGKETLLHLEPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQQDGEGHTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPVTLRWKP"
+        },
+        "note": "not yet in STCRdab",
+        "peptide": {
+            "chains": [
+                "CCC"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RMYSPVSIL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "DDD"
+            ],
+            "match_type": "histo:override",
+            "sequence": "MLAKTTQPISMDSYEGQEVNITCSHNNIATNDYITWYQQFPSQGPRFIIQGYKTKVTNEVASLFIPADRKSSTLSLPRVSLSDTAVYYCLVGSSFNQGGKLIFGQGTELSVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDT"
+        },
+        "tcr_beta": {
+            "chains": [
+                "EEE"
+            ],
+            "match_type": "histo:override",
+            "sequence": "MDTGVSQNPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSFSTLEIQRTEQGDSAMYLCASSLGREYGYTFGSGTRLTVVEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-02-02",
+        "deposition_year": 2021,
+        "release_date": "2022-01-26",
+        "release_year": 2022,
+        "revision_date": "2022-07-27",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-e",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7NDQ | HLA-E*01:03 presenting \"RMYSPVSIL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "7ndq",
+    "pdb_title": "Gag:02 TCR in complex with hla-e.",
+    "peptide": {
+        "CCC": {
+            "actual_length": 9,
+            "actual_sequence": "RMYSPVSIL",
+            "chain_id": "CCC",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMYSPVSIL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RMYSPVSIL",
+    "publication": {
+        "abstract": "The nonpolymorphic class Ib molecule, HLA-E, primarily presents peptides from HLA class Ia leader peptides, providing an inhibitory signal to NK cells via CD94/NKG2 interactions. Although peptides of pathogenic origin can also be presented by HLA-E to T cells, the molecular basis underpinning their role in antigen surveillance is largely unknown. Here, we solved a co-complex crystal structure of a TCR with an HLA-E presented peptide (pHLA-E) from bacterial (Mycobacterium tuberculosis) origin, and the first TCR-pHLA-E complex with a noncanonically presented peptide from viral (HIV) origin. The structures provided a molecular foundation to develop a novel method to introduce cysteine traps using non-natural amino acid chemistry that stabilized pHLA-E complexes while maintaining native interface contacts between the TCRs and different pHLA-E complexes. These pHLA-E monomers could be used to isolate pHLA-E-specific T cells, with obvious utility for studying pHLA-E restricted T cells, and for the identification of putative therapeutic TCRs.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Barber",
+                    "name": "Barber C"
+                },
+                {
+                    "initials": "VA",
+                    "lastname": "De Souza",
+                    "name": "De Souza VA"
+                },
+                {
+                    "initials": "RL",
+                    "lastname": "Paterson",
+                    "name": "Paterson RL"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Martin-Urdiroz",
+                    "name": "Martin-Urdiroz M"
+                },
+                {
+                    "initials": "NC",
+                    "lastname": "Mulakkal",
+                    "name": "Mulakkal NC"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Srikannathasan",
+                    "name": "Srikannathasan V"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Connolly",
+                    "name": "Connolly M"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Phillips",
+                    "name": "Phillips G"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Foong-Leong",
+                    "name": "Foong-Leong T"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Pengelly",
+                    "name": "Pengelly R"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Karuppiah",
+                    "name": "Karuppiah V"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Grant",
+                    "name": "Grant T"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Dembek",
+                    "name": "Dembek M"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Verma",
+                    "name": "Verma A"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Gibbs-Howe",
+                    "name": "Gibbs-Howe D"
+                },
+                {
+                    "initials": "TH",
+                    "lastname": "Blicher",
+                    "name": "Blicher TH"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Knox",
+                    "name": "Knox A"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Robinson",
+                    "name": "Robinson RA"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Leonard",
+                    "name": "Leonard S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/eji.202149745",
+                    "type": "doi"
+                },
+                {
+                    "id": "35108401",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "Eur J Immunol",
+                "name": ""
+            },
+            "pages": [
+                "618-632"
+            ],
+            "title": "Structure-guided stabilization of pathogen-derived peptide-HLA-E complexes using non-natural amino acids conserves native TCR recognition.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/eji.202149745",
+            "volume": [
+                "52"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.55",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7ndq"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7ndq"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-E*01:03 presenting \"RMYSPVSIL\" to Alpha/Beta T cell receptor at 2.55&#8491; resolution",
+    "unique_chain_count": 5
+}

@@ -1,0 +1,237 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA32328",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*44:02",
+            "slug": "hla_b_44_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1m6o_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:23.427788"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFITVGYVDDTLFVRFDSDATSPRKEPRAPWIEQEGPEYWDRETQISKTNTQTYRENLRTALRYYNQSEAGSHIIQRMYGCDVGPDGRLLRGYDQDAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQDRAYLEGLCVESLRRYLENGKETLQRADPPKTHVTHHPISDHEVTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EEFGRAFSF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2002-07-17",
+        "deposition_year": 2002,
+        "release_date": "2003-09-02",
+        "release_year": 2003,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1M6O | HLA-B*44:02 binding \"EEFGRAFSF\"",
+    "pdb_code": "1m6o",
+    "pdb_title": "Crystal structure of hla b*4402 in complex with hla dpa*0201 peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "EEFGRAFSF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EEFGRAFSF"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "EEFGRAFSF",
+    "publication": {
+        "abstract": "HLA-B*4402 and B*4403 are naturally occurring MHC class I alleles that are both found at a high frequency in all human populations, and yet they only differ by one residue on the alpha2 helix (B*4402 Asp156-->B*4403 Leu156). CTLs discriminate between HLA-B*4402 and B*4403, and these allotypes stimulate strong mutual allogeneic responses reflecting their known barrier to hemopoeitic stem cell transplantation. Although HLA-B*4402 and B*4403 share >95% of their peptide repertoire, B*4403 presents more unique peptides than B*4402, consistent with the stronger T cell alloreactivity observed toward B*4403 compared with B*4402. Crystal structures of B*4402 and B*4403 show how the polymorphism at position 156 is completely buried and yet alters both the peptide and the heavy chain conformation, relaxing ligand selection by B*4403 compared with B*4402. Thus, the polymorphism between HLA-B*4402 and B*4403 modifies both peptide repertoire and T cell recognition, and is reflected in the paradoxically powerful alloreactivity that occurs across this \"minimal\" mismatch. The findings suggest that these closely related class I genes are maintained in diverse human populations through their differential impact on the selection of peptide ligands and the T cell repertoire.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "WA",
+                    "lastname": "Macdonald",
+                    "name": "Macdonald WA"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Mifsud",
+                    "name": "Mifsud NA"
+                },
+                {
+                    "initials": "LK",
+                    "lastname": "Ely",
+                    "name": "Ely LK"
+                },
+                {
+                    "initials": "DS",
+                    "lastname": "Williams",
+                    "name": "Williams DS"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Chang",
+                    "name": "Chang L"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Gorman",
+                    "name": "Gorman JJ"
+                },
+                {
+                    "initials": "CS",
+                    "lastname": "Clements",
+                    "name": "Clements CS"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Koelle",
+                    "name": "Koelle DM"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "BD",
+                    "lastname": "Tait",
+                    "name": "Tait BD"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Holdsworth",
+                    "name": "Holdsworth R"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "GO",
+                    "lastname": "Lovrecz",
+                    "name": "Lovrecz GO"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Lu",
+                    "name": "Lu L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20030066",
+                    "type": "doi"
+                },
+                {
+                    "id": "12939341",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "679-91"
+            ],
+            "title": "A naturally selected dimorphism within the HLA-B44 supertype alters class I structure, peptide repertoire, and T cell recognition.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/198/5/679/39873/A-Naturally-Selected-Dimorphism-within-the-HLAB44",
+            "volume": [
+                "198"
+            ],
+            "year": [
+                2003
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1m6o"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1m6o"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*44:02 binding \"EEFGRAFSF\" at 1.60&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,242 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01902",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kd",
+            "slug": "h2_kd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5gr7_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:28:49.494545"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.84,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDADNPRFEPRAPWMEQEGPEYWEEQTQRAKSDEQWFRVSLRTAQRYYNQSKGGSHTFQRMFGCDVGSDWRLLRGYHQFAYDGRDYIALNEDLKTWTAADTAALITRRKWEQAGDAEYYRAYLEGECVEWLRRYLELGNETLLRTDSPKAHVTYHPRSQVDVTLRCWALGFYPADITLTWQLNGEDLTQDMELVETRPAGDGTFQKWAAVVVPLGKEQNYTCHVHHKGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YYSIIPHSI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-08-08",
+        "deposition_year": 2016,
+        "release_date": "2017-06-07",
+        "release_year": 2017,
+        "revision_date": "2017-06-07",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5GR7 | H2-Kd binding \"YYSIIPHSI\"",
+    "pdb_code": "5gr7",
+    "pdb_title": "Mouse MHC Class I h-2kd with a mers-cov-derived peptide 37-1",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "YYSIIPHSI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YYSIIPHSI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YYSIIPHSI",
+    "publication": {
+        "abstract": "The coordinated recognition of virus-derived T cell epitopes and MHC molecules by T cells plays a pivotal role in cellular immunity-mediated virus clearance. It has been demonstrated that the conformation of MHC class I (MHC I) molecules can be adjusted by the presented peptide, which impacts T cell activation. However, it is still largely unknown whether the conformational shift of MHC I influences the protective effect of virus-specific T cells. In this study, utilizing the Middle East respiratory syndrome coronavirus-infected mouse model, we observed that through the unusual secondary anchor Ile5, a CD8<sup>+</sup> T cell epitope drove the conformational fit of Trp<sup>73</sup> on the \u03b11 helix of murine MHC I H-2K<sup>d</sup> In vitro renaturation and circular dichroism assays indicated that this shift of the structure did not influence the peptide/MHC I binding affinity. Nevertheless, the T cell recognition and the protective effect of the peptide diminished when we made an Ile to Ala mutation at position 5 of the original peptide. The molecular bases of the concordant recognition of T cell epitopes and host MHC-dependent protection were demonstrated through both crystal structure determination and tetramer staining using the peptide-MHC complex. Our results indicate a coordinated MHC I/peptide interaction mechanism and provide a beneficial reference for T cell-oriented vaccine development against emerging viruses such as Middle East respiratory syndrome coronavirus.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "WJ",
+                    "lastname": "Liu",
+                    "name": "Liu WJ"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lan",
+                    "name": "Lan J"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Liu",
+                    "name": "Liu K"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Deng",
+                    "name": "Deng Y"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Yao",
+                    "name": "Yao Y"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Wu",
+                    "name": "Wu S"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Chen",
+                    "name": "Chen H"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Bao",
+                    "name": "Bao L"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Zhang",
+                    "name": "Zhang H"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Zhao",
+                    "name": "Zhao M"
+                },
+                {
+                    "initials": "Q",
+                    "lastname": "Wang",
+                    "name": "Wang Q"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Han",
+                    "name": "Han L"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chai",
+                    "name": "Chai Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Zhao",
+                    "name": "Zhao J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Meng",
+                    "name": "Meng S"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Qin",
+                    "name": "Qin C"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Tan",
+                    "name": "Tan W"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1601542",
+                    "type": "doi"
+                },
+                {
+                    "id": "27903740",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "873-882"
+            ],
+            "title": "Protective T Cell Responses Featured by Concordant Recognition of Middle East Respiratory Syndrome Coronavirus-Derived CD8+ T Cell Epitopes and Host MHC.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1601542",
+            "volume": [
+                "198"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5gr7"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5gr7"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kd binding \"YYSIIPHSI\" at 2.40&#8491; resolution",
+    "unique_chain_count": 3
+}

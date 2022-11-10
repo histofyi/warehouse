@@ -1,0 +1,291 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5wjn_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:45:30.193170"
+        },
+        "2": {
+            "assembly_name": "5wjn_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:45:30.677334"
+        },
+        "3": {
+            "assembly_name": "5wjn_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:45:31.025485"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F",
+                "I"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GTSGSPIINR"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-07-23",
+        "deposition_year": 2017,
+        "release_date": "2017-09-20",
+        "release_year": 2017,
+        "revision_date": "2017-10-25",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5WJN | HLA-A*11:01 binding \"GTSGSPIINR\"",
+    "pdb_code": "5wjn",
+    "pdb_title": "Crystal structure of hla-a*11:01-gts3",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "GTSGSPIINR",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "GTSGSPIINR"
+        },
+        "F": {
+            "actual_length": 10,
+            "actual_sequence": "GTSGSPIINR",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "GTSGSPIINR"
+        },
+        "I": {
+            "actual_length": 10,
+            "actual_sequence": "GTSGSPIINR",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "GTSGSPIINR"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "GTSGSPIINR",
+    "publication": {
+        "abstract": "Traumatic brain injury (TBI) leads to a deleterious neuroinflammation, originating from microglial activation. Monitoring microglial activation is an indispensable step to develop therapeutic strategies for TBI. In this study, we evaluated the use of the 18-kDa translocator protein (TSPO) in positron emission tomography (PET) and cellular analysis to monitor microglial activation in a mild TBI mouse model. TBI was induced on male Swiss mice. PET imaging analysis with [<sup>18</sup>F]FEPPA, a TSPO radiotracer, was performed at 1, 3 and 7\u00a0days post-TBI and flow cytometry analysis on brain at 1 and 3\u00a0days post-TBI. PET analysis showed no difference in TSPO expression between non-operated, sham-operated and TBI mice. Flow cytometry analysis demonstrated an increase in TSPO expression in ipsilateral brain 3\u00a0days post-TBI, especially in microglia, macrophages, lymphocytes and neutrophils. Moreover, microglia represent only 58.3% of TSPO<sup>+</sup> cells in the brain. Our results raise the question of the use of TSPO radiotracer to monitor microglial activation after TBI. More broadly, flow cytometry results point the lack of specificity of TSPO for microglia and imply that microglia contribute to the overall increase in TSPO in the brain after TBI, but is not its only contributor.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Culshaw",
+                    "name": "Culshaw A"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Ladell",
+                    "name": "Ladell K"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "JE",
+                    "lastname": "McLaren",
+                    "name": "McLaren JE"
+                },
+                {
+                    "initials": "KL",
+                    "lastname": "Miners",
+                    "name": "Miners KL"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Farenc",
+                    "name": "Farenc C"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "van den Heuvel",
+                    "name": "van den Heuvel H"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Gostick",
+                    "name": "Gostick E"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Dejnirattisai",
+                    "name": "Dejnirattisai W"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Wangteeraprasert",
+                    "name": "Wangteeraprasert A"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Duangchinda",
+                    "name": "Duangchinda T"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Chotiyarnwong",
+                    "name": "Chotiyarnwong P"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Limpitikul",
+                    "name": "Limpitikul W"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Vasanawathana",
+                    "name": "Vasanawathana S"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Malasit",
+                    "name": "Malasit P"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Dong",
+                    "name": "Dong T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Mongkolsapaya",
+                    "name": "Mongkolsapaya J"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "GR",
+                    "lastname": "Screaton",
+                    "name": "Screaton GR"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.3850",
+                    "type": "doi"
+                },
+                {
+                    "id": "28945243",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Germline bias dictates cross-serotype reactivity in a common dengue-virus-specific CD8(+) T cell response.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.3850",
+            "volume": [
+                null
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.85",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5wjn"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5wjn"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"GTSGSPIINR\" at 2.85&#8491; resolution",
+    "unique_chain_count": 3
+}

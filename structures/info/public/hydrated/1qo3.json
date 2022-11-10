@@ -1,0 +1,179 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1qo3_1",
+            "chains": [
+                "C_1",
+                "D_1",
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:34:13.209423"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "MSHSLRYFVTAVSRPGFGEPRYMEVGYVDNTEFVRFDSDAENPRYEPRARWIEQEGPEYWERETRRAKGNEQSFRVDLRTALRYYNQSAGGSHTLQWMAGCDVESDGRLLRGYWQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAERDRAYLEGECVEWLRRYLKNGNATLLRTDPPKAHVTHHRRPEGDVTLRCWALGFYPADITLTWQLNGEELTQEMELVETRPAGDGTFQKWASVVVPLGKEQKYTCHVEHEGLPEPLTLRWGKE"
+        },
+        "ly49a": {
+            "chains": [
+                "C",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "STVLDSLQHTGRGDKVYWFCYGMKCYYFVMDRKTWSGCKQTCQSSSLSLLKIDDEDELKFLQLVVPSDSCWVGLSYDNKKKDWAWIDNRPSKLALNTRKYNIRDGGCMLLSKTRLDNGNCDQVFICICGKRLDKFPH"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RGPGRAFVTI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1999-11-01",
+        "deposition_year": 1999,
+        "release_date": "2000-01-02",
+        "release_year": 2000,
+        "revision_date": "2015-04-15",
+        "revision_year": 2015
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_ly49a",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "ly49a"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1QO3 | H2-Dd binding \"RGPGRAFVTI\" with Ly49a NK receptor",
+    "pdb_code": "1qo3",
+    "pdb_title": "Complex between nk cell receptor ly49a and its MHC Class I ligand h-2dd",
+    "peptide": {
+        "P": {
+            "actual_length": 10,
+            "actual_sequence": "RGPGRAFVTI",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RGPGRAFVTI"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RGPGRAFVTI",
+    "publication": {
+        "abstract": "The neuroactive mycotoxin lolitrem B causes a neurological syndrome in grazing livestock resulting in hyperexcitability, muscle tremors, ataxia and, in severe cases, clonic seizures and death. To define the effects of the major toxin lolitrem B in the brain, a functional metabolomic study was undertaken in which motor coordination and tremor were quantified and metabolomic profiling undertaken to determine relative abundance of both toxin and key neurotransmitters in various brain regions in male mice. Marked differences were observed in the duration of tremor and coordination between lolitrem B pathway members, with some showing protracted effects and others none at all. Lolitrem B was identified in liver, kidney, cerebral cortex and thalamus but not in brainstem or cerebellum which were hypothesised previously to be the primary site of action. Metabolomic profiling showed significant variation in specific neurotransmitter and amino acid profiles over time. This study demonstrates accumulation of lolitrem B in the brain, with non-detectable levels of toxin in the brainstem and cerebellum, inducing alterations in metabolites such as tyrosine, suggesting a dynamic catecholaminergic response over time. Temporal characterisation of key pathways in the pathophysiological response of lolitrem B in the brain were also identified.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Tormo",
+                    "name": "Tormo J"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Natarajan",
+                    "name": "Natarajan K"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Margulies",
+                    "name": "Margulies DH"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Mariuzza",
+                    "name": "Mariuzza RA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/45170",
+                    "type": "doi"
+                },
+                {
+                    "id": "10604468",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6762"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                "623-31"
+            ],
+            "title": "Crystal structure of a lectin-like natural killer cell receptor bound to its MHC class I ligand.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/45170",
+            "volume": [
+                "402"
+            ],
+            "year": [
+                1999
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1qo3"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1qo3"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Dd binding \"RGPGRAFVTI\" with Ly49a NK receptor at 2.30&#8491; resolution",
+    "unique_chain_count": 4
+}

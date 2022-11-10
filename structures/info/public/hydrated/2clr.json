@@ -1,0 +1,184 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2clr_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:53.244303"
+        },
+        "2": {
+            "assembly_name": "2clr_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:29:53.597425"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "MLLSVPLLLG"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1994-08-01",
+        "deposition_year": 1994,
+        "release_date": "1995-03-31",
+        "release_year": 1995,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2CLR | HLA-A*02:01 binding \"MLLSVPLLLG\"",
+    "pdb_code": "2clr",
+    "pdb_title": "Three-dimensional structure of a peptide extending from one end of a class I MHC binding site.",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "MLLSVPLLLG",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "MLLSVPLLLG"
+        },
+        "F": {
+            "actual_length": 10,
+            "actual_sequence": "MLLSVPLLLG",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "MLLSVPLLLG"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "MLLSVPLLLG",
+    "publication": {
+        "abstract": "Class I major histocompatibility complex (MHC) molecules present peptides to CD8+ T cells for immunological surveillance (reviewed in ref. 1). The structures of complexes of class I MHC molecules with octamer, nonamer and decamer peptides determined until now show a common binding mode, with both peptide termini bound in conserved pockets at the ends of the peptide binding site. Length variations were accommodated by the peptide bulging or zig-zagging in the middle. Here we describe the structure of a decamer peptide which binds with the carboxy-terminal residue positioned outside the peptide binding site. Several protein side chains have rearranged to allow the peptide to exit. The structure suggests that even longer peptides could bind. The energetic effect of the altered mode of binding has been assessed by measuring the stability of the complex to thermal denaturation. Peptides bound in this novel manner are stable at physiological temperature, raising questions about their role in T-cell recognition and their production by proteolytic processing.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "EJ",
+                    "lastname": "Collins",
+                    "name": "Collins EJ"
+                },
+                {
+                    "initials": "DN",
+                    "lastname": "Garboczi",
+                    "name": "Garboczi DN"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Wiley",
+                    "name": "Wiley DC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/371626a0",
+                    "type": "doi"
+                },
+                {
+                    "id": "7935798",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6498"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                "626-9"
+            ],
+            "title": "Three-dimensional structure of a peptide extending from one end of a class I MHC binding site.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/371626a0",
+            "volume": [
+                "371"
+            ],
+            "year": [
+                1994
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2clr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2clr"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"MLLSVPLLLG\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

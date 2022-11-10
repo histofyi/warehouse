@@ -1,0 +1,230 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6xqp_1",
+            "chains": [
+                "A",
+                "B",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:30:43.859649"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MQKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMFIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVRDAGNMLTFGGGTRLMVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MSAVISQKPSRDICQRGTSLTIQCQVDSQVTMMFWYRQQPGQSLTLIATANQGSEATYESGFVIDKFPISRPNLTFSTLTVSNMSPEDSSIYLCSVGGDSLIGNQPQHFGDGTRLSILEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV29"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-07-10",
+        "deposition_year": 2020,
+        "release_date": "2020-08-26",
+        "release_year": 2020,
+        "revision_date": "2020-10-28",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6XQP | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "6xqp",
+    "pdb_title": "Structure of human d462-e4 TCR in complex with human MR1-5-op-ru",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "MR1 presents vitamin B-related metabolites to mucosal associated invariant T (MAIT) cells, which are characterized, in part, by the TRAV1-2<sup>+</sup> \u03b1\u03b2 T cell receptor (TCR). In addition, a more diverse TRAV1-2<sup>-</sup> MR1-restricted T cell repertoire exists that can possess altered specificity for MR1 antigens. However, the molecular basis of how such TRAV1-2<sup>-</sup> TCRs interact with MR1-antigen complexes remains unclear. Here, we describe how a TRAV12-2<sup>+</sup> TCR (termed D462-E4) recognizes an MR1-antigen complex. We report the crystal structures of the unliganded D462-E4 TCR and its complex with MR1 presenting the riboflavin-based antigen 5-OP-RU. Here, the TRBV29-1 \u03b2-chain of the D462-E4 TCR binds over the F'-pocket of MR1, whereby the complementarity-determining region (CDR) 3\u03b2 loop surrounded and projected into the F'-pocket. Nevertheless, the CDR3\u03b2 loop anchored proximal to the MR1 A'-pocket and mediated direct contact with the 5-OP-RU antigen. The D462-E4 TCR footprint on MR1 contrasted that of the TRAV1-2<sup>+</sup> and TRAV36<sup>+</sup> TCRs' docking topologies on MR1. Accordingly, diverse MR1-restricted T cell repertoire reveals differential docking modalities on MR1, thus providing greater scope for differing antigen specificities.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "W",
+                    "lastname": "Awad",
+                    "name": "Awad W"
+                },
+                {
+                    "initials": "EW",
+                    "lastname": "Meermeier",
+                    "name": "Meermeier EW"
+                },
+                {
+                    "initials": "ML",
+                    "lastname": "Sandoval-Romero",
+                    "name": "Sandoval-Romero ML"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "AH",
+                    "lastname": "Worley",
+                    "name": "Worley AH"
+                },
+                {
+                    "initials": "MD",
+                    "lastname": "Null",
+                    "name": "Null MD"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Liu",
+                    "name": "Liu L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Fairlie",
+                    "name": "Fairlie DP"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Lewinsohn",
+                    "name": "Lewinsohn DM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.RA120.015292",
+                    "type": "doi"
+                },
+                {
+                    "id": "32817339",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Atypical TRAV1-2- T cell receptor recognition of the antigen-presenting molecule MR1.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925817497857",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6xqp"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6xqp"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6xqp"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "F"
+            ],
+            "subgroup": "TRBV29"
+        },
+        "pdb_code": "6xqp"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 2.90&#8491; resolution",
+    "unique_chain_count": 4
+}

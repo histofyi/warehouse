@@ -1,0 +1,182 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1jpf_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:46.651782"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEPPPST"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SGVENPGGYCL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2001-08-02",
+        "deposition_year": 2001,
+        "release_date": "2001-10-24",
+        "release_year": 2001,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1JPF | H2-Db binding \"SGVENPGGYCL\"",
+    "pdb_code": "1jpf",
+    "pdb_title": "Crystal structure of the lcmv peptidic epitope gp276 in complex with the murine Class I MHC molecule h-2db",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "SGVENPGGYCL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "SGVENPGGYCL"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "SGVENPGGYCL",
+    "publication": {
+        "abstract": "Class I major histocompatibility complex (MHC) molecules, which display intracellularly processed peptides on the cell surface for scanning by T-cell receptors (TCRs), are extraordinarily polymorphic. MHC polymorphism is believed to result from natural selection, since individuals heterozygous at the corresponding loci can cope with a larger number of pathogens. Here, we present the crystal structures of the murine MHC molecule H-2D(b) in complex with the peptides gp276 and np396 from the lymphocytic choriomeningitis virus (LCMV), solved at 2.18 A and 2.20 A resolution, respectively. The most prominent feature of H-2D(b) is a hydrophobic ridge that cuts across its antigen-binding site, which is conserved in the L(d)-like family of class I MHC molecules. The comparison with previously solved crystal structures of peptide/H-2D(b) complexes shows that the hydrophobic ridge focuses the conformational variability of the bound peptides in a \"hot-spot\", which could allow optimal TCR interaction and discrimination. This finding suggests a functional reason for the conservation of this structural element.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Ciatto",
+                    "name": "Ciatto C"
+                },
+                {
+                    "initials": "AC",
+                    "lastname": "Tissot",
+                    "name": "Tissot AC"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Tschopp",
+                    "name": "Tschopp M"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Capitani",
+                    "name": "Capitani G"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Pecorari",
+                    "name": "Pecorari F"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Pl\u00fcckthun",
+                    "name": "Pl\u00fcckthun A"
+                },
+                {
+                    "initials": "MG",
+                    "lastname": "Gr\u00fctter",
+                    "name": "Gr\u00fctter MG"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1006/jmbi.2001.5016",
+                    "type": "doi"
+                },
+                {
+                    "id": "11580250",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "1059-71"
+            ],
+            "title": "Zooming in on the hydrophobic ridge of H-2D(b): implications for the conformational variability of bound peptides.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283601950168",
+            "volume": [
+                "312"
+            ],
+            "year": [
+                2001
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.18",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1jpf"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1jpf"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"SGVENPGGYCL\" at 2.18&#8491; resolution",
+    "unique_chain_count": 3
+}

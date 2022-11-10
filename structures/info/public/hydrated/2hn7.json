@@ -1,0 +1,172 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2hn7_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:47.086560"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AIMPARFYPK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2006-07-12",
+        "deposition_year": 2006,
+        "release_date": "2006-11-28",
+        "release_year": 2006,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2HN7 | HLA-A*11:01 binding \"AIMPARFYPK\"",
+    "pdb_code": "2hn7",
+    "pdb_title": "Hla-a*1101 in complex with hbv peptide homologue",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "AIMPARFYPK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "AIMPARFYPK"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "AIMPARFYPK",
+    "publication": {
+        "abstract": "A high-resolution structure of the human MHC-I molecule HLA-A*1101 is presented in which it forms a complex with a sequence homologue of a peptide that occurs naturally in hepatitis B virus DNA polymerase. The sequence of the bound peptide is AIMPARFYPK, while that of the corresponding natural peptide is LIMPARFYPK. The peptide does not make efficient use of the middle E pocket for binding, which leads to a rather superficial and exposed binding mode for the central peptide residues. Despite this, the peptide binds with high affinity (IC50 of 31 nM).",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "T",
+                    "lastname": "Blicher",
+                    "name": "Blicher T"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Kastrup",
+                    "name": "Kastrup JS"
+                },
+                {
+                    "initials": "L\ufffd\ufffd",
+                    "lastname": "Pedersen",
+                    "name": "Pedersen L\ufffd\ufffd"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Buus",
+                    "name": "Buus S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Gajhede",
+                    "name": "Gajhede M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1107/s1744309106044228",
+                    "type": "doi"
+                },
+                {
+                    "id": "17142892",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "Pt 12"
+            ],
+            "journal": {
+                "iso_abbreviation": "Acta Crystallogr. Sect. F Struct. Biol. Cryst. Commun.",
+                "name": ""
+            },
+            "pages": [
+                "1179-84"
+            ],
+            "title": "Structure of HLA-A*1101 in complex with a hepatitis B peptide homologue.",
+            "type": "article",
+            "url": "http://scripts.iucr.org/cgi-bin/paper?S1744309106044228",
+            "volume": [
+                "62"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2hn7"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2hn7"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"AIMPARFYPK\" at 1.60&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,184 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3myj_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:38:36.080474"
+        },
+        "2": {
+            "assembly_name": "3myj_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:38:36.482527"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YMFPNAPYL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2010-05-10",
+        "deposition_year": 2010,
+        "release_date": "2010-08-18",
+        "release_year": 2010,
+        "revision_date": "2017-11-08",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3MYJ | HLA-A*02:01 binding \"YMFPNAPYL\"",
+    "pdb_code": "3myj",
+    "pdb_title": "Human Class I MHC hla-a2 in complex with the wt-1 (126-134) (r1y) peptide variant.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "YMFPNAPYL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YMFPNAPYL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "YMFPNAPYL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YMFPNAPYL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YMFPNAPYL",
+    "publication": {
+        "abstract": "Presentation of peptides by class I or class II major histocompatibility complex (MHC) molecules is required for the initiation and propagation of a T cell-mediated immune response. Peptides from the Wilms Tumor 1 transcription factor (WT1), upregulated in many hematopoetic and solid tumors, can be recognized by T cells and numerous efforts are underway to engineer WT1-based cancer vaccines. Here we determined the structures of the class I MHC molecule HLA-A*0201 bound to the native 126-134 epitope of the WT1 peptide and a recently described variant (R1Y) with improved MHC binding. The R1Y variant, a potential vaccine candidate, alters the positions of MHC charged side chains near the peptide N-terminus and significantly reduces the peptide/MHC electrostatic surface potential. These alterations indicate that the R1Y variant is an imperfect mimic of the native WT1 peptide, and suggest caution in its use as a therapeutic vaccine. Stability measurements revealed how the R1Y substitution enhances MHC binding affinity, and together with the structures suggest a strategy for engineering WT1 variants with improved MHC binding that retain the structural features of the native peptide/MHC complex.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "OY",
+                    "lastname": "Borbulevych",
+                    "name": "Borbulevych OY"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Do",
+                    "name": "Do P"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.molimm.2010.06.005",
+                    "type": "doi"
+                },
+                {
+                    "id": "20619457",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "15"
+            ],
+            "journal": {
+                "iso_abbreviation": "Mol. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "2519-24"
+            ],
+            "title": "Structures of native and affinity-enhanced WT1 epitopes bound to HLA-A*0201: implications for WT1-based cancer therapeutics.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0161589010004748",
+            "volume": [
+                "47"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.89",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3myj"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3myj"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"YMFPNAPYL\" at 1.89&#8491; resolution",
+    "unique_chain_count": 3
+}

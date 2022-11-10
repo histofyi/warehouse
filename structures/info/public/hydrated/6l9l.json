@@ -1,0 +1,240 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01897",
+            "locus": "h2-l",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "H2-Ld",
+            "note": "Check for reason this structure doesn't match to H2-Ld",
+            "score": null,
+            "slug": "h2_ld",
+            "species_stem": "h2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6l9l_1",
+            "chains": [
+                "A",
+                "C",
+                "D",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:40:34.152372"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.74,
+            "sequence": "GPHSMRYYETATSRRGLGEPRYTSVGYVDDKEFVRFDSDAENPRYEPQVPWMEQEGPEYWERITQIAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQRMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLRTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNG"
+        },
+        "peptide": {
+            "chains": [
+                "B",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SPSYAYHQF"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AKTTQPDSMESTEGETVHLPCSHATISGNEYIYWYRQVPLQGPEYVTHGLQQNTTNSMAFLAIASDRKSSTLILTHVSLRDAAVYHCILQGTGSKLSFGKGAKLTVSPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS",
+            "subgroup": "TRAV21"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AVTQSPRNKVTVTGGNVTLSCRQTNSHNYMYWYRQDTGHGLRLIHYSYGAGNLQIGDVPDGYKATRTTQEDFFLLLELASPSQTSLYFCASSDGDYEQYFGPGTRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-11-10",
+        "deposition_year": 2019,
+        "release_date": "2020-11-18",
+        "release_year": 2020,
+        "revision_date": "2021-06-16",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "truncated_class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-l",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6L9L | Truncated H2-Ld presenting \"SPSYAYHQF\" to Alpha/Beta T cell receptor",
+    "pdb_code": "6l9l",
+    "pdb_title": "1d4 TCR recognition of H2-Ld a1a2 a5 peptide complexes",
+    "peptide": {
+        "B": {
+            "actual_length": 9,
+            "actual_sequence": "SPSYAYHQF",
+            "chain_id": "B",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SPSYAYHQF"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "SPSYAYHQF",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SPSYAYHQF"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SPSYAYHQF",
+    "publication": {
+        "abstract": "Tumors frequently express unmutated self-tumor-associated antigens (self-TAAs). However, trial results using self-TAAs as vaccine targets against cancer are mixed, often attributed to deletion of T cells with high-affinity receptors (TCRs) for self-TAAs during T cell development. Mutating these weak self-TAAs to produce higher affinity, effective vaccines is challenging, since the mutations may not benefit all members of the broad self-TAA-specific T cell repertoire. We previously identified a common weak murine self-TAA that we converted to a highly effective antitumor vaccine by a single amino acid substitution. In this case the modified and natural self-TAAs still raised very similar sets of CD8 T cells. Our structural studies herein show that the modification of the self-TAA resulted in a subtle change in the major histocompatibility complex I-TAA structure. This amino acid substitution allowed a dramatic conformational change in the peptide during subsequent TCR engagement, creating a large increase in TCR affinity and accounting for the efficacy of the modified self-TAA as a vaccine. These results show that carefully selected, well-characterized modifications to a poorly immunogenic self-TAA can rescue the immune response of the large repertoire of weakly responding natural self-TAA-specific CD8 T cells, driving them to proliferate and differentiate into functional effectors. Subsequently, the unmodified self-TAA on the tumor cells, while unable to drive this response, is nevertheless a sufficient target for the CD8 cytotoxic effectors. Our results suggest a pathway for more efficiently identifying variants of common self-TAAs, which could be useful in vaccine development, complementing other current nonantigen-specific immunotherapies.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "P",
+                    "lastname": "Wei",
+                    "name": "Wei P"
+                },
+                {
+                    "initials": "KR",
+                    "lastname": "Jordan",
+                    "name": "Jordan KR"
+                },
+                {
+                    "initials": "JD",
+                    "lastname": "Buhrman",
+                    "name": "Buhrman JD"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lei",
+                    "name": "Lei J"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Deng",
+                    "name": "Deng H"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Marrack",
+                    "name": "Marrack P"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Dai",
+                    "name": "Dai S"
+                },
+                {
+                    "initials": "JW",
+                    "lastname": "Kappler",
+                    "name": "Kappler JW"
+                },
+                {
+                    "initials": "JE",
+                    "lastname": "Slansky",
+                    "name": "Slansky JE"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Yin",
+                    "name": "Yin L"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.2100588118",
+                    "type": "doi"
+                },
+                {
+                    "id": "34074778",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "23"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc Natl Acad Sci U S A",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Structures suggest an approach for converting weak self-peptide tumor antigens into superagonists for CD8 T cells in cancer.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.2100588118",
+            "volume": [
+                "118"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6l9l"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6l9l"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6l9l"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV21"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "6l9l"
+    },
+    "title": "Truncated H2-Ld presenting \"SPSYAYHQF\" to Alpha/Beta T cell receptor at 2.40&#8491; resolution",
+    "unique_chain_count": 4
+}

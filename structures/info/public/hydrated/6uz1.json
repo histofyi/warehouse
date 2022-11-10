@@ -1,0 +1,253 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6uz1_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:45:05.672630"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "H"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLFGYPVYV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "I"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "EVEQNSGPLSVPEGAIASLNCTYSIRSSTSFFWYRQYSGKSPELIMSIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVTTDRSGKLQFGAGTQVVVTPD",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "J"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AGVTQTPKFQVLKTGQSMTLQCAQDMNHEYMAWYRQDPGMGLRLIHYSVGVGITDQGDVPDGYKVSRSTTEDFPLRLLSAAPSQTSVYFCASRPGAAGGRPELYFGPGTRLTVTE",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-11-14",
+        "deposition_year": 2019,
+        "release_date": "2020-10-28",
+        "release_year": 2020,
+        "revision_date": "2020-11-11",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6UZ1 | HLA-A*02:01 presenting \"LLFGYPVYV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "6uz1",
+    "pdb_title": "Noncanonical binding of single-chain a6 TCR variant s3-4 in complex with tax/hla-a2",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "H": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LLFGYPVYV",
+    "publication": {
+        "abstract": "T cell receptors (TCRs) orchestrate cellular immunity by recognizing peptides presented by a range of major histocompatibility complex (MHC) proteins. Naturally occurring TCRs bind the composite peptide/MHC surface, recognizing peptides that are structurally and chemically compatible with the TCR binding site. Here we describe a molecularly evolved TCR variant that binds the human class I MHC protein HLA-A2 independent of the bound peptide, achieved by a drastic perturbation of the TCR binding geometry that places the molecule far from the peptide binding groove. This unique geometry is unsupportive of normal T cell signaling. A substantial divergence between affinity measurements in solution and in two dimensions between proximal cell membranes leads us to attribute the lack of signaling to steric hindrance that limits binding in the confines of a cell-cell interface. Our results provide an example of how receptor binding geometry can impact T cell function and provide further support for the view that germline-encoded residues in TCR binding loops evolved to drive productive TCR recognition and signaling.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "NK",
+                    "lastname": "Singh",
+                    "name": "Singh NK"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Alonso",
+                    "name": "Alonso JA"
+                },
+                {
+                    "initials": "DT",
+                    "lastname": "Harris",
+                    "name": "Harris DT"
+                },
+                {
+                    "initials": "SD",
+                    "lastname": "Anderson",
+                    "name": "Anderson SD"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Ma",
+                    "name": "Ma J"
+                },
+                {
+                    "initials": "LM",
+                    "lastname": "Hellman",
+                    "name": "Hellman LM"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Rosenberg",
+                    "name": "Rosenberg AM"
+                },
+                {
+                    "initials": "EM",
+                    "lastname": "Kolawole",
+                    "name": "Kolawole EM"
+                },
+                {
+                    "initials": "BD",
+                    "lastname": "Evavold",
+                    "name": "Evavold BD"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Kranz",
+                    "name": "Kranz DM"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1021/acs.biochem.0c00689",
+                    "type": "doi"
+                },
+                {
+                    "id": "33074657",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Biochemistry",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "An Engineered T Cell Receptor Variant Realizes the Limits of Functional Binding Modes.",
+            "type": "article",
+            "url": "https://pubs.acs.org/doi/10.1021/acs.biochem.0c00689",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.14",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6uz1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6uz1"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6uz1"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "I"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "J"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "6uz1"
+    },
+    "title": "HLA-A*02:01 presenting \"LLFGYPVYV\" to Alpha/Beta T cell receptor at 3.14&#8491; resolution",
+    "unique_chain_count": 5
+}

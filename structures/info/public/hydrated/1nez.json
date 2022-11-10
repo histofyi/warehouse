@@ -1,0 +1,201 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P14432",
+            "locus": "h2-tl",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "H2-TLA",
+            "note": "Check latest mouse nomenclature",
+            "score": null,
+            "slug": "h2_tla",
+            "species_stem": "h2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1nez_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:29:12.861331"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "cd8a": {
+            "chains": [
+                "G",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "KPQAPELRIFPKKMDAELGQKVDLVCEVLGSVSQGCSWLFQNSSSKLPQPTFVVYMASSHNKITWDEKLNSSKLFSAMRDTNNKYVLTLNKFSKENEGYYFCSVISNSVMYFSSVVPVLQKVSSALVP"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.71,
+            "sequence": "GSHSLRYFYTALSRPAISEPWYIAVGYLDDTQFARFDSAGETGTYKLSAPWVEQEGPEYWARETEIVTSNAQFFRENLQTMLDYYNLSQNGSHTIQVMYGCEVEFFGSLFRAYEQHGYDGQDYIALNEDLKTWTAADMAAEITRSKWEQAGYTELRRTYLEGPCKDSLLRYLENRKKTQECTDPPKTHVTHHARPEGDVTLRCWALGFYPAHITLTWQLNGEELIQDTELVETRPAGDGTFQKWAAVVVPSGEEQKYTCHVYHEGLPEPLTLRW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2002-12-12",
+        "deposition_year": 2002,
+        "release_date": "2003-04-08",
+        "release_year": 2003,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_cd8a",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "cd8a"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-tl",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1NEZ | H2-TLA  with CD8a",
+    "pdb_code": "1nez",
+    "pdb_title": "The crystal structure of a tl/cd8aa complex at 2.1a resolution:implications for memory T cell generation, co-receptor preference and affinity",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "TL is a nonclassical MHC class I molecule that modulates T cell activation through relatively high-affinity interaction with CD8alphaalpha. To investigate how the TL/CD8alphaalpha interaction influences TCR signaling, we characterized the structure of the TL/CD8alphaalpha complex using X-ray crystallography. Unlike antigen-presenting molecules, the TL antigen-binding groove is occluded by specific conformational changes. This feature eliminates antigen presentation, severely hampers direct TCR recognition, and prevents TL from participating in the TCR activation complex. At the same time, the TL/CD8alphaalpha interaction is strengthened through subtle structure changes in the TL alpha3 domain. Thus, TL functions to sequester and redirect CD8alphaalpha away from the TCR, modifying lck-dependent signaling.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Liu",
+                    "name": "Liu Y"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Xiong",
+                    "name": "Xiong Y"
+                },
+                {
+                    "initials": "OV",
+                    "lastname": "Naidenko",
+                    "name": "Naidenko OV"
+                },
+                {
+                    "initials": "JH",
+                    "lastname": "Liu",
+                    "name": "Liu JH"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Zhang",
+                    "name": "Zhang R"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Joachimiak",
+                    "name": "Joachimiak A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Kronenberg",
+                    "name": "Kronenberg M"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Cheroutre",
+                    "name": "Cheroutre H"
+                },
+                {
+                    "initials": "EL",
+                    "lastname": "Reinherz",
+                    "name": "Reinherz EL"
+                },
+                {
+                    "initials": "JH",
+                    "lastname": "Wang",
+                    "name": "Wang JH"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s1074-7613(03)00027-x",
+                    "type": "doi"
+                },
+                {
+                    "id": "12594948",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "205-15"
+            ],
+            "title": "The crystal structure of a TL/CD8alphaalpha complex at 2.1 A resolution: implications for modulation of T cell activation and memory.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S107476130300027X",
+            "volume": [
+                "18"
+            ],
+            "year": [
+                2003
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1nez"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1nez"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-TLA  with CD8a at 2.10&#8491; resolution",
+    "unique_chain_count": 3
+}

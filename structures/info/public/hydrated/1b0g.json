@@ -1,0 +1,189 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1b0g_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:45:09.199398"
+        },
+        "2": {
+            "assembly_name": "1b0g_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:45:09.597683"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ALWGFFPVL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1998-11-09",
+        "deposition_year": 1998,
+        "release_date": "1998-11-18",
+        "release_year": 1998,
+        "revision_date": "2013-07-10",
+        "revision_year": 2013
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1B0G | HLA-A*02:01 binding \"ALWGFFPVL\"",
+    "pdb_code": "1b0g",
+    "pdb_title": "Class i histocompatibility antigen (hla-a2.1)/beta 2-microglobulin/peptide p1049 complex",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ALWGFFPVL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ALWGFFPVL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "ALWGFFPVL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ALWGFFPVL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ALWGFFPVL",
+    "publication": {
+        "abstract": "The T cell receptor (TCR), from a xeno-reactive murine cytotoxic T lymphocyte clone AHIII12.2, recognizes murine H-2Db complexed with peptide p1027 (FAPGVFPYM), as well as human HLA-A2.1 complexed with peptide p1049 (ALWGFFPVL). A commonly proposed model (the molecular mimicry model) used to explain TCR cross-reactivity suggests that the molecular surfaces of the recognized complexes are similar in shape, charge, or both, in spite of the primary sequence differences. To examine the mechanism of xeno-reactivity of AHIII12.2, we have determined the crystal structures of A2/p1049 and Db/p1027 to 2.5 A and 2.8 A resolution, respectively. The crystal structures show that the TCR footprint regions of the two class I complexes are significantly different in shape and charge. We propose that rather than simple molecular mimicry, unpredictable arrays of common and differential contacts on the two class I complexes are used for their recognition by the same TCR.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "R",
+                    "lastname": "Zhao",
+                    "name": "Zhao R"
+                },
+                {
+                    "initials": "DJ",
+                    "lastname": "Loftus",
+                    "name": "Loftus DJ"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Appella",
+                    "name": "Appella E"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Collins",
+                    "name": "Collins EJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.189.2.359",
+                    "type": "doi"
+                },
+                {
+                    "id": "9892618",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "359-70"
+            ],
+            "title": "Structural evidence of T cell xeno-reactivity in the absence of molecular mimicry.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/189/2/359/7848/Structural-Evidence-of-T-Cell-Xenoreactivity-in",
+            "volume": [
+                "189"
+            ],
+            "year": [
+                1999
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1b0g"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1b0g"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"ALWGFFPVL\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

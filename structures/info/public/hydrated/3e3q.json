@@ -1,0 +1,284 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01897",
+            "locus": "h2-l",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Ld",
+            "slug": "h2_ld",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3e3q_1",
+            "chains": [
+                "A",
+                "Q",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:41:33.515979"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "B",
+                "c",
+                "H",
+                "L",
+                "P",
+                "U",
+                "Y"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.73,
+            "sequence": "GPHSMRYYETATSRRGLGEPRYTSVGYVDDKEFVRFDSDAENPRYEPQVPWMEQEGPEYWERITQVAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQRMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLRTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNG"
+        },
+        "peptide": {
+            "chains": [
+                "Q",
+                "G",
+                "f",
+                "K",
+                "O",
+                "T",
+                "X",
+                "b"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "QLSPFPFDL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "SVTQPDARVTVSEGASLQLRCKYSYSATPYLFWYVQYPRQGPQLLLKYYSGDPVVQGVNGFEAEFSKSNSSFHLRKASVHRSDSAVYFCAVSDPPPLLTFGSGTKVIVL",
+            "subgroup": "TRAV9"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "EAAVTQSPRNKVAVTGEKVTLSCNQTNNHNNMYWYRQDTGHELRLIYYSYGAGSTEKGDIPDGYKASRPSQENFSLTLESATPSQTSVYFCASGGGGTLYFGAGTRLSVLS",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-08-07",
+        "deposition_year": 2008,
+        "release_date": "2008-11-04",
+        "release_year": 2008,
+        "revision_date": "2021-10-20",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "truncated_class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-l",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3E3Q | Truncated H2-Ld presenting \"QLSPFPFDL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "3e3q",
+    "pdb_title": "Structure of the 3alpham13 high-affinity mutant of the 2c TCR in complex with ld/ql9",
+    "peptide": {
+        "G": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "G",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        },
+        "K": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "K",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        },
+        "O": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "O",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        },
+        "T": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "T",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        },
+        "X": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "X",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        },
+        "b": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "b",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        },
+        "f": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "f",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "QLSPFPFDL",
+    "publication": {
+        "abstract": "T cells are known to cross-react with diverse peptide MHC Ags through their alphabeta TCR. To explore the basis of such cross-reactivity, we examined the 2C TCR that recognizes two structurally distinct ligands, SIY-K(b) and alloantigen QL9-L(d). In this study we characterized the cross-reactivity of several high-affinity 2C TCR variants that contained mutations only in the CDR3alpha loop. Two of the TCR lost their ability to cross-react with the reciprocal ligand (SIY-K(b)), whereas another TCR (m67) maintained reactivity with both ligands. Crystal structures of four of the TCRs in complex with QL9-L(d) showed that CDR1, CDR2, and CDR3beta conformations and docking orientations were remarkably similar. Although the CDR3alpha loop of TCR m67 conferred a 2000-fold higher affinity for SIY-K(b), the TCR maintained the same docking angle on QL9-L(d) as the 2C TCR. Thus, CDR3alpha dictated the affinity and level of cross-reactivity, yet it did so without affecting the conserved docking orientation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LL",
+                    "lastname": "Jones",
+                    "name": "Jones LL"
+                },
+                {
+                    "initials": "LA",
+                    "lastname": "Colf",
+                    "name": "Colf LA"
+                },
+                {
+                    "initials": "JD",
+                    "lastname": "Stone",
+                    "name": "Stone JD"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Garcia",
+                    "name": "Garcia KC"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Kranz",
+                    "name": "Kranz DM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.181.9.6255",
+                    "type": "doi"
+                },
+                {
+                    "id": "18941216",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "9"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "6255-64"
+            ],
+            "title": "Distinct CDR3 conformations in TCRs determine the level of cross-reactivity for diverse antigens, but not the docking orientation.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.181.9.6255",
+            "volume": [
+                "181"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.95",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3e3q"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3e3q"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3e3q"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV9"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "3e3q"
+    },
+    "title": "Truncated H2-Ld presenting \"QLSPFPFDL\" to Alpha/Beta T cell receptor at 2.95&#8491; resolution",
+    "unique_chain_count": 4
+}

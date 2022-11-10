@@ -1,0 +1,202 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1zsd_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:42.674470"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EPLPQGQLTAY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-05-24",
+        "deposition_year": 2005,
+        "release_date": "2005-06-07",
+        "release_year": 2005,
+        "revision_date": "2018-01-31",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1ZSD | HLA-B*35:01 binding \"EPLPQGQLTAY\"",
+    "pdb_code": "1zsd",
+    "pdb_title": "Crystal structure of hla-b*3501 presenting an 11-mer ebv antigen EPLPQGQLTAY",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "EPLPQGQLTAY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "EPLPQGQLTAY"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "EPLPQGQLTAY",
+    "publication": {
+        "abstract": "MHC class I molecules generally present peptides of 8-10 aa long, forming an extended coil in the HLA cleft. Although longer peptides can also bind to class I molecules, they tend to bulge from the cleft and it is not known whether the TCR repertoire has sufficient plasticity to recognize these determinants during the antiviral CTL response. In this study, we show that unrelated individuals infected with EBV generate a significant CTL response directed toward an HLA-B*3501-restricted, 11-mer epitope from the BZLF1 Ag. The 11-mer determinant adopts a highly bulged conformation with seven of the peptide side chains being solvent-exposed and available for TCR interaction. Such a complex potentially creates a structural challenge for TCR corecognition of both HLA-B*3501 and the peptide Ag. Surprisingly, unrelated B*3501 donors recognizing the 11-mer use identical or closely related alphabeta TCR sequences that share particular CDR3 motifs. Within the small number of dominant CTL clonotypes observed, each has discrete fine specificity for the exposed side chain residues of the peptide. The data show that bulged viral peptides are indeed immunogenic but suggest that the highly constrained TCR repertoire reflects a limit to TCR diversity when responding to some unusual MHC peptide ligands.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Elhassen",
+                    "name": "Elhassen D"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Borg",
+                    "name": "Borg NA"
+                },
+                {
+                    "initials": "SL",
+                    "lastname": "Silins",
+                    "name": "Silins SL"
+                },
+                {
+                    "initials": "FE",
+                    "lastname": "Tynan",
+                    "name": "Tynan FE"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Burrows",
+                    "name": "Burrows JM"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.175.6.3826",
+                    "type": "doi"
+                },
+                {
+                    "id": "16148129",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "3826-34"
+            ],
+            "title": "CTL recognition of a bulged viral peptide involves biased TCR selection.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.175.6.3826",
+            "volume": [
+                "175"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1zsd"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1zsd"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:01 binding \"EPLPQGQLTAY\" at 1.70&#8491; resolution",
+    "unique_chain_count": 3
+}

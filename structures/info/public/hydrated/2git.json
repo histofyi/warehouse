@@ -1,0 +1,209 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2git_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:35:55.629323"
+        },
+        "2": {
+            "assembly_name": "2git_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:35:56.121110"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLFGKPVYV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2006-03-29",
+        "deposition_year": 2006,
+        "release_date": "2006-10-03",
+        "release_year": 2006,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2GIT | HLA-A*02:01 binding \"LLFGKPVYV\"",
+    "pdb_code": "2git",
+    "pdb_title": "Human Class I MHC hla-a2 in complex with the modified htlv-1 tax (y5k-4-[3-indolyl]-butyric acid) peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGKPVYV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGKPVYV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGKPVYV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGKPVYV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LLFGKPVYV",
+    "publication": {
+        "abstract": "Although T cell receptor cross-reactivity is a fundamental property of the immune system and is implicated in numerous autoimmune pathologies, the molecular mechanisms by which T cell receptors can recognize and respond to diverse ligands are incompletely understood. In the current study we examined the response of the human T cell lymphotropic virus-1 (HTLV-1) Tax-specific T cell receptor (TCR) A6 to a panel of structurally distinct haptens coupled to the Tax 11-19 peptide with a lysine substitution at position 5 (Tax5K, LLFG[K-hapten]PVYV). The A6 TCR could cross-reactively recognize one of these haptenated peptides, Tax-5K-4-(3-Indolyl)-butyric acid (IBA), presented by HLA-A*0201. The crystal structures of Tax5K-IBA/HLA-A2 free and in complex with A6 reveal that binding is mediated by a mechanism of cooperative conformational plasticity involving conformational changes on both sides of the protein-protein interface, including the TCR complementarity determining region (CDR) loops, Valpha/Vbeta domain orientation, and the hapten-modified peptide. Our findings illustrate the complex role that protein dynamics can play in TCR cross-reactivity and highlight that T cell receptor recognition of ligand can be achieved through diverse and complex molecular mechanisms that can occur simultaneously in the interface, not limited to molecular mimicry and CDR loop shifts.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SJ",
+                    "lastname": "Gagnon",
+                    "name": "Gagnon SJ"
+                },
+                {
+                    "initials": "OY",
+                    "lastname": "Borbulevych",
+                    "name": "Borbulevych OY"
+                },
+                {
+                    "initials": "RL",
+                    "lastname": "Davis-Harrison",
+                    "name": "Davis-Harrison RL"
+                },
+                {
+                    "initials": "RV",
+                    "lastname": "Turner",
+                    "name": "Turner RV"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Damirjian",
+                    "name": "Damirjian M"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Wojnarowicz",
+                    "name": "Wojnarowicz A"
+                },
+                {
+                    "initials": "WE",
+                    "lastname": "Biddison",
+                    "name": "Biddison WE"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jmb.2006.08.045",
+                    "type": "doi"
+                },
+                {
+                    "id": "16962135",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "228-43"
+            ],
+            "title": "T cell receptor recognition via cooperative conformational plasticity.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283606010734",
+            "volume": [
+                "363"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2git"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2git"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"LLFGKPVYV\" at 1.70&#8491; resolution",
+    "unique_chain_count": 3
+}

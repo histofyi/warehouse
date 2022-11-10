@@ -1,0 +1,242 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6cyw_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:02.173813"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-04-06",
+        "deposition_year": 2018,
+        "release_date": "2019-04-10",
+        "release_year": 2019,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6CYW | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "6cyw",
+    "pdb_title": "Structure of sphingomyelin in complex with mouse CD1d",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Invariant natural killer T (iNKT) cells recognize activating self and microbial lipids presented by CD1d. CD1d can also bind non-activating lipids, such as sphingomyelin. We hypothesized that these serve as endogenous regulators and investigated humans and mice deficient in acid sphingomyelinase (ASM), an enzyme that degrades sphingomyelin. We show that ASM absence in mice leads to diminished CD1d-restricted antigen presentation and iNKT cell selection in the thymus, resulting in decreased iNKT cell levels and resistance to iNKT cell-mediated inflammatory conditions. Defective antigen presentation and decreased iNKT cells are also observed in ASM-deficient humans with Niemann-Pick disease, and ASM activity in healthy humans correlates with iNKT cell phenotype. Pharmacological ASM administration facilitates antigen presentation and restores the levels of iNKT cells in ASM-deficient mice. Together, these results demonstrate that control of non-agonistic CD1d-associated lipids is critical for iNKT cell development and function in vivo and represents a tight link between cellular sphingolipid metabolism and immunity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "E",
+                    "lastname": "Melum",
+                    "name": "Melum E"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Jiang",
+                    "name": "Jiang X"
+                },
+                {
+                    "initials": "KD",
+                    "lastname": "Baker",
+                    "name": "Baker KD"
+                },
+                {
+                    "initials": "MF",
+                    "lastname": "Macedo",
+                    "name": "Macedo MF"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Fritsch",
+                    "name": "Fritsch J"
+                },
+                {
+                    "initials": "CM",
+                    "lastname": "Dowds",
+                    "name": "Dowds CM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Pharo",
+                    "name": "Pharo A"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Kaser",
+                    "name": "Kaser A"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Tan",
+                    "name": "Tan C"
+                },
+                {
+                    "initials": "CS",
+                    "lastname": "Pereira",
+                    "name": "Pereira CS"
+                },
+                {
+                    "initials": "SL",
+                    "lastname": "Kelly",
+                    "name": "Kelly SL"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Duan",
+                    "name": "Duan J"
+                },
+                {
+                    "initials": "TH",
+                    "lastname": "Karlsen",
+                    "name": "Karlsen TH"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Exley",
+                    "name": "Exley MA"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Sch\u00fctze",
+                    "name": "Sch\u00fctze S"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "AH",
+                    "lastname": "Merrill",
+                    "name": "Merrill AH"
+                },
+                {
+                    "initials": "EH",
+                    "lastname": "Schuchman",
+                    "name": "Schuchman EH"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Zeissig",
+                    "name": "Zeissig S"
+                },
+                {
+                    "initials": "RS",
+                    "lastname": "Blumberg",
+                    "name": "Blumberg RS"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41590-019-0504-0",
+                    "type": "doi"
+                },
+                {
+                    "id": "31636468",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "1644-1655"
+            ],
+            "title": "Control of CD1d-restricted antigen presentation and inflammation by sphingomyelin.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41590-019-0504-0",
+            "volume": [
+                "20"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.95",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6cyw"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6cyw"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 1.95&#8491; resolution",
+    "unique_chain_count": 2
+}

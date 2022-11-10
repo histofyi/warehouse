@@ -1,0 +1,182 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA00230",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:09",
+            "slug": "hla_b_27_09",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1of2_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:20.613893"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQHAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RRKWRRWHL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2003-04-04",
+        "deposition_year": 2003,
+        "release_date": "2004-01-29",
+        "release_year": 2004,
+        "revision_date": "2019-07-24",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1OF2 | HLA-B*27:09 binding \"RRKWRRWHL\"",
+    "pdb_code": "1of2",
+    "pdb_title": "Crystal structure of hla-b*2709 complexed with the vasoactive intestinal peptide type 1 receptor (vipr) peptide (residues 400-408)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RRKWRRWHL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RRKWRRWHL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RRKWRRWHL",
+    "publication": {
+        "abstract": "The products of the human leukocyte antigen subtypes HLA-B*2705 and HLA-B*2709 differ only in residue 116 (Asp vs. His) within the peptide binding groove but are differentially associated with the autoimmune disease ankylosing spondylitis (AS); HLA-B*2705 occurs in AS-patients, whereas HLA-B*2709 does not. The subtypes also generate differential T cell repertoires as exemplified by distinct T cell responses against the self-peptide pVIPR (RRKWRRWHL). The crystal structures described here show that pVIPR binds in an unprecedented dual conformation only to HLA-B*2705 molecules. In one binding mode, peptide pArg5 forms a salt bridge to Asp116, connected with drastically different interactions between peptide and heavy chain, contrasting with the second, conventional conformation, which is exclusively found in the case of B*2709. These subtype-dependent differences in pVIPR binding link the emergence of dissimilar T cell repertoires in individuals with HLA-B*2705 or HLA-B*2709 to the buried Asp116/His116 polymorphism and provide novel insights into peptide presentation by major histocompatibility antigens.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "H\u00fclsmeyer",
+                    "name": "H\u00fclsmeyer M"
+                },
+                {
+                    "initials": "MT",
+                    "lastname": "Fiorillo",
+                    "name": "Fiorillo MT"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Bettosini",
+                    "name": "Bettosini F"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Sorrentino",
+                    "name": "Sorrentino R"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Saenger",
+                    "name": "Saenger W"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Ziegler",
+                    "name": "Ziegler A"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Uchanska-Ziegler",
+                    "name": "Uchanska-Ziegler B"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20031690",
+                    "type": "doi"
+                },
+                {
+                    "id": "14734527",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "271-81"
+            ],
+            "title": "Dual, HLA-B27 subtype-dependent conformation of a self-peptide.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/199/2/271/40039/Dual-HLAB27-Subtypedependent-Conformation-of-a",
+            "volume": [
+                "199"
+            ],
+            "year": [
+                2004
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1of2"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1of2"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:09 binding \"RRKWRRWHL\" at 2.20&#8491; resolution",
+    "unique_chain_count": 3
+}

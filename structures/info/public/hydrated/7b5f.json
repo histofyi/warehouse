@@ -1,0 +1,188 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01897",
+            "locus": "h2-l",
+            "match_type": "histo:exact",
+            "name": "H2-Ld",
+            "slug": "h2_ld",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7b5f_1",
+            "chains": [
+                "C",
+                "D",
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:27:36.681038"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "echovirus_protein_1": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:override",
+            "sequence": "GDNQDRTVANTQPSGPSNSTEIPALTAVETGHTSQVDPSDTIQTRHVVNFHSRSESTIENFMGRAACVFMDQYKINGEETSTDRFAVWTINIREMAQLRRKCEMFTYMRFDIEMTMVITSCQDQGTILDQDMPVLTHQIMYVPPGGPIPAKVDGYEWQTSTNPSVFWTEGNAPPRISIPFISVGNAYSSFYDGWSHFTQDGTYGYTTLNAMGKLYIRHVNRSSPHQITSTIRVYFKPKHIKAWVPRPPRLCPYINKRDVNFVVTEITDSRTSITDTPHPEHSVLATH"
+        },
+        "echovirus_protein_2": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:override",
+            "sequence": "SPSAEECGYSDRVRSMTLGNSTITTQESANVVVGYGEWPSYLSDREATAEDQPTQPDVATCRFYTLESVQWEKTSPGWWWKFPEALKNMGLFGQNMHYHYLGRAGYTIHVQCNASKFHQGCLLVVCVPEAEMGCADTDTTFPATELTTEDTPHVFTSDSITGKKVQAAVCNAGMGVGVGNLTIFPHQWINLRTNNSATIVIPYINSVPMDNMFRHYNFTLMIIPFAPLNFTDGATAYVPITVTIAPMYAEYNGLRLASTQ"
+        },
+        "echovirus_protein_3": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:override",
+            "sequence": "GVPVLNTPGSNQFLTSDDYQSPSAMPQFDETPEMHIPGEVRNLMEIAEVDSVVPVNNVTGKTKSMDAYQIPVGTGNTDKTKPIFSFQMDPGYSSVLKRTLLGEMLNYYAHWSGSVKLTFLFCGSAMATGKLLISYSPPGASVPTSRKDAMLGTHIVWDIGLQSSCVLCVPWISQSHYRMVQQDPYTSAGYITCWYQTNIVVPPGAPTSCDVLCFASACNDFSVRLLRDTPFMAQPGKLQ"
+        },
+        "echovirus_protein_4": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:override",
+            "sequence": "MGAQVSTQKTGAHETSLSAKGNSIIHYTNINFYKDAASSASNRQDIQQDPGKFTDPVKDLMIKTLPALN"
+        },
+        "fcrn": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "AESHLSLLYHLTAVSSPAPGTPAFWVSGWLGPQQYLSYNSLRGEAEPCGAWVWENQVSWYWEKETTDLRIKEKLFLEAFKALGGKGPYTLQGLLGCELGPDNTSVPTAKFALNGEEFMNFDLKQGTWGGDWPEALAISQRWQQQDKAANKELTFLLFSCPHRLREHLERGRGNLEWKEPPSMRLKARPSSPGFSVLTCSAFSFYPPELQLRFLRNGLAAGTGQGDFGPNSDGSFHASSSLTVKSGDEHHYCCIVQHAGLAQPLRVEL"
+        },
+        "note": "four proteins from echovirus with fcrn"
+    },
+    "chronology": {
+        "deposition_date": "2020-12-03",
+        "deposition_year": 2020,
+        "release_date": "2022-01-12",
+        "release_year": 2022,
+        "revision_date": "2022-01-12",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "fcrn_with_echovirus_proteins",
+    "components": [
+        "fcrn",
+        "beta2m",
+        "echovirus_protein_1",
+        "echovirus_protein_2",
+        "echovirus_protein_3",
+        "echovirus_protein_4"
+    ],
+    "experimental_method": "Electron Microscopy",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-l",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7B5F | Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) in complex with echovirus 18 proteins",
+    "pdb_code": "7b5f",
+    "pdb_title": "Structure of echovirus 18 in complex with neonatal Fc receptor",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Buchta, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Levdansky, Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Fuzik, T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Mukhamedova, L."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Moravcova, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Hrebik, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Andersen, J.T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Plevka, P."
+                }
+            ],
+            "identifier": [],
+            "title": "Structure of echovirus 18 in complex with neonatal Fc receptor",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7b5f"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7b5f"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) in complex with echovirus 18 proteins at 2.90&#8491; resolution",
+    "unique_chain_count": 5
+}

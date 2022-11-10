@@ -1,0 +1,176 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:NHP08956",
+            "locus": "mamu-b",
+            "match_type": "histo:fuzzy",
+            "name": "Mamu-B*098:08",
+            "slug": "mamu_b_098_08",
+            "species_stem": "Mamu"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6lah_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:28:01.193382"
+        },
+        "2": {
+            "assembly_name": "6lah_2",
+            "chains": [
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:28:01.704470"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "AIQRTPKIQVYSRHPPENGKPNFLNCYVSGFHPSDIEVDLLKNGEKMGKVEHSDLSFSKDWSFYLLYYTEFTPNEKDEYACRVNHVTLSGPRTVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.87,
+            "sequence": "AGSHSMRYFSTTVSRPGRGEPRFIVVGYVDDTQFVRFDSDAASPKMEPRAPWMEQEGPEYWEEQTRRVKDAAQTFRVSLGNLRGYYNQSEAGSHTLQTMSGCDLGPDGRLLRGYYQQAYDGRDYIALNEDLRSWTAADEAAQNTQRKWEAAGVAEQWRAYLEGECLESLRRYLENGKETLQRAEPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPGGDGTFQKWGAVVVPSGEEQRYTCHVQHEGLPEPLTLRWEP"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-11-12",
+        "deposition_year": 2019,
+        "release_date": "2020-04-22",
+        "release_year": 2020,
+        "revision_date": "2020-05-27",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_possibly_without_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "mamu-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6LAH | Mamu-B*098:08 possibly without \"peptide\"",
+    "pdb_code": "6lah",
+    "pdb_title": "Crystal structure of rhesus macaque MHC Class I molecule mamu-b*098 complexed with lysophosphatidylcholine",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Newly synthesized major histocompatibility complex (MHC) class I proteins are stabilized in the endoplasmic reticulum (ER) by binding 8-10-mer-long self-peptide antigens that are provided by transporter associated with antigen processing (TAP). These MHC class I:peptide complexes then exit the ER and reach the plasma membrane, serving to sustain the steady-state MHC class I expression on the cell surface. A novel subset of MHC class I molecules that preferentially bind lipid-containing ligands rather than conventional peptides was recently identified. The primate classical MHC class I allomorphs, Mamu-B*098 and Mamu-B*05104, are capable of binding the <i>N</i>-myristoylated 5-mer (C14-Gly-Gly-Ala-Ile-Ser) or 4-mer (C14-Gly-Gly-Ala-Ile) lipopeptides derived from the <i>N</i>-myristoylated SIV Nef protein, respectively, and of activating lipopeptide antigen-specific cytotoxic T lymphocytes. We herein demonstrate that Mamu-B*098 samples lysophosphatidylethanolamine and lysophosphatidylcholine containing up to a C20 fatty acid in the ER. The X-ray crystal structures of Mamu-B*098 and Mamu-B*05104 complexed with lysophospholipids at high resolution revealed that the B and D pockets in the antigen-binding grooves of these MHC class I molecules accommodate these lipids through a monoacylglycerol moiety. Consistent with the capacity to bind cellular lipid ligands, these two MHC class I molecules did not require TAP function for cell-surface expression. Collectively, these results indicate that peptide- and lipopeptide-presenting MHC class I subsets use distinct sources of endogenous ligands.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Shima",
+                    "name": "Shima Y"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Morita",
+                    "name": "Morita D"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mizutani",
+                    "name": "Mizutani T"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Mori",
+                    "name": "Mori N"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Mikami",
+                    "name": "Mikami B"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sugita",
+                    "name": "Sugita M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.RA119.011932",
+                    "type": "doi"
+                },
+                {
+                    "id": "32269076",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Crystal structures of lysophospholipid-bound MHC class I molecules.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925817482019",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.87",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6lah"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6lah"
+        }
+    },
+    "species": {
+        "common_name": "rhesus monkey",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Macaca mulatta",
+        "slug": "macaca_mulatta"
+    },
+    "tcr": null,
+    "title": "Mamu-B*098:08 possibly without \"peptide\" at 1.87&#8491; resolution",
+    "unique_chain_count": 2
+}

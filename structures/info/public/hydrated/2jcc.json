@@ -1,0 +1,228 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2jcc_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:35:08.433851"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "I"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEALRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "J"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ALWGFFPVL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MDSVTQTEGLVTLTEGLPVMLNCTYQSTYSPFLFWYVQHLNEAPKLLLKSFTDNKRPEHQGFHATLHKSSSSFHLQKSSAQLSDSALYYCALFLASSSFSKLVFGQGTSLSVVPNIQNPEPAVYQLKDPRSQDSTLCLFTDFDSQINVPKTMESGTFITDKTVLDMKAMDSKSNGAIAWSNQTSFTCQDIFKET",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRSKVAVTGGKVTLSCHQTNNHDYMYWYRQDTGHGLRLIHYSYVADSTEKGDIPDGYKASRPSQENFSLILELASLSQTAVYFCASSDWVSYEQYFGPGTRLTVLEDLRNVTPPKVSLFEPSKAEIANKQKATLVCLARGFFPDHVELSWWVNGKEVHSGVSTDPQAYKESNYSYALSSRLRVSATFWHNPRNHFRCQVQFHGLSEEDKWPEGSPKPVTQNISAEAWGRA",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2006-12-21",
+        "deposition_year": 2006,
+        "release_date": "2007-10-09",
+        "release_year": 2007,
+        "revision_date": "2020-02-05",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2JCC | HLA-A*02:01 presenting \"ALWGFFPVL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "2jcc",
+    "pdb_title": "Ah3 recognition of mutant hla-a2 w167a",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ALWGFFPVL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ALWGFFPVL"
+        },
+        "J": {
+            "actual_length": 9,
+            "actual_sequence": "ALWGFFPVL",
+            "chain_id": "J",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ALWGFFPVL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ALWGFFPVL",
+    "publication": {
+        "abstract": "The keystone of the adaptive immune response is T cell receptor (TCR) recognition of peptide presented by major histocompatibility complex (pMHC) molecules. The crystal structure of AHIII TCR bound to MHC, HLA-A2, showed a large interface with an atypical binding orientation. MHC mutations in the interface of the proteins were tested for changes in TCR recognition. From the range of responses observed, three representative HLA-A2 mutants, T163A, W167A, and K66A, were selected for further study. Binding constants and co-crystal structures of the AHIII TCR and the three mutants were determined. K66 in HLA-A2 makes contacts with both peptide and TCR, and has been identified as a critical residue for recognition by numerous TCR. The K66A mutation resulted in the lowest AHIII T cell response and the lowest binding affinity, which suggests that the T cell response may correlate with affinity. Importantly, the K66A mutation does not affect the conformation of the peptide. The change in affinity appears to be due to a loss in hydrogen bonds in the interface as a result of a conformational change in the TCR complementarity-determining region 3 (CDR3) loop. Isothermal titration calorimetry confirmed the loss of hydrogen bonding by a large loss in enthalpy. Our findings are inconsistent with the notion that the CDR1 and CDR2 loops of the TCR are responsible for MHC restriction, while the CDR3 loops interact solely with the peptide. Instead, we present here an MHC mutation that does not change the conformation of the peptide, yet results in an altered conformation of a CDR3.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "PJ",
+                    "lastname": "Miller",
+                    "name": "Miller PJ"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Pazy",
+                    "name": "Pazy Y"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Conti",
+                    "name": "Conti B"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Riddle",
+                    "name": "Riddle D"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Appella",
+                    "name": "Appella E"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Collins",
+                    "name": "Collins EJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jmb.2007.07.028",
+                    "type": "doi"
+                },
+                {
+                    "id": "17825839",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "315-27"
+            ],
+            "title": "Single MHC mutation eliminates enthalpy associated with T cell receptor binding.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283607009540",
+            "volume": [
+                "373"
+            ],
+            "year": [
+                2007
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2jcc"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2jcc"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=2jcc"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "F"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "2jcc"
+    },
+    "title": "HLA-A*02:01 presenting \"ALWGFFPVL\" to Alpha/Beta T cell receptor at 2.50&#8491; resolution",
+    "unique_chain_count": 5
+}

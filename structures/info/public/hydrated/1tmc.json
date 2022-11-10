@@ -1,0 +1,167 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34091",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*68:01",
+            "slug": "hla_a_68_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1tmc_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:30:25.192337"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.72,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDRNTRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQMMYGCDVGSDGRFLRGYRQDAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQWRAYLEGTCVEWLRRYLENG"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EVAPPEYHRK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1994-12-19",
+        "deposition_year": 1994,
+        "release_date": "1995-03-31",
+        "release_year": 1995,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1TMC | HLA-A*68:01 binding \"EVAPPEYHRK\"",
+    "pdb_code": "1tmc",
+    "pdb_title": "The three-dimensional structure of a class I major histocompatibility complex molecule missing the alpha 3 domain of the heavy chain.",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "EVAPPEYHRK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "EVAPPEYHRK"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "EVAPPEYHRK",
+    "publication": {
+        "abstract": "Class I major histocompatibility complex (MHC) molecules are ternary complexes of the soluble serum protein beta 2-microglobulin, MHC heavy chain, and bound peptide. The first two domains (alpha 1, alpha 2) of the heavy chain create the peptide binding cleft and the surface that contacts the T-cell receptor. The third domain (alpha 3) associates with the T-cell co-receptor, CD8, during T-cell recognition. Here we describe the x-ray crystal structure of a human class I MHC molecule, HLA-Aw68, from which the alpha 3 domain has been proteolytically removed. The resulting molecule shows no gross morphological changes compared to the intact protein. A decameric peptide complexed with the intact HLA-Aw68 is seen to bind to the proteolized molecule in the conventional manner, demonstrating that the alpha 3 domain is not required for the structural integrity of the molecule or for peptide binding.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "EJ",
+                    "lastname": "Collins",
+                    "name": "Collins EJ"
+                },
+                {
+                    "initials": "DN",
+                    "lastname": "Garboczi",
+                    "name": "Garboczi DN"
+                },
+                {
+                    "initials": "MN",
+                    "lastname": "Karpusas",
+                    "name": "Karpusas MN"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Wiley",
+                    "name": "Wiley DC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.92.4.1218",
+                    "type": "doi"
+                },
+                {
+                    "id": "7862664",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "1218-21"
+            ],
+            "title": "The three-dimensional structure of a class I major histocompatibility complex molecule missing the alpha 3 domain of the heavy chain.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.92.4.1218",
+            "volume": [
+                "92"
+            ],
+            "year": [
+                1995
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1tmc"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1tmc"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*68:01 binding \"EVAPPEYHRK\" at 2.30&#8491; resolution",
+    "unique_chain_count": 3
+}

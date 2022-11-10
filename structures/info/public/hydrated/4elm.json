@@ -1,0 +1,211 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:SLA06100",
+            "locus": "sla-1",
+            "match_type": "histo:exact",
+            "name": "SLA-1*01:01",
+            "slug": "sla_1_01_01",
+            "species_stem": "SLA"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4elm_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:43:37.644542"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MQQKVQQSPESLSVPEGGMASLNCTSSDRNFQYFWWYRQHSGEGPKALMSIFSDGDKKEGRFTAHLNKASLHVSLHIRDSQPSDSALYFCAASEQNNYAQGLTFGLGTRVSVFPYIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV7"
+        },
+        "tcr_beta": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGPKVLQIPSHQIIDMGQMVTLNCDPVSNHLYFYWYKQILGQQMEFLVNFYNGKVMEKSKLFKDQFSVERPDGSYFTLKIQPTALEDSAVYFCASSFWGAYAEQFFGPGTRLTVLEDLRNVTPPKVSLFEPSKAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+            "subgroup": "TRBV3"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-04-11",
+        "deposition_year": 2012,
+        "release_date": "2012-07-25",
+        "release_year": 2012,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "sla-1",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4ELM | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "4elm",
+    "pdb_title": "Crystal structure of the mouse CD1d-lysosulfatide-hy19.3 TCR complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Selective metal coordination is central to the functions of metalloproteins:<sup>1,2</sup> each metalloprotein must pair with its cognate metallocofactor to fulfil its biological role<sup>3</sup>. However, achieving metal selectivity solely through a three-dimensional protein structure is a great challenge, because there is a limited set of metal-coordinating amino acid functionalities and proteins are inherently flexible, which impedes steric selection of metals<sup>3,4</sup>. Metal-binding affinities of natural proteins are primarily dictated by the electronic properties of metal ions and follow the Irving-Williams series<sup>5</sup> (Mn<sup>2+</sup>\u2009<\u2009Fe<sup>2+</sup>\u2009<\u2009Co<sup>2+</sup>\u2009<\u2009Ni<sup>2+</sup>\u2009<\u2009Cu<sup>2+</sup>\u2009>\u2009Zn<sup>2+</sup>) with few exceptions<sup>6,7</sup>. Accordingly, metalloproteins overwhelmingly bind Cu<sup>2+</sup> and Zn<sup>2+</sup> in isolation, regardless of the nature of their active sites and their cognate metal ions<sup>1,3,8</sup>. This led organisms to evolve complex homeostatic machinery and non-equilibrium strategies to achieve correct metal speciation<sup>1,3,8-10</sup>. Here we report an artificial dimeric protein, (AB)<sub>2</sub>, that thermodynamically overcomes the Irving-Williams restrictions in vitro and in cells, favouring the binding of lower-Irving-Williams transition metals over Cu<sup>2+</sup>, the most dominant ion in the Irving-Williams series. Counter to the convention in molecular design of achieving specificity through structural preorganization, (AB)<sub>2</sub> was deliberately designed to be flexible. This flexibility enabled (AB)<sub>2</sub> to adopt mutually exclusive, metal-dependent conformational states, which led to the discovery of structurally coupled coordination sites that disfavour Cu<sup>2+</sup> ions by enforcing an unfavourable coordination geometry. Aside from highlighting flexibility as a valuable element in protein design, our results illustrate design principles for constructing selective metal sequestration agents.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "E",
+                    "lastname": "Girardi",
+                    "name": "Girardi E"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Maricic",
+                    "name": "Maricic I"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "TT",
+                    "lastname": "Mac",
+                    "name": "Mac TT"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Iyer",
+                    "name": "Iyer P"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Kumar",
+                    "name": "Kumar V"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.2371",
+                    "type": "doi"
+                },
+                {
+                    "id": "22820602",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "9"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "851-6"
+            ],
+            "title": "Type II natural killer T cells use features of both innate-like and conventional T cells to recognize sulfatide self antigens.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.2371",
+            "volume": [
+                "13"
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.48",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4elm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4elm"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4elm"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRAV7"
+        },
+        "beta": {
+            "chains": [
+                "F"
+            ],
+            "subgroup": "TRBV3"
+        },
+        "pdb_code": "4elm"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 3.48&#8491; resolution",
+    "unique_chain_count": 4
+}

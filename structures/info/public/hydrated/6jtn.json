@@ -1,0 +1,212 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35375",
+            "locus": "hla-c",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-C*08:02",
+            "slug": "hla_c_08_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6jtn_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:10.248696"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRD"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SHSMRYFYTAVSRPGRGEPRFIAVGYVDDTQFVQFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVSLRNLRGYYNQSEAGSHTLQRMYGCDLGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADKAAQITQRKWEAAREAEQRRAYLEGTCVEWLRRYLENGKKTLQRAEHPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GADGVGKSAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-04-11",
+        "deposition_year": 2019,
+        "release_date": "2020-04-15",
+        "release_year": 2020,
+        "revision_date": "2021-02-17",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-c",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6JTN | HLA-C*08:02 binding \"GADGVGKSAL\"",
+    "pdb_code": "6jtn",
+    "pdb_title": "Crystal structure of hla-c08 in complex with a tumor mut10m peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "GADGVGKSAL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "GADGVGKSAL"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "GADGVGKSAL",
+    "publication": {
+        "abstract": "Genetic mutations lead to the production of mutated proteins from which peptides are presented to T cells as cancer neoantigens. Evidence suggests that T cells that target neoantigens are the main mediators of effective cancer immunotherapies. Although algorithms have been used to predict neoantigens, only a minority are immunogenic. The factors that influence neoantigen immunogenicity are not completely understood. Here, we classified human neoantigen/neopeptide data into three categories based on their TCR-pMHC binding events. We observed a conservative mutant orientation of the anchor residue from immunogenic neoantigens which we termed the \"NP\" rule. By integrating this rule with an existing prediction algorithm, we found improved performance in neoantigen prioritization. To better understand this rule, we solved several neoantigen/MHC structures. These structures showed that neoantigens that follow this rule not only increase peptide-MHC binding affinity but also create new TCR-binding features. These molecular insights highlight the value of immune-based classification in neoantigen studies and may enable the design of more effective cancer immunotherapies.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "P",
+                    "lastname": "Bai",
+                    "name": "Bai P"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Li",
+                    "name": "Li Y"
+                },
+                {
+                    "initials": "Q",
+                    "lastname": "Zhou",
+                    "name": "Zhou Q"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Xia",
+                    "name": "Xia J"
+                },
+                {
+                    "initials": "PC",
+                    "lastname": "Wei",
+                    "name": "Wei PC"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Deng",
+                    "name": "Deng H"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Wu",
+                    "name": "Wu M"
+                },
+                {
+                    "initials": "SK",
+                    "lastname": "Chan",
+                    "name": "Chan SK"
+                },
+                {
+                    "initials": "JW",
+                    "lastname": "Kappler",
+                    "name": "Kappler JW"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Zhou",
+                    "name": "Zhou Y"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Tran",
+                    "name": "Tran E"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Marrack",
+                    "name": "Marrack P"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Yin",
+                    "name": "Yin L"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1080/2162402X.2020.1868130",
+                    "type": "doi"
+                },
+                {
+                    "id": "33537173",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Oncoimmunology",
+                "name": ""
+            },
+            "pages": [
+                "1868130"
+            ],
+            "title": "Immune-based mutation classification enables neoantigen prioritization and immune feature discovery in cancer immunotherapy.",
+            "type": "article",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/2162402X.2020.1868130",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6jtn"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6jtn"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-C*08:02 binding \"GADGVGKSAL\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

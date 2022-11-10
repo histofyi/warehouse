@@ -1,0 +1,261 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6wl2_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:43.493263"
+        },
+        "2": {
+            "assembly_name": "6wl2_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:33:43.990591"
+        },
+        "3": {
+            "assembly_name": "6wl2_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:33:44.291946"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.8,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQECPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGQDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSP"
+        },
+        "peptide": {
+            "chains": [
+                "B",
+                "E",
+                "H"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RGYVYQGL"
+        },
+        "pre_tcr_beta": {
+            "chains": [
+                "C",
+                "F",
+                "I"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "DSGVVQSPRHIIKEKGGRSVLTCIPISGHSNVVWYQQTLGKELKFLIQHYEKVERDKGFLPCRFSVQQFDDYHSEMNMSALELEDSAMYFCASSLRWGDEQYFGPGTRLTVVEDLRNVTPPKVSLREPSKAEIANKQKATLQCQARGFFPDHVELSWWVNGKEVHSGVSTDPQAYKESNYSYSLSSRLRVSATFWHNPRNHFRCQVQFHGLSEEDKWPEGSPKPVTQNISAEAWGRADS"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-04-18",
+        "deposition_year": 2020,
+        "release_date": "2020-12-23",
+        "release_year": 2020,
+        "revision_date": "2021-01-20",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "truncated_class_i_with_peptide_and_pre_tcr_beta",
+    "components": [
+        "class_i_alpha",
+        "peptide",
+        "pre_tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6WL2 | Truncated H2-Kb binding \"RGYVYQGL\" with pre TCR beta chain",
+    "pdb_code": "6wl2",
+    "pdb_title": "PreTCRbeta-pMHC complex crystal structure",
+    "peptide": {
+        "B": {
+            "actual_length": 8,
+            "actual_sequence": "RGYVYQGL",
+            "chain_id": "B",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RGYVYQGL"
+        },
+        "E": {
+            "actual_length": 8,
+            "actual_sequence": "RGYVYQGL",
+            "chain_id": "E",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RGYVYQGL"
+        },
+        "H": {
+            "actual_length": 8,
+            "actual_sequence": "RGYVYQGL",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RGYVYQGL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RGYVYQGL",
+    "publication": {
+        "abstract": "Self-discrimination, a critical but ill-defined molecular process programmed during thymocyte development, requires myriad pre-T cell receptors (preTCRs) and \u03b1\u03b2TCRs. Using x-ray crystallography, we show how a preTCR applies the concave \u03b2-sheet surface of its single variable domain (V\u03b2) to \"horizontally\" grab the protruding MHC \u03b12-helix. By contrast, \u03b1\u03b2TCRs purpose all six complementarity-determining region (CDR) loops of their paired V\u03b1V\u03b2 module to recognize peptides bound to major histocompatibility complex molecules (pMHCs) in \"vertical\" head-to-head binding. The preTCR topological fit ensures that CDR3\u03b2 reaches the peptide's featured C-terminal segment for pMHC sampling, establishing the subsequent \u03b1\u03b2TCR canonical docking mode. \"Horizontal\" docking precludes germline CDR1\u03b2- and CDR2\u03b2-MHC binding to broaden \u03b2-chain repertoire diversification before \u03b1\u03b2TCR-mediated selection refinement. Thus, one subunit successively attunes the recognition logic of related multicomponent receptors.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "X",
+                    "lastname": "Li",
+                    "name": "Li X"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Mizsei",
+                    "name": "Mizsei R"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Tan",
+                    "name": "Tan K"
+                },
+                {
+                    "initials": "RJ",
+                    "lastname": "Mallis",
+                    "name": "Mallis RJ"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Duke-Cohan",
+                    "name": "Duke-Cohan JS"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Akitsu",
+                    "name": "Akitsu A"
+                },
+                {
+                    "initials": "PW",
+                    "lastname": "Tetteh",
+                    "name": "Tetteh PW"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Dubey",
+                    "name": "Dubey A"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Hwang",
+                    "name": "Hwang W"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Wagner",
+                    "name": "Wagner G"
+                },
+                {
+                    "initials": "MJ",
+                    "lastname": "Lang",
+                    "name": "Lang MJ"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Arthanari",
+                    "name": "Arthanari H"
+                },
+                {
+                    "initials": "JH",
+                    "lastname": "Wang",
+                    "name": "Wang JH"
+                },
+                {
+                    "initials": "EL",
+                    "lastname": "Reinherz",
+                    "name": "Reinherz EL"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/science.abe0918",
+                    "type": "doi"
+                },
+                {
+                    "id": "33335016",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Science",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Pre-T cell receptors topologically sample self-ligands during thymocyte \ufffd\ufffd-selection.",
+            "type": "article",
+            "url": "https://www.science.org/doi/10.1126/science.abe0918",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6wl2"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6wl2"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Truncated H2-Kb binding \"RGYVYQGL\" with pre TCR beta chain at 3.30&#8491; resolution",
+    "unique_chain_count": 3
+}

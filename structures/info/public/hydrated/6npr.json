@@ -1,0 +1,224 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6npr_1",
+            "chains": [
+                "A",
+                "B",
+                "R"
+            ],
+            "downloaded_at": "2022-11-09T14:29:32.056184"
+        },
+        "2": {
+            "assembly_name": "6npr_2",
+            "chains": [
+                "C",
+                "D",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:29:32.602249"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.87,
+            "sequence": "SHSLRYFVTAVSRPGFGEPRYMEVGYVDNTEFVRFDSDAENPRYEPRARWIEQEGPEYWERETRRAKGNEQSFRVDLRTALRCYNQSAGGSHTLQWMAGCDVESDGRLLRGYWQFAYDGSDYIALNEDLKTWTAADMCAQITRRKWEQAGAAERDRAYLEGECVEWLRRYLKNGNATLLRTDPPKAHVTHHRRPEGDVTLRCWALGFYPADITLTWQLNGEELTQEMELVETRPAGDGTFQKWASVVVPLGKEQKYTCHVEHEGLPEPLTLRWGKE"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "R"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RGPGRAFVTI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-01-18",
+        "deposition_year": 2019,
+        "release_date": "2020-01-22",
+        "release_year": 2020,
+        "revision_date": "2020-01-22",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6NPR | H2-Dd binding \"RGPGRAFVTI\"",
+    "pdb_code": "6npr",
+    "pdb_title": "Crystal structure of h-2dd with c84-c139 disulfide in complex with gp120 derived peptide p18-i10",
+    "peptide": {
+        "P": {
+            "actual_length": 10,
+            "actual_sequence": "RGPGRAFVTI",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RGPGRAFVTI"
+        },
+        "R": {
+            "actual_length": 10,
+            "actual_sequence": "RGPGRAFVTI",
+            "chain_id": "R",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RGPGRAFVTI"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RGPGRAFVTI",
+    "publication": {
+        "abstract": "The interplay between a highly polymorphic set of MHC-I alleles and molecular chaperones shapes the repertoire of peptide antigens displayed on the cell surface for T cell surveillance. Here, we demonstrate that the molecular chaperone TAP-binding protein related (TAPBPR) associates with a broad range of partially folded MHC-I species inside the cell. Bimolecular fluorescence complementation and deep mutational scanning reveal that TAPBPR recognition is polarized toward the \u03b1<sub>2</sub> domain of the peptide-binding groove, and depends on the formation of a conserved MHC-I disulfide epitope in the \u03b1<sub>2</sub> domain. Conversely, thermodynamic measurements of TAPBPR binding for a representative set of properly conformed, peptide-loaded molecules suggest a narrower MHC-I specificity range. Using solution NMR, we find that the extent of dynamics at \"hotspot\" surfaces confers TAPBPR recognition of a sparsely populated MHC-I state attained through a global conformational change. Consistently, restriction of MHC-I groove plasticity through the introduction of a disulfide bond between the \u03b1<sub>1</sub>/\u03b1<sub>2</sub> helices abrogates TAPBPR binding, both in solution and on a cellular membrane, while intracellular binding is tolerant of many destabilizing MHC-I substitutions. Our data support parallel TAPBPR functions of 1) chaperoning unstable MHC-I molecules with broad allele-specificity at early stages of their folding process, and 2) editing the peptide cargo of properly conformed MHC-I molecules en route to the surface, which demonstrates a narrower specificity. Our results suggest that TAPBPR exploits localized structural adaptations, both near and distant to the peptide-binding groove, to selectively recognize discrete conformational states sampled by MHC-I alleles, toward editing the repertoire of displayed antigens.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AC",
+                    "lastname": "McShan",
+                    "name": "McShan AC"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "Devlin",
+                    "name": "Devlin CA"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Overall",
+                    "name": "Overall SA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Park",
+                    "name": "Park J"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Toor",
+                    "name": "Toor JS"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Moschidi",
+                    "name": "Moschidi D"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Flores-Solis",
+                    "name": "Flores-Solis D"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Choi",
+                    "name": "Choi H"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tripathi",
+                    "name": "Tripathi S"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Procko",
+                    "name": "Procko E"
+                },
+                {
+                    "initials": "NG",
+                    "lastname": "Sgourakis",
+                    "name": "Sgourakis NG"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1915562116",
+                    "type": "doi"
+                },
+                {
+                    "id": "31796585",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "51"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "25602-25613"
+            ],
+            "title": "Molecular determinants of chaperone interactions on MHC-I for folding and antigen repertoire selection.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1915562116",
+            "volume": [
+                "116"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.37",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6npr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6npr"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Dd binding \"RGPGRAFVTI\" at 2.37&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,238 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34091",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*68:01",
+            "slug": "hla_a_68_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6pbh_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:49.909513"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "MGSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDRNTRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQMMYGCDVGSDGRFLRGYRQDAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQWRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPSS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "DATYQRTRALVR"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-06-13",
+        "deposition_year": 2019,
+        "release_date": "2019-12-11",
+        "release_year": 2019,
+        "revision_date": "2020-01-22",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6PBH | HLA-A*68:01 binding \"DATYQRTRALVR\"",
+    "pdb_code": "6pbh",
+    "pdb_title": "Crystal structure of hla-a*68:01 in complex with np145-156, a 12 mer influenza peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 7,
+            "actual_sequence": "DATALVR",
+            "chain_id": "C",
+            "features": [
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 12,
+            "full_sequence": "DATYQRTRALVR",
+            "gap_ends_at": 9,
+            "gap_length": 5,
+            "gap_sequence": "YQRTR",
+            "gap_start_after": 3,
+            "gapped_sequence": "DAT-----ALVR"
+        }
+    },
+    "peptide_length": 12,
+    "peptide_length_name": "dodecamer",
+    "peptide_sequence": "DATYQRTRALVR",
+    "publication": {
+        "abstract": "Although influenza viruses lead to severe illness in high-risk populations, host genetic factors associated with severe disease are largely unknown. As the HLA-A*68:01 allele can be linked to severe pandemic 2009-H1N1 disease, we investigate a potential impairment of HLA-A*68:01-restricted CD8<sup>+</sup> T cells to mount robust responses. We elucidate the HLA-A*68:01<sup>+</sup>CD8<sup>+</sup> T\u00a0cell response directed toward an extended influenza-derived nucleoprotein (NP) peptide and show that only ~35% individuals have immunodominant A68/NP<sub>145</sub><sup>+</sup>CD8<sup>+</sup> T\u00a0cell responses. Dissecting A68/NP<sub>145</sub><sup>+</sup>CD8<sup>+</sup> T cells in low vs. medium/high responders reveals that high responding donors have A68/NP<sub>145</sub><sup>+</sup>CD8<sup>+</sup> memory T cells with clonally expanded TCR\u03b1\u03b2s, while low-responders display A68/NP<sub>145</sub><sup>+</sup>CD8<sup>+</sup> T cells with predominantly na\u00efve phenotypes and non-expanded TCR\u03b1\u03b2s. Single-cell index sorting and TCR\u03b1\u03b2 analyses link expansion of A68/NP<sub>145</sub><sup>+</sup>CD8<sup>+</sup> T cells to their memory potential. Our study demonstrates the immunodominance potential of influenza-specific CD8<sup>+</sup> T cells presented by a risk HLA-A*68:01 molecule and advocates for priming CD8<sup>+</sup> T\u00a0cell compartments in HLA-A*68:01-expressing individuals for establishment of pre-existing protective memory T\u00a0cell pools.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "CE",
+                    "lastname": "van de Sandt",
+                    "name": "van de Sandt CE"
+                },
+                {
+                    "initials": "EB",
+                    "lastname": "Clemens",
+                    "name": "Clemens EB"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Grant",
+                    "name": "Grant EJ"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Rowntree",
+                    "name": "Rowntree LC"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Sant",
+                    "name": "Sant S"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Halim",
+                    "name": "Halim H"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Crowe",
+                    "name": "Crowe J"
+                },
+                {
+                    "initials": "AC",
+                    "lastname": "Cheng",
+                    "name": "Cheng AC"
+                },
+                {
+                    "initials": "TC",
+                    "lastname": "Kotsimbos",
+                    "name": "Kotsimbos TC"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Richards",
+                    "name": "Richards M"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Miller",
+                    "name": "Miller A"
+                },
+                {
+                    "initials": "SYC",
+                    "lastname": "Tong",
+                    "name": "Tong SYC"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "THO",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen THO"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Chen",
+                    "name": "Chen W"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kedzierska",
+                    "name": "Kedzierska K"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-019-13346-4",
+                    "type": "doi"
+                },
+                {
+                    "id": "31811120",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "5579"
+            ],
+            "title": "Challenging immunodominance of influenza-specific CD8<sub>+</sub> T cell responses restricted by the risk-associated HLA-A*68:01 allomorph.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-019-13346-4",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.89",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6pbh"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6pbh"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*68:01 binding \"DATYQRTRALVR\" at 1.89&#8491; resolution",
+    "unique_chain_count": 3
+}

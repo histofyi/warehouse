@@ -1,0 +1,182 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:RT108344",
+            "locus": "rano-a",
+            "match_type": "histo:exact",
+            "name": "Rano-A*av1",
+            "slug": "rano_a_av1",
+            "species_stem": "Rano"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1kjm_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:35:14.137050"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNFLNCYVSQFHPPQIEIELLKNGKKIPNIEMSDLSFSKDWSFYILAHTEFTPTETDVYACRVKHVTLKEPKTVTWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "GSHSLRYFYTAVSRPGLGEPRFIAVGYVDDTEFVRFDSDAENPRMEPRARWMEREGPEYWEQQTRIAKEWEQIYRVDLRTLRGYYNQSEGGSHTIQEMYGCDVGSDGSLLRGYRQDAYDGRDYIALNEDLKTWTAADFAAQITRNKWERARYAERLRAYLEGTCVEWLSRYLELGKETLLRSDPPEAHVTLHPRPEGDVTLRCWALGFYPADITLTWQLNGEDLTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVEHEGLPKPLSQRWEPLLEHHHHHH"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AQFSASASR"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2001-12-04",
+        "deposition_year": 2001,
+        "release_date": "2002-12-18",
+        "release_year": 2002,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "rano-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1KJM | Rano-A*av1 binding \"AQFSASASR\"",
+    "pdb_code": "1kjm",
+    "pdb_title": "Tap-a-associated rat MHC Class I molecule",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "AQFSASASR",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "AQFSASASR"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "AQFSASASR",
+    "publication": {
+        "abstract": "Antigenic peptides are loaded onto class I MHC molecules in the endoplasmic reticulum (ER) by a complex consisting of the MHC class I heavy chain, beta(2)-microglobulin, calreticulin, tapasin, Erp57 (ER60) and the transporter associated with antigen processing (TAP). While most mammalian species transport these peptides into the ER via a single allele of TAP, rats have evolved different TAPs, TAP-A and TAP-B, that are present in different inbred strains. Each TAP delivers a different spectrum of peptides and is associated genetically with distinct subsets of MHC class Ia alleles, but the molecular basis for the conservation (or co-evolution) of the two transporter alleles is unknown. We have determined the crystal structures of a representative of each MHC subset, viz RT1-A(a) and RT1-A1(c), in association with high-affinity nonamer peptides. The structures reveal how the chemical properties of the two different rat MHC F-pockets match those of the corresponding C termini of the peptides, corroborating biochemical data on the rates of peptide-MHC complex assembly. An unusual sequence in RT1-A1(c) leads to a major deviation from the highly conserved beta(3)/alpha(1) loop (residues 40-59) conformation in mouse and human MHC class I structures. This loop change contributes to profound changes in the shape of the A-pocket in the peptide-binding groove and may explain the function of RT1-A1(c) as an inhibitory natural killer cell ligand.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MG",
+                    "lastname": "Rudolph",
+                    "name": "Rudolph MG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Stevens",
+                    "name": "Stevens J"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Speir",
+                    "name": "Speir JA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Trowsdale",
+                    "name": "Trowsdale J"
+                },
+                {
+                    "initials": "GW",
+                    "lastname": "Butcher",
+                    "name": "Butcher GW"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Joly",
+                    "name": "Joly E"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s0022-2836(02)01095-1",
+                    "type": "doi"
+                },
+                {
+                    "id": "12470953",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "975-90"
+            ],
+            "title": "Crystal structures of two rat MHC class Ia (RT1-A) molecules that are associated differentially with peptide transporter alleles TAP-A and TAP-B.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283602010951",
+            "volume": [
+                "324"
+            ],
+            "year": [
+                2002
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.35",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1kjm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1kjm"
+        }
+    },
+    "species": {
+        "common_name": "Norway Rat",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Rattus norvegicus",
+        "slug": "rattus_norvegicus"
+    },
+    "tcr": null,
+    "title": "Rano-A*av1 binding \"AQFSASASR\" at 2.35&#8491; resolution",
+    "unique_chain_count": 3
+}

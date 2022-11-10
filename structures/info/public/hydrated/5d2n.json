@@ -1,0 +1,233 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5d2n_1",
+            "chains": [
+                "C",
+                "F",
+                "H",
+                "L",
+                "G"
+            ],
+            "downloaded_at": "2022-11-09T14:33:45.047210"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "L",
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "H",
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "G",
+                "I"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "NLVPMVATV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MDAKTTQPNSMESNEEEPVHLPCNHSTISGTDYIHWYRQLPSQGPEYVIHGLTSNVNNRMASLAIAEDRKSSTLILHRATLRDAAVYYCILDNNNDMRFGAGTRLTVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV26"
+        },
+        "tcr_beta": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGAGVSQSPRYKVTKRGQDVALRCDPISGHVSLYWYRQALGQGPEFLTYFNYEAQQDKSGLPNDRFSAERPEGSISTLTIQRTEQRDSAMYRCASSLAPGTTNEKLFFGSGTQLSVLEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV7"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-08-05",
+        "deposition_year": 2015,
+        "release_date": "2015-10-07",
+        "release_year": 2015,
+        "revision_date": "2019-12-11",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5D2N | HLA-A*02:01 presenting \"NLVPMVATV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "5d2n",
+    "pdb_title": "Crystal structure of c25-nlv-hla-a2 complex",
+    "peptide": {
+        "G": {
+            "actual_length": 9,
+            "actual_sequence": "NLVPMVATV",
+            "chain_id": "G",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "NLVPMVATV"
+        },
+        "I": {
+            "actual_length": 9,
+            "actual_sequence": "NLVPMVATV",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "NLVPMVATV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "NLVPMVATV",
+    "publication": {
+        "abstract": "Cytomegalovirus (CMV) is a ubiquitous and persistent human pathogen that is kept in check by CD8(+) cytotoxic T lymphocytes. Individuals expressing the major histocompatibility complex (MHC) class I molecule HLA-A2 produce cytotoxic T lymphocytes bearing T cell receptors (TCRs) that recognize the immunodominant CMV epitope NLVPMVATV (NLV). The NLV-specific T cell repertoire is characterized by a high prevalence of TCRs that are frequently observed in multiple unrelated individuals. These public TCRs feature identical, or nearly identical, complementarity-determining region 3\u03b1 (CDR3\u03b1) and/or CDR3\u03b2 sequences. The TCRs may express public CDR3\u03b1 motifs alone, public CDR3\u03b2 motifs alone, or dual public CDR3\u03b1\u03b2 motifs. In addition, the same public CDR3\u03b1 motif may pair with different CDR3\u03b2 motifs (and the reverse), giving rise to highly diverse NLV-specific TCR repertoires. To investigate the structural underpinnings of this clonal diversity, we determined crystal structures of two public TCRs (C7 and C25) in complex with NLV\u00b7HLA-A2. These TCRs utilize completely different CDR3\u03b1 and CDR3\u03b2 motifs that, in addition, can associate with multiple variable \u03b1 and variable \u03b2 regions in NLV-specific T cell repertoires. The C7\u00b7NLV\u00b7HLA-A2 and C25\u00b7NLV\u00b7HLA-A2 complexes exhibit divergent TCR footprints on peptide-MHC such that C25 is more focused on the central portion of the NLV peptide than is C7. These structures combined with molecular modeling show how the public CDR3\u03b1 motif of C25 may associate with different variable \u03b1 regions and how the public CDR3\u03b1 motif of C7 may pair with different CDR3\u03b2 motifs. This interchangeability of TCR V regions and CDR3 motifs permits multiple structural solutions to binding an identical peptide-MHC ligand and thereby the generation of a clonally diverse public T cell response to CMV.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "X",
+                    "lastname": "Yang",
+                    "name": "Yang X"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Gao",
+                    "name": "Gao M"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Chen",
+                    "name": "Chen G"
+                },
+                {
+                    "initials": "BG",
+                    "lastname": "Pierce",
+                    "name": "Pierce BG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lu",
+                    "name": "Lu J"
+                },
+                {
+                    "initials": "NP",
+                    "lastname": "Weng",
+                    "name": "Weng NP"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Mariuzza",
+                    "name": "Mariuzza RA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m115.691311",
+                    "type": "doi"
+                },
+                {
+                    "id": "26429912",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "48"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "29106-19"
+            ],
+            "title": "Structural Basis for Clonal Diversity of the Public T Cell Response to a Dominant Human Cytomegalovirus Epitope.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820412347",
+            "volume": [
+                "290"
+            ],
+            "year": [
+                2015
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5d2n"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5d2n"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5d2n"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV26"
+        },
+        "beta": {
+            "chains": [
+                "F"
+            ],
+            "subgroup": "TRBV7"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "5d2n"
+    },
+    "title": "HLA-A*02:01 presenting \"NLVPMVATV\" to Alpha/Beta T cell receptor at 2.10&#8491; resolution",
+    "unique_chain_count": 5
+}

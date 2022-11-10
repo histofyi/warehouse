@@ -1,0 +1,207 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7r7y_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:12.098690"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "QATQEVKNW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-06-25",
+        "deposition_year": 2021,
+        "release_date": "2022-06-29",
+        "release_year": 2022,
+        "revision_date": "2022-06-29",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7R7Y | HLA-B*57:01 binding \"QATQEVKNW\"",
+    "pdb_code": "7r7y",
+    "pdb_title": "Crystal structure of hla-b*5701 complex with an hiv-1 gag-derived epitope qw9 s3t variant",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "QATQEVKNW",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QATQEVKNW"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "QATQEVKNW",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Li, X.L."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Singh, N.K."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Ng, R."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Lamothe-Molina, P.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Shahinian, P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Xu, S.T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Tan, K.M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Zhang, A.Z."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Piechocka-Trocha, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Weber, J.K."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Collins, D.R."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gaiha, G."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Mbah, O.C.T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Huynh, T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Zhou, R.H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Walker, B.D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Wang, J.H."
+                }
+            ],
+            "identifier": [],
+            "title": "Molecular basis of differential HLA-restricted immune recognition of a highly networked viral peptide",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7r7y"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7r7y"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:01 binding \"QATQEVKNW\" at 1.60&#8491; resolution",
+    "unique_chain_count": 3
+}

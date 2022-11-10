@@ -1,0 +1,182 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34811",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:05",
+            "slug": "hla_b_27_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1uxs_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:28.124521"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQDAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RRRWRRLTV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2004-03-01",
+        "deposition_year": 2004,
+        "release_date": "2004-11-09",
+        "release_year": 2004,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1UXS | HLA-B*27:05 binding \"RRRWRRLTV\"",
+    "pdb_code": "1uxs",
+    "pdb_title": "Crystal structure of hla-b*2705 complexed with the latent membrane protein 2 peptide (lmp2)of epstein-barr virus",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RRRWRRLTV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RRRWRRLTV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RRRWRRLTV",
+    "publication": {
+        "abstract": "Molecular mimicry is discussed as a possible mechanism that may contribute to the development of autoimmune diseases. It could also be involved in the differential association of the human major histocompatibility subtypes HLA-B(*)2705 and HLA-B(*)2709 with ankylosing spondylitis. These two subtypes differ only in residue 116 of the heavy chain (Asp in B(*)2705 and His in B(*)2709), but the reason for the differential disease association is not understood. Using x-ray crystallography, we show here that the viral peptide pLMP2 (RRRWRRLTV, derived from latent membrane protein 2 (residues 236-244) of Epstein-Barr virus) is presented by the B(*)2705 and B(*)2709 molecules in two drastically deviating conformations. Extensive structural similarity between pLMP2 and the self-peptide pVIPR (RRKWRRWHL, derived from vasoactive intestinal peptide type 1 receptor (residues 400-408)) is observed only when the peptides are presented by B(*)2705 because of a salt bridge between Arg(5) of both peptides and the subtype-specific heavy chain residue Asp(116). Combined with functional studies using pLMP2/pVIPR-cross-reactive cytotoxic T cell lines and clones, together with target cells presenting these peptides or a modified peptide analogue, our results reveal that a pathogen-derived peptide can exhibit major histocompatibility complex class I subtype-dependent, drastically distinct binding modes. Furthermore, the results demonstrate that molecular mimicry between pLMP2 and pVIPR in the HLA-B27 context is an allele-dependent property.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MT",
+                    "lastname": "Fiorillo",
+                    "name": "Fiorillo MT"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "R\ufffd\ufffdckert",
+                    "name": "R\ufffd\ufffdckert C"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "H\ufffd\ufffdlsmeyer",
+                    "name": "H\ufffd\ufffdlsmeyer M"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Sorrentino",
+                    "name": "Sorrentino R"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Saenger",
+                    "name": "Saenger W"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Ziegler",
+                    "name": "Ziegler A"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Uchanska-Ziegler",
+                    "name": "Uchanska-Ziegler B"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m410807200",
+                    "type": "doi"
+                },
+                {
+                    "id": "15537660",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "2962-71"
+            ],
+            "title": "Allele-dependent similarity between viral and self-peptide presentation by HLA-B27 subtypes.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820763490",
+            "volume": [
+                "280"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.55",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1uxs"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1uxs"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:05 binding \"RRRWRRLTV\" at 1.55&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,243 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35232",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*51:01",
+            "slug": "hla_b_51_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4mji_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:27:38.432349"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRENLRIALRYYNQSEAGSHTWQTMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVEWLRRHLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "H"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "TAFTIPSI"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GEEDPQALSIQEGENATMNCSYKTSINNLQWYRQNSGRGLVHLILIRSNEREKHSGRLRVTLDTSKKSSSLLITASRAADTASYFCATDDDSARQLTFGSGTQLTVLPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTF",
+            "subgroup": "TRAV17"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AGVSQTPSNKVTEKGKYVELRCDPISGHTALYWYRQSLGQGPEFLIYFQGTGAADDSGLPNDRFFAVRPEGSVSTLKIQRTERGDSAVYLCASSLTGGGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV7"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-09-03",
+        "deposition_year": 2013,
+        "release_date": "2014-05-28",
+        "release_year": 2014,
+        "revision_date": "2014-05-28",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4MJI | HLA-B*51:01 presenting \"TAFTIPSI\" to Alpha/Beta T cell receptor",
+    "pdb_code": "4mji",
+    "pdb_title": "Molecular basis of a dominant T cell response to an HIV reverse transcriptase 8-mer epitope presented by the protective allele HLA-B*51:01.",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "TAFTIPSI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "TAFTIPSI"
+        },
+        "H": {
+            "actual_length": 8,
+            "actual_sequence": "TAFTIPSI",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "TAFTIPSI"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "TAFTIPSI",
+    "publication": {
+        "abstract": "CD8(+) CTL responses directed toward the HLA-B*51:01-restricted HIV-RT128-135 epitope TAFTIPSI (TI8) are associated with long-term nonprogression to AIDS. Clonotypic analysis of responses to B51-TI8 revealed a public clonotype using TRAV17/TRBV7-3 TCR genes in six out of seven HLA-B*51:01(+) patients. Structural analysis of a TRAV17/TRBV7-3 TCR in complex with HLA-B51-TI8, to our knowledge the first human TCR complexed with an 8-mer peptide, explained this bias, as the unique combination of residues encoded by these genes was central to the interaction. The relatively featureless peptide-MHC (pMHC) was mainly recognized by the TCR CDR1 and CDR2 loops in an MHC-centric manner. A highly conserved residue Arg(97) in the CDR3\u03b1 loop played a major role in recognition of peptide and MHC to form a stabilizing ball-and-socket interaction with the MHC and peptide, contributing to the selection of the public TCR clonotype. Surface plasmon resonance equilibrium binding analysis showed the low affinity of this public TCR is in accordance with the only other 8-mer interaction studied to date (murine 2C TCR-H-2K(b)-dEV8). Like pMHC class II complexes, 8-mer peptides do not protrude out the MHC class I binding groove like those of longer peptides. The accumulated evidence suggests that weak affinity might be a common characteristic of TCR binding to featureless pMHC landscapes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Motozono",
+                    "name": "Motozono C"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Kuse",
+                    "name": "Kuse N"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Sun",
+                    "name": "Sun X"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Fuller",
+                    "name": "Fuller A"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Oka",
+                    "name": "Oka S"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Takiguchi",
+                    "name": "Takiguchi M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1302667",
+                    "type": "doi"
+                },
+                {
+                    "id": "24600035",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "3428-34"
+            ],
+            "title": "Molecular basis of a dominant T cell response to an HIV reverse transcriptase 8-mer epitope presented by the protective allele HLA-B*51:01.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1302667",
+            "volume": [
+                "192"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.99",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4mji"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4mji"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4mji"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV17"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV7"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "4mji"
+    },
+    "title": "HLA-B*51:01 presenting \"TAFTIPSI\" to Alpha/Beta T cell receptor at 2.99&#8491; resolution",
+    "unique_chain_count": 5
+}

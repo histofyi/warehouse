@@ -1,0 +1,217 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3d25_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:20.262748"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "QRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VLHDDLLEA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-05-07",
+        "deposition_year": 2008,
+        "release_date": "2009-02-10",
+        "release_year": 2009,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3D25 | HLA-A*02:01 binding \"VLHDDLLEA\"",
+    "pdb_code": "3d25",
+    "pdb_title": "Crystal structure of ha-1 minor histocompatibility antigen bound to human Class I MHC hla-a2",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "VLHDDLLEA",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VLHDDLLEA"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VLHDDLLEA",
+    "publication": {
+        "abstract": "T cell recognition of minor histocompatibility antigens (mHags) underlies allogeneic immune responses that mediate graft-versus-host disease and the graft-versus-leukemia effect following stem cell transplantation. Many mHags derive from single amino acid polymorphisms in MHC-restricted epitopes, but our understanding of the molecular mechanisms governing mHag immunogenicity and recognition is incomplete. Here we examined antigenic presentation and T-cell recognition of HA-1, a prototypic autosomal mHag derived from single nucleotide dimorphism (HA-1(H) versus HA-1(R)) in the HMHA1 gene. The HA-1(H) peptide is restricted by HLA-A2 and is immunogenic in HA-1(R/R) into HA-1(H) transplants, while HA-1(R) has been suggested to be a \"null allele\" in terms of T cell reactivity. We found that proteasomal cleavage and TAP transport of the 2 peptides is similar and that both variants can bind to MHC. However, the His>Arg change substantially decreases the stability and affinity of HLA-A2 association, consistent with the reduced immunogenicity of the HA-1(R) variant. To understand these findings, we determined the structure of an HLA-A2-HA-1(H) complex to 1.3A resolution. Whereas His-3 is accommodated comfortably in the D pocket, incorporation of the lengthy Arg-3 is predicted to require local conformational changes. Moreover, a soluble TCR generated from HA-1(H)-specific T-cells bound HA-1(H) peptide with moderate affinity but failed to bind HA-1(R), indicating complete discrimination of HA-1 variants at the level of TCR/MHC interaction. Our results define the molecular mechanisms governing immunogenicity of HA-1, and highlight how single amino acid polymorphisms in mHags can critically affect both MHC association and TCR recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Nicholls",
+                    "name": "Nicholls S"
+                },
+                {
+                    "initials": "KP",
+                    "lastname": "Piper",
+                    "name": "Piper KP"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Mohammed",
+                    "name": "Mohammed F"
+                },
+                {
+                    "initials": "TR",
+                    "lastname": "Dafforn",
+                    "name": "Dafforn TR"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tenzer",
+                    "name": "Tenzer S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Salim",
+                    "name": "Salim M"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Mahendra",
+                    "name": "Mahendra P"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Craddock",
+                    "name": "Craddock C"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "van Endert",
+                    "name": "van Endert P"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Schild",
+                    "name": "Schild H"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Cobbold",
+                    "name": "Cobbold M"
+                },
+                {
+                    "initials": "VH",
+                    "lastname": "Engelhard",
+                    "name": "Engelhard VH"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "Moss",
+                    "name": "Moss PA"
+                },
+                {
+                    "initials": "BE",
+                    "lastname": "Willcox",
+                    "name": "Willcox BE"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.0900411106",
+                    "type": "doi"
+                },
+                {
+                    "id": "19234124",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "3889-94"
+            ],
+            "title": "Secondary anchor polymorphism in the HA-1 minor histocompatibility antigen critically affects MHC stability and TCR recognition.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.0900411106",
+            "volume": [
+                "106"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3d25"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3d25"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"VLHDDLLEA\" at 1.30&#8491; resolution",
+    "unique_chain_count": 3
+}

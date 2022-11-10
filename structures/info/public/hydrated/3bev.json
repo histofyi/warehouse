@@ -1,0 +1,227 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08580",
+            "locus": "gaga-bf2",
+            "match_type": "histo:fuzzy",
+            "name": "Gaga-BF2*021:01",
+            "slug": "gaga_bf2_021_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3bev_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:02.337024"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MDLTPKVQVYSRFPASAGTKNVLNCFAAGFHPPKISITLMKDGVPMEGAQYSDMSFNDDWTFQRLVHADFTPSSGSTYACKVEHETLKEPQVYKWDPEF"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "ELHTLRYIRTAMTDPGPGLPWFVDVGYVDGELFMHYNSTARRAVPRTEWIAANTDQQYWDRETQIVQGSEQINRENLDILRRRYNQTGGSHTVQWMSGCDILEDGTIRGYHQAAYDGRDFVAFDKGTMTLTAAVPEAVPTKRKWEEGGYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERPEVRVWGKEADGILTLSCRAHGFYPRPIVVSWLKDGAVRGQDAQSGGIVPNGDGTYHTWVTIDAQPGDGDKYQCRVEHASLPQPGLYSWRSGG"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GHAEEYGAETL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2007-11-20",
+        "deposition_year": 2007,
+        "release_date": "2008-01-01",
+        "release_year": 2008,
+        "revision_date": "2017-10-25",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3BEV | Gaga-BF2*021:01 binding \"GHAEEYGAETL\"",
+    "pdb_code": "3bev",
+    "pdb_title": "Structures of an MHC class I molecule from B21 chickens illustrate promiscuous peptide binding.",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "GHAEEYGAETL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "GHAEEYGAETL"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "GHAEEYGAETL",
+    "publication": {
+        "abstract": "Little is known about the structure of major histocompatibility complex (MHC) molecules outside of mammals. Only one class I molecule in the chicken MHC is highly expressed, leading to strong genetic associations with infectious pathogens. Here, we report two structures of the MHC class I molecule BF2*2101 from the B21 haplotype, which is known to confer resistance to Marek's disease caused by an oncogenic herpesvirus. The binding groove has an unusually large central cavity, which confers substantial conformational flexibility to the crucial residue Arg9, allowing remodeling of key peptide-binding sites. The coupled variation of anchor residues from the peptide, utilizing a charge-transfer system unprecedented in MHC molecules, allows peptides with conspicuously different sequences to be bound. This promiscuous binding extends our understanding of ways in which MHC class I molecules can present peptides to the immune system and might explain the resistance of the B21 haplotype to Marek's disease.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Koch",
+                    "name": "Koch M"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Camp",
+                    "name": "Camp S"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Collen",
+                    "name": "Collen T"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Avila",
+                    "name": "Avila D"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Salomonsen",
+                    "name": "Salomonsen J"
+                },
+                {
+                    "initials": "HJ",
+                    "lastname": "Wallny",
+                    "name": "Wallny HJ"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "van Hateren",
+                    "name": "van Hateren A"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Hunt",
+                    "name": "Hunt L"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Jacob",
+                    "name": "Jacob JP"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Johnston",
+                    "name": "Johnston F"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Marston",
+                    "name": "Marston DA"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Shaw",
+                    "name": "Shaw I"
+                },
+                {
+                    "initials": "PR",
+                    "lastname": "Dunbar",
+                    "name": "Dunbar PR"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Cerundolo",
+                    "name": "Cerundolo V"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Kaufman",
+                    "name": "Kaufman J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.immuni.2007.11.007",
+                    "type": "doi"
+                },
+                {
+                    "id": "18083574",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "885-99"
+            ],
+            "title": "Structures of an MHC class I molecule from B21 chickens illustrate promiscuous peptide binding.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761307005419",
+            "volume": [
+                "27"
+            ],
+            "year": [
+                2007
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3bev"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3bev"
+        }
+    },
+    "species": {
+        "common_name": "Chicken",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Gallus gallus",
+        "slug": "gallus_gallus"
+    },
+    "tcr": null,
+    "title": "Gaga-BF2*021:01 binding \"GHAEEYGAETL\" at 2.10&#8491; resolution",
+    "unique_chain_count": 3
+}

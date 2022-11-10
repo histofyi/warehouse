@@ -1,0 +1,191 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1c16_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:27:56.847449"
+        },
+        "2": {
+            "assembly_name": "1c16_2",
+            "chains": [
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:27:57.226277"
+        },
+        "3": {
+            "assembly_name": "1c16_3",
+            "chains": [
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:27:57.744665"
+        },
+        "4": {
+            "assembly_name": "1c16_4",
+            "chains": [
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:27:58.091424"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "h2-t22": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSLRYFYTAVSRPGLGEPWFIIVGYVDDMQVLRFSSKEETPRMAPWLEQEEADNWEQQTRIVTIQGQLSERNLMTLVHFYNKSMDDSHTLQWLQGCDVEPDRHLCLWYNQLAYDSEDLPTLNENPSSCTVGNSTVPHISQDLKSHCSDLLQKYLEKGKERLLRSDPPKAHVTRHPRPEGDVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWAAVVVPLGKEQSYTCHVYHEGLPEPLILRWGG"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1999-07-20",
+        "deposition_year": 1999,
+        "release_date": "2000-01-26",
+        "release_year": 2000,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "h2-t22",
+    "components": [
+        "h2-t22",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1C16 | Mouse Non-classical MHC Class I molecule H2-T22",
+    "pdb_code": "1c16",
+    "pdb_title": "Crystal structure analysis of the gamma/delta T cell ligand t22",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Murine T10 and T22 are highly related nonclassical major histocompatibility complex (MHC) class Ib proteins that bind to certain gammadelta T cell receptors (TCRs) in the absence of other components. The crystal structure of T22b at 3.1 angstroms reveals similarities to MHC class I molecules, but one side of the normal peptide-binding groove is severely truncated, which allows direct access to the beta-sheet floor. Potential gammadelta TCR-binding sites can be inferred from functional mapping of T10 and T22 point mutants and allelic variants. Thus, T22 represents an unusual variant of the MHC-like fold and indicates that gammadelta and alphabeta TCRs interact differently with their respective MHC ligands.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Wingren",
+                    "name": "Wingren C"
+                },
+                {
+                    "initials": "MP",
+                    "lastname": "Crowley",
+                    "name": "Crowley MP"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Degano",
+                    "name": "Degano M"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chien",
+                    "name": "Chien Y"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/science.287.5451.310",
+                    "type": "doi"
+                },
+                {
+                    "id": "10634787",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5451"
+            ],
+            "journal": {
+                "iso_abbreviation": "Science",
+                "name": ""
+            },
+            "pages": [
+                "310-4"
+            ],
+            "title": "Crystal structure of a gammadelta T cell receptor ligand T22: a truncated MHC-like fold.",
+            "type": "article",
+            "url": "https://www.science.org/doi/10.1126/science.287.5451.310",
+            "volume": [
+                "287"
+            ],
+            "year": [
+                2000
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "3.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1c16"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1c16"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Mouse Non-classical MHC Class I molecule H2-T22 at 3.10&#8491; resolution",
+    "unique_chain_count": 2
+}

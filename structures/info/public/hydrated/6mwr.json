@@ -1,0 +1,348 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6mwr_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:33:18.513646"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_delta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AQKVTQAQSSVSMPVRKAVTLNCLYETSWWSYYIFWYKQLPSKEMIFLIRQGSDEQNAKSGRYSVNFKKAAKSVALTISALQLEDSAKYFCALGVRAFLRDWGIRVLIFGKGTRVTVEPRSQPHTKPSVFVMKNGTNVACLVKEFYPKDIRINLVSSKKITEFDPAIVISPSGKYNAVKLGKYEDSNSVTCSVQHDNKTVHSTDFEVKTDSTDHVKPKETENTKQPSKSASGLVPR",
+            "subgroup": "TRDV1"
+        },
+        "tcr_gamma": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AGHLEQPQISSTKTLSKTARLECVVSGITISATSVYWYRERPGEVIQFLVSISYDGTVRKESGIPSGKFEVDRIPETSTSTLTIHNVEKQDIATYYCALWDRYYKKLFGSGTTLVVTDKQLDADVSPKPTIFLPSIAETKLQKAGTYLCLLEKFFPDVIKIHWQEKKSNTILGSQEGNTMKTNDTYMKFSWLTVPEESLDKEHRCIVRHENNKNGVDQEIIFPPIKTDVITMDPKDNASGLVPR",
+            "subgroup": "TRGV9"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-10-30",
+        "deposition_year": 2018,
+        "release_date": "2019-12-18",
+        "release_year": 2019,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_gamma_delta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_delta",
+        "tcr_gamma"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6MWR | Non-classical MHC Class I molecule MR1 with Gamma/Delta T cell receptor",
+    "pdb_code": "6mwr",
+    "pdb_title": "Recognition of MHC-like molecule",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "T cell receptors (TCRs) recognize antigens presented by major histocompatibility complex (MHC) and MHC class I-like molecules. We describe a diverse population of human \u03b3\u03b4 T cells isolated from peripheral blood and tissues that exhibit autoreactivity to the monomorphic MHC-related protein 1 (MR1). The crystal structure of a \u03b3\u03b4TCR-MR1-antigen complex starkly contrasts with all other TCR-MHC and TCR-MHC-I-like complex structures. Namely, the \u03b3\u03b4TCR binds underneath the MR1 antigen-binding cleft, where contacts are dominated by the MR1 \u03b13 domain. A similar pattern of reactivity was observed for diverse MR1-restricted \u03b3\u03b4TCRs from multiple individuals. Accordingly, we simultaneously report MR1 as a ligand for human \u03b3\u03b4 T cells and redefine the parameters for TCR recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Gherardin",
+                    "name": "Gherardin NA"
+                },
+                {
+                    "initials": "SH",
+                    "lastname": "Ramarathinam",
+                    "name": "Ramarathinam SH"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Awad",
+                    "name": "Awad W"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Wiede",
+                    "name": "Wiede F"
+                },
+                {
+                    "initials": "BS",
+                    "lastname": "Gully",
+                    "name": "Gully BS"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Khandokar",
+                    "name": "Khandokar Y"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Praveena",
+                    "name": "Praveena T"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Wubben",
+                    "name": "Wubben JM"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Sandow",
+                    "name": "Sandow JJ"
+                },
+                {
+                    "initials": "AI",
+                    "lastname": "Webb",
+                    "name": "Webb AI"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "von Borstel",
+                    "name": "von Borstel A"
+                },
+                {
+                    "initials": "MT",
+                    "lastname": "Rice",
+                    "name": "Rice MT"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Redmond",
+                    "name": "Redmond SJ"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Seneviratna",
+                    "name": "Seneviratna R"
+                },
+                {
+                    "initials": "ML",
+                    "lastname": "Sandoval-Romero",
+                    "name": "Sandoval-Romero ML"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Li",
+                    "name": "Li S"
+                },
+                {
+                    "initials": "MNT",
+                    "lastname": "Souter",
+                    "name": "Souter MNT"
+                },
+                {
+                    "initials": "SBG",
+                    "lastname": "Eckle",
+                    "name": "Eckle SBG"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Corbett",
+                    "name": "Corbett AJ"
+                },
+                {
+                    "initials": "HH",
+                    "lastname": "Reid",
+                    "name": "Reid HH"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Liu",
+                    "name": "Liu L"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Fairlie",
+                    "name": "Fairlie DP"
+                },
+                {
+                    "initials": "EM",
+                    "lastname": "Giles",
+                    "name": "Giles EM"
+                },
+                {
+                    "initials": "GP",
+                    "lastname": "Westall",
+                    "name": "Westall GP"
+                },
+                {
+                    "initials": "RW",
+                    "lastname": "Tothill",
+                    "name": "Tothill RW"
+                },
+                {
+                    "initials": "MS",
+                    "lastname": "Davey",
+                    "name": "Davey MS"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Berry",
+                    "name": "Berry R"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Tiganis",
+                    "name": "Tiganis T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "DG",
+                    "lastname": "Pellicci",
+                    "name": "Pellicci DG"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "AP",
+                    "lastname": "Uldrich",
+                    "name": "Uldrich AP"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/science.aav3900",
+                    "type": "doi"
+                },
+                {
+                    "id": "31857486",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6472"
+            ],
+            "journal": {
+                "iso_abbreviation": "Science",
+                "name": ""
+            },
+            "pages": [
+                "1522-1527"
+            ],
+            "title": "A class of \ufffd\ufffd\ufffd\ufffd T cell receptors recognize the underside of the antigen-presenting molecule MR1.",
+            "type": "article",
+            "url": "https://www.science.org/doi/10.1126/science.aav3900",
+            "volume": [
+                "366"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "3.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6mwr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6mwr"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6mwr"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "delta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRDV1"
+        },
+        "gamma": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRGV9"
+        },
+        "pdb_code": "6mwr"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Gamma/Delta T cell receptor at 3.30&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34703",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*40:01",
+            "slug": "hla_b_40_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6iex_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:30:12.703135"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFHTAMSRPGRGEPRFITVGYVDDTLFVRFDSDATSPRKEPRAPWIEQEGPEYWDRETQISKTNTQTYRESLRNLRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQISQRKLEAARVAEQLRAYLEGECVEWLRRYLENGKDKLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GETALALLLL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-09-17",
+        "deposition_year": 2018,
+        "release_date": "2019-09-18",
+        "release_year": 2019,
+        "revision_date": "2021-03-31",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6IEX | HLA-B*40:01 binding \"GETALALLLL\"",
+    "pdb_code": "6iex",
+    "pdb_title": "Crystal structure of hla-b*4001 in complex with sars-cov derived peptide n216-225 GETALALLLL",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "GETALALLLL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "GETALALLLL"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "GETALALLLL",
+    "publication": {
+        "abstract": "The viral peptides presentation by major histocompatibility complex class I (MHC I) molecules play a pivotal role in T-cell recognition and the subsequent virus clearance. This process is delicately adjusted by the variant residues of MHC I, especially the residues in the peptide binding groove (PBG). In a series of MHC I molecules, a salt bridge is formed above the N-terminus of the peptides. However, the potential impact of the salt bridge on peptide binding and T-cell receptor (TCR) recognition of MHC I, as well as the corresponding molecular basis, are still largely unknown. Herein, we determined the structures of HLA-B*4001 and H-2K<sup>d</sup> in which two different types of salt bridges (Arg62-Glu163 or Arg66-Glu163) across the PBG were observed. Although the two salt bridges led to different conformation shifts of both the MHC I \u03b1 helix and the peptides, binding of the peptides with the salt bridge residues was relatively conserved. Furthermore, through a series of in vitro and in vivo investigations, we found that MHC I mutations that disrupt the salt bridge alleviate peptide binding and can weaken the TCR recognition of MHC I-peptide complexes. Our study may provide key references for understanding MHC I-restricted peptide recognition by T-cells.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "W",
+                    "lastname": "Ji",
+                    "name": "Ji W"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Niu",
+                    "name": "Niu L"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Peng",
+                    "name": "Peng W"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Zhang",
+                    "name": "Zhang Y"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Cheng",
+                    "name": "Cheng H"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Gao",
+                    "name": "Gao F"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Shi",
+                    "name": "Shi Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "WJ",
+                    "lastname": "Liu",
+                    "name": "Liu WJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.molimm.2019.06.005",
+                    "type": "doi"
+                },
+                {
+                    "id": "31226552",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Mol Immunol",
+                "name": ""
+            },
+            "pages": [
+                "274-282"
+            ],
+            "title": "Salt bridge-forming residues positioned over viral peptides presented by MHC class I impacts T-cell recognition in a binding-dependent manner.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0161589019300860",
+            "volume": [
+                "112"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.31",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6iex"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6iex"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*40:01 binding \"GETALALLLL\" at 2.31&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,199 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34202",
+            "locus": "hla-e",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-E*01:03",
+            "slug": "hla_e_01_03",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1kpr_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:29:04.927858"
+        },
+        "2": {
+            "assembly_name": "1kpr_2",
+            "chains": [
+                "C",
+                "D",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:29:05.341656"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRFDNDAASPRMVPRAPWMEQEGSEYWDRETRSARDTAQIFRVNLRTLRGYYNQSEAGSHTLQWMHGCELGPDGRFLRGYEQFAYDGKDYLTLNEDLRSWTAVDTAAQISEQKSNDASEAEHQRAYLEDTCVEWLHKYLEKGKETLLHLEPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQQDGEGHTQDTELVETRPAGDGTFQKWAAVVVPSGEEQAYTCHVQHEGLPEPVTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VMAPRTVLL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2002-01-02",
+        "deposition_year": 2002,
+        "release_date": "2003-02-25",
+        "release_year": 2003,
+        "revision_date": "2021-10-27",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-e",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1KPR | HLA-E*01:03 binding \"VMAPRTVLL\"",
+    "pdb_code": "1kpr",
+    "pdb_title": "The human non-classical major histocompatibility complex molecule hla-e",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "VMAPRTVLL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VMAPRTVLL"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "VMAPRTVLL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VMAPRTVLL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VMAPRTVLL",
+    "publication": {
+        "abstract": "Previous studies of HLA-E allelic polymorphism have indicated that balancing selection may be acting to maintain two major alleles in most populations, indicating that a functional difference may exist between the alleles. The alleles differ at only one amino acid position, where an arginine at position 107 in HLA-E*0101 (E(R)) is replaced by a glycine in HLA-E*0103 (E(G)). To investigate possible functional differences, we have undertaken a study of the physical and biochemical properties of these two proteins. By comparing expression levels, we found that whereas steady-state protein levels were similar, the two alleles did in fact differ with respect to cell surface levels. To help explain this difference, we undertook studies of the relative differences in peptide affinity, complex stability, and three-dimensional structure between the alleles. The crystal structures for HLA-E(G) complexed with two distinct peptides were determined, and both were compared with the HLA-E(R) structure. No significant differences in the structure of HLA-E were induced as a result of binding different peptides or by the allelic substitution at position 107. However, there were clear differences in the relative affinity for peptide of each heavy chain, which correlated with and may be explained by differences between their thermal stabilities. These differences were completely consistent with the relative levels of the HLA-E alleles on the cell surface and may indeed correlate with functional differences. This in turn may help explain the apparent balancing selection acting on this locus.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "RK",
+                    "lastname": "Strong",
+                    "name": "Strong RK"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Holmes",
+                    "name": "Holmes MA"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Li",
+                    "name": "Li P"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Braun",
+                    "name": "Braun L"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Lee",
+                    "name": "Lee N"
+                },
+                {
+                    "initials": "DE",
+                    "lastname": "Geraghty",
+                    "name": "Geraghty DE"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M208268200",
+                    "type": "doi"
+                },
+                {
+                    "id": "12411439",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "5082-90"
+            ],
+            "title": "HLA-E allelic variants. Correlating differential expression, peptide affinities, crystal structures, and thermal stabilities.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925819328157",
+            "volume": [
+                "278"
+            ],
+            "year": [
+                2003
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1kpr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1kpr"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-E*01:03 binding \"VMAPRTVLL\" at 2.80&#8491; resolution",
+    "unique_chain_count": 3
+}

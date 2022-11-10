@@ -1,0 +1,174 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5wl1_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:37:00.257933"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "cd1b": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "HAFQGPTSFHVIQTSSFTNSTWAQTQGSGWLDDLQIHGWDSDSGTAIFLKPWSKGNFSDKEVAELEEIFRVYIFGFAREVQDFAGDFQMKYPFEIQGIAGCELHSGGAIVSFLRGALGGLDFLSVKNASCVPSPEGGSRAQKFCALIIQYQGIMETVRILLYETCPRYLLGVLNAGKADLQRQVKPEAWLSSGPSPGPGRLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQLGDILPNANWTWYLRATLDVADGEAAGLSCRVKHSSLEGQDIILYWRGSGLNDIFEAQKIEWHEHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-07-25",
+        "deposition_year": 2017,
+        "release_date": "2017-11-01",
+        "release_year": 2017,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1b",
+    "components": [
+        "cd1b",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5WL1 | Non-classical MHC Class I molecule CD1b",
+    "pdb_code": "5wl1",
+    "pdb_title": "Crystal structure of human CD1b in complex with pg",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Human T cell autoreactivity toward lipid antigens presented by CD1 proteins can manifest in numerous diseases, including psoriasis, contact hypersensitivities, and allergies. However, the molecular mechanisms for regulating T cell autoreactivity toward lipid antigens remain unclear. We determined the basis for T cell receptor (TCR) autoreactivity toward CD1b bound to self-phospholipids. The spectrum of self-antigens captured by CD1b skews toward abundant membrane phospholipids such as phosphatidylcholine and phosphatidylethanolamine. However, TCRs can specifically recognize rare phospholipids, including phosphatidylglycerol (PG). The structure of an autoreactive TCR bound to CD1b-PG shows that discrimination occurs through a marked induced fit movement of PG so that its polar head group fits snugly into the cationic cup of the TCR. Conversely, TCR binding toward ubiquitous self-phospholipids was sterically or electrostatically repelled. Accordingly, we describe a mechanism of TCR autoreactivity toward rare phospholipids and avoidance of autoreactivity to the most abundant self-phospholipids.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Shahine",
+                    "name": "Shahine A"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Van Rhijn",
+                    "name": "Van Rhijn I"
+                },
+                {
+                    "initials": "TY",
+                    "lastname": "Cheng",
+                    "name": "Cheng TY"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Iwany",
+                    "name": "Iwany S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "DB",
+                    "lastname": "Moody",
+                    "name": "Moody DB"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/sciimmunol.aao1384",
+                    "type": "doi"
+                },
+                {
+                    "id": "29054999",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "16"
+            ],
+            "journal": {
+                "iso_abbreviation": "Sci Immunol",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "A molecular basis of human T cell receptor autoreactivity toward self-phospholipids.",
+            "type": "article",
+            "url": "https://www.science.org/doi/10.1126/sciimmunol.aao1384",
+            "volume": [
+                "2"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.38",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5wl1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5wl1"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1b at 1.38&#8491; resolution",
+    "unique_chain_count": 2
+}

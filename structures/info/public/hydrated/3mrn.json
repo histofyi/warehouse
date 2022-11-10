@@ -1,0 +1,152 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3mrn_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:31:07.946660"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPGSLHHILDAQKMVWNHR"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLFNILGGWV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2010-04-29",
+        "deposition_year": 2010,
+        "release_date": "2011-05-25",
+        "release_year": 2011,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3MRN | HLA-A*02:01 binding \"LLFNILGGWV\"",
+    "pdb_code": "3mrn",
+    "pdb_title": "Crystal Structure of MHC class I HLA-A2 molecule complexed with HCV NS4b-1807-1816 decapeptide",
+    "peptide": {
+        "P": {
+            "actual_length": 10,
+            "actual_sequence": "LLFNILGGWV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "LLFNILGGWV"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "LLFNILGGWV",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gras, S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Chouquet, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Echasserieau, K."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Saulquin, X."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Bonneville, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Housset, D."
+                }
+            ],
+            "identifier": [],
+            "title": "Crystal Structure of MHC class I HLA-A2 molecule complexed with HCV NS4b-1807-1816 decapeptide",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3mrn"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3mrn"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"LLFNILGGWV\" at 2.30&#8491; resolution",
+    "unique_chain_count": 3
+}

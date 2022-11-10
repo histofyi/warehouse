@@ -1,0 +1,196 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3rzc_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+            ],
+            "downloaded_at": "2022-11-09T14:43:24.768694"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKTQVEQSPQSLVVRQGENCVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDEGYTQYFGPGTRLLVLEDLRNVTPPKVSLFEPSKAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-05-11",
+        "deposition_year": 2011,
+        "release_date": "2011-08-24",
+        "release_year": 2011,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3RZC | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "3rzc",
+    "pdb_title": "Structure of the self-antigen igb3 bound to mouse CD1d and in complex with the inkt TCR",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Invariant NKT (iNKT) cells expressing a semi-invariant V\u03b114 TCR recognize self and foreign lipid Ags when presented by the nonclassical MHCI homolog CD1d. Whereas the majority of known iNKT cell Ags are characterized by the presence of a single \u03b1-linked sugar, mammalian self Ags are \u03b2-linked glycosphingolipids, posing the interesting question of how the semi-invariant TCR can bind to such structurally distinct ligands. In this study, we show that the mouse iNKT TCR recognizes the complex \u03b2-linked Ag isoglobotrihexosylceramide (iGb3; Gal\u03b11-3-Gal\u03b21-4-Glc\u03b21-1Cer) by forcing the proximal \u03b2-linked sugar of the trisaccharide head group to adopt the typical binding orientation of \u03b1-linked glycolipids. The squashed iGb3 orientation is stabilized by several interactions between the trisaccharide and CD1d residues. Finally, the formation of novel contacts between the proximal and second sugar of iGb3 and CDR2\u03b1 residues of the TCR suggests an expanded recognition logic that can possibly distinguish foreign Ags from self Ags.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "ED",
+                    "lastname": "Yu",
+                    "name": "Yu ED"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Girardi",
+                    "name": "Girardi E"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1101636",
+                    "type": "doi"
+                },
+                {
+                    "id": "21810611",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "2079-83"
+            ],
+            "title": "Cutting edge: structural basis for the recognition of \ufffd\ufffd-linked glycolipid antigens by invariant NKT cells.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1101636",
+            "volume": [
+                "187"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3rzc"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3rzc"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3rzc"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "3rzc"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 2.80&#8491; resolution",
+    "unique_chain_count": 4
+}

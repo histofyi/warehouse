@@ -1,0 +1,277 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2ve6_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:34:26.794158"
+        },
+        "2": {
+            "assembly_name": "2ve6_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:34:27.204762"
+        },
+        "3": {
+            "assembly_name": "2ve6_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:34:27.494745"
+        },
+        "4": {
+            "assembly_name": "2ve6_4",
+            "chains": [
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:34:27.834993"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEPP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F",
+                "I",
+                "L"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "FAPGNYXAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2007-10-17",
+        "deposition_year": 2007,
+        "release_date": "2008-01-22",
+        "release_year": 2008,
+        "revision_date": "2019-05-15",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2VE6 | H2-Db binding \"FAPGNYXAL\"",
+    "pdb_code": "2ve6",
+    "pdb_title": "Crystal structure of a murine MHC Class I H2-Db molecule in complex with a photocleavable peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "FAPGNYAL",
+            "chain_id": "C",
+            "features": [
+                "contains_unnatural",
+                "central_gap"
+            ],
+            "full_length": 9,
+            "full_sequence": "FAPGNYXAL",
+            "gap_ends_at": 8,
+            "gap_length": 1,
+            "gap_sequence": "X",
+            "gap_start_after": 6,
+            "gapped_sequence": "FAPGNY-AL"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "FAPGNYAL",
+            "chain_id": "F",
+            "features": [
+                "contains_unnatural",
+                "central_gap"
+            ],
+            "full_length": 9,
+            "full_sequence": "FAPGNYXAL",
+            "gap_ends_at": 8,
+            "gap_length": 1,
+            "gap_sequence": "X",
+            "gap_start_after": 6,
+            "gapped_sequence": "FAPGNY-AL"
+        },
+        "I": {
+            "actual_length": 8,
+            "actual_sequence": "FAPGNYAL",
+            "chain_id": "I",
+            "features": [
+                "contains_unnatural",
+                "central_gap"
+            ],
+            "full_length": 9,
+            "full_sequence": "FAPGNYXAL",
+            "gap_ends_at": 8,
+            "gap_length": 1,
+            "gap_sequence": "X",
+            "gap_start_after": 6,
+            "gapped_sequence": "FAPGNY-AL"
+        },
+        "L": {
+            "actual_length": 8,
+            "actual_sequence": "FAPGNYAL",
+            "chain_id": "L",
+            "features": [
+                "contains_unnatural",
+                "central_gap"
+            ],
+            "full_length": 9,
+            "full_sequence": "FAPGNYXAL",
+            "gap_ends_at": 8,
+            "gap_length": 1,
+            "gap_sequence": "X",
+            "gap_start_after": 6,
+            "gapped_sequence": "FAPGNY-AL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "FAPGNYXAL",
+    "publication": {
+        "abstract": "Class I MHC tetramers allow direct phenotypic identification of CD8(+) T cell populations, but their production remains laborious. A peptide exchange strategy that employs class I MHC products loaded with conditional ligands (caged MHC molecules) provides a fast and straightforward method to obtain diverse arrays of class I MHC tetramers and facilitates CD8(+) T cell epitope discovery. Here, we describe the development of photocleavable analogs of the FAPGNYPAL (SV9) epitope that bind H-2K(b) and H-2D(b) with full retention of their structural and functional integrity. We ranked all possible H-2K(b) octameric and H-2D(b) nonameric epitopes that span the genome of Chlamydia trachomatis and prepared MHC tetramers from approximately 2,000 of the highest scoring peptides by replacement of the SV9 analog with the peptide of choice. The resulting 2,000-member class I MHC tetramer array allowed the discovery of two variants of an epitope derived from polymorphic membrane protein I (PmpI) and an assessment of the kinetics of emergence and the effector function of the corresponding CD8(+) T cells.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "GM",
+                    "lastname": "Grotenbreg",
+                    "name": "Grotenbreg GM"
+                },
+                {
+                    "initials": "NR",
+                    "lastname": "Roan",
+                    "name": "Roan NR"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Guillen",
+                    "name": "Guillen E"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Meijers",
+                    "name": "Meijers R"
+                },
+                {
+                    "initials": "JH",
+                    "lastname": "Wang",
+                    "name": "Wang JH"
+                },
+                {
+                    "initials": "GW",
+                    "lastname": "Bell",
+                    "name": "Bell GW"
+                },
+                {
+                    "initials": "MN",
+                    "lastname": "Starnbach",
+                    "name": "Starnbach MN"
+                },
+                {
+                    "initials": "HL",
+                    "lastname": "Ploegh",
+                    "name": "Ploegh HL"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.0711504105",
+                    "type": "doi"
+                },
+                {
+                    "id": "18245382",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "3831-6"
+            ],
+            "title": "Discovery of CD8+ T cell epitopes in Chlamydia trachomatis infection through use of caged class I MHC tetramers.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.0711504105",
+            "volume": [
+                "105"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.65",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2ve6"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2ve6"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"FAPGNYXAL\" at 2.65&#8491; resolution",
+    "unique_chain_count": 3
+}

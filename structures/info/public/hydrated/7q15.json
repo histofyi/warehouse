@@ -1,0 +1,129 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34746",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*07:02",
+            "slug": "hla_b_07_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7q15_1",
+            "chains": [
+                "A",
+                "C",
+                "B",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:37:25.169667"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MSRSVALAVLALLSLSGLEAIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "fcrn": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "MGVPRPQPWALGLLLFLLPGSLGAESHLSLLYHLTAVSSPAPGTPAFWVSGWLGPQQYLSYNSLRGEAEPCGAWVWENQVSWYWEKETTDLRIKEKLFLEAFKALGGKGPYTLQGLLGCELGPDNTSVPTAKFALNGEEFMNFDLKQGTWGGDWPEALAISQRWQQQDKAANKELTFLLFSCPHRLREHLERGRGNLEWKEPPSMRLKARPSSPGFSVLTCSAFSFYPPELQLRFLRNGLAAGTGQGDFGPNSDGSFHASSSLTVKSGDEHHYCCIVQHAGLAQPLRVELESPAKSSGTSGLVPRGSGGSGGSGLNDIFEAQKIEWHEGRTKHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-10-18",
+        "deposition_year": 2021,
+        "release_date": "2022-09-28",
+        "release_year": 2022,
+        "revision_date": "2022-09-28",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "fcrn",
+    "components": [
+        "fcrn",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7Q15 | Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn)",
+    "pdb_code": "7q15",
+    "pdb_title": "Crystal structure of FcRn and beta-2-microglobulin in complex with IgG1-Fc-MST-HN (efgartigimod)",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Pannecoucke, E."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Savvides, S.N."
+                }
+            ],
+            "identifier": [],
+            "title": "Crystal structure of FcRn and beta-2-microglobulin in complex with IgG1-Fc-MST-HN (efgartigimod)",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "3.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7q15"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7q15"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) at 3.30&#8491; resolution",
+    "unique_chain_count": 2
+}

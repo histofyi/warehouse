@@ -1,0 +1,313 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34202",
+            "locus": "hla-e",
+            "match_type": "histo:exact",
+            "name": "HLA-E*01:03",
+            "slug": "hla_e_01_03",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6gl1_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:36:07.811704"
+        },
+        "2": {
+            "assembly_name": "6gl1_2",
+            "chains": [
+                "C",
+                "D",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:36:08.253405"
+        },
+        "3": {
+            "assembly_name": "6gl1_3",
+            "chains": [
+                "E",
+                "F",
+                "R"
+            ],
+            "downloaded_at": "2022-11-09T14:36:08.569215"
+        },
+        "4": {
+            "assembly_name": "6gl1_4",
+            "chains": [
+                "G",
+                "H",
+                "T"
+            ],
+            "downloaded_at": "2022-11-09T14:36:08.934252"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRFDNDAASPRMVPRAPWMEQEGSEYWDRETRSARDTAQIFRVNLRTLRGYYNQSEAGSHTLQWMHGCELGPDGRFLRGYEQFAYDGKDYLTLNEDLRSWTAVDTAAQISEQKSNDASEAEHQRAYLEDTCVEWLHKYLEKGKETLLHLEPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQQDGEGHTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPVTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "R",
+                "T",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RMYSPTSIL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-05-22",
+        "deposition_year": 2018,
+        "release_date": "2018-08-08",
+        "release_year": 2018,
+        "revision_date": "2018-08-22",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-e",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6GL1 | HLA-E*01:03 binding \"RMYSPTSIL\"",
+    "pdb_code": "6gl1",
+    "pdb_title": "Hla-e*01:03 in complex with the hiv epitope, rl9hiv",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "RMYSPTSIL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMYSPTSIL"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "RMYSPTSIL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMYSPTSIL"
+        },
+        "R": {
+            "actual_length": 9,
+            "actual_sequence": "RMYSPTSIL",
+            "chain_id": "R",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMYSPTSIL"
+        },
+        "T": {
+            "actual_length": 9,
+            "actual_sequence": "RMYSPTSIL",
+            "chain_id": "T",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMYSPTSIL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RMYSPTSIL",
+    "publication": {
+        "abstract": "The original version of this Article contained an error in the spelling of the author Jonah B Sacha, which was incorrectly given as Jonah Sacha. These errors have now been corrected in both the PDF and HTML versions of the Article.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LC",
+                    "lastname": "Walters",
+                    "name": "Walters LC"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Harlos",
+                    "name": "Harlos K"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Brackenridge",
+                    "name": "Brackenridge S"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Rozbesky",
+                    "name": "Rozbesky D"
+                },
+                {
+                    "initials": "JR",
+                    "lastname": "Barrett",
+                    "name": "Barrett JR"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Jain",
+                    "name": "Jain V"
+                },
+                {
+                    "initials": "TS",
+                    "lastname": "Walter",
+                    "name": "Walter TS"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "O'Callaghan",
+                    "name": "O'Callaghan CA"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Borrow",
+                    "name": "Borrow P"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Toebes",
+                    "name": "Toebes M"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Hansen",
+                    "name": "Hansen SG"
+                },
+                {
+                    "initials": "JB",
+                    "lastname": "Sacha",
+                    "name": "Sacha JB"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Abdulhaqq",
+                    "name": "Abdulhaqq S"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Greene",
+                    "name": "Greene JM"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Fr\u00fch",
+                    "name": "Fr\u00fch K"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Marshall",
+                    "name": "Marshall E"
+                },
+                {
+                    "initials": "LJ",
+                    "lastname": "Picker",
+                    "name": "Picker LJ"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "Gillespie",
+                    "name": "Gillespie GM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-018-05459-z",
+                    "type": "doi"
+                },
+                {
+                    "id": "30087334",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "3137"
+            ],
+            "title": "Pathogen-derived HLA-E bound epitopes reveal broad primary anchor pocket tolerability and conformationally malleable peptide binding.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-018-05459-z",
+            "volume": [
+                "9"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.62",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6gl1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6gl1"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-E*01:03 binding \"RMYSPTSIL\" at 2.62&#8491; resolution",
+    "unique_chain_count": 3
+}

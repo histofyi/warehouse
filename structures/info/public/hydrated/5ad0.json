@@ -1,0 +1,147 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08580",
+            "locus": "gaga-bf2",
+            "match_type": "histo:fuzzy",
+            "name": "Gaga-BF2*021:01",
+            "slug": "gaga_bf2_021_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5ad0_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:42.821114"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "DLTPKVQVYSRFPASAGTKNVLNCFAAGFHPPKISITLMKDGVPMEGAQYSDMSFNDDWTFQRLVHADFTPSSGSTYACKVEHETLKEPQVYKWDPEF"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "MGSCGALGLGLLLAAVCGAAAELHTLRYIRTAMTDPGPGLPWFVDVGYVDGELFMHYNSTARRAVPRTEWIAANTDQQYWDRETQIVQGSEQINRENLDILRRRYNQTGGSHTVQWMSGCDILEDGTIRGYHQAAYDGRDFVAFDKGTMTLTAAVPEAVPTKRKWEEGGYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERPEVRVWGKEADGILTLSCRAHGFYPRPIVVSWLKDGAVRGQDAQSGGIVPNGDGTYHTWVTIDAQPGDGDKYQCRVEHASLPQPGLYSWRSGGGLNDIFEAQKIEWHENSSSVDKLAAALEHHHHHH"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GHAEEYGADTL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-08-19",
+        "deposition_year": 2015,
+        "release_date": "2016-09-28",
+        "release_year": 2016,
+        "revision_date": "2016-09-28",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5AD0 | Gaga-BF2*021:01 binding \"GHAEEYGADTL\"",
+    "pdb_code": "5ad0",
+    "pdb_title": "Complex of a B21 Chicken Mhc Class I Molecule and a 11mer Chicken Peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "GHAEEYGADTL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "GHAEEYGADTL"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "GHAEEYGADTL",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Chappell, P.E."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Roversi, P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Harrison, M.C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Kaufman, J.F."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Lea, S.M."
+                }
+            ],
+            "identifier": [],
+            "title": "Complex of a B21 Chicken Mhc Class I Molecule and a 11mer Chicken Peptide",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.84",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5ad0"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5ad0"
+        }
+    },
+    "species": {
+        "common_name": "Chicken",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Gallus gallus",
+        "slug": "gallus_gallus"
+    },
+    "tcr": null,
+    "title": "Gaga-BF2*021:01 binding \"GHAEEYGADTL\" at 2.84&#8491; resolution",
+    "unique_chain_count": 3
+}

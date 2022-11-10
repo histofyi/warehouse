@@ -1,0 +1,217 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3vri_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:27:45.287166"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RVAQLEQVYI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-04-11",
+        "deposition_year": 2012,
+        "release_date": "2012-05-30",
+        "release_year": 2012,
+        "revision_date": "2012-07-04",
+        "revision_year": 2012
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3VRI | HLA-B*57:01 binding \"RVAQLEQVYI\"",
+    "pdb_code": "3vri",
+    "pdb_title": "Hla-b*57:01-rvaqlenvyi in complex with abacavir",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "RVAQLEQVYI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RVAQLEQVYI"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RVAQLEQVYI",
+    "publication": {
+        "abstract": "Human leukocyte antigens (HLAs) are highly polymorphic proteins that initiate immunity by presenting pathogen-derived peptides to T\u2009cells. HLA polymorphisms mostly map to the antigen-binding cleft, thereby diversifying the repertoire of self-derived and pathogen-derived peptide antigens selected by different HLA allotypes. A growing number of immunologically based drug reactions, including abacavir hypersensitivity syndrome (AHS) and carbamazepine-induced Stevens-Johnson syndrome (SJS), are associated with specific HLA alleles. However, little is known about the underlying mechanisms of these associations, including AHS, a prototypical HLA-associated drug reaction occurring exclusively in individuals with the common histocompatibility allele HLA-B*57:01, and with a relative risk of more than 1,000 (refs\u20096, 7). We show that unmodified abacavir binds non-covalently to HLA-B*57:01, lying across the bottom of the antigen-binding cleft and reaching into the F-pocket, where a carboxy-terminal tryptophan typically anchors peptides bound to HLA-B*57:01. Abacavir binds with exquisite specificity to HLA-B*57:01, changing the shape and chemistry of the antigen-binding cleft, thereby altering the repertoire of endogenous peptides that can bind HLA-B*57:01. In this way, abacavir guides the selection of new endogenous peptides, inducing a marked alteration in 'immunological self'. The resultant peptide-centric 'altered self' activates abacavir-specific T-cells, thereby driving polyclonal CD8 T-cell activation and a systemic reaction manifesting as AHS. We also show that carbamazepine, a widely used anti-epileptic drug associated with hypersensitivity reactions in HLA-B*15:02 individuals, binds to this allotype, producing alterations in the repertoire of presented self peptides. Our findings simultaneously highlight the importance of HLA polymorphism in the evolution of pharmacogenomics and provide a general mechanism for some of the growing number of HLA-linked hypersensitivities that involve small-molecule drugs.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "PT",
+                    "lastname": "Illing",
+                    "name": "Illing PT"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                },
+                {
+                    "initials": "NL",
+                    "lastname": "Dudek",
+                    "name": "Dudek NL"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kostenko",
+                    "name": "Kostenko L"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bharadwaj",
+                    "name": "Bharadwaj M"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Williamson",
+                    "name": "Williamson NA"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/nature11147",
+                    "type": "doi"
+                },
+                {
+                    "id": "22722860",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7404"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                "554-8"
+            ],
+            "title": "Immune self-reactivity triggered by drug-modified HLA-peptide repertoire.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/nature11147",
+            "volume": [
+                "486"
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3vri"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3vri"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:01 binding \"RVAQLEQVYI\" at 1.60&#8491; resolution",
+    "unique_chain_count": 3
+}

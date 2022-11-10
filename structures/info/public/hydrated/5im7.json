@@ -1,0 +1,204 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA02201",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*58:11",
+            "slug": "hla_b_58_11",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5im7_1",
+            "chains": [
+                "A",
+                "B",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:42:45.581846"
+        },
+        "2": {
+            "assembly_name": "5im7_2",
+            "chains": [
+                "C",
+                "D",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:42:45.995029"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPH"
+        },
+        "peptide": {
+            "chains": [
+                "E",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "QASQEVKNW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-03-05",
+        "deposition_year": 2016,
+        "release_date": "2016-10-05",
+        "release_year": 2016,
+        "revision_date": "2016-10-19",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5IM7 | HLA-B*58:11 binding \"QASQEVKNW\"",
+    "pdb_code": "5im7",
+    "pdb_title": "Crystal structure of HLA-B*5801, a protective HLA allele for HIV-1 infection.",
+    "peptide": {
+        "E": {
+            "actual_length": 9,
+            "actual_sequence": "QASQEVKNW",
+            "chain_id": "E",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QASQEVKNW"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "QASQEVKNW",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QASQEVKNW"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "QASQEVKNW",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "X",
+                    "lastname": "Li",
+                    "name": "Li X"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "Lamothe",
+                    "name": "Lamothe PA"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Ng",
+                    "name": "Ng R"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Xu",
+                    "name": "Xu S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Teng",
+                    "name": "Teng M"
+                },
+                {
+                    "initials": "BD",
+                    "lastname": "Walker",
+                    "name": "Walker BD"
+                },
+                {
+                    "initials": "JH",
+                    "lastname": "Wang",
+                    "name": "Wang JH"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1007/s13238-016-0309-y",
+                    "type": "doi"
+                },
+                {
+                    "id": "27638468",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Protein Cell",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Crystal structure of HLA-B*5801, a protective HLA allele for HIV-1 infection.",
+            "type": "article",
+            "url": "http://link.springer.com/10.1007/s13238-016-0309-y",
+            "volume": [
+                null
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5im7"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5im7"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*58:11 binding \"QASQEVKNW\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

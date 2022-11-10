@@ -1,0 +1,219 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5mzm_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:48.876606"
+        },
+        "2": {
+            "assembly_name": "5mzm_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:44:49.303532"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "MCPRMTAVM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-02-01",
+        "deposition_year": 2017,
+        "release_date": "2018-03-21",
+        "release_year": 2018,
+        "revision_date": "2018-04-18",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5MZM | H2-Db binding \"MCPRMTAVM\"",
+    "pdb_code": "5mzm",
+    "pdb_title": "Structure of h-2db in complex with teipp apl trh4 p3p",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "MCPRMTAVM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MCPRMTAVM"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "MCPRMTAVM",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MCPRMTAVM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "MCPRMTAVM",
+    "publication": {
+        "abstract": "Human cancers frequently display defects in Ag processing and presentation allowing for immune evasion, and they therefore constitute a significant challenge for T cell-based immunotherapy. We have previously demonstrated that the antigenicity of tumor-associated Ags can be significantly enhanced through unconventional residue modifications as a novel tool for MHC class I (MHC-I)-based immunotherapy approaches. We have also previously identified a novel category of cancer neo-epitopes, that is, T cell epitopes associated with impaired peptide processing (TEIPP), that are selectively presented by MHC-I on cells lacking the peptide transporter TAP. In this study, we demonstrate that substitution of the nonanchoring position 3 into a proline residue of the first identified TEIPP peptide, the murine Trh4, results in significantly enhanced recognition by antitumor CTLs toward the wild-type epitope. Although higher immunogenicity has in most cases been associated with increased MHC/peptide complex stability, our results demonstrate that the overall stability of H-2Db in complex with the highly immunogenic altered peptide ligand Trh4-p3P is significantly reduced compared with wild-type H-2Db/Trh4. Comparison of the crystal structures of the H-2Db/Trh4-p3P and H-2Db/Trh4 complexes revealed that the conformation of the nonconventional methionine anchor residue p5M is altered, deleting its capacity to form adequate sulfur-\u03c0 interactions with H-2Db residues, thus reducing the overall longevity of the complex. Collectively, our results indicate that vaccination with Thr4-p3P significantly enhances T cell recognition of targets presenting the wild-type TEIPP epitope and that higher immunogenicity is not necessarily directly related to MHC/peptide complex stability, opening for the possibility to design novel peptide vaccines with reduced MHC/peptide complex stability.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "I",
+                    "lastname": "Hafstrand",
+                    "name": "Hafstrand I"
+                },
+                {
+                    "initials": "EM",
+                    "lastname": "Doorduijn",
+                    "name": "Doorduijn EM"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Sun",
+                    "name": "Sun R"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Talyzina",
+                    "name": "Talyzina A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sluijter",
+                    "name": "Sluijter M"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Pellegrino",
+                    "name": "Pellegrino S"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Sandalova",
+                    "name": "Sandalova T"
+                },
+                {
+                    "initials": "AD",
+                    "lastname": "Duru",
+                    "name": "Duru AD"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "van Hall",
+                    "name": "van Hall T"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Achour",
+                    "name": "Achour A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1700228",
+                    "type": "doi"
+                },
+                {
+                    "id": "29507106",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "The Immunogenicity of a Proline-Substituted Altered Peptide Ligand toward the Cancer-Associated TEIPP Neoepitope Trh4 Is Unrelated to Complex Stability.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1700228",
+            "volume": [
+                null
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5mzm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5mzm"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"MCPRMTAVM\" at 2.40&#8491; resolution",
+    "unique_chain_count": 3
+}

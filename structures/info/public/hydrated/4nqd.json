@@ -1,0 +1,263 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35228",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*15:01",
+            "slug": "hla_b_15_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4nqd_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:36:49.402561"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVKDSNYQLIWGAGTKLIIKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSVWTGEGSGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-11-25",
+        "deposition_year": 2013,
+        "release_date": "2014-04-16",
+        "release_year": 2014,
+        "revision_date": "2014-11-19",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4NQD | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "4nqd",
+    "pdb_title": "Crystal structure of TCR-MR1 ternary complex and non-covalently bound 5-(2-oxopropylideneamino)-6-d-ribitylaminouracil",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "T cells discriminate between foreign and host molecules by recognizing distinct microbial molecules, predominantly peptides and lipids. Riboflavin precursors found in many bacteria and yeast also selectively activate mucosal-associated invariant T (MAIT) cells, an abundant population of innate-like T cells in humans. However, the genesis of these small organic molecules and their mode of presentation to MAIT cells by the major histocompatibility complex (MHC)-related protein MR1 (ref. 8) are not well understood. Here we show that MAIT-cell activation requires key genes encoding enzymes that form 5-amino-6-d-ribitylaminouracil (5-A-RU), an early intermediate in bacterial riboflavin synthesis. Although 5-A-RU does not bind MR1 or activate MAIT cells directly, it does form potent MAIT-activating antigens via non-enzymatic reactions with small molecules, such as glyoxal and methylglyoxal, which are derived from other metabolic pathways. The MAIT antigens formed by the reactions between 5-A-RU and glyoxal/methylglyoxal were simple adducts, 5-(2-oxoethylideneamino)-6-D-ribitylaminouracil (5-OE-RU) and 5-(2-oxopropylideneamino)-6-D-ribitylaminouracil (5-OP-RU), respectively, which bound to MR1 as shown by crystal structures of MAIT TCR ternary complexes. Although 5-OP-RU and 5-OE-RU are unstable intermediates, they became trapped by MR1 as reversible covalent Schiff base complexes. Mass spectra supported the capture by MR1 of 5-OP-RU and 5-OE-RU from bacterial cultures that activate MAIT cells, but not from non-activating bacteria, indicating that these MAIT antigens are present in a range of microbes. Thus, MR1 is able to capture, stabilize and present chemically unstable pyrimidine intermediates, which otherwise convert to lumazines, as potent antigens to MAIT cells. These pyrimidine adducts are microbial signatures for MAIT-cell immunosurveillance.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AJ",
+                    "lastname": "Corbett",
+                    "name": "Corbett AJ"
+                },
+                {
+                    "initials": "SB",
+                    "lastname": "Eckle",
+                    "name": "Eckle SB"
+                },
+                {
+                    "initials": "RW",
+                    "lastname": "Birkinshaw",
+                    "name": "Birkinshaw RW"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Liu",
+                    "name": "Liu L"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Patel",
+                    "name": "Patel O"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Mahony",
+                    "name": "Mahony J"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Reantragoon",
+                    "name": "Reantragoon R"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Meehan",
+                    "name": "Meehan B"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Cao",
+                    "name": "Cao H"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Williamson",
+                    "name": "Williamson NA"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Strugnell",
+                    "name": "Strugnell RA"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Van Sinderen",
+                    "name": "Van Sinderen D"
+                },
+                {
+                    "initials": "JY",
+                    "lastname": "Mak",
+                    "name": "Mak JY"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Fairlie",
+                    "name": "Fairlie DP"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/nature13160",
+                    "type": "doi"
+                },
+                {
+                    "id": "24695216",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "T-cell activation by transitory neo-antigens derived from distinct microbial pathways.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/nature13160",
+            "volume": [
+                null
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4nqd"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4nqd"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4nqd"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "4nqd"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 2.20&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,224 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1t0n_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:38:26.326469"
+        },
+        "2": {
+            "assembly_name": "1t0n_2",
+            "chains": [
+                "D",
+                "E",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:38:26.959124"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRFISVGYVDNTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRWEPPP"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SSIEFARL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2004-04-12",
+        "deposition_year": 2004,
+        "release_date": "2004-11-23",
+        "release_year": 2004,
+        "revision_date": "2019-11-06",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1T0N | H2-Kb binding \"SSIEFARL\"",
+    "pdb_code": "1t0n",
+    "pdb_title": "Conformational switch in polymorphic h-2k molecules containing an hsv peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "SSIEFARL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SSIEFARL"
+        },
+        "Q": {
+            "actual_length": 8,
+            "actual_sequence": "SSIEFARL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SSIEFARL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "SSIEFARL",
+    "publication": {
+        "abstract": "Polymorphism within the MHC not only affects peptide specificity but also has a critical influence on the T cell repertoire; for example, the CD8 T cell response toward an immunodominant HSV glycoprotein B peptide is more diverse and of higher avidity in H-2(bm8) compared with H-2(b) mice. We have examined the basis for the selection of these distinct antiviral T cell repertoires by comparing the high-resolution structures of K(b) and K(bm8), in complex with cognate peptide Ag. Although K(b) and K(bm8) differ by four residues within the Ag-binding cleft, the most striking difference in the two structures was the disparate conformation adopted by the shared residue, Arg(62). The altered dynamics of Arg(62), coupled with a small rigid-body movement in the alpha(1) helix encompassing this residue, correlated with biased Valpha usage in the B6 mice. Moreover, an analysis of all known TCR/MHC complexes reveals that Arg(62) invariably interacts with the TCR CDR1alpha loop. Accordingly, Arg(62) appears to function as a conformational switch that may govern T cell selection and protective immunity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AI",
+                    "lastname": "Webb",
+                    "name": "Webb AI"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Borg",
+                    "name": "Borg NA"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Dunstone",
+                    "name": "Dunstone MA"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Beddoe",
+                    "name": "Beddoe T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "FR",
+                    "lastname": "Carbone",
+                    "name": "Carbone FR"
+                },
+                {
+                    "initials": "SP",
+                    "lastname": "Bottomley",
+                    "name": "Bottomley SP"
+                },
+                {
+                    "initials": "MI",
+                    "lastname": "Aguilar",
+                    "name": "Aguilar MI"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.173.1.402",
+                    "type": "doi"
+                },
+                {
+                    "id": "15210799",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "402-9"
+            ],
+            "title": "The structure of H-2K(b) and K(bm8) complexed to a herpes simplex virus determinant: evidence for a conformational switch that governs T cell repertoire selection and viral resistance.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.173.1.402",
+            "volume": [
+                "173"
+            ],
+            "year": [
+                2004
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1t0n"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1t0n"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"SSIEFARL\" at 1.80&#8491; resolution",
+    "unique_chain_count": 3
+}

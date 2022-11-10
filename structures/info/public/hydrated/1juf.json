@@ -1,0 +1,213 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1juf_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:45:43.556545"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWER"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SSVIGVWYL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2001-08-24",
+        "deposition_year": 2001,
+        "release_date": "2002-03-20",
+        "release_year": 2002,
+        "revision_date": "2016-05-25",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1JUF | H2-Db binding \"SSVIGVWYL\"",
+    "pdb_code": "1juf",
+    "pdb_title": "Structure of minor histocompatibility antigen peptide, h13b, complexed to H2-Db",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "SSVIGVWYL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length",
+                "incorrect_start"
+            ],
+            "full_length": 9,
+            "full_sequence": "SSVIGVWYL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SSVIGVWYL",
+    "publication": {
+        "abstract": "The mouse H13 minor histocompatibility (H) Ag, originally detected as a barrier to allograft transplants, is remarkable in that rejection is a consequence of an extremely subtle interchange, P4(Val/Ile), in a nonamer H2-D(b)-bound peptide. Moreover, H13 peptides lack the canonical P5(Asn) central anchor residue normally considered important for forming a peptide/MHC complex. To understand how these noncanonical peptide pMHC complexes form physiologically active TCR ligands, crystal structures of allelic H13 pD(b) complexes and a P5(Asn) anchored pD(b) analog were solved to high resolution. The structures show that the basis of TCRs to distinguish self from nonself H13 peptides is their ability to distinguish a single solvent-exposed methyl group. In addition, the structures demonstrate that there is no need for H13 peptides to derive any stabilization from interactions within the central C pocket to generate fully functional pMHC complexes. These results provide a structural explanation for a classical non-MHC-encoded H Ag, and they call into question the requirement for contact between anchor residues and the major MHC binding pockets in vaccine design.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DA",
+                    "lastname": "Ostrov",
+                    "name": "Ostrov DA"
+                },
+                {
+                    "initials": "MM",
+                    "lastname": "Roden",
+                    "name": "Roden MM"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Shi",
+                    "name": "Shi W"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Palmieri",
+                    "name": "Palmieri E"
+                },
+                {
+                    "initials": "GJ",
+                    "lastname": "Christianson",
+                    "name": "Christianson GJ"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Mendoza",
+                    "name": "Mendoza L"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Villaflor",
+                    "name": "Villaflor G"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Tilley",
+                    "name": "Tilley D"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Shastri",
+                    "name": "Shastri N"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Grey",
+                    "name": "Grey H"
+                },
+                {
+                    "initials": "SC",
+                    "lastname": "Almo",
+                    "name": "Almo SC"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Roopenian",
+                    "name": "Roopenian D"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Nathenson",
+                    "name": "Nathenson SG"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.168.1.283",
+                    "type": "doi"
+                },
+                {
+                    "id": "11751972",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "283-9"
+            ],
+            "title": "How H13 histocompatibility peptides differing by a single methyl group and lacking conventional MHC binding anchor motifs determine self-nonself discrimination.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.168.1.283",
+            "volume": [
+                "168"
+            ],
+            "year": [
+                2002
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1juf"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1juf"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"SSVIGVWYL\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

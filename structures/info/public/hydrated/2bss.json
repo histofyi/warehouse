@@ -1,0 +1,177 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34811",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*27:05",
+            "slug": "hla_b_27_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2bss_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:38:01.818053"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQNAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KRWIILGLNK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-05-23",
+        "deposition_year": 2005,
+        "release_date": "2005-05-24",
+        "release_year": 2005,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2BSS | HLA-B*27:05 binding \"KRWIILGLNK\"",
+    "pdb_code": "2bss",
+    "pdb_title": "Crystal structures and KIR3DL1 recognition of three immunodominant viral peptides complexed to HLA-B*2705.",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "KRWIILGLNK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "KRWIILGLNK"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "KRWIILGLNK",
+    "publication": {
+        "abstract": "We have solved the crystal structures of three HLA-B*2705-peptide complexes with the immunodominant viral peptides: EBV EBNA3C 258-266 (RRIYDLIEL), influenza (flu) nucleoprotein NP383-391 (SRYWAIRTR), and HIV gag 264-273 (KRWIILGLNK). Long-term non-progression during HIV infection has been associated with presentation by HLA-B*2705, and T cell recognition, of the highly immunodominant KRWIILGLNK peptide. The tight hydrogen-bonding network observed between the HLA-B*2705 B-pocket and the peptide P2 arginine guanadinium anchor explains why mutation of this residue during HIV infection results in loss of peptide binding, immune escape and progression to AIDS. Prominent, solvent-exposed structures within these peptides may participate in generating T cell responses to these immunodominant epitopes. In the HLA-B*2705 complex with flu NP383-391, the amino acid side chains of residues 4, 7 and 8 are solvent-exposed whilst in the HIV decamer, the main-chain bulges into the solvent around P7. Thus, HLA-B*2705 presents viral peptides in a range of conformations. Tetrameric complexes of HLA-B*2705 with the HIV and flu but not EBV peptides bound strongly to the killer-Ig-like receptor (KIR)3DL1. Substitution of EBV P8 glutamate to threonine allowed recognition by KIR3DL1. In the HLA-B*2705-EBV structure the P8 glutamate side chain is solvent-exposed and may inhibit KIR3DL1 binding through electrostatic forces.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "GB",
+                    "lastname": "Stewart-Jones",
+                    "name": "Stewart-Jones GB"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "di Gleria",
+                    "name": "di Gleria K"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Kollnberger",
+                    "name": "Kollnberger S"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Bowness",
+                    "name": "Bowness P"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/eji.200425724",
+                    "type": "doi"
+                },
+                {
+                    "id": "15657948",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "Eur. J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "341-51"
+            ],
+            "title": "Crystal structures and KIR3DL1 recognition of three immunodominant viral peptides complexed to HLA-B*2705.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/eji.200425724",
+            "volume": [
+                "35"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2bss"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2bss"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:05 binding \"KRWIILGLNK\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

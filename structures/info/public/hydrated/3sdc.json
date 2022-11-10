@@ -1,0 +1,239 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA31926",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:08",
+            "slug": "hla_b_35_08",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3sdc_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:29:49.347203"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWGSLHHILDAQKMVWNHRHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "TQVEQSPQSLVVRQGENSVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "HMGGIITQTPKFLIGQEGQKLTLKCQQNFNHDTMYWYRQDSGKGLRLIYYSYGAGSTEKGDLSEGYDASREKKSSFSLTVTSAQKNEMAVFLCASGSLLDVREVFFGKGTRLTVVEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV19"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-06-09",
+        "deposition_year": 2011,
+        "release_date": "2011-10-05",
+        "release_year": 2011,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3SDC | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "3sdc",
+    "pdb_title": "Crystal structure of autoreactive-valpha14-vbeta6 nkt TCR in complex with CD1d-globotrihexosylceramide",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Electrocatalytic urea synthesis emerged as the promising alternative of Haber-Bosch process and industrial urea synthetic protocol. Here, we report that a diatomic catalyst with bonded Fe-Ni pairs can significantly improve the efficiency of electrochemical urea synthesis. Compared with isolated diatomic and single-atom catalysts, the bonded Fe-Ni pairs act as the efficient sites for coordinated adsorption and activation of multiple reactants, enhancing the crucial C-N coupling thermodynamically and kinetically. The performance for urea synthesis up to an order of magnitude higher than those of single-atom and isolated diatomic electrocatalysts, a high urea yield rate of 20.2\u2009mmol\u2009h<sup>-1</sup> g<sup>-1</sup> with corresponding Faradaic efficiency of 17.8% has been successfully achieved. A total Faradaic efficiency of about 100% for the formation of value-added urea, CO, and NH<sub>3</sub> was realized. This work presents an insight into synergistic catalysis towards sustainable urea synthesis via identifying and tailoring the atomic site configurations.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DG",
+                    "lastname": "Pellicci",
+                    "name": "Pellicci DG"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Clarke",
+                    "name": "Clarke AJ"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Patel",
+                    "name": "Patel O"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mallevaey",
+                    "name": "Mallevaey T"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Beddoe",
+                    "name": "Beddoe T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "AP",
+                    "lastname": "Uldrich",
+                    "name": "Uldrich AP"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "GS",
+                    "lastname": "Besra",
+                    "name": "Besra GS"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Porcelli",
+                    "name": "Porcelli SA"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Gapin",
+                    "name": "Gapin L"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.2076",
+                    "type": "doi"
+                },
+                {
+                    "id": "21804559",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "9"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "827-33"
+            ],
+            "title": "Recognition of \ufffd\ufffd-linked self glycolipids mediated by natural killer T cell antigen receptors.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.2076",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3sdc"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3sdc"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3sdc"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV19"
+        },
+        "pdb_code": "3sdc"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 3.10&#8491; resolution",
+    "unique_chain_count": 4
+}

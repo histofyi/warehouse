@@ -1,0 +1,132 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01902",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kd",
+            "slug": "h2_kd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "8d5k_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:14.156268"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.84,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDADNPRFEPRAPWMEQEGPEYWEEQTQRAKSDEQWFRVSLRTAQRYYNQSKGGSHTFQRMFGCDVGSDWRLLRGYQQFAYDGRDYIALNEDLKTWTAADTAALITRRKWEQAGDAEYYRAYLEGECVEWLRRYLELGNETLLRTDSPKAHVTYHPRSQVDVTLRCWALGFYPADITLTWQLNGEDLTQDMELVETRPAGDGTFQKWAAVVVPLGKEQNYTCHVHHKGLPEPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KYRQVASHV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2022-06-05",
+        "deposition_year": 2022,
+        "release_date": "2022-07-06",
+        "release_year": 2022,
+        "revision_date": "2022-07-06",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "8D5K | H2-Kd binding \"KYRQVASHV\"",
+    "pdb_code": "8d5k",
+    "pdb_title": "The complex of Pre-mRNA-Processing Factor 19 (Prpf19) peptide KYLQVASHV Presented by H2-Kd",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "KYRQVASHV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KYRQVASHV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KYRQVASHV",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Custodio, J.M.F."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Baker, B.M."
+                }
+            ],
+            "identifier": [],
+            "title": "The complex of Pre-mRNA-Processing Factor 19 (Prpf19) peptide KYLQVASHV Presented by H2-Kd",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.07",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8d5k"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/8d5k"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kd binding \"KYRQVASHV\" at 2.07&#8491; resolution",
+    "unique_chain_count": 3
+}

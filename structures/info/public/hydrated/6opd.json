@@ -1,0 +1,182 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6opd_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:24.185692"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILNAMIVKI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-04-24",
+        "deposition_year": 2019,
+        "release_date": "2019-09-04",
+        "release_year": 2019,
+        "revision_date": "2019-12-04",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6OPD | HLA-A*02:01 binding \"ILNAMIVKI\"",
+    "pdb_code": "6opd",
+    "pdb_title": "Crystal structure of ILNAMIVKI peptide bound to hla-a2",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ILNAMIVKI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILNAMIVKI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILNAMIVKI",
+    "publication": {
+        "abstract": "The development of immunological therapies that incorporate peptide antigens presented to T cells by MHC proteins is a long sought-after goal, particularly for cancer, where mutated neoantigens are being explored as personalized cancer vaccines. Although neoantigens can be identified through sequencing, bioinformatics and mass spectrometry, identifying those which are immunogenic and able to promote tumor rejection remains a significant challenge. Here we examined the potential of high-resolution structural modeling followed by energetic scoring of structural features for predicting neoantigen immunogenicity. After developing a strategy to rapidly and accurately model nonameric peptides bound to the common class I MHC protein HLA-A2, we trained a neural network on structural features that influence T cell receptor (TCR) and peptide binding energies. The resulting structurally-parameterized neural network outperformed methods that do not incorporate explicit structural or energetic properties in predicting CD8+ T cell responses of HLA-A2 presented nonameric peptides, while also providing insight into the underlying structural and biophysical mechanisms governing immunogenicity. Our proof-of-concept study demonstrates the potential for structure-based immunogenicity predictions in the development of personalized peptide-based vaccines.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "TP",
+                    "lastname": "Riley",
+                    "name": "Riley TP"
+                },
+                {
+                    "initials": "GLJ",
+                    "lastname": "Keller",
+                    "name": "Keller GLJ"
+                },
+                {
+                    "initials": "AR",
+                    "lastname": "Smith",
+                    "name": "Smith AR"
+                },
+                {
+                    "initials": "LM",
+                    "lastname": "Davancaze",
+                    "name": "Davancaze LM"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Arbuiso",
+                    "name": "Arbuiso AG"
+                },
+                {
+                    "initials": "JR",
+                    "lastname": "Devlin",
+                    "name": "Devlin JR"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3389/fimmu.2019.02047",
+                    "type": "doi"
+                },
+                {
+                    "id": "31555277",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Front Immunol",
+                "name": ""
+            },
+            "pages": [
+                "2047"
+            ],
+            "title": "Structure Based Prediction of Neoantigen Immunogenicity.",
+            "type": "article",
+            "url": "https://www.frontiersin.org/article/10.3389/fimmu.2019.02047/full",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.79",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6opd"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6opd"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"ILNAMIVKI\" at 1.79&#8491; resolution",
+    "unique_chain_count": 3
+}

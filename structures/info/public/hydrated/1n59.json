@@ -1,0 +1,221 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1n59_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:35:05.590770"
+        },
+        "2": {
+            "assembly_name": "1n59_2",
+            "chains": [
+                "C",
+                "D",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:35:05.968457"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KAVYNFATM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2002-11-05",
+        "deposition_year": 2002,
+        "release_date": "2003-01-07",
+        "release_year": 2003,
+        "revision_date": "2021-10-27",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1N59 | H2-Kb binding \"KAVYNFATM\"",
+    "pdb_code": "1n59",
+    "pdb_title": "Crystal structure of the murine Class I major histocompatibility complex of h-2kb, b2-microglobulin, and a 9-residue immunodominant peptide epitope gp33 derived from lcmv",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "AVYNFATM",
+            "chain_id": "P",
+            "features": [
+                "missing_start",
+                "incorrect_start"
+            ],
+            "full_length": 9,
+            "full_sequence": "KAVYNFATM"
+        },
+        "Q": {
+            "actual_length": 8,
+            "actual_sequence": "AVYNFATM",
+            "chain_id": "Q",
+            "features": [
+                "missing_start",
+                "incorrect_start"
+            ],
+            "full_length": 9,
+            "full_sequence": "KAVYNFATM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KAVYNFATM",
+    "publication": {
+        "abstract": "LCMV infection of H-2(b) mice generates a CD8(+) CTL response mainly directed toward three immunodominant epitopes. One of these, gp33, is presented by both H-2D(b) and H-2K(b) MHC class I molecules. The virus can escape immune recognition in the context of both these MHC class I molecules through single mutations of the peptide. In order to understand the underlying structural mechanism, we determined the crystal structures of both complexes. The structures reveal that the peptide is presented in two diametrically opposed manners by H-2D(b) and H-2K(b), with residues used as anchor positions in one MHC class I molecule interacting with the TCR in the other. Importantly, the peptide's N-terminal residue p1K protrudes from the binding cleft in H-2K(b). We present structural evidence that explains the functional consequences of single mutations found in escape variants.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Achour",
+                    "name": "Achour A"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Micha\u00eblsson",
+                    "name": "Micha\u00eblsson J"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Harris",
+                    "name": "Harris RA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Odeberg",
+                    "name": "Odeberg J"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Grufman",
+                    "name": "Grufman P"
+                },
+                {
+                    "initials": "JK",
+                    "lastname": "Sandberg",
+                    "name": "Sandberg JK"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Levitsky",
+                    "name": "Levitsky V"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "K\u00e4rre",
+                    "name": "K\u00e4rre K"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Sandalova",
+                    "name": "Sandalova T"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Schneider",
+                    "name": "Schneider G"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s1074-7613(02)00478-8",
+                    "type": "doi"
+                },
+                {
+                    "id": "12479822",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "757-68"
+            ],
+            "title": "A structural basis for LCMV immune evasion: subversion of H-2D(b) and H-2K(b) presentation of gp33 revealed by comparative crystal structure.Analyses.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761302004788",
+            "volume": [
+                "17"
+            ],
+            "year": [
+                2002
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.95",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1n59"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1n59"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"KAVYNFATM\" at 2.95&#8491; resolution",
+    "unique_chain_count": 3
+}

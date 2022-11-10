@@ -1,0 +1,235 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "8gvb_1",
+            "chains": [
+                "A",
+                "B",
+                "H",
+                "L",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:30:09.709605"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "L"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MGSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RYPLTFGW"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MAQSVTQPDIHITVSEGASLELRCNYSYGATPYLFWYVQSPGQGLQLLLKYFSGDTLVQGIKGFEAEFKRSQSSFNLRKPSVHWSDAAEYFCAVGFTGGGNKLTFGTGTQLKVELNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV8"
+        },
+        "tcr_beta": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MDTGVSQDPRHKITKRGQNVTFRCDPISEHNRLYWYRQTLGQGPEFLTYFQNEAQLEKSRLLSDRFSAERPKGSFSTLEIQRTEQGDSAMYLCASSDRDRVPETQYFGPGTRLLVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV7"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2022-09-14",
+        "deposition_year": 2022,
+        "release_date": "2022-10-19",
+        "release_year": 2022,
+        "revision_date": "2022-10-26",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "8GVB | HLA-A*24:02 presenting \"RYPLTFGW\" to Alpha/Beta T cell receptor",
+    "pdb_code": "8gvb",
+    "pdb_title": "The complex between public TCR td08 and hla-a24 bound to hiv-1 nef138-8 peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "RYPLTFGW",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RYPLTFGW"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RYPLTFGW",
+    "publication": {
+        "abstract": "Cross-recognized public TCRs against HIV epitopes have been proposed to be important for the control of AIDS disease progression and HIV variants. The overlapping Nef138-8 and Nef138-10 peptides from the HIV Nef protein are HLA-A24-restricted immunodominant T cell epitopes, and an HIV mutant strain with a Y139F substitution in Nef protein can result in immune escape and is widespread in Japan. Here, we identified a pair of public TCRs specific to the HLA-A24-restricted Nef-138-8 epitope using PBMCs from White and Japanese patients, respectively, namely TD08 and H25-11. The gene use of the variable domain for TD08 and H25-11 is TRAV8-3, TRAJ10 for the \u03b1-chain and TRBV7-9, TRBD1*01, TRBJ2-5 for the \u03b2-chain. Both TCRs can recognize wild-type and Y2F-mutated Nef138-8 epitopes. We further determined three complex structures, including TD08/HLA-A24-Nef138-8, H25-11/HLA-A24-Nef138-8, and TD08/HLA-A24-Nef138-8 (2F). Then, we revealed the molecular basis of the public TCR binding to the peptide HLA, which mostly relies on the interaction between the TCR and HLA and can tolerate the mutation in the Nef138-8 peptide. These findings promote the molecular understanding of T cell immunity against HIV epitopes and provide an important basis for the engineering of TCRs to develop T cell-based immunotherapy against HIV infection.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "K",
+                    "lastname": "Ma",
+                    "name": "Ma K"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chai",
+                    "name": "Chai Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Guan",
+                    "name": "Guan J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tan",
+                    "name": "Tan S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Kawana-Tachikawa",
+                    "name": "Kawana-Tachikawa A"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Dong",
+                    "name": "Dong T"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Iwamoto",
+                    "name": "Iwamoto A"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Shi",
+                    "name": "Shi Y"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.2200191",
+                    "type": "doi"
+                },
+                {
+                    "id": "36130828",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J Immunol",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Molecular Basis for the Recognition of HIV Nef138-8 Epitope by a Pair of Human Public T Cell Receptors.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.2200191",
+            "volume": [
+                null
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "3.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/8gvb"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/8gvb"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=8gvb"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "A"
+            ],
+            "subgroup": "TRAV8"
+        },
+        "beta": {
+            "chains": [
+                "B"
+            ],
+            "subgroup": "TRBV7"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "8gvb"
+    },
+    "title": "HLA-A*24:02 presenting \"RYPLTFGW\" to Alpha/Beta T cell receptor at 3.20&#8491; resolution",
+    "unique_chain_count": 5
+}

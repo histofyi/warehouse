@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5xos_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:45:03.022227"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFDRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "IPLTEEAEL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-05-31",
+        "deposition_year": 2017,
+        "release_date": "2017-06-14",
+        "release_year": 2017,
+        "revision_date": "2019-04-17",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5XOS | HLA-B*35:01 binding \"IPLTEEAEL\"",
+    "pdb_code": "5xos",
+    "pdb_title": "Crystal structure of hla-b35 in complex with a pepetide antigen",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "IPLTEEAEL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IPLTEEAEL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "IPLTEEAEL",
+    "publication": {
+        "abstract": "An essential step in the development of effective antiviral humoral responses is cytokine-triggered class switch recombination resulting in the production of antibodies of a specific isotype. Most viral and parasitic infections in mice induce predominantly IgG2a-specific antibody responses that are stimulated by interferon gamma (IFN-\u03b3). However, in some mice deficient in IFN-\u03b3, class switching to IgG2a antibodies is relatively unaffected, indicating that another signal(s) can be generated upon viral or parasitic infections that trigger this response. Here, we found that a single recessive locus, provisionally called IFN-\u03b3-independent IgG2a (Igii), confers the ability to produce IFN-\u03b3-independent production of IgG2a antibodies upon retroviral infection. The Igii locus was mapped to chromosome 9 and was found to function in the radiation-resistant compartment. Thus, our data implicate nonhematopoietic cells in activation of antiviral antibody responses in the absence of IFN-\u03b3.IMPORTANCE Understanding the signals that stimulate antibody production and class switch recombination to specific antibody isotypes is crucial for the development of novel vaccines and adjuvants. While an interferon gamma-mediated switch to the IgG2a isotype upon viral infection in mice has been well established, this investigation reveals a noncanonical, interferon gamma-independent pathway for antiretroviral antibody production and IgG2a class switch recombination that is controlled by a single recessive locus. Furthermore, this study indicates that the radiation-resistant compartment can direct antiviral antibody responses, suggesting that detection of infection by nonhematopoietic cells is involved is stimulating adaptive immunity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Shi",
+                    "name": "Shi Y"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Kawana-Tachikawa",
+                    "name": "Kawana-Tachikawa A"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Gao",
+                    "name": "Gao F"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Liu",
+                    "name": "Liu C"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Gao",
+                    "name": "Gao J"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Cheng",
+                    "name": "Cheng H"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Ueno",
+                    "name": "Ueno T"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Iwamoto",
+                    "name": "Iwamoto A"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1128/JVI.00725-17",
+                    "type": "doi"
+                },
+                {
+                    "id": "28615212",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Virol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Conserved V\ufffd\ufffd1 binding geometry in a setting of locus-disparate pHLA recognition by \ufffd\ufffd/\ufffd\ufffd\ufffd\ufffdTCRs: insight into recognition of HIV peptides by TCR.",
+            "type": "article",
+            "url": "https://journals.asm.org/doi/10.1128/JVI.00725-17",
+            "volume": [
+                null
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5xos"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5xos"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:01 binding \"IPLTEEAEL\" at 1.70&#8491; resolution",
+    "unique_chain_count": 3
+}

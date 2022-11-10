@@ -1,0 +1,214 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA01074",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:06",
+            "slug": "hla_b_57_06",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4irj_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:28:21.968621"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKTQVEQSPQSLVVRQGENCVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDEGYTQYFGPGTRLLVLEDLRNVTPPKVSLFEPSKAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-01-14",
+        "deposition_year": 2013,
+        "release_date": "2013-08-28",
+        "release_year": 2013,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4IRJ | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "4irj",
+    "pdb_title": "Structure of the mouse CD1d-4clphc-alpha-galcer-inkt TCR complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "NKT cells, a unique type of regulatory T cells, respond to structurally diverse glycolipids presented by CD1d. Although it was previously thought that recognition of glycolipids such as \u03b1-galactosylceramide (\u03b1-GalCer) by the NKT cell TCR (NKTCR) obeys a key-lock principle, it is now clear this interaction is much more flexible. In this article, we report the structure-function analysis of a series of novel 6''-OH analogs of \u03b1-GalCer with more potent antitumor characteristics. Surprisingly, one of the novel carbamate analogs, \u03b1-GalCer-6''-(pyridin-4-yl)carbamate, formed novel interactions with the NKTCR. This interaction was associated with an extremely high level of Th1 polarization and superior antitumor responses. These data highlight the in vivo relevance of adding aromatic moieties to the 6''-OH position of the sugar and additionally show that judiciously chosen linkers are a promising strategy to generate strong Th1-polarizing glycolipids through increased binding either to CD1d or to NKTCR.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Aspeslagh",
+                    "name": "Aspeslagh S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Nemcovic",
+                    "name": "Nemcovic M"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Pauwels",
+                    "name": "Pauwels N"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Venken",
+                    "name": "Venken K"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Van Calenbergh",
+                    "name": "Van Calenbergh S"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Elewaut",
+                    "name": "Elewaut D"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1203134",
+                    "type": "doi"
+                },
+                {
+                    "id": "23960235",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Enhanced TCR Footprint by a Novel Glycolipid Increases NKT-Dependent Tumor Protection.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1203134",
+            "volume": [
+                null
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4irj"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4irj"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4irj"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "4irj"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 3.00&#8491; resolution",
+    "unique_chain_count": 4
+}

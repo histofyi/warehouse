@@ -1,0 +1,213 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34773",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*03:01",
+            "slug": "hla_a_03_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7qpd_1",
+            "chains": [
+                "B",
+                "T",
+                "E",
+                "M",
+                "C",
+                "A",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:41:16.149549"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "calreticulin": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "EPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFTVKHEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRCKDDEFTHLYTLIVRPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDKQDEEQRLKEEEEDKKRKEEEEAEDKEDDEDKDEDEEDEEDKEEDEEEDVPGQAKDEL"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "M"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.83,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHEAEQLRAYLDGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWELSSQPTIPIVGIIAGLVLLGAVITGAVVAAVMWRRKSSDRKGGSYTQAASSDSAQGSDVSLTACKV"
+        },
+        "erp57": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SDVLELTDDNFESRISDTGSAGLMLVEFFAPWCGHCKRLAPEYEAAATRLKGIVPLAKVDCTANTNTCNKYGVSGYPTLKIFRDGEEAGAYDGPRTADGIVSHLKKQAGPASVPLRTEEEFKKFISDKDASIVGFFDDSFSEAHSEFLKAASNLRDNYRFAHTNVESLVNEYDDNGEGIILFRPSHLTNKFEDKTVAYTEQKMTSGKIKKFIQENIFGICPHMTEDNKDLIQGKDLLIAYYDVDYEKNAKGSNYWRNRVMMVAKKFLDAGHKLNFAVASRKTFSHELSDFGLESTAGEIPVVAIRTAKGEKFVMQEEFSRDGKALERFLQDYFDGNLKRYLKSEPIPESNDGPVKVVVAENFDEIVNNENKDVLIEFYAPWCGHCKNLEPKYKELGEKLSKDPNIVIAKMDATANDVPSPYEVRGFPTIYFSPANKKLNPKKYEGGRELSDFISYLQREATNPPVIQEEKPKKKKKAQEDL"
+        },
+        "tapasin": {
+            "chains": [
+                "T"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPAVIECWFVEDASGKGLAKRPGALLLRQGPGEPPPRPDLDPELYLSVHDPAGALQAAFRRYPRGAPAPHCEMSRFVPLPASAKWASGLTPAQNCPRALDGAWLMVSISSPVLSLSSLLRPQPEPQQEPVLITMATVVLTVLTHTPAPRVRLGQDALLDLSFAYMPPTSEAASSLAPGPPPFGLEWRRQHLGKGHLLLAATPGLNGQMPAAQEGAVAFAAWDDDEPWGPWTGNGTFWLPRVQPFQEGTYLATIHLPYLQGQVTLELAVYKPPKVSLMPATLARAAPGEAPPELLCLVSHFYPSGGLEVEWELRGGPGGRSQKAEGQRWLSALRHHSDGSVSLSGHLQPPPVTTEQHGARYACRIHHPSLPASGRSAEVTLEVAGLSGPSLEDSVGLFLSAFLLLGLFKALGWAAVYLSTCKDSKKKAE"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2022-01-03",
+        "deposition_year": 2022,
+        "release_date": "2022-07-20",
+        "release_year": 2022,
+        "revision_date": "2022-08-24",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_plc",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "erp57",
+        "tapasin",
+        "calreticulin"
+    ],
+    "experimental_method": "Electron Microscopy",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7QPD | HLA-A*03:01 with Peptide Loading Complex",
+    "pdb_code": "7qpd",
+    "pdb_title": "Structure of the human MHC i peptide-loading complex editing module",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Major histocompatibility complex class I (MHC I) molecules are central to adaptive immunity. Their assembly, epitope selection, and antigen presentation are controlled by the MHC I glycan through a sophisticated network of chaperones and modifying enzymes. However, the mechanistic integration of the corresponding processes remains poorly understood. Here, we determine the multi-chaperone-client interaction network of the peptide loading complex (PLC) and report the\u00a0PLC editing module structure by cryogenic\u00a0electron microscopy at 3.7\u2009\u00c5 resolution. Combined with epitope-proofreading studies of the PLC in near-native lipid environment, these data show that peptide-receptive MHC I molecules are stabilized by multivalent chaperone interactions including the calreticulin-engulfed mono-glucosylated MHC I glycan, which only becomes accessible for processing by \u03b1-glucosidase II upon loading of optimal epitopes. Our work reveals allosteric coupling between peptide-MHC I assembly and glycan processing. This inter-process communication defines the onset of an adaptive immune response and provides a prototypical example of the tightly coordinated events in endoplasmic reticulum quality control.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Domnick",
+                    "name": "Domnick A"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Winter",
+                    "name": "Winter C"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Su\u0161ac",
+                    "name": "Su\u0161ac L"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Hennecke",
+                    "name": "Hennecke L"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Hensen",
+                    "name": "Hensen M"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Zitzmann",
+                    "name": "Zitzmann N"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Trowitzsch",
+                    "name": "Trowitzsch S"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Thomas",
+                    "name": "Thomas C"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Tamp\u00e9",
+                    "name": "Tamp\u00e9 R"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-022-32384-z",
+                    "type": "doi"
+                },
+                {
+                    "id": "35948544",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "4701"
+            ],
+            "title": "Molecular basis of MHC I quality control in the peptide loading complex.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41467-022-32384-z",
+            "volume": [
+                "13"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.73",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7qpd"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7qpd"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*03:01 with Peptide Loading Complex at 3.73&#8491; resolution",
+    "unique_chain_count": 5
+}

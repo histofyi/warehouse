@@ -1,0 +1,258 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5jwe_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:28:13.371084"
+        },
+        "2": {
+            "assembly_name": "5jwe_2",
+            "chains": [
+                "C",
+                "D",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:28:13.878305"
+        },
+        "3": {
+            "assembly_name": "5jwe_3",
+            "chains": [
+                "E",
+                "F",
+                "R"
+            ],
+            "downloaded_at": "2022-11-09T14:28:14.168325"
+        },
+        "4": {
+            "assembly_name": "5jwe_4",
+            "chains": [
+                "G",
+                "H",
+                "S"
+            ],
+            "downloaded_at": "2022-11-09T14:28:14.521524"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q",
+                "R",
+                "S"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "CSANNSHHYI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-05-12",
+        "deposition_year": 2016,
+        "release_date": "2017-05-24",
+        "release_year": 2017,
+        "revision_date": "2017-12-27",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5JWE | H2-Db binding \"CSANNSHHYI\"",
+    "pdb_code": "5jwe",
+    "pdb_title": "Crystal structure of h-2db in complex with the lcmv-derived gp92-101 peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 10,
+            "actual_sequence": "CSANNSHHYI",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "CSANNSHHYI"
+        },
+        "Q": {
+            "actual_length": 10,
+            "actual_sequence": "CSANNSHHYI",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "CSANNSHHYI"
+        },
+        "R": {
+            "actual_length": 10,
+            "actual_sequence": "CSANNSHHYI",
+            "chain_id": "R",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "CSANNSHHYI"
+        },
+        "S": {
+            "actual_length": 10,
+            "actual_sequence": "CSANNSHHYI",
+            "chain_id": "S",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "CSANNSHHYI"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "CSANNSHHYI",
+    "publication": {
+        "abstract": "Post-translational modifications significantly broaden the epitope repertoire for major histocompatibility class I complexes (MHC-I) and may allow viruses to escape immune recognition. Lymphocytic choriomeningitis virus (LCMV) infection of H-2b mice generates CD8+ CTL responses directed towards several MHC-I-restricted epitopes including the peptides GP92 (CSANNSHHYI) and GP392 (WLVTNGSYL), both with a N-glycosylation site. Interestingly, glycosylation has different effects on the immunogenicity and association capacity of these two epitopes to H-2Db. To assess the structural bases underlying these functional results, we determined the crystal structures of H-2Db in complex with GP92 (CSANNSHHYI) and GP392 (WLVTNGSYL) to 2.4 and 2.5 \u00c5 resolution, respectively. The structures reveal that while glycosylation of GP392 most probably impairs binding, the glycosylation of the asparagine residue in GP92, which protrudes towards the solvent, possibly allows for immune escape and/or forms a neo-epitope that may select for a different set of CD8 T cells. Altogether, the presented results provide a structural platform underlying the effects of post-translational modifications on epitope binding and/or immunogenicity, resulting in viral immune escape.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "I",
+                    "lastname": "Hafstrand",
+                    "name": "Hafstrand I"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Badia-Martinez",
+                    "name": "Badia-Martinez D"
+                },
+                {
+                    "initials": "BJ",
+                    "lastname": "Josey",
+                    "name": "Josey BJ"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Norstr\ufffd\ufffdm",
+                    "name": "Norstr\ufffd\ufffdm M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Buratto",
+                    "name": "Buratto J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Pellegrino",
+                    "name": "Pellegrino S"
+                },
+                {
+                    "initials": "AD",
+                    "lastname": "Duru",
+                    "name": "Duru AD"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Sandalova",
+                    "name": "Sandalova T"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Achour",
+                    "name": "Achour A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.pone.0189584",
+                    "type": "doi"
+                },
+                {
+                    "id": "29253009",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS ONE",
+                "name": ""
+            },
+            "pages": [
+                "e0189584"
+            ],
+            "title": "Crystal structures of H-2Db in complex with the LCMV-derived peptides GP92 and GP392 explain pleiotropic effects of glycosylation on antigen presentation and immunogenicity.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.pone.0189584",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5jwe"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5jwe"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"CSANNSHHYI\" at 2.40&#8491; resolution",
+    "unique_chain_count": 3
+}

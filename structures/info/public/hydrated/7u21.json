@@ -1,0 +1,184 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7u21_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:55.903606"
+        },
+        "2": {
+            "assembly_name": "7u21_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:41:57.015340"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AVGSYVYSV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2022-02-22",
+        "deposition_year": 2022,
+        "release_date": "2022-06-01",
+        "release_year": 2022,
+        "revision_date": "2022-06-01",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7U21 | HLA-A*02:01 binding \"AVGSYVYSV\"",
+    "pdb_code": "7u21",
+    "pdb_title": "Human Class I MHC hla-a2 in complex with AVGSYVYSV peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "AVGSYVYSV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "AVGSYVYSV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "AVGSYVYSV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "AVGSYVYSV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "AVGSYVYSV",
+    "publication": {
+        "abstract": "There is long-standing interest in accurately modeling the structural features of peptides bound and presented by class I MHC proteins. This interest has grown with the advent of rapid genome sequencing and the prospect of personalized, peptide-based cancer vaccines, as well as the development of molecular and cellular therapeutics based on T cell receptor recognition of peptide-MHC. However, while the speed and accessibility of peptide-MHC modeling has improved substantially over the years, improvements in accuracy have been modest. Accuracy is crucial in peptide-MHC modeling, as T cell receptors are highly sensitive to peptide conformation and capturing fine details is therefore necessary for useful models. Studying nonameric peptides presented by the common class I MHC protein HLA-A*02:01, here we addressed a key question common to modern modeling efforts: from a set of models (or decoys) generated through conformational sampling, which is best? We found that the common strategy of decoy selection by lowest energy can lead to substantial errors in predicted structures. We therefore adopted a data-driven approach and trained functions capable of predicting near native decoys with exceptionally high accuracy. Although our implementation is limited to nonamer/HLA-A*02:01 complexes, our results serve as an important proof of concept from which improvements can be made and, given the significance of HLA-A*02:01 and its preference for nonameric peptides, should have immediate utility in select immunotherapeutic and other efforts for which structural information would be advantageous.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Keller, G.L.J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Weiss, L.I."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Baker, B.M."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3389/fimmu.2022.887759",
+                    "type": "doi"
+                },
+                {
+                    "id": "35547730",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "887759-887759"
+            ],
+            "title": "Physicochemical Heuristics for Identifying High Fidelity, Near-Native Structural Models of Peptide/MHC Complexes.",
+            "type": "article",
+            "url": "https://www.frontiersin.org/articles/10.3389/fimmu.2022.887759/full",
+            "volume": [
+                "13"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7u21"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7u21"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"AVGSYVYSV\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,212 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3wuw_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "G"
+            ],
+            "downloaded_at": "2022-11-09T14:28:25.871838"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "QRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRTALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "kir3": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "HHHHHHGSGSDDDDKKPFLSAWPSAVVPRGGHVTLRCHYRHRFNNFMLYKEDRIHIPIFHGRIFQESFNMSPVTTAHAGNYTCRGSHPHSPTGWSAPSNPVVIMVTGNHRKPSLLAHPGPLVKSGERVILQCWSDIMFEHFFLHKEGISKDPSRLVGQIHDGVSKANFSIGPMMLALAGTYRCYGSVTHTPYQLSAPSDPLDIVVTGPYEKPSLSAQPGPKVQAGESVTLSCSSRSSYDMYHLSREGGAHERRLPAVRKVNRTFQADFPLGPATHGGTYRCFGSFRHSPYEWSDPSDPLLV"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LSSPVTKSF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-05-06",
+        "deposition_year": 2014,
+        "release_date": "2014-05-28",
+        "release_year": 2014,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_kir3",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "kir3"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3WUW | HLA-B*57:01 binding \"LSSPVTKSF\" with KIR-3 NK receptor",
+    "pdb_code": "3wuw",
+    "pdb_title": "Kir3dl1 in complex with hla-b*57:01.i80t",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LSSPVTKSF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LSSPVTKSF"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LSSPVTKSF",
+    "publication": {
+        "abstract": "Killer Ig-like receptors (KIRs) control the activation of human NK cells via interactions with peptide-laden HLAs. KIR3DL1 is a highly polymorphic inhibitory receptor that recognizes a diverse array of HLA molecules expressing the Bw4 epitope, a group with multiple polymorphisms incorporating variants within the Bw4 motif. Genetic studies suggest that KIR3DL1 variation has functional significance in several disease states, including HIV infection. However, owing to differences across KIR3DL1 allotypes, HLA-Bw4, and associated peptides, the mechanistic link with biological outcome remains unclear. In this study, we elucidated the impact of KIR3DL1 polymorphism on peptide-laden HLA recognition. Mutational analysis revealed that KIR residues involved in water-mediated contacts with the HLA-presented peptide influence peptide binding specificity. In particular, residue 282 (glutamate) in the D2 domain underpins the lack of tolerance of negatively charged C-terminal peptide residues. Allotypic KIR3DL1 variants, defined by neighboring residue 283, displayed differential sensitivities to HLA-bound peptide, including the variable HLA-B*57:01-restricted HIV-1 Gag-derived epitope TW10. Residue 283, which has undergone positive selection during the evolution of human KIRs, also played a central role in Bw4 subtype recognition by KIR3DL1. Collectively, our findings uncover a common molecular regulator that controls HLA and peptide discrimination without participating directly in peptide-laden HLA interactions. Furthermore, they provide insight into the mechanics of interaction and generate simple, easily assessed criteria for the definition of KIR3DL1 functional groupings that will be relevant in many clinical applications, including bone marrow transplantation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "GM",
+                    "lastname": "O'Connor",
+                    "name": "O'Connor GM"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Widjaja",
+                    "name": "Widjaja JM"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Bridgeman",
+                    "name": "Bridgeman JS"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Gostick",
+                    "name": "Gostick E"
+                },
+                {
+                    "initials": "BA",
+                    "lastname": "Lafont",
+                    "name": "Lafont BA"
+                },
+                {
+                    "initials": "SK",
+                    "lastname": "Anderson",
+                    "name": "Anderson SK"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "DW",
+                    "lastname": "McVicar",
+                    "name": "McVicar DW"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1303142",
+                    "type": "doi"
+                },
+                {
+                    "id": "24563253",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "2875-84"
+            ],
+            "title": "Mutational and structural analysis of KIR3DL1 reveals a lineage-defining allotypic dimorphism that impacts both HLA and peptide sensitivity.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1303142",
+            "volume": [
+                "192"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3wuw"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3wuw"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:01 binding \"LSSPVTKSF\" with KIR-3 NK receptor at 2.00&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,220 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6mj6_1",
+            "chains": [
+                "C",
+                "D",
+                "A",
+                "B",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:30:08.445783"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKTQVEQSPQSLVVRQGENCVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDEGYTQYFGPGTRLLVLEDLRNVTPPKVSLFEPSKAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-09-20",
+        "deposition_year": 2018,
+        "release_date": "2019-01-09",
+        "release_year": 2019,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6MJ6 | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "6mj6",
+    "pdb_title": "Crystal structure of the mCD1d/xxx (jj166) /inkTCR ternary complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Invariant natural killer T-cells (iNKT) are a glycolipid-responsive subset of T-lymphocytes that fulfill a pivotal role in the immune system. The archetypical synthetic glycolipid, \u03b1-galactosylceramide (\u03b1-GalCer), whose molecular framework is inspired by a group of amphiphilic natural products, remains the most studied antigen for iNKT-cells. Nonetheless, the potential of \u03b1-GalCer as an immunostimulating agent is compromised by the fact that this glycolipid elicits simultaneous secretion of Th1- and Th2-cytokines. This has incited medicinal chemistry efforts to identify analogues that are able to perturb the Th1/Th2 balance. In this work, we present the synthesis of an extensive set of 4\"-O-alkylated \u03b1-GalCer analogues, which were evaluated in vivo for their cytokine induction. We have found that conversion of the 4\"-OH group to ether moieties decreases the immunogenic potential in mice relative to \u03b1-GalCer. Yet, the benzyl-modified glycolipids are able to produce a distinct pro-inflammatory immune response. The crystal structures suggest an extra hydrophobic interaction between the benzyl moiety and the \u03b12-helix of CD1d.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Janssens",
+                    "name": "Janssens J"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Bitra",
+                    "name": "Bitra A"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Decruy",
+                    "name": "Decruy T"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Venken",
+                    "name": "Venken K"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "van der Eycken",
+                    "name": "van der Eycken J"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Elewaut",
+                    "name": "Elewaut D"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "van Calenbergh",
+                    "name": "van Calenbergh S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/cmdc.201800649",
+                    "type": "doi"
+                },
+                {
+                    "id": "30556652",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "ChemMedChem",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "4\"-O-Alkylated \ufffd\ufffd-Galactosylceramide Analogues as iNKT-Cell Antigens: Synthetic, Biological, and Structural Studies.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/cmdc.201800649",
+            "volume": [
+                null
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.45",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6mj6"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6mj6"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6mj6"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "6mj6"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 2.45&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,244 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6mss_1",
+            "chains": [
+                "C",
+                "D",
+                "E",
+                "A_2",
+                "B_2"
+            ],
+            "downloaded_at": "2022-11-09T14:29:39.354654"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWGSLHHILDAQKMVWNHRHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGMPVEQNPPALSLYEGADSGLRCNFSTTMKSVQWFQQNHRGRLITLFYLAQGTKENGRLKSTFNSKERYSTLHIKDAQLEDSGTYFCAAVNMGYKLTFGTGTSLLVDPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV4"
+        },
+        "tcr_beta": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDPQGVSYEQYFGPGTRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-10-18",
+        "deposition_year": 2018,
+        "release_date": "2019-10-02",
+        "release_year": 2019,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6MSS | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "6mss",
+    "pdb_title": "Diversity in the type ii natural killer T cell receptor repertoire and antigen specificity leads to differing CD1d docking strategies",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Type I and type II natural killer T (NKT) cells are restricted to the lipid antigen-presenting molecule CD1d. While we have an understanding of the antigen reactivity and function of type I NKT cells, our knowledge of type II NKT cells in health and disease remains unclear. Here we describe a population of type II NKT cells that recognise and respond to the microbial antigen, \u03b1-glucuronosyl-diacylglycerol (\u03b1-GlcADAG) presented by CD1d, but not the prototypical type I NKT cell agonist, \u03b1-galactosylceramide. Surprisingly, the crystal structure of a type II NKT TCR-CD1d-\u03b1-GlcADAG complex reveals a CD1d F'-pocket-docking mode that contrasts sharply with the previously determined A'-roof positioning of a sulfatide-reactive type II NKT TCR. Our data also suggest that diverse type II NKT TCRs directed against distinct microbial or mammalian lipid antigens adopt multiple recognition strategies on CD1d, thereby maximising the potential for type II NKT cells to detect different lipid antigens.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "CF",
+                    "lastname": "Almeida",
+                    "name": "Almeida CF"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Sundararaj",
+                    "name": "Sundararaj S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Praveena",
+                    "name": "Praveena T"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Cao",
+                    "name": "Cao B"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Burugupalli",
+                    "name": "Burugupalli S"
+                },
+                {
+                    "initials": "DGM",
+                    "lastname": "Smith",
+                    "name": "Smith DGM"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Patel",
+                    "name": "Patel O"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Brigl",
+                    "name": "Brigl M"
+                },
+                {
+                    "initials": "DG",
+                    "lastname": "Pellicci",
+                    "name": "Pellicci DG"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Williams",
+                    "name": "Williams SJ"
+                },
+                {
+                    "initials": "AP",
+                    "lastname": "Uldrich",
+                    "name": "Uldrich AP"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-019-12941-9",
+                    "type": "doi"
+                },
+                {
+                    "id": "31748533",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "5242"
+            ],
+            "title": "Distinct CD1d docking strategies exhibited by diverse Type II NKT cell receptors.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-019-12941-9",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6mss"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6mss"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6mss"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "A"
+            ],
+            "subgroup": "TRAV4"
+        },
+        "beta": {
+            "chains": [
+                "B"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "6mss"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 3.00&#8491; resolution",
+    "unique_chain_count": 4
+}

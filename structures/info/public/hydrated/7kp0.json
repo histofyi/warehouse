@@ -1,0 +1,226 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01902",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kd",
+            "slug": "h2_kd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7kp0_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:43:33.471643"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "AIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDMGSLVPR"
+        },
+        "cd1a": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "ATGLKEPLSFHVIWIASFYNHSWKQNLVSGWLSDLQTHTWDSNSSTIVFLWPWSRGNFSNEEWKELETLFRIRTIRSFEGIRRYAHELQFEYPFEIQVTGGCELHSGKVSGSFLQLAYQGSDFVSFQNNSWLPYPVAGNMAKHFCKVLNQNQHENDITHNLLSDTCPRFILGLLDAGKAHLQRQVKPEAWLSHGPSPGPGHLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQRGDILPSADGTWYLRATLEVAAGEAADLSCRVKHSSLEGQDIVLYWEGSLVPRG"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-11-10",
+        "deposition_year": 2020,
+        "release_date": "2021-05-05",
+        "release_year": 2021,
+        "revision_date": "2021-06-16",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1a",
+    "components": [
+        "cd1a",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7KP0 | Non-classical MHC Class I molecule CD1a",
+    "pdb_code": "7kp0",
+    "pdb_title": "Cd1a-42:1 sm binary complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "CD1a-autoreactive T cells represent a significant proportion of circulating \u03b1\u03b2 T cells in humans and appear to be enriched in the skin. How their autoreactivity is regulated remains unclear. In this issue of JEM, Cotton et al. (2021. J. Exp. Med.https://doi.org/10.1084/jem.20202699) show that CD1a molecules do not randomly survey cellular lipids but instead capture certain lipid classes that broadly interfere with the binding of autoreactive T cell antigen receptors to the target CD1a. These findings provide new potential therapeutic avenues for manipulating CD1a autoreactive T cell responses.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "RN",
+                    "lastname": "Cotton",
+                    "name": "Cotton RN"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Wegrecki",
+                    "name": "Wegrecki M"
+                },
+                {
+                    "initials": "TY",
+                    "lastname": "Cheng",
+                    "name": "Cheng TY"
+                },
+                {
+                    "initials": "YL",
+                    "lastname": "Chen",
+                    "name": "Chen YL"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Veerapen",
+                    "name": "Veerapen N"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Orgill",
+                    "name": "Orgill DP"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Pomahac",
+                    "name": "Pomahac B"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Talbot",
+                    "name": "Talbot SG"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Willis",
+                    "name": "Willis R"
+                },
+                {
+                    "initials": "JD",
+                    "lastname": "Altman",
+                    "name": "Altman JD"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "de Jong",
+                    "name": "de Jong A"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Van Rhijn",
+                    "name": "Van Rhijn I"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Clark",
+                    "name": "Clark RA"
+                },
+                {
+                    "initials": "GS",
+                    "lastname": "Besra",
+                    "name": "Besra GS"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Ogg",
+                    "name": "Ogg G"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "DB",
+                    "lastname": "Moody",
+                    "name": "Moody DB"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20202699",
+                    "type": "doi"
+                },
+                {
+                    "id": "33961028",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "J Exp Med",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "CD1a selectively captures endogenous cellular lipids that broadly block T cell response.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/218/7/e20202699/212082/CD1a-selectively-captures-endogenous-cellular",
+            "volume": [
+                "218"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7kp0"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7kp0"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1a at 2.40&#8491; resolution",
+    "unique_chain_count": 2
+}

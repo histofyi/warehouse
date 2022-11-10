@@ -1,0 +1,240 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6pui_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:40:15.639069"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVKDSNYQLIWGAGTKLIIKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MNAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSVWTGEGSGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-07-18",
+        "deposition_year": 2019,
+        "release_date": "2020-02-19",
+        "release_year": 2020,
+        "revision_date": "2020-04-01",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6PUI | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "6pui",
+    "pdb_title": "Structure of human MAIT a-f7 TCR in complex with human MR1-4'oh-butyl-5-op-u",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Mucosal-associated invariant T (MAIT) cells are activated by microbial riboflavin-based metabolite antigens when presented by MR1. How modifications to the potent antigen 5-OP-RU affect presentation by MR1 and MAIT cell activation remains unclear. Here we design 20 derivatives, termed altered metabolite ligands (AMLs), to dissect the impact of different antigen components on the human MAIT-MR1 axis. Analysis of 11 crystal structures of MAIT T cell antigen receptor (TCR)-MR1-AML ternary complexes, along with biochemical and functional assays, shows that MR1 cell-surface upregulation is influenced by ribityl and non-ribityl components of the ligand and the hydrophobicity of the MR1-AML interface. The polar ribityl chain of the AML strongly influences MAIT cell activation potency through dynamic compensatory interactions within a MAIT TCR-MR1-AML interaction triad. We define the basis by which the MAIT TCR can differentially recognize AMLs, thereby providing insight into MAIT cell antigen specificity and potency.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "W",
+                    "lastname": "Awad",
+                    "name": "Awad W"
+                },
+                {
+                    "initials": "GJM",
+                    "lastname": "Ler",
+                    "name": "Ler GJM"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Xu",
+                    "name": "Xu W"
+                },
+                {
+                    "initials": "AN",
+                    "lastname": "Keller",
+                    "name": "Keller AN"
+                },
+                {
+                    "initials": "JYW",
+                    "lastname": "Mak",
+                    "name": "Mak JYW"
+                },
+                {
+                    "initials": "XY",
+                    "lastname": "Lim",
+                    "name": "Lim XY"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Liu",
+                    "name": "Liu L"
+                },
+                {
+                    "initials": "SBG",
+                    "lastname": "Eckle",
+                    "name": "Eckle SBG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Corbett",
+                    "name": "Corbett AJ"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Fairlie",
+                    "name": "Fairlie DP"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41590-020-0616-6",
+                    "type": "doi"
+                },
+                {
+                    "id": "32123373",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "The molecular basis underpinning the potency and specificity of MAIT cell antigens.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41590-020-0616-6",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.96",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6pui"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6pui"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6pui"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "B"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "G"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "6pui"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 1.96&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,259 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1im3_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:31:15.695783"
+        },
+        "2": {
+            "assembly_name": "1im3_2",
+            "chains": [
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:31:17.062903"
+        },
+        "3": {
+            "assembly_name": "1im3_3",
+            "chains": [
+                "I",
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:31:17.519170"
+        },
+        "4": {
+            "assembly_name": "1im3_4",
+            "chains": [
+                "M",
+                "N",
+                "O",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:31:17.925821"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "F",
+                "J",
+                "N"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "E",
+                "I",
+                "M"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "G",
+                "K",
+                "O"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLFGYPVYV"
+        },
+        "us2": {
+            "chains": [
+                "D",
+                "H",
+                "L",
+                "P"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "PWFQIEDNRCYIDNGKLFARGSIVGNMSRFVFDPKADYGGVGENLYVHADDVEFVPGESLKWNVRNLDVMPIFETLALRLVLQGDVIWLRCVPEL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2001-05-09",
+        "deposition_year": 2001,
+        "release_date": "2001-06-06",
+        "release_year": 2001,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_us2",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "us2"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1IM3 | HLA-A*02:01 binding \"LLFGYPVYV\" with human cytomegalovirus protein US2",
+    "pdb_code": "1im3",
+    "pdb_title": "Antigen presentation subverted: Structure of the human cytomegalovirus protein US2 bound to the class I molecule HLA-A2.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "G": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "G",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "K": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "K",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        },
+        "O": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGYPVYV",
+            "chain_id": "O",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGYPVYV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LLFGYPVYV",
+    "publication": {
+        "abstract": "Many persistent viruses have evolved the ability to subvert MHC class I antigen presentation. Indeed, human cytomegalovirus (HCMV) encodes at least four proteins that down-regulate cell-surface expression of class I. The HCMV unique short (US)2 glycoprotein binds newly synthesized class I molecules within the endoplasmic reticulum (ER) and subsequently targets them for proteasomal degradation. We report the crystal structure of US2 bound to the HLA-A2/Tax peptide complex. US2 associates with HLA-A2 at the junction of the peptide-binding region and the alpha3 domain, a novel binding surface on class I that allows US2 to bind independently of peptide sequence. Mutation of class I heavy chains confirms the importance of this binding site in vivo. Available data on class I-ER chaperone interactions indicate that chaperones would not impede US2 binding. Unexpectedly, the US2 ER-luminal domain forms an Ig-like fold. A US2 structure-based sequence alignment reveals that seven HCMV proteins, at least three of which function in immune evasion, share the same fold as US2. The structure allows design of further experiments to determine how US2 targets class I molecules for degradation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "BE",
+                    "lastname": "Gewurz",
+                    "name": "Gewurz BE"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Gaudet",
+                    "name": "Gaudet R"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Tortorella",
+                    "name": "Tortorella D"
+                },
+                {
+                    "initials": "EW",
+                    "lastname": "Wang",
+                    "name": "Wang EW"
+                },
+                {
+                    "initials": "HL",
+                    "lastname": "Ploegh",
+                    "name": "Ploegh HL"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Wiley",
+                    "name": "Wiley DC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.121172898",
+                    "type": "doi"
+                },
+                {
+                    "id": "11391001",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "6794-9"
+            ],
+            "title": "Antigen presentation subverted: Structure of the human cytomegalovirus protein US2 bound to the class I molecule HLA-A2.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.121172898",
+            "volume": [
+                "98"
+            ],
+            "year": [
+                2001
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1im3"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1im3"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"LLFGYPVYV\" with human cytomegalovirus protein US2 at 2.20&#8491; resolution",
+    "unique_chain_count": 4
+}

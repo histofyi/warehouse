@@ -1,0 +1,243 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3ch1_1",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:33:33.111504"
+        },
+        "2": {
+            "assembly_name": "3ch1_2",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:33.594535"
+        },
+        "3": {
+            "assembly_name": "3ch1_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:33:33.904971"
+        },
+        "4": {
+            "assembly_name": "3ch1_4",
+            "chains": [
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:33:34.409250"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F",
+                "I",
+                "L"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EGPRNQDWL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-03-06",
+        "deposition_year": 2008,
+        "release_date": "2009-03-31",
+        "release_year": 2009,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3CH1 | H2-Db binding \"EGPRNQDWL\"",
+    "pdb_code": "3ch1",
+    "pdb_title": "Crystal structure of h-2db in complex with chimeric gp100",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "EGPRNQDWL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EGPRNQDWL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "EGPRNQDWL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EGPRNQDWL"
+        },
+        "I": {
+            "actual_length": 9,
+            "actual_sequence": "EGPRNQDWL",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EGPRNQDWL"
+        },
+        "L": {
+            "actual_length": 9,
+            "actual_sequence": "EGPRNQDWL",
+            "chain_id": "L",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EGPRNQDWL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "EGPRNQDWL",
+    "publication": {
+        "abstract": "Type II diabetes is associated with poor breast cancer prognosis. To study the association between a diabetes risk reduction diet (DRRD) and survival following breast cancer, we followed 8,482 women with breast cancer from two large cohort studies. Information on diet and other factors was repeatedly measured in validated questionnaires every two to four years. The DRRD includes 9 components: higher intakes of cereal fiber, coffee, nuts, whole fruits and polyunsaturated/saturated fat ratio; and lower glycemic index, trans fat, sugar-sweetened beverages, and red meat. Cumulative average DRRD score was calculated using repeated measures of postdiagnostic diet. Deaths were assessed by family members or via National Death Index. Multivariable-adjusted HRs and 95% confidence intervals (CI) were estimated using Cox proportional hazards models. During a median of 14 years of follow-up since diagnosis, 2,600 deaths occurred among participants, 1,042 of which were due to breast cancer. Women with higher postdiagnostic DRRD score had a 20% lower risk of breast cancer-specific mortality (top vs. bottom quintile HR = 0.80; 95% CI = 0.65-0.97; <i>P</i> <sub>trend</sub> = 0.02) and 34% lower risk of all-cause mortality (HR = 0.66; 95% CI = 0.58-0.76; <i>P</i> <sub>trend</sub> < 0.0001). Compared with women who consistently had lower score (\u2264median) before and after diagnosis, those whose score improved from low to high had a lower risk of breast cancer-specific mortality (HR = 0.77; 95% CI = 0.62-0.95) and overall mortality (HR = 0.85; 95% CI = 0.74-0.97). These findings demonstrate that greater adherence to DRRD was associated with better survival, suggesting postdiagnosis dietary modification consistent with type II diabetes prevention may be important for breast cancer survivors. SIGNIFICANCE: This study suggests that greater adherence to the diabetes risk reduction diet after diagnosis associates with improved survival outcomes among a large number of breast cancer survivors.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MJ",
+                    "lastname": "van Stipdonk",
+                    "name": "van Stipdonk MJ"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Badia-Martinez",
+                    "name": "Badia-Martinez D"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sluijter",
+                    "name": "Sluijter M"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Offringa",
+                    "name": "Offringa R"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "van Hall",
+                    "name": "van Hall T"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Achour",
+                    "name": "Achour A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1158/0008-5472.CAN-09-1724",
+                    "type": "doi"
+                },
+                {
+                    "id": "19789338",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "19"
+            ],
+            "journal": {
+                "iso_abbreviation": "Cancer Res.",
+                "name": ""
+            },
+            "pages": [
+                "7784-92"
+            ],
+            "title": "Design of agonistic altered peptides for the robust induction of CTL directed towards H-2Db in complex with the melanoma-associated epitope gp100.",
+            "type": "article",
+            "url": "https://aacrjournals.org/cancerres/article/69/19/7784/550084/Design-of-Agonistic-Altered-Peptides-for-the",
+            "volume": [
+                "69"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3ch1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3ch1"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"EGPRNQDWL\" at 2.30&#8491; resolution",
+    "unique_chain_count": 3
+}

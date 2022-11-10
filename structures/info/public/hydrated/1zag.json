@@ -1,0 +1,169 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1zag_1",
+            "chains": [
+                "A",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:29:43.924892"
+        },
+        "2": {
+            "assembly_name": "1zag_2",
+            "chains": [
+                "B",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:29:44.276281"
+        },
+        "3": {
+            "assembly_name": "1zag_3",
+            "chains": [
+                "C",
+                "G"
+            ],
+            "downloaded_at": "2022-11-09T14:29:44.497099"
+        },
+        "4": {
+            "assembly_name": "1zag_4",
+            "chains": [
+                "D",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:29:44.735953"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "zag": {
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "DGRYSLTYIYTGLSKHVEDVPAFQALGSLNDLQFFRYNSKDRKSQPMGLWRQVEGMEDWKQDSQLQKAREDIFMETLKDIVEYYNDSNGSHVLQGRFGCEIENNRSSGAFWKYYYDGKDYIEFNKEIPAWVPFDPAAQITKQKWEAEPVYVQRAKAYLEEECPATLRKYLKYSKNILDRQDPPSVVVTSHQAPGEKKKLKCLAYDFYPGKIDVHWTRAGEVQEPELRGDVLHNGNGTYQSWVVVAVPPQDTAPYSCHVQHSSLAQPLVVPWEAS"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1999-02-02",
+        "deposition_year": 1999,
+        "release_date": "1999-03-31",
+        "release_year": 1999,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "zag",
+    "components": [
+        "zag"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1ZAG | Non-classical MHC Class I molecule Zinc Alpha-2 Glycoprotein",
+    "pdb_code": "1zag",
+    "pdb_title": "Human zinc-alpha-2-glycoprotein",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Zn-alpha2-glycoprotein (ZAG) is a soluble protein that is present in serum and other body fluids. ZAG stimulates lipid degradation in adipocytes and causes the extensive fat losses associated with some advanced cancers. The 2.8 angstrom crystal structure of ZAG resembles a class I major histocompatibility complex (MHC) heavy chain, but ZAG does not bind the class I light chain beta2-microglobulin. The ZAG structure includes a large groove analogous to class I MHC peptide binding grooves. Instead of a peptide, the ZAG groove contains a nonpeptidic compound that may be implicated in lipid catabolism under normal or pathological conditions.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LM",
+                    "lastname": "S\u00e1nchez",
+                    "name": "S\u00e1nchez LM"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Chirino",
+                    "name": "Chirino AJ"
+                },
+                {
+                    "initials": "Pj",
+                    "lastname": "Bjorkman",
+                    "name": "Bjorkman Pj"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/science.283.5409.1914",
+                    "type": "doi"
+                },
+                {
+                    "id": "10206894",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5409"
+            ],
+            "journal": {
+                "iso_abbreviation": "Science",
+                "name": ""
+            },
+            "pages": [
+                "1914-9"
+            ],
+            "title": "Crystal structure of human ZAG, a fat-depleting factor related to MHC molecules.",
+            "type": "article",
+            "url": "https://www.science.org/doi/10.1126/science.283.5409.1914",
+            "volume": [
+                "283"
+            ],
+            "year": [
+                1999
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1zag"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1zag"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Zinc Alpha-2 Glycoprotein at 2.80&#8491; resolution",
+    "unique_chain_count": 1
+}

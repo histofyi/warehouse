@@ -1,0 +1,308 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6gb7_1",
+            "chains": [
+                "A",
+                "B",
+                "K",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:42:58.793866"
+        },
+        "2": {
+            "assembly_name": "6gb7_2",
+            "chains": [
+                "C",
+                "D",
+                "I",
+                "R"
+            ],
+            "downloaded_at": "2022-11-09T14:42:59.238915"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "H",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEPPPSTDSYMVIVAVLGVLGAMAIIGAVVAFVMKRRRNTGGKGGDYALAPGSQSSEMSLRDCKA"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "R"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EDAGGGGLSK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-04-13",
+        "deposition_year": 2018,
+        "release_date": "2019-03-06",
+        "release_year": 2019,
+        "revision_date": "2019-03-20",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6GB7 | H2-Db binding \"FAPGNYP\"",
+    "pdb_code": "6gb7",
+    "pdb_title": "Structure of h-2db with scoop loop from tapasin",
+    "peptide": {
+        "I": {
+            "actual_length": 7,
+            "actual_sequence": "FAPGNYP",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length",
+                "short_peptide"
+            ],
+            "full_length": 7,
+            "full_sequence": "FAPGNYP"
+        },
+        "J": {
+            "actual_length": 7,
+            "actual_sequence": "FAPGNYP",
+            "chain_id": "J",
+            "features": [
+                "correct_sequence_and_length",
+                "short_peptide"
+            ],
+            "full_length": 7,
+            "full_sequence": "FAPGNYP"
+        },
+        "K": {
+            "actual_length": 7,
+            "actual_sequence": "FAPGNYP",
+            "chain_id": "K",
+            "features": [
+                "correct_sequence_and_length",
+                "short_peptide"
+            ],
+            "full_length": 7,
+            "full_sequence": "FAPGNYP"
+        },
+        "L": {
+            "actual_length": 7,
+            "actual_sequence": "FAPGNYP",
+            "chain_id": "L",
+            "features": [
+                "correct_sequence_and_length",
+                "short_peptide"
+            ],
+            "full_length": 7,
+            "full_sequence": "FAPGNYP"
+        },
+        "P": {
+            "actual_length": 4,
+            "actual_sequence": "GGLS",
+            "chain_id": "P",
+            "features": [
+                "missing_start",
+                "incorrect_start",
+                "short_peptide"
+            ],
+            "full_length": 10,
+            "full_sequence": "EDAGGGGLSK"
+        },
+        "R": {
+            "actual_length": 5,
+            "actual_sequence": "GGLSK",
+            "chain_id": "R",
+            "features": [
+                "missing_start",
+                "incorrect_start",
+                "short_peptide"
+            ],
+            "full_length": 10,
+            "full_sequence": "EDAGGGGLSK"
+        }
+    },
+    "peptide_length": 7,
+    "peptide_length_name": "heptamer",
+    "peptide_sequence": "FAPGNYP",
+    "publication": {
+        "abstract": "MHC-I epitope presentation to CD8<sup>+</sup> T cells is directly dependent on peptide loading and selection during antigen processing. However, the exact molecular bases underlying peptide selection and binding by MHC-I remain largely unknown. Within the peptide-loading complex, the peptide editor tapasin is key to the selection of MHC-I-bound peptides. Here, we have determined an ensemble of crystal structures of MHC-I in complex with the peptide exchange-associated dipeptide GL, as well as the tapasin-associated scoop loop, alone or in combination with candidate epitopes. These results combined with mutation analyses allow us to propose a molecular model underlying MHC-I peptide selection by tapasin. The N termini of bound peptides most probably bind first in the N-terminal and middle region of the MHC-I peptide binding cleft, upon which the peptide C termini are tested for their capacity to dislodge the tapasin scoop loop from the F pocket of the MHC-I cleft. Our results also indicate important differences in peptide selection between different MHC-I alleles.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "I",
+                    "lastname": "Hafstrand",
+                    "name": "Hafstrand I"
+                },
+                {
+                    "initials": "EC",
+                    "lastname": "Sayitoglu",
+                    "name": "Sayitoglu EC"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Apavaloaei",
+                    "name": "Apavaloaei A"
+                },
+                {
+                    "initials": "BJ",
+                    "lastname": "Josey",
+                    "name": "Josey BJ"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Sun",
+                    "name": "Sun R"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Han",
+                    "name": "Han X"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Pellegrino",
+                    "name": "Pellegrino S"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Ozkazanc",
+                    "name": "Ozkazanc D"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Potens",
+                    "name": "Potens R"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Janssen",
+                    "name": "Janssen L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Nilvebrant",
+                    "name": "Nilvebrant J"
+                },
+                {
+                    "initials": "P\u00c5",
+                    "lastname": "Nygren",
+                    "name": "Nygren P\u00c5"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Sandalova",
+                    "name": "Sandalova T"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Springer",
+                    "name": "Springer S"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Georgoudaki",
+                    "name": "Georgoudaki AM"
+                },
+                {
+                    "initials": "AD",
+                    "lastname": "Duru",
+                    "name": "Duru AD"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Achour",
+                    "name": "Achour A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1807656116",
+                    "type": "doi"
+                },
+                {
+                    "id": "30808808",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Successive crystal structure snapshots suggest the basis for MHC class I peptide loading and editing by tapasin.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1807656116",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.15",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6gb7"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6gb7"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"FAPGNYP\" at 2.15&#8491; resolution",
+    "unique_chain_count": 3
+}

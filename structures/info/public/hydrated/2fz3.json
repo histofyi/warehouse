@@ -1,0 +1,202 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA31926",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:08",
+            "slug": "hla_b_35_08",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2fz3_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:40:40.194226"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQRRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "HPVGEADYFEY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2006-02-09",
+        "deposition_year": 2006,
+        "release_date": "2006-12-26",
+        "release_year": 2006,
+        "revision_date": "2019-11-06",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2FZ3 | HLA-B*35:08 binding \"HPVGEADYFEY\"",
+    "pdb_code": "2fz3",
+    "pdb_title": "The role of T cell receptor alpha genes in directing human MHC restriction",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "HPVGEADYFEY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "HPVGEADYFEY"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "HPVGEADYFEY",
+    "publication": {
+        "abstract": "The underlying generic properties of alphabeta TCRs that control MHC restriction remain largely unresolved. To investigate MHC restriction, we have examined the CTL response to a viral epitope that binds promiscuously to two human leukocyte Ags (HLAs) that differ by a single amino acid at position 156. Individuals expressing either HLA-B*3501 (156Leucine) or HLA-B*3508 (156Arginine) showed a potent CTL response to the 407HPVGEADYFEY417 epitope from EBV. Interestingly, the response was characterized by highly restricted TCR beta-chain usage in both HLA-B*3501+ and HLA-B*3508+ individuals; however, this conserved TRBV9+ beta-chain was associated with distinct TCR alpha-chains depending upon the HLA-B*35 allele expressed by the virus-exposed host. Functional assays confirmed that TCR alpha-chain usage determined the HLA restriction of the CTLs. Structural studies revealed significant differences in the mobility of the peptide when bound to HLA-B*3501 or HLA-B*3508. In HLA-B*3501, the bulged section of the peptide was disordered, whereas in HLA-B*3508 the bulged epitope adopted an ordered conformation. Collectively, these data demonstrate not only that mobile MHC-bound peptides can be highly immunogenic but can also stimulate an extremely biased TCR repertoire. In addition, TCR alpha-chain usage is shown to play a critical role in controlling MHC restriction between closely related allomorphs.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Borg",
+                    "name": "Borg NA"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Brennan",
+                    "name": "Brennan RM"
+                },
+                {
+                    "initials": "FE",
+                    "lastname": "Tynan",
+                    "name": "Tynan FE"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "SL",
+                    "lastname": "Silins",
+                    "name": "Silins SL"
+                },
+                {
+                    "initials": "MJ",
+                    "lastname": "Bell",
+                    "name": "Bell MJ"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Burrows",
+                    "name": "Burrows JM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.177.10.6804",
+                    "type": "doi"
+                },
+                {
+                    "id": "17082594",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "6804-14"
+            ],
+            "title": "TCR alpha genes direct MHC restriction in the potent human T cell response to a class I-bound viral epitope.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.177.10.6804",
+            "volume": [
+                "177"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2fz3"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2fz3"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:08 binding \"HPVGEADYFEY\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

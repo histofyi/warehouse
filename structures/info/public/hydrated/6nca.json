@@ -1,0 +1,610 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6nca_1",
+            "chains": [
+                "Y",
+                "I",
+                "i"
+            ],
+            "downloaded_at": "2022-11-09T14:30:28.569591"
+        },
+        "10": {
+            "assembly_name": "6nca_10",
+            "chains": [
+                "6",
+                "R",
+                "r"
+            ],
+            "downloaded_at": "2022-11-09T14:30:31.679882"
+        },
+        "11": {
+            "assembly_name": "6nca_11",
+            "chains": [
+                "x",
+                "H",
+                "h"
+            ],
+            "downloaded_at": "2022-11-09T14:30:31.999382"
+        },
+        "12": {
+            "assembly_name": "6nca_12",
+            "chains": [
+                "5",
+                "Q",
+                "q"
+            ],
+            "downloaded_at": "2022-11-09T14:30:32.342362"
+        },
+        "13": {
+            "assembly_name": "6nca_13",
+            "chains": [
+                "X",
+                "G",
+                "g"
+            ],
+            "downloaded_at": "2022-11-09T14:30:32.715152"
+        },
+        "14": {
+            "assembly_name": "6nca_14",
+            "chains": [
+                "v",
+                "D",
+                "d"
+            ],
+            "downloaded_at": "2022-11-09T14:30:33.034246"
+        },
+        "15": {
+            "assembly_name": "6nca_15",
+            "chains": [
+                "2",
+                "N",
+                "n"
+            ],
+            "downloaded_at": "2022-11-09T14:30:33.378545"
+        },
+        "16": {
+            "assembly_name": "6nca_16",
+            "chains": [
+                "U",
+                "A",
+                "a"
+            ],
+            "downloaded_at": "2022-11-09T14:30:33.676523"
+        },
+        "17": {
+            "assembly_name": "6nca_17",
+            "chains": [
+                "Z",
+                "K",
+                "k"
+            ],
+            "downloaded_at": "2022-11-09T14:30:34.238508"
+        },
+        "18": {
+            "assembly_name": "6nca_18",
+            "chains": [
+                "V",
+                "C",
+                "c"
+            ],
+            "downloaded_at": "2022-11-09T14:30:34.550350"
+        },
+        "19": {
+            "assembly_name": "6nca_19",
+            "chains": [
+                "7",
+                "S",
+                "s"
+            ],
+            "downloaded_at": "2022-11-09T14:30:34.840936"
+        },
+        "2": {
+            "assembly_name": "6nca_2",
+            "chains": [
+                "u",
+                "B",
+                "b"
+            ],
+            "downloaded_at": "2022-11-09T14:30:29.136054"
+        },
+        "20": {
+            "assembly_name": "6nca_20",
+            "chains": [
+                "1",
+                "M",
+                "m"
+            ],
+            "downloaded_at": "2022-11-09T14:30:35.219760"
+        },
+        "3": {
+            "assembly_name": "6nca_3",
+            "chains": [
+                "z",
+                "L",
+                "l"
+            ],
+            "downloaded_at": "2022-11-09T14:30:29.430301"
+        },
+        "4": {
+            "assembly_name": "6nca_4",
+            "chains": [
+                "y",
+                "J",
+                "j"
+            ],
+            "downloaded_at": "2022-11-09T14:30:29.786379"
+        },
+        "5": {
+            "assembly_name": "6nca_5",
+            "chains": [
+                "8",
+                "T",
+                "t"
+            ],
+            "downloaded_at": "2022-11-09T14:30:30.079621"
+        },
+        "6": {
+            "assembly_name": "6nca_6",
+            "chains": [
+                "w",
+                "F",
+                "f"
+            ],
+            "downloaded_at": "2022-11-09T14:30:30.372827"
+        },
+        "7": {
+            "assembly_name": "6nca_7",
+            "chains": [
+                "4",
+                "P",
+                "p"
+            ],
+            "downloaded_at": "2022-11-09T14:30:30.673168"
+        },
+        "8": {
+            "assembly_name": "6nca_8",
+            "chains": [
+                "3",
+                "O",
+                "o"
+            ],
+            "downloaded_at": "2022-11-09T14:30:30.972676"
+        },
+        "9": {
+            "assembly_name": "6nca_9",
+            "chains": [
+                "W",
+                "E",
+                "e"
+            ],
+            "downloaded_at": "2022-11-09T14:30:31.335313"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "a",
+                "b",
+                "c",
+                "d",
+                "f",
+                "g",
+                "h",
+                "s",
+                "j",
+                "k",
+                "l",
+                "m",
+                "n",
+                "o",
+                "p",
+                "q",
+                "r",
+                "i",
+                "t",
+                "e"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "S",
+                "J",
+                "K",
+                "L",
+                "M",
+                "N",
+                "O",
+                "P",
+                "Q",
+                "R",
+                "I",
+                "T"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "Y",
+                "u",
+                "z",
+                "y",
+                "8",
+                "w",
+                "4",
+                "3",
+                "W",
+                "6",
+                "x",
+                "5",
+                "X",
+                "v",
+                "2",
+                "U",
+                "Z",
+                "V",
+                "7",
+                "1"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YVLDHLIVV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-12-11",
+        "deposition_year": 2018,
+        "release_date": "2019-10-23",
+        "release_year": 2019,
+        "revision_date": "2020-01-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6NCA | HLA-A*02:01 binding \"YVLDHLIVV\"",
+    "pdb_code": "6nca",
+    "pdb_title": "Hla-a2 (a*02:01) bound to a peptide from the epstein-barr virus brlf1 protein",
+    "peptide": {
+        "1": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "1",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "2": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "2",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "3": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "3",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "4": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "4",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "5": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "5",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "6": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "6",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "7": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "7",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "8": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "8",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "U": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "U",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "V": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "V",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "W": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "W",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "X": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "X",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "Y": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "Y",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "Z": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "Z",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "u": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "u",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "v": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "v",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "w": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "w",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "x": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "x",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "y": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "y",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        },
+        "z": {
+            "actual_length": 9,
+            "actual_sequence": "YVLDHLIVV",
+            "chain_id": "z",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YVLDHLIVV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YVLDHLIVV",
+    "publication": {
+        "abstract": "The T cell receptor (TCR) repertoire is an essential component of the CD8 T-cell immune response. Here, we seek to investigate factors that drive selection of TCR repertoires specific to the HLA-A2-restricted immunodominant epitope BRLF1109-117 (YVLDHLIVV) over the course of primary Epstein Barr virus (EBV) infection. Using single-cell paired TCR\u03b1\u03b2 sequencing of tetramer sorted CD8 T cells ex vivo, we show at the clonal level that recognition of the HLA-A2-restricted BRLF1 (YVL-BR, BRLF-1109) epitope is mainly driven by the TCR\u03b1 chain. For the first time, we identify a CDR3\u03b1 (complementarity determining region 3 \u03b1) motif, KDTDKL, resulting from an obligate AV8.1-AJ34 pairing that was shared by all four individuals studied. This observation coupled with the fact that this public AV8.1-KDTDKL-AJ34 TCR pairs with multiple different TCR\u03b2 chains within the same donor (median 4; range: 1-9), suggests that there are some unique structural features of the interaction between the YVL-BR/MHC and the AV8.1-KDTDKL-AJ34 TCR that leads to this high level of selection. Newly developed TCR motif algorithms identified a lysine at position 1 of the CDR3\u03b1 motif that is highly conserved and likely important for antigen recognition. Crystal structure analysis of the YVL-BR/HLA-A2 complex revealed that the MHC-bound peptide bulges at position 4, exposing a negatively charged aspartic acid that may interact with the positively charged lysine of CDR3\u03b1. TCR cloning and site-directed mutagenesis of the CDR3\u03b1 lysine ablated YVL-BR-tetramer staining and substantially reduced CD69 upregulation on TCR mutant-transduced cells following antigen-specific stimulation. Reduced activation of T cells expressing this CDR3 motif was also observed following exposure to mutated (D4A) peptide. In summary, we show that a highly public TCR repertoire to an immunodominant epitope of a common human virus is almost completely selected on the basis of CDR3\u03b1 and provide a likely structural basis for the selection. These studies emphasize the importance of examining TCR\u03b1, as well as TCR\u03b2, in understanding the CD8 T cell receptor repertoire.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Kamga",
+                    "name": "Kamga L"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Gil",
+                    "name": "Gil A"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Song",
+                    "name": "Song I"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Brody",
+                    "name": "Brody R"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Ghersi",
+                    "name": "Ghersi D"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Aslan",
+                    "name": "Aslan N"
+                },
+                {
+                    "initials": "LJ",
+                    "lastname": "Stern",
+                    "name": "Stern LJ"
+                },
+                {
+                    "initials": "LK",
+                    "lastname": "Selin",
+                    "name": "Selin LK"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Luzuriaga",
+                    "name": "Luzuriaga K"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.ppat.1008122",
+                    "type": "doi"
+                },
+                {
+                    "id": "31765434",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Pathog.",
+                "name": ""
+            },
+            "pages": [
+                "e1008122"
+            ],
+            "title": "CDR3\ufffd\ufffd\ufffd\ufffddrives selection of the immunodominant Epstein Barr virus (EBV) BRLF1-specific CD8 T cell receptor repertoire in primary infection.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.ppat.1008122",
+            "volume": [
+                "15"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6nca"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6nca"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:override",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"YVLDHLIVV\" at 3.30&#8491; resolution",
+    "unique_chain_count": 3
+}

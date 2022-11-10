@@ -1,0 +1,161 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01902",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kd",
+            "slug": "h2_kd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3nwm_1",
+            "chains": [
+                "A"
+            ],
+            "downloaded_at": "2022-11-09T14:28:57.446914"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:override",
+            "sequence": "MVYLKTNVFLGGGASGGGGSGGGGSMIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDMGGGGSGGGGSGGGGSGGGGSGPHSLRYFVTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDADNPRFEPRAPWMEQEGPEYWEEQTQRAKSDEQWFRVSLRTAQRYYNQSKGGSHTFQRMFGCDVGSDWRLLRGYQQFAYDGRDYIALNEDLKTWTAADTAALITRRKWEQAGDAEYYRAYLEGECVEWLRRYLELGNETLLRTDSPKAHVTYHPRSQVDVTLRCWALGFYPADITLTWQLNGEDLTQDMELVETRPAGDGTFQKWAAVVVPLGKEQNYTCHVHHKGLPEPLTLRWAAAGGTGGLNDIFEAQKIEWHEGL"
+        },
+        "note": "Single chain construct"
+    },
+    "chronology": {
+        "deposition_date": "2010-07-09",
+        "deposition_year": 2010,
+        "release_date": "2011-07-06",
+        "release_year": 2011,
+        "revision_date": "2017-06-28",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "single_chain_class_i_construct",
+    "components": [
+        "class_i_alpha"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3NWM | Single chain construct of H2-Kd binding \"None\"",
+    "pdb_code": "3nwm",
+    "pdb_title": "Crystal structure of a single chain construct composed of MHC Class I h-2kd, beta-2microglobulin and a peptide which is an autoantigen for type 1 diabetes",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Peptide-MHC (pMHC) multimers, in addition to being tools for tracking and quantifying antigen-specific T cells, can mediate downstream signaling after T-cell receptor engagement. In the absence of costimulation, this can lead to anergy or apoptosis of cognate T cells, a property that could be exploited in the setting of autoimmune disease. Most studies with class I pMHC multimers used noncovalently linked peptides, which can allow unwanted CD8(+) T-cell activation as a result of peptide transfer to cellular MHC molecules. To circumvent this problem, and given the role of self-reactive CD8(+) T cells in the development of type 1 diabetes, we designed a single-chain pMHC complex (scK(d).IGRP) by using the class I MHC molecule H-2K(d) and a covalently linked peptide derived from islet-specific glucose-6-phosphatase catalytic subunit-related protein (IGRP(206-214)), a well established autoantigen in NOD mice. X-ray diffraction studies revealed that the peptide is presented in the groove of the MHC molecule in canonical fashion, and it was also demonstrated that scK(d).IGRP tetramers bound specifically to cognate CD8(+) T cells. Tetramer binding induced death of naive T cells and in vitro- and in vivo-differentiated cytotoxic T lymphocytes, and tetramer-treated cytotoxic T lymphocytes showed a diminished IFN-\u03b3 response to antigen stimulation. Tetramer accessibility to disease-relevant T cells in vivo was also demonstrated. Our study suggests the potential of single-chain pMHC tetramers as possible therapeutic agents in autoimmune disease. Their ability to affect the fate of naive and activated CD8(+) T cells makes them a potential intervention strategy in early and late stages of disease.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Samanta",
+                    "name": "Samanta D"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Mukherjee",
+                    "name": "Mukherjee G"
+                },
+                {
+                    "initials": "UA",
+                    "lastname": "Ramagopal",
+                    "name": "Ramagopal UA"
+                },
+                {
+                    "initials": "RJ",
+                    "lastname": "Chaparro",
+                    "name": "Chaparro RJ"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Nathenson",
+                    "name": "Nathenson SG"
+                },
+                {
+                    "initials": "TP",
+                    "lastname": "DiLorenzo",
+                    "name": "DiLorenzo TP"
+                },
+                {
+                    "initials": "SC",
+                    "lastname": "Almo",
+                    "name": "Almo SC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1110971108",
+                    "type": "doi"
+                },
+                {
+                    "id": "21825122",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "33"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "13682-7"
+            ],
+            "title": "Structural and functional characterization of a single-chain peptide-MHC molecule that modulates both naive and activated CD8+ T cells.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1110971108",
+            "volume": [
+                "108"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3nwm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3nwm"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:override",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Single chain construct of H2-Kd binding \"None\" at 2.70&#8491; resolution",
+    "unique_chain_count": 1
+}

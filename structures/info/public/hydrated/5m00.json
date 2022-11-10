@@ -1,0 +1,220 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5m00_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:34:53.293636"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MARSVTLVFLVLVSLTGLMGIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KAVANFATM"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QQKEKHDQQQVRQSPQSLTVWEGGTTVLTCSYEDSTFNYFPWYQQFPGEGPALLISILSVSDKKEDGRFTTFFNKREKKLSLHIIDSQPGDSATYFCAALYGNEKITFGAGTKLTIKPNIQNPEPAVYQLKDPRSQDSTLCLFTDFDSQINVPKTMESGTFITDKCVLDMKAMDSKSNGAIAWSNQTSFTCQDIFKETNATYPSS",
+            "subgroup": "TRAV14"
+        },
+        "tcr_beta": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AVTQSPRSKVAVTGGKVTLSCHQTNNHDYMYWYRQDTGHGLRLIHYSYVADSTEKGDIPDGYKASRPSQENFSLILELASLSQTAVYFCASSDAGGRNTLYFGAGTRLSVLEDLRNVTPPKVSLFEPSKAEIANKQKATLVCLARGFFPDHVELSWWVNGKEVHSGVCTDPQAYKESNYSYSLSSRLRVSATFWHNPRNHFRCQVQFHGLSEEDKWPEGSPKPVTQNISAEAWGRADC",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-10-03",
+        "deposition_year": 2016,
+        "release_date": "2017-12-20",
+        "release_year": 2017,
+        "revision_date": "2018-02-14",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5M00 | H2-Db presenting \"KAVANFATM\" to Alpha/Beta T cell receptor",
+    "pdb_code": "5m00",
+    "pdb_title": "Crystal structure of murine p14 TCR complex with h-2db and y4a, modified gp33 peptide from lcmv",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "KAVANFATM",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KAVANFATM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KAVANFATM",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Allerbring, E."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Duru, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sun, R."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Han, X."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Uchtenhagen, H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Madhurantakam, C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Popov, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Markova, N."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Talyzina, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Nygren, P.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sandalova, T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Achour, A."
+                }
+            ],
+            "identifier": [],
+            "title": "Thernary complexes of TCR P14 give insights into the mechanisms behind reestablishment of CTL responses against a viral escape mutant",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.95",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5m00"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5m00"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5m00"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "G"
+            ],
+            "subgroup": "TRAV14"
+        },
+        "beta": {
+            "chains": [
+                "H"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "5m00"
+    },
+    "title": "H2-Db presenting \"KAVANFATM\" to Alpha/Beta T cell receptor at 1.95&#8491; resolution",
+    "unique_chain_count": 5
+}

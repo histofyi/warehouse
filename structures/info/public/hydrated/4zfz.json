@@ -1,0 +1,291 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:NHP08956",
+            "locus": "mamu-b",
+            "match_type": "histo:fuzzy",
+            "name": "Mamu-B*098:08",
+            "slug": "mamu_b_098_08",
+            "species_stem": "Mamu"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4zfz_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:32:36.585033"
+        },
+        "2": {
+            "assembly_name": "4zfz_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:32:37.148869"
+        },
+        "3": {
+            "assembly_name": "4zfz_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:32:37.502936"
+        },
+        "4": {
+            "assembly_name": "4zfz_4",
+            "chains": [
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:32:37.837849"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "AIQRTPKIQVYSRHPPENGKPNFLNCYVSGFHPSDIEVDLLKNGEKMGKVEHSDLSFSKDWSFYLLYYTEFTPNEKDEYACRVNHVTLSGPRTVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.87,
+            "sequence": "AGSHSMRYFSTTVSRPGRGEPRFIVVGYVDDTQFVRFDSDAASPKMEPRAPWMEQEGPEYWEEQTRRVKDAAQTFRVSLGNLRGYYNQSEAGSHTLQTMSGCDLGPDGRLLRGYYQQAYDGRDYIALNEDLRSWTAADEAAQNTQRKWEAAGVAEQWRAYLEGECLESLRRYLENGKETLQRAEPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPGGDGTFQKWGAVVVPSGEEQRYTCHVQHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F",
+                "I",
+                "L"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GGAIS"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-04-22",
+        "deposition_year": 2015,
+        "release_date": "2016-01-13",
+        "release_year": 2016,
+        "revision_date": "2020-02-19",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "mamu-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4ZFZ | Mamu-B*098:08 binding \"GGAIS\"",
+    "pdb_code": "4zfz",
+    "pdb_title": "Crystal structure of rhesus macaque MHC Class I molecule mamu-b*098 complexed with myristoylated 5-mer lipopeptide derived from siv nef protein",
+    "peptide": {
+        "C": {
+            "actual_length": 5,
+            "actual_sequence": "GGAIS",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length",
+                "incorrect_start",
+                "short_peptide"
+            ],
+            "full_length": 5,
+            "full_sequence": "GGAIS"
+        },
+        "F": {
+            "actual_length": 5,
+            "actual_sequence": "GGAIS",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length",
+                "incorrect_start",
+                "short_peptide"
+            ],
+            "full_length": 5,
+            "full_sequence": "GGAIS"
+        },
+        "I": {
+            "actual_length": 5,
+            "actual_sequence": "GGAIS",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length",
+                "incorrect_start",
+                "short_peptide"
+            ],
+            "full_length": 5,
+            "full_sequence": "GGAIS"
+        },
+        "L": {
+            "actual_length": 5,
+            "actual_sequence": "GGAIS",
+            "chain_id": "L",
+            "features": [
+                "correct_sequence_and_length",
+                "incorrect_start",
+                "short_peptide"
+            ],
+            "full_length": 5,
+            "full_sequence": "GGAIS"
+        }
+    },
+    "peptide_length": 5,
+    "peptide_length_name": "pentamer",
+    "peptide_sequence": "GGAIS",
+    "publication": {
+        "abstract": "The covalent conjugation of a 14-carbon saturated fatty acid (myristic acid) to the amino-terminal glycine residue is critical for some viral proteins to function. This protein lipidation modification, termed N-myristoylation, is targeted by host cytotoxic T lymphocytes (CTLs) that specifically recognize N-myristoylated short peptides; however, the molecular mechanisms underlying lipopeptide antigen (Ag) presentation remain elusive. Here we show that a primate major histocompatibility complex (MHC) class I-encoded protein is capable of binding N-myristoylated 5-mer peptides and presenting them to specific CTLs. A high-resolution X-ray crystallographic analysis of the MHC class I:lipopeptide complex reveals an Ag-binding groove that is elaborately constructed to bind N-myristoylated short peptides rather than prototypic 9-mer peptides. The identification of lipopeptide-specific, MHC class I-restricted CTLs indicates that the widely accepted concept of MHC class I-mediated presentation of long peptides to CTLs may need some modifications to incorporate a novel MHC class I function of lipopeptide Ag presentation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Morita",
+                    "name": "Morita D"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Yamamoto",
+                    "name": "Yamamoto Y"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mizutani",
+                    "name": "Mizutani T"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Ishikawa",
+                    "name": "Ishikawa T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Suzuki",
+                    "name": "Suzuki J"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Igarashi",
+                    "name": "Igarashi T"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Mori",
+                    "name": "Mori N"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Shiina",
+                    "name": "Shiina T"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Inoko",
+                    "name": "Inoko H"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Fujita",
+                    "name": "Fujita H"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Iwai",
+                    "name": "Iwai K"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Tanaka",
+                    "name": "Tanaka Y"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Mikami",
+                    "name": "Mikami B"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sugita",
+                    "name": "Sugita M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ncomms10356",
+                    "type": "doi"
+                },
+                {
+                    "id": "26758274",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "10356"
+            ],
+            "title": "Crystal structure of the N-myristoylated lipopeptide-bound MHC class I complex.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ncomms10356",
+            "volume": [
+                "7"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.76",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4zfz"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4zfz"
+        }
+    },
+    "species": {
+        "common_name": "rhesus monkey",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Macaca mulatta",
+        "slug": "macaca_mulatta"
+    },
+    "tcr": null,
+    "title": "Mamu-B*098:08 binding \"GGAIS\" at 1.76&#8491; resolution",
+    "unique_chain_count": 3
+}

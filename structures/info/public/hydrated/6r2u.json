@@ -1,0 +1,196 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6r2u_1",
+            "chains": [
+                "A"
+            ],
+            "downloaded_at": "2022-11-09T14:35:52.269637"
+        },
+        "2": {
+            "assembly_name": "6r2u_2",
+            "chains": [
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:35:52.618275"
+        },
+        "3": {
+            "assembly_name": "6r2u_3",
+            "chains": [
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:35:52.900462"
+        },
+        "4": {
+            "assembly_name": "6r2u_4",
+            "chains": [
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:35:53.129547"
+        },
+        "5": {
+            "assembly_name": "6r2u_5",
+            "chains": [
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:35:53.356189"
+        },
+        "6": {
+            "assembly_name": "6r2u_6",
+            "chains": [
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:35:53.597370"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "zag": {
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MQENQDGRYSLTYIYTGLSKHVEDVPAFQALGSLNDLQFFRYNSKDRKSQPMGLWRQVEGMEDWKQDSQLQKAREDIFMETLKDIVEYYNDSNGSHVLQGRFGCEIENNRSSGAFWKYYYDGKDYIEFNKEIPAWVPFDPAAQITKQKWEAEPVYVQRAKAYLEEECPATLRKYLKYSKNILDRQDPPSVVVTSHQAPGEKKKLKCLAYDFYPGKIDVHWTRAGEVQEPELRGDVLHNGNGTYQSWVVVAVPPQDTAPYSCHVQHSSLAQPLVVPWEAS"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-03-18",
+        "deposition_year": 2019,
+        "release_date": "2019-09-18",
+        "release_year": 2019,
+        "revision_date": "2019-11-06",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "zag",
+    "components": [
+        "zag"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6R2U | Non-classical MHC Class I molecule Zinc Alpha-2 Glycoprotein",
+    "pdb_code": "6r2u",
+    "pdb_title": "Zinc-alpha2-glycoprotein with a fluorescent dansyl c 11 fatty acid",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Human zinc-\u03b12-glycoprotein (ZAG) is a 42\u2005kDa adipokine which regulates body fat mass and is associated with cachexia and obesity. ZAG belongs to the major histocompatibility complex class I protein family and binds long-chain polyunsaturated fatty acids in its groove formed from the \u03b11 and \u03b12 domains. To identify the molecular basis of its lipid-binding function, we determined the first crystal structure at 2.49\u2005\u00c5 resolution for fatty acid-bound ZAG, where the ligand was the fluorescent 11-(dansylamino)undecanoic acid (DAUDA). The 192\u2005kDa crystallographic asymmetric unit contained six ZAG and eight fatty acid molecules in unique conformations. Six fatty acid molecules were localised to the ZAG grooves, where their tails were bound in two distinct conformations. The carboxylate groups of three fatty acids projected out of the groove, while the fourth was hydrogen bonded with R73 inside the groove. Other ligand-residue contacts were primarily hydrophobic. A new fatty acid site was revealed for two further DAUDA molecules at the ZAG \u03b13 domains. Following conformational changes from unbound ZAG, the \u03b13 domains formed tetrameric \u03b2-barrel structures lined by fatty acid molecules that doubled the binding capacity of ZAG. Analytical ultracentrifugation revealed that ZAG in solution was a monomer in the absence of DAUDA, but formed small amounts of tetramers with DAUDA. By showing that ZAG binds fatty acids in different locations, we demonstrate an augmented mechanism for fatty acid binding in ZAG that is distinct from other known fatty acid binding proteins, and may be relevant to cachexia.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AM",
+                    "lastname": "Lau",
+                    "name": "Lau AM"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Zahid",
+                    "name": "Zahid H"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Gor",
+                    "name": "Gor J"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Perkins",
+                    "name": "Perkins SJ"
+                },
+                {
+                    "initials": "AR",
+                    "lastname": "Coker",
+                    "name": "Coker AR"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "McDermott",
+                    "name": "McDermott LC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1042/bcj20190354",
+                    "type": "doi"
+                },
+                {
+                    "id": "31506272",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Biochem. J.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Crystal structure of human zinc-\ufffd\ufffd2- glycoprotein in complex with fatty acid reveals multiple different modes of lipid binding.",
+            "type": "article",
+            "url": "https://portlandpress.com/biochemj/article/476/19/2815/220487/Crystal-structure-of-zinc-2-glycoprotein-in",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.49",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6r2u"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6r2u"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Zinc Alpha-2 Glycoprotein at 2.49&#8491; resolution",
+    "unique_chain_count": 1
+}

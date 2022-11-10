@@ -1,0 +1,157 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34671",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*08:01",
+            "slug": "hla_b_08_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1b3j_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:43:01.084695"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "mica": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "EPHSLRYNLTVLSWDGSVQSGFLTEVHLDGQPFLRCDRQKCRAKPQGQWAEDVLGNKTWDRETRDLTGNGKDLRMTLAHIKDQKEGLHSLQEIRVCEIHEDNSTRSSQHFYYDGELFLSQNLETKEWTMPQSSRAQTLAMNVRNFLKEDAMKTKTHYHAMHADCLQELRRYLKSGVVLRRTVPPMVNVTRSEASEGNITVTCRASGFYPWNITLSWRQDGVSLSHDTQQWGDVLPDGNGTYQTWVATRICQGEEQRFTCYMEHSGNHSTHPVPS"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1998-12-11",
+        "deposition_year": 1998,
+        "release_date": "1999-07-09",
+        "release_year": 1999,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mica",
+    "components": [
+        "mica"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1B3J | Non-classical MHC Class I molecule MICA",
+    "pdb_code": "1b3j",
+    "pdb_title": "Crystal structure of the MHC class I homolog MIC-A, a gammadelta T cell ligand.",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The major histocompatibility complex (MHC) class I homolog MIC-A functions as a stress-inducible antigen that is recognized by a subset of gammadelta T cells independent of beta2-microglobulin and bound peptides. Its crystal structure reveals a dramatically altered MHC class I fold, both in detail and overall domain organization. The only remnant of a peptide-binding groove is a small cavity formed as the result of disordering a large section of one of the groove-defining helices. Loss of beta2-microglobulin binding is due to a restructuring of the interaction interfaces. Structural mapping of sequence variation suggests potential receptor binding sites on the underside of the platform on the side opposite of the surface recognized by alphabeta T cell receptors on MHC class I-peptide complexes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "P",
+                    "lastname": "Li",
+                    "name": "Li P"
+                },
+                {
+                    "initials": "ST",
+                    "lastname": "Willie",
+                    "name": "Willie ST"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Bauer",
+                    "name": "Bauer S"
+                },
+                {
+                    "initials": "DL",
+                    "lastname": "Morris",
+                    "name": "Morris DL"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Spies",
+                    "name": "Spies T"
+                },
+                {
+                    "initials": "RK",
+                    "lastname": "Strong",
+                    "name": "Strong RK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s1074-7613(00)80057-6",
+                    "type": "doi"
+                },
+                {
+                    "id": "10367903",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "577-84"
+            ],
+            "title": "Crystal structure of the MHC class I homolog MIC-A, a gammadelta T cell ligand.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761300800576",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                1999
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "3.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1b3j"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1b3j"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule MICA at 3.00&#8491; resolution",
+    "unique_chain_count": 1
+}

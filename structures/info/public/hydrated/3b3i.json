@@ -1,0 +1,192 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA00230",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:09",
+            "slug": "hla_b_27_09",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3b3i_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:38:18.065035"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQHAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RRKWRRWHL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2007-10-22",
+        "deposition_year": 2007,
+        "release_date": "2008-07-22",
+        "release_year": 2008,
+        "revision_date": "2017-10-25",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3B3I | HLA-B*27:09 binding \"RRKWRRWHL\"",
+    "pdb_code": "3b3i",
+    "pdb_title": "Citrullination-dependent differential presentation of a self-peptide by HLA-B27 subtypes.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RRKWXRWHL",
+            "chain_id": "C",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "RRKWRRWHL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RRKWRRWHL",
+    "publication": {
+        "abstract": "Inflammatory processes are accompanied by the posttranslational modification of certain arginine residues within proteins to yield citrulline, although it is largely unknown how this modification influences antigen presentation. We employed crystallographic and functional studies to investigate whether the exchange of arginine to citrulline affects the display of a peptide by two human major histocompatibility antigen class I subtypes, HLA-B(*)2705 and HLA-B(*)2709. Both differ only in residue 116 within the peptide binding groove despite their differential association with ankylosing spondylitis, an inflammatory rheumatic disorder. The crystal structures described here show that a modified self-peptide, pVIPR-U5 (RRKWURWHL; U = citrulline), is presented by the two HLA-B27 molecules in distinct conformations. These binding modes differ not only drastically from each other but also from the conformations exhibited by the non-citrullinated peptide in a given subtype. The differential reactivity of HLA-B27-restricted cytotoxic T cells with modified or unmodified pVIPR supports the structural findings and shows that the presentation of citrullinated peptides has the potential to influence immune responses.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Beltrami",
+                    "name": "Beltrami A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Rossmann",
+                    "name": "Rossmann M"
+                },
+                {
+                    "initials": "MT",
+                    "lastname": "Fiorillo",
+                    "name": "Fiorillo MT"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Paladini",
+                    "name": "Paladini F"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Sorrentino",
+                    "name": "Sorrentino R"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Saenger",
+                    "name": "Saenger W"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Kumar",
+                    "name": "Kumar P"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Ziegler",
+                    "name": "Ziegler A"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Uchanska-Ziegler",
+                    "name": "Uchanska-Ziegler B"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m802818200",
+                    "type": "doi"
+                },
+                {
+                    "id": "18650441",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "40"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "27189-99"
+            ],
+            "title": "Citrullination-dependent differential presentation of a self-peptide by HLA-B27 subtypes.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820734848",
+            "volume": [
+                "283"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.86",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3b3i"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3b3i"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:09 binding \"RRKWRRWHL\" at 1.86&#8491; resolution",
+    "unique_chain_count": 3
+}

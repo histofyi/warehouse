@@ -1,0 +1,255 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5d7i_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:35:04.059208"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVMDSNYQLIWGAGTKLIIKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MIAGITQAPTSQILAAGRRMTLRCTQDMRHNAMYWYRQDLGLGLRLIHYSNTAGTTGKGEVPDGYSVSRANTDDFPLTLASAVPSQTSVYFCASSEAGGNTGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-08-14",
+        "deposition_year": 2015,
+        "release_date": "2016-01-27",
+        "release_year": 2016,
+        "revision_date": "2016-02-10",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5D7I | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "5d7i",
+    "pdb_title": "Structure of human MR1-ac-6-fp in complex with human MAIT m33.64 TCR",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "A characteristic of mucosal-associated invariant T (MAIT) cells is the expression of TRAV1-2(+) T cell receptors (TCRs) that are activated by riboflavin metabolite-based antigens (Ag) presented by the MHC-I related molecule, MR1. Whether the MR1-restricted T cell repertoire and associated Ag responsiveness extends beyond these cells remains unclear. Here, we describe MR1 autoreactivity and folate-derivative reactivity in a discrete subset of TRAV1-2(+) MAIT cells. This recognition was attributable to CDR3\u03b2 loop-mediated effects within a consensus TRAV1-2(+) TCR-MR1-Ag footprint. Furthermore, we have demonstrated differential folate- and riboflavin-derivative reactivity by a diverse population of \"atypical\" TRAV1-2(-) MR1-restricted T cells. We have shown that TRAV1-2(-) T cells are phenotypically heterogeneous and largely distinct from TRAV1-2(+) MAIT cells. A TRAV1-2(-) TCR docks more centrally on MR1, thereby adopting a markedly different molecular footprint to the TRAV1-2(+) TCR. Accordingly, diversity within the MR1-restricted T cell repertoire leads to differing MR1-restricted Ag specificity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "NA",
+                    "lastname": "Gherardin",
+                    "name": "Gherardin NA"
+                },
+                {
+                    "initials": "AN",
+                    "lastname": "Keller",
+                    "name": "Keller AN"
+                },
+                {
+                    "initials": "RE",
+                    "lastname": "Woolley",
+                    "name": "Woolley RE"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "DS",
+                    "lastname": "Ritchie",
+                    "name": "Ritchie DS"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Neeson",
+                    "name": "Neeson PJ"
+                },
+                {
+                    "initials": "RW",
+                    "lastname": "Birkinshaw",
+                    "name": "Birkinshaw RW"
+                },
+                {
+                    "initials": "SBG",
+                    "lastname": "Eckle",
+                    "name": "Eckle SBG"
+                },
+                {
+                    "initials": "JN",
+                    "lastname": "Waddington",
+                    "name": "Waddington JN"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Liu",
+                    "name": "Liu L"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Fairlie",
+                    "name": "Fairlie DP"
+                },
+                {
+                    "initials": "AP",
+                    "lastname": "Uldrich",
+                    "name": "Uldrich AP"
+                },
+                {
+                    "initials": "DG",
+                    "lastname": "Pellicci",
+                    "name": "Pellicci DG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.immuni.2015.12.005",
+                    "type": "doi"
+                },
+                {
+                    "id": "26795251",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "32-45"
+            ],
+            "title": "Diversity of T Cells Restricted by the MHC Class I-Related Molecule MR1 Facilitates Differential Antigen Recognition.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761315005063",
+            "volume": [
+                "44"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5d7i"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5d7i"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5d7i"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "G"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "H"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "5d7i"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 2.00&#8491; resolution",
+    "unique_chain_count": 4
+}

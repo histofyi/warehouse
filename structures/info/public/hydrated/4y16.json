@@ -1,0 +1,232 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4y16_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:40:55.118473"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "chimeric_tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:override",
+            "sequence": "MKTQVEQSPQSLVVRQGENCVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS"
+        },
+        "chimeric_tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:override",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDEGYTQYFGPGTRLLVLEDLRNVTPPKVSLFEPSKAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA"
+        },
+        "note": "not yet in STCRdab"
+    },
+    "chronology": {
+        "deposition_date": "2015-02-06",
+        "deposition_year": 2015,
+        "release_date": "2015-06-03",
+        "release_year": 2015,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_chimeric_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "chimeric_tcr_alpha",
+        "chimeric_tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4Y16 | Non-classical MHC Class I molecule CD1d with chimeric Alpha/Beta T cell receptor",
+    "pdb_code": "4y16",
+    "pdb_title": "Crystal structure of the mCD1d/nc-agc/inkTCR ternary complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The ability of different glycosphingolipids (GSLs) to activate type I natural killer T cells (NKT cells) has been known for 2 decades. The possible therapeutic use of these GSLs has been studied in many ways; however, studies are needed in which the efficacy of promising GSLs is compared under identical conditions. Here, we compare five unique GSLs structurally derived from \u03b1-galactosylceramide. We employed biophysical and biological assays, as well as x-ray crystallography to study the impact of the chemical modifications of the antigen on type I NKT cell activation. Although all glycolipids are bound by the T cell receptor of type I NKT cells in real time binding assays with high affinity, only a few activate type I NKT cells in in vivo or in vitro experiments. The differences in biological responses are likely a result of different pharmacokinetic properties of each lipid, which carry modifications at different parts of the molecule. Our results indicate a need to perform a variety of assays to ascertain the therapeutic potential of type I NKT cell GSL activators.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Birkholz",
+                    "name": "Birkholz A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Nem\ufffd\ufffdovi\ufffd\ufffd",
+                    "name": "Nem\ufffd\ufffdovi\ufffd\ufffd M"
+                },
+                {
+                    "initials": "ED",
+                    "lastname": "Yu",
+                    "name": "Yu ED"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Girardi",
+                    "name": "Girardi E"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Khurana",
+                    "name": "Khurana A"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Pauwels",
+                    "name": "Pauwels N"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Farber",
+                    "name": "Farber E"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Chitale",
+                    "name": "Chitale S"
+                },
+                {
+                    "initials": "RW",
+                    "lastname": "Franck",
+                    "name": "Franck RW"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Tsuji",
+                    "name": "Tsuji M"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Howell",
+                    "name": "Howell A"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Van Calenbergh",
+                    "name": "Van Calenbergh S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Kronenberg",
+                    "name": "Kronenberg M"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m115.654814",
+                    "type": "doi"
+                },
+                {
+                    "id": "26018083",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Lipid and carbohydrate modifications of \ufffd\ufffd-galactosylceramide differently influence mouse and human type I natural killer T cell activation.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820353278",
+            "volume": [
+                null
+            ],
+            "year": [
+                2015
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4y16"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4y16"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d with chimeric Alpha/Beta T cell receptor at 2.60&#8491; resolution",
+    "unique_chain_count": 4
+}

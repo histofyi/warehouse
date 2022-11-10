@@ -1,0 +1,245 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2p5e_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:41:12.919012"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPCIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SLLMWITQC"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKQEVTQIPAALSVPEGENLVLNCSFTDSAIYNLQWFRQDPGKGLTSLLLITPWQREQTSGRLNASLDKSSGSSTLYIAASQPGDSATYLCAVRPLLDGTYIPTFGRGTSLIVHPYIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNS",
+            "subgroup": "TRAV21"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GVTQTPKFQVLKTGQSMTLQCAQDMNHEYMSWYRQDPGMGLRLIHYSVAIQTTDQGEVPNGYNVSRSTIEDFPLRLLSAAPSQTSVYFCASSYLGNTGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRADA",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2007-03-15",
+        "deposition_year": 2007,
+        "release_date": "2007-09-25",
+        "release_year": 2007,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2P5E | HLA-A*02:01 presenting \"SLLMWITQC\" to Alpha/Beta T cell receptor",
+    "pdb_code": "2p5e",
+    "pdb_title": "Crystal structures of high affinity human T-cell receptors bound to peptide major histocompatibility complex reveal native diagonal binding geometry.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQC",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQC"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SLLMWITQC",
+    "publication": {
+        "abstract": "Naturally selected T-cell receptors (TCRs) are characterised by low binding affinities, typically in the range 1-100 microM. Crystal structures of syngeneic TCRs bound to peptide major histocompatibility complex (pMHC) antigens exhibit a conserved mode of binding characterised by a distinct diagonal binding geometry, with poor shape complementarity (SC) between receptor and ligand. Here, we report the structures of three in vitro affinity enhanced TCRs that recognise the pMHC tumour epitope NY-ESO(157-165) (SLLMWITQC). These crystal structures reveal that the docking mode for the high affinity TCRs is identical to that reported for the parental wild-type TCR, with only subtle changes in the mutated complementarity determining regions (CDRs) that form contacts with pMHC; both CDR2 and CDR3 mutations act synergistically to improve the overall affinity. Comparison of free and bound TCR structures for both wild-type and a CDR3 mutant reveal an induced fit mechanism arising from restructuring of CDR3 loops which allows better peptide binding. Overall, an increased interface area, improved SC and additional H-bonding interactions are observed, accounting for the increase in affinity. Most notably, there is a marked increase in the SC for the central methionine and tryptophan peptide motif over the native TCR.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Sami",
+                    "name": "Sami M"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Dunn",
+                    "name": "Dunn S"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Molloy",
+                    "name": "Molloy P"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Moysey",
+                    "name": "Moysey R"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Vuidepot",
+                    "name": "Vuidepot A"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Baston",
+                    "name": "Baston E"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Todorov",
+                    "name": "Todorov P"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Li",
+                    "name": "Li Y"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Gao",
+                    "name": "Gao F"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Boulter",
+                    "name": "Boulter JM"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1093/protein/gzm033",
+                    "type": "doi"
+                },
+                {
+                    "id": "17644531",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "Protein Eng. Des. Sel.",
+                "name": ""
+            },
+            "pages": [
+                "397-403"
+            ],
+            "title": "Crystal structures of high affinity human T-cell receptors bound to peptide major histocompatibility complex reveal native diagonal binding geometry.",
+            "type": "article",
+            "url": "https://academic.oup.com/peds/article-lookup/doi/10.1093/protein/gzm033",
+            "volume": [
+                "20"
+            ],
+            "year": [
+                2007
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.89",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2p5e"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2p5e"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=2p5e"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV21"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "2p5e"
+    },
+    "title": "HLA-A*02:01 presenting \"SLLMWITQC\" to Alpha/Beta T cell receptor at 1.89&#8491; resolution",
+    "unique_chain_count": 5
+}

@@ -1,0 +1,177 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08576",
+            "locus": "gaga-bf2",
+            "match_type": "histo:exact",
+            "name": "Gaga-BF2*015:01",
+            "slug": "gaga_bf2_015_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6irl_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:32:56.908825"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "MEFDLTPKVQVYSRFPASAGTKNVLNCFAAGFHPPKISITLMKDGVPMEGAQYSDMSFNDDWTFQRLVHADFTPSSGSTYACKVEHETLKEPQVYKWDPEF"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "MEFELHTLRYISTAMTDPGPGQPWYVDVGYVDGELFTHYNSTARRAVPRTEWIAANTDQQYWDSETQTSQRTEQIDRDGLGTLQRRYNQTGGSHTVQLMYGCDILEDGTIRGYSQDAYDGRDFIAFDKDTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERPEVRVWGKEADGILTLSCRAHGFYPRPIAVSWLKDGAVQGQDAQSGGIVPNGDGTYHTWVTIDAQPGDGDKYQCRVEHASLPQPGLYSW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RREVHTYY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-11-13",
+        "deposition_year": 2018,
+        "release_date": "2020-03-18",
+        "release_year": 2020,
+        "revision_date": "2020-11-04",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6IRL | Gaga-BF2*015:01 binding \"RREVHTYY\"",
+    "pdb_code": "6irl",
+    "pdb_title": "Crystal structure of 8-mer peptide from avian influenza h5n1 virus in complex with bf2*1501",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "RREVHTYY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RREVHTYY"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RREVHTYY",
+    "publication": {
+        "abstract": "Lethal infections by strains of the highly-pathogenic avian influenza virus (HPAIV) H5N1 pose serious threats to both the poultry industry and public health worldwide. A lack of confirmed HPAIV epitopes recognized by cytotoxic T lymphocytes (CTLs) has hindered the utilization of CD8<sup>+</sup> T-cell-mediated immunity and has precluded the development of effectively diversified epitope-based vaccination approaches. In particular, an HPAIV H5N1 CTL-recognized epitope based on the peptide MHC-I-\u03b22m (pMHC-I) complex has not yet been designed. Here, screening a collection of selected peptides of several HPAIV strains against a specific pathogen-free pMHC-I (pBF2*1501), we identified a highly-conserved HPAIV H5N1 CTL epitope, named HPAIV-PA<sub>123-130</sub> We determined the structure of the BF2*1501-PA<sub>123-130</sub> complex at 2.1 \u00c5 resolution to elucidate the molecular mechanisms of a preferential presentation of the highly-conserved PA<sub>123-130</sub> epitope in the chicken B15 lineage. Conformational characteristics of the PA<sub>123-130</sub> epitope with a protruding Tyr-7 residue indicated that this epitope has great potential to be recognized by specific TCRs. Moreover, significantly increased numbers of CD8<sup>+</sup> T cells specific for the HPAIV-PA<sub>123-130</sub> epitope in peptide-immunized chickens indicated that a repertoire of CD8<sup>+</sup> T cells can specifically respond to this epitope. We anticipate that the identification and structural characterization of the PA<sub>123-130</sub> epitope reported here could enable further studies of CTL immunity against HPAIV H5N1. Such studies may aid in the development of vaccine development strategies using well-conserved internal viral antigens in chickens.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "X",
+                    "lastname": "Li",
+                    "name": "Li X"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Zhang",
+                    "name": "Zhang L"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Liu",
+                    "name": "Liu Y"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Ma",
+                    "name": "Ma L"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Zhang",
+                    "name": "Zhang N"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Xia",
+                    "name": "Xia C"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.RA120.012713",
+                    "type": "doi"
+                },
+                {
+                    "id": "32152225",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "16"
+            ],
+            "journal": {
+                "iso_abbreviation": "J Biol Chem",
+                "name": ""
+            },
+            "pages": [
+                "5292-5306"
+            ],
+            "title": "Structures of the MHC-I molecule BF2*1501 disclose the preferred presentation of an H5N1 virus-derived epitope.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925817485504",
+            "volume": [
+                "295"
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6irl"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6irl"
+        }
+    },
+    "species": {
+        "common_name": "Chicken",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Gallus gallus",
+        "slug": "gallus_gallus"
+    },
+    "tcr": null,
+    "title": "Gaga-BF2*015:01 binding \"RREVHTYY\" at 2.10&#8491; resolution",
+    "unique_chain_count": 3
+}

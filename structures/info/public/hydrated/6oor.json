@@ -1,0 +1,181 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6oor_1",
+            "chains": [
+                "A",
+                "B",
+                "L",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:43:00.692293"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "ab_heavy": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Hchain",
+            "sequence": "EAQLVESGGVLVQPGRSLKLSCAASGFPFNNYDMAWVRQAPTKGLEWVASIRTGDIGTYYRDSVKGRFTVSRDNAKSTLYLQMDSLRSEDTATYYCVRPRSVYYGLLLRPYWFFDFWGPGTMVTVSSAQTTAPSVYPLAPGCGDTTSSTVTLGCLVKGYFPEPVTVTWNSGALSSDVHTFPAVLQSGLYTLTSSVTSSTWPSQTVTCNVAHPASSTKVDKAVEARNGSHHHHHH"
+        },
+        "ab_light": {
+            "chains": [
+                "L"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Lchain",
+            "sequence": "QIMLTQQAESLWISPGERVSITCRASQSLLYTDGKHYLSWYQQRPGQTTKALIYHASVRTDGVPTRFIGSGSGSEFTLSIEHVQPEDFAIYYCLQTLKSPYTFGAGTKLELKRADAAPTVSIFPPSTEQLATGGASVVCLMNNFYPRDISVKWKIDGTERRDGVLDSVTDQDSKDSTYSMSSTLSLTKADYESHNLYTCEVVHKTSSSPVVKSFNRNEC"
+        },
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRSLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-04-23",
+        "deposition_year": 2019,
+        "release_date": "2019-07-17",
+        "release_year": 2019,
+        "revision_date": "2019-12-18",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_antibody",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "ab_light",
+        "ab_heavy"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6OOR | Non-classical MHC Class I molecule CD1d with antibody",
+    "pdb_code": "6oor",
+    "pdb_title": "Structure of 1b1 bound to mouse CD1d",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Natural killer T (NKT) cells are a subset of T lymphocytes that recognize glycolipid antigens presented by the CD1d molecule (CD1d). They rapidly respond to antigen challenge and can activate both innate and adaptive immune cells. To study the role of antigen presentation in NKT cell activation, previous studies have developed several anti-CD1d antibodies that block CD1d binding to T-cell receptors (TCRs). Antibodies that are specific to both CD1d and the presented antigen can only be used to study the function of only a limited number of antigens. In contrast, antibodies that bind CD1d and block TCR binding regardless of the presented antigen can be widely used to assess the role of TCR-mediated NKT cell activation in various disease models. Here, we report the crystal structure of the widely used anti-mouse CD1d antibody 1B1 bound to CD1d at a resolution of 2.45 \u00c5 and characterized its binding to CD1d-presented glycolipids. We observed that 1B1 uses a long hydrophobic H3 loop that is inserted deep into the binding groove of CD1d where it makes intimate nonpolar contacts with the lipid backbone of an incorporated spacer lipid. Using an NKT cell agonist that has a modified sphingosine moiety, we further demonstrate that 1B1 in its monovalent form cannot block TCR-mediated NKT cell activation, because 1B1 fails to bind with high affinity to mCD1d. Our results suggest potential limitations of using 1B1 to assess antigen recognition by NKT cells, especially when investigating antigens that do not follow the canonical two alkyl-chain rule.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "G",
+                    "lastname": "Ying",
+                    "name": "Ying G"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mallevaey",
+                    "name": "Mallevaey T"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Van Calenbergh",
+                    "name": "Van Calenbergh S"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.ra119.009403",
+                    "type": "doi"
+                },
+                {
+                    "id": "31296659",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Structural basis of NKT cell inhibition using the T-cell receptor-blocking anti-CD1d antibody 1B1.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820432326",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.45",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6oor"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6oor"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d with antibody at 2.45&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,140 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:Q6I7L2",
+            "locus": "anpl-uaa",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "Anpl-UAA*01",
+            "score": null,
+            "slug": "anpl_uaa_01",
+            "species_stem": "anpl"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5gjy_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:28:53.041664"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "MEFGQAKAAPKVQVYSRHPATAGTENILNCYVEGFHPPKIDIALLKNGEPMKDVKYNDMSFGDDWTFQRLVYAPFTPTKSDVYTCRVDHEAFTEPQSFRWEPDF"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MEFEPHSLRYFYTAVSDPSPGVPQFVTVGSVDGEVFVRYDSETRKMEPRVDWIVANVDQQYWDRETETSRGNEQIFRVNLDTARERYNQSRGSHTWQCMHGCDLEDGSIRGFQQCGYDGKDFIALDKDTLTYTAADAAAQITKRKWEQEGTVAEQWKNYLENTCIEWLRKYVSYGKDVLERRERPKVRVSGMESNKILTLSCRAHGFYPPPISISWLKDGVVQEQETKRGSTVPNSDGTYHAWATIDVLPGNRDKYQCRVEHASLPQPGLFSW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "MVMELIRMI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-07-02",
+        "deposition_year": 2016,
+        "release_date": "2017-05-10",
+        "release_year": 2017,
+        "revision_date": "2017-05-10",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "anpl-uaa",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5GJY | Anpl-UAA*01 binding \"MVMELIRMI\"",
+    "pdb_code": "5gjy",
+    "pdb_title": "Crystal structure of duck MHC Class I for 1.71 angstrom",
+    "peptide": {
+        "C": {
+            "actual_length": 7,
+            "actual_sequence": "MVLIRMI",
+            "chain_id": "C",
+            "features": [
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 9,
+            "full_sequence": "MVMELIRMI",
+            "gap_ends_at": 5,
+            "gap_length": 2,
+            "gap_sequence": "ME",
+            "gap_start_after": 2,
+            "gapped_sequence": "MV--LIRMI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "MVMELIRMI",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Wu, Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Xia, C."
+                }
+            ],
+            "identifier": [],
+            "title": "Structural Definition Of Duck MHC Class I Explains the Resistance to Influenza A virus",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.71",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5gjy"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5gjy"
+        }
+    },
+    "species": {
+        "common_name": "Mallard duck",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Anas platyrhynchos",
+        "slug": "anas_platyrhynchos"
+    },
+    "tcr": null,
+    "title": "Anpl-UAA*01 binding \"MVMELIRMI\" at 1.71&#8491; resolution",
+    "unique_chain_count": 3
+}

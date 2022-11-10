@@ -1,0 +1,211 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7mxh_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:28:55.858914"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "DAAIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDMGSLVPR"
+        },
+        "cd1b": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.7,
+            "sequence": "ADASSEHVSFHVIQIFSFVNQSWARGQGSGWLDELQTHGWDSESGTIIFLHQWSKGQFSNEELSDLELLFRFYLFGLTREIQDHASQDYSKYPFEVQVKAGCELHSGGSPEGFFQVAFNGLDLLSFQQTTWVPSPGCGSLAQSVCHLLNHQYEGVTETVYNLIRSTCPRFLLGLLDAGKMYVHRQVRPEAWLSSGPSPGPGRLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQLGDILPNANGTWYLRATLDVADGEAAGLSCRVKHSSLEGQDIILYWRGSLVPR"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-05-19",
+        "deposition_year": 2021,
+        "release_date": "2021-11-17",
+        "release_year": 2021,
+        "revision_date": "2021-11-17",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1b",
+    "components": [
+        "cd1b",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7MXH | Non-classical MHC Class I molecule CD1b",
+    "pdb_code": "7mxh",
+    "pdb_title": "Cd1c with antigen analogue 3",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Whereas proteolytic cleavage is crucial for peptide presentation by classical major histocompatibility complex (MHC) proteins to T cells, glycolipids presented by CD1 molecules are typically presented in an unmodified form. However, the mycobacterial lipid antigen mannosyl-\u03b21-phosphomycoketide (MPM) may be processed through hydrolysis in antigen presenting cells, forming mannose and phosphomycoketide (PM). To further test the hypothesis that some lipid antigens are processed, and to generate antigens that lead to defined epitopes for future tuberculosis vaccines or diagnostic tests, we aimed to create hydrolysis-resistant MPM variants that retain their antigenicity. Here, we designed and tested three different, versatile synthetic strategies to chemically stabilize MPM analogs. Crystallographic studies of CD1c complexes with these three new MPM analogs showed anchoring of the lipid tail and phosphate group that is highly comparable to nature-identical MPM, with considerable conformational flexibility for the mannose head group. MPM-3, a difluoromethylene-modified version of MPM that is resistant to hydrolysis, showed altered recognition by cells, but not by CD1c proteins, supporting the cellular antigen processing hypothesis. Furthermore, the synthetic analogs elicited T cell responses that were cross-reactive with nature-identical MPM, fulfilling important requirements for future clinical use.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JF",
+                    "lastname": "Reijneveld",
+                    "name": "Reijneveld JF"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Marino",
+                    "name": "Marino L"
+                },
+                {
+                    "initials": "TP",
+                    "lastname": "Cao",
+                    "name": "Cao TP"
+                },
+                {
+                    "initials": "TY",
+                    "lastname": "Cheng",
+                    "name": "Cheng TY"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Dam",
+                    "name": "Dam D"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Shahine",
+                    "name": "Shahine A"
+                },
+                {
+                    "initials": "MD",
+                    "lastname": "Witte",
+                    "name": "Witte MD"
+                },
+                {
+                    "initials": "DV",
+                    "lastname": "Filippov",
+                    "name": "Filippov DV"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Suliman",
+                    "name": "Suliman S"
+                },
+                {
+                    "initials": "GA",
+                    "lastname": "van der Marel",
+                    "name": "van der Marel GA"
+                },
+                {
+                    "initials": "DB",
+                    "lastname": "Moody",
+                    "name": "Moody DB"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Minnaard",
+                    "name": "Minnaard AJ"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "JDC",
+                    "lastname": "Cod\u00e9e",
+                    "name": "Cod\u00e9e JDC"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Van Rhijn",
+                    "name": "Van Rhijn I"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jbc.2021.101197",
+                    "type": "doi"
+                },
+                {
+                    "id": "34536421",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J Biol Chem",
+                "name": ""
+            },
+            "pages": [
+                "101197"
+            ],
+            "title": "Rational design of a hydrolysis-resistant mycobacterial phosphoglycolipid antigen presented by CD1c to T cells.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925821009996",
+            "volume": [
+                "297"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.11",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7mxh"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7mxh"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1b at 2.11&#8491; resolution",
+    "unique_chain_count": 2
+}

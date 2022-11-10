@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1xh3_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:13.537793"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LPAVVGLSPGEQEY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2004-09-17",
+        "deposition_year": 2004,
+        "release_date": "2004-11-23",
+        "release_year": 2004,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1XH3 | HLA-B*35:01 binding \"LPAVVGLSPGEQEY\"",
+    "pdb_code": "1xh3",
+    "pdb_title": "Conformational restraints and flexibility of 14-meric peptides in complex with HLA-B*3501.",
+    "peptide": {
+        "C": {
+            "actual_length": 14,
+            "actual_sequence": "LPAVVGLSPGEQEY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 14,
+            "full_sequence": "LPAVVGLSPGEQEY"
+        }
+    },
+    "peptide_length": 14,
+    "peptide_length_name": "tetradecamer",
+    "peptide_sequence": "LPAVVGLSPGEQEY",
+    "publication": {
+        "abstract": "Human HLA-B*3501 binds an antigenic peptide of 14-aa length derived from an alternative reading frame of M-CSF with high affinity. Due to its extraordinary length, the exact HLA binding mode was unpredictable. The crystal structure of HLA-B*3501 at 1.5 A shows that the N and C termini of the peptide are embedded in the A and F pockets, respectively, similar to a peptide of normal length. The central part of the 14-meric peptide bulges flexibly out of the groove. Two variants of the alternative reading frame of M-CSF peptide substituted at P2 or P2 and P9 with Ala display weak or no T cell activation. Their structure differs mainly in flexibility and conformation from the agonistic peptide. Moreover, the variants induce subtle changes of MHC alpha-helical regions implicated as critical for TCR contact. The TCR specifically recognizing this peptide/MHC complex exhibits CDR3 length within the normal range, suggesting major conformational adaptations of this receptor upon peptide/MHC binding. Thus, the potential antigenic repertoire recognizable by CTLs is larger than currently thought.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Probst-Kepper",
+                    "name": "Probst-Kepper M"
+                },
+                {
+                    "initials": "HJ",
+                    "lastname": "Hecht",
+                    "name": "Hecht HJ"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Herrmann",
+                    "name": "Herrmann H"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Janke",
+                    "name": "Janke V"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Ocklenburg",
+                    "name": "Ocklenburg F"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Klempnauer",
+                    "name": "Klempnauer J"
+                },
+                {
+                    "initials": "BJ",
+                    "lastname": "van den Eynde",
+                    "name": "van den Eynde BJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Weiss",
+                    "name": "Weiss S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.173.9.5610",
+                    "type": "doi"
+                },
+                {
+                    "id": "15494511",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "9"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "5610-6"
+            ],
+            "title": "Conformational restraints and flexibility of 14-meric peptides in complex with HLA-B*3501.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.173.9.5610",
+            "volume": [
+                "173"
+            ],
+            "year": [
+                2004
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.48",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1xh3"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1xh3"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:01 binding \"LPAVVGLSPGEQEY\" at 1.48&#8491; resolution",
+    "unique_chain_count": 3
+}

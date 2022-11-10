@@ -1,0 +1,184 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:G1KTN1",
+            "locus": "anca-ua",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "Anca-UA*0101",
+            "score": null,
+            "slug": "anca_ua_0101",
+            "species_stem": "anca"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7cpo_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:17.106176"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "TQKAPSVQVYFRHPAEKGKENTFHCYAESFHPPKINITLLKNGIPMENVQQSDLSFKKDWTFERLVYAKVIPDGKAEFACKVEHITLPQPMIYKLDQEY"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSSSHSMRYFVTSVSEPGQQVPQFSYVGYVDDQEFVSYNASTRRYLPKVPWISKVEKNDPDYWERNTLYAQGHERSFRDHLATLAEYYNQSGGLHTFQWMYGCELRNDWSKGGYYQYAYDGRDYISLDKDTLTWMAADVPAQNTKRKWDADFRDNEYKKTYLEETCIEWLQRYLNYGKETLLRTEVPEVKVTRKEDYDGMETLICRVGGFYPKDIDIDWTRDGEVWLQDVFHGLVSPNSDGTYYTWRSVKVDPKERERYKCHVEHDGLPNPVDVAW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "HVYGPLKPI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-08-07",
+        "deposition_year": 2020,
+        "release_date": "2021-01-27",
+        "release_year": 2021,
+        "revision_date": "2021-04-07",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "anca-ua",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7CPO | Anca-UA*0101 binding \"HVYGPLKPI\"",
+    "pdb_code": "7cpo",
+    "pdb_title": "Crystal structure of anolis carolinensis MHC i complex",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "HVYGPLKPI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "HVYGPLKPI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "HVYGPLKPI",
+    "publication": {
+        "abstract": "The reptile MHC class I (MCH-I) and MHC class II proteins are the key molecules in the immune system; however, their structure has not been investigated. The crystal structure of green anole lizard peptide-MHC-I-\u03b22m (pMHC-I or p<i>Anca</i>-UA*0101) was determined in the current study. Subsequently, the features of p<i>Anca</i>-UA*0101 were analyzed and compared with the characteristics of pMHC-I of four classes of vertebrates. The amino acid sequence identities between <i>Anca</i>-UA*0101 and MHC-I from other species are <50%; however, the differences between the species were reflected in the topological structure. Significant characteristics of p<i>Anca</i>-UA*0101 include a specific flip of \u223c88\u00b0 and an upward shift adjacent to the C terminus of the \u03b11- and \u03b12-helical regions, respectively. Additionally, the lizard MHC-I molecule has an insertion of 2 aa (VE) at positions 55 and 56. The pushing force from 55-56VE triggers the flip of the \u03b11 helix. Mutagenesis experiments confirmed that the 55-56VE insertion in the \u03b11 helix enhances the stability of p<i>Anca</i>-UA*0101. The peptide presentation profile and motif of p<i>Anca</i>-UA*0101 were confirmed. Based on these results, the proteins of three reptile lizard viruses were used for the screening and confirmation of the candidate epitopes. These data enhance our understanding of the systematic differences between five classes of vertebrates at the gene and protein levels, the formation of the pMHC-I complex, and the evolution of the MHC-I system.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Wang",
+                    "name": "Wang Y"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Qu",
+                    "name": "Qu Z"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Ma",
+                    "name": "Ma L"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Wei",
+                    "name": "Wei X"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Zhang",
+                    "name": "Zhang N"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Zhang",
+                    "name": "Zhang B"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Xia",
+                    "name": "Xia C"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.2000992",
+                    "type": "doi"
+                },
+                {
+                    "id": "33637616",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "J Immunol",
+                "name": ""
+            },
+            "pages": [
+                "1653-1667"
+            ],
+            "title": "The Crystal Structure of the MHC Class I (MHC-I) Molecule in the Green Anole Lizard Demonstrates the Unique MHC-I System in Reptiles.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.2000992",
+            "volume": [
+                "206"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7cpo"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7cpo"
+        }
+    },
+    "species": {
+        "common_name": "Green anole lizard",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Anolis carolinensis",
+        "slug": "anolis_carolinensis"
+    },
+    "tcr": null,
+    "title": "Anca-UA*0101 binding \"HVYGPLKPI\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

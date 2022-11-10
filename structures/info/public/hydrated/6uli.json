@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35375",
+            "locus": "hla-c",
+            "match_type": "histo:exact",
+            "name": "HLA-C*08:02",
+            "slug": "hla_c_08_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6uli_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:49.309038"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "CSHSMRYFYTAVSRPGRGEPRFIAVGYVDDTQFVQFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVSLRNLRGYYNQSEAGSHTLQRMYGCDLGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADKAAQITQRKWEAAREAEQRRAYLEGTCVEWLRRYLENGKKTLQRAEHPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GADGVGKSA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-10-08",
+        "deposition_year": 2019,
+        "release_date": "2020-05-27",
+        "release_year": 2020,
+        "revision_date": "2020-06-17",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-c",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6ULI | HLA-C*08:02 binding \"GADGVGKSA\"",
+    "pdb_code": "6uli",
+    "pdb_title": "Molecular basis for tumor infiltrating TCR recognition of hotspot kras-g12d mutation",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "GADGVGKSA",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GADGVGKSA"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GADGVGKSA",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MJW",
+                    "lastname": "Sim",
+                    "name": "Sim MJW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lu",
+                    "name": "Lu J"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Spencer",
+                    "name": "Spencer M"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Hopkins",
+                    "name": "Hopkins F"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Tran",
+                    "name": "Tran E"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Rosenberg",
+                    "name": "Rosenberg SA"
+                },
+                {
+                    "initials": "EO",
+                    "lastname": "Long",
+                    "name": "Long EO"
+                },
+                {
+                    "initials": "PD",
+                    "lastname": "Sun",
+                    "name": "Sun PD"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1921964117",
+                    "type": "doi"
+                },
+                {
+                    "id": "32461371",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "High-affinity oligoclonal TCRs define effective adoptive T cell therapy targeting mutant KRAS-G12D.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1921964117",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.88",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6uli"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6uli"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-C*08:02 binding \"GADGVGKSA\" at 1.88&#8491; resolution",
+    "unique_chain_count": 3
+}

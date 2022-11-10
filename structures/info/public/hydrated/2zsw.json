@@ -1,0 +1,258 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2zsw_1",
+            "chains": [
+                "A",
+                "B",
+                "M"
+            ],
+            "downloaded_at": "2022-11-09T14:45:31.939444"
+        },
+        "2": {
+            "assembly_name": "2zsw_2",
+            "chains": [
+                "E",
+                "F",
+                "N"
+            ],
+            "downloaded_at": "2022-11-09T14:45:32.406499"
+        },
+        "3": {
+            "assembly_name": "2zsw_3",
+            "chains": [
+                "C",
+                "D",
+                "O"
+            ],
+            "downloaded_at": "2022-11-09T14:45:32.690461"
+        },
+        "4": {
+            "assembly_name": "2zsw_4",
+            "chains": [
+                "G",
+                "H",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:45:32.978739"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "H",
+                "F",
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "E",
+                "C",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRWEPPP"
+        },
+        "peptide": {
+            "chains": [
+                "M",
+                "N",
+                "O",
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RAYIFANI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-09-18",
+        "deposition_year": 2008,
+        "release_date": "2008-11-04",
+        "release_year": 2008,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2ZSW | H2-Kb binding \"RAYIFANI\"",
+    "pdb_code": "2zsw",
+    "pdb_title": "Crystal structure of h-2kb in complex with the q600y variant of jhmv epitope s598",
+    "peptide": {
+        "M": {
+            "actual_length": 8,
+            "actual_sequence": "RXYIFANI",
+            "chain_id": "M",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 8,
+            "full_sequence": "RAYIFANI"
+        },
+        "N": {
+            "actual_length": 8,
+            "actual_sequence": "RXYIFANI",
+            "chain_id": "N",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 8,
+            "full_sequence": "RAYIFANI"
+        },
+        "O": {
+            "actual_length": 8,
+            "actual_sequence": "RXYIFANI",
+            "chain_id": "O",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 8,
+            "full_sequence": "RAYIFANI"
+        },
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "RXYIFANI",
+            "chain_id": "P",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 8,
+            "full_sequence": "RAYIFANI"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RAYIFANI",
+    "publication": {
+        "abstract": "High affinity antigen-specific T cells play a critical role during protective immune responses. Epitope enhancement can elicit more potent T cell responses and can subsequently lead to a stronger memory pool; however, the molecular basis of such enhancement is unclear. We used the consensus peptide-binding motif for the Major Histocompatibility Complex molecule H-2K(b) to design a heteroclitic version of the mouse hepatitis virus-specific subdominant S598 determinant. We demonstrate that a single amino acid substitution at a secondary anchor residue (Q to Y at position 3) increased the stability of the engineered determinant in complex with H-2K(b). The structural basis for this enhanced stability was associated with local alterations in the pMHC conformation as a result of the Q to Y substitution. Recombinant viruses encoding this engineered determinant primed CTL responses that also reacted to the wildtype epitope with significantly higher functional avidity, and protected against selection of virus mutated at a second CTL determinant and consequent disease progression in persistently infected mice. Collectively, our findings provide a basis for the enhanced immunogenicity of an engineered determinant that will serve as a template for guiding the development of heteroclitic T cell determinants with applications in prevention of CTL escape in chronic viral infections as well as in tumor immunity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "NS",
+                    "lastname": "Butler",
+                    "name": "Butler NS"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Theodossis",
+                    "name": "Theodossis A"
+                },
+                {
+                    "initials": "AI",
+                    "lastname": "Webb",
+                    "name": "Webb AI"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Nastovska",
+                    "name": "Nastovska R"
+                },
+                {
+                    "initials": "SH",
+                    "lastname": "Ramarathinam",
+                    "name": "Ramarathinam SH"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Dunstone",
+                    "name": "Dunstone MA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Perlman",
+                    "name": "Perlman S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.ppat.1000186",
+                    "type": "doi"
+                },
+                {
+                    "id": "18949029",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Pathog.",
+                "name": ""
+            },
+            "pages": [
+                "e1000186"
+            ],
+            "title": "Prevention of cytotoxic T cell escape using a heteroclitic subdominant viral T cell determinant.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.ppat.1000186",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2zsw"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2zsw"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"RAYIFANI\" at 2.80&#8491; resolution",
+    "unique_chain_count": 3
+}

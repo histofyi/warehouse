@@ -1,0 +1,230 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3hg1_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:42:15.156501"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ELAGIGILTV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMFIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVNVAGKSTFGDGTTLTVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDT",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "SQTIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWYRQAAGRGLQLLFYSVGIGQISSEVPQNLSASRPQDRQFILSSKKLLLSDSGFYLCAWSETGLGTGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV30"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-05-13",
+        "deposition_year": 2009,
+        "release_date": "2009-07-28",
+        "release_year": 2009,
+        "revision_date": "2014-04-09",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3HG1 | HLA-A*02:01 presenting \"ELAGIGILTV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "3hg1",
+    "pdb_title": "Germ line-governed recognition of a cancer epitope by an immunodominant human T-cell receptor.",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "ELAGIGILTV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "ELAGIGILTV"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "ELAGIGILTV",
+    "publication": {
+        "abstract": "CD8(+) T-cells specific for MART-1-(26-35), a dominant melanoma epitope restricted by human leukocyte antigen (HLA)-A*0201, are exceptionally common in the naive T-cell repertoire. Remarkably, the TRAV12-2 gene is used to encode the T-cell receptor alpha (TCRalpha) chain in >87% of these T-cells. Here, the molecular basis for this genetic bias is revealed from the structural and thermodynamic properties of an archetypal TRAV12-2-encoded TCR complexed to the clinically relevant heteroclitic peptide, ELAGIGILTV, bound to HLA-A*0201 (A2-ELA). Unusually, the TRAV12-2 germ line-encoded regions of the TCR dominate the major atomic contacts with the peptide at the TCR/A2-ELA interface. This \"innate\" pattern of antigen recognition probably explains the unique characteristics and extraordinary frequencies of CD8(+) T-cell responses to this epitope.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Yuan",
+                    "name": "Yuan F"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Gostick",
+                    "name": "Gostick E"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M109.022509",
+                    "type": "doi"
+                },
+                {
+                    "id": "19605354",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "40"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "27281-9"
+            ],
+            "title": "Germ line-governed recognition of a cancer epitope by an immunodominant human T-cell receptor.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820383976",
+            "volume": [
+                "284"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3hg1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3hg1"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3hg1"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV30"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "3hg1"
+    },
+    "title": "HLA-A*02:01 presenting \"ELAGIGILTV\" to Alpha/Beta T cell receptor at 3.00&#8491; resolution",
+    "unique_chain_count": 5
+}

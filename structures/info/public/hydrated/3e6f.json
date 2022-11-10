@@ -1,0 +1,217 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3e6f_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:45:35.389931"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "MSHSLRYFVTAVSRPGFGEPRYMEVGYVDNTEFVRFDSDAENPRYEPRARWIEQEGPEYWERETRRAKGNEQSFRVDLRTALRYYNQSAGGSHTLQWMAGCDVESDGRLLRGYWQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAERDRAYLEGECVEWLRRYLKNGNATLLRTDPPKAHVTHHRRPEGDVTLRCWALGFYPADITLTWQLNGEELTQEMELVETRPAGDGTFQKWASVVVPLGKEQKYTCHVEHEGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "IGPGRAFYA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-08-15",
+        "deposition_year": 2008,
+        "release_date": "2009-08-18",
+        "release_year": 2009,
+        "revision_date": "2021-10-20",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3E6F | H2-Dd binding \"IGPGRAFYA\"",
+    "pdb_code": "3e6f",
+    "pdb_title": "Mhc Class I h-2dd heavy chain complexed with beta-2 microglobulin and a variant peptide, pa9, from the human immunodeficiency virus (bal) envelope glycoprotein 120",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "IGPGRAFYA",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IGPGRAFYA"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "IGPGRAFYA",
+    "publication": {
+        "abstract": "Prime-boost immunization with gene-based vectors has been developed to generate more effective vaccines for AIDS, malaria, and tuberculosis. Although these vectors elicit potent T cell responses, the mechanisms by which they stimulate immunity are not well understood. In this study, we show that immunization by a single gene product, HIV-1 envelope, with alternative vector combinations elicits CD8(+) cells with different fine specificities and kinetics of mobilization. Vaccine-induced CD8(+) T cells recognized overlapping third V region loop peptides. Unexpectedly, two anchor variants bound H-2D(d) better than the native sequences, and clones with distinct specificities were elicited by alternative vectors. X-ray crystallography revealed major differences in solvent exposure of MHC-bound peptide epitopes, suggesting that processed HIV-1 envelope gave rise to MHC-I/peptide conformations recognized by distinct CD8(+) T cell populations. These findings suggest that different gene-based vectors generate peptides with alternative conformations within MHC-I that elicit distinct T cell responses after vaccination.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Honda",
+                    "name": "Honda M"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Wang",
+                    "name": "Wang R"
+                },
+                {
+                    "initials": "WP",
+                    "lastname": "Kong",
+                    "name": "Kong WP"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Kanekiyo",
+                    "name": "Kanekiyo M"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Akahata",
+                    "name": "Akahata W"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Xu",
+                    "name": "Xu L"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Matsuo",
+                    "name": "Matsuo K"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Natarajan",
+                    "name": "Natarajan K"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Robinson",
+                    "name": "Robinson H"
+                },
+                {
+                    "initials": "TE",
+                    "lastname": "Asher",
+                    "name": "Asher TE"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Douek",
+                    "name": "Douek DC"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Margulies",
+                    "name": "Margulies DH"
+                },
+                {
+                    "initials": "GJ",
+                    "lastname": "Nabel",
+                    "name": "Nabel GJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.0900581",
+                    "type": "doi"
+                },
+                {
+                    "id": "19620307",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "2425-34"
+            ],
+            "title": "Different vaccine vectors delivering the same antigen elicit CD8+ T cell responses with distinct clonotype and epitope specificity.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.0900581",
+            "volume": [
+                "183"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.41",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3e6f"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3e6f"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Dd binding \"IGPGRAFYA\" at 2.41&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,181 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5u72_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:44:10.053526"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "H",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVKDSNYQLIWGAGTKLIIKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSVWTGEGSGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-12-10",
+        "deposition_year": 2016,
+        "release_date": "2017-02-08",
+        "release_year": 2017,
+        "revision_date": "2020-01-01",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5U72 | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "5u72",
+    "pdb_title": "Structure of human MR1-5oh-dcf in complex with human MAIT a-f7 TCR",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "L1<sub>0</sub>-ordered FeNi alloy (tetrataenite), a promising candidate for rare-earth-free and low-cost permanent magnet applications, is attracting increasing attention from academic and industrial communities. Highly ordered single-phase L1<sub>0</sub>-FeNi is difficult to synthesis efficiently because of its low chemical order-disorder transition temperature (200-320\u00a0\u00b0C). A non-equilibrium synthetic route utilizing a nitrogen topotactic reaction has been considered a valid approach, although the phase transformation mechanism is currently unknown. Herein, we investigated the basis of this reaction, namely the formation mechanism of the tetragonal FeNiN precursor phase during the nitridation of FeNi nanopowders. Detailed microstructure analysis revealed that the FeNiN precursor phase could preferentially nucleate at the nanotwinned region during nitridation and subsequently grow following a massive transformation, with high-index irrational orientation relationships and ledgewise growth motion detected at the migrating phase interface. This is the first report of a massive phase transformation detected in an Fe-Ni-N system and provides new insights into the phase transformation during the nitriding process. This work is expected to promote the synthetic optimization of fully ordered FeNi alloys for various magnetic applications.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Keller, A.N."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Rossjohn, J."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.3679",
+                    "type": "doi"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "-"
+            ],
+            "title": "T-cell receptor complex",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.3679",
+            "volume": [
+                null
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5u72"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5u72"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5u72"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "B"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "G"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "5u72"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 2.50&#8491; resolution",
+    "unique_chain_count": 4
+}

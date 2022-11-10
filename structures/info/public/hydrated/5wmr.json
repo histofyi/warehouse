@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34671",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*08:01",
+            "slug": "hla_b_08_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5wmr_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:38:03.123416"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFDTAMSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIFKTNTQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARVAEQDRAYLEGTCVEWLRRYLENGKDTLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "QIKVRVDMV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-07-31",
+        "deposition_year": 2017,
+        "release_date": "2018-06-06",
+        "release_year": 2018,
+        "revision_date": "2020-02-26",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5WMR | HLA-B*08:01 binding \"QIKVRVDMV\"",
+    "pdb_code": "5wmr",
+    "pdb_title": "Crystal structure of hla-b8 in complex with qik, a cmv peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "QIKVRVDMV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QIKVRVDMV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "QIKVRVDMV",
+    "publication": {
+        "abstract": "Human memory T cells that cross-react with epitopes from unrelated viruses can potentially modulate immune responses to subsequent infections by a phenomenon termed heterologous immunity. However, it is unclear whether similarities in structure rather than sequence underpin heterologous T cell cross-reactivity. In this study, we aimed to explore the mechanism of heterologous immunity involving immunodominant epitopes derived from common viruses restricted to high-frequency HLA allotypes (HLA-A*02:01, -B*07:02, and -B*08:01). We examined EBV-specific memory T cells for their ability to cross-react with CMV or influenza A virus-derived epitopes. Following T cell immunoassays to determine phenotype and function, complemented with biophysical and structural investigations of peptide/HLA complexes, we did not detect cross-reactivity of EBV-specific memory T cells toward either CMV or influenza A virus epitopes presented by any of the selected HLA allomorphs. Thus, despite the ubiquitous nature of these human viruses and the dominant immune response directed toward the selected epitopes, heterologous virus-specific T cell cross-reactivity was not detected. This suggests that either heterologous immunity is not as common as previously reported, or that it requires a very specific biological context to develop and be clinically relevant.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LC",
+                    "lastname": "Rowntree",
+                    "name": "Rowntree LC"
+                },
+                {
+                    "initials": "THO",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen THO"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Halim",
+                    "name": "Halim H"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "TC",
+                    "lastname": "Kotsimbos",
+                    "name": "Kotsimbos TC"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Mifsud",
+                    "name": "Mifsud NA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1800010",
+                    "type": "doi"
+                },
+                {
+                    "id": "29735483",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Inability To Detect Cross-Reactive Memory T Cells Challenges the Frequency of Heterologous Immunity among Common Viruses.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1800010",
+            "volume": [
+                null
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.58",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5wmr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5wmr"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*08:01 binding \"QIKVRVDMV\" at 1.58&#8491; resolution",
+    "unique_chain_count": 3
+}

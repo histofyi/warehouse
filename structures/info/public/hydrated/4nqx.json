@@ -1,0 +1,317 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34767",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*01:01",
+            "slug": "hla_a_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4nqx_1",
+            "chains": [
+                "A",
+                "B",
+                "M"
+            ],
+            "downloaded_at": "2022-11-09T14:42:01.641187"
+        },
+        "2": {
+            "assembly_name": "4nqx_2",
+            "chains": [
+                "C",
+                "D",
+                "N"
+            ],
+            "downloaded_at": "2022-11-09T14:42:02.087264"
+        },
+        "3": {
+            "assembly_name": "4nqx_3",
+            "chains": [
+                "E",
+                "F",
+                "O"
+            ],
+            "downloaded_at": "2022-11-09T14:42:02.403939"
+        },
+        "4": {
+            "assembly_name": "4nqx_4",
+            "chains": [
+                "G",
+                "H",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:42:02.717103"
+        },
+        "5": {
+            "assembly_name": "4nqx_5",
+            "chains": [
+                "I",
+                "J",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:42:03.124158"
+        },
+        "6": {
+            "assembly_name": "4nqx_6",
+            "chains": [
+                "K",
+                "L",
+                "R"
+            ],
+            "downloaded_at": "2022-11-09T14:42:03.608455"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H",
+                "J",
+                "L"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G",
+                "I",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQKMEPRAPWIEQEGPEYWDQETRNMKAHSQTDRANLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAVHAAEQRRVYLEGRCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWELSSQPTIPI"
+        },
+        "peptide": {
+            "chains": [
+                "M",
+                "N",
+                "O",
+                "P",
+                "Q",
+                "R"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "CTELKLNDY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-11-26",
+        "deposition_year": 2013,
+        "release_date": "2013-12-25",
+        "release_year": 2013,
+        "revision_date": "2014-02-05",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4NQX | HLA-A*01:01 binding \"CTELKLNDY\"",
+    "pdb_code": "4nqx",
+    "pdb_title": "Crystal structure of hla a*0101 in complex with np44-s7n, an 9-mer influenza epitope",
+    "peptide": {
+        "M": {
+            "actual_length": 9,
+            "actual_sequence": "CTELKLNDY",
+            "chain_id": "M",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "CTELKLNDY"
+        },
+        "N": {
+            "actual_length": 9,
+            "actual_sequence": "CTELKLNDY",
+            "chain_id": "N",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "CTELKLNDY"
+        },
+        "O": {
+            "actual_length": 9,
+            "actual_sequence": "CTELKLNDY",
+            "chain_id": "O",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "CTELKLNDY"
+        },
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "CTELKLNDY",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "CTELKLNDY"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "CTELKLNDY",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "CTELKLNDY"
+        },
+        "R": {
+            "actual_length": 9,
+            "actual_sequence": "CTELKLNDY",
+            "chain_id": "R",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "CTELKLNDY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "CTELKLNDY",
+    "publication": {
+        "abstract": "The absence of preexisting neutralizing antibodies specific for the novel A (H7N9) influenza virus indicates a lack of prior human exposure. As influenza A virus-specific CD8(+) T lymphocytes (CTLs) can be broadly cross-reactive, we tested whether immunogenic peptides derived from H7N9 might be recognized by memory CTLs established following infection with other influenza strains. Probing across multiple ethnicities, we identified 32 conserved epitopes derived from the nucleoprotein (NP) and matrix-1 (M1) proteins. These NP and M1 peptides are presented by HLAs prevalent in 16-57% of individuals. Remarkably, some HLA alleles (A*0201, A*0301, B*5701, B*1801, and B*0801) elicit robust CTL responses against any human influenza A virus, including H7N9, whereas ethnicities where HLA-A*0101, A*6801, B*1501, and A*2402 are prominent, show limited CTL response profiles. By this criterion, some groups, especially the Alaskan and Australian Indigenous peoples, would be particularly vulnerable to H7N9 infection. This dissection of CTL-mediated immunity to H7N9 thus suggests strategies for both vaccine delivery and development.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Qui\u00f1ones-Parra",
+                    "name": "Qui\u00f1ones-Parra S"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Grant",
+                    "name": "Grant E"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Loh",
+                    "name": "Loh L"
+                },
+                {
+                    "initials": "TH",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen TH"
+                },
+                {
+                    "initials": "KA",
+                    "lastname": "Campbell",
+                    "name": "Campbell KA"
+                },
+                {
+                    "initials": "SY",
+                    "lastname": "Tong",
+                    "name": "Tong SY"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Miller",
+                    "name": "Miller A"
+                },
+                {
+                    "initials": "PC",
+                    "lastname": "Doherty",
+                    "name": "Doherty PC"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Vijaykrishna",
+                    "name": "Vijaykrishna D"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kedzierska",
+                    "name": "Kedzierska K"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1322229111",
+                    "type": "doi"
+                },
+                {
+                    "id": "24395804",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "1049-54"
+            ],
+            "title": "Preexisting CD8+ T-cell immunity to the H7N9 influenza A virus varies across ethnicities.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1322229111",
+            "volume": [
+                "111"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4nqx"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4nqx"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*01:01 binding \"CTELKLNDY\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

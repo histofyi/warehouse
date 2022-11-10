@@ -1,0 +1,190 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P06339",
+            "locus": "h2-q",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "Qa-1b",
+            "note": "Match to new nomenclature - H2-T23?",
+            "score": null,
+            "slug": "qa_1b",
+            "species_stem": "h2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3vj6_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:33:29.818999"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.8,
+            "sequence": "SPHSLRYFTTAVSRPGLGEPRFIIVGYVDDTQFVRFDSDAENPRMEPRARWIEQEGPEYWERETWKARDMGRNFRVNLRTLLGYYNQSNDESHTLQWMYGCDVGPDGRLLRGYCQEAYDGQDYISLNEDLRSWTANDIASQISKHKSEAVDEAHQQRAYLQGPCVEWLHRYLRLGNETLQRSDPPKAHVTHHPRSEDEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWAAVVVPLGKEQYYTCHVYHEGLPEPLTLRWEPP"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AMAPRTLLL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-10-12",
+        "deposition_year": 2011,
+        "release_date": "2012-03-14",
+        "release_year": 2012,
+        "revision_date": "2012-03-14",
+        "revision_year": 2012
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-q",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3VJ6 | Qa-1b binding \"AMAPRTLLL\"",
+    "pdb_code": "3vj6",
+    "pdb_title": "Structure of the MHC Class Ib molecule qa-1b",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "AMAPRTLLL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "AMAPRTLLL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "AMAPRTLLL",
+    "publication": {
+        "abstract": "The primary function of the monomorphic MHC class Ib molecule Qa-1(b) is to present peptides derived from the leader sequences of other MHC class I molecules for recognition by the CD94-NKG2 receptors expressed by NK and T cells. Whereas the mode of peptide presentation by its ortholog HLA-E, and subsequent recognition by CD94-NKG2A, is known, the molecular basis of Qa-1(b) function is unclear. We have assessed the interaction between Qa-1(b) and CD94-NKG2A and shown that they interact with an affinity of 17 \u03bcM. Furthermore, we have determined the structure of Qa-1(b) bound to the leader sequence peptide, Qdm (AMAPRTLLL), to a resolution of 1.9 \u00c5 and compared it with that of HLA-E. The crystal structure provided a basis for understanding the restricted peptide repertoire of Qa-1(b). Whereas the Qa-1(b-AMAPRTLLL) complex was similar to that of HLA-E, significant sequence and structural differences were observed between the respective Ag-binding clefts. However, the conformation of the Qdm peptide bound by Qa-1(b) was very similar to that of peptide bound to HLA-E. Although a number of conserved innate receptors can recognize heterologous ligands from other species, the structural differences between Qa-1(b) and HLA-E manifested in CD94-NKG2A ligand recognition being species specific despite similarities in peptide sequence and conformation. Collectively, our data illustrate the structural homology between Qa-1(b) and HLA-E and provide a structural basis for understanding peptide repertoire selection and the specificity of the interaction of Qa-1(b) with CD94-NKG2 receptors.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Zeng",
+                    "name": "Zeng L"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan LC"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                },
+                {
+                    "initials": "NG",
+                    "lastname": "Walpole",
+                    "name": "Walpole NG"
+                },
+                {
+                    "initials": "CM",
+                    "lastname": "Harpur",
+                    "name": "Harpur CM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "CS",
+                    "lastname": "Clements",
+                    "name": "Clements CS"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1102379",
+                    "type": "doi"
+                },
+                {
+                    "id": "22131332",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "302-10"
+            ],
+            "title": "A structural basis for antigen presentation by the MHC class Ib molecule, Qa-1b.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1102379",
+            "volume": [
+                "188"
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3vj6"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3vj6"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Qa-1b binding \"AMAPRTLLL\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

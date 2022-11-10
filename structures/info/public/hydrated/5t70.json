@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5t70_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:34:03.041658"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "kir3": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "HMGGQDKPFLSAWPSAVVPRGGHVTLRCHYRHRFNNFMLYKEDRIHIPIFHGRIFQESFNMSPVTTAHAGNYTCRGSHPHSPTGWSAPSNPVVIMVTGNHRKPSLLAHPGPLVKSGERVILQCWSDIMFEHFFLHKEGISKDPSRLVGQIHDGVSKANFSIGPMMLALAGTYRCYGSVTHTPYQLSAPSDPLDIVVTGPYEKPSLSAQPGPKVQAGESVTLSCSSRSSYDMYHLSREGGAHERRLPAVRKVNRTFQADFPLGPATHGGTYRCFGSFRHSPYEWSDPSDPLLVSVTGNPS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "TSNLQEQIGW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-09-02",
+        "deposition_year": 2016,
+        "release_date": "2017-03-01",
+        "release_year": 2017,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_kir3",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "kir3"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5T70 | HLA-B*57:01 binding \"TSNLQEQIGW\" with KIR-3 NK receptor",
+    "pdb_code": "5t70",
+    "pdb_title": "Kir3dl1 in complex with hla-b*57:01 presenting TSNLQEQIGW",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "TSNLQEQIGW",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "TSNLQEQIGW"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "TSNLQEQIGW",
+    "publication": {
+        "abstract": "Major histocompatibility complex class I (MHC-I) molecules play a crucial role in immunity by capturing peptides for presentation to T cells and natural killer (NK) cells. The peptide termini are tethered within the MHC-I antigen-binding groove, but it is unknown whether other presentation modes occur. Here we show that 20% of the HLA-B*57:01 peptide repertoire comprises N-terminally extended sets characterized by a common motif at position 1 (P1) to P2. Structures of HLA-B*57:01 presenting N-terminally extended peptides, including the immunodominant HIV-1 Gag epitope TW10 (TSTLQEQIGW), showed that the N terminus protrudes from the peptide-binding groove. The common escape mutant TSNLQEQIGW bound HLA-B*57:01 canonically, adopting a dramatically different conformation than the TW10 peptide. This affected recognition by killer cell immunoglobulin-like receptor (KIR) 3DL1 expressed on NK cells. We thus define a previously uncharacterized feature of the human leukocyte antigen class I (HLA-I) immunopeptidome that has implications for viral immune escape. We further suggest that recognition of the HLA-B*57:01-TW10 epitope is governed by a 'molecular tension' between the adaptive and innate immune systems.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "P",
+                    "lastname": "Pymm",
+                    "name": "Pymm P"
+                },
+                {
+                    "initials": "PT",
+                    "lastname": "Illing",
+                    "name": "Illing PT"
+                },
+                {
+                    "initials": "SH",
+                    "lastname": "Ramarathinam",
+                    "name": "Ramarathinam SH"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "O'Connor",
+                    "name": "O'Connor GM"
+                },
+                {
+                    "initials": "VA",
+                    "lastname": "Hughes",
+                    "name": "Hughes VA"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Hitchen",
+                    "name": "Hitchen C"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Ho",
+                    "name": "Ho BK"
+                },
+                {
+                    "initials": "DW",
+                    "lastname": "McVicar",
+                    "name": "McVicar DW"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/nsmb.3381",
+                    "type": "doi"
+                },
+                {
+                    "id": "28218747",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Struct. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "MHC-I peptides get out of the groove and enable a novel mechanism of HIV-1 escape.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/nsmb.3381",
+            "volume": [
+                null
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5t70"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5t70"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:01 binding \"TSNLQEQIGW\" with KIR-3 NK receptor at 2.10&#8491; resolution",
+    "unique_chain_count": 4
+}

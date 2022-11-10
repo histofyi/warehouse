@@ -1,0 +1,178 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34091",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*68:01",
+            "slug": "hla_a_68_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1hsb_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:35:37.476672"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.94,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDRNTRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQMMYGCDVGSDGRFLRGYRQDAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQWRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPL"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AVA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1993-03-30",
+        "deposition_year": 1993,
+        "release_date": "1993-10-31",
+        "release_year": 1993,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1HSB | HLA-A*68:01 binding \"AVA\"",
+    "pdb_code": "1hsb",
+    "pdb_title": "Different length peptides bind to HLA-Aw68 similarly at their ends but bulge out in the middle.",
+    "peptide": {
+        "C": {
+            "actual_length": 3,
+            "actual_sequence": "AVA",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length",
+                "short_peptide"
+            ],
+            "full_length": 3,
+            "full_sequence": "AVA"
+        }
+    },
+    "peptide_length": 3,
+    "peptide_length_name": "trimer",
+    "peptide_sequence": "AVA",
+    "publication": {
+        "abstract": "We report here the determination and refinement to 1.9 A resolution by X-ray cryo-crystallography the structure of HLA-Aw68. The averaged image from the collection of bound, endogenous peptides clearly shows the atomic structure at the first three and last two amino acids in the peptides but no connected electron density in between. This suggests that bound peptides, held at both ends, take alternative pathways and could be of different lengths by bulging out in the middle. Peptides eluted from HLA-Aw68 include peptides of 9, 10 and 11 amino acids, a direct indication of the length heterogeneity of tightly bound peptides. Peptide sequencing shows relatively conserved 'anchor' residues at position 2 and the carboxy-terminal residue. Conserved binding sites for the peptide N and C termini at the ends of the class I major histocompatibility complex binding groove are apparently dominant in producing the long half-lives of peptide binding and the peptide-dependent stabilization of the class I molecule's structure.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "HC",
+                    "lastname": "Guo",
+                    "name": "Guo HC"
+                },
+                {
+                    "initials": "TS",
+                    "lastname": "Jardetzky",
+                    "name": "Jardetzky TS"
+                },
+                {
+                    "initials": "TP",
+                    "lastname": "Garrett",
+                    "name": "Garrett TP"
+                },
+                {
+                    "initials": "WS",
+                    "lastname": "Lane",
+                    "name": "Lane WS"
+                },
+                {
+                    "initials": "JL",
+                    "lastname": "Strominger",
+                    "name": "Strominger JL"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Wiley",
+                    "name": "Wiley DC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/360364a0",
+                    "type": "doi"
+                },
+                {
+                    "id": "1448153",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6402"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                "364-6"
+            ],
+            "title": "Different length peptides bind to HLA-Aw68 similarly at their ends but bulge out in the middle.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/360364a0",
+            "volume": [
+                "360"
+            ],
+            "year": [
+                1992
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1hsb"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1hsb"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*68:01 binding \"AVA\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,158 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6q3k_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:44:34.767935"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "AGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGCYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMCAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "NLVPMVATV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-12-04",
+        "deposition_year": 2018,
+        "release_date": "2019-07-24",
+        "release_year": 2019,
+        "revision_date": "2019-11-20",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6Q3K | HLA-A*02:01 binding \"NLVPMVATV\"",
+    "pdb_code": "6q3k",
+    "pdb_title": "Engineered Human HLA_A2MHC Class I molecule in complex with NV9 peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "NLVPMVATV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "NLVPMVATV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "NLVPMVATV",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Meijers, R."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Anjanappa, R."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Springer, S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Garcia-Alai, M."
+                }
+            ],
+            "identifier": [],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "-"
+            ],
+            "title": "Engineered Human HLA_A2MHC Class I molecule in complex with NV9 peptide",
+            "type": "article",
+            "url": "",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6q3k"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6q3k"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"NLVPMVATV\" at 1.50&#8491; resolution",
+    "unique_chain_count": 3
+}

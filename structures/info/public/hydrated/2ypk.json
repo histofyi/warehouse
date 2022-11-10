@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2ypk_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:47.612232"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KAFSPEVIPMF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-10-30",
+        "deposition_year": 2012,
+        "release_date": "2012-11-28",
+        "release_year": 2012,
+        "revision_date": "2013-01-16",
+        "revision_year": 2013
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2YPK | HLA-B*57:01 binding \"KAFSPEVIPMF\"",
+    "pdb_code": "2ypk",
+    "pdb_title": "Structural features underlying T-cell receptor sensitivity to concealed MHC class I micropolymorphisms.",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "KAFSPEVIPMF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "KAFSPEVIPMF"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "KAFSPEVIPMF",
+    "publication": {
+        "abstract": "Polymorphic differences distinguishing MHC class I subtypes often permit the presentation of shared epitopes in conformationally identical formats but can affect T-cell repertoire selection, differentially impacting autoimmune susceptibilities and viral clearance in vivo. The molecular mechanisms underlying this effect are not well understood. We performed structural, thermodynamic, and functional analyses of a conserved T-cell receptor (TCR) which is frequently expanded in response to a HIV-1 epitope when presented by HLA-B*5701 but is not selected by HLA-B*5703, which differs from HLA-B*5701 by two concealed polymorphisms. Our findings illustrate that although both HLA-B*57 subtypes display the epitope in structurally conserved formats, the impact of their polymorphic differences occurs directly as a consequence of TCR ligation, primarily because of peptide adjustments required for TCR binding, which involves the interplay of polymorphic residues and water molecules. These minor differences culminate in subtype-specific differential TCR-binding kinetics and cellular function. Our data demonstrate a potential mechanism whereby the most subtle MHC class I micropolymorphisms can influence TCR use and highlight their implications for disease outcomes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "GB",
+                    "lastname": "Stewart-Jones",
+                    "name": "Stewart-Jones GB"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Simpson",
+                    "name": "Simpson P"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "van der Merwe",
+                    "name": "van der Merwe PA"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Easterbrook",
+                    "name": "Easterbrook P"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "SL",
+                    "lastname": "Rowland-Jones",
+                    "name": "Rowland-Jones SL"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "Gillespie",
+                    "name": "Gillespie GM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1207896109",
+                    "type": "doi"
+                },
+                {
+                    "id": "23161907",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "50"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "E3483-92"
+            ],
+            "title": "Structural features underlying T-cell receptor sensitivity to concealed MHC class I micropolymorphisms.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1207896109",
+            "volume": [
+                "109"
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.95",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2ypk"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2ypk"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:01 binding \"KAFSPEVIPMF\" at 1.95&#8491; resolution",
+    "unique_chain_count": 3
+}

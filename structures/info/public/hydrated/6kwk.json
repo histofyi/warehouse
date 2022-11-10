@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:SLA08439",
+            "locus": "sla-1",
+            "match_type": "histo:exact",
+            "name": "SLA-1*04:01",
+            "slug": "sla_1_04_01",
+            "species_stem": "SLA"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6kwk_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:27:39.386740"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "FVARPPKVQVYSRHPAENGKPNYLNCYVSGFHPPQIEIDLLKNGEKMNAEQSDLSFSKDWSFYLLVHTEFTPNAVDQYSCRVKHVTLDKPKIVKWDRDH"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLSYFYTAVSRPDRGDSRFIAVGYVDDTQFVRFDNYAPNPRMEPRVPWIQQEGQEYWDRETRNVKETAQTYGVGLNTLRGYYNQSEAGSHTLQSMYGCYLGPDGLLLHGYRQDAYDGADYIALNEDLRSWTAADMAAQITKRKWEAADEAERRRSYLQGLCVESLRRYLEMGKDTLQRAEPPKTHVTRHPSSDLGVTLRCWALGFYPKEISLTWQREGQDQSQDMELVETRPSGDGTFQKWAALVVPPGEEQSYTCHVQHEGLQEPLTLRWD"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "MTAHITVPY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-09-07",
+        "deposition_year": 2019,
+        "release_date": "2020-09-09",
+        "release_year": 2020,
+        "revision_date": "2021-03-24",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "sla-1",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6KWK | SLA-1*04:01 binding \"MTAHITVPY\"",
+    "pdb_code": "6kwk",
+    "pdb_title": "Crystal structure of psla-1*0401 complex with fmdv-derived epitope MTAHITVPY",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "MTAHITVPY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MTAHITVPY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "MTAHITVPY",
+    "publication": {
+        "abstract": "The micropolymorphism of major histocompatibility complex class I (MHC-I) can greatly alter the plasticity of peptide presentation, but elucidating the underlying mechanism remains a challenge. Here we investigated the impact of the micropolymorphism on peptide presentation of swine MHC-I (termed swine leukocyte antigen class I, SLA-I) molecules <i>via</i> immunopeptidomes that were determined by our newly developed random peptide library combined with the mass spectrometry (MS) <i>de novo</i> sequencing method (termed RPLD-MS) and the corresponding crystal structures. The immunopeptidomes of SLA-1*04:01, SLA-1*13:01, and their mutants showed that mutations of residues 156 and 99 could expand and narrow the ranges of peptides presented by SLA-I molecules, respectively. R156A mutation of SLA-1*04:01 altered the charge properties and enlarged the volume size of pocket D, which eliminated the harsh restriction to accommodate the third (P3) anchor residue of the peptide and expanded the peptide binding scope. Compared with 99<sup>Tyr</sup> of SLA-1*0401, 99<sup>Phe</sup> of SLA-1*13:01 could not form a conservative hydrogen bond with the backbone of the P3 residues, leading to fewer changes in the pocket properties but a significant decrease in quantitative of immunopeptidomes. This absent force could be compensated by the salt bridge formed by P1-E and 170<sup>Arg</sup>. These data illustrate two distinguishing manners that show how micropolymorphism alters the peptide-binding plasticity of SLA-I alleles, verifying the sensitivity and accuracy of the RPLD-MS method for determining the peptide binding characteristics of MHC-I <i>in vitro</i> and helping to more accurately predict and identify MHC-I restricted epitopes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "X",
+                    "lastname": "Wei",
+                    "name": "Wei X"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Wang",
+                    "name": "Wang S"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Li",
+                    "name": "Li Z"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Li",
+                    "name": "Li Z"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Qu",
+                    "name": "Qu Z"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Wang",
+                    "name": "Wang S"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Zou",
+                    "name": "Zou B"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Liang",
+                    "name": "Liang R"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Xia",
+                    "name": "Xia C"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Zhang",
+                    "name": "Zhang N"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3389/fimmu.2021.592447",
+                    "type": "doi"
+                },
+                {
+                    "id": "33717070",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Front Immunol",
+                "name": ""
+            },
+            "pages": [
+                "592447"
+            ],
+            "title": "Peptidomes and Structures Illustrate Two Distinguishing Mechanisms of Alternating the Peptide Plasticity Caused by Swine MHC Class I Micropolymorphism.",
+            "type": "article",
+            "url": "https://www.frontiersin.org/articles/10.3389/fimmu.2021.592447/full",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6kwk"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6kwk"
+        }
+    },
+    "species": {
+        "common_name": "Feral Pig",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Sus scrofa",
+        "slug": "sus_scrofa"
+    },
+    "tcr": null,
+    "title": "SLA-1*04:01 binding \"MTAHITVPY\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,152 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA00230",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:09",
+            "slug": "hla_b_27_09",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3hcv_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:06.936785"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQHAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RRKWRRWHL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-05-06",
+        "deposition_year": 2009,
+        "release_date": "2009-06-09",
+        "release_year": 2009,
+        "revision_date": "2018-01-31",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3HCV | HLA-B*27:09 binding \"RRKWRRWHL\"",
+    "pdb_code": "3hcv",
+    "pdb_title": "Crystal structure of hla-b*2709 complexed with the double citrullinated vasoactive intestinal peptide type 1 receptor (vipr) peptide (residues 400-408)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RRKWXXWHL",
+            "chain_id": "C",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "RRKWRRWHL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RRKWRRWHL",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Beltrami, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Rossmann, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gabdulkhakov, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Ziegler, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Uchanska-Ziegler, B."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Saenger, W."
+                }
+            ],
+            "identifier": [],
+            "title": "Citrullination-and mhc polymorphism-dependent conformational changes of \na self peptide",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.95",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3hcv"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3hcv"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:09 binding \"RRKWRRWHL\" at 1.95&#8491; resolution",
+    "unique_chain_count": 3
+}

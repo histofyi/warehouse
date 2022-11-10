@@ -1,0 +1,179 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1q94_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:22.577617"
+        },
+        "2": {
+            "assembly_name": "1q94_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:44:22.988015"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AIFQSSMTK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2003-08-22",
+        "deposition_year": 2003,
+        "release_date": "2004-06-01",
+        "release_year": 2004,
+        "revision_date": "2020-02-05",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1Q94 | HLA-A*11:01 binding \"AIFQSSMTK\"",
+    "pdb_code": "1q94",
+    "pdb_title": "Structures of HLA-A*1101 complexed with immunodominant nonamer and decamer HIV-1 epitopes clearly reveal the presence of a middle, secondary anchor residue.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "AIFQSSMTK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "AIFQSSMTK"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "AIFQSSMTK",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "AIFQSSMTK"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "AIFQSSMTK",
+    "publication": {
+        "abstract": "HLA-A*1101 is one of the most common human class I alleles worldwide. An increased frequency of HLA-A*1101 has been observed in cohorts of female sex workers from Northern Thailand who are highly exposed to HIV-1 and yet have remained persistently seronegative. In view of this apparent association of HLA-A*1101 with resistance to acquisition of HIV-1 infection, and given the importance of eliciting strong CTL responses to control and eliminate HIV-1, we have determined the crystal structure of HLA-A*1101 complexed with two immunodominant HIV-1 CTL epitopes: the nonamer reverse transcriptase(313-321) (AIFQSSMTK) and decamer Nef(73-82) (QVPLRPMTYK) peptides. The structures confirm the presence of primary anchor residues P2-Ile/-Val and P9-/P10-Lys, and also clearly reveal the presence of secondary anchor residues P6-Ser for reverse transcriptase and P7-Met for Nef. The overall backbone conformation of both peptides is defined as two bulges that are separated by a more buried middle residue. In this study, we discuss how this topology may offer functional advantages in the selection and presentation of HIV-1 CTL epitopes by HLA-A*1101. Overall, this structural analysis permits a more accurate definition of the peptide-binding motif of HLA-A*1101, the characterization of its antigenic surface, and the correlation of molecular determinants with resistance to HIV-1 infection. These studies are relevant for the rational design of HLA-A*1101-restricted CTL epitopes with improved binding and immunological properties for the development of HIV-1 vaccines.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Li",
+                    "name": "Li L"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bouvier",
+                    "name": "Bouvier M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.172.10.6175",
+                    "type": "doi"
+                },
+                {
+                    "id": "15128805",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "6175-84"
+            ],
+            "title": "Structures of HLA-A*1101 complexed with immunodominant nonamer and decamer HIV-1 epitopes clearly reveal the presence of a middle, secondary anchor residue.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.172.10.6175",
+            "volume": [
+                "172"
+            ],
+            "year": [
+                2004
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1q94"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1q94"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"AIFQSSMTK\" at 2.40&#8491; resolution",
+    "unique_chain_count": 3
+}

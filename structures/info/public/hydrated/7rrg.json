@@ -1,0 +1,294 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34773",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*03:01",
+            "slug": "hla_a_03_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7rrg_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D_2",
+                "E_2"
+            ],
+            "downloaded_at": "2022-11-09T14:42:30.793127"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHEAEQLRAYLDGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ALHGGWTTK"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MLAKTTQPISMDSYEGQEVNITCSHNNIATNDYITWYQQFPSQGPRFIIQGYKTKVTNEVASLFIPADRKSSTLSLPRVSLSDTAVYYCLVGGAYTGGFKTIFGAGTRLFVKANIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV4"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAGVAQSPRYKIIEKRQSVAFWCNPISGHATLYWYQQILGQGPKLLIQFQNNGVVDDSQLPKDRFSAERLKGVDSTLKIQPAKLEDSAVYLCASSLVAETYEQYFGPGTRLTVTEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFFPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV11"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-08-09",
+        "deposition_year": 2021,
+        "release_date": "2022-03-23",
+        "release_year": 2022,
+        "revision_date": "2022-06-01",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7RRG | HLA-A*03:01 presenting \"ALHGGWTTK\" to Alpha/Beta T cell receptor",
+    "pdb_code": "7rrg",
+    "pdb_title": "Crystal structure of human 0606t1-2 TCR bound to hla-a*03:01 in complex with a mutant pik3ca peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ALHGGWTTK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ALHGGWTTK"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ALHGGWTTK",
+    "publication": {
+        "abstract": "Public neoantigens (NeoAgs) represent an elite class of shared cancer-specific epitopes derived from recurrently mutated driver genes. Here we describe a high-throughput platform combining single-cell transcriptomic and T cell receptor (TCR) sequencing to establish whether mutant PIK3CA, among the most frequently genomically altered driver oncogenes, generates an immunogenic public NeoAg. Using this strategy, we developed a panel of TCRs that recognize an endogenously processed neopeptide encompassing a common PIK3CA hotspot mutation restricted by the prevalent human leukocyte antigen (HLA)-A*03:01 allele. Mechanistically, immunogenicity to this public NeoAg arises from enhanced neopeptide/HLA complex stability caused by a preferred HLA anchor substitution. Structural studies indicated that the HLA-bound neopeptide presents a comparatively 'featureless' surface dominated by the peptide's backbone. To bind this epitope with high specificity and affinity, we discovered that a lead TCR clinical candidate engages the neopeptide through an extended interface facilitated by an unusually long CDR3\u03b2 loop. In patients with diverse malignancies, we observed NeoAg clonal conservation and spontaneous immunogenicity to the neoepitope. Finally, adoptive transfer of TCR-engineered T cells led to tumor regression in vivo in mice bearing PIK3CA-mutant tumors but not wild-type PIK3CA tumors. Together, these findings establish the immunogenicity and therapeutic potential of a mutant PIK3CA-derived public NeoAg.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Chandran, S.S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Ma, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Klatt, M.G."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Dundar, F."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Bandlamudi, C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Razavi, P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Wen, H.Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Weigelt, B."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Zumbo, P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Fu, S.N."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Banks, L.B."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Yi, F."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Vercher, E."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Etxeberria, I."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Bestman, W.D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Da Cruz Paula, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Aricescu, I.S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Drilon, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Betel, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Scheinberg, D.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Baker, B.M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Klebanoff, C.A."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41591-022-01786-3",
+                    "type": "doi"
+                },
+                {
+                    "id": "35484264",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "946-957"
+            ],
+            "title": "Immunogenicity and therapeutic targeting of a public neoantigen derived from mutated PIK3CA.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41591-022-01786-3",
+            "volume": [
+                "28"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.12",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7rrg"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7rrg"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=7rrg"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV4"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV11"
+        },
+        "pdb_code": "7rrg"
+    },
+    "title": "HLA-A*03:01 presenting \"ALHGGWTTK\" to Alpha/Beta T cell receptor at 2.12&#8491; resolution",
+    "unique_chain_count": 5
+}

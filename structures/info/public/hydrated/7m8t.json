@@ -1,0 +1,183 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7m8t_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:09.657290"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWELS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "NSASFSTFK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-03-30",
+        "deposition_year": 2021,
+        "release_date": "2021-06-23",
+        "release_year": 2021,
+        "revision_date": "2021-06-23",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7M8T | HLA-A*11:01 binding \"NSASFSTFK\"",
+    "pdb_code": "7m8t",
+    "pdb_title": "Crystal structure of hla-a*11:01 in complex with NSASFSTFK, an 9-mer epitope from sars-cov-2 spike (s370-378)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "NSASFSTFK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "NSASFSTFK"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "NSASFSTFK",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Nguyen, A.T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Szeto, C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Jayasinghe, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Lobos, C.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Halim, H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Chatzileontiadou, D.S.M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Grant, E.J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gras, S."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3390/biophysica1020015",
+                    "type": "doi"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "-"
+            ],
+            "title": "SARS-CoV-2 Spike-Derived Peptides Presented by HLA Molecules",
+            "type": "article",
+            "url": "https://www.mdpi.com/2673-4125/1/2/15",
+            "volume": [
+                "1"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7m8t"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7m8t"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"NSASFSTFK\" at 1.50&#8491; resolution",
+    "unique_chain_count": 3
+}

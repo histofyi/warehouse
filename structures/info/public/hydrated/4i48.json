@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34809",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*68:02",
+            "slug": "hla_a_68_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4i48_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:37:03.389675"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "GSHSMRYFYTSMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDRNTRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQRMYGCDVGPDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQWRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPLTLKW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "TLTSCNTSV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-11-27",
+        "deposition_year": 2012,
+        "release_date": "2013-10-02",
+        "release_year": 2013,
+        "revision_date": "2013-10-02",
+        "revision_year": 2013
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4I48 | HLA-A*68:02 binding \"TLTSCNTSV\"",
+    "pdb_code": "4i48",
+    "pdb_title": "Structure of hla-a68 complexed with an hiv env derived peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "TLTSCNTSV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "TLTSCNTSV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "TLTSCNTSV",
+    "publication": {
+        "abstract": "High polymorphism is one of the most important features of human leukocyte antigen (HLA) alleles, which were initially classified by serotyping but have recently been re-grouped into supertypes according to their peptide presentation properties. Two relatively prevalent HLA alleles HLA-A*6801 and HLA-A*6802, are classified into the same serotype HLA-A68. However, based on their distinct peptide-binding characteristics, HLA-A*6801 is grouped into A3 supertype, whereas HLA-A*6802 belongs to A2 supertype, similar to HLA-A*0201. Thusfar, the structural basis of the different supertype definitions of these serotyping-identical HLA alleles remains largely unknown. Herein, we determined the structures of HLA-A*6801 and HLA-A*6802 presenting three typical A3 and A2 supertype-restricted peptides, respectively. The binding capabilities of these peptides to HLA-A*6801, HLA-A*6802, and HLA-A*0201 were analyzed. These data indicate that the similar conformations of the residues within the F pocket contribute to close-related peptide binding features of HLA-A*6802 and HLA-A*0201. However, the overall structure and the peptide conformation of HLA-A*6802 are more similar to HLA-A*6801 rather than HLA-A*0201 which illuminates the similar serotype grouping of HLA-A*6802 and HLA-A*6801. Our findings are helpful for understanding the divergent peptide presentation and virus-specific CTL responses impacted by MHC micropolymorphisms and also elucidate the molecular basis of HLA supertype definitions.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Niu",
+                    "name": "Niu L"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Cheng",
+                    "name": "Cheng H"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Zhang",
+                    "name": "Zhang S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tan",
+                    "name": "Tan S"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Zhang",
+                    "name": "Zhang Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Liu",
+                    "name": "Liu J"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.molimm.2013.03.015",
+                    "type": "doi"
+                },
+                {
+                    "id": "23566939",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3-4"
+            ],
+            "journal": {
+                "iso_abbreviation": "Mol. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "381-92"
+            ],
+            "title": "Structural basis for the differential classification of HLA-A*6802 and HLA-A*6801 into the A2 and A3 supertypes.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0161589013001107",
+            "volume": [
+                "55"
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4i48"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4i48"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*68:02 binding \"TLTSCNTSV\" at 2.80&#8491; resolution",
+    "unique_chain_count": 3
+}

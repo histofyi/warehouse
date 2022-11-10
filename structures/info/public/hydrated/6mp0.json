@@ -1,0 +1,176 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6mp0_1",
+            "chains": [
+                "A"
+            ],
+            "downloaded_at": "2022-11-09T14:41:29.401220"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.76,
+            "sequence": "TAPDNLGYMGGGGSGGGGSGGGGSIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDMGGGGSGGGGSGGGGSGGGGSGPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGAYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEPAAAGGGLNDIFEAQKIEWHEHHHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-10-05",
+        "deposition_year": 2018,
+        "release_date": "2018-11-07",
+        "release_year": 2018,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "single_chain_class_i_construct",
+    "components": [
+        "class_i_alpha"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6MP0 | Single chain construct of H2-Db binding \"None\"",
+    "pdb_code": "6mp0",
+    "pdb_title": "Crystal structures of the murine Class I major histocompatibility complex h-2db in complex with the trp1-m9 peptide",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "T-cell priming occurs when a na\u00efve T cell recognizes cognate peptide-MHC complexes on an activated antigen-presenting cell. The circumstances of this initial priming have ramifications on the fate of the newly primed T cell. Newly primed CD8<sup>+</sup> T cells can embark onto different trajectories, with some becoming short-lived effector cells and others adopting a tissue resident or memory cell fate. To determine whether T-cell priming influences the quality of the effector T-cell response to tumors, we used transnuclear CD8<sup>+</sup> T cells that recognize the melanoma antigen TRP1 using TRP1<sup>high</sup> or TRP1<sup>low</sup> TCRs that differ in both affinity and fine specificity. From a series of altered peptide ligands, we identified a point mutation (K8) in a nonanchor residue that, when analyzed crystallographically and biophysically, destabilized the peptide interaction with the MHC binding groove. <i>In vitro</i>, the K8 peptide induced robust proliferation of both TRP1<sup>high</sup> and TRP1<sup>low</sup> CD8<sup>+</sup> T cells but did not induce expression of PD-1. Cytokine production from K8-stimulated TRP1 cells was minimal, whereas cytotoxicity was increased. Upon transfer into B16 tumor-bearing mice, the reference peptide (TRP1-M9)- and K8-stimulated TRP1 cells were equally effective at controlling tumor growth but accomplished this through different mechanisms. TRP1-M9-stimulated cells produced more IFN\u03b3, whereas K8-stimulated cells accumulated to higher numbers and were more cytotoxic. We, therefore, conclude that TCR recognition of weakly binding peptides during priming can skew the effector function of tumor-specific CD8<sup>+</sup> T cells.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "E",
+                    "lastname": "Clancy-Thompson",
+                    "name": "Clancy-Thompson E"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "Devlin",
+                    "name": "Devlin CA"
+                },
+                {
+                    "initials": "PM",
+                    "lastname": "Tyler",
+                    "name": "Tyler PM"
+                },
+                {
+                    "initials": "MM",
+                    "lastname": "Servos",
+                    "name": "Servos MM"
+                },
+                {
+                    "initials": "LR",
+                    "lastname": "Ali",
+                    "name": "Ali LR"
+                },
+                {
+                    "initials": "KS",
+                    "lastname": "Ventre",
+                    "name": "Ventre KS"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Bhuiyan",
+                    "name": "Bhuiyan MA"
+                },
+                {
+                    "initials": "PT",
+                    "lastname": "Bruck",
+                    "name": "Bruck PT"
+                },
+                {
+                    "initials": "ME",
+                    "lastname": "Birnbaum",
+                    "name": "Birnbaum ME"
+                },
+                {
+                    "initials": "SK",
+                    "lastname": "Dougan",
+                    "name": "Dougan SK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1158/2326-6066.CIR-18-0348",
+                    "type": "doi"
+                },
+                {
+                    "id": "30352798",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Cancer Immunol Res",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Altered binding of tumor antigenic peptides to MHC class I affects CD8 T cell effector responses.",
+            "type": "article",
+            "url": "https://aacrjournals.org/cancerimmunolres/article/6/12/1524/468917/Altered-Binding-of-Tumor-Antigenic-Peptides-to-MHC",
+            "volume": [
+                null
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6mp0"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6mp0"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Single chain construct of H2-Db binding \"None\" at 2.00&#8491; resolution",
+    "unique_chain_count": 1
+}

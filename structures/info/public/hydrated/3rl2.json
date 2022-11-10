@@ -1,0 +1,182 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34773",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*03:01",
+            "slug": "hla_a_03_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3rl2_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:52.127336"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHEAEQLRAYLDGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "QVPLRPMTYK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-04-19",
+        "deposition_year": 2011,
+        "release_date": "2012-02-29",
+        "release_year": 2012,
+        "revision_date": "2012-02-29",
+        "revision_year": 2012
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3RL2 | HLA-A*03:01 binding \"QVPLRPMTYK\"",
+    "pdb_code": "3rl2",
+    "pdb_title": "Hiv nef derived peptide nef73 complexed to hla-a*0301",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "QVPLRPMTYK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "QVPLRPMTYK"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "QVPLRPMTYK",
+    "publication": {
+        "abstract": "Human leukocyte antigens (HLA) are initially classified by serotyping but recently can be re-grouped by their peptide-presentation characteristics into supertypes. Both HLA-A*0301 and HLA-A*1101 are grouped into A3 supertype. Although a number of cross-presented T cell epitopes of HLA-A*0301 and HLA-A*1101 have been identified, the molecular mechanisms of cross-presentation remain elusive. Herein, the structures of HLA-A*0301 with two HIV-derived immunodominant T cell epitopes were solved and their characteristics in comparison with HLA-A*1101 presenting the same peptides were analyzed. The comparable structures of HLA-A*0301 and HLA-A*1101 with subtle differences illustrate the common modes of cross-presented peptides and the strict HLA-restriction of T cell receptor (TCR)-recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Zhang",
+                    "name": "Zhang S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Liu",
+                    "name": "Liu J"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Cheng",
+                    "name": "Cheng H"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tan",
+                    "name": "Tan S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Yan",
+                    "name": "Yan J"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.molimm.2011.08.015",
+                    "type": "doi"
+                },
+                {
+                    "id": "21943705",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1-2"
+            ],
+            "journal": {
+                "iso_abbreviation": "Mol. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "395-401"
+            ],
+            "title": "Structural basis of cross-allele presentation by HLA-A*0301 and HLA-A*1101 revealed by two HIV-derived peptide complexes.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0161589011007309",
+            "volume": [
+                "49"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.39",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3rl2"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3rl2"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*03:01 binding \"QVPLRPMTYK\" at 2.39&#8491; resolution",
+    "unique_chain_count": 3
+}

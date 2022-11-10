@@ -1,0 +1,192 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5enw_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:37:24.219636"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GLKEGIPAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-11-09",
+        "deposition_year": 2015,
+        "release_date": "2016-11-09",
+        "release_year": 2016,
+        "revision_date": "2018-05-09",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5ENW | HLA-A*02:01 binding \"GLKEGIPAL\"",
+    "pdb_code": "5enw",
+    "pdb_title": "Structure of hla-a2:01 with peptide g9l",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "GLKEGIPAL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GLKEGIPAL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GLKEGIPAL",
+    "publication": {
+        "abstract": "Peptide antigen presentation by major histocompatibility complex (MHC) class I proteins initiates CD8<sup>+</sup> T cell-mediated immunity against pathogens and cancers. MHC I molecules typically bind peptides with 9 amino acids in length with both ends tucked inside the major A and F binding pockets. It has been known for a while that longer peptides can also bind by either bulging out of the groove in the middle of the peptide or by binding in a zigzag fashion inside the groove. In a recent study, we identified an alternative binding conformation of naturally occurring peptides from <i>Toxoplasma gondii</i> bound by HLA-A*02:01. These peptides were extended at the C terminus (P\u03a9) and contained charged amino acids not more than 3 residues after the anchor amino acid at P\u03a9, which enabled them to open the F pocket and expose their C-terminal extension into the solvent. Here, we show that the mechanism of F pocket opening is dictated by the charge of the first charged amino acid found within the extension. Although positively charged amino acids result in the Tyr-84 swing, amino acids that are negatively charged induce a not previously described Lys-146 lift. Furthermore, we demonstrate that the peptides with alternative binding modes have properties that fit very poorly to the conventional MHC class I pathway and suggest they are presented via alternative means, potentially including cross-presentation via the MHC class II pathway.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SG",
+                    "lastname": "Remesh",
+                    "name": "Remesh SG"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Andreatta",
+                    "name": "Andreatta M"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Ying",
+                    "name": "Ying G"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Kaever",
+                    "name": "Kaever T"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Nielsen",
+                    "name": "Nielsen M"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "McMurtrey",
+                    "name": "McMurtrey C"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Hildebrand",
+                    "name": "Hildebrand W"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Peters",
+                    "name": "Peters B"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M117.776542",
+                    "type": "doi"
+                },
+                {
+                    "id": "28179428",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "13"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "5262-5270"
+            ],
+            "title": "Unconventional Peptide Presentation by Major Histocompatibility Complex (MHC) Class I Allele HLA-A*02:01: BREAKING CONFINEMENT.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820413389",
+            "volume": [
+                "292"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.85",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5enw"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5enw"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"GLKEGIPAL\" at 1.85&#8491; resolution",
+    "unique_chain_count": 3
+}

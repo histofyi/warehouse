@@ -1,0 +1,296 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5wxc_1",
+            "chains": [
+                "A",
+                "B",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:41:02.652350"
+        },
+        "2": {
+            "assembly_name": "5wxc_2",
+            "chains": [
+                "C",
+                "D",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:41:03.102248"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "AIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "E",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LYKKLKREMTF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-01-07",
+        "deposition_year": 2017,
+        "release_date": "2018-01-17",
+        "release_year": 2018,
+        "revision_date": "2019-07-31",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5WXC | HLA-A*24:02 binding \"LYKKLKREMTF\"",
+    "pdb_code": "5wxc",
+    "pdb_title": "Crystal structure of hla-a*2402 in complex with avian influenza a(h7n9) virus-derived peptide h7-25 (data set 2)",
+    "peptide": {
+        "E": {
+            "actual_length": 5,
+            "actual_sequence": "LYMTF",
+            "chain_id": "E",
+            "features": [
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 11,
+            "full_sequence": "LYKKLKREMTF",
+            "gap_ends_at": 9,
+            "gap_length": 6,
+            "gap_sequence": "KKLKRE",
+            "gap_start_after": 2,
+            "gapped_sequence": "LY------MTF"
+        },
+        "F": {
+            "actual_length": 7,
+            "actual_sequence": "LYKKMTF",
+            "chain_id": "F",
+            "features": [
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 11,
+            "full_sequence": "LYKKLKREMTF",
+            "gap_ends_at": 9,
+            "gap_length": 4,
+            "gap_sequence": "LKRE",
+            "gap_start_after": 4,
+            "gapped_sequence": "LYKK----MTF"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "LYKKLKREMTF",
+    "publication": {
+        "abstract": "The function of the mammalian orthoreovirus (reovirus) \u03c3NS nonstructural protein is enigmatic. \u03c3NS is an RNA-binding protein that forms oligomers and enhances the stability of bound RNAs, but the mechanisms by which it contributes to reovirus replication are unknown. To determine the function of \u03c3NS-RNA binding in reovirus replication, we engineered \u03c3NS mutants deficient in RNA-binding capacity. We found that alanine substitutions of positively charged residues in a predicted RNA-binding domain decrease RNA-dependent oligomerization. To define steps in reovirus replication facilitated by the RNA-binding property of \u03c3NS, we established a complementation system in which wild-type or mutant forms of \u03c3NS could be tested for the capacity to overcome inhibition of \u03c3NS expression. Mutations in \u03c3NS that disrupt RNA binding also diminish viral replication and \u03c3NS distribution to viral factories. Moreover, viral mRNAs only incorporate into viral factories or factory-like structures (formed following expression of nonstructural protein \u03bcNS) when \u03c3NS is present and capable of binding RNA. Collectively, these findings indicate that \u03c3NS requires positively charged residues in a putative RNA-binding domain to recruit viral mRNAs to sites of viral replication and establish a function for \u03c3NS in reovirus replication. <b>IMPORTANCE</b> Viral replication requires the formation of neoorganelles in infected cells to concentrate essential viral and host components. However, for many viruses, it is unclear how these components coalesce into neoorganelles to form factories for viral replication. We discovered that two mammalian reovirus nonstructural proteins act in concert to form functioning viral factories. Reovirus \u03bcNS proteins assemble into exclusive factory scaffolds that require reovirus \u03c3NS proteins for efficient viral mRNA incorporation. Our results demonstrate a role for \u03c3NS in RNA recruitment to reovirus factories and, more broadly, show how a cytoplasmic non-membrane-enclosed factory is formed by an RNA virus. Understanding the mechanisms of viral factory formation will help identify new targets for antiviral therapeutics that disrupt assembly of these structures and inform the use of nonpathogenic viruses for biotechnological applications.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Zhao",
+                    "name": "Zhao M"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Liu",
+                    "name": "Liu K"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Luo",
+                    "name": "Luo J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tan",
+                    "name": "Tan S"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Quan",
+                    "name": "Quan C"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Zhang",
+                    "name": "Zhang S"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chai",
+                    "name": "Chai Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Li",
+                    "name": "Li Y"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Bi",
+                    "name": "Bi Y"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Xiao",
+                    "name": "Xiao H"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Wong",
+                    "name": "Wong G"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Zhou",
+                    "name": "Zhou J"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Jiang",
+                    "name": "Jiang T"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Liu",
+                    "name": "Liu W"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Yu",
+                    "name": "Yu H"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Yan",
+                    "name": "Yan J"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Liu",
+                    "name": "Liu Y"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Shu",
+                    "name": "Shu Y"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Wu",
+                    "name": "Wu G"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Wu",
+                    "name": "Wu A"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "WJ",
+                    "lastname": "Liu",
+                    "name": "Liu WJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1128/mBio.01408-18",
+                    "type": "doi"
+                },
+                {
+                    "id": "30087171",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "MBio",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Heterosubtypic Protections against Human-Infecting Avian Influenza Viruses Correlate to Biased Cross-T-Cell Responses.",
+            "type": "article",
+            "url": "https://journals.asm.org/doi/10.1128/mBio.01408-18",
+            "volume": [
+                "9"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.29",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5wxc"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5wxc"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*24:02 binding \"LYKKLKREMTF\" at 2.29&#8491; resolution",
+    "unique_chain_count": 3
+}

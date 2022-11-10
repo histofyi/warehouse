@@ -1,0 +1,248 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1zhb_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:05.581983"
+        },
+        "2": {
+            "assembly_name": "1zhb_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:44:06.151938"
+        },
+        "3": {
+            "assembly_name": "1zhb_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:44:06.439855"
+        },
+        "4": {
+            "assembly_name": "1zhb_4",
+            "chains": [
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:44:07.164691"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F",
+                "I",
+                "L"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KALYNYAPI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-04-25",
+        "deposition_year": 2005,
+        "release_date": "2005-06-14",
+        "release_year": 2005,
+        "revision_date": "2017-11-29",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1ZHB | H2-Db binding \"KALYNYAPI\"",
+    "pdb_code": "1zhb",
+    "pdb_title": "Crystal structure of the murine Class I major histocompatibility complex of h-2db, b2-microglobulin, and a 9-residue peptide derived from rat dopamine beta-monooxigenase",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "KALYNYAPI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KALYNYAPI"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "KALYNYAPI",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KALYNYAPI"
+        },
+        "I": {
+            "actual_length": 9,
+            "actual_sequence": "KALYNYAPI",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KALYNYAPI"
+        },
+        "L": {
+            "actual_length": 9,
+            "actual_sequence": "KALYNYAPI",
+            "chain_id": "L",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KALYNYAPI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KALYNYAPI",
+    "publication": {
+        "abstract": "Molecular mimicry of self-epitopes by viral antigens is one possible pathogenic mechanism underlying induction of autoimmunity. A self-epitope, mDBM, derived from mouse dopamine beta-mono-oxygenase (KALYDYAPI) sharing 44% sequence identity with the lymphocytic choriomeningitis virus-derived immunodominant epitope gp33 (KAVYNFATC/M), has previously been identified as a cross-reactive self-ligand, presentation of which results in autoimmunity. A rat peptide homologue, rDBM (KALYNYAPI, 56% identity to gp33), which displayed similar properties to mDBM, has also been identified. We herein report the crystal structure of H-2Db.rDBM and a comparison with the crystal structures of the cross-reactive H-2Db.gp33 and non-cross-reactive H-2Db.gp33 (V3L) escape variant (KALYNFATM, 88% identity to gp33). Despite the large sequence disparity, rDBM and gp33 peptides are presented in nearly identical manners by H-2Db, with a striking juxtaposition of the central sections of both peptides from residues p3 to p7. The structural similarity provides H-2Db in complex with either a virus-derived or a dopamine beta-mono-oxygenase-derived peptide with a shared antigenic identity that conserves the positioning of the heavy chain and peptide residues that interact with the T cell receptor (TCR). This stands in contrast to the structure of H-2Db.gp33 (V3L), in which a single conserved mutation, also present in rDBM, induces large movements of both the peptide backbone and the side chains that interact with the TCR. The TCR-interacting surfaces of the H-2Db.rDBM and H-2Db.gp33 major histocompatibility complexes are very similar with regard to shape, topology, and charge distribution, providing a structural basis for CD8 T cell activation by molecular mimicry and potential subsequent development of autoreactivity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "T",
+                    "lastname": "Sandalova",
+                    "name": "Sandalova T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Micha\ufffd\ufffdlsson",
+                    "name": "Micha\ufffd\ufffdlsson J"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Harris",
+                    "name": "Harris RA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Odeberg",
+                    "name": "Odeberg J"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Schneider",
+                    "name": "Schneider G"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "K\ufffd\ufffdrre",
+                    "name": "K\ufffd\ufffdrre K"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Achour",
+                    "name": "Achour A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m500927200",
+                    "type": "doi"
+                },
+                {
+                    "id": "15845547",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "29"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "27069-75"
+            ],
+            "title": "A structural basis for CD8+ T cell-dependent recognition of non-homologous peptide ligands: implications for molecular mimicry in autoreactivity.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820567288",
+            "volume": [
+                "280"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1zhb"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1zhb"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"KALYNYAPI\" at 2.70&#8491; resolution",
+    "unique_chain_count": 3
+}

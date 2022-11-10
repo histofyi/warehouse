@@ -1,0 +1,233 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5l2k_1",
+            "chains": [
+                "A",
+                "B",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:30:36.563884"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRD"
+        },
+        "cd1b": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "HAFQGPTSFHVIQTSSFTNSTWAQTQGSGWLDDLQIHGWDSDSGTAIFLKPWSKGNFSDKEVAELEEIFRVYIFGFAREVQDFAGDFQMKYPFEIQGIAGCELHSGGAIVSFLRGALGGLDFLSVKNASCVPSPEGGSRAQKFCALIIQYQGIMETVRALLYETCPRYLLGVLNAGKADLQRQVKPEAWLSSGPSPGPGRLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQLGDILPNANWTWYLRATLDVADGEAAGLSCRVKHSSLEGQDIILYWRGSGLNDIFEAQKIEWHEHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVRNTGGFKTIFGAGTRLFVKANIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "NAGVTQTPKFRVLKTGQSMTLLCAQDMNHEYMYWYRQDPGMGLRLIHYSVGEGTTAKGEVPDGYNVSRLKKQNFLLGLESAAPSQTSVYFCASSPRLAGDEQFFGPGTRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-08-02",
+        "deposition_year": 2016,
+        "release_date": "2016-11-16",
+        "release_year": 2016,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1b_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1b",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5L2K | Non-classical MHC Class I molecule CD1b with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "5l2k",
+    "pdb_title": "Crystal structure of gem42 TCR-CD1b-gmm complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "CD1 proteins present microbial lipids to T cells. Germline-encoded mycolyl lipid-reactive (GEM) T cells with conserved \u03b1\u03b2 T cell receptors (TCRs) recognize CD1b presenting mycobacterial mycolates. As the molecular basis underpinning TCR recognition of CD1b remains unknown, here we determine the structure of a GEM TCR bound to CD1b presenting glucose-6-O-monomycolate (GMM). The GEM TCR docks centrally above CD1b, whereby the conserved TCR \u03b1-chain extensively contacts CD1b and GMM. Through mutagenesis and study of T cells from tuberculosis patients, we identify a consensus CD1b footprint of TCRs present among GEM T cells. Using both the TCR \u03b1- and \u03b2-chains as tweezers to surround and grip the glucose moiety of GMM, GEM TCRs create a highly specific mechanism for recognizing this mycobacterial glycolipid.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Van Rhijn",
+                    "name": "Van Rhijn I"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Shahine",
+                    "name": "Shahine A"
+                },
+                {
+                    "initials": "TY",
+                    "lastname": "Cheng",
+                    "name": "Cheng TY"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bhati",
+                    "name": "Bhati M"
+                },
+                {
+                    "initials": "LL",
+                    "lastname": "Tan",
+                    "name": "Tan LL"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Halim",
+                    "name": "Halim H"
+                },
+                {
+                    "initials": "KD",
+                    "lastname": "Tuttle",
+                    "name": "Tuttle KD"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Gapin",
+                    "name": "Gapin L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "DB",
+                    "lastname": "Moody",
+                    "name": "Moody DB"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ncomms13257",
+                    "type": "doi"
+                },
+                {
+                    "id": "27807341",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "13257"
+            ],
+            "title": "T cell receptor recognition of CD1b presenting a mycobacterial glycolipid.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ncomms13257",
+            "volume": [
+                "7"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5l2k"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5l2k"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5l2k"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "5l2k"
+    },
+    "title": "Non-classical MHC Class I molecule CD1b with Natural Killer Alpha/Beta T cell receptor at 3.20&#8491; resolution",
+    "unique_chain_count": 4
+}

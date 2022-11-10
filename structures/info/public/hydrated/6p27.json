@@ -1,0 +1,162 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34671",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*08:01",
+            "slug": "hla_b_08_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6p27_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:25.169697"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFDTAMSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIFKTNTQTDRCSLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARVAEQDRAYLEGTCVEWLRRYLENGKDTLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RARAAAKKKYCL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-05-21",
+        "deposition_year": 2019,
+        "release_date": "2019-10-16",
+        "release_year": 2019,
+        "revision_date": "2019-12-18",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6P27 | HLA-B*08:01 binding \"RARAAAKKKYCL\"",
+    "pdb_code": "6p27",
+    "pdb_title": "Structure of a nested set of n-terminally extended MHC i-peptides provides novel insights into antigen processing and presentation",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "AAAKKKYCL",
+            "chain_id": "C",
+            "features": [
+                "missing_start"
+            ],
+            "full_length": 12,
+            "full_sequence": "RARAAAKKKYCL"
+        }
+    },
+    "peptide_length": 12,
+    "peptide_length_name": "dodecamer",
+    "peptide_sequence": "RARAAAKKKYCL",
+    "publication": {
+        "abstract": "Endoplasmic reticulum aminopeptidase 1 (ERAP1) and ERAP2 critically shape the major histocompatibility complex I (MHC I) immunopeptidome. The ERAPs remove N-terminal residues from antigenic precursor peptides and generate optimal-length peptides (<i>i.e.</i> 8-10-mers) to fit into the MHC class I groove. It is therefore intriguing that MHC class I molecules can present N-terminally extended peptides on the cell surface that can elicit CD8+ T-cell responses. This observation likely reflects gaps in our understanding of how antigens are processed by the ERAP enzymes. To better understand ERAPs' function in antigen processing, here we generated a nested set of N-terminally extended 10-20-mer peptides (RA) <i><sub>n</sub></i> AAKKKYCL covalently bound to the human leukocyte antigen (HLA)-B*0801. We used X-ray crystallography, thermostability assessments, and an ERAP1-trimming assay to characterize these complexes. The X-ray structures determined at 1.40-1.65 \u00c5 resolutions revealed that the residue extensions (RA) <i><sub>n</sub></i> unexpectedly protrude out of the A pocket of HLA-B*0801, whereas the AAKKKYCL core of all peptides adopts similar, bound conformations. HLA-B*0801 residue 62 was critical to open the A pocket. We also show that HLA-B*0801 and antigenic precursor peptides form stable complexes. Finally, ERAP1-mediated trimming of the MHC I-bound peptides required a minimal length of 14 amino acids. We propose a mechanistic model explaining how ERAP1-mediated trimming of MHC I-bound peptides in cells can generate peptides of canonical as well as noncanonical lengths that still serve as stable MHC I ligands. Our results provide a framework to better understand how the ERAP enzymes influence the MHC I immunopeptidome.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Li",
+                    "name": "Li L"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Batliwala",
+                    "name": "Batliwala M"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bouvier",
+                    "name": "Bouvier M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.ra119.010102",
+                    "type": "doi"
+                },
+                {
+                    "id": "31601650",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "ERAP1 enzyme-mediated trimming and structural analyses of MHC I--bound precursor peptides yield novel insights into antigen processing and presentation.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820304087",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.59",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6p27"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6p27"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*08:01 binding \"RARAAAKKKYCL\" at 1.59&#8491; resolution",
+    "unique_chain_count": 3
+}

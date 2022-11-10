@@ -1,0 +1,204 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34359",
+            "locus": "hla-g",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-G*01:01",
+            "slug": "hla_g_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3kyo_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:44:58.029976"
+        },
+        "2": {
+            "assembly_name": "3kyo_2",
+            "chains": [
+                "C",
+                "D",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:44:58.470797"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "SHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSASPRMEPRAPWVEQEGPEYWEEETRNTKAHAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLGSDGRLIRGYERYAYDGKDYLALNEDLRSWTAADTAAQISKRKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRADPPKTHVTHHPVFDYEATLRCWALGFYPAEIILTWQRDGEDQTQDVELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLMLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KLPAQFYIL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-12-06",
+        "deposition_year": 2009,
+        "release_date": "2010-02-23",
+        "release_year": 2010,
+        "revision_date": "2021-11-10",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-g",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3KYO | HLA-G*01:01 binding \"KLPAQFYIL\"",
+    "pdb_code": "3kyo",
+    "pdb_title": "Crystal structure of hla-g presenting KLPAQFYIL peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "KLPAQFYIL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KLPAQFYIL"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "KLPAQFYIL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KLPAQFYIL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KLPAQFYIL",
+    "publication": {
+        "abstract": "The highly polymorphic major histocompatibility complex class Ia (MHC-Ia) molecules present a broad array of peptides to the clonotypically diverse alphabeta T-cell receptors. In contrast, MHC-Ib molecules exhibit limited polymorphism and bind a more restricted peptide repertoire, in keeping with their major role in innate immunity. Nevertheless, some MHC-Ib molecules do play a role in adaptive immunity. While human leukocyte antigen E (HLA-E), the MHC-Ib molecule, binds a very restricted repertoire of peptides, the peptide binding preferences of HLA-G, the class Ib molecule, are less stringent, although the basis by which HLA-G can bind various peptides is unclear. To investigate how HLA-G can accommodate different peptides, we compared the structure of HLA-G bound to three naturally abundant self-peptides (RIIPRHLQL, KGPPAALTL and KLPQAFYIL) and their thermal stabilities. The conformation of HLA-G(KGPPAALTL) was very similar to that of the HLA-G(RIIPRHLQL) structure. However, the structure of HLA-G(KLPQAFYIL) not only differed in the conformation of the bound peptide but also caused a small shift in the alpha2 helix of HLA-G. Furthermore, the relative stability of HLA-G was observed to be dependent on the nature of the bound peptide. These peptide-dependent effects on the substructure of the monomorphic HLA-G are likely to impact on its recognition by receptors of both innate and adaptive immune systems.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "NG",
+                    "lastname": "Walpole",
+                    "name": "Walpole NG"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kostenko",
+                    "name": "Kostenko L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "CS",
+                    "lastname": "Clements",
+                    "name": "Clements CS"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jmb.2010.01.052",
+                    "type": "doi"
+                },
+                {
+                    "id": "20122941",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "467-80"
+            ],
+            "title": "The structure and stability of the monomorphic HLA-G are influenced by the nature of the bound peptide.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283610001075",
+            "volume": [
+                "397"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3kyo"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3kyo"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-G*01:01 binding \"KLPAQFYIL\" at 1.70&#8491; resolution",
+    "unique_chain_count": 3
+}

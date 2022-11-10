@@ -1,0 +1,271 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34760",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*53:01",
+            "slug": "hla_b_53_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6fgb_1",
+            "chains": [
+                "A",
+                "B",
+                "L",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:43:29.943277"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "ab_heavy": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Hchain",
+            "sequence": "EVPLVESGGGLVQPGGSLRLSCAVSGFTFSNYGMVWVRQAPGKGLEWVAYIDSDGDNTYYRDSVKGRFTISRDNAKSSLYLQMNSLRAEDTAVYYCTTGIVRPFLYWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTHTCAA"
+        },
+        "ab_light": {
+            "chains": [
+                "L"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Lchain",
+            "sequence": "DIQMTQSPSSLSASVGDRVTITCKSSQSLVGASGKTYLYWLFQKPGKAPKRLIYLVSTLDSGIPSRFSGSGSGTEFTLTISSLQPEDFATYYCLQGTHFPHTFGQGTKLEIKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+        },
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "fcrn": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "AESHLSLLYHLTAVSSPAPGTPAFWVSGWLGPQQYLSYNSLRGEAEPCGAWVWENQVSWYWEKETTDLRIKEKLFLEAFKALGGKGPYTLQGLLGCELGPDNTSVPTAKFALNGEEFMNFDLKQGTWGGDWPEALAISQRWQQQDKAANKELTFLLFSCPHRLREHLERGRGNLEWKEPPSMRLKARPSSPGFSVLTCSAFSFYPPELQLRFLRNGLAAGTGQGDFGPNSDGSFHASSSLTVKSGDEHHYCCIVQHAGLAQPLRVELESPAKSSVLVVGIVIGVLLLTAAAVGGALLWRRMRSGLPAPWISLRGDDTGVLLPTPGEAQDADLKDVNVIPATA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-01-10",
+        "deposition_year": 2018,
+        "release_date": "2018-08-29",
+        "release_year": 2018,
+        "revision_date": "2018-10-03",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "fcrn_with_antibody",
+    "components": [
+        "fcrn",
+        "beta2m",
+        "ab_light",
+        "ab_heavy"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6FGB | Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with antibody",
+    "pdb_code": "6fgb",
+    "pdb_title": "Human fcrn extra-cellular domain complexed with fab fragment of rozanolixizumab",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Rozanolixizumab (UCB7665), a humanized high-affinity anti-human neonatal Fc receptor (FcRn) monoclonal antibody (IgG4P), has been developed to reduce pathogenic IgG in autoimmune and alloimmune diseases. We document the antibody isolation and compare rozanolixizumab with the same variable region expressed in various mono-, bi- and trivalent formats. We report activity data for rozanolixizumab and the different molecular formats in human cells, FcRn-transgenic mice, and cynomolgus monkeys. Rozanolixizumab, considered the most effective molecular format, dose-dependently and selectively reduced plasma IgG concentrations in an FcRn-transgenic mouse model (no effect on albumin). Intravenous (IV) rozanolixizumab dosing in cynomolgus monkeys demonstrated non-linear pharmacokinetics indicative of target-mediated drug disposition; single IV rozanolixizumab doses (30\u00a0mg/kg) in cynomolgus monkeys reduced plasma IgG concentration by 69% by Day 7 post-administration. Daily IV administration of rozanolixizumab (initial 30\u00a0mg/kg loading dose; 5\u00a0mg/kg daily thereafter) reduced plasma IgG concentrations in all cynomolgus monkeys, with low concentrations maintained throughout the treatment period (42\u00a0days). In a 13-week toxicology study in cynomolgus monkeys, supra-pharmacological subcutaneous and IV doses of rozanolixizumab (\u2264\u00a0150\u00a0mg/kg every 3\u00a0days) were well tolerated, inducing sustained (but reversible) reductions in IgG concentrations by up to 85%, with no adverse events observed. We have demonstrated accelerated natural catabolism of IgG through inhibition of IgG:FcRn interactions in mice and cynomolgus monkeys. Inhibition of FcRn with rozanolixizumab may provide a novel therapeutic approach to reduce pathogenic IgG in human autoimmune disease. Rozanolixizumab is being investigated in patients with immune thrombocytopenia (NCT02718716) and myasthenia gravis (NCT03052751).",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "B",
+                    "lastname": "Smith",
+                    "name": "Smith B"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Kiessling",
+                    "name": "Kiessling A"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Lledo-Garcia",
+                    "name": "Lledo-Garcia R"
+                },
+                {
+                    "initials": "KL",
+                    "lastname": "Dixon",
+                    "name": "Dixon KL"
+                },
+                {
+                    "initials": "MC",
+                    "lastname": "Catley",
+                    "name": "Catley MC"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Atherfold",
+                    "name": "Atherfold P"
+                },
+                {
+                    "initials": "LE",
+                    "lastname": "D'Hooghe",
+                    "name": "D'Hooghe LE"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Finney",
+                    "name": "Finney H"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Greenslade",
+                    "name": "Greenslade K"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Hailu",
+                    "name": "Hailu H"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kevorkian",
+                    "name": "Kevorkian L"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Lightwood",
+                    "name": "Lightwood D"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Meier",
+                    "name": "Meier C"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Munro",
+                    "name": "Munro R"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Qureshi",
+                    "name": "Qureshi O"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Sarkar",
+                    "name": "Sarkar K"
+                },
+                {
+                    "initials": "SP",
+                    "lastname": "Shaw",
+                    "name": "Shaw SP"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Tewari",
+                    "name": "Tewari R"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Turner",
+                    "name": "Turner A"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Tyson",
+                    "name": "Tyson K"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "West",
+                    "name": "West S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Shaw",
+                    "name": "Shaw S"
+                },
+                {
+                    "initials": "FR",
+                    "lastname": "Brennan",
+                    "name": "Brennan FR"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1080/19420862.2018.1505464",
+                    "type": "doi"
+                },
+                {
+                    "id": "30130439",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "MAbs",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Generation and characterization of a high affinity anti-human FcRn antibody, rozanolixizumab, and the effects of different molecular formats on the reduction of plasma IgG concentration.",
+            "type": "article",
+            "url": "https://www.tandfonline.com/doi/full/10.1080/19420862.2018.1505464",
+            "volume": [
+                null
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6fgb"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6fgb"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with antibody at 2.90&#8491; resolution",
+    "unique_chain_count": 4
+}

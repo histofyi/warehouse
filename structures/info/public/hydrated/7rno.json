@@ -1,0 +1,191 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7rno_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:40:51.308141"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRPPKIQVYSRHPPEDGKPNYLNCYVYGFHPPQIEIDLLKNGEKIKSEQSDLSFSKDWSFYLLSHAEFTPNSKDQYSCRVKHVTLEQPRIVKWDRDL"
+        },
+        "mr1": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPKVRVNHKETFPGITTLYCRAYGFYPPEISINWMKNGEEIFQDTDYGGILPSGDGTYQTWVSVELDPQNGDIYSCHVEHGGVHMVLQGF"
+        },
+        "tapbpr": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "KPHPAEGQWRAVDVVLDCFLVKDGAHRGAXASSEDRARASLVLKQVPVLDDGSLEDFTDFQGGTLAQDDPPIIFEASVDLVQIPQAEALLHADCSGKEVTCEISRYFLQMTETTVKTAAWFMANVQVSGGGPSISLVMKTPRVAKNEVLWHPTLNLPLSPQGTVRTAVEFQVMTQTQSLSFLLGSSASLDCGFSMAPGLDLISVEWRLQHKGRGQLVYSWTAGQGQAVRKGATLEPAQLGMARDASLTLPGLTIQDEGTYICQITTSLYRAQQIIQLNIQASPKVRLSLANEALLPTLICDIAGYYPLDVVVTWTREELGGSPAQVSGASFSSLRQSVAGTYSISSSLTAEPGSAGATYTCQVTHISLEEPLGASTQVVPPERRLEGGLEVLFQGP"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-07-29",
+        "deposition_year": 2021,
+        "release_date": "2022-05-11",
+        "release_year": 2022,
+        "revision_date": "2022-08-10",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_tapbpr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tapbpr"
+    ],
+    "experimental_method": "Solution NMR",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7RNO | Non-classical MHC Class I molecule MR1 with peptide editor TAPBPR",
+    "pdb_code": "7rno",
+    "pdb_title": "Model of the ac-6-fp/hpMR1/bb2m/tapbpr complex from integrated docking, nmr and restrained md",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Chaperones tapasin and transporter associated with antigen processing (TAP)-binding protein related (TAPBPR) associate with the major histocompatibility complex (MHC)-related protein 1 (MR1) to promote trafficking and cell surface expression. However, the binding mechanism and ligand dependency of MR1/chaperone interactions remain incompletely characterized. Here in vitro, biochemical and computational studies reveal that, unlike MHC-I, TAPBPR recognizes MR1 in a ligand-independent manner owing to the absence of major structural changes in the MR1 \u03b1<sub>2-1</sub> helix between empty and ligand-loaded molecules. Structural characterization using paramagnetic nuclear magnetic resonance experiments combined with restrained molecular dynamics simulations reveals that TAPBPR engages conserved surfaces on MR1 to induce similar adaptations to those seen in MHC-I/TAPBPR co-crystal structures. Finally, nuclear magnetic resonance relaxation dispersion experiments using <sup>19</sup>F-labeled diclofenac show that TAPBPR can affect the exchange kinetics of noncovalent metabolites with the MR1 groove, serving as a catalyst. Our results support a role of chaperones in stabilizing nascent MR1 molecules to enable loading of endogenous or exogenous cargo.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AC",
+                    "lastname": "McShan",
+                    "name": "McShan AC"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "Devlin",
+                    "name": "Devlin CA"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Papadaki",
+                    "name": "Papadaki GF"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Sun",
+                    "name": "Sun Y"
+                },
+                {
+                    "initials": "AI",
+                    "lastname": "Green",
+                    "name": "Green AI"
+                },
+                {
+                    "initials": "GI",
+                    "lastname": "Morozov",
+                    "name": "Morozov GI"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "Burslem",
+                    "name": "Burslem GM"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Procko",
+                    "name": "Procko E"
+                },
+                {
+                    "initials": "NG",
+                    "lastname": "Sgourakis",
+                    "name": "Sgourakis NG"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41589-022-01049-9",
+                    "type": "doi"
+                },
+                {
+                    "id": "35725941",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Chem Biol",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "TAPBPR employs a ligand-independent docking mechanism to chaperone MR1 molecules.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41589-022-01049-9",
+            "volume": [
+                null
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": null,
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7rno"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7rno"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule MR1 with peptide editor TAPBPR",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,265 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4pj5_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:34:41.926193"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVKDSNYQLIWGAGTKLIIKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSVWTGEGSGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-05-12",
+        "deposition_year": 2014,
+        "release_date": "2014-07-02",
+        "release_year": 2014,
+        "revision_date": "2014-10-01",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4PJ5 | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "4pj5",
+    "pdb_title": "Structure of human MR1-ac-6-fp in complex with human MAIT trbv6-1 TCR",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Mucosal-associated invariant T (MAIT) cells express an invariant T cell receptor (TCR) \u03b1-chain (TRAV1-2 joined to TRAJ33, TRAJ20, or TRAJ12 in humans), which pairs with an array of TCR \u03b2-chains. MAIT TCRs can bind folate- and riboflavin-based metabolites restricted by the major histocompatibility complex (MHC)-related class I-like molecule, MR1. However, the impact of MAIT TCR and MR1-ligand heterogeneity on MAIT cell biology is unclear. We show how a previously uncharacterized MR1 ligand, acetyl-6-formylpterin (Ac-6-FP), markedly stabilized MR1, potently up-regulated MR1 cell surface expression, and inhibited MAIT cell activation. These enhanced properties of Ac-6-FP were attributable to structural alterations in MR1 that subsequently affected MAIT TCR recognition via conformational changes within the complementarity-determining region (CDR) 3\u03b2 loop. Analysis of seven TRBV6-1(+) MAIT TCRs demonstrated how CDR3\u03b2 hypervariability impacted on MAIT TCR recognition by altering TCR flexibility and contacts with MR1 and the Ag itself. Ternary structures of TRBV6-1, TRBV6-4, and TRBV20(+) MAIT TCRs in complex with MR1 bound to a potent riboflavin-based antigen (Ag) showed how variations in TRBV gene usage exclusively impacted on MR1 contacts within a consensus MAIT TCR-MR1 footprint. Moreover, differential TRAJ gene usage was readily accommodated within a conserved MAIT TCR-MR1-Ag docking mode. Collectively, MAIT TCR heterogeneity can fine-tune MR1 recognition in an Ag-dependent manner, thereby modulating MAIT cell recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SB",
+                    "lastname": "Eckle",
+                    "name": "Eckle SB"
+                },
+                {
+                    "initials": "RW",
+                    "lastname": "Birkinshaw",
+                    "name": "Birkinshaw RW"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kostenko",
+                    "name": "Kostenko L"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Corbett",
+                    "name": "Corbett AJ"
+                },
+                {
+                    "initials": "HE",
+                    "lastname": "McWilliam",
+                    "name": "McWilliam HE"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Reantragoon",
+                    "name": "Reantragoon R"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Gherardin",
+                    "name": "Gherardin NA"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Beddoe",
+                    "name": "Beddoe T"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Liu",
+                    "name": "Liu L"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Patel",
+                    "name": "Patel O"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Meehan",
+                    "name": "Meehan B"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Fairlie",
+                    "name": "Fairlie DP"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Villadangos",
+                    "name": "Villadangos JA"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20140484",
+                    "type": "doi"
+                },
+                {
+                    "id": "25049336",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "1585-600"
+            ],
+            "title": "A molecular basis underpinning the T cell receptor heterogeneity of mucosal-associated invariant T cells.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/211/8/1585/41722/A-molecular-basis-underpinning-the-T-cell-receptor",
+            "volume": [
+                "211"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4pj5"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4pj5"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4pj5"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "4pj5"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 2.00&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,224 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4f7t_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:45:34.482096"
+        },
+        "2": {
+            "assembly_name": "4f7t_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:45:34.920706"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MGSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RYGFVANF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-05-16",
+        "deposition_year": 2012,
+        "release_date": "2012-10-10",
+        "release_year": 2012,
+        "revision_date": "2012-12-05",
+        "revision_year": 2012
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4F7T | HLA-A*24:02 binding \"RYGFVANF\"",
+    "pdb_code": "4f7t",
+    "pdb_title": "Crystal structure of hla-a*2402 complexed with a newly identified peptide from 2009 h1n1 pb1 (498-505)",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "RYGFVANF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RYGFVANF"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "RYGFVANF",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RYGFVANF"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RYGFVANF",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Liu",
+                    "name": "Liu J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Zhang",
+                    "name": "Zhang S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tan",
+                    "name": "Tan S"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Yi",
+                    "name": "Yi Y"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Wu",
+                    "name": "Wu B"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Cao",
+                    "name": "Cao B"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Zhu",
+                    "name": "Zhu F"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Wang",
+                    "name": "Wang C"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Wang",
+                    "name": "Wang H"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1128/jvi.01841-12",
+                    "type": "doi"
+                },
+                {
+                    "id": "23015716",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Virol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Cross-allele CTL responses against 2009 pandemic H1N1 influenza A virus among HLA-A24 and HLA-A3 supertype-positive individuals.",
+            "type": "article",
+            "url": "https://journals.asm.org/doi/10.1128/JVI.01841-12",
+            "volume": [
+                null
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4f7t"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4f7t"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*24:02 binding \"RYGFVANF\" at 1.70&#8491; resolution",
+    "unique_chain_count": 3
+}

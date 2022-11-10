@@ -1,0 +1,207 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4wuu_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:34:25.308353"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "ab_heavy": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Hchain",
+            "sequence": "QMQLVQSGAEVKEPGESLRISCKGSGYSFTNFWISWVRQMPGKGLEWMGRVDPGYSYSTYSPSFQGHVTISADKSTSTAYLQWNSLKASDTAMYYCARVQYSGYYDWFDPWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKS"
+        },
+        "ab_light": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Lchain",
+            "sequence": "QAVVTQPPSASGTPGQRVTISCSGSSSNIGSNTVNWYQQVPGTAPKLLIYSNNQRPSGVPDRFSGSKSGTSASLAISGLQSEDEADYYCAAWDDSLNGWVFGGGTKLTVLGQPKANPTVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADGSPVKAGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS"
+        },
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "MGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPGSGGGLNDIFEAQKIGWHE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RMFPNAPYL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-11-03",
+        "deposition_year": 2014,
+        "release_date": "2015-12-30",
+        "release_year": 2015,
+        "revision_date": "2016-02-10",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_antibody",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "ab_heavy",
+        "ab_light"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4WUU | HLA-A*02:01 binding \"RMFPNAPYL\" with antibody",
+    "pdb_code": "4wuu",
+    "pdb_title": "Structure of esk1 in complex with hla-a*0201/wt1",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RMFPNAPYL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMFPNAPYL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RMFPNAPYL",
+    "publication": {
+        "abstract": "Antibody therapies currently target only extracellular antigens. A strategy to recognize intracellular antigens is to target peptides presented by immune HLA receptors. ESK1 is a human, T-cell receptor (TCR)-mimic antibody that binds with subnanomolar affinity to the RMF peptide from the intracellular Wilms tumor oncoprotein WT1 in complex with HLA-A*02:01. ESK1 is therapeutically effective in mouse models of WT1(+) human cancers. TCR-based therapies have been presumed to be restricted to one HLA subtype. The mechanism for the specificity and high affinity of ESK1 is unknown. We show in a crystal structure that ESK1 Fab binds to RMF/HLA-A*02:01 in a mode different from that of TCRs. From the structure, we predict and then experimentally confirm high-affinity binding with multiple other HLA-A*02 subtypes, broadening the potential patient pool for ESK1 therapy. Using the crystal structure, we also predict potential off-target binding that we experimentally confirm. Our results demonstrate how protein structure information can contribute to personalized immunotherapy.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "N",
+                    "lastname": "Ataie",
+                    "name": "Ataie N"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Xiang",
+                    "name": "Xiang J"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Cheng",
+                    "name": "Cheng N"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Brea",
+                    "name": "Brea EJ"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Lu",
+                    "name": "Lu W"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Scheinberg",
+                    "name": "Scheinberg DA"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Liu",
+                    "name": "Liu C"
+                },
+                {
+                    "initials": "HL",
+                    "lastname": "Ng",
+                    "name": "Ng HL"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jmb.2015.12.002",
+                    "type": "doi"
+                },
+                {
+                    "id": "26688548",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Structure of a TCR mimic antibody with target predicts pharmacogenetics.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283615006919",
+            "volume": [
+                null
+            ],
+            "year": [
+                2015
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.05",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4wuu"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4wuu"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"RMFPNAPYL\" with antibody at 3.05&#8491; resolution",
+    "unique_chain_count": 5
+}

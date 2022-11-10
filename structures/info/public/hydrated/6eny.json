@@ -1,0 +1,208 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34773",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*03:01",
+            "slug": "hla_a_03_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6eny_1",
+            "chains": [
+                "B",
+                "C",
+                "D",
+                "F",
+                "G",
+                "A",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:30:56.825248"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "calreticulin": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "EPAVYFKEQFLDGDGWTSRWIESKHKSDFGKFVLSSGKFYGDEEKDKGLQTSQDARFYALSASFEPFSNKGQTLVVQFTVKHEQNIDCGGGYVKLFPNSLDQTDMHGDSEYNIMFGPDICGPGTKKVHVIFNYKGKNVLINKDIRSKDDEFTHLYTLIVRPDNTYEVKIDNSQVESGSLEDDWDFLPPKKIKDPDASKPEDWDERAKIDDPTDSKPEDWDKPEHIPDPDAKKPEDWDEEMDGEWEPPVIQNPEYKGEWKPRQIDNPDYKGTWIHPEIDNPEYSPDPSIYAYDNFGVLGLDLWQVKSGTIFDNFLITNDEAYAEEFGNETWGVTKAAEKQMKDKQDEEQRLKEEEEDKKRKEEEEAEDKEDDEDKDEDEEDEEDKEEDEEEDVPGQAKDEL"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.83,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHEAEQLRAYLDGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWELSSQPTIPIVGIIAGLVLLGAVITGAVVAAVMWRRKSSDRKGGSYTQAASSDSAQGSDVSLTACKV"
+        },
+        "erp57": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SDVLELTDDNFESRISDTGSAGLMLVEFFAPWCGHCKRLAPEYEAAATRLKGIVPLAKVDCTANTNTCNKYGVSGYPTLKIFRDGEEAGAYDGPRTADGIVSHLKKQAGPASVPLRTEEEFKKFISDKDASIVGFFDDSFSEAHSEFLKAASNLRDNYRFAHTNVESLVNEYDDNGEGIILFRPSHLTNKFEDKTVAYTEQKMTSGKIKKFIQENIFGICPHMTEDNKDLIQGKDLLIAYYDVDYEKNAKGSNYWRNRVMMVAKKFLDAGHKLNFAVASRKTFSHELSDFGLESTAGEIPVVAIRTAKGEKFVMQEEFSRDGKALERFLQDYFDGNLKRYLKSEPIPESNDGPVKVVVAENFDEIVNNENKDVLIEFYAPWCGHCKNLEPKYKELGEKLSKDPNIVIAKMDATANDVPSPYEVRGFPTIYFSPANKKLNPKKYEGGRELSDFISYLQREATNPPVIQEEKPKKKKKAQEDL"
+        },
+        "tapasin": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPAVIECWFVEDASGKGLAKRPGALLLRQGPGEPPPRPDLDPELYLSVHDPAGALQAAFRRYPRGAPAPHCEMSRFVPLPASAKWASGLTPAQNCPRALDGAWLMVSISSPVLSLSSLLRPQPEPQQEPVLITMATVVLTVLTHTPAPRVRLGQDALLDLSFAYMPPTSEAASSLAPGPPPFGLEWRRQHLGKGHLLLAATPGLNGQMPAAQEGAVAFAAWDDDEPWGPWTGNGTFWLPRVQPFQEGTYLATIHLPYLQGQVTLELAVYKPPKVSLMPATLARAAPGEAPPELLCLVSHFYPSGGLEVEWELRGGPGGRSQKAEGQRWLSALRHHSDGSVSLSGHLQPPPVTTEQHGARYACRIHHPSLPASGRSAEVTLEVAGLSGPSLEDSVGLFLSAFLLLGLFKALGWAAVYLSTCKDSKKKAE"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-10-07",
+        "deposition_year": 2017,
+        "release_date": "2017-11-29",
+        "release_year": 2017,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_plc",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "erp57",
+        "tapasin",
+        "calreticulin"
+    ],
+    "experimental_method": "Electron Microscopy",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6ENY | HLA-A*03:01 with Peptide Loading Complex",
+    "pdb_code": "6eny",
+    "pdb_title": "Structure of the human plc editing module",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The peptide-loading complex (PLC) is a transient, multisubunit membrane complex in the endoplasmic reticulum that is essential for establishing a hierarchical immune response. The PLC coordinates peptide translocation into the endoplasmic reticulum with loading and editing of major histocompatibility complex class I (MHC-I) molecules. After final proofreading in the PLC, stable peptide-MHC-I complexes are released to the cell surface to evoke a T-cell response against infected or malignant cells. Sampling of different MHC-I allomorphs requires the precise coordination of seven different subunits in a single macromolecular assembly, including the transporter associated with antigen processing (TAP1 and TAP2, jointly referred to as TAP), the oxidoreductase ERp57, the MHC-I heterodimer, and the chaperones tapasin and calreticulin. The molecular organization of and mechanistic events that take place in the PLC are unknown owing to the heterogeneous composition and intrinsically dynamic nature of the complex. Here, we isolate human PLC from Burkitt's lymphoma cells using an engineered viral inhibitor as bait and determine the structure of native PLC by electron cryo-microscopy. Two endoplasmic reticulum-resident editing modules composed of tapasin, calreticulin, ERp57, and MHC-I are centred around TAP in a pseudo-symmetric orientation. A multivalent chaperone network within and across the editing modules establishes the proofreading function at two lateral binding platforms for MHC-I molecules. The lectin-like domain of calreticulin senses the MHC-I glycan, whereas the P domain reaches over the MHC-I peptide-binding pocket towards ERp57. This arrangement allows tapasin to facilitate peptide editing by clamping MHC-I. The translocation pathway of TAP opens out into a large endoplasmic reticulum lumenal cavity, confined by the membrane entry points of tapasin and MHC-I. Two lateral windows channel the antigenic peptides to MHC-I. Structures of PLC captured at distinct assembly states provide mechanistic insight into the recruitment and release of MHC-I. Our work defines the molecular symbiosis of an ABC transporter and an endoplasmic reticulum chaperone network in MHC-I assembly and provides insight into the onset of the adaptive immune response.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Blees",
+                    "name": "Blees A"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Januliene",
+                    "name": "Januliene D"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Hofmann",
+                    "name": "Hofmann T"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Koller",
+                    "name": "Koller N"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Schmidt",
+                    "name": "Schmidt C"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Trowitzsch",
+                    "name": "Trowitzsch S"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Moeller",
+                    "name": "Moeller A"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Tamp\ufffd\ufffd",
+                    "name": "Tamp\ufffd\ufffd R"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/nature24627",
+                    "type": "doi"
+                },
+                {
+                    "id": "29107940",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7681"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                "525-528"
+            ],
+            "title": "Structure of the human MHC-I peptide-loading complex.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/nature24627",
+            "volume": [
+                "551"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "5.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6eny"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6eny"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*03:01 with Peptide Loading Complex at 5.80&#8491; resolution",
+    "unique_chain_count": 5
+}

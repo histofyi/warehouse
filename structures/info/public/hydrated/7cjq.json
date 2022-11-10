@@ -1,0 +1,162 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:O46882",
+            "locus": "dla-88",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "DLA-88*001:01:",
+            "note": "Match to new nomenclature",
+            "score": null,
+            "slug": "dla_88_001_01",
+            "species_stem": "dla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7cjq_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:35.716535"
+        },
+        "2": {
+            "assembly_name": "7cjq_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:33:36.131601"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "MVQHPPKIQVYSRHPAENGKPNFLNCYVSGFHPPEIEIDLLKNGKEMKAEQTDLSFSKDWTFYLLVHTEFTPNEQDEFSCRVKHVTLSEPQIVKWDRDN"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "GSHSLRYFYTSVSRPGRGDPRFIAVGYVDDTQFVRFDSDAATGRMEPRAPWMEQEGPEYWDRETRTVKETAQRYRVDLDTLRGYYNQSEAGSHTRQTMYGCDLGPGGRLLRGYSQDAYDGADYIALNEDLRSWTAADTAAQITRRKWEAAGTAEHDRNYLETTCVEWLRRYLEMGKETLLRAEPPSTRVTRHPISDHEVTLRCWALGFYPAEITLTWQRDGEDQTQDTEVVDTRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLAEPVTRRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RTISYTYPF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-07-12",
+        "deposition_year": 2020,
+        "release_date": "2020-08-26",
+        "release_year": 2020,
+        "revision_date": "2020-09-30",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "dla-88",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7CJQ | DLA-88*001:01: binding \"RTISYTYPF\"",
+    "pdb_code": "7cjq",
+    "pdb_title": "Structure of dla-88*001:01",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RTISYTYPF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RTISYTYPF"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "RTISYTYPF",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RTISYTYPF"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RTISYTYPF",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sun, Y.J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Ma, L.Z."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Li, S."
+                }
+            ],
+            "identifier": [],
+            "title": "Structure of canine MHC class I at 2.7 Angstroms resolution",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7cjq"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7cjq"
+        }
+    },
+    "species": {
+        "common_name": "Domestic dog",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Canis lupus familiaris",
+        "slug": "canis_lupus_familiaris"
+    },
+    "tcr": null,
+    "title": "DLA-88*001:01: binding \"RTISYTYPF\" at 2.70&#8491; resolution",
+    "unique_chain_count": 3
+}

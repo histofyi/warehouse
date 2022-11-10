@@ -1,0 +1,254 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4hkj_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:38:59.057778"
+        },
+        "2": {
+            "assembly_name": "4hkj_2",
+            "chains": [
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:38:59.615974"
+        },
+        "3": {
+            "assembly_name": "4hkj_3",
+            "chains": [
+                "I",
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:39:00.024255"
+        },
+        "4": {
+            "assembly_name": "4hkj_4",
+            "chains": [
+                "M",
+                "N",
+                "O",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:39:00.498534"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "F",
+                "J",
+                "N"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "E",
+                "I",
+                "M"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRWEPPPST"
+        },
+        "cowpox_cpxv203": {
+            "chains": [
+                "D",
+                "H",
+                "L",
+                "P"
+            ],
+            "match_type": "histo:override",
+            "sequence": "AMVIRRCEKMEEETWKLKIGMCIQAKDFYSKRTDCSVHRPDVGGGLITEGNGYRVVVHDQCEEPNPFIIATTKQTHFGVTHSYIEFSNSNTGAPENIPDCSKHILISVYCDQEASGLDFHTLKYVESNYLHITVKYDTSCINHLGVNYSFMNECERKLTSIYETDTLTCGAKDIQTRDKYLKTCTNTKFDRSVYKTHMQKSKILHV"
+        },
+        "note": "rule needed for cowpox_cpxv203?",
+        "peptide": {
+            "chains": [
+                "C",
+                "G",
+                "K",
+                "O"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SIINFEKL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-10-15",
+        "deposition_year": 2012,
+        "release_date": "2012-11-14",
+        "release_year": 2012,
+        "revision_date": "2017-11-15",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_cowpox_cpxv203",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "cowpox_cpxv203",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4HKJ | H2-Kb binding \"SIINFEKL\" with Cowpox CPXV203",
+    "pdb_code": "4hkj",
+    "pdb_title": "Structure of cowpox cpxv203 in complex with MHCi (h-2kb)",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "SIINFEKL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SIINFEKL"
+        },
+        "G": {
+            "actual_length": 8,
+            "actual_sequence": "SIINFEKL",
+            "chain_id": "G",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SIINFEKL"
+        },
+        "K": {
+            "actual_length": 8,
+            "actual_sequence": "SIINFEKL",
+            "chain_id": "K",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SIINFEKL"
+        },
+        "O": {
+            "actual_length": 8,
+            "actual_sequence": "SIINFEKL",
+            "chain_id": "O",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SIINFEKL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "SIINFEKL",
+    "publication": {
+        "abstract": "One of the hallmarks of viral immune evasion is the capacity to disrupt major histocompatibility complex class I (MHCI) antigen presentation to evade T-cell detection. Cowpox virus encoded protein CPXV203 blocks MHCI surface expression by exploiting the KDEL-receptor recycling pathway, and here we show that CPXV203 directly binds a wide array of fully assembled MHCI proteins, both classical and non-classical. Further, the stability of CPXV203/MHCI complexes is highly pH dependent, with dramatically increased affinities at the lower pH of the Golgi relative to the endoplasmic reticulum (ER). Crystallographic studies reveal that CPXV203 adopts a beta-sandwich fold similar to poxvirus chemokine binding proteins, and binds the same highly conserved MHCI determinants located under the peptide-binding platform that tapasin, CD8, and natural killer (NK)-receptors engage. Mutagenesis of the CPXV203/MHCI interface identified the importance of two CPXV203 His residues that confer low pH stabilization of the complex and are critical to ER retrieval of MHCI. These studies clarify mechanistically how CPXV203 coordinates with other cowpox proteins to thwart antigen presentation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "WH",
+                    "lastname": "McCoy",
+                    "name": "McCoy WH"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Wang",
+                    "name": "Wang X"
+                },
+                {
+                    "initials": "WM",
+                    "lastname": "Yokoyama",
+                    "name": "Yokoyama WM"
+                },
+                {
+                    "initials": "TH",
+                    "lastname": "Hansen",
+                    "name": "Hansen TH"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Fremont",
+                    "name": "Fremont DH"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.pbio.1001432",
+                    "type": "doi"
+                },
+                {
+                    "id": "23209377",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Biol.",
+                "name": ""
+            },
+            "pages": [
+                "e1001432"
+            ],
+            "title": "Structural Mechanism of ER Retrieval of MHC Class I by Cowpox.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.pbio.1001432",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4hkj"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4hkj"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"SIINFEKL\" with Cowpox CPXV203 at 3.00&#8491; resolution",
+    "unique_chain_count": 5
+}

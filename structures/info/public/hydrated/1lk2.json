@@ -1,0 +1,208 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1lk2_1",
+            "chains": [
+                "A",
+                "B",
+                "P",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:52.871058"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GNYSFYAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2002-04-23",
+        "deposition_year": 2002,
+        "release_date": "2003-11-11",
+        "release_year": 2003,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1LK2 | H2-Kb binding \"GNYSFYAL\"",
+    "pdb_code": "1lk2",
+    "pdb_title": "1.35a crystal structure of h-2kb complexed with the GNYSFYAL peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "GNYSFYAL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "GNYSFYAL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "GNYSFYAL",
+    "publication": {
+        "abstract": "We identify and consider some characteristics of a peptide antagonist for the Ag-specific receptor on 2C cells (the 2C TCR). The peptide, GNYSFYAL (called GNY), binds to H-2K(b), and a very high-resolution crystal structure of the GNY-K(b) complex at 1.35 A is described. Although the GNY peptide does not bind to L(d), the potency of GNY-K(b) as an antagonist is evident from its ability to specifically inhibit 2C TCR-mediated reactions to an allogenic agonist complex (QLSPFPFDL-L(d)), as well as to a syngeneic agonist complex (SIYRYYGL-K(b)). The crystal structure and the activities of alanine-substituted peptide variants point to the properties of the peptide P4 side chain and the conformation of the Tyr-P6 side chain as the structural determinants of GNYSFYAL antagonist activity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MG",
+                    "lastname": "Rudolph",
+                    "name": "Rudolph MG"
+                },
+                {
+                    "initials": "LQ",
+                    "lastname": "Shen",
+                    "name": "Shen LQ"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Lamontagne",
+                    "name": "Lamontagne SA"
+                },
+                {
+                    "initials": "JG",
+                    "lastname": "Luz",
+                    "name": "Luz JG"
+                },
+                {
+                    "initials": "JR",
+                    "lastname": "Delaney",
+                    "name": "Delaney JR"
+                },
+                {
+                    "initials": "Q",
+                    "lastname": "Ge",
+                    "name": "Ge Q"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Cho",
+                    "name": "Cho BK"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Palliser",
+                    "name": "Palliser D"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "McKinley",
+                    "name": "McKinley CA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Chen",
+                    "name": "Chen J"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                },
+                {
+                    "initials": "HN",
+                    "lastname": "Eisen",
+                    "name": "Eisen HN"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.172.5.2994",
+                    "type": "doi"
+                },
+                {
+                    "id": "14978103",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "2994-3002"
+            ],
+            "title": "A peptide that antagonizes TCR-mediated reactions with both syngeneic and allogeneic agonists: functional and structural aspects.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.172.5.2994",
+            "volume": [
+                "172"
+            ],
+            "year": [
+                2004
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.35",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1lk2"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1lk2"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"GNYSFYAL\" at 1.35&#8491; resolution",
+    "unique_chain_count": 3
+}

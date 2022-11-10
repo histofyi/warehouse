@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34910",
+            "locus": "hla-c",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-C*07:02",
+            "slug": "hla_c_07_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5vge_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:21.487790"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFDTAVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQADRVSLRNLRGYYNQSEDGSHTLQRMSGCDLGPDGRLLRGYDQSAYDGKDYIALNEDLRSWTAADTAAQITQRKLEAARAAEQLRAYLEGTCVEWLRRYLENGKETLQRAEPPKTHVTHHPLSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHMQHEGLQEPLTLSWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RYRPGTVAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-04-11",
+        "deposition_year": 2017,
+        "release_date": "2017-06-07",
+        "release_year": 2017,
+        "revision_date": "2017-07-12",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-c",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5VGE | HLA-C*07:02 binding \"RYRPGTVAL\"",
+    "pdb_code": "5vge",
+    "pdb_title": "Crystal structure of hla-c*07:02 in complex with ryr peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RYRPGTVAL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RYRPGTVAL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RYRPGTVAL",
+    "publication": {
+        "abstract": "Expression of HLA-C varies widely across individuals in an allele-specific manner. This variation in expression can influence efficacy of the immune response, as shown for infectious and autoimmune diseases. MicroRNA binding partially influences differential HLA-C expression, but the additional contributing factors have remained undetermined. Here we use functional and structural analyses to demonstrate that HLA-C expression is modulated not just at the RNA level, but also at the protein level. Specifically, we show that variation in exons 2 and 3, which encode the \u03b11/\u03b12 domains, drives differential expression of HLA-C allomorphs at the cell surface by influencing the structure of the peptide-binding cleft and the diversity of peptides bound by the HLA-C molecules. Together with a phylogenetic analysis, these results highlight the diversity and long-term balancing selection of regulatory factors that modulate HLA-C expression.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "G",
+                    "lastname": "Kaur",
+                    "name": "Kaur G"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "JI",
+                    "lastname": "Mobbs",
+                    "name": "Mobbs JI"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Cortes",
+                    "name": "Cortes A"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Barber",
+                    "name": "Barber T"
+                },
+                {
+                    "initials": "SB",
+                    "lastname": "Kuttikkatte",
+                    "name": "Kuttikkatte SB"
+                },
+                {
+                    "initials": "LT",
+                    "lastname": "Jensen",
+                    "name": "Jensen LT"
+                },
+                {
+                    "initials": "KE",
+                    "lastname": "Attfield",
+                    "name": "Attfield KE"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "Dendrou",
+                    "name": "Dendrou CA"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Carrington",
+                    "name": "Carrington M"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "McVean",
+                    "name": "McVean G"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Fugger",
+                    "name": "Fugger L"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ncomms15924",
+                    "type": "doi"
+                },
+                {
+                    "id": "28649982",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "15924"
+            ],
+            "title": "Structural and regulatory diversity shape HLA-C protein expression levels.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ncomms15924",
+            "volume": [
+                "8"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5vge"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5vge"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-C*07:02 binding \"RYRPGTVAL\" at 2.60&#8491; resolution",
+    "unique_chain_count": 3
+}

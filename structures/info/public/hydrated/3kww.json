@@ -1,0 +1,237 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3kww_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:30:55.164786"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTAIFKANTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEARRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LPEPLPQGQLTAY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-12-01",
+        "deposition_year": 2009,
+        "release_date": "2010-06-09",
+        "release_year": 2010,
+        "revision_date": "2017-11-01",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3KWW | HLA-B*35:01 binding \"LPEPLPQGQLTAY\"",
+    "pdb_code": "3kww",
+    "pdb_title": "Crystal structure of the 'restriction triad' mutant of hla b*3508, beta-2-microglobulin and ebv peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 13,
+            "actual_sequence": "LPEPLPQGQLTAY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 13,
+            "full_sequence": "LPEPLPQGQLTAY"
+        }
+    },
+    "peptide_length": 13,
+    "peptide_length_name": "tridecamer",
+    "peptide_sequence": "LPEPLPQGQLTAY",
+    "publication": {
+        "abstract": "alphabeta T cell receptors (TCRs) are genetically restricted to corecognize peptide antigens bound to self-major histocompatibility complex (pMHC) molecules; however, the basis for this MHC specificity remains unclear. Despite the current dogma, evaluation of the TCR-pMHC-I structural database shows that the nongermline-encoded complementarity-determining region (CDR)-3 loops often contact the MHC-I, and the germline-encoded CDR1 and -2 loops frequently participate in peptide-mediated interactions. Nevertheless, different TCRs adopt a roughly conserved docking mode over the pMHC-I, in which three MHC-I residues (65, 69, and 155) are invariably contacted by the TCR in one way or another. Nonetheless, the impact of mutations at these three positions, either individually or together, was not uniformly detrimental to TCR recognition of pHLA-B*0801 or pHLA-B*3508. Moreover, when TCR-pMHC-I recognition was impaired, this could be partially restored by expression of the CD8 coreceptor. The structure of a TCR-pMHC-I complex in which these three (65, 69, and 155) MHC-I positions were all mutated resulted in shifting of the TCR footprint relative to the cognate complex and formation of compensatory interactions. Collectively, our findings reveal the inherent adaptability of the TCR in maintaining peptide recognition while accommodating changes to the central docking site on the pMHC-I.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "JK",
+                    "lastname": "Archbold",
+                    "name": "Archbold JK"
+                },
+                {
+                    "initials": "FE",
+                    "lastname": "Tynan",
+                    "name": "Tynan FE"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Beddoe",
+                    "name": "Beddoe T"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Khanna",
+                    "name": "Khanna R"
+                },
+                {
+                    "initials": "DJ",
+                    "lastname": "Moss",
+                    "name": "Moss DJ"
+                },
+                {
+                    "initials": "YC",
+                    "lastname": "Liu",
+                    "name": "Liu YC"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kostenko",
+                    "name": "Kostenko L"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Brennan",
+                    "name": "Brennan RM"
+                },
+                {
+                    "initials": "CS",
+                    "lastname": "Clements",
+                    "name": "Clements CS"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1004926107",
+                    "type": "doi"
+                },
+                {
+                    "id": "20483993",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "23"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "10608-13"
+            ],
+            "title": "Hard wiring of T cell receptor specificity for the major histocompatibility complex is underpinned by TCR adaptability.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1004926107",
+            "volume": [
+                "107"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.18",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3kww"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3kww"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:01 binding \"LPEPLPQGQLTAY\" at 2.18&#8491; resolution",
+    "unique_chain_count": 3
+}

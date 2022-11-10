@@ -1,0 +1,235 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01897",
+            "locus": "h2-l",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Ld",
+            "slug": "h2_ld",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3tjh_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:36:04.759988"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.74,
+            "sequence": "MGPHSMRYYETATSRRGLGEPRYTSVGYVDDKEFVRFDSDAENPRYEPQVPWMEQEGPEYWERITQVAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQRMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLRTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNGNATL"
+        },
+        "peptide": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SPLDSLWWI"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "ADPGYLLEAQSVTQPDARVTVSEGASLQLRCKYSYSATPYLFWYVQYPRQGLQMLLKYYSGDPVVQGVNGFEAEFSKSDSSFHLRKASVHWSDSAVYFCAVSAKGTGSKLSFGKGAKLTVSPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESSSRGGLEVLFQ",
+            "subgroup": "TRAV9"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "ADPEAAVTQSPRNKVTVTGGNVTLSCRQTNSHNYMYWYRQDTGHGLRLIHYSYGAGNLQIGDVPDGYKATRTTQEDFFLLLELASPSQTSLYFCASSDAPGQLYFGEGSKLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRADSRGGLEVLFQ",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-08-24",
+        "deposition_year": 2011,
+        "release_date": "2011-12-07",
+        "release_year": 2011,
+        "revision_date": "2012-01-18",
+        "revision_year": 2012
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "truncated_class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-l",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3TJH | Truncated H2-Ld presenting \"SPLDSLWWI\" to Alpha/Beta T cell receptor",
+    "pdb_code": "3tjh",
+    "pdb_title": "42f3-p3a1/H2-Ld complex",
+    "peptide": {
+        "B": {
+            "actual_length": 9,
+            "actual_sequence": "SPLDSLWWI",
+            "chain_id": "B",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SPLDSLWWI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SPLDSLWWI",
+    "publication": {
+        "abstract": "T cell receptor (TCR) engagement of peptide-major histocompatibility complex (pMHC) is essential to adaptive immunity, but it is unknown whether TCR signaling responses are influenced by the binding topology of the TCR-peptide-MHC complex. We developed yeast-displayed pMHC libraries that enabled us to identify new peptide sequences reactive with a single TCR. Structural analysis showed that four peptides bound to the TCR with distinct 3D and 2D affinities using entirely different binding chemistries. Three of the peptides that shared a common docking mode, where key TCR-MHC germline interactions are preserved, induced TCR signaling. The fourth peptide failed to induce signaling and was recognized in a substantially different TCR-MHC binding mode that apparently exceeded geometric tolerances compatible with signaling. We suggest that the stereotypical TCR-MHC docking paradigm evolved from productive signaling geometries and that TCR signaling can be modulated by peptides that are recognized in alternative TCR-pMHC binding orientations.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JJ",
+                    "lastname": "Adams",
+                    "name": "Adams JJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Narayanan",
+                    "name": "Narayanan S"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Liu",
+                    "name": "Liu B"
+                },
+                {
+                    "initials": "ME",
+                    "lastname": "Birnbaum",
+                    "name": "Birnbaum ME"
+                },
+                {
+                    "initials": "AC",
+                    "lastname": "Kruse",
+                    "name": "Kruse AC"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Bowerman",
+                    "name": "Bowerman NA"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Chen",
+                    "name": "Chen W"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Levin",
+                    "name": "Levin AM"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Connolly",
+                    "name": "Connolly JM"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Zhu",
+                    "name": "Zhu C"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Kranz",
+                    "name": "Kranz DM"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Garcia",
+                    "name": "Garcia KC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.immuni.2011.09.013",
+                    "type": "doi"
+                },
+                {
+                    "id": "22101157",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "681-93"
+            ],
+            "title": "T cell receptor signaling is limited by docking geometry to peptide-major histocompatibility complex.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761311004559",
+            "volume": [
+                "35"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.12",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3tjh"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3tjh"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3tjh"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV9"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "3tjh"
+    },
+    "title": "Truncated H2-Ld presenting \"SPLDSLWWI\" to Alpha/Beta T cell receptor at 2.12&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,213 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5hyj_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:38:29.029840"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "H"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AQWGPDPAAA"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "KEVEQDPGPLSVPEGAIVSLNCTYSNSAFQYFMWYRQYSRKGPELLMYTYSSGNKEDGRFTAQVDKSSKYISLFIRDSQPSDSATYLCAMRGDSSYKLIFGSGTRLLVRPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIP",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "DAGVIQSPRHEVTEMGQQVTLRCKPISGHDYLFWYRQTMMRGLELLIYFNNNVPIDDSGMPEDRFSAKMPNASFSTLKIQPSEPRDSAVYFCASSLWEKLAKNIQYFGAGTRLSVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV12"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-02-01",
+        "deposition_year": 2016,
+        "release_date": "2016-05-04",
+        "release_year": 2016,
+        "revision_date": "2016-06-08",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5HYJ | HLA-A*02:01 presenting \"AQWGPDPAAA\" to Alpha/Beta T cell receptor",
+    "pdb_code": "5hyj",
+    "pdb_title": "1e6 TCR in complex with hla-a02 carrying AQWGPDPAAA",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "AQWGPDPAAA",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "AQWGPDPAAA"
+        },
+        "H": {
+            "actual_length": 10,
+            "actual_sequence": "AQWGPDPAAA",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "AQWGPDPAAA"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "AQWGPDPAAA",
+    "publication": {
+        "abstract": "The ability of a single T cell antigen receptor (TCR) to cross-react with multiple antigens allows the finite number of T cells within an organism to respond to the compendium of pathogen challenges faced during a lifetime. Effective immune surveillance, however, comes at a price. TCR cross-reactivity can allow molecular mimics to spuriously activate autoimmune T cells; it also underlies T cell rejection of organ transplants and drives graft-versus-host disease. In this issue of the JCI, Cole and colleagues provide insight into how an insulin-reactive T cell cross-reacts with pathogen-derived antigens by focusing on a limited portion of the peptides to provide a hotspot for binding. These findings dovetail with recent studies of alloreactive and autoimmune TCRs and suggest that the biochemical principles that govern conventional protein-protein interactions may allow the specificity and cross-reactivity profiles of T cells to be predicted.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "BD",
+                    "lastname": "Stadinski",
+                    "name": "Stadinski BD"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Obst",
+                    "name": "Obst R"
+                },
+                {
+                    "initials": "ES",
+                    "lastname": "Huseby",
+                    "name": "Huseby ES"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1172/JCI88165",
+                    "type": "doi"
+                },
+                {
+                    "id": "27183386",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Clin. Invest.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "A 'hotspot' for autoimmune T cells in type 1 diabetes.",
+            "type": "article",
+            "url": "https://www.jci.org/articles/view/88165",
+            "volume": [
+                null
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.06",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5hyj"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5hyj"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5hyj"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV12"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "5hyj"
+    },
+    "title": "HLA-A*02:01 presenting \"AQWGPDPAAA\" to Alpha/Beta T cell receptor at 3.06&#8491; resolution",
+    "unique_chain_count": 5
+}

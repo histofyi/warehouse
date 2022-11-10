@@ -1,0 +1,170 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08580",
+            "locus": "gaga-bf2",
+            "match_type": "histo:fuzzy",
+            "name": "Gaga-BF2*021:01",
+            "slug": "gaga_bf2_021_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1onq_1",
+            "chains": [
+                "A",
+                "B",
+                "E",
+                "G",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:27:14.520170"
+        },
+        "2": {
+            "assembly_name": "1onq_2",
+            "chains": [
+                "C",
+                "D",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:27:15.024384"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "cd1a": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "ADGLKEPLSFHVIWIASFYNHSWKQNLVSGWLSDLQTHTWDSNSSTIVFLWPWSRGNFSNEEWKELETLFRIRTIRSFEGIRRYAHELQFEYPFEIQVTGGCELHSGKVSGSFLQLAYQGSDFVSFQNNSWLPYPVAGNMAKHFCKVLNQNQHENDITHNLLSDTCPRFILGLLDAGKAHLQRQVKPEAWLSHGPSPGPGHLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQRGDILPSADGTWYLRATLEVAAGEAADLSCRVKHSSLEGQDIVLYWHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2003-02-28",
+        "deposition_year": 2003,
+        "release_date": "2003-08-05",
+        "release_year": 2003,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1a",
+    "components": [
+        "cd1a",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1ONQ | Non-classical MHC Class I molecule CD1a",
+    "pdb_code": "1onq",
+    "pdb_title": "Crystal structure of CD1a in complex with a sulfatide",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "CD1 antigens bind a variety of self and foreign lipid and glycolipid antigens for presentation to CD1-restricted T cell receptors (TCRs). Here we report the crystal structure of human CD1a in complex with a sulfatide self antigen at a resolution of 2.15 A. The lipid adopts an S-shaped conformation, with the sphingosine chain completely buried in the A' pocket and the fatty acid chain emerging from the interface of the A' pocket into the more exposed F' pocket. The headgroup is anchored in the A'-F' junction and protrudes into the F' pocket for TCR recognition. Because the A' pocket is narrow with a fixed terminus, it can act as a molecular 'ruler' to select alkyl chains of a particular length.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Elsliger",
+                    "name": "Elsliger MA"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Teyton",
+                    "name": "Teyton L"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni948",
+                    "type": "doi"
+                },
+                {
+                    "id": "12833155",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "808-15"
+            ],
+            "title": "Crystal structure of CD1a in complex with a sulfatide self antigen at a resolution of 2.15 A.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni948",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2003
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.15",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1onq"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1onq"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1a at 2.15&#8491; resolution",
+    "unique_chain_count": 2
+}

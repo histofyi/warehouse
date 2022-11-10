@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35265",
+            "locus": "hla-c",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-C*05:01",
+            "slug": "hla_c_05_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6jto_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:01.176271"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRD"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "SHSMRYFYTAVSRPGRGEPRFIAVGYVDDTQFVQFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVNLRKLRGYYNQSEAGSHTLQRMYGCDLGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADKAAQITQRKWEAAREAEQRRAYLEGTCVEWLRRYLENGKKTLQRAEHPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GADGVGKSAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-04-11",
+        "deposition_year": 2019,
+        "release_date": "2020-04-15",
+        "release_year": 2020,
+        "revision_date": "2021-05-19",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-c",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6JTO | HLA-C*05:01 binding \"GADGVGKSAL\"",
+    "pdb_code": "6jto",
+    "pdb_title": "Crystal structure of hla-c05 in complex with a tumor mut10m peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "GADGVGKSAL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "GADGVGKSAL"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "GADGVGKSAL",
+    "publication": {
+        "abstract": "Cytotoxic T cells targeting cancer neoantigens harboring driver mutations can lead to durable tumor regression in an HLAI-dependent manner. However, it is difficult to extend the population of patients who are eligible for neoantigen-based immunotherapy, as immunogenic neoantigen-HLA pairs are rarely shared across different patients. Thus, a way to find other human leukocyte antigen (HLA) alleles that can also present a clinically effective neoantigen is needed. Recently, neoantigen-based immunotherapy targeting the KRAS G12D mutation in patients with HLA-C*08:02 has shown effectiveness. In a proof-of-concept study, we proposed a combinatorial strategy (the combination of phylogenetic and structural analyses) to find potential HLA alleles that could also present KRAS G12D neoantigen. Compared to in silico binding prediction, this strategy avoids the uneven accuracy across different HLA alleles. Our findings extend the population of patients who are potentially eligible for immunotherapy targeting the KRAS G12D mutation. Additionally, we provide an alternative way to predict neoantigen-HLA pairs, which maximizes the clinical usage of shared neoantigens.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "P",
+                    "lastname": "Bai",
+                    "name": "Bai P"
+                },
+                {
+                    "initials": "Q",
+                    "lastname": "Zhou",
+                    "name": "Zhou Q"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Wei",
+                    "name": "Wei P"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Bai",
+                    "name": "Bai H"
+                },
+                {
+                    "initials": "SK",
+                    "lastname": "Chan",
+                    "name": "Chan SK"
+                },
+                {
+                    "initials": "JW",
+                    "lastname": "Kappler",
+                    "name": "Kappler JW"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Marrack",
+                    "name": "Marrack P"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Yin",
+                    "name": "Yin L"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1007/s11427-020-1888-1",
+                    "type": "doi"
+                },
+                {
+                    "id": "33740187",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Sci China Life Sci",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Rational discovery of a cancer neoepitope harboring the KRAS G12D driver mutation.",
+            "type": "article",
+            "url": "https://link.springer.com/10.1007/s11427-020-1888-1",
+            "volume": [
+                null
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6jto"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6jto"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-C*05:01 binding \"GADGVGKSAL\" at 1.70&#8491; resolution",
+    "unique_chain_count": 3
+}

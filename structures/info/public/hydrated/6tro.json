@@ -1,0 +1,235 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6tro_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:34:48.019437"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GVYDGREHTV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKNQVEQSPQSLIILEGKNVTLQCNYTVSPFSNLRWYKQDTGRGPVSLTIMTFSENTKSNGRYTATLDADTKQSSLHITASQLSDSASYICVVNHSGGSYIPTFGRGTSLIVHPYIQKPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV10"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MDVKVTQSSRYLVKRTGEKVFLECVQDMDHENMFWYRQDPGLGLRLIYFSYDVKMKEKGDIPEGYSVSREKKERFSLILESASTNQTSMYLCASSFLMTSGDPYEQYFGPGTRLTVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV28"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-12-19",
+        "deposition_year": 2019,
+        "release_date": "2020-06-24",
+        "release_year": 2020,
+        "revision_date": "2021-10-06",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6TRO | HLA-A*02:01 presenting \"GVYDGREHTV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "6tro",
+    "pdb_title": "Crystal structure of the t-cell receptor gvy01 bound to hla a2*01-GVYDGREHTV",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "GVYDGREHTV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "GVYDGREHTV"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "GVYDGREHTV",
+    "publication": {
+        "abstract": "T cell-mediated immunity is governed primarily by T cell receptor (TCR) recognition of peptide-human leukocyte antigen (pHLA) complexes and is essential for immunosurveillance and disease control. This interaction is generally stabilized by interactions between the HLA surface and TCR germline-encoded complementarity-determining region (CDR) loops 1 and 2, whereas peptide selectivity is guided by direct interactions with the TCR CDR3 loops. Here, we solved the structure of a newly identified TCR in complex with a clinically relevant peptide derived from the cancer testis antigen melanoma antigen-A4 (MAGE-A4). The TCR bound pHLA in a position shifted toward the peptide's N terminus. This enabled the TCR to achieve peptide selectivity via an indirect mechanism, whereby the TCR sensed the first residue of the peptide through HLA residue Trp-167, which acted as a tunable gateway. Amino acid substitutions at peptide position 1 predicted to alter the HLA Trp-167 side-chain conformation abrogated TCR binding, indicating that this indirect binding mechanism is essential for peptide recognition. These findings extend our understanding of the molecular rules that underpin antigen recognition by TCRs and have important implications for the development of TCR-based therapies.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "CH",
+                    "lastname": "Coles",
+                    "name": "Coles CH"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "McMurran",
+                    "name": "McMurran C"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Lloyd",
+                    "name": "Lloyd A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Hock",
+                    "name": "Hock M"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Hibbert",
+                    "name": "Hibbert L"
+                },
+                {
+                    "initials": "MCC",
+                    "lastname": "Raman",
+                    "name": "Raman MCC"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Hayes",
+                    "name": "Hayes C"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Lupardus",
+                    "name": "Lupardus P"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Harper",
+                    "name": "Harper S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.RA120.014016",
+                    "type": "doi"
+                },
+                {
+                    "id": "32532817",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "T Cell Receptor interactions with Human Leukocyte Antigen govern indirect peptide selectivity for the cancer testis antigen MAGE-A4.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925817484535",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6tro"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6tro"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6tro"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV10"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV28"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "6tro"
+    },
+    "title": "HLA-A*02:01 presenting \"GVYDGREHTV\" to Alpha/Beta T cell receptor at 3.00&#8491; resolution",
+    "unique_chain_count": 5
+}

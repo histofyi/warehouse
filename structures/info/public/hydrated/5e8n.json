@@ -1,0 +1,253 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5e8n_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:28:05.132628"
+        },
+        "2": {
+            "assembly_name": "5e8n_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:28:05.645368"
+        },
+        "3": {
+            "assembly_name": "5e8n_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:28:05.940494"
+        },
+        "4": {
+            "assembly_name": "5e8n_4",
+            "chains": [
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:28:06.220578"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F",
+                "I",
+                "L"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "MCLRMTAVM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-10-14",
+        "deposition_year": 2015,
+        "release_date": "2016-02-03",
+        "release_year": 2016,
+        "revision_date": "2016-03-02",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5E8N | H2-Db binding \"MCLRMTAVM\"",
+    "pdb_code": "5e8n",
+    "pdb_title": "The structure of the teipp associated trh4 peptide in complex with h-2d(b)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "MCLRMTAVM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MCLRMTAVM"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "MCLRMTAVM",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MCLRMTAVM"
+        },
+        "I": {
+            "actual_length": 9,
+            "actual_sequence": "MCLRMTAVM",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MCLRMTAVM"
+        },
+        "L": {
+            "actual_length": 9,
+            "actual_sequence": "MCLRMTAVM",
+            "chain_id": "L",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MCLRMTAVM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "MCLRMTAVM",
+    "publication": {
+        "abstract": "MHC class I downregulation represents a significant challenge for successful T cell-based immunotherapy. T cell epitopes associated with impaired peptide processing (TEIPP) constitute a novel category of immunogenic Ags that are selectively presented on transporter associated with Ag processing-deficient cells. The TEIPP neoepitopes are CD8 T cell targets, derived from nonmutated self-proteins that might be exploited to prevent immune escape. In this study, the crystal structure of H-2D(b) in complex with the first identified TEIPP Ag (MCLRMTAVM) derived from the Trh4 protein has been determined to 2.25 \u00c5 resolution. In contrast to prototypic H-2D(b) peptides, Trh4 takes a noncanonical peptide-binding pattern with extensive sulfur-\u03c0 interactions that contribute to the overall complex stability. Importantly, the noncanonical methionine at peptide position 5 acts as a main anchor, altering only the conformation of the H-2D(b) residues Y156 and H155 and thereby forming a unique MHC/peptide conformer that is essential for recognition by TEIPP-specific T cells. Substitution of peptide residues p2C and p5M to the conservative \u03b1-aminobutyric acid and norleucine, respectively, significantly reduced complex stability, without altering peptide conformation or T cell recognition. In contrast, substitution of p5M to a conventional asparagine abolished recognition by the H-2D(b)/Trh4-specific T cell clone LnB5. We anticipate that the H-2D(b)/Trh4 complex represents the first example, to our knowledge, of a broader repertoire of alternative MHC class I binders.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "I",
+                    "lastname": "Hafstrand",
+                    "name": "Hafstrand I"
+                },
+                {
+                    "initials": "EM",
+                    "lastname": "Doorduijn",
+                    "name": "Doorduijn EM"
+                },
+                {
+                    "initials": "AD",
+                    "lastname": "Duru",
+                    "name": "Duru AD"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Buratto",
+                    "name": "Buratto J"
+                },
+                {
+                    "initials": "CC",
+                    "lastname": "Oliveira",
+                    "name": "Oliveira CC"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Sandalova",
+                    "name": "Sandalova T"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "van Hall",
+                    "name": "van Hall T"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Achour",
+                    "name": "Achour A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1502249",
+                    "type": "doi"
+                },
+                {
+                    "id": "26800871",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "The MHC Class I Cancer-Associated Neoepitope Trh4 Linked with Impaired Peptide Processing Induces a Unique Noncanonical TCR Conformer.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1502249",
+            "volume": [
+                null
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.25",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5e8n"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5e8n"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"MCLRMTAVM\" at 2.25&#8491; resolution",
+    "unique_chain_count": 3
+}

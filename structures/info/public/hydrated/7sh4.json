@@ -1,0 +1,121 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:SLA08439",
+            "locus": "sla-1",
+            "match_type": "histo:exact",
+            "name": "SLA-1*04:01",
+            "slug": "sla_1_04_01",
+            "species_stem": "SLA"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7sh4_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:29:09.768735"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "GIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDMGSLVPRGS"
+        },
+        "cd1a": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "ATGLKEPLSFHVIWIASFYNHSWKQNLVSGWLSDLQTHTWDSNSSTIVFLWPWSRGNFSNEEWKELETLFRIRTIRSFEGIRRYAHELQFEYPFEIQVTGGCELHSGKVSGSFLQLAYQGSDFVSFQNNSWLPYPVAGNMAKHFCKVLNQNQHENDITHNLLSDTCPRFILGLLDAGKAHLQRQVKPEAWLSHGPSPGPGHLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQRGDILPSADGTWYLRATLEVAAGEAADLSCRVKHSSLEGQDIVLYWEGSLVPRG"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-10-07",
+        "deposition_year": 2021,
+        "release_date": "2022-10-05",
+        "release_year": 2022,
+        "revision_date": "2022-10-05",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1a",
+    "components": [
+        "cd1a",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "sla-1",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7SH4 | Non-classical MHC Class I molecule CD1a",
+    "pdb_code": "7sh4",
+    "pdb_title": "Cd1a-phosphatidylglycerol binary structure",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Wegrecki, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Rossjohn, J."
+                }
+            ],
+            "identifier": [],
+            "title": "PG presentation by CD1a",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7sh4"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7sh4"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1a at 2.00&#8491; resolution",
+    "unique_chain_count": 2
+}

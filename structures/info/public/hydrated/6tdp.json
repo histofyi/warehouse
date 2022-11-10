@@ -1,0 +1,191 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6tdp_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:36:02.338079"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "AGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGCYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMCAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-11-10",
+        "deposition_year": 2019,
+        "release_date": "2020-03-25",
+        "release_year": 2020,
+        "revision_date": "2020-03-25",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_possibly_without_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6TDP | HLA-A*02:01 possibly without \"peptide\"",
+    "pdb_code": "6tdp",
+    "pdb_title": "Crystal structure of the disulfide engineered hla-a0201 molecule in complex with one gl dipeptide in the a pocket.",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Major Histocompatibility Complex (MHC) class I molecules selectively bind peptides for presentation to cytotoxic T cells. The peptide-free state of these molecules is not well understood. Here, we characterize a disulfide-stabilized version of the human class I molecule HLA-A*02:01 that is stable in the absence of peptide and can readily exchange cognate peptides. We present X-ray crystal structures of the peptide-free state of HLA-A*02:01, together with structures that have dipeptides bound in the A and F pockets. These structural snapshots reveal that the amino acid side chains lining the binding pockets switch in a coordinated fashion between a peptide-free unlocked state and a peptide-bound locked state. Molecular dynamics simulations suggest that the opening and closing of the F pocket affects peptide ligand conformations in adjacent binding pockets. We propose that peptide binding is co-determined by synergy between the binding pockets of the MHC molecule.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "R",
+                    "lastname": "Anjanappa",
+                    "name": "Anjanappa R"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Garcia-Alai",
+                    "name": "Garcia-Alai M"
+                },
+                {
+                    "initials": "JD",
+                    "lastname": "Kopicki",
+                    "name": "Kopicki JD"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lockhauserb\ufffd\ufffdumer",
+                    "name": "Lockhauserb\ufffd\ufffdumer J"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Aboelmagd",
+                    "name": "Aboelmagd M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Hinrichs",
+                    "name": "Hinrichs J"
+                },
+                {
+                    "initials": "IM",
+                    "lastname": "Nemtanu",
+                    "name": "Nemtanu IM"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Uetrecht",
+                    "name": "Uetrecht C"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Zacharias",
+                    "name": "Zacharias M"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Springer",
+                    "name": "Springer S"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Meijers",
+                    "name": "Meijers R"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-020-14862-4",
+                    "type": "doi"
+                },
+                {
+                    "id": "32161266",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "1314"
+            ],
+            "title": "Structures of peptide-free and partially loaded MHC class I molecules reveal mechanisms of peptide selection.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-020-14862-4",
+            "volume": [
+                "11"
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6tdp"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6tdp"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 possibly without \"peptide\" at 1.40&#8491; resolution",
+    "unique_chain_count": 2
+}

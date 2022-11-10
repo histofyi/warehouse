@@ -1,0 +1,249 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4zak_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:33:55.709027"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKTQVEQSPQSLVVRQGENCVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDEGYTQYFGPGTRLLVLEDLRNVTPPKVSLFEPSKAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-04-13",
+        "deposition_year": 2015,
+        "release_date": "2015-07-01",
+        "release_year": 2015,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4ZAK | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "4zak",
+    "pdb_title": "Crystal structure of the mCD1d/db06-1/inkTCR ternary complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "In this article, we characterize a novel Ag for invariant NKT (iNKT) cells capable of producing an especially robust Th1 response. This glycosphingolipid, DB06-1, is similar in chemical structure to the well-studied \u03b1-galactosylceramide (\u03b1GalCer), with the only change being a single atom: the substitution of a carbonyl oxygen with a sulfur atom. Although DB06-1 is not a more effective Ag in vitro, the small chemical change has a marked impact on the ability of this lipid Ag to stimulate iNKT cells in vivo, with increased IFN-\u03b3 production at 24 h compared with \u03b1GalCer, increased IL-12, and increased activation of NK cells to produce IFN-\u03b3. These changes are correlated with an enhanced ability of DB06-1 to load in the CD1d molecules expressed by dendritic cells in vivo. Moreover, structural studies suggest a tighter fit into the CD1d binding groove by DB06-1 compared with \u03b1GalCer. Surprisingly, when iNKT cells previously exposed to DB06-1 are restimulated weeks later, they have greatly increased IL-10 production. Therefore, our data are consistent with a model whereby augmented and or prolonged presentation of a glycolipid Ag leads to increased activation of NK cells and a Th1-skewed immune response, which may result, in part, from enhanced loading into CD1d. Furthermore, our data suggest that strong antigenic stimulation in vivo may lead to the expansion of IL-10-producing iNKT cells, which could counteract the benefits of increased early IFN-\u03b3 production.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AM",
+                    "lastname": "Birkholz",
+                    "name": "Birkholz AM"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Girardi",
+                    "name": "Girardi E"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Wingender",
+                    "name": "Wingender G"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Khurana",
+                    "name": "Khurana A"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Zhao",
+                    "name": "Zhao M"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Zahner",
+                    "name": "Zahner S"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "Illarionov",
+                    "name": "Illarionov PA"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Wen",
+                    "name": "Wen X"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Li",
+                    "name": "Li M"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Yuan",
+                    "name": "Yuan W"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Porcelli",
+                    "name": "Porcelli SA"
+                },
+                {
+                    "initials": "GS",
+                    "lastname": "Besra",
+                    "name": "Besra GS"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Kronenberg",
+                    "name": "Kronenberg M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1500070",
+                    "type": "doi"
+                },
+                {
+                    "id": "26078271",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "A Novel Glycolipid Antigen for NKT Cells That Preferentially Induces IFN-\ufffd\ufffd Production.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1500070",
+            "volume": [
+                null
+            ],
+            "year": [
+                2015
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.82",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4zak"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4zak"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4zak"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "4zak"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 2.82&#8491; resolution",
+    "unique_chain_count": 4
+}

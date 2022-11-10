@@ -1,0 +1,285 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6w9v_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:37:06.439228"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFHLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVKDSNYQLIWGAGTKLIIKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MNAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSVWTGEGSGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-03-23",
+        "deposition_year": 2020,
+        "release_date": "2020-08-05",
+        "release_year": 2020,
+        "revision_date": "2020-09-30",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6W9V | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "6w9v",
+    "pdb_title": "Structure of human MAIT a-f7 TCR in complex with patient MR1-r9h without ligand",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The role unconventional T cells play in protective immunity in humans is unclear. Mucosal-associated invariant T (MAIT) cells are an unconventional T cell subset restricted to the antigen-presenting molecule MR1. Here, we report the discovery of a patient homozygous for a rare Arg31His (R9H in the mature protein) mutation in MR1 who has a history of difficult-to-treat viral and bacterial infections. MR1R9H was unable to present the potent microbially derived MAIT cell stimulatory ligand. The MR1R9H crystal structure revealed that the stimulatory ligand cannot bind due to the mutation lying within, and causing structural perturbation to, the ligand-binding domain of MR1. While MR1R9H could bind and be up-regulated by a MAIT cell inhibitory ligand, the patient lacked circulating MAIT cells. This shows the importance of the stimulatory ligand for MAIT cell selection in humans. The patient had an expanded \u03b3\u03b4 T cell population, indicating a compensatory interplay between these unconventional T cell subsets.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LJ",
+                    "lastname": "Howson",
+                    "name": "Howson LJ"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Awad",
+                    "name": "Awad W"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "von Borstel",
+                    "name": "von Borstel A"
+                },
+                {
+                    "initials": "HJ",
+                    "lastname": "Lim",
+                    "name": "Lim HJ"
+                },
+                {
+                    "initials": "HEG",
+                    "lastname": "McWilliam",
+                    "name": "McWilliam HEG"
+                },
+                {
+                    "initials": "ML",
+                    "lastname": "Sandoval-Romero",
+                    "name": "Sandoval-Romero ML"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Majumdar",
+                    "name": "Majumdar S"
+                },
+                {
+                    "initials": "AR",
+                    "lastname": "Hamzeh",
+                    "name": "Hamzeh AR"
+                },
+                {
+                    "initials": "TD",
+                    "lastname": "Andrews",
+                    "name": "Andrews TD"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "McDermott",
+                    "name": "McDermott DH"
+                },
+                {
+                    "initials": "PM",
+                    "lastname": "Murphy",
+                    "name": "Murphy PM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "JYW",
+                    "lastname": "Mak",
+                    "name": "Mak JYW"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Liu",
+                    "name": "Liu L"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Fairlie",
+                    "name": "Fairlie DP"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Villadangos",
+                    "name": "Villadangos JA"
+                },
+                {
+                    "initials": "MC",
+                    "lastname": "Cook",
+                    "name": "Cook MC"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Turner",
+                    "name": "Turner SJ"
+                },
+                {
+                    "initials": "MS",
+                    "lastname": "Davey",
+                    "name": "Davey MS"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Ojaimi",
+                    "name": "Ojaimi S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/sciimmunol.abc9492",
+                    "type": "doi"
+                },
+                {
+                    "id": "32709702",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "49"
+            ],
+            "journal": {
+                "iso_abbreviation": "Sci Immunol",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Absence of mucosal-associated invariant T cells in a person with a homozygous point mutation in <i>MR1</i>.",
+            "type": "article",
+            "url": "https://www.science.org/doi/10.1126/sciimmunol.abc9492",
+            "volume": [
+                "5"
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.95",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6w9v"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6w9v"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6w9v"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "6w9v"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 1.95&#8491; resolution",
+    "unique_chain_count": 4
+}

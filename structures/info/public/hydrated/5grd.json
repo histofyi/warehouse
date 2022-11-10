@@ -1,0 +1,172 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5grd_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:09.279656"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SSCSSCPLSK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-08-10",
+        "deposition_year": 2016,
+        "release_date": "2017-08-09",
+        "release_year": 2017,
+        "revision_date": "2017-08-09",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5GRD | HLA-A*11:01 binding \"SSCSSCPLSK\"",
+    "pdb_code": "5grd",
+    "pdb_title": "Crystal structure of 10-mer peptide from ebv in complex with hla-a1101.",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "SSCSSCPLSK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "SSCSSCPLSK"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "SSCSSCPLSK",
+    "publication": {
+        "abstract": "Host CD8 T cell response to viral infections involves recognition of 8-10-mer peptides presented by MHC-I molecules. However, proteasomes generate predominantly 2-7-mer peptides, but the role of these peptides is largely unknown. Here, we show that single short peptides of <8-mer from Latent Membrane Protein 2 (LMP2) of Epstein Barr Virus (EBV) can bind HLA-A*11:01 and stimulate CD8<sup>+</sup> cells. Surprisingly, two peptide fragments between 4-7-mer derived from LMP2<sub>(340-349)</sub> were able to complement each other, forming combination epitopes that can stimulate specific CD8<sup>+</sup> T cell responses. Moreover, peptides from self-antigens can complement non-self peptides within the HLA binding cleft, forming neoepitopes. Solved structures of a tetra-complex comprising two peptides, HLA and \u03b22-microglobulin revealed the free terminals of the two peptides to adopt an upward conformation directed towards the T cell receptor. Our results demonstrate a previously unknown mix-and-match combination of dual peptide occupancy in HLA that can generate vast combinatorial complexity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Z",
+                    "lastname": "Xiao",
+                    "name": "Xiao Z"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Ye",
+                    "name": "Ye Z"
+                },
+                {
+                    "initials": "VS",
+                    "lastname": "Tadwal",
+                    "name": "Tadwal VS"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Shen",
+                    "name": "Shen M"
+                },
+                {
+                    "initials": "EC",
+                    "lastname": "Ren",
+                    "name": "Ren EC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41598-017-05171-w",
+                    "type": "doi"
+                },
+                {
+                    "id": "28698575",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Sci Rep",
+                "name": ""
+            },
+            "pages": [
+                "5072"
+            ],
+            "title": "Dual non-contiguous peptide occupancy of HLA class I evoke antiviral human CD8 T cell response and form neo-epitopes with self-antigens.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41598-017-05171-w",
+            "volume": [
+                "7"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5grd"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5grd"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"SSCSSCPLSK\" at 1.80&#8491; resolution",
+    "unique_chain_count": 3
+}

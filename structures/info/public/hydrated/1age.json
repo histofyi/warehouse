@@ -1,0 +1,202 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34671",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*08:01",
+            "slug": "hla_b_08_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1age_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:37:22.913756"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFDTAMSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIFKTNTQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARVAEQDRAYLEGTCVEWLRRYLENGKDTLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GGKKKYRL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1997-03-24",
+        "deposition_year": 1997,
+        "release_date": "1997-06-16",
+        "release_year": 1997,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1AGE | HLA-B*08:01 binding \"GGKKKYRL\"",
+    "pdb_code": "1age",
+    "pdb_title": "Antagonist hiv-1 gag peptides induce structural changes in hla b8-hiv-1 gag peptide (GGKKKYRL-7r mutation)",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "GGKKKYRL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "GGKKKYRL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "GGKKKYRL",
+    "publication": {
+        "abstract": "In the cellular immune response, recognition by CTL-TCRs of viral antigens presented as peptides by HLA class I molecules, triggers destruction of the virally infected cell (Townsend, A.R.M., J. Rothbard, F.M. Gotch, G. Bahadur, D. Wraith, and A.J. McMichael. 1986. Cell. 44:959-968). Altered peptide ligands (APLs) which antagonise CTL recognition of infected cells have been reported (Jameson, S.C., F.R. Carbone, and M.J. Bevan. 1993. J. Exp. Med. 177:1541-1550). In one example, lysis of antigen presenting cells by CTLs in response to recognition of an HLA B8-restricted HIV-1 P17 (aa 24-31) epitope can be inhibited by naturally occurring variants of this peptide, which act as TCR antagonists (Klenerman, P., S. Rowland Jones, S. McAdam, J. Edwards, S. Daenke, D. Lalloo, B. Koppe, W. Rosenberg, D. Boyd, A. Edwards, P. Giangrande, R.E. Phillips, and A. McMichael. 1994. Nature (Lond.). 369:403-407). We have characterised two CTL clones and a CTL line whose interactions with these variants of P17 (aa 24-31) exhibit a variety of responses. We have examined the high resolution crystal structures of four of these APLs in complex with HLA B8 to determine alterations in the shape, chemistry, and local flexibility of the TCR binding surface. The variant peptides cause changes in the recognition surface by three mechanisms: changes contributed directly by the peptide, effects transmitted to the exposed peptide surface, and induced effects on the exposed framework of the peptide binding groove. While the first two mechanisms frequently lead to antagonism, the third has more profound effects on TCR recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SW",
+                    "lastname": "Reid",
+                    "name": "Reid SW"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "McAdam",
+                    "name": "McAdam S"
+                },
+                {
+                    "initials": "KJ",
+                    "lastname": "Smith",
+                    "name": "Smith KJ"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Klenerman",
+                    "name": "Klenerman P"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "O'Callaghan",
+                    "name": "O'Callaghan CA"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Harlos",
+                    "name": "Harlos K"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "JI",
+                    "lastname": "Bell",
+                    "name": "Bell JI"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Stuart",
+                    "name": "Stuart DI"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.184.6.2279",
+                    "type": "doi"
+                },
+                {
+                    "id": "8976183",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "2279-86"
+            ],
+            "title": "Antagonist HIV-1 Gag peptides induce structural changes in HLA B8.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/184/6/2279/7041/Antagonist-HIV1-Gag-Peptides-Induce-Structural",
+            "volume": [
+                "184"
+            ],
+            "year": [
+                1996
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1age"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1age"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*08:01 binding \"GGKKKYRL\" at 2.30&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,279 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA31489",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*52:01",
+            "slug": "hla_b_52_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3w39_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:35:42.106723"
+        },
+        "2": {
+            "assembly_name": "3w39_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:35:43.879573"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "MGSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRETQISKTNTQTYRENLRIALRYYNQSEAGSHTWQTMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVEWLRRHLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "TAFTIPSI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-12-13",
+        "deposition_year": 2012,
+        "release_date": "2013-02-13",
+        "release_year": 2013,
+        "revision_date": "2013-02-13",
+        "revision_year": 2013
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3W39 | HLA-B*52:01 binding \"TAFTIPSI\"",
+    "pdb_code": "3w39",
+    "pdb_title": "Crystal structure of hla-b*5201 in complexed with hiv immunodominant epitope (TAFTIPSI)",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "TAFTIPSI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "TAFTIPSI"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "TAFTIPSI",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "TAFTIPSI"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "TAFTIPSI",
+    "publication": {
+        "abstract": "<h4>Unlabelled</h4>Antibody production by B cells in the absence of CD4 T cell help has been shown to be necessary and sufficient for protection against secondary orthopoxvirus (OPV) infections. This conclusion is based on short-term depletion of leukocyte subsets in vaccinated animals, in addition to passive transfer of immune serum to naive hosts that are subsequently protected from lethal orthopoxvirus infection. Here, we show that CD4 T cell help is necessary for neutralizing antibody production and virus control during a secondary ectromelia virus (ECTV) infection. A crucial role for CD4 T cells was revealed when depletion of this subset was extended beyond the acute phase of infection. Sustained depletion of CD4 T cells over several weeks in vaccinated animals during a secondary infection resulted in gradual diminution of B cell responses, including neutralizing antibody, contemporaneous with a corresponding increase in the viral load. Long-term elimination of CD8 T cells alone delayed virus clearance, but prolonged depletion of both CD4 and CD8 T cells resulted in death associated with uncontrolled virus replication. In the absence of CD4 T cells, perforin- and granzyme A- and B-dependent effector functions of CD8 T cells became critical. Our data therefore show that both CD4 T cell help for antibody production and CD8 T cell effector function are critical for protection against secondary OPV infection. These results are consistent with the notion that the effectiveness of the smallpox vaccine is related to its capacity to induce both B and T cell memory.<h4>Importance</h4>Smallpox eradication through vaccination is one of the most successful public health endeavors of modern medicine. The use of various orthopoxvirus (OPV) models to elucidate correlates of vaccine-induced protective immunity showed that antibody is critical for protection against secondary infection, whereas the role of T cells is unclear. Short-term leukocyte subset depletion in vaccinated animals or transfer of immune serum to naive, immunocompetent hosts indicates that antibody alone is necessary and sufficient for protection. We show here that long-term depletion of CD4 T cells over several weeks in vaccinated animals during secondary OPV challenge reveals an important role for CD4 T cell-dependent antibody responses in effective virus control. Prolonged elimination of CD8 T cells alone delayed virus clearance, but depletion of both T cell subsets resulted in death associated with uncontrolled virus replication. Thus, vaccinated individuals who subsequently acquire T cell deficiencies may not be protected against secondary OPV infection.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Yagita",
+                    "name": "Yagita Y"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Kuse",
+                    "name": "Kuse N"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kuroki",
+                    "name": "Kuroki K"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Gatanaga",
+                    "name": "Gatanaga H"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Carlson",
+                    "name": "Carlson JM"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Chikata",
+                    "name": "Chikata T"
+                },
+                {
+                    "initials": "ZL",
+                    "lastname": "Brumme",
+                    "name": "Brumme ZL"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Murakoshi",
+                    "name": "Murakoshi H"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Akahoshi",
+                    "name": "Akahoshi T"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Pfeifer",
+                    "name": "Pfeifer N"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Mallal",
+                    "name": "Mallal S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "John",
+                    "name": "John M"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Ose",
+                    "name": "Ose T"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Matsubara",
+                    "name": "Matsubara H"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Kanda",
+                    "name": "Kanda R"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Fukunaga",
+                    "name": "Fukunaga Y"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Honda",
+                    "name": "Honda K"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Kawashima",
+                    "name": "Kawashima Y"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Ariumi",
+                    "name": "Ariumi Y"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Oka",
+                    "name": "Oka S"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Maenaka",
+                    "name": "Maenaka K"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Takiguchi",
+                    "name": "Takiguchi M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1128/jvi.02572-12",
+                    "type": "doi"
+                },
+                {
+                    "id": "23236061",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Virol.",
+                "name": ""
+            },
+            "pages": [
+                "2253-63"
+            ],
+            "title": "Distinct HIV-1 Escape Patterns Selected by Cytotoxic T Cells with Identical Epitope Specificity.",
+            "type": "article",
+            "url": "https://journals.asm.org/doi/10.1128/JVI.02572-12",
+            "volume": [
+                "87"
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3w39"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3w39"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*52:01 binding \"TAFTIPSI\" at 3.10&#8491; resolution",
+    "unique_chain_count": 3
+}

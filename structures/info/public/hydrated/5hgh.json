@@ -1,0 +1,202 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5hgh_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:11.755515"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MGSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RYPLTFGWCF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-01-08",
+        "deposition_year": 2016,
+        "release_date": "2016-06-08",
+        "release_year": 2016,
+        "revision_date": "2019-12-18",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5HGH | HLA-A*24:02 binding \"RYPLTFGWCF\"",
+    "pdb_code": "5hgh",
+    "pdb_title": "Hla*a2402 complexed with hiv nef138 10mer epitope",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "RYPLTFGWCF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RYPLTFGWCF"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RYPLTFGWCF",
+    "publication": {
+        "abstract": "The mechanistic basis for the progressive accumulation of Y(135)F Nef mutant viruses in the HIV-1-infected population remains poorly understood. Y(135)F viruses carry the 2F mutation within RW8 and RF10, which are two HLA-A(\u2217)24:02-restricted superimposed Nef epitopes recognized by distinct and adaptable CD8(+) T\u00a0cell responses. We combined comprehensive analysis of the T\u00a0cell receptor repertoire and cross-reactive potential of wild-type or 2F RW8- and RF10-specific CD8(+) T\u00a0cells with peptide-MHC complex stability and crystal structure studies. We find that, by affecting direct and water-mediated hydrogen bond networks within the peptide-MHC complex, the 2F mutation reduces both TCR and HLA binding. This suggests an advantage underlying the evolution of the 2F variant with decreased CD8(+) T\u00a0cell efficacy. Our study provides a refined understanding of HIV-1 and CD8(+) T\u00a0cell co-adaptation at the population level.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "X",
+                    "lastname": "Sun",
+                    "name": "Sun X"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Shi",
+                    "name": "Shi Y"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Akahoshi",
+                    "name": "Akahoshi T"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Fujiwara",
+                    "name": "Fujiwara M"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Gatanaga",
+                    "name": "Gatanaga H"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Sch\u00f6nbach",
+                    "name": "Sch\u00f6nbach C"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Kuse",
+                    "name": "Kuse N"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Appay",
+                    "name": "Appay V"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Oka",
+                    "name": "Oka S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Takiguchi",
+                    "name": "Takiguchi M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.celrep.2016.05.017",
+                    "type": "doi"
+                },
+                {
+                    "id": "27239036",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "Cell Rep",
+                "name": ""
+            },
+            "pages": [
+                "2279-2291"
+            ],
+            "title": "Effects of a Single Escape Mutation on T Cell and HIV-1 Co-adaptation.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S221112471630585X",
+            "volume": [
+                "15"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.39",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5hgh"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5hgh"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*24:02 binding \"RYPLTFGWCF\" at 2.39&#8491; resolution",
+    "unique_chain_count": 3
+}

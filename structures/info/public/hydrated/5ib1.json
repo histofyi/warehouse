@@ -1,0 +1,177 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34811",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:05",
+            "slug": "hla_b_27_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5ib1_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:30:13.198116"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQDAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RRKWRRWHL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-02-22",
+        "deposition_year": 2016,
+        "release_date": "2017-02-01",
+        "release_year": 2017,
+        "revision_date": "2019-07-24",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5IB1 | HLA-B*27:05 binding \"RRKWRRWHL\"",
+    "pdb_code": "5ib1",
+    "pdb_title": "Crystal structure of hla-b*27:05 complexed with the self-peptide pvipr measured at 295 k",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RRKWRRWHL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RRKWRRWHL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RRKWRRWHL",
+    "publication": {
+        "abstract": "Conformational changes of major histocompatibility complex (MHC) antigens have the potential to be recognized by T cells and may arise from polymorphic variation of the MHC molecule, the binding of modifying ligands, or both. Here, we investigated whether metal ions could affect allele-dependent structural variation of the two minimally distinct human leukocyte antigen (HLA)-B*27:05 and HLA-B*27:09 subtypes, which exhibit differential association with the rheumatic disease ankylosing spondylitis (AS). We employed NMR spectroscopy and X-ray crystallography coupled with ensemble refinement to study the AS-associated HLA-B*27:05 subtype and the AS-nonassociated HLA-B* 27:09 in complex with the self-peptide pVIPR (RRKWRRWHL). Both techniques revealed that pVIPR exhibits a higher degree of flexibility when complexed with HLA-B*27:05 than with HLA-B*27:09. Furthermore, we found that the binding of the metal ion Cu<sup>2+</sup> or Ni<sup>2+</sup>, but not Mn<sup>2+</sup>, Zn<sup>2+</sup>, or Hg<sup>2+</sup>, affects the structure of a pVIPR-bound HLA-B*27 molecule in a subtype-dependent manner. In HLA-B*27:05, the metals triggered conformational reorientations of pVIPR, but no such structural changes were observed in the HLA-B*27:09 subtype, with or without bound metal ion. These observations provide the first demonstration that not only major histocompatibility complex class II, but also class I, molecules can undergo metal ion-induced conformational alterations. Our findings suggest that metals may have a role in triggering rheumatic diseases such as AS and also have implications for the molecular basis of metal-induced hypersensitivities and allergies.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "R",
+                    "lastname": "Driller",
+                    "name": "Driller R"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Ballaschk",
+                    "name": "Ballaschk M"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Schmieder",
+                    "name": "Schmieder P"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Uchanska-Ziegler",
+                    "name": "Uchanska-Ziegler B"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Ziegler",
+                    "name": "Ziegler A"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Loll",
+                    "name": "Loll B"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.RA119.008937",
+                    "type": "doi"
+                },
+                {
+                    "id": "31296658",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Metal-triggered conformational reorientation of a self-peptide bound to a disease-associated HLA-B*27 subtype.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820303835",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.91",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5ib1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5ib1"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:05 binding \"RRKWRRWHL\" at 1.91&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,247 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3tvm_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "I",
+                "J"
+            ],
+            "downloaded_at": "2022-11-09T14:45:55.853662"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKTQVEQSPQSLVVRQGENCVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDEGYTQYFGPGTRLLVLEDLRNVTPPKVSLFEPSKAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-09-20",
+        "deposition_year": 2011,
+        "release_date": "2012-02-01",
+        "release_year": 2012,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3TVM | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "3tvm",
+    "pdb_title": "Structure of the mouse CD1d-smc124-inkt TCR complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Natural killer T (NKT) cells recognize glycolipids presented by CD1d. The first antigen described, \u03b1-galactosyl ceramide (\u03b1GalCer), is a potential anticancer agent whose activity depends upon IFN-\u03b3 secretion. We report two analogs of \u03b1GalCer based on a naturally occurring glycosphingolipid, plakoside A. These compounds induce enhanced IFN-\u03b3 that correlates with detergent-resistant binding to CD1d and an increased stability of the lipid-CD1d complexes on antigen-presenting cells. Structural analysis on one of the analogs indicates that it is more deeply bound inside the CD1d groove, suggesting tighter lipid-CD1d interactions. To our knowledge, this is the first example in which structural information provides an explanation for the increased lipid-CD1d stability, likely responsible for the Th1 bias. We provide insights into the mechanism of IFN-\u03b3-inducing compounds, and because our compounds activate human NKT cells, they could have therapeutic utility.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AJ",
+                    "lastname": "Tyznik",
+                    "name": "Tyznik AJ"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Farber",
+                    "name": "Farber E"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Girardi",
+                    "name": "Girardi E"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Birkholz",
+                    "name": "Birkholz A"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Li",
+                    "name": "Li Y"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Chitale",
+                    "name": "Chitale S"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "So",
+                    "name": "So R"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Arora",
+                    "name": "Arora P"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Khurana",
+                    "name": "Khurana A"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Porcelli",
+                    "name": "Porcelli SA"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Kronenberg",
+                    "name": "Kronenberg M"
+                },
+                {
+                    "initials": "AR",
+                    "lastname": "Howell",
+                    "name": "Howell AR"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.chembiol.2011.10.015",
+                    "type": "doi"
+                },
+                {
+                    "id": "22195564",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "Chem. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "1620-30"
+            ],
+            "title": "Glycolipids that elicit IFN-\ufffd\ufffd-biased responses from natural killer T cells.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074552111004005",
+            "volume": [
+                "18"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3tvm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3tvm"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3tvm"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "3tvm"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 2.80&#8491; resolution",
+    "unique_chain_count": 4
+}

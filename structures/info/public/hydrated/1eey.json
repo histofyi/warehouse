@@ -1,0 +1,204 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1eey_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:37:57.552410"
+        },
+        "2": {
+            "assembly_name": "1eey_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:37:58.178758"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILSALVGIV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2000-02-04",
+        "deposition_year": 2000,
+        "release_date": "2003-06-10",
+        "release_year": 2003,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1EEY | HLA-A*02:01 binding \"ILSALVGIV\"",
+    "pdb_code": "1eey",
+    "pdb_title": "Crystal structure determination of hla a2 complexed to peptide gp2 with the substitution (i2l/v5l/l9v)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ILSALVGIV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILSALVGIV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "ILSALVGIV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILSALVGIV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILSALVGIV",
+    "publication": {
+        "abstract": "An immunogenic peptide (GP2) derived from HER-2/neu binds to HLA-A2.1 very poorly. Some altered-peptide ligands (APL) of GP2 have increased binding affinity and generate improved cytotoxic T lymphocyte recognition of GP2-presenting tumor cells, but most do not. Increases in binding affinity of single-substitution APL are not additive in double-substitution APL. A common first assumption about peptide binding to class I major histocompatibility complex is that each residue binds independently. In addition, immunologists interested in immunotherapy frequently assume that anchor substitutions do not affect T cell receptor contact residues. However, the crystal structures of two GP2 APL show that the central residues change position depending on the identity of the anchor residue(s). Thus, it is clear that subtle changes in the identity of anchor residues may have significant effects on the positions of the T cell receptor contact residues.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AK",
+                    "lastname": "Sharma",
+                    "name": "Sharma AK"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Kuhns",
+                    "name": "Kuhns JJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Yan",
+                    "name": "Yan S"
+                },
+                {
+                    "initials": "RH",
+                    "lastname": "Friedline",
+                    "name": "Friedline RH"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Long",
+                    "name": "Long B"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Tisch",
+                    "name": "Tisch R"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Collins",
+                    "name": "Collins EJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M010791200",
+                    "type": "doi"
+                },
+                {
+                    "id": "11287414",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "24"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "21443-9"
+            ],
+            "title": "Class I major histocompatibility complex anchor substitutions alter the conformation of T cell receptor contacts.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820787144",
+            "volume": [
+                "276"
+            ],
+            "year": [
+                2001
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.25",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1eey"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1eey"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"ILSALVGIV\" at 2.25&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,212 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA00091",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*30:03",
+            "slug": "hla_a_30_03",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6j29_1",
+            "chains": [
+                "A",
+                "C",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:26:37.590517"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFSTSVSRPGSGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAHSQTDRENLGTLRGYYNQSEAGSHTIQIMYGCDVGSDGRFLRGYEQHAYDGKDYIALNEDLRSWTAADMAAQITQRKWEAARRAEQLRAYLEGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "QIMYNYPAM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-12-31",
+        "deposition_year": 2018,
+        "release_date": "2019-09-25",
+        "release_year": 2019,
+        "revision_date": "2019-09-25",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6J29 | HLA-A*30:03 binding \"QIMYNYPAM\"",
+    "pdb_code": "6j29",
+    "pdb_title": "The structure of hla-a*3003/mtb",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "QIMYNYPAM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QIMYNYPAM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "QIMYNYPAM",
+    "publication": {
+        "abstract": "Human leukocyte antigen (HLA) alleles have a high degree of polymorphism, which determines their peptide-binding motifs and subsequent T-cell receptor recognition. The simplest way to understand the cross-presentation of peptides by different alleles is to classify these alleles into supertypes. A1 and A3 HLA supertypes are widely distributed in humans. However, direct structural and functional evidence for peptide presentation features of key alleles (e.g., HLA-A<sup>*</sup>30:01 and -A<sup>*</sup>30:03) are lacking. Herein, the molecular basis of peptide presentation of HLA-A<sup>*</sup>30:01 and -A<sup>*</sup>30:03 was demonstrated by crystal structure determination and thermostability measurements of complexes with T-cell epitopes from influenza virus (NP44), human immunodeficiency virus (RT313), and <i>Mycobacterium tuberculosis</i> (MTB). When binding to the HIV peptide, RT313, the P\u03a9-Lys anchoring modes of HLA-A<sup>*</sup>30:01, and -A<sup>*</sup>30:03 were similar to those of HLA-A<sup>*</sup>11:01 in the A3 supertype. However, HLA-A<sup>*</sup>30:03, but not -A<sup>*</sup>30:01, also showed binding with the HLA<sup>*</sup>01:01-favored peptide, NP44, but with a specific structural conformation. Thus, different from our previous understanding, HLA-A<sup>*</sup>30:01 and -A<sup>*</sup>30:03 have specific peptide-binding characteristics that may lead to their distinct supertype-featured binding peptide motifs. Moreover, we also found that residue 77 in the F pocket was one of the key residues for the divergent peptide presentation characteristics of HLA-A<sup>*</sup>30:01 and -A<sup>*</sup>30:03. Interchanging residue 77 between HLA-A<sup>*</sup>30:01 and HLA-A<sup>*</sup>30:03 switched their presented peptide profiles. Our results provide important recommendations for screening virus and tumor-specific peptides among the population with prevalent HLA supertypes for vaccine development and immune interventions.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Zhu",
+                    "name": "Zhu S"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Liu",
+                    "name": "Liu K"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chai",
+                    "name": "Chai Y"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Wu",
+                    "name": "Wu Y"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Lu",
+                    "name": "Lu D"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Xiao",
+                    "name": "Xiao W"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Cheng",
+                    "name": "Cheng H"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Zhao",
+                    "name": "Zhao Y"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Ding",
+                    "name": "Ding C"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lyu",
+                    "name": "Lyu J"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Lou",
+                    "name": "Lou Y"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "WJ",
+                    "lastname": "Liu",
+                    "name": "Liu WJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3389/fimmu.2019.01709",
+                    "type": "doi"
+                },
+                {
+                    "id": "31396224",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Front Immunol",
+                "name": ""
+            },
+            "pages": [
+                "1709"
+            ],
+            "title": "Divergent Peptide Presentations of HLA-A<sub>*</sub>30 Alleles Revealed by Structures With Pathogen Peptides.",
+            "type": "article",
+            "url": "https://www.frontiersin.org/article/10.3389/fimmu.2019.01709/full",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6j29"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6j29"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*30:03 binding \"QIMYNYPAM\" at 1.60&#8491; resolution",
+    "unique_chain_count": 3
+}

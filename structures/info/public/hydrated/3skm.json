@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34671",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*08:01",
+            "slug": "hla_b_08_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3skm_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:58.232770"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFDTAMSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIFKTNTQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARVAEQDRAYLEGTCVEWLRRYLENGKDTLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "FLRGRAYVL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-06-22",
+        "deposition_year": 2011,
+        "release_date": "2012-02-29",
+        "release_year": 2012,
+        "revision_date": "2012-08-01",
+        "revision_year": 2012
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3SKM | HLA-B*08:01 binding \"FLRGRAYVL\"",
+    "pdb_code": "3skm",
+    "pdb_title": "Crystal structure of the hla-b8FLRGRAYVL, mutant g8v of the flr peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "FLRGRAYVL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "FLRGRAYVL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "FLRGRAYVL",
+    "publication": {
+        "abstract": "EBV is a ubiquitous and persistent human pathogen, kept in check by the cytotoxic T cell response. In this study, we investigated how three TCRs, which differ in their T cell immunodominance hierarchies and gene usage, interact with the same EBV determinant (FLRGRAYGL), bound to the same Ag-presenting molecule, HLA-B8. We found that the three TCRs exhibit differing fine specificities for the viral Ag. Further, via structural and biophysical approaches, we demonstrated that the viral Ag provides the greatest energetic contribution to the TCR-peptide-HLA interaction, while focusing on a few adjacent HLA-based interactions to further tune fine-specificity requirements. Thus, the TCR engages the peptide-HLA with the viral Ag as the main glue, such that neighboring TCR-MHC interactions are recruited as a supportive adhesive. Collectively, we provide a portrait of how the host's adaptive immune response differentially engages a common viral Ag.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "PG",
+                    "lastname": "Wilmann",
+                    "name": "Wilmann PG"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Halim",
+                    "name": "Halim H"
+                },
+                {
+                    "initials": "YC",
+                    "lastname": "Liu",
+                    "name": "Liu YC"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1102686",
+                    "type": "doi"
+                },
+                {
+                    "id": "22140258",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "311-21"
+            ],
+            "title": "A structural basis for varied \ufffd\ufffd\ufffd\ufffd TCR usage against an immunodominant EBV antigen restricted to a HLA-B8 molecule.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1102686",
+            "volume": [
+                "188"
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3skm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3skm"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*08:01 binding \"FLRGRAYVL\" at 1.80&#8491; resolution",
+    "unique_chain_count": 3
+}

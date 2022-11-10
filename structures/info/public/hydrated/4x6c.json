@@ -1,0 +1,230 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4x6c_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:33:20.736136"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDMGSLVPR"
+        },
+        "cd1a": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "LKEPLSFHVIWIASFYNHSWKQNLVSGWLSDLQTHTWDSNSSTIVFLWPWSRGNFSNEEWKELETLFRIRTIRSFEGIRRYAHELQFEYPFEIQVTGGCELHSGKVSGSFLQLAYQGSDFVSFQNNSWLPYPVAGNMAKHFCKVLNQNQHENDITHNLLSDTCPRFILGLLDAGKAHLQRQVKPEAWLSHGPSPGPGHLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQRGDILPSADGTWYLRATLEVAAGEAADLSCRVKHSSLEGQDIVLYWEGSLVPR"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QKEVEQDPGPLSVPEGAIVSLNCTYSNSAFQYFMWYRQYSRKGPELLMYTYSSGNKEDGRFTAQVDKSSKYISLFIRDSQPSDSATYLCAMSTSLPNAGKSTFGDGTTLTVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "NAGVTQTPKFRVLKTGQSMTLLCAQDMNHEYMYWYRQDPGMGLRLIHYSVGEGTTAKGEVPDGYNVSRLKKQNFLLGLESAAPSQTSVYFCASRYFLPTQGMGAFFGQGTRLTVVEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-12-08",
+        "deposition_year": 2014,
+        "release_date": "2015-01-28",
+        "release_year": 2015,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1a_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1a",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4X6C | Non-classical MHC Class I molecule CD1a with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "4x6c",
+    "pdb_title": "Cd1a ternary complex with lysophosphatidylcholine and bk6 TCR",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Bile acid (BA) homeostasis is regulated by the extensive cross-talk between liver and intestine. Many bile-acid-activated signaling pathways have become attractive therapeutic targets for the treatment of metabolic disorders. In this study we investigated the regulatory mechanisms of BA in the intestine. We showed that the BA levels in the gallbladder and faeces were significantly increased, whereas serum BA levels decreased in systemic Kr\u00fcppel-like factor 9 (Klf9) deficiency (Klf9<sup>-/-</sup>) mice. These phenotypes were also observed in the intestine-specific Klf9-deleted (Klf9<sup>vil-/-</sup>) mice. In contrast, BA levels in the gallbladder and faeces were reduced, whereas BA levels in the serum were increased in intestinal Klf9 transgenic (Klf9<sup>Rosa26+/+</sup>) mice. By using a combination of biochemical, molecular and functional assays, we revealed that Klf9 promoted the expression of apical sodium-dependent bile acid transporter (Asbt) in the terminal ileum to enhance BA absorption in the intestine. Reabsorbed BA affected liver BA synthetic enzymes by regulating Fgf15 expression. This study has identified a previously neglected transcriptional pathway that regulates BA homeostasis.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "RW",
+                    "lastname": "Birkinshaw",
+                    "name": "Birkinshaw RW"
+                },
+                {
+                    "initials": "DG",
+                    "lastname": "Pellicci",
+                    "name": "Pellicci DG"
+                },
+                {
+                    "initials": "TY",
+                    "lastname": "Cheng",
+                    "name": "Cheng TY"
+                },
+                {
+                    "initials": "AN",
+                    "lastname": "Keller",
+                    "name": "Keller AN"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sandoval-Romero",
+                    "name": "Sandoval-Romero M"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "de Jong",
+                    "name": "de Jong A"
+                },
+                {
+                    "initials": "AP",
+                    "lastname": "Uldrich",
+                    "name": "Uldrich AP"
+                },
+                {
+                    "initials": "DB",
+                    "lastname": "Moody",
+                    "name": "Moody DB"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.3098",
+                    "type": "doi"
+                },
+                {
+                    "id": "25642819",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "\ufffd\ufffd\ufffd\ufffd T cell antigen receptor recognition of CD1a presenting self lipid ligands.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.3098",
+            "volume": [
+                null
+            ],
+            "year": [
+                2015
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4x6c"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4x6c"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4x6c"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "F"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "4x6c"
+    },
+    "title": "Non-classical MHC Class I molecule CD1a with Natural Killer Alpha/Beta T cell receptor at 2.80&#8491; resolution",
+    "unique_chain_count": 4
+}

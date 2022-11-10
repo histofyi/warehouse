@@ -1,0 +1,250 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6tmo_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:29:08.120233"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EAAGIGILTV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "KQEVEQNSGPLSVPEGAIASLNCTYSFLGSQSFFWYRQYSGKSPELIMFTYREGDKEDGRFTAQLNKASQHVSLLIRDSQPSDSATYLCAVNDGGRLTFGDGTTLTVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFF",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "SQTIHQWPATLVQPVGSPLSLECTVEGTSNPNLYWYRQAAGRGPQLLFYWGPFGQISSEVPQNLSASRPQDRQFILSSKKLLLSDSGFYLCAWSETGLGMGGWQFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV30"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-12-05",
+        "deposition_year": 2019,
+        "release_date": "2020-10-07",
+        "release_year": 2020,
+        "revision_date": "2020-10-14",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6TMO | HLA-A*02:01 presenting \"EAAGIGILTV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "6tmo",
+    "pdb_title": "Structure determination of an enhanced affinity TCR, a24b17, in complex with hla-a*02:01 presenting a mart-1 peptide, EAAGIGILTV",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "EAAGIGILTV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "EAAGIGILTV"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "EAAGIGILTV",
+    "publication": {
+        "abstract": "Immuno-oncology approaches that utilize T\u00a0cell receptors (TCRs) are becoming highly attractive because of their potential to target virtually all cellular proteins, including cancer-specific epitopes, via the recognition of peptide-human leukocyte antigen (pHLA) complexes presented at the cell surface. However, because natural TCRs generally recognize cancer-derived pHLAs with very weak affinities, efforts have been made to enhance their binding strength, in some cases by several million-fold. In this study, we investigated the mechanisms underpinning human TCR affinity enhancement by comparing the crystal structures of engineered enhanced affinity TCRs with those of their wild-type progenitors. Additionally, we performed molecular dynamics simulations to better understand the energetic mechanisms driving the affinity enhancements. These data demonstrate that supra-physiological binding affinities can be achieved without altering native TCR-pHLA binding modes via relatively subtle modifications to the interface contacts, often driven through the addition of\u00a0buried hydrophobic residues. Individual energetic components of the TCR-pHLA interaction governing affinity enhancements were distinct and highly variable for each TCR, often resulting from additive, or knock-on, effects beyond the mutated residues. This comprehensive analysis of affinity-enhanced TCRs has important implications for the future rational design of engineered TCRs as efficacious and safe drugs for cancer treatment.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "RM",
+                    "lastname": "Crean",
+                    "name": "Crean RM"
+                },
+                {
+                    "initials": "BJ",
+                    "lastname": "MacLachlan",
+                    "name": "MacLachlan BJ"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Madura",
+                    "name": "Madura F"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Whalley",
+                    "name": "Whalley T"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "CJ",
+                    "lastname": "Holland",
+                    "name": "Holland CJ"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "McMurran",
+                    "name": "McMurran C"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Harper",
+                    "name": "Harper S"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Godkin",
+                    "name": "Godkin A"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                },
+                {
+                    "initials": "CR",
+                    "lastname": "Pudney",
+                    "name": "Pudney CR"
+                },
+                {
+                    "initials": "MW",
+                    "lastname": "van der Kamp",
+                    "name": "van der Kamp MW"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.omto.2020.07.008",
+                    "type": "doi"
+                },
+                {
+                    "id": "32913893",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "443-456"
+            ],
+            "title": "Molecular Rules Underpinning Enhanced Affinity Binding of Human T Cell Receptors Engineered for Immunotherapy.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S2372770520301121",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6tmo"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6tmo"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6tmo"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV30"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "6tmo"
+    },
+    "title": "HLA-A*02:01 presenting \"EAAGIGILTV\" to Alpha/Beta T cell receptor at 2.10&#8491; resolution",
+    "unique_chain_count": 5
+}

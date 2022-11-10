@@ -1,0 +1,238 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34811",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:05",
+            "slug": "hla_b_27_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6vq2_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:38:39.116106"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQDAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KRWIILGLNKIVRM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-02-04",
+        "deposition_year": 2020,
+        "release_date": "2021-02-10",
+        "release_year": 2021,
+        "revision_date": "2022-03-09",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6VQ2 | HLA-B*27:05 binding \"KRWIILGLNKIVRM\"",
+    "pdb_code": "6vq2",
+    "pdb_title": "Hla-b*27:05 presenting an hiv-1 14mer peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "KRWIILIVRM",
+            "chain_id": "C",
+            "features": [
+                "central_gap"
+            ],
+            "full_length": 14,
+            "full_sequence": "KRWIILGLNKIVRM",
+            "gap_ends_at": 11,
+            "gap_length": 4,
+            "gap_sequence": "GLNK",
+            "gap_start_after": 6,
+            "gapped_sequence": "KRWIIL----IVRM"
+        }
+    },
+    "peptide_length": 14,
+    "peptide_length_name": "tetradecamer",
+    "peptide_sequence": "KRWIILGLNKIVRM",
+    "publication": {
+        "abstract": "Cytotoxic T lymphocyte (CTL) and natural killer (NK) cell responses to a single optimal 10-mer epitope (KK10) in the human immunodeficiency virus type-1 (HIV-1) protein p24Gag are associated with enhanced immune control in patients expressing human leukocyte antigen (HLA)-B<sup>\u2217</sup>27:05. We find that proteasomal activity generates multiple length variants of KK10 (4-14 amino acids), which bind TAP and HLA-B<sup>\u2217</sup>27:05. However, only epitope forms \u22658 amino acids evoke peptide length-specific and cross-reactive CTL responses. Structural analyses reveal that all epitope forms bind HLA-B<sup>\u2217</sup>27:05 via a conserved N-terminal motif, and competition experiments show that the truncated epitope forms outcompete immunogenic epitope forms for binding to HLA-B<sup>\u2217</sup>27:05. Common viral escape mutations abolish (L136M) or impair (R132K) production of KK10 and longer epitope forms. Peptide length influences how well the inhibitory NK cell receptor KIR3DL1 binds HLA-B<sup>\u2217</sup>27:05 peptide complexes and how intraepitope mutations affect this interaction. These results identify a viral escape mechanism from CTL and NK responses based on differential antigen processing and peptide competition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Pymm, P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Tenzer, S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Wee, E."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Weimershaus, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Burgevin, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Kollnberger, S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gerstoft, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Josephs, T.M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Ladell, K."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "McLaren, J.E."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Appay, V."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Price, D.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Fugger, L."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Bell, J.I."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Schild, H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "van Endert, P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Harkiolaki, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Iversen, A.K."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.celrep.2022.110449",
+                    "type": "doi"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "-"
+            ],
+            "title": "Epitope length variants balance protective immune responses and viral escape in HIV-1 infection",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S2211124722001760",
+            "volume": [
+                "38"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.25",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6vq2"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6vq2"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:05 binding \"KRWIILGLNKIVRM\" at 2.25&#8491; resolution",
+    "unique_chain_count": 3
+}

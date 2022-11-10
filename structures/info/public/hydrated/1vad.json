@@ -1,0 +1,172 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1vad_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:27:07.718618"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SRDHSRTPM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1994-11-01",
+        "deposition_year": 1994,
+        "release_date": "1996-06-20",
+        "release_year": 1996,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1VAD | H2-Kb binding \"SRDHSRTPM\"",
+    "pdb_code": "1vad",
+    "pdb_title": "Mhc Class I h-2kb heavy chain complexed with beta-2 microglobulin and yeast alpha-glucosidase",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "SRDHSRTPM",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SRDHSRTPM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SRDHSRTPM",
+    "publication": {
+        "abstract": "Sequence analysis of peptides naturally presented by major histocompatibility complex (MHC) class I molecules has revealed allele-specific motifs in which the peptide length and the residues observed at certain positions are restricted. Nevertheless, peptides containing the standard motif often fail to bind with high affinity or form physiologically stable complexes. Here we present the crystal structure of a well-characterized antigenic peptide from ovalbumin [OVA-8, ovalbumin-(257-264), SIINFEKL] in complex with the murine MHC class I H-2Kb molecule at 2.5-A resolution. Hydrophobic peptide residues Ile-P2 and Phe-P5 are packed closely together into binding pockets B and C, suggesting that the interplay of peptide anchor (P5) and secondary anchor (P2) residues can couple the preferred sequences at these positions. Comparison with the crystal structures of H-2Kb in complex with peptides VSV-8 (RGYVYQGL) and SEV-9 (FAPGNYPAL), where a Tyr residue is used as the C pocket anchor, reveals that the conserved water molecule that binds into the B pocket and mediates hydrogen bonding from the buried anchor hydroxyl group could not be likewise positioned if the P2 side chain were of significant size. Based on this structural evidence, H-2Kb has at least two submotifs: one with Tyr at P5 (or P6 for nonamer peptides) and a small residue at P2 (i.e., Ala or Gly) and another with Phe at P5 and a medium-sized hydrophobic residue at P2 (i.e., Ile). Deciphering of these secondary submotifs from both crystallographic and immunological studies of MHC peptide binding should increase the accuracy of T-cell epitope prediction.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DH",
+                    "lastname": "Fremont",
+                    "name": "Fremont DH"
+                },
+                {
+                    "initials": "EA",
+                    "lastname": "Stura",
+                    "name": "Stura EA"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Matsumura",
+                    "name": "Matsumura M"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "Peterson",
+                    "name": "Peterson PA"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.92.7.2479",
+                    "type": "doi"
+                },
+                {
+                    "id": "7708669",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "2479-83"
+            ],
+            "title": "Crystal structure of an H-2Kb-ovalbumin peptide complex reveals the interplay of primary and secondary anchor positions in the major histocompatibility complex binding groove.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.92.7.2479",
+            "volume": [
+                "92"
+            ],
+            "year": [
+                1995
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1vad"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1vad"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"SRDHSRTPM\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,210 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01898",
+            "locus": "h2-q",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "H2-Q10",
+            "note": "",
+            "score": null,
+            "slug": "h2_q10",
+            "species_stem": "h2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5j6h_1",
+            "chains": [
+                "A",
+                "B",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:44:50.396654"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.82,
+            "sequence": "MGSHSMRYFETSVSRPGLGEPRFIIVGYVDDTQFVRFDSDAETPRMEPRAPWMEQEGPEYWERETQRAKGNEQSFHVSLRTLLGYYNQSESGSHTIQWMYGCKVGSDGRFLRGYLQYAYDGRDYIALNEDLKTWTAADVAAIITRRKWEQAGAAEYYRAYLEAECVEWLLRYLELGKETLLRTDPPKTHVTHHPGSEGDVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCHVYHEGLPEPLTLRWEPPPSTDSIMSHIADLLWPSLKLWWYL"
+        },
+        "peptide": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VGITNVDL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-04-05",
+        "deposition_year": 2016,
+        "release_date": "2016-07-13",
+        "release_year": 2016,
+        "revision_date": "2020-01-08",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-q",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5J6H | H2-Q10 binding \"VGITNVDL\"",
+    "pdb_code": "5j6h",
+    "pdb_title": "Recognition of the MHC class Ib molecule H2-Q10 by the natural killer cell receptor Ly49C.",
+    "peptide": {
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "VGITNVDL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "VGITNVDL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "VGITNVDL",
+    "publication": {
+        "abstract": "Murine natural killer (NK) cells are regulated by the interaction of Ly49 receptors with major histocompatibility complex class I molecules (MHC-I). Although the ligands for inhibitory Ly49 were considered to be restricted to classical MHC (MHC-Ia), we have shown that the non-classical MHC molecule (MHC-Ib) H2-M3 was a ligand for the inhibitory Ly49A. Here we establish that another MHC-Ib, H2-Q10, is a bona fide ligand for the inhibitory Ly49C receptor. H2-Q10 bound to Ly49C with a marginally lower affinity (\u223c5 \u03bcm) than that observed between Ly49C and MHC-Ia (H-2K(b)/H-2D(d), both \u223c1 \u03bcm), and this recognition could be prevented by cis interactions with H-2K in situ To understand the molecular details underpinning Ly49\u00b7MHC-Ib recognition, we determined the crystal structures of H2-Q10 and Ly49C bound H2-Q10. Unliganded H2-Q10 adopted a classical MHC-I fold and possessed a peptide-binding groove that exhibited features similar to those found in MHC-Ia, explaining the diverse peptide binding repertoire of H2-Q10. Ly49C bound to H2-Q10 underneath the peptide binding platform to a region that encompassed residues from the \u03b11, \u03b12, and \u03b13 domains, as well as the associated \u03b22-microglobulin subunit. This docking mode was conserved with that previously observed for Ly49C\u00b7H-2K(b) Indeed, structure-guided mutation of Ly49C indicated that Ly49C\u00b7H2-Q10 and Ly49C\u00b7H-2K(b) possess similar energetic footprints focused around residues located within the Ly49C \u03b24-stand and L5 loop, which contact the underside of the peptide-binding platform floor. Our data provide a structural basis for Ly49\u00b7MHC-Ib recognition and demonstrate that MHC-Ib represent an extended family of ligands for Ly49 molecules.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LC",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan LC"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Berry",
+                    "name": "Berry R"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Sosnin",
+                    "name": "Sosnin N"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Widjaja",
+                    "name": "Widjaja JM"
+                },
+                {
+                    "initials": "FA",
+                    "lastname": "Deuss",
+                    "name": "Deuss FA"
+                },
+                {
+                    "initials": "GR",
+                    "lastname": "Balaji",
+                    "name": "Balaji GR"
+                },
+                {
+                    "initials": "NL",
+                    "lastname": "LaGruta",
+                    "name": "LaGruta NL"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Mirams",
+                    "name": "Mirams M"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Trapani",
+                    "name": "Trapani JA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Andrews",
+                    "name": "Andrews DM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m116.737130",
+                    "type": "doi"
+                },
+                {
+                    "id": "27385590",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Recognition of the MHC class Ib molecule H2-Q10 by the natural killer cell receptor Ly49C.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820307729",
+            "volume": [
+                null
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5j6h"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5j6h"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Q10 binding \"VGITNVDL\" at 2.30&#8491; resolution",
+    "unique_chain_count": 3
+}

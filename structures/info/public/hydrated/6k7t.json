@@ -1,0 +1,207 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:A0A125R585",
+            "locus": "ptal-n",
+            "match_type": "histo:exact",
+            "name": "Ptal-N*01:01",
+            "slug": "ptal_n_01_01",
+            "species_stem": "ptal"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6k7t_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:03.420280"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GFHSLRYFYTAWSRPGSGEPRFVAVGYVDDTQFVRFDSDNASPRAEPRAPWMDLVEQQDPQYWDRNTRNARDAAQTYRVGLDNVRGYYNQSEAGSHTIQRMYGCDVGPHGRLLRGYDQLAYDGADYIALNEDLRSWTAADLAAQNTRRKWEEAGYAERDRAYLEGECVEWLLKHLENGRETLLRADPPKTHITHHPISDREVTLRCWALGFYPEEITLTWQHDGEDQTQEMELVETRPDGNGAFQKWAALVVPSGEEQRYTCHVQHEGLPQPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "DFANTFLP"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-06-08",
+        "deposition_year": 2019,
+        "release_date": "2019-11-06",
+        "release_year": 2019,
+        "revision_date": "2019-12-04",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "ptal-n",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6K7T | Ptal-N*01:01 binding \"DFANTFLP\"",
+    "pdb_code": "6k7t",
+    "pdb_title": "Crystal structure of bat (pteropus alecto) MHC Class I ptal-n*01:01 in complex with hendra virus-derived peptide hev1--human beta-2 microglobulin",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "DFANTFLP",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "DFANTFLP"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "DFANTFLP",
+    "publication": {
+        "abstract": "Bats harbor many zoonotic viruses, including highly pathogenic viruses of humans and other mammals, but they are typically asymptomatic in bats. To further understand the antiviral immunity of bats, we screened and identified a series of bat major histocompatibility complex (MHC) I Ptal-N*01:01-binding peptides derived from four different bat-borne viruses, i.e., Hendra virus (HeV), Ebola virus (EBOV), Middle East respiratory syndrome coronavirus (MERS-CoV), and H17N10 influenza-like virus. The structures of Ptal-N*01:01 display unusual peptide presentation features in that the bat-specific 3-amino acid (aa) insertion enables the tight \"surface anchoring\" of the P1-Asp in pocket A of bat MHC I. As the classical primary anchoring positions, the B and F pockets of Ptal-N*01:01 also show unconventional conformations, which contribute to unusual peptide motifs and distinct peptide presentation. Notably, the features of bat MHC I may be shared by MHC I from various marsupials. Our study sheds light on bat adaptive immunity and may benefit future vaccine development against bat-borne viruses of high impact on humans.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Lu",
+                    "name": "Lu D"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Liu",
+                    "name": "Liu K"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Zhang",
+                    "name": "Zhang D"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Yue",
+                    "name": "Yue C"
+                },
+                {
+                    "initials": "Q",
+                    "lastname": "Lu",
+                    "name": "Lu Q"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Cheng",
+                    "name": "Cheng H"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wang",
+                    "name": "Wang L"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chai",
+                    "name": "Chai Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "LF",
+                    "lastname": "Wang",
+                    "name": "Wang LF"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "WJ",
+                    "lastname": "Liu",
+                    "name": "Liu WJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.pbio.3000436",
+                    "type": "doi"
+                },
+                {
+                    "id": "31498797",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "9"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Biol.",
+                "name": ""
+            },
+            "pages": [
+                "e3000436"
+            ],
+            "title": "Peptide presentation by bat MHC class I provides new insight into the antiviral immunity of bats.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.pbio.3000436",
+            "volume": [
+                "17"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6k7t"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6k7t"
+        }
+    },
+    "species": {
+        "common_name": "Black fruit bat",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Pteropus alecto",
+        "slug": "pteropus_alecto"
+    },
+    "tcr": null,
+    "title": "Ptal-N*01:01 binding \"DFANTFLP\" at 1.60&#8491; resolution",
+    "unique_chain_count": 3
+}

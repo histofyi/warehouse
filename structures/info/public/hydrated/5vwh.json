@@ -1,0 +1,217 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA33532",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*58:01",
+            "slug": "hla_b_58_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5vwh_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:10.627080"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LSSPVTKSW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-05-21",
+        "deposition_year": 2017,
+        "release_date": "2018-10-03",
+        "release_year": 2018,
+        "revision_date": "2019-04-17",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5VWH | HLA-B*58:01 binding \"LSSPVTKSW\"",
+    "pdb_code": "5vwh",
+    "pdb_title": "Hla-b*58:01 presenting LSSPVTKSW",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LSSPVTKSW",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LSSPVTKSW"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LSSPVTKSW",
+    "publication": {
+        "abstract": "Immunophenotypic differences between closely related human leukocyte antigen (HLA) alleles have been associated with divergent clinical outcomes in infection, autoimmunity, transplantation and drug hypersensitivity. Here we explore the impact of micropolymorphism on peptide antigen presentation by three closely related HLA molecules, HLA-B*57:01, HLA-B*57:03 and HLA-B*58:01, that are differentially associated with the HIV elite controller phenotype and adverse drug reactions. For each allotype, we mine HLA ligand data sets derived from the same parental cell proteome to define qualitative differences in peptide presentation using classical peptide binding motifs and an unbiased statistical approach. The peptide repertoires show marked qualitative overlap, with 982 peptides presented by all allomorphs. However, differences in peptide abundance, HLA-peptide stability, and HLA-bound conformation demonstrate that HLA micropolymorphism impacts more than simply the range of peptide ligands. These differences provide grounds for distinct immune reactivity and insights into the capacity of micropolymorphism to diversify immune outcomes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "PT",
+                    "lastname": "Illing",
+                    "name": "Illing PT"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Pymm",
+                    "name": "Pymm P"
+                },
+                {
+                    "initials": "NP",
+                    "lastname": "Croft",
+                    "name": "Croft NP"
+                },
+                {
+                    "initials": "HG",
+                    "lastname": "Hilton",
+                    "name": "Hilton HG"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Jojic",
+                    "name": "Jojic V"
+                },
+                {
+                    "initials": "AS",
+                    "lastname": "Han",
+                    "name": "Han AS"
+                },
+                {
+                    "initials": "JL",
+                    "lastname": "Mendoza",
+                    "name": "Mendoza JL"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Mifsud",
+                    "name": "Mifsud NA"
+                },
+                {
+                    "initials": "NL",
+                    "lastname": "Dudek",
+                    "name": "Dudek NL"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Parham",
+                    "name": "Parham P"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-018-07109-w",
+                    "type": "doi"
+                },
+                {
+                    "id": "30410026",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "4693"
+            ],
+            "title": "HLA-B57 micropolymorphism defines the sequence and conformational breadth of the immunopeptidome.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-018-07109-w",
+            "volume": [
+                "9"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.65",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5vwh"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5vwh"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*58:01 binding \"LSSPVTKSW\" at 1.65&#8491; resolution",
+    "unique_chain_count": 3
+}

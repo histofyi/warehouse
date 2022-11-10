@@ -1,0 +1,214 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7n5q_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:17.403673"
+        },
+        "2": {
+            "assembly_name": "7n5q_2",
+            "chains": [
+                "F",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:42:17.884691"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEPPSTD"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "H"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SSLCNFRAYV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-06-06",
+        "deposition_year": 2021,
+        "release_date": "2022-07-20",
+        "release_year": 2022,
+        "revision_date": "2022-08-31",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7N5Q | H2-Db binding \"SSLCNFRAYV\"",
+    "pdb_code": "7n5q",
+    "pdb_title": "Peptide-MHC complex of mouse H2-Db presenting pa224 with e4c mutation",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "SSLCNFRAYV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "SSLCNFRAYV"
+        },
+        "H": {
+            "actual_length": 10,
+            "actual_sequence": "SSLCNFRAYV",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "SSLCNFRAYV"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "SSLCNFRAYV",
+    "publication": {
+        "abstract": "Interactions between a T cell receptor (TCR) and a peptide-major histocompatibility complex (pMHC) ligand are typically mediated by noncovalent bonds. By studying T cells expressing natural or engineered TCRs, here we describe covalent TCR-pMHC interactions that involve a cysteine-cysteine disulfide bond between the TCR and the peptide. By introducing cysteines into a known TCR-pMHC combination, we demonstrate that disulfide bond formation does not require structural rearrangement of the TCR or the peptide. We further show these disulfide bonds still form even when the initial affinity of the TCR-pMHC interaction is low. Accordingly, TCR-peptide disulfide bonds facilitate T cell activation by pMHC ligands with a wide spectrum of affinities for the TCR. Physiologically, this mechanism induces strong Zap70-dependent TCR signaling, which triggers T cell deletion or agonist selection in the thymus cortex. Covalent TCR-pMHC interactions may thus underlie a physiological T cell activation mechanism that has applications in basic immunology and potentially in immunotherapy.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Szeto",
+                    "name": "Szeto C"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Zareie",
+                    "name": "Zareie P"
+                },
+                {
+                    "initials": "RC",
+                    "lastname": "Wirasinha",
+                    "name": "Wirasinha RC"
+                },
+                {
+                    "initials": "JB",
+                    "lastname": "Zhang",
+                    "name": "Zhang JB"
+                },
+                {
+                    "initials": "AT",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen AT"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Riboldi-Tunnicliffe",
+                    "name": "Riboldi-Tunnicliffe A"
+                },
+                {
+                    "initials": "NL",
+                    "lastname": "La Gruta",
+                    "name": "La Gruta NL"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Daley",
+                    "name": "Daley SR"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-022-32692-4",
+                    "type": "doi"
+                },
+                {
+                    "id": "35999236",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "4951"
+            ],
+            "title": "Covalent TCR-peptide-MHC interactions induce T cell activation and redirect T cell fate in the thymus.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41467-022-32692-4",
+            "volume": [
+                "13"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.76",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7n5q"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7n5q"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"SSLCNFRAYV\" at 1.76&#8491; resolution",
+    "unique_chain_count": 3
+}

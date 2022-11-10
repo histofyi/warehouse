@@ -1,0 +1,265 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4l4t_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:32:44.231335"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVKDSNYQLIWGAGTKLIIKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSVWTGEGSGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-06-09",
+        "deposition_year": 2013,
+        "release_date": "2013-07-17",
+        "release_year": 2013,
+        "revision_date": "2013-09-11",
+        "revision_year": 2013
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4L4T | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "4l4t",
+    "pdb_title": "Structure of human MAIT TCR in complex with human MR1-6-fp",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The mucosal-associated invariant T-cell antigen receptor (MAIT TCR) recognizes MR1 presenting vitamin B metabolites. Here we describe the structures of a human MAIT TCR in complex with human MR1 presenting a non-stimulatory ligand derived from folic acid and an agonist ligand derived from a riboflavin metabolite. For both vitamin B antigens, the MAIT TCR docks in a conserved manner above MR1, thus acting as an innate-like pattern recognition receptor. The invariant MAIT TCR \u03b1-chain usage is attributable to MR1-mediated interactions that prise open the MR1 cleft to allow contact with the vitamin B metabolite. Although the non-stimulatory antigen does not contact the MAIT TCR, the stimulatory antigen does. This results in a higher affinity of the MAIT TCR for a stimulatory antigen in comparison with a non-stimulatory antigen. We formally demonstrate a structural basis for MAIT TCR recognition of vitamin B metabolites, while illuminating how TCRs recognize microbial metabolic signatures.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "O",
+                    "lastname": "Patel",
+                    "name": "Patel O"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "SB",
+                    "lastname": "Eckle",
+                    "name": "Eckle SB"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Birkinshaw",
+                    "name": "Birkinshaw R"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Beddoe",
+                    "name": "Beddoe T"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Corbett",
+                    "name": "Corbett AJ"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Liu",
+                    "name": "Liu L"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Meehan",
+                    "name": "Meehan B"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Reantragoon",
+                    "name": "Reantragoon R"
+                },
+                {
+                    "initials": "ML",
+                    "lastname": "Sandoval-Romero",
+                    "name": "Sandoval-Romero ML"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan LC"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Fairlie",
+                    "name": "Fairlie DP"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ncomms3142",
+                    "type": "doi"
+                },
+                {
+                    "id": "23846752",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "2142"
+            ],
+            "title": "Recognition of vitamin B metabolites by mucosal-associated invariant T cells.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ncomms3142",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4l4t"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4l4t"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4l4t"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "4l4t"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 2.00&#8491; resolution",
+    "unique_chain_count": 4
+}

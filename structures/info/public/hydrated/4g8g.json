@@ -1,0 +1,300 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34811",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:05",
+            "slug": "hla_b_27_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4g8g_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:33:50.080108"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQDAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KRWIILGLNK"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "KITQTQPGMFVQEKEAVTLDCTYDTSDQSYGLFWYKQPSSGEMIFLIYQGSYDEQNATEGRYSLNFQKARKSANLVISASQLGDSAMYFCAMRDLRDNFNKFYFGSGTKLNVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS",
+            "subgroup": "TRAV14"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GVTQTPKFQVLKTGQSMTLQCAQDMNHEYMSWYRQDPGMGLRLIHYSVGAGITDQGEVPNGYNVSRSTTEDFPLRLLSAAPSQTSVYFCASREGLGGTEAFFGQGTRLTVVEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRADASGLVPR",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-07-23",
+        "deposition_year": 2012,
+        "release_date": "2013-03-20",
+        "release_year": 2013,
+        "revision_date": "2018-04-25",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4G8G | HLA-B*27:05 presenting \"KRWIILGLNK\" to Alpha/Beta T cell receptor",
+    "pdb_code": "4g8g",
+    "pdb_title": "Crystal structure of c12c TCR-ha b2705-kk10",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "KRWIILGLNK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "KRWIILGLNK"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "KRWIILGLNK",
+    "publication": {
+        "abstract": "The capacity of the immune system to adapt to rapidly evolving viruses is a primary feature of effective immunity, yet its molecular basis is unclear. Here, we investigated protective HIV-1-specific CD8+ T cell responses directed against the immunodominant p24 Gag-derived epitope KK10 (KRWIILGLNK263-272) presented by human leukocyte antigen (HLA)-B\u22172705. We found that cross-reactive CD8+ T cell clonotypes were mobilized to counter the rapid emergence of HIV-1 variants that can directly affect T cell receptor (TCR) recognition. These newly recruited clonotypes expressed TCRs that engaged wild-type and mutant KK10 antigens with similar affinities and almost identical docking modes, thereby accounting for their antiviral efficacy in HLA-B\u22172705+ individuals. A protective CD8+ T cell repertoire therefore encompasses the capacity to control TCR-accessible mutations, ultimately driving the development of more complex viral escape variants that disrupt antigen presentation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "K",
+                    "lastname": "Ladell",
+                    "name": "Ladell K"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Hashimoto",
+                    "name": "Hashimoto M"
+                },
+                {
+                    "initials": "MC",
+                    "lastname": "Iglesias",
+                    "name": "Iglesias MC"
+                },
+                {
+                    "initials": "PG",
+                    "lastname": "Wilmann",
+                    "name": "Wilmann PG"
+                },
+                {
+                    "initials": "JE",
+                    "lastname": "McLaren",
+                    "name": "McLaren JE"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Chikata",
+                    "name": "Chikata T"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Kuse",
+                    "name": "Kuse N"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Fastenackels",
+                    "name": "Fastenackels S"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Gostick",
+                    "name": "Gostick E"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Bridgeman",
+                    "name": "Bridgeman JS"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Venturi",
+                    "name": "Venturi V"
+                },
+                {
+                    "initials": "ZA",
+                    "lastname": "Arkoub",
+                    "name": "Arkoub ZA"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Agut",
+                    "name": "Agut H"
+                },
+                {
+                    "initials": "DJ",
+                    "lastname": "van Bockel",
+                    "name": "van Bockel DJ"
+                },
+                {
+                    "initials": "JR",
+                    "lastname": "Almeida",
+                    "name": "Almeida JR"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Douek",
+                    "name": "Douek DC"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Meyer",
+                    "name": "Meyer L"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Venet",
+                    "name": "Venet A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Takiguchi",
+                    "name": "Takiguchi M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Appay",
+                    "name": "Appay V"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.immuni.2012.11.021",
+                    "type": "doi"
+                },
+                {
+                    "id": "23521884",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "425-36"
+            ],
+            "title": "A Molecular Basis for the Control of Preimmune Escape Variants by HIV-Specific CD8(+) T Cells.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761313001064",
+            "volume": [
+                "38"
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4g8g"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4g8g"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4g8g"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV14"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "4g8g"
+    },
+    "title": "HLA-B*27:05 presenting \"KRWIILGLNK\" to Alpha/Beta T cell receptor at 2.40&#8491; resolution",
+    "unique_chain_count": 5
+}

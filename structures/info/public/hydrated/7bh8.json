@@ -1,0 +1,310 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34202",
+            "locus": "hla-e",
+            "match_type": "histo:exact",
+            "name": "HLA-E*01:03",
+            "slug": "hla_e_01_03",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7bh8_1",
+            "chains": [
+                "A",
+                "C",
+                "B",
+                "D",
+                "G",
+                "E",
+                "H",
+                "F",
+                "P",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:35:36.253718"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "ab_heavy": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Hchain",
+            "sequence": "MGWSCIILFLVATATGVHSEVQLQESGPELVKPGASVKIPCKASGYTFTDYNMDWVKQSHGKSLEWIGDINPNNGGTIYNQKFKGKATLTVDKSSSTAYMELRSLTSEDTAVYYCARPDYYGSSYGWYFDVWGTGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKS"
+        },
+        "ab_light": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Lchain",
+            "sequence": "MGWSCIILFLVATATGVHSDIVITQSPSSMYASLGERVTITCKASQDINSYLSWFQQKPGKSPKTLIYRANRLVDGVPSRFSGSGSGQDYSLTISSLEYEDMGIYYCLQYDEFPLTFGAGTKLELKRTVAAPSVFIFPPSDEQLKSGTASVVCLLNNFYPREAKVQWKVDNALQSGNSQESVTEQDSKDSTYSLSSTLTLSKADYEKHKVYACEVTHQGLSSPVTKSFNRGEC"
+        },
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRFDNDAASPRMVPRAPWMEQEGSEYWDRETRSARDTAQIFRVNLRTLRGYYNQSEAGSHTLQWMHGCELGPDGRFLRGYEQFAYDGKDYLTLNEDLRSWTAVDTAAQISEQKSNDASEAEHQRAYLEDTCVEWLHKYLEKGKETLLHLEPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQQDGEGHTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPVTLRWKP"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VMAPRTVLL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-01-10",
+        "deposition_year": 2021,
+        "release_date": "2022-04-13",
+        "release_year": 2022,
+        "revision_date": "2022-04-13",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_antibody",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "ab_heavy",
+        "ab_light"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-e",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7BH8 | HLA-E*01:03 binding \"VMAPRTVLL\" with antibody",
+    "pdb_code": "7bh8",
+    "pdb_title": "3h4-fab hla-e-vl9 co-complex",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "VMAPRTVLL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VMAPRTVLL"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "VMAPRTVLL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VMAPRTVLL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VMAPRTVLL",
+    "publication": {
+        "abstract": "The non-classical class Ib molecule human leukocyte antigen E (HLA-E) has limited polymorphism and can bind HLA class Ia leader peptides (VL9). HLA-E-VL9 complexes interact with the natural killer (NK) cell receptors NKG2A-C/CD94 and regulate NK cell-mediated cytotoxicity. Here we report the isolation of 3H4, a murine HLA-E-VL9-specific IgM antibody that enhances killing of HLA-E-VL9-expressing cells by an NKG2A<sup>+</sup> NK cell line. Structural analysis reveal that 3H4 acts by preventing CD94/NKG2A docking on HLA-E-VL9. Upon in vitro maturation, an affinity-optimized IgG form of 3H4 showes enhanced NK killing of HLA-E-VL9-expressing cells. HLA-E-VL9-specific IgM antibodies similar in function to 3H4 are also isolated from na\u00efve B cells of cytomegalovirus (CMV)-negative, healthy humans. Thus, HLA-E-VL9-targeting mouse and human antibodies isolated from the na\u00efve B cell antibody pool have the capacity to enhance NK cell cytotoxicity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Li",
+                    "name": "Li D"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Brackenridge",
+                    "name": "Brackenridge S"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Walters",
+                    "name": "Walters LC"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Swanson",
+                    "name": "Swanson O"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Harlos",
+                    "name": "Harlos K"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Rozbesky",
+                    "name": "Rozbesky D"
+                },
+                {
+                    "initials": "DW",
+                    "lastname": "Cain",
+                    "name": "Cain DW"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Wiehe",
+                    "name": "Wiehe K"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Scearce",
+                    "name": "Scearce RM"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Barr",
+                    "name": "Barr M"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Mu",
+                    "name": "Mu Z"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Parks",
+                    "name": "Parks R"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Quastel",
+                    "name": "Quastel M"
+                },
+                {
+                    "initials": "RJ",
+                    "lastname": "Edwards",
+                    "name": "Edwards RJ"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Wang",
+                    "name": "Wang Y"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Rountree",
+                    "name": "Rountree W"
+                },
+                {
+                    "initials": "KO",
+                    "lastname": "Saunders",
+                    "name": "Saunders KO"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Ferrari",
+                    "name": "Ferrari G"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Borrow",
+                    "name": "Borrow P"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "SM",
+                    "lastname": "Alam",
+                    "name": "Alam SM"
+                },
+                {
+                    "initials": "ML",
+                    "lastname": "Azoitei",
+                    "name": "Azoitei ML"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "Gillespie",
+                    "name": "Gillespie GM"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "BF",
+                    "lastname": "Haynes",
+                    "name": "Haynes BF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s42003-022-03183-5",
+                    "type": "doi"
+                },
+                {
+                    "id": "35347236",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Commun Biol",
+                "name": ""
+            },
+            "pages": [
+                "271"
+            ],
+            "title": "Mouse and human antibodies bind HLA-E-leader peptide complexes and enhance NK cell cytotoxicity.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s42003-022-03183-5",
+            "volume": [
+                "5"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7bh8"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7bh8"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-E*01:03 binding \"VMAPRTVLL\" with antibody at 1.80&#8491; resolution",
+    "unique_chain_count": 5
+}

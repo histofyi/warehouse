@@ -1,0 +1,313 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08567",
+            "locus": "gaga-bf2",
+            "match_type": "histo:fuzzy",
+            "name": "Gaga-BF2*002:01",
+            "slug": "gaga_bf2_002_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4d0d_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:35:08.872079"
+        },
+        "2": {
+            "assembly_name": "4d0d_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:35:09.287859"
+        },
+        "3": {
+            "assembly_name": "4d0d_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:35:09.570502"
+        },
+        "4": {
+            "assembly_name": "4d0d_4",
+            "chains": [
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:35:09.843644"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "DLTPKVQVYSRFPASAGTKNVLNCFAAGFHPPKISITLMKDGVPMEGAQYSDMSFNDDWTFQRLVHADFTPSSGSTYACKVEHETLKEPQVYKWDPEF"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.86,
+            "sequence": "ELHTLRYIRTAMTDPGPGLPWYVDVGYVDGELFVHYNSTARRYVPRTEWIAAKADQQYWDGQTQIGQGNEQIDRENLGILQRRYNQTGGSHTVQWMYGCDILEGGPIRGYYQMAYDGRDFTAFDKGTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERPEVRVWGKEADGILTLSCRAHGFYPRPIVVSWLKDGAVRGQDAHSGGIVPNGDGTYHTWVTIDAQPGDGDKYQCRVEHASLPQPGLYSWEPRSGGGLNDIFEAQKIEWHENSSSVDKLAAALEHHHHHH"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F",
+                "I",
+                "L"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VIFPAKSL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-04-25",
+        "deposition_year": 2014,
+        "release_date": "2015-05-06",
+        "release_year": 2015,
+        "revision_date": "2019-03-27",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4D0D | Gaga-BF2*002:01 binding \"VIFPAKSL\"",
+    "pdb_code": "4d0d",
+    "pdb_title": "Complex of a b2 chicken MHC Class I molecule and a 8mer chicken peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "VIFPAKSL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "VIFPAKSL"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "VIFPAKSL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "VIFPAKSL"
+        },
+        "I": {
+            "actual_length": 8,
+            "actual_sequence": "VIFPAKSL",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "VIFPAKSL"
+        },
+        "L": {
+            "actual_length": 8,
+            "actual_sequence": "VIFPAKSL",
+            "chain_id": "L",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "VIFPAKSL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "VIFPAKSL",
+    "publication": {
+        "abstract": "Highly polymorphic major histocompatibility complex (MHC) molecules are at the heart of adaptive immune responses, playing crucial roles in many kinds of disease and in vaccination. We report that breadth of peptide presentation and level of cell surface expression of class I molecules are inversely correlated in both chickens and humans. This relationship correlates with protective responses against infectious pathogens including Marek's disease virus leading to lethal tumours in chickens and human immunodeficiency virus infection progressing to AIDS in humans. We propose that differences in peptide binding repertoire define two groups of MHC class I molecules strategically evolved as generalists and specialists for different modes of pathogen resistance. We suggest that differences in cell surface expression level ensure the development of optimal peripheral T cell responses. The inverse relationship of peptide repertoire and expression is evidently a fundamental property of MHC molecules, with ramifications extending beyond immunology and medicine to evolutionary biology and conservation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "P",
+                    "lastname": "Chappell",
+                    "name": "Chappell P"
+                },
+                {
+                    "initials": "EK",
+                    "lastname": "Meziane",
+                    "name": "Meziane EK"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Harrison",
+                    "name": "Harrison M"
+                },
+                {
+                    "initials": "\ufffd\ufffd",
+                    "lastname": "Magiera",
+                    "name": "Magiera \ufffd\ufffd"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Hermann",
+                    "name": "Hermann C"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Mears",
+                    "name": "Mears L"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Wrobel",
+                    "name": "Wrobel AG"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Durant",
+                    "name": "Durant C"
+                },
+                {
+                    "initials": "LL",
+                    "lastname": "Nielsen",
+                    "name": "Nielsen LL"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Buus",
+                    "name": "Buus S"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Ternette",
+                    "name": "Ternette N"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Mwangi",
+                    "name": "Mwangi W"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Butter",
+                    "name": "Butter C"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Nair",
+                    "name": "Nair V"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Ahyee",
+                    "name": "Ahyee T"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Duggleby",
+                    "name": "Duggleby R"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Madrigal",
+                    "name": "Madrigal A"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Roversi",
+                    "name": "Roversi P"
+                },
+                {
+                    "initials": "SM",
+                    "lastname": "Lea",
+                    "name": "Lea SM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Kaufman",
+                    "name": "Kaufman J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.7554/elife.05345",
+                    "type": "doi"
+                },
+                {
+                    "id": "25860507",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Elife",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Expression levels of MHC class I molecules are inversely correlated with promiscuity of peptide binding.",
+            "type": "article",
+            "url": "https://elifesciences.org/articles/05345",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2015
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.13",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4d0d"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4d0d"
+        }
+    },
+    "species": {
+        "common_name": "Chicken",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Gallus gallus",
+        "slug": "gallus_gallus"
+    },
+    "tcr": null,
+    "title": "Gaga-BF2*002:01 binding \"VIFPAKSL\" at 3.13&#8491; resolution",
+    "unique_chain_count": 3
+}

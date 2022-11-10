@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:NHP10903",
+            "locus": "mamu-b",
+            "match_type": "histo:fuzzy",
+            "name": "Mamu-B*051:04",
+            "slug": "mamu_b_051_04",
+            "species_stem": "Mamu"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6iwh_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:28:08.680799"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "AIQRTPKIQVYSRHPPENGKPNFLNCYVSGFHPSDIEVDLLKNGEKMGKVEHSDLSFSKDWSFYLLYYTEFTPNEKDEYACRVNHVTLSGPRTVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.86,
+            "sequence": "GSHSLRYFGTAVSRPGRGEPRFIYVGYVDDTQFVRFDSDAASPRTEPRAPWVEQEGPEYWEEETRRAKARAQTDRADLRTLRGYYNQSEAGSHTLQWMAGCDLGPNGRLLRGYHQSAYDGKDYIALNEDLRSWIAADMAAQNTQRKWEATRYAERFRAYLEGPCLEWLRRYLENGKETLQHADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEEQTQDIEFVETRPAGDGTFQKWGAVVVPSGEEQRYTCHVQHEGLPEPLTLRWEP"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-12-05",
+        "deposition_year": 2018,
+        "release_date": "2019-08-14",
+        "release_year": 2019,
+        "revision_date": "2019-08-14",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_possibly_without_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "mamu-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6IWH | Mamu-B*051:04 possibly without \"peptide\"",
+    "pdb_code": "6iwh",
+    "pdb_title": "Crystal structure of rhesus macaque MHC Class I molecule mamu-b*05104 complexed with c14-gggi lipopeptide",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Similar to host proteins, <i>N</i>-myristoylation occurs for viral proteins to dictate their pathological function. However, this lipid-modifying reaction creates a novel class of \"lipopeptide\" Ags targeted by host CTLs. The primate MHC class I-encoded protein, Mamu-B*098, was previously shown to bind <i>N</i>-myristoylated 5-mer peptides. Nevertheless, T cells exist that recognize even shorter lipopeptides, and much remains to be elucidated concerning the molecular mechanisms of lipopeptide presentation. We, in this study, demonstrate that the MHC class I allele, Mamu-B*05104, binds the <i>N</i>-myristoylated 4-mer peptide (C14-Gly-Gly-Ala-Ile) derived from the viral Nef protein for its presentation to CTLs. A phylogenetic tree analysis indicates that these classical MHC class I alleles are not closely associated; however, the high-resolution x-ray crystallographic analyses indicate that both molecules share lipid-binding structures defined by the exceptionally large, hydrophobic B pocket to accommodate the acylated glycine (G1) as an anchor. The C-terminal isoleucine (I4) of C14-Gly-Gly-Ala-Ile anchors at the F pocket, which is distinct from that of Mamu-B*098 and is virtually identical to that of the peptide-presenting MHC class I molecule, HLA-B51. The two central amino acid residues (G2 and A3) are only exposed externally for recognition by T cells, and the methyl side chain on A3 constitutes a major T cell epitope, underscoring that the epitopic diversity is highly limited for lipopeptides as compared with that for MHC class I-presented long peptides. These structural features suggest that lipopeptide-presenting MHC class I alleles comprise a distinct MHC class I subset that mediates an alternative pathway for CTL activation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Yamamoto",
+                    "name": "Yamamoto Y"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Morita",
+                    "name": "Morita D"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Shima",
+                    "name": "Shima Y"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Midorikawa",
+                    "name": "Midorikawa A"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mizutani",
+                    "name": "Mizutani T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Suzuki",
+                    "name": "Suzuki J"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Mori",
+                    "name": "Mori N"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Shiina",
+                    "name": "Shiina T"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Inoko",
+                    "name": "Inoko H"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Tanaka",
+                    "name": "Tanaka Y"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Mikami",
+                    "name": "Mikami B"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sugita",
+                    "name": "Sugita M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1900087",
+                    "type": "doi"
+                },
+                {
+                    "id": "31043477",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "3349-3358"
+            ],
+            "title": "Identification and Structure of an MHC Class I-Encoded Protein with the Potential to Present <i>N</i>-Myristoylated 4-mer Peptides to T Cells.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1900087",
+            "volume": [
+                "202"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.95",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6iwh"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6iwh"
+        }
+    },
+    "species": {
+        "common_name": "rhesus monkey",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Macaca mulatta",
+        "slug": "macaca_mulatta"
+    },
+    "tcr": null,
+    "title": "Mamu-B*051:04 possibly without \"peptide\" at 1.95&#8491; resolution",
+    "unique_chain_count": 2
+}

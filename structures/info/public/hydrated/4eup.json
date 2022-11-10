@@ -1,0 +1,183 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4eup_1",
+            "chains": [
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:29:20.958084"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "E",
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "D",
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "F",
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ALGIGILTV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MQKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMSIYSNGDKEDGRFTAQLNKASQYVSLLIRDAQPSDSATYLCAVSGGGADGLTFGKGTQVVVTPNIQNPDPAVYQLRDSKSADKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MDKVTQSSRYLVKRTGEKVFLECVQDMDHENMFWYRQDPGLGLRLIYFSYDVKMKEKGDIPEGYSVSREKKERFSLILASASTDQTSMYLCASSFLGTGVEQYFGPGTRLTVVEDLNKVFPPEVALFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSEADEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV28"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-04-25",
+        "deposition_year": 2012,
+        "release_date": "2013-05-01",
+        "release_year": 2013,
+        "revision_date": "2013-05-01",
+        "revision_year": 2013
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4EUP | HLA-A*02:01 presenting \"ALGIGILTV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "4eup",
+    "pdb_title": "The complex between TCR jkf6 and human Class I MHC hla-a2 presenting the mart-1(27-35)(a27l) peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ALGIGILTV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ALGIGILTV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "ALGIGILTV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ALGIGILTV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ALGIGILTV",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Hossain, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Baker, B.M."
+                }
+            ],
+            "identifier": [],
+            "title": "Structural description of how different MART-1 antigenic peptides influence JKF6 T cell receptor recognition",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.88",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4eup"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4eup"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4eup"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "G"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "H"
+            ],
+            "subgroup": "TRBV28"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "4eup"
+    },
+    "title": "HLA-A*02:01 presenting \"ALGIGILTV\" to Alpha/Beta T cell receptor at 2.88&#8491; resolution",
+    "unique_chain_count": 5
+}

@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3c8k_1",
+            "chains": [
+                "A",
+                "B",
+                "P",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:42:54.945994"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+        },
+        "ly49c": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "RGVKYWFCYSTKCYYFIMNKTTWSGCKANCQHYGVPILKIEDEDELKFLQRHVIPGNYWIGLSYDKKKKEWAWIDNGPSKLDMKIKKMNFKSRGCVFLSKARIEDIDCNIPYYCICGKKLDKFPD"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SIINFEKL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-02-12",
+        "deposition_year": 2008,
+        "release_date": "2008-04-15",
+        "release_year": 2008,
+        "revision_date": "2021-10-20",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_ly49c",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "ly49c"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3C8K | H2-Kb binding \"SIINFEKL\" with Ly49c NK receptor",
+    "pdb_code": "3c8k",
+    "pdb_title": "The crystal structure of ly49c bound to h-2kb",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "SIINFEKL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SIINFEKL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "SIINFEKL",
+    "publication": {
+        "abstract": "Natural killer (NK) cells play a vital role in the detection and destruction of virally infected and tumor cells during innate immune responses. The highly polymorphic Ly49 family of NK receptors regulates NK cell function by sensing major histocompatibility complex class I (MHC-I) molecules on target cells. Despite the determination of two Ly49-MHC-I complex structures, the molecular features of Ly49 receptors that confer specificity for particular MHC-I alleles have not been identified. To understand the functional architecture of Ly49-binding sites, we determined the crystal structures of Ly49C and Ly49G and completed refinement of the Ly49C-H-2K(b) complex. This information, combined with mutational analysis of Ly49A, permitted a structure-based classification of Ly49s that we used to dissect the binding site into three distinct regions, each having different roles in MHC recognition. One region, located at the center of the binding site, has a similar structure across the Ly49 family and mediates conserved interactions with MHC-I that contribute most to binding. However, the preference of individual Ly49s for particular MHC-I molecules is governed by two regions that flank the central region and are structurally more variable. One of the flanking regions divides Ly49s into those that recognize both H-2D and H-2K versus only H-2D ligands, whereas the other discriminates among H-2D or H-2K alleles. The modular design of Ly49-binding sites provides a framework for predicting the MHC-binding specificity of Ly49s that have not been characterized experimentally.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Deng",
+                    "name": "Deng L"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Cho",
+                    "name": "Cho S"
+                },
+                {
+                    "initials": "EL",
+                    "lastname": "Malchiodi",
+                    "name": "Malchiodi EL"
+                },
+                {
+                    "initials": "MC",
+                    "lastname": "Kerzic",
+                    "name": "Kerzic MC"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Dam",
+                    "name": "Dam J"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Mariuzza",
+                    "name": "Mariuzza RA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M801526200",
+                    "type": "doi"
+                },
+                {
+                    "id": "18426793",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "24"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "16840-9"
+            ],
+            "title": "Molecular architecture of the major histocompatibility complex class I-binding site of Ly49 natural killer cell receptors.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820714894",
+            "volume": [
+                "283"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3c8k"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3c8k"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"SIINFEKL\" with Ly49c NK receptor at 2.90&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,154 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01902",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kd",
+            "slug": "h2_kd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4z77_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:26:31.246173"
+        },
+        "2": {
+            "assembly_name": "4z77_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:26:31.737808"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.83,
+            "sequence": "MGPHSLRYFVTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDADNPRFEPRAPWMEQEGPEYWEEQTQRAKSDEQWFRVSLRTAQRYYNQSKGGSHTFQRMFGCDVGSDWRLLRGYHQFAYDGRDYIALNEDLKTWTAADTAALITRRKWEQAGDAEYYRAYLEGECVEWLRRYLELGNETLLRTDSPKAHVTYHPRSQVDVTLRCWALGFYPADITLTWQLNGEDLTQDMELVETRPAGDGTFQKWAAVVVPLGKEQNYTCHVHHKGLPEPLTLRWKP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LYLVCGERV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-04-06",
+        "deposition_year": 2015,
+        "release_date": "2015-06-24",
+        "release_year": 2015,
+        "revision_date": "2015-06-24",
+        "revision_year": 2015
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4Z77 | H2-Kd binding \"LYLVCGERV\"",
+    "pdb_code": "4z77",
+    "pdb_title": "Weak TCR binding to an unstable insulin epitope drives type 1 diabetes",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LYLVCGERV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LYLVCGERV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "LYLVCGERV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LYLVCGERV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LYLVCGERV",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Rizkallah, P.J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Cole, D.K."
+                }
+            ],
+            "identifier": [],
+            "title": "Weak TCR binding to an unstable insulin epitope drives type 1 diabetes",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.85",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4z77"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4z77"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kd binding \"LYLVCGERV\" at 1.85&#8491; resolution",
+    "unique_chain_count": 3
+}

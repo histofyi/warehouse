@@ -1,0 +1,327 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7jyv_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:26:29.769443"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPSS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YFSPIRVTF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-09-01",
+        "deposition_year": 2020,
+        "release_date": "2021-04-14",
+        "release_year": 2021,
+        "revision_date": "2021-06-23",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7JYV | HLA-A*24:02 binding \"YFSPIRVTF\"",
+    "pdb_code": "7jyv",
+    "pdb_title": "Crystal structure of hla a*2402 in complex with YFSPIRVTF, an 9-mer influenza epitope",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "YFSPIRVTF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YFSPIRVTF"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YFSPIRVTF",
+    "publication": {
+        "abstract": "<h4>Background</h4>The majority of clinical genetic testing focuses almost exclusively on regions of the genome that directly encode proteins. The important role of variants in non-coding regions in penetrant disease is, however, increasingly being demonstrated, and the use of whole genome sequencing in clinical diagnostic settings is rising across a large range of genetic disorders. Despite this, there is no existing guidance on how current guidelines designed primarily for variants in protein-coding regions should be adapted for variants identified in other genomic contexts.<h4>Methods</h4>We convened a panel of nine clinical and research scientists with wide-ranging expertise in clinical variant interpretation, with specific experience in variants within non-coding regions. This panel discussed and refined an initial draft of the guidelines which were then extensively tested and reviewed by external groups.<h4>Results</h4>We discuss considerations specifically for variants in non-coding regions of the genome. We outline how to define candidate regulatory elements, highlight examples of mechanisms through which non-coding region variants can lead to penetrant monogenic disease, and outline how existing guidelines can be adapted for the interpretation of\u00a0these variants.<h4>Conclusions</h4>These recommendations aim to increase the number and range of non-coding region variants that can be clinically interpreted, which, together with a compatible phenotype, can lead to new diagnoses and catalyse the discovery of novel disease mechanisms.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Hensen",
+                    "name": "Hensen L"
+                },
+                {
+                    "initials": "PT",
+                    "lastname": "Illing",
+                    "name": "Illing PT"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Bridie Clemens",
+                    "name": "Bridie Clemens E"
+                },
+                {
+                    "initials": "THO",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen THO"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Koutsakos",
+                    "name": "Koutsakos M"
+                },
+                {
+                    "initials": "CE",
+                    "lastname": "van de Sandt",
+                    "name": "van de Sandt CE"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Mifsud",
+                    "name": "Mifsud NA"
+                },
+                {
+                    "initials": "AT",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen AT"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Szeto",
+                    "name": "Szeto C"
+                },
+                {
+                    "initials": "BY",
+                    "lastname": "Chua",
+                    "name": "Chua BY"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Halim",
+                    "name": "Halim H"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Rizzetto",
+                    "name": "Rizzetto S"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Luciani",
+                    "name": "Luciani F"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Loh",
+                    "name": "Loh L"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Grant",
+                    "name": "Grant EJ"
+                },
+                {
+                    "initials": "PM",
+                    "lastname": "Saunders",
+                    "name": "Saunders PM"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Rockman",
+                    "name": "Rockman S"
+                },
+                {
+                    "initials": "TC",
+                    "lastname": "Kotsimbos",
+                    "name": "Kotsimbos TC"
+                },
+                {
+                    "initials": "AC",
+                    "lastname": "Cheng",
+                    "name": "Cheng AC"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Richards",
+                    "name": "Richards M"
+                },
+                {
+                    "initials": "GP",
+                    "lastname": "Westall",
+                    "name": "Westall GP"
+                },
+                {
+                    "initials": "LM",
+                    "lastname": "Wakim",
+                    "name": "Wakim LM"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Loudovaris",
+                    "name": "Loudovaris T"
+                },
+                {
+                    "initials": "SI",
+                    "lastname": "Mannering",
+                    "name": "Mannering SI"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Elliott",
+                    "name": "Elliott M"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Tangye",
+                    "name": "Tangye SG"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Jackson",
+                    "name": "Jackson DC"
+                },
+                {
+                    "initials": "KL",
+                    "lastname": "Flanagan",
+                    "name": "Flanagan KL"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Davies",
+                    "name": "Davies J"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Miller",
+                    "name": "Miller A"
+                },
+                {
+                    "initials": "SYC",
+                    "lastname": "Tong",
+                    "name": "Tong SYC"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kedzierska",
+                    "name": "Kedzierska K"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-021-23212-x",
+                    "type": "doi"
+                },
+                {
+                    "id": "34006841",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "2931"
+            ],
+            "title": "CD8<sub>+</sub> T cell landscape in Indigenous and non-Indigenous people restricted by influenza mortality-associated HLA-A*24:02 allomorph.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-021-23212-x",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.51",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7jyv"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7jyv"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*24:02 binding \"YFSPIRVTF\" at 1.51&#8491; resolution",
+    "unique_chain_count": 3
+}

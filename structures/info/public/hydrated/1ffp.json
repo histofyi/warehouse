@@ -1,0 +1,199 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1ffp_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:27.114147"
+        },
+        "2": {
+            "assembly_name": "1ffp_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:42:27.674893"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "PHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SAVYNFATM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2000-07-25",
+        "deposition_year": 2000,
+        "release_date": "2002-12-11",
+        "release_year": 2002,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1FFP | H2-Db binding \"SAVYNFATM\"",
+    "pdb_code": "1ffp",
+    "pdb_title": "Crystal structure of murine Class I h-2db complexed with peptide gp33 (c9m/k1s)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "SAVYNFATM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SAVYNFATM"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "SAVYNFATM",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SAVYNFATM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SAVYNFATM",
+    "publication": {
+        "abstract": "TCR recognition of class I MHC is dependent on the composition of the antigenic peptide and the MHC. Single amino acid substitutions in either the MHC or the peptide may dramatically alter recognition. While the major interactions between TCR and the peptide/MHC complex appear to be focused on the complementarity-determining region (CDR)3, it is also clear from the cocrystal structure of class I MHC and TCR that the amino and carboxyl ends of the peptide may play a role through interactions with the CDR1. In this work we show that gp33 variants substituted at the peptidic termini at the putative CDR1 contact regions show improved recognition in B6 mice. The rank order of recognition is different using the P14 transgenic T cells, suggesting that one reason for improved recognition is a change in the TCR repertoire that recognizes the peptide. However, the affinity of the TCR by some of the peptide/MHC complex with increased recognition is improved, as shown by increased tetramer binding to P14 T cells. These substitutions at the termini of the peptide-binding cleft cause localized conformational changes as seen by changes in mAb binding and crystallographic structures. The different peptide structures also show different conformations in the center of the peptide, but these are shown to be energetically similar and thus most likely have no significance with respect to TCR recognition. Therefore, small conformational changes, localized to the CDR1 contact regions, may play a significant role in TCR recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "B",
+                    "lastname": "Wang",
+                    "name": "Wang B"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Sharma",
+                    "name": "Sharma A"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Maile",
+                    "name": "Maile R"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Saad",
+                    "name": "Saad M"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Collins",
+                    "name": "Collins EJ"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Frelinger",
+                    "name": "Frelinger JA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.169.6.3137",
+                    "type": "doi"
+                },
+                {
+                    "id": "12218131",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "3137-45"
+            ],
+            "title": "Peptidic termini play a significant role in TCR recognition.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.169.6.3137",
+            "volume": [
+                "169"
+            ],
+            "year": [
+                2002
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1ffp"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1ffp"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"SAVYNFATM\" at 2.60&#8491; resolution",
+    "unique_chain_count": 3
+}

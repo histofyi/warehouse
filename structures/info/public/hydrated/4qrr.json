@@ -1,0 +1,270 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4qrr_1",
+            "chains": [
+                "A",
+                "B",
+                "D",
+                "E",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:36:22.750253"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "IPSINVHHY"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "KVTQAQSSVSMPVRKAVTLNCLYETSWWSYYIFWYKQLPSKEMIFLIRQGSDEQNAKSGRYSVNFKKAAKSVALTISALQLEDSAKYFCALGELAGAGGTSYGKLTFGQGTILTVHPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKTVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFP",
+            "subgroup": null
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GVTQTPRYLIKTRGQQVTLSCSPISGHRSVSWYQQTPGQGLQFLFEYFSETQRNKGNFPGRFSGRQFSNSRSEMNVSTLELGDSALYLCASSLEGGYYNEQFFGPGTRLTVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVSTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+            "subgroup": "TRBV5"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-07-02",
+        "deposition_year": 2014,
+        "release_date": "2014-12-10",
+        "release_year": 2014,
+        "revision_date": "2020-09-16",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4QRR | HLA-B*35:01 presenting \"IPSINVHHY\" to Alpha/Beta T cell receptor",
+    "pdb_code": "4qrr",
+    "pdb_title": "Crystal structure of hla b*3501-ips in complex with a delta-beta TCR, clone 12 TCR",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "IPSINVHHY",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IPSINVHHY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "IPSINVHHY",
+    "publication": {
+        "abstract": "\u03b1\u03b2 and \u03b3\u03b4 T cells are disparate T cell lineages that can respond to distinct antigens (Ags) via the use of the \u03b1\u03b2 and \u03b3\u03b4 T cell Ag receptors (TCRs), respectively. Here we characterize a population of human T cells, which we term \u03b4/\u03b1\u03b2 T cells, expressing TCRs comprised of a TCR-\u03b4 variable gene (V\u03b41) fused to joining \u03b1 and constant \u03b1 domains, paired with an array of TCR-\u03b2 chains. We demonstrate that these cells, which represent \u223c50% of all V\u03b41(+) human T cells, can recognize peptide- and lipid-based Ags presented by human leukocyte antigen (HLA) and CD1d, respectively. Similar to type I natural killer T (NKT) cells, CD1d-lipid Ag-reactive \u03b4/\u03b1\u03b2 T cells recognized \u03b1-galactosylceramide (\u03b1-GalCer); however, their fine specificity for other lipid Ags presented by CD1d, such as \u03b1-glucosylceramide, was distinct from type I NKT cells. Thus, \u03b4/\u03b1\u03b2TCRs contribute new patterns of Ag specificity to the human immune system. Furthermore, we provide the molecular bases of how \u03b4/\u03b1\u03b2TCRs bind to their targets, with the V\u03b41-encoded region providing a major contribution to \u03b4/\u03b1\u03b2TCR binding. Our findings highlight how components from \u03b1\u03b2 and \u03b3\u03b4TCR gene loci can recombine to confer Ag specificity, thus expanding our understanding of T cell biology and TCR diversity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DG",
+                    "lastname": "Pellicci",
+                    "name": "Pellicci DG"
+                },
+                {
+                    "initials": "AP",
+                    "lastname": "Uldrich",
+                    "name": "Uldrich AP"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Ross",
+                    "name": "Ross F"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Chabrol",
+                    "name": "Chabrol E"
+                },
+                {
+                    "initials": "SB",
+                    "lastname": "Eckle",
+                    "name": "Eckle SB"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "de Boer",
+                    "name": "de Boer R"
+                },
+                {
+                    "initials": "RT",
+                    "lastname": "Lim",
+                    "name": "Lim RT"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "McPherson",
+                    "name": "McPherson K"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Besra",
+                    "name": "Besra G"
+                },
+                {
+                    "initials": "AR",
+                    "lastname": "Howell",
+                    "name": "Howell AR"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Moretta",
+                    "name": "Moretta L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "MH",
+                    "lastname": "Heemskerk",
+                    "name": "Heemskerk MH"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20141764",
+                    "type": "doi"
+                },
+                {
+                    "id": "25452463",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "The molecular bases of \ufffd\ufffd/\ufffd\ufffd\ufffd\ufffd T cell-mediated antigen recognition.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/211/13/2599/54601/The-molecular-bases-of-%CE%B4%CE%B1%CE%B2-T-cellmediated-antigen",
+            "volume": [
+                null
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4qrr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4qrr"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4qrr"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": null
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV5"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "4qrr"
+    },
+    "title": "HLA-B*35:01 presenting \"IPSINVHHY\" to Alpha/Beta T cell receptor at 3.00&#8491; resolution",
+    "unique_chain_count": 5
+}

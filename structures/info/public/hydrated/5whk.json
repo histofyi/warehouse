@@ -1,0 +1,226 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5whk_1",
+            "chains": [
+                "H",
+                "L",
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:28:52.523685"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "ab_heavy": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Hchain",
+            "sequence": "EVQLLESGGGLVQPGGSLRLSCAASGFTFSEYAMGWVRQAPGKGLEWVSSIGSSGGQTKYADSVKGRFTISRDNSKNTLYLQMNSLRAEDTAVYYCARLAIGDSYWGQGTMVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKRVEPKSC"
+        },
+        "ab_light": {
+            "chains": [
+                "L"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Lchain",
+            "sequence": "QSALTQPASVSGSPGQSITISCTGTGSDVGSYNLVSWYQQHPGKAPKLMIYGDSQRPSGVSNRFSGSKSGNTASLTISGLQAEDEADYYCASYAGSGIYVFGTGTKVTVLGQPKANPTVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADGSPVKAGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS"
+        },
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MSRSVALAVLALLSLSGLEAIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "fcrn": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "MGVPRPQPWALGLLLFLLPGSLGAESHLSLLYHLTAVSSPAPGTPAFWVSGWLGPQQYLSYNSLRGEAEPCGAWVWENQVSWYWEKETTDLRIKEKLFLEAFKALGGKGPYTLQGLLGCELGPDNTSVPTAKFALNGEEFMNFDLKQGTWGGDWPEALAISQRWQQQDKAANKELTFLLFSCPHRLREHLERGRGNLEWKEPPSMRLKARPSSPGFSVLTCSAFSFYPPELQLRFLRNGLAAGTGQGDFGPNSDGSFHASSSLTVKSGDEHHYCCIVQHAGLAQPLRVELESPAKSS"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-07-17",
+        "deposition_year": 2017,
+        "release_date": "2017-09-06",
+        "release_year": 2017,
+        "revision_date": "2018-03-21",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "fcrn_with_antibody",
+    "components": [
+        "fcrn",
+        "beta2m",
+        "ab_light",
+        "ab_heavy"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5WHK | Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with antibody",
+    "pdb_code": "5whk",
+    "pdb_title": "Crystal structure of fab fragment of antibody dx-2507 bound to fcrn-b2m",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The neonatal Fc receptor FcRn plays a critical role in the trafficking of IgGs across tissue barriers and in retaining high circulating concentrations of both IgG and albumin. Although generally beneficial from an immunological perspective in maintaining IgG populations, FcRn can contribute to the pathogenesis of autoimmune disorders when an abnormal immune response targets normal biological components. We previously described a monoclonal antibody (DX-2507) that binds to FcRn with high affinity at both neutral and acidic pH, prevents the simultaneous binding of IgG, and reduces circulating IgG levels in preclinical animal models. Here, we report a 2.5 \u00c5 resolution X-ray crystal structure of an FcRn-DX-2507 Fab complex, revealing a nearly complete overlap of the IgG-Fc binding site in FcRn by complementarity-determining regions in DX-2507. This overlap explains how DX-2507 blocks IgG binding to FcRn and thereby shortens IgG half-life by preventing IgGs from recycling back into circulation. Moreover, the complex structure explains how the DX-2507 interaction is pH-insensitive unlike normal Fc interactions and how serum albumin levels are unaffected by DX-2507 binding. These structural studies could inform antibody-based therapeutic approaches for limiting the effects of IgG-mediated autoimmune disease.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JA",
+                    "lastname": "Kenniston",
+                    "name": "Kenniston JA"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Taylor",
+                    "name": "Taylor BM"
+                },
+                {
+                    "initials": "GP",
+                    "lastname": "Conley",
+                    "name": "Conley GP"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Cosic",
+                    "name": "Cosic J"
+                },
+                {
+                    "initials": "KJ",
+                    "lastname": "Kopacz",
+                    "name": "Kopacz KJ"
+                },
+                {
+                    "initials": "AP",
+                    "lastname": "Lindberg",
+                    "name": "Lindberg AP"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Comeau",
+                    "name": "Comeau SR"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Atkins",
+                    "name": "Atkins K"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Bullen",
+                    "name": "Bullen J"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "TenHoor",
+                    "name": "TenHoor C"
+                },
+                {
+                    "initials": "BA",
+                    "lastname": "Adelman",
+                    "name": "Adelman BA"
+                },
+                {
+                    "initials": "DJ",
+                    "lastname": "Sexton",
+                    "name": "Sexton DJ"
+                },
+                {
+                    "initials": "TE",
+                    "lastname": "Edwards",
+                    "name": "Edwards TE"
+                },
+                {
+                    "initials": "AE",
+                    "lastname": "Nixon",
+                    "name": "Nixon AE"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M117.807396",
+                    "type": "doi"
+                },
+                {
+                    "id": "28878017",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "42"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "17449-17460"
+            ],
+            "title": "Structural basis for pH-insensitive inhibition of immunoglobulin G recycling by an anti-neonatal Fc receptor antibody.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820339016",
+            "volume": [
+                "292"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5whk"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5whk"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with antibody at 2.50&#8491; resolution",
+    "unique_chain_count": 4
+}

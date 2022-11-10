@@ -1,0 +1,204 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2gtz_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:32:17.551466"
+        },
+        "2": {
+            "assembly_name": "2gtz_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:32:18.011781"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ALGIGILTV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2006-04-28",
+        "deposition_year": 2006,
+        "release_date": "2007-06-12",
+        "release_year": 2007,
+        "revision_date": "2021-10-20",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2GTZ | HLA-A*02:01 binding \"ALGIGILTV\"",
+    "pdb_code": "2gtz",
+    "pdb_title": "Human Class I MHC hla-a2 in complex with the nonameric melan-a/mart-1(27-35) peptide having a28l substitution",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ALGIGILTV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ALGIGILTV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "ALGIGILTV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ALGIGILTV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ALGIGILTV",
+    "publication": {
+        "abstract": "Small structural changes in peptides presented by major histocompatibility complex (MHC) molecules often result in large changes in immunogenicity, supporting the notion that T cell receptors are exquisitely sensitive to antigen structure. Yet there are striking examples of TCR recognition of structurally dissimilar ligands. The resulting unpredictability of how T cells will respond to different or modified antigens impacts both our understanding of the physical bases for TCR specificity as well as efforts to engineer peptides for immunomodulation. In cancer immunotherapy, epitopes and variants derived from the MART-1/Melan-A protein are widely used as clinical vaccines. Two overlapping epitopes spanning amino acid residues 26 through 35 are of particular interest: numerous clinical studies have been performed using variants of the MART-1 26-35 decamer, although only the 27-35 nonamer has been found on the surface of targeted melanoma cells. Here, we show that the 26-35 and 27-35 peptides adopt strikingly different conformations when bound to HLA-A2. Nevertheless, clonally distinct MART-1(26/27-35)-reactive T cells show broad cross-reactivity towards these ligands. Simultaneously, however, many of the cross-reactive T cells remain unable to recognize anchor-modified variants with very subtle structural differences. These dichotomous observations challenge our thinking about how structural information on unligated peptide/MHC complexes should be best used when addressing questions of TCR specificity. Our findings also indicate that caution is warranted in the design of immunotherapeutics based on the MART-1 26/27-35 epitopes, as neither cross-reactivity nor selectivity is predictable based on the analysis of the structures alone.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "OY",
+                    "lastname": "Borbulevych",
+                    "name": "Borbulevych OY"
+                },
+                {
+                    "initials": "FK",
+                    "lastname": "Insaidoo",
+                    "name": "Insaidoo FK"
+                },
+                {
+                    "initials": "TK",
+                    "lastname": "Baxter",
+                    "name": "Baxter TK"
+                },
+                {
+                    "initials": "DJ",
+                    "lastname": "Powell",
+                    "name": "Powell DJ"
+                },
+                {
+                    "initials": "LA",
+                    "lastname": "Johnson",
+                    "name": "Johnson LA"
+                },
+                {
+                    "initials": "NP",
+                    "lastname": "Restifo",
+                    "name": "Restifo NP"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jmb.2007.07.025",
+                    "type": "doi"
+                },
+                {
+                    "id": "17719062",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "1123-36"
+            ],
+            "title": "Structures of MART-126/27-35 Peptide/HLA-A2 complexes reveal a remarkable disconnect between antigen structural homology and T cell recognition.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283607009497",
+            "volume": [
+                "372"
+            ],
+            "year": [
+                2007
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2gtz"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2gtz"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"ALGIGILTV\" at 1.70&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,261 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6z9x_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:13.246813"
+        },
+        "2": {
+            "assembly_name": "6z9x_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:33:13.631888"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLSXFGTPT"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-06-04",
+        "deposition_year": 2020,
+        "release_date": "2021-06-30",
+        "release_year": 2021,
+        "revision_date": "2021-09-22",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6Z9X | HLA-A*02:01 binding \"LLSXFGTPT\"",
+    "pdb_code": "6z9x",
+    "pdb_title": "Human Class I major histocompatibility complex, a02 allele, presenting lls (t-butyl)y fgtpt",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "LLSFGTPT",
+            "chain_id": "C",
+            "features": [
+                "contains_unnatural",
+                "central_gap"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLSXFGTPT",
+            "gap_ends_at": 5,
+            "gap_length": 1,
+            "gap_sequence": "X",
+            "gap_start_after": 3,
+            "gapped_sequence": "LLS-FGTPT"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "LLSFGTPT",
+            "chain_id": "F",
+            "features": [
+                "contains_unnatural",
+                "central_gap"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLSXFGTPT",
+            "gap_ends_at": 5,
+            "gap_length": 1,
+            "gap_sequence": "X",
+            "gap_start_after": 3,
+            "gapped_sequence": "LLS-FGTPT"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LLSXFGTPT",
+    "publication": {
+        "abstract": "The human CD8<sup>+</sup> T cell clone 6C5 has previously been shown to recognize the <i>tert</i>-butyl-modified Bax<sub>161-170</sub> peptide LLSY(3-<i>t</i>Bu)FGTPT presented by HLA-A*02:01. This nonnatural epitope was likely created as a by-product of fluorenylmethoxycarbonyl protecting group peptide synthesis and bound poorly to HLA-A*02:01. In this study, we used a systematic approach to identify and characterize natural ligands for the 6C5 TCR. Functional analyses revealed that 6C5 T cells only recognized the LLSYFGTPT peptide when <i>t</i>Bu was added to the tyrosine residue and did not recognize the LLSYFGTPT peptide modified with larger (di-<i>t</i>Bu) or smaller chemical groups (Me). Combinatorial peptide library screening further showed that 6C5 T cells recognized a series of self-derived peptides with dissimilar amino acid sequences to LLSY(3-<i>t</i>Bu)FGTPT. Structural studies of LLSY(3-<i>t</i>Bu)FGTPT and two other activating nonamers (IIGWMWIPV and LLGWVFAQV) in complex with HLA-A*02:01 demonstrated similar overall peptide conformations and highlighted the importance of the position (P) 4 residue for T cell recognition, particularly the capacity of the bulky amino acid tryptophan to substitute for the <i>t</i>Bu-modified tyrosine residue in conjunction with other changes at P5 and P6. Collectively, these results indicated that chemical modifications directly altered the immunogenicity of a synthetic peptide via molecular mimicry, leading to the inadvertent activation of a T cell clone with unexpected and potentially autoreactive specificities.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Man",
+                    "name": "Man S"
+                },
+                {
+                    "initials": "JE",
+                    "lastname": "Redman",
+                    "name": "Redman JE"
+                },
+                {
+                    "initials": "DL",
+                    "lastname": "Cross",
+                    "name": "Cross DL"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Can",
+                    "name": "Can I"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Davies",
+                    "name": "Davies B"
+                },
+                {
+                    "initials": "SS",
+                    "lastname": "Hashimdeen",
+                    "name": "Hashimdeen SS"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Reid",
+                    "name": "Reid R"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Llewellyn-Lacey",
+                    "name": "Llewellyn-Lacey S"
+                },
+                {
+                    "initials": "KL",
+                    "lastname": "Miners",
+                    "name": "Miners KL"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Ladell",
+                    "name": "Ladell K"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Lissina",
+                    "name": "Lissina A"
+                },
+                {
+                    "initials": "PE",
+                    "lastname": "Brown",
+                    "name": "Brown PE"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wooldridge",
+                    "name": "Wooldridge L"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.2000756",
+                    "type": "doi"
+                },
+                {
+                    "id": "34321228",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J Immunol",
+                "name": ""
+            },
+            "pages": [
+                "1009-1017"
+            ],
+            "title": "Synthetic Peptides with Inadvertent Chemical Modifications Can Activate Potentially Autoreactive T Cells.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.2000756",
+            "volume": [
+                "207"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.68",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6z9x"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6z9x"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"LLSXFGTPT\" at 2.68&#8491; resolution",
+    "unique_chain_count": 3
+}

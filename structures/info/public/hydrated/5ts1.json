@@ -1,0 +1,253 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01902",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kd",
+            "slug": "h2_kd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5ts1_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:43:26.003725"
+        },
+        "2": {
+            "assembly_name": "5ts1_2",
+            "chains": [
+                "C",
+                "D",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:43:27.875646"
+        },
+        "3": {
+            "assembly_name": "5ts1_3",
+            "chains": [
+                "E",
+                "F",
+                "R"
+            ],
+            "downloaded_at": "2022-11-09T14:43:28.198951"
+        },
+        "4": {
+            "assembly_name": "5ts1_4",
+            "chains": [
+                "G",
+                "H",
+                "S"
+            ],
+            "downloaded_at": "2022-11-09T14:43:28.511657"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.83,
+            "sequence": "PHSLRYFVTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDADNPRFEPRAPWMEQEGPEYWEEQTQRAKSDEQWFRVSLRTAQRYYNQSKGGSHTFQRMFGCDVGSDWRLLRGYHQFAYDGRDYIALNEDLKTWTAADTAALITRRKWEQAGDAEYYRAYLEGECVEWLRRYLELGNETLLRTDSPKAHVTYHPRSQVDVTLRCWALGFYPADITLTWQLNGEDLTQDMELVETRPAGDGTFQKWAAVVVPLGKEQNYTCHVHHKGLPEPLTLRWKP"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q",
+                "R",
+                "S"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YYQSGLSIV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-10-27",
+        "deposition_year": 2016,
+        "release_date": "2018-05-09",
+        "release_year": 2018,
+        "revision_date": "2020-02-05",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5TS1 | H2-Kd binding \"YYQSGLSIV\"",
+    "pdb_code": "5ts1",
+    "pdb_title": "Crystal structure of MHC-i H2-Kd complexed with peptides of mycobacterial tuberculosis (YYQSGLSIV)",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "YYQSGLSIV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YYQSGLSIV"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "YYQSGLSIV",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YYQSGLSIV"
+        },
+        "R": {
+            "actual_length": 9,
+            "actual_sequence": "YYQSGLSIV",
+            "chain_id": "R",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YYQSGLSIV"
+        },
+        "S": {
+            "actual_length": 9,
+            "actual_sequence": "YYQSGLSIV",
+            "chain_id": "S",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YYQSGLSIV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YYQSGLSIV",
+    "publication": {
+        "abstract": "Despite efforts to develop effective treatments and vaccines, Mycobacterium tuberculosis (Mtb), particularly pulmonary Mtb, continues to provide major health challenges worldwide. To improve immunization against the persistent health challenge of Mtb infection, we have studied the CD8<sup>+</sup> T\u00a0cell response to Bacillus Calmette-Gu\u00e9rin (BCG) and recombinant BCG (rBCG) in mice. Here, we generated CD8<sup>+</sup> T\u00a0cells with an rBCG-based vaccine encoding the Ag85B protein of M. kansasii, termed rBCG-Mkan85B, followed by boosting with plasmid DNA expressing the Ag85B gene (DNA-Mkan85B). We identified two MHC-I (H2-K<sup>d</sup> )-restricted epitopes that induce cross-reactive responses to Mtb and other related mycobacteria in both BALB/c (H2<sup>d</sup> ) and CB6F1 (H2<sup>b/d</sup> ) mice. The H2-K<sup>d</sup> -restricted peptide epitopes elicited polyfunctional CD8<sup>+</sup> T\u00a0cell responses that were also highly cross-reactive with those of other proteins of the Ag85 complex. Tetramer staining indicated that the two H2-K<sup>d</sup> -restricted epitopes elicit distinct CD8<sup>+</sup> T\u00a0cell populations, a result explained by the X-ray structure of the two peptide/H2-K<sup>d</sup> complexes. These results suggest that rBCG-Mkan85B vector-based immunization and DNA-Mkan85B boost may enhance CD8<sup>+</sup> T\u00a0cell response to Mtb, and might help to overcome the limited effectiveness of the current BCG in eliciting tuberculosis immunity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Komine-Aizawa",
+                    "name": "Komine-Aizawa S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Jiang",
+                    "name": "Jiang J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Mizuno",
+                    "name": "Mizuno S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Hayakawa",
+                    "name": "Hayakawa S"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Matsuo",
+                    "name": "Matsuo K"
+                },
+                {
+                    "initials": "LF",
+                    "lastname": "Boyd",
+                    "name": "Boyd LF"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Margulies",
+                    "name": "Margulies DH"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Honda",
+                    "name": "Honda M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/eji.201847988",
+                    "type": "doi"
+                },
+                {
+                    "id": "31135967",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Eur. J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "MHC-restricted Ag85B-specific CD8<sub>+</sub> T\ufffd\ufffdcells are enhanced by recombinant BCG prime and DNA boost immunization in mice.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/eji.201847988",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5ts1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5ts1"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kd binding \"YYQSGLSIV\" at 2.30&#8491; resolution",
+    "unique_chain_count": 3
+}

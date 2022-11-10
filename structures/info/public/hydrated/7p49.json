@@ -1,0 +1,268 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34202",
+            "locus": "hla-e",
+            "match_type": "histo:exact",
+            "name": "HLA-E*01:03",
+            "slug": "hla_e_01_03",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7p49_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:39:17.677756"
+        },
+        "2": {
+            "assembly_name": "7p49_2",
+            "chains": [
+                "C",
+                "D",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:39:19.356433"
+        },
+        "3": {
+            "assembly_name": "7p49_3",
+            "chains": [
+                "E",
+                "F",
+                "R"
+            ],
+            "downloaded_at": "2022-11-09T14:39:19.725372"
+        },
+        "4": {
+            "assembly_name": "7p49_4",
+            "chains": [
+                "G",
+                "H",
+                "Z"
+            ],
+            "downloaded_at": "2022-11-09T14:39:20.098224"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRFDNDAASPRMVPRAPWMEQEGSEYWDRETRSARDTAQIFRVNLRTLRGYYNQSEAGSHTLQWMHGCELGPDGRFLRGYEQFAYDGKDYLTLNEDLRSWTAVDTAAQISEQKSNDASEAEHQRAYLEDTCVEWLHKYLEKGKETLLHLEPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQQDGEGHTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPVTLRWKP"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q",
+                "R",
+                "Z"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RMAATAQVL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-07-10",
+        "deposition_year": 2021,
+        "release_date": "2022-06-22",
+        "release_year": 2022,
+        "revision_date": "2022-08-03",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-e",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7P49 | HLA-E*01:03 binding \"RMAATAQVL\"",
+    "pdb_code": "7p49",
+    "pdb_title": "Hla-e*01:03 in complex with mtb14",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "RMAATAQVL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMAATAQVL"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "RMAATAQVL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMAATAQVL"
+        },
+        "R": {
+            "actual_length": 9,
+            "actual_sequence": "RMAATAQVL",
+            "chain_id": "R",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMAATAQVL"
+        },
+        "Z": {
+            "actual_length": 9,
+            "actual_sequence": "RMAATAQVL",
+            "chain_id": "Z",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RMAATAQVL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RMAATAQVL",
+    "publication": {
+        "abstract": "MHC-E regulates NK cells by displaying MHC class Ia signal peptides (VL9) to NKG2A:CD94 receptors. MHC-E can also present sequence-diverse, lower-affinity, pathogen-derived peptides to T\u00a0cell receptors (TCRs) on CD8<sup>+</sup> T\u00a0cells. To understand these affinity differences, human MHC-E (HLA-E)-VL9 versus pathogen-derived peptide structures are compared. Small-angle X-ray scatter (SAXS) measures biophysical parameters in solution, allowing comparison with crystal structures. For HLA-E-VL9, there is concordance between SAXS and crystal parameters. In contrast, HLA-E-bound pathogen-derived peptides produce larger SAXS dimensions that reduce to their crystallographic dimensions only when excess peptide is supplied. Further crystallographic analysis demonstrates three amino acids, exclusive to MHC-E, that not only position VL9 close to the \u03b12 helix, but also allow non-VL9 peptide binding with re-configuration of a key TCR-interacting \u03b12 region. Thus, non-VL9-bound peptides introduce an alternative peptide-binding motif and surface recognition landscape, providing a likely basis for VL9- and non-VL9-HLA-E immune discrimination.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LC",
+                    "lastname": "Walters",
+                    "name": "Walters LC"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Rozbesky",
+                    "name": "Rozbesky D"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Harlos",
+                    "name": "Harlos K"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Quastel",
+                    "name": "Quastel M"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Sun",
+                    "name": "Sun H"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Springer",
+                    "name": "Springer S"
+                },
+                {
+                    "initials": "RP",
+                    "lastname": "Rambo",
+                    "name": "Rambo RP"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Mohammed",
+                    "name": "Mohammed F"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "Gillespie",
+                    "name": "Gillespie GM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.celrep.2022.110959",
+                    "type": "doi"
+                },
+                {
+                    "id": "35705051",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "Cell Rep",
+                "name": ""
+            },
+            "pages": [
+                "110959"
+            ],
+            "title": "Primary and secondary functions of HLA-E are determined by stability and conformation of the peptide-bound complexes.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S2211124722007410",
+            "volume": [
+                "39"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.05",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7p49"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7p49"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-E*01:03 binding \"RMAATAQVL\" at 2.05&#8491; resolution",
+    "unique_chain_count": 3
+}

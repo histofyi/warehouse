@@ -1,0 +1,225 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01897",
+            "locus": "h2-l",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Ld",
+            "slug": "h2_ld",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4n5e_1",
+            "chains": [
+                "C",
+                "D",
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:44:07.735953"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.75,
+            "sequence": "MGPHSMRYYETATSRRGLGEPRYTSVGYVDDKEFVRFDSDAENPRYEPQVPWMEQEGPEYWERITQIAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQWMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLRTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNGNATL"
+        },
+        "peptide": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VPYMAEFGM"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GSHMAQSVTQPDARVTVSEGASLQLRCKYSYSATPYLFWYVQYPRQGLQMLLKYYSGDPVVQGVNGFEAEFSKSDSSFHLRKASVHWSDSAVYFCAVSAKGTGSKLSFGKGAKLTVSPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV9"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGEAAVTQSPRNKVTVTGGNVTLSCRQTNSHNYMYWYRQDTGHGLRLIHYSYGAGNLQIGDVPDGYKATRTTQEDFFLLLELASPSQTSLYFCASSDAPGQLYFGEGSKLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-10-09",
+        "deposition_year": 2013,
+        "release_date": "2015-08-19",
+        "release_year": 2015,
+        "revision_date": "2018-09-26",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "truncated_class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-l",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4N5E | Truncated H2-Ld presenting \"VPYMAEFGM\" to Alpha/Beta T cell receptor",
+    "pdb_code": "4n5e",
+    "pdb_title": "42f3 TCR pcpa12/h-2ld complex",
+    "peptide": {
+        "B": {
+            "actual_length": 9,
+            "actual_sequence": "VPYMAEFGM",
+            "chain_id": "B",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VPYMAEFGM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VPYMAEFGM",
+    "publication": {
+        "abstract": "Estimates of mutation rates for various regions of the human mitochondrial genome (mtGenome) vary widely, depending on whether they are inferred using a phylogenetic approach or obtained directly from pedigrees. Traditionally, only the control region, or small portions of the coding region have been targeted for analysis due to the cost and effort required to produce whole mtGenome Sanger profiles. Here, we report one of the first pedigree derived mutation rates for the entire human mtGenome. The entire mtGenome from 225 individuals originating from Norfolk Island was analysed to estimate the pedigree derived mutation rate and compared against published mutation rates. These individuals were from 45 maternal lineages spanning 345 generational events. Mutation rates for various portions of the mtGenome were calculated. Nine mutations (including two transitions and seven cases of heteroplasmy) were observed, resulting in a rate of 0.058 mutations/site/million years (95% CI 0.031-0.108). These mutation rates are approximately 16 times higher than estimates derived from phylogenetic analysis with heteroplasmy detected in 13 samples (n\u2009=\u2009225, 5.8% individuals). Providing one of the first pedigree derived estimates for the entire mtGenome, this study provides a better understanding of human mtGenome evolution and has relevance to many research fields, including medicine, anthropology and forensics.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JJ",
+                    "lastname": "Adams",
+                    "name": "Adams JJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Narayanan",
+                    "name": "Narayanan S"
+                },
+                {
+                    "initials": "ME",
+                    "lastname": "Birnbaum",
+                    "name": "Birnbaum ME"
+                },
+                {
+                    "initials": "SS",
+                    "lastname": "Sidhu",
+                    "name": "Sidhu SS"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Blevins",
+                    "name": "Blevins SJ"
+                },
+                {
+                    "initials": "MH",
+                    "lastname": "Gee",
+                    "name": "Gee MH"
+                },
+                {
+                    "initials": "LV",
+                    "lastname": "Sibener",
+                    "name": "Sibener LV"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Kranz",
+                    "name": "Kranz DM"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Garcia",
+                    "name": "Garcia KC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.3310",
+                    "type": "doi"
+                },
+                {
+                    "id": "26523866",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "87-94"
+            ],
+            "title": "Structural interplay between germline interactions and adaptive recognition determines the bandwidth of TCR-peptide-MHC cross-reactivity.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.3310",
+            "volume": [
+                "17"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.06",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4n5e"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4n5e"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4n5e"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV9"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "4n5e"
+    },
+    "title": "Truncated H2-Ld presenting \"VPYMAEFGM\" to Alpha/Beta T cell receptor at 3.06&#8491; resolution",
+    "unique_chain_count": 4
+}

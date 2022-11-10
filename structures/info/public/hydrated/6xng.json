@@ -1,0 +1,251 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6xng_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G"
+            ],
+            "downloaded_at": "2022-11-09T14:35:06.783787"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWGSLHHILDAQKMVWNHRHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "TQVEQSPQSLVVRQGENSVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDEGYTQYFGPGTRLLVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-07-02",
+        "deposition_year": 2020,
+        "release_date": "2021-11-10",
+        "release_year": 2021,
+        "revision_date": "2021-12-22",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6XNG | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "6xng",
+    "pdb_title": "Mhc-like protein complex structure",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Small molecules derived from symbiotic microbiota critically contribute to intestinal immune maturation and regulation<sup>1</sup>. However, little is known about the molecular mechanisms that control immune development in the host-microbiota environment. Here, using a targeted lipidomic analysis and synthetic approach, we carried out a multifaceted investigation of immunomodulatory \u03b1-galactosylceramides from the human symbiont Bacteroides fragilis (BfaGCs). The characteristic terminal branching of BfaGCs is the result of incorporation of branched-chain amino acids taken up in the host gut by B. fragilis. A B. fragilis knockout strain that cannot metabolize branched-chain amino acids showed reduced branching in BfaGCs, and mice monocolonized with this mutant strain had impaired colonic natural killer T\u00a0(NKT) cell regulation, implying structure-specific immunomodulatory activity. The sphinganine chain branching of BfaGCs is a critical determinant of NKT cell activation, which induces specific\u00a0immunomodulatory gene expression signatures and effector functions. Co-crystal structure and affinity analyses of CD1d-BfaGC-NKT cell receptor complexes confirmed the interaction of BfaGCs as CD1d-restricted ligands. We present a structural and molecular-level paradigm of immunomodulatory control by interactions of endobiotic metabolites with diet, microbiota and the immune system.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SF",
+                    "lastname": "Oh",
+                    "name": "Oh SF"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Praveena",
+                    "name": "Praveena T"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Song",
+                    "name": "Song H"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Yoo",
+                    "name": "Yoo JS"
+                },
+                {
+                    "initials": "DJ",
+                    "lastname": "Jung",
+                    "name": "Jung DJ"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Erturk-Hasdemir",
+                    "name": "Erturk-Hasdemir D"
+                },
+                {
+                    "initials": "YS",
+                    "lastname": "Hwang",
+                    "name": "Hwang YS"
+                },
+                {
+                    "initials": "CC",
+                    "lastname": "Lee",
+                    "name": "Lee CC"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Kim",
+                    "name": "Kim H"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lee",
+                    "name": "Lee J"
+                },
+                {
+                    "initials": "RS",
+                    "lastname": "Blumberg",
+                    "name": "Blumberg RS"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "SB",
+                    "lastname": "Park",
+                    "name": "Park SB"
+                },
+                {
+                    "initials": "DL",
+                    "lastname": "Kasper",
+                    "name": "Kasper DL"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41586-021-04083-0",
+                    "type": "doi"
+                },
+                {
+                    "id": "34759313",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Host immunomodulatory lipids created by symbionts from dietary amino acids.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41586-021-04083-0",
+            "volume": [
+                null
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.79",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6xng"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6xng"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6xng"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "6xng"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 2.79&#8491; resolution",
+    "unique_chain_count": 4
+}

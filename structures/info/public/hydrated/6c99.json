@@ -1,0 +1,271 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P04223",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kk",
+            "slug": "h2_kk",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6c99_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:40:46.044328"
+        },
+        "2": {
+            "assembly_name": "6c99_2",
+            "chains": [
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:40:46.449337"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "fcrn": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "AESHLSLLYHLTAVSSPAPGTPAFWVSGWLGPQQYLSYNSLRGEAEPCGAWVWENQVSWYWEKETTDLRIKEKLFLEAFKALGGKGPYTLQGLLGCELGPDNTSVPTAKFALNGEEFMNFDLKQGTWGGDWPEALAISQRWQQQDKAANKELTFLLFSCPHRLREHLERGRGNLEWKEPPSMRLKARPSSPGFSVLTCSAFSFYPPELQLRFLRNGLAAGTGQGDFGPNSDGSFHASSSLTVKSGDEHHYCCIVQHAGLAQPLRVELESPAKSS"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-01-25",
+        "deposition_year": 2018,
+        "release_date": "2018-05-30",
+        "release_year": 2018,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "fcrn",
+    "components": [
+        "fcrn",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6C99 | Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn)",
+    "pdb_code": "6c99",
+    "pdb_title": "Crystal structure of fcrn bound to ucb-303",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Aiming at the design of an allosteric modulator of the neonatal Fc receptor (FcRn)-Immunoglobulin G (IgG) interaction, we developed a new methodology including NMR fragment screening, X-ray crystallography, and magic-angle-spinning (MAS) NMR at 100 kHz after sedimentation, exploiting very fast spinning of the nondeuterated soluble 42 kDa receptor construct to obtain resolved proton-detected 2D and 3D NMR spectra. FcRn plays a crucial role in regulation of IgG and serum albumin catabolism. It is a clinically validated drug target for the treatment of autoimmune diseases caused by pathogenic antibodies via the inhibition of its interaction with IgG. We herein present the discovery of a small molecule that binds into a conserved cavity of the heterodimeric, extracellular domain composed of an \u03b1-chain and \u03b22-microglobulin (\u03b22m) (FcRnECD, 373 residues). X-ray crystallography was used alongside NMR at 100 kHz MAS with sedimented soluble protein to explore possibilities for refining the compound as an allosteric modulator. Proton-detected MAS NMR experiments on fully protonated [13C,15N]-labeled FcRnECD yielded ligand-induced chemical-shift perturbations (CSPs) for residues in the binding pocket and allosteric changes close to the interface of the two receptor heterodimers present in the asymmetric unit as well as potentially in the albumin interaction site. X-ray structures with and without ligand suggest the need for an optimized ligand to displace the \u03b1-chain with respect to \u03b22m, both of which participate in the FcRnECD-IgG interaction site. Our investigation establishes a method to characterize structurally small molecule binding to nondeuterated large proteins by NMR, even in their glycosylated form, which may prove highly valuable for structure-based drug discovery campaigns.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "St\ufffd\ufffdppler",
+                    "name": "St\ufffd\ufffdppler D"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Macpherson",
+                    "name": "Macpherson A"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Smith-Penzel",
+                    "name": "Smith-Penzel S"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Basse",
+                    "name": "Basse N"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Lecomte",
+                    "name": "Lecomte F"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Deboves",
+                    "name": "Deboves H"
+                },
+                {
+                    "initials": "RD",
+                    "lastname": "Taylor",
+                    "name": "Taylor RD"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Norman",
+                    "name": "Norman T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Porter",
+                    "name": "Porter J"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Waters",
+                    "name": "Waters LC"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Westwood",
+                    "name": "Westwood M"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Cossins",
+                    "name": "Cossins B"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Cain",
+                    "name": "Cain K"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "White",
+                    "name": "White J"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Griffin",
+                    "name": "Griffin R"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Prosser",
+                    "name": "Prosser C"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Kelm",
+                    "name": "Kelm S"
+                },
+                {
+                    "initials": "AH",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan AH"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Fox",
+                    "name": "Fox D"
+                },
+                {
+                    "initials": "MD",
+                    "lastname": "Carr",
+                    "name": "Carr MD"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Henry",
+                    "name": "Henry A"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Taylor",
+                    "name": "Taylor R"
+                },
+                {
+                    "initials": "BH",
+                    "lastname": "Meier",
+                    "name": "Meier BH"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Oschkinat",
+                    "name": "Oschkinat H"
+                },
+                {
+                    "initials": "AD",
+                    "lastname": "Lawson",
+                    "name": "Lawson AD"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.pbio.2006192",
+                    "type": "doi"
+                },
+                {
+                    "id": "29782488",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Biol.",
+                "name": ""
+            },
+            "pages": [
+                "e2006192"
+            ],
+            "title": "Insight into small molecule binding to the neonatal Fc receptor by X-ray crystallography and 100 kHz magic-angle-spinning NMR.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.pbio.2006192",
+            "volume": [
+                "16"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6c99"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6c99"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) at 2.00&#8491; resolution",
+    "unique_chain_count": 2
+}

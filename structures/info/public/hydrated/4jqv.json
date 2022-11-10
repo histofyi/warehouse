@@ -1,0 +1,232 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34670",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*18:01",
+            "slug": "hla_b_18_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4jqv_1",
+            "chains": [
+                "A",
+                "C",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:44:48.409754"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFISVGYVDGTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQISKTNTQTYRESLRNLRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGTCVEWLRRHLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPSS"
+        },
+        "peptide": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SELEIKRY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-03-20",
+        "deposition_year": 2013,
+        "release_date": "2013-06-26",
+        "release_year": 2013,
+        "revision_date": "2013-07-17",
+        "revision_year": 2013
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4JQV | HLA-B*18:01 binding \"SELEIKRY\"",
+    "pdb_code": "4jqv",
+    "pdb_title": "Hla-b*18:01 in complex with epstein-barr virus bzlf1-derived peptide (residues 173-180)",
+    "peptide": {
+        "B": {
+            "actual_length": 8,
+            "actual_sequence": "SELEIKRY",
+            "chain_id": "B",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SELEIKRY"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "SELEIKRY",
+    "publication": {
+        "abstract": "Class I HLAs generally present peptides of 8-10 aa in length, although it is unclear whether peptide length preferences are affected by HLA polymorphism. In this study, we investigated the CD8(+) T cell response to the BZLF1 Ag of EBV, which includes overlapping sequences of different size that nevertheless conform to the binding motif of the large and abundant HLA-B*44 supertype. Whereas HLA-B*18:01(+) individuals responded strongly and exclusively to the octamer peptide (173)SELEIKRY(180), HLA-B*44:03(+) individuals responded to the atypically large dodecamer peptide (169)EECDSELEIKRY(180), which encompasses the octamer peptide. Moreover, the octamer peptide bound more stably to HLA-B*18:01 than did the dodecamer peptide, whereas, conversely, HLA-B*44:03 bound only the longer peptide. Furthermore, crystal structures of these viral peptide-HLA complexes showed that the Ag-binding cleft of HLA-B*18:01 was more ideally suited to bind shorter peptides, whereas HLA-B*44:03 exhibited characteristics that favored the presentation of longer peptides. Mass spectrometric identification of > 1000 naturally presented ligands revealed that HLA-B*18:01 was more biased toward presenting shorter peptides than was HLA-B*44:03. Collectively, these data highlight a mechanism through which polymorphism within an HLA class I supertype can diversify determinant selection and immune responses by varying peptide length preferences.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MJ",
+                    "lastname": "Rist",
+                    "name": "Rist MJ"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Theodossis",
+                    "name": "Theodossis A"
+                },
+                {
+                    "initials": "NP",
+                    "lastname": "Croft",
+                    "name": "Croft NP"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Neller",
+                    "name": "Neller MA"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Welland",
+                    "name": "Welland A"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan LC"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Burrows",
+                    "name": "Burrows JM"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Brennan",
+                    "name": "Brennan RM"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Khanna",
+                    "name": "Khanna R"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1300292",
+                    "type": "doi"
+                },
+                {
+                    "id": "23749632",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "HLA Peptide Length Preferences Control CD8+ T Cell Responses.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1300292",
+            "volume": [
+                null
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4jqv"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4jqv"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*18:01 binding \"SELEIKRY\" at 1.50&#8491; resolution",
+    "unique_chain_count": 3
+}

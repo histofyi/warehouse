@@ -1,0 +1,189 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34773",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*03:01",
+            "slug": "hla_a_03_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7uc5_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:35.333838"
+        },
+        "2": {
+            "assembly_name": "7uc5_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:44:35.849402"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHEAEQLRAYLDGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWELS"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILRGSVAHK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2022-03-16",
+        "deposition_year": 2022,
+        "release_date": "2022-10-12",
+        "release_year": 2022,
+        "revision_date": "2022-10-12",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7UC5 | HLA-A*03:01 binding \"ILRGSVAHK\"",
+    "pdb_code": "7uc5",
+    "pdb_title": "Crystal structure of hla a*0301 in complex with ILRGSVAHK, a 9-mer epitope from influenza a",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ILRGSVAHK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILRGSVAHK"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "ILRGSVAHK",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILRGSVAHK"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILRGSVAHK",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Nguyen, A.T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Lau, H.M.P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sloane, H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Jayasinghe, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Mifsud, N.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Chatzileontiadou, D.S.M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Grant, E.J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Szeto, C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gras, S."
+                }
+            ],
+            "identifier": [],
+            "title": "CD8+ T cells cross-recognise conserved influenza A and B homologous epitopes",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.95",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7uc5"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7uc5"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*03:01 binding \"ILRGSVAHK\" at 1.95&#8491; resolution",
+    "unique_chain_count": 3
+}

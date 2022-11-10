@@ -1,0 +1,224 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7n1b_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:26.178448"
+        },
+        "2": {
+            "assembly_name": "7n1b_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:31:26.606440"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RLQSLQTYV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-05-27",
+        "deposition_year": 2021,
+        "release_date": "2021-07-28",
+        "release_year": 2021,
+        "revision_date": "2022-02-02",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7N1B | HLA-A*02:01 binding \"RLQSLQTYV\"",
+    "pdb_code": "7n1b",
+    "pdb_title": "Sars-cov-2 rlq peptide binds to hla-a2",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RLQSLQTYV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RLQSLQTYV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "RLQSLQTYV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RLQSLQTYV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RLQSLQTYV",
+    "publication": {
+        "abstract": "T cells play a vital role in combatting SARS-CoV-2 and forming long-term memory responses. Whereas extensive structural information is available on neutralizing antibodies against SARS-CoV-2, such information on SARS-CoV-2-specific T-cell receptors (TCRs) bound to their peptide-MHC targets is lacking. Here we determine the structures of a public and a private TCR from COVID-19 convalescent patients in complex with HLA-A2 and two SARS-CoV-2 spike protein epitopes (YLQ and RLQ). The structures reveal the basis for selection of particular TRAV and TRBV germline genes by the public but not the private TCR, and for the ability of the TCRs to recognize natural variants of RLQ but not YLQ. Neither TCR recognizes homologous epitopes from human seasonal coronaviruses. By elucidating the mechanism for TCR recognition of an immunodominant yet variable epitope (YLQ) and a conserved but less commonly targeted epitope (RLQ), this study can inform prospective efforts to design vaccines to elicit pan-coronavirus immunity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Wu",
+                    "name": "Wu D"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Kolesnikov",
+                    "name": "Kolesnikov A"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Yin",
+                    "name": "Yin R"
+                },
+                {
+                    "initials": "JD",
+                    "lastname": "Guest",
+                    "name": "Guest JD"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Gowthaman",
+                    "name": "Gowthaman R"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Shmelev",
+                    "name": "Shmelev A"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Serdyuk",
+                    "name": "Serdyuk Y"
+                },
+                {
+                    "initials": "DV",
+                    "lastname": "Dianov",
+                    "name": "Dianov DV"
+                },
+                {
+                    "initials": "GA",
+                    "lastname": "Efimov",
+                    "name": "Efimov GA"
+                },
+                {
+                    "initials": "BG",
+                    "lastname": "Pierce",
+                    "name": "Pierce BG"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Mariuzza",
+                    "name": "Mariuzza RA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-021-27669-8",
+                    "type": "doi"
+                },
+                {
+                    "id": "35013235",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "19"
+            ],
+            "title": "Structural assessment of HLA-A2-restricted SARS-CoV-2 spike epitopes recognized by public and private T-cell receptors.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41467-021-27669-8",
+            "volume": [
+                "13"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.81",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7n1b"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7n1b"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"RLQSLQTYV\" at 2.81&#8491; resolution",
+    "unique_chain_count": 3
+}

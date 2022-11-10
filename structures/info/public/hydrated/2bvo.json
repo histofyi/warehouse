@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA25915",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:03",
+            "slug": "hla_b_57_03",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2bvo_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:36:19.865518"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KAFSPEVIPMF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-07-01",
+        "deposition_year": 2005,
+        "release_date": "2005-09-13",
+        "release_year": 2005,
+        "revision_date": "2019-10-09",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2BVO | HLA-B*57:03 binding \"KAFSPEVIPMF\"",
+    "pdb_code": "2bvo",
+    "pdb_title": "Structures of three HIV-1 HLA-B*5703-peptide complexes and identification of related HLAs potentially associated with long-term nonprogression.",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "KAFSPEVIPMF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "KAFSPEVIPMF"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "KAFSPEVIPMF",
+    "publication": {
+        "abstract": "Long-term nonprogression during acute HIV infection has been strongly associated with HLA-B*5701 or HLA-B*5703. In this study, we present the high resolution crystal structures of HLA-B*5703 complexes with three HIV-1 epitopes: ISPRTLNAW (ISP), KAFSPEVIPMF (KAF-11), and KAFSPEVI (KAF-8). These reveal peptide anchoring at position 2 and their C termini. The different peptide lengths and primary sequences are accommodated by variation in the specific contacts made to the HLA-B*5703, flexibility in water structure, and conformational adjustment of side chains within the peptide-binding groove. The peptides adopt markedly different conformations, and trap variable numbers of water molecules, near a cluster of tyrosine side chains located in the central region of the peptide-binding groove. The KAF-11 epitope completely encompasses the shorter KAF-8 epitope but the peptides are presented in different conformations; the KAF-11 peptide arches out of the peptide-binding groove, exposing a significant main chain surface area. Bioinformatic analysis of the MHC side chains observed to contribute to the peptide anchor specificity, and other specific peptide contacts, reveals HLA alleles associated with long-term nonprogression and a number of related HLA alleles that may share overlapping peptide repertoires with HLA-B*5703 and thus may display a similar capacity for efficient immune control of HIV-1 infection.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "GB",
+                    "lastname": "Stewart-Jones",
+                    "name": "Stewart-Jones GB"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Gillespie",
+                    "name": "Gillespie G"
+                },
+                {
+                    "initials": "IM",
+                    "lastname": "Overton",
+                    "name": "Overton IM"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Kaul",
+                    "name": "Kaul R"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Roche",
+                    "name": "Roche P"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Rowland-Jones",
+                    "name": "Rowland-Jones S"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.175.4.2459",
+                    "type": "doi"
+                },
+                {
+                    "id": "16081817",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "2459-68"
+            ],
+            "title": "Structures of three HIV-1 HLA-B*5703-peptide complexes and identification of related HLAs potentially associated with long-term nonprogression.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.175.4.2459",
+            "volume": [
+                "175"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.65",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2bvo"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2bvo"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:03 binding \"KAFSPEVIPMF\" at 1.65&#8491; resolution",
+    "unique_chain_count": 3
+}

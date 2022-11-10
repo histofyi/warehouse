@@ -1,0 +1,178 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:A0A125R585",
+            "locus": "ptal-n",
+            "match_type": "histo:exact",
+            "name": "Ptal-N*01:01",
+            "slug": "ptal_n_01_01",
+            "species_stem": "ptal"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1zhn_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:40:03.251025"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "NYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-04-26",
+        "deposition_year": 2005,
+        "release_date": "2005-07-19",
+        "release_year": 2005,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "ptal-n",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1ZHN | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "1zhn",
+    "pdb_title": "Crystal structure of mouse CD1d bound to the self ligand phosphatidylcholine",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "NKT cells are immunoregulatory lymphocytes whose activation is triggered by the recognition of lipid Ags in the context of the CD1d molecules by the TCR. In this study we present the crystal structure to 2.8 A of mouse CD1d bound to phosphatidylcholine. The interactions between the ligand acyl chains and the CD1d molecule define the structural and chemical requirements for the binding of lipid Ags to CD1d. The orientation of the polar headgroup toward the C terminus of the alpha1 helix provides a rationale for the structural basis for the observed Valpha chain bias in invariant NKT cells. The contribution of the ligand to the protein surface suggests a likely mode of recognition of lipid Ags by the NKT cell TCR.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "B",
+                    "lastname": "Giabbai",
+                    "name": "Giabbai B"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Sidobre",
+                    "name": "Sidobre S"
+                },
+                {
+                    "initials": "MD",
+                    "lastname": "Crispin",
+                    "name": "Crispin MD"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Sanchez-Ru\u00ecz",
+                    "name": "Sanchez-Ru\u00ecz Y"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Bachi",
+                    "name": "Bachi A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Kronenberg",
+                    "name": "Kronenberg M"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Degano",
+                    "name": "Degano M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.175.2.977",
+                    "type": "doi"
+                },
+                {
+                    "id": "16002697",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "977-84"
+            ],
+            "title": "Crystal structure of mouse CD1d bound to the self ligand phosphatidylcholine: a molecular basis for NKT cell activation.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.175.2.977",
+            "volume": [
+                "175"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1zhn"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1zhn"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 2.80&#8491; resolution",
+    "unique_chain_count": 2
+}

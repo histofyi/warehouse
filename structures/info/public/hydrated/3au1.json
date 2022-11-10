@@ -1,0 +1,209 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01897",
+            "locus": "h2-l",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Ld",
+            "slug": "h2_ld",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3au1_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:35:01.317541"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWGSLHHILDAQKMVWNHRHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-01-28",
+        "deposition_year": 2011,
+        "release_date": "2011-10-12",
+        "release_year": 2011,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-l",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3AU1 | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "3au1",
+    "pdb_title": "Crystal structure of mouse CD1d in complex with ganglioside gd3",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The antigen receptor for natural killer T\u00a0cells (NKT TCR) binds CD1d-restricted microbial and self-lipid antigens, although the molecular basis of self-CD1d recognition is unclear. Here, we have characterized NKT TCR recognition of CD1d molecules loaded with natural self-antigens (Ags) and report the 2.3\u00a0\u00c5\u00a0resolution structure of an autoreactive NKT TCR-phosphatidylinositol-CD1d complex. NKT TCR recognition of self- and foreign antigens was underpinned by a similar mode of germline-encoded recognition of CD1d. However, NKT TCR autoreactivity is mediated by unique sequences within the non-germline-encoded CDR3\u03b2 loop encoding for a hydrophobic motif that promotes self-association with CD1d. Accordingly, NKT cell autoreactivity may arise from the inherent affinity of the interaction between CD1d and the NKT TCR, resulting in the recognition of a broad range of CD1d-restricted self-antigens. This demonstrates that multiple self-antigens can be recognized in a similar manner by autoreactive NKT TCRs.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "T",
+                    "lastname": "Mallevaey",
+                    "name": "Mallevaey T"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Clarke",
+                    "name": "Clarke AJ"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Scott-Browne",
+                    "name": "Scott-Browne JP"
+                },
+                {
+                    "initials": "MH",
+                    "lastname": "Young",
+                    "name": "Young MH"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Roisman",
+                    "name": "Roisman LC"
+                },
+                {
+                    "initials": "DG",
+                    "lastname": "Pellicci",
+                    "name": "Pellicci DG"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Patel",
+                    "name": "Patel O"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                },
+                {
+                    "initials": "JL",
+                    "lastname": "Matsuda",
+                    "name": "Matsuda JL"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Marrack",
+                    "name": "Marrack P"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Gapin",
+                    "name": "Gapin L"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.immuni.2011.01.013",
+                    "type": "doi"
+                },
+                {
+                    "id": "21376640",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "315-26"
+            ],
+            "title": "A molecular basis for NKT cell recognition of CD1d-self-antigen.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761311000343",
+            "volume": [
+                "34"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3au1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3au1"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 2.50&#8491; resolution",
+    "unique_chain_count": 2
+}

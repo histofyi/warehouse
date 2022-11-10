@@ -1,0 +1,235 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6bmh_1",
+            "chains": [
+                "A",
+                "B",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:30:17.007902"
+        },
+        "2": {
+            "assembly_name": "6bmh_2",
+            "chains": [
+                "C",
+                "D",
+                "J"
+            ],
+            "downloaded_at": "2022-11-09T14:30:17.464411"
+        },
+        "3": {
+            "assembly_name": "6bmh_3",
+            "chains": [
+                "E",
+                "F",
+                "K"
+            ],
+            "downloaded_at": "2022-11-09T14:30:17.770969"
+        },
+        "4": {
+            "assembly_name": "6bmh_4",
+            "chains": [
+                "G",
+                "H",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:30:18.092465"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "QQKNYTFRCLQTSSFANISWSRTDSLILLGDLQTHRWSNDSAIISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSTGCEMYPGNASESFFHVAFQGKYAVRFRGTSWQRVLGAPSWLDLPIKVLNADQGTSATVQTLLNDTWPQFARGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHLQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-11-14",
+        "deposition_year": 2017,
+        "release_date": "2018-01-31",
+        "release_year": 2018,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6BMH | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "6bmh",
+    "pdb_title": "Crystal structure of MHC-i like protein",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "MHC class I-like CD1 molecules have evolved to present lipid-based antigens to T cells. Differences in the antigen-binding clefts of the CD1 family members determine the conformation and size of the lipids that are presented, although the factors that shape CD1 diversity remain unclear. In mice, two homologous genes, CD1D1 and CD1D2, encode the CD1d protein, which is essential to the development and function of natural killer T (NKT) cells. However, it remains unclear whether both CD1d isoforms are equivalent in their antigen presentation capacity and functions. Here, we report that CD1d2 molecules are expressed in the thymus of some mouse strains, where they select functional type I NKT cells. Intriguingly, the T cell antigen receptor repertoire and phenotype of CD1d2-selected type I NKT cells in <i>CD1D1</i><sup>-/-</sup> mice differed from CD1d1-selected type I NKT cells. The structures of CD1d2 in complex with endogenous lipids and a truncated acyl-chain analog of \u03b1-galactosylceramide revealed that its A'-pocket was restricted in size compared with CD1d1. Accordingly, CD1d2 molecules could not present glycolipid antigens with long acyl chains efficiently, favoring the presentation of short acyl chain antigens. These results indicate that the two CD1d molecules present different sets of self-antigen(s) in the mouse thymus, thereby impacting the development of invariant NKT cells.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Sundararaj",
+                    "name": "Sundararaj S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Zhang",
+                    "name": "Zhang J"
+                },
+                {
+                    "initials": "SH",
+                    "lastname": "Krovi",
+                    "name": "Krovi SH"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Bedel",
+                    "name": "Bedel R"
+                },
+                {
+                    "initials": "KD",
+                    "lastname": "Tuttle",
+                    "name": "Tuttle KD"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Veerapen",
+                    "name": "Veerapen N"
+                },
+                {
+                    "initials": "GS",
+                    "lastname": "Besra",
+                    "name": "Besra GS"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Khandokar",
+                    "name": "Khandokar Y"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Praveena",
+                    "name": "Praveena T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "JL",
+                    "lastname": "Matsuda",
+                    "name": "Matsuda JL"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Gapin",
+                    "name": "Gapin L"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1716669115",
+                    "type": "doi"
+                },
+                {
+                    "id": "29351991",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Differing roles of CD1d2 and CD1d1 proteins in type I natural killer T cell development and function.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1716669115",
+            "volume": [
+                null
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6bmh"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6bmh"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 2.30&#8491; resolution",
+    "unique_chain_count": 2
+}

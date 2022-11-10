@@ -1,0 +1,523 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4l3c_1",
+            "chains": [
+                "A",
+                "B",
+                "m"
+            ],
+            "downloaded_at": "2022-11-09T14:34:05.388021"
+        },
+        "10": {
+            "assembly_name": "4l3c_10",
+            "chains": [
+                "S",
+                "T",
+                "o"
+            ],
+            "downloaded_at": "2022-11-09T14:34:08.770822"
+        },
+        "11": {
+            "assembly_name": "4l3c_11",
+            "chains": [
+                "U",
+                "V",
+                "c"
+            ],
+            "downloaded_at": "2022-11-09T14:34:09.069443"
+        },
+        "12": {
+            "assembly_name": "4l3c_12",
+            "chains": [
+                "W",
+                "X",
+                "g"
+            ],
+            "downloaded_at": "2022-11-09T14:34:09.371441"
+        },
+        "13": {
+            "assembly_name": "4l3c_13",
+            "chains": [
+                "Y",
+                "Z",
+                "q"
+            ],
+            "downloaded_at": "2022-11-09T14:34:09.714234"
+        },
+        "14": {
+            "assembly_name": "4l3c_14",
+            "chains": [
+                "a",
+                "b",
+                "j"
+            ],
+            "downloaded_at": "2022-11-09T14:34:09.998620"
+        },
+        "2": {
+            "assembly_name": "4l3c_2",
+            "chains": [
+                "C",
+                "D",
+                "i"
+            ],
+            "downloaded_at": "2022-11-09T14:34:05.712309"
+        },
+        "3": {
+            "assembly_name": "4l3c_3",
+            "chains": [
+                "E",
+                "F",
+                "k"
+            ],
+            "downloaded_at": "2022-11-09T14:34:06.373955"
+        },
+        "4": {
+            "assembly_name": "4l3c_4",
+            "chains": [
+                "G",
+                "H",
+                "f"
+            ],
+            "downloaded_at": "2022-11-09T14:34:06.669805"
+        },
+        "5": {
+            "assembly_name": "4l3c_5",
+            "chains": [
+                "I",
+                "J",
+                "l"
+            ],
+            "downloaded_at": "2022-11-09T14:34:07.227852"
+        },
+        "6": {
+            "assembly_name": "4l3c_6",
+            "chains": [
+                "K",
+                "L",
+                "h"
+            ],
+            "downloaded_at": "2022-11-09T14:34:07.528388"
+        },
+        "7": {
+            "assembly_name": "4l3c_7",
+            "chains": [
+                "M",
+                "N",
+                "e"
+            ],
+            "downloaded_at": "2022-11-09T14:34:07.832405"
+        },
+        "8": {
+            "assembly_name": "4l3c_8",
+            "chains": [
+                "O",
+                "P",
+                "n"
+            ],
+            "downloaded_at": "2022-11-09T14:34:08.126750"
+        },
+        "9": {
+            "assembly_name": "4l3c_9",
+            "chains": [
+                "Q",
+                "R",
+                "p"
+            ],
+            "downloaded_at": "2022-11-09T14:34:08.478850"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H",
+                "J",
+                "L",
+                "N",
+                "P",
+                "R",
+                "T",
+                "V",
+                "X",
+                "Z",
+                "b"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKNEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G",
+                "I",
+                "K",
+                "M",
+                "O",
+                "Q",
+                "S",
+                "U",
+                "W",
+                "Y",
+                "a"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "m",
+                "i",
+                "k",
+                "f",
+                "l",
+                "h",
+                "e",
+                "n",
+                "p",
+                "o",
+                "c",
+                "g",
+                "q",
+                "j"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YLLMWITQV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-06-05",
+        "deposition_year": 2013,
+        "release_date": "2013-12-25",
+        "release_year": 2013,
+        "revision_date": "2014-02-26",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4L3C | HLA-A*02:01 binding \"YLLMWITQV\"",
+    "pdb_code": "4l3c",
+    "pdb_title": "Structure of hla-a2 in complex with d76n b2m mutant and ny-eso1 double mutant",
+    "peptide": {
+        "c": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "c",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "e": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "e",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "f": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "f",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "g": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "g",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "h": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "h",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "i": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "i",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "j": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "j",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "k": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "k",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "l": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "l",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "m": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "m",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "n": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "n",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "o": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "o",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "p": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "p",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        },
+        "q": {
+            "actual_length": 9,
+            "actual_sequence": "YLLMWITQV",
+            "chain_id": "q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLLMWITQV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YLLMWITQV",
+    "publication": {
+        "abstract": "To form extracellular aggregates, amyloidogenic proteins bypass the intracellular quality control, which normally targets unfolded/aggregated polypeptides. Human D76N \u03b22-microglobulin (\u03b22m) variant is the prototype of unstable and amyloidogenic protein that forms abundant extracellular fibrillar deposits. Here we focus on the role of the class I major histocompatibility complex (MHCI) in the intracellular stabilization of D76N \u03b22m. Using biophysical and structural approaches, we show that the MHCI containing D76N \u03b22m (MHCI76) displays stability, dissociation patterns, and crystal structure comparable with those of the MHCI with wild type \u03b22m. Conversely, limited proteolysis experiments show a reduced protease susceptibility for D76N \u03b22m within the MHCI76 as compared with the free variant, suggesting that the MHCI has a chaperone-like activity in preventing D76N \u03b22m degradation within the cell. Accordingly, D76N \u03b22m is normally assembled in the MHCI and circulates as free plasma species in a transgenic mouse model.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Halabelian",
+                    "name": "Halabelian L"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Ricagno",
+                    "name": "Ricagno S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Giorgetti",
+                    "name": "Giorgetti S"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Santambrogio",
+                    "name": "Santambrogio C"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Barbiroli",
+                    "name": "Barbiroli A"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Pellegrino",
+                    "name": "Pellegrino S"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Achour",
+                    "name": "Achour A"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Grandori",
+                    "name": "Grandori R"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Marchese",
+                    "name": "Marchese L"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Raimondi",
+                    "name": "Raimondi S"
+                },
+                {
+                    "initials": "PP",
+                    "lastname": "Mangione",
+                    "name": "Mangione PP"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Esposito",
+                    "name": "Esposito G"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Al-Shawi",
+                    "name": "Al-Shawi R"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Simons",
+                    "name": "Simons JP"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Speck",
+                    "name": "Speck I"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Stoppini",
+                    "name": "Stoppini M"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bolognesi",
+                    "name": "Bolognesi M"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Bellotti",
+                    "name": "Bellotti V"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m113.524157",
+                    "type": "doi"
+                },
+                {
+                    "id": "24338476",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Class I Major Histocomapatibility Complex: the Trojan horse for secretion of amyloidogenic \ufffd\ufffd2-microglobulin.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925819747255",
+            "volume": [
+                null
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.64",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4l3c"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4l3c"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"YLLMWITQV\" at 2.64&#8491; resolution",
+    "unique_chain_count": 3
+}

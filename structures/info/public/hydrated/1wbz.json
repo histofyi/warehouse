@@ -1,0 +1,204 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1wbz_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:27:55.832540"
+        },
+        "2": {
+            "assembly_name": "1wbz_2",
+            "chains": [
+                "C",
+                "D",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:27:56.404924"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SSYRRPVGI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2004-11-05",
+        "deposition_year": 2004,
+        "release_date": "2005-01-19",
+        "release_year": 2005,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1WBZ | H2-Kb binding \"SSYRRPVGI\"",
+    "pdb_code": "1wbz",
+    "pdb_title": "Crystal structures of murine MHC Class I H-2 D(b) and K(b) molecules in complex with CTL epitopes from influenza A virus: implications for TCR repertoire selection and immunodominance.",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "SSYRRPVGI",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SSYRRPVGI"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "SSYRRPVGI",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SSYRRPVGI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SSYRRPVGI",
+    "publication": {
+        "abstract": "Cytotoxic T lymphocyte (CTL) responses against influenza A virus in C57BL/6 mice are dominated by a small number of viral peptides among many that are capable of binding to major histocompatibility complex (MHC) class I molecules. The basis of this limited immune recognition is unknown. Here, we present X-ray structures of MHC class I molecules in complex with two immunodominant epitopes (PA(224-233)/D(b) and PB1(703-711)/K(b)) and one non-immunogenic epitope (HA(468-477)/D(b)) of the influenza A virus. The immunodominant peptides are each characterized by a bulge at the C terminus, lifting P6 and P7 residues out of the MHC groove, presenting featured structural elements to T-cell receptors (TCRs). Immune recognition of PA(224-233)/D(b) will focus largely on the exposed P7 arginine residue. In contrast, the non-immunogenic HA(468-477) peptide lacks prominent features in this C-terminal bulge. In the K(b)-bound PB1(703-711) epitope, the bulge results from a non-canonical binding motif, such that the mode of presentation of this peptide strongly resembles that of D(b)-bound peptides. Given that PA(224-233)/D(b), PB1(703-711)/K(b) and the previously defined NP(366-374)/D(b) epitopes dominate the primary response to influenza A virus in C57BL/6 mice, our findings indicate that residues of the C-terminal bulge are important in selection of the immunodominant CTL repertoire.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "R",
+                    "lastname": "Meijers",
+                    "name": "Meijers R"
+                },
+                {
+                    "initials": "CC",
+                    "lastname": "Lai",
+                    "name": "Lai CC"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Yang",
+                    "name": "Yang Y"
+                },
+                {
+                    "initials": "JH",
+                    "lastname": "Liu",
+                    "name": "Liu JH"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Zhong",
+                    "name": "Zhong W"
+                },
+                {
+                    "initials": "JH",
+                    "lastname": "Wang",
+                    "name": "Wang JH"
+                },
+                {
+                    "initials": "EL",
+                    "lastname": "Reinherz",
+                    "name": "Reinherz EL"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jmb.2004.11.023",
+                    "type": "doi"
+                },
+                {
+                    "id": "15644207",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "1099-110"
+            ],
+            "title": "Crystal structures of murine MHC Class I H-2 D(b) and K(b) molecules in complex with CTL epitopes from influenza A virus: implications for TCR repertoire selection and immunodominance.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283604014627",
+            "volume": [
+                "345"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1wbz"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1wbz"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"SSYRRPVGI\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

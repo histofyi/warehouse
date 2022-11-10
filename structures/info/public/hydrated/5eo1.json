@@ -1,0 +1,212 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34746",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*07:02",
+            "slug": "hla_b_07_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5eo1_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:27:02.283652"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIYKAQAQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHDQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQRRAYLEGECVEWLRRYLENGKDKLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RPMTYKGAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-11-10",
+        "deposition_year": 2015,
+        "release_date": "2016-02-24",
+        "release_year": 2016,
+        "revision_date": "2016-04-20",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5EO1 | HLA-B*07:02 binding \"RPMTYKGAL\"",
+    "pdb_code": "5eo1",
+    "pdb_title": "Crystal structure of hla-b0702-rl9",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RPMTYKGAL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RPMTYKGAL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RPMTYKGAL",
+    "publication": {
+        "abstract": "Prior work has demonstrated that HIV-1-specific CD8 T cells can cross-recognize variant epitopes. However, most of these studies were performed in the context of chronic infection, where the presence of viral quasispecies makes it difficult to ascertain the true nature of the original antigenic stimulus. To overcome this limitation, we evaluated the extent of CD8 T cell cross-reactivity in patients with acute HIV-1 clade B infection. In each case, we determined the transmitted founder virus sequence to identify the autologous epitopes restricted by individual HLA class I molecules. Our data show that cross-reactive CD8 T cells are infrequent during the acute phase of HIV-1 infection. Moreover, in the uncommon instances where cross-reactive responses were detected, the variant epitopes were poorly recognized in cytotoxicity assays. Molecular analysis revealed that similar antigenic structures could be cross-recognized by identical CD8 T cell clonotypes mobilized in vivo, yet even subtle differences in a single TCR-accessible peptide residue were sufficient to disrupt variant-specific reactivity. These findings demonstrate that CD8 T cells are highly specific for autologous epitopes during acute HIV-1 infection. Polyvalent vaccines may therefore be required to provide optimal immune cover against this genetically labile pathogen.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "VY",
+                    "lastname": "Du",
+                    "name": "Du VY"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Bansal",
+                    "name": "Bansal A"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Carlson",
+                    "name": "Carlson J"
+                },
+                {
+                    "initials": "JF",
+                    "lastname": "Salazar-Gonzalez",
+                    "name": "Salazar-Gonzalez JF"
+                },
+                {
+                    "initials": "MG",
+                    "lastname": "Salazar",
+                    "name": "Salazar MG"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Ladell",
+                    "name": "Ladell K"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "TM",
+                    "lastname": "Josephs",
+                    "name": "Josephs TM"
+                },
+                {
+                    "initials": "SL",
+                    "lastname": "Heath",
+                    "name": "Heath SL"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Hunter",
+                    "name": "Hunter E"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "Goepfert",
+                    "name": "Goepfert PA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1502411",
+                    "type": "doi"
+                },
+                {
+                    "id": "26983786",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "HIV-1-Specific CD8 T Cells Exhibit Limited Cross-Reactivity during Acute Infection.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1502411",
+            "volume": [
+                null
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.85",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5eo1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5eo1"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*07:02 binding \"RPMTYKGAL\" at 1.85&#8491; resolution",
+    "unique_chain_count": 3
+}

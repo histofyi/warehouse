@@ -1,0 +1,229 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5n6b_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:17.895886"
+        },
+        "2": {
+            "assembly_name": "5n6b_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:41:18.363523"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLWNGPMAV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-02-14",
+        "deposition_year": 2017,
+        "release_date": "2017-10-18",
+        "release_year": 2017,
+        "revision_date": "2018-02-21",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5N6B | HLA-A*02:01 binding \"LLWNGPMAV\"",
+    "pdb_code": "5n6b",
+    "pdb_title": "Human leukocyte antigen Class I a02 carrying llwnpgmav",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LLWNGPMAV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLWNGPMAV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "LLWNGPMAV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLWNGPMAV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LLWNGPMAV",
+    "publication": {
+        "abstract": "The repertoire of human \u03b1\u03b2 T-cell receptors (TCRs) is generated via somatic recombination of germline gene segments. Despite this enormous variation, certain epitopes can be immunodominant, associated with high frequencies of antigen-specific T\u00a0cells and/or exhibit bias toward a TCR gene segment. Here, we studied the TCR repertoire of the HLA-A*0201-restricted epitope LLWNGPMAV (hereafter, A2/LLW) from Yellow Fever virus, which generates an immunodominant CD8<sup>+</sup> T\u00a0cell response to the highly effective YF-17D vaccine. We discover that these A2/LLW-specific CD8<sup>+</sup> T\u00a0cells are highly biased for the TCR \u03b1 chain TRAV12-2. This bias is already present in A2/LLW-specific na\u00efve T\u00a0cells before vaccination with YF-17D. Using CD8<sup>+</sup> T\u00a0cell clones, we show that TRAV12-2 does not confer a functional advantage on a per cell basis. Molecular modeling indicated that the germline-encoded complementarity determining region (CDR) 1\u03b1 loop of TRAV12-2 critically contributes to A2/LLW binding, in contrast to the conventional dominant dependence on somatically rearranged CDR3 loops. This germline component of antigen recognition may explain the unusually high precursor frequency, prevalence and immunodominance of T-cell responses specific for the A2/LLW epitope.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Bovay",
+                    "name": "Bovay A"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Zoete",
+                    "name": "Zoete V"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Dolton",
+                    "name": "Dolton G"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Bulek",
+                    "name": "Bulek AM"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Fuller",
+                    "name": "Fuller A"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Beck",
+                    "name": "Beck K"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Michielin",
+                    "name": "Michielin O"
+                },
+                {
+                    "initials": "DE",
+                    "lastname": "Speiser",
+                    "name": "Speiser DE"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Fuertes Marraco",
+                    "name": "Fuertes Marraco SA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/eji.201747082",
+                    "type": "doi"
+                },
+                {
+                    "id": "28975614",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Eur. J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "T cell Receptor Alpha Variable 12-2 bias in the immunodominant response to Yellow fever virus.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/eji.201747082",
+            "volume": [
+                null
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.71",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5n6b"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5n6b"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"LLWNGPMAV\" at 1.71&#8491; resolution",
+    "unique_chain_count": 3
+}

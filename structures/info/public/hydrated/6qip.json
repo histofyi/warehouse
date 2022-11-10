@@ -1,0 +1,196 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6qip_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:38:57.903761"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDMHHHHHH"
+        },
+        "fcrn": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "AESHLSLLYHLTAVSSPAPGTPAFWVSGWLGPQQYLSYNSLRGEAEPCGAWVWENQVSWYWEKETTDLRIKEKLFLEAFKALGGKGPYTLQGLLGCELGPDNTSVPTAKFALNGEEFMNFDLKQGTWGGDWPEALAISQRWQQQDKAANKELTFLLFSCPHRLREHLERGRGNLEWKEPPSMRLKARPSSPGFSVLTCSAFSFYPPELQLRFLRNGLAAGTGQGDFGPNSDGSFHASSSLTVKSGDEHHYCCIVQHAGLAQPLRVELESPAKSS"
+        },
+        "serum_albumin": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "DAHKSEVAHRFKDLGEENFKALVLIAFAQYLQQCPFEDHVKLVNEVTEFAKTCVADESAENCDKSLHTLFGDKLCTVATLRETYGEMADCCAKQEPERNECFLQHKDDNPNLPRLVRPEVDVMCTAFHDNEETFLKKYLYEIARRHPYFYAPELLFFAKRYKAAFTECCQAADKAACLLPKLDELRDEGKASSAKQRLKCASLQKFGERAFKAWAVARLSQRFPKAEFAEVSKLVTDLTKVHTECCHGDLLECADDRADLAKYICENQDSISSKLKECCEKPLLEKSHCIAEVENDEMPADLPSLAADFVESKDVCKNYAEAKDVFLGMFLYEYARRHPDYSVVLLLRLAKTYETTLEKCCAAADPHECYAKVFDEFKPLVEEPQNLIKQNCELFEQLGEYKFQNALLVRYTKKVPQMSAPTLVEVSRNLGKVGSKCCKHPEAKRMPCAEDYLSVVLNQLCVLHEKTPVSDRVTKCCTESLVNRRPCFSALEVDETYVPKEFNAGTFTFHADICTLSEKERQIKKQTALVELVKHKPKATKEQLKAAMDDFAAFVEKCCKADDKETCFAEEGKKLVAASQAALGL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-01-21",
+        "deposition_year": 2019,
+        "release_date": "2020-02-05",
+        "release_year": 2020,
+        "revision_date": "2020-04-22",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "fcrn_with_beta2m_and_serum_albumin",
+    "components": [
+        "fcrn",
+        "beta2m",
+        "serum_albumin"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6QIP | Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with serum albumin",
+    "pdb_code": "6qip",
+    "pdb_title": "Ternary complex of fcrn ectodomain, fcrn binding optimised human serum albumin and the albumin-biniding side chain of the human growth hormone derivative somapacitan",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Somapacitan, a human growth hormone derivative that binds reversibly to albumin, was investigated for human serum albumin (HSA) and HSA domain binding. Isothermal titration calorimetry (ITC) binding profiles showed high-affinity binding (\u223c100-1000 nM) of one somapacitan molecule and low-affinity binding (\u223c1000-10000 nM) of one to two somapacitan molecules to HSA. The high-affinity site was identified in HSA domain III using size exclusion chromatography (SEC) and ITC. SEC studies showed that the neonatal Fc receptor shields one binding site for somapacitan, indicating its position in domain III. A crystal structure of somapacitan in complex with HSA optimized for neonatal Fc receptor binding, having four amino acid residue replacements, identified a low-affinity site in fatty acid-binding site 6 (domain II). Surface plasmon resonance (SPR) showed these replacements affect the kinetics of the high-affinity binding site. Furthermore, small-angle X-ray scattering and SPR brace two somapacitan-binding sites on HSA.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "E",
+                    "lastname": "Johansson",
+                    "name": "Johansson E"
+                },
+                {
+                    "initials": "AD",
+                    "lastname": "Nielsen",
+                    "name": "Nielsen AD"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Demuth",
+                    "name": "Demuth H"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Wiberg",
+                    "name": "Wiberg C"
+                },
+                {
+                    "initials": "CB",
+                    "lastname": "Schj\ufffd\ufffddt",
+                    "name": "Schj\ufffd\ufffddt CB"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Huang",
+                    "name": "Huang T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Chen",
+                    "name": "Chen J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Jensen",
+                    "name": "Jensen S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Petersen",
+                    "name": "Petersen J"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Thygesen",
+                    "name": "Thygesen P"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1021/acs.biochem.0c00019",
+                    "type": "doi"
+                },
+                {
+                    "id": "32208682",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "14"
+            ],
+            "journal": {
+                "iso_abbreviation": "Biochemistry",
+                "name": ""
+            },
+            "pages": [
+                "1410-1419"
+            ],
+            "title": "Identification of Binding Sites on Human Serum Albumin for Somapacitan, a Long-Acting Growth Hormone Derivative.",
+            "type": "article",
+            "url": "https://pubs.acs.org/doi/10.1021/acs.biochem.0c00019",
+            "volume": [
+                "59"
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.45",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6qip"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6qip"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with serum albumin at 2.45&#8491; resolution",
+    "unique_chain_count": 3
+}

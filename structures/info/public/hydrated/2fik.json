@@ -1,0 +1,177 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2fik_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:27:09.273053"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWGSHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-12-29",
+        "deposition_year": 2005,
+        "release_date": "2006-03-21",
+        "release_year": 2006,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2FIK | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "2fik",
+    "pdb_title": "Structure of a microbial glycosphingolipid bound to mouse CD1d",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Natural killer T (NKT) cells provide an innate-type immune response upon T cell receptor interaction with CD1d-presented antigens. We demonstrate through equilibrium tetramer binding and antigen presentation assays with Valpha14i-positive NKT cell hybridomas that the Sphingomonas glycolipid alpha-galacturonosyl ceramide (GalA-GSL) is a NKT cell agonist that is significantly weaker than alpha-galactosylceramide (alpha-GalCer), the most potent known NKT agonist. For GalA-GSL, a shorter fatty acyl chain, an absence of the 4-OH on the sphingosine tail and a 6'-COOH group on the galactose moiety account for its observed antigenic potency. We further determined the crystal structure of mCD1d in complex with GalA-GSL at 1.8-A resolution. The overall binding mode of GalA-GSL to mCD1d is similar to that of the short-chain alpha-GalCer ligand PBS-25, but its sphinganine chain is more deeply inserted into the F' pocket due to alternate hydrogen-bonding interactions between the sphinganine 3-OH with Asp-80. Subsequently, a slight lateral shift (>1 A) of the galacturonosyl head group is noted at the CD1 surface compared with the galactose of alpha-GalCer. Because the relatively short C(14) fatty acid of GalA-GSL does not fully occupy the A' pocket, a spacer lipid is found that stabilizes this pocket. The lipid spacer was identified by GC/MS as a mixture of saturated and monounsaturated palmitic acid (C(16)). Comparison of available crystal structures of alpha-anomeric glycosphingolipids now sheds light on the structural basis of their differential antigenic potency and has led to the design and synthesis of NKT cell agonists with enhanced cell-based stimulatory activities compared with alpha-GalCer.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Wu",
+                    "name": "Wu D"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Fujio",
+                    "name": "Fujio M"
+                },
+                {
+                    "initials": "BA",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan BA"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Kinjo",
+                    "name": "Kinjo Y"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Kronenberg",
+                    "name": "Kronenberg M"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                },
+                {
+                    "initials": "CH",
+                    "lastname": "Wong",
+                    "name": "Wong CH"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.0600285103",
+                    "type": "doi"
+                },
+                {
+                    "id": "16537470",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "3972-7"
+            ],
+            "title": "Design of natural killer T cell activators: structure and function of a microbial glycosphingolipid bound to mouse CD1d.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.0600285103",
+            "volume": [
+                "103"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2fik"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2fik"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 1.80&#8491; resolution",
+    "unique_chain_count": 2
+}

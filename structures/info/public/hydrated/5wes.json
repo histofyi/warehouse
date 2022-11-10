@@ -1,0 +1,178 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5wes_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:36:29.047378"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "SHSLRYFVTAVSRPGFGEPRYMEVGYVDNTEFVRFDSDAENPRYEPRARWIEQEGPEYWERETRRAKGNEQCFRVDLRTALRYYNQSAGGSHTLQWMAGCDVESDGRLLRGYWQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAERDRAYLEGECVEWLRRYLKNGNATLLRTDPPKAHVTHHRRPEGDVTLRCWALGFYPADITLTWQLNGEELTQEMELVETRPAGDGTFQKWASVVVPLGKEQKYTCHVEHEGLPEPLTLRWGKE"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RGPGC"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-07-10",
+        "deposition_year": 2017,
+        "release_date": "2017-10-18",
+        "release_year": 2017,
+        "revision_date": "2017-12-13",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5WES | H2-Dd binding \"RGPGC\"",
+    "pdb_code": "5wes",
+    "pdb_title": "Crystal structure H2-Dd with disulfide-linked 5mer peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 5,
+            "actual_sequence": "RGPGC",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length",
+                "short_peptide"
+            ],
+            "full_length": 5,
+            "full_sequence": "RGPGC"
+        }
+    },
+    "peptide_length": 5,
+    "peptide_length_name": "pentamer",
+    "peptide_sequence": "RGPGC",
+    "publication": {
+        "abstract": "Central to CD8<sup>+</sup> T cell-mediated immunity is the recognition of peptide-major histocompatibility complex class I (p-MHC I) proteins displayed by antigen-presenting cells. Chaperone-mediated loading of high-affinity peptides onto MHC I is a key step in the MHC I antigen presentation pathway. However, the structure of MHC I with a chaperone that facilitates peptide loading has not been determined. We report the crystal structure of MHC I in complex with the peptide editor TAPBPR (TAP-binding protein-related), a tapasin homolog. TAPBPR remodels the peptide-binding groove of MHC I, resulting in the release of low-affinity peptide. Changes include groove relaxation, modifications of key binding pockets, and domain adjustments. This structure captures a peptide-receptive state of MHC I and provides insights into the mechanism of peptide editing by TAPBPR and, by analogy, tapasin.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Jiang",
+                    "name": "Jiang J"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Natarajan",
+                    "name": "Natarajan K"
+                },
+                {
+                    "initials": "LF",
+                    "lastname": "Boyd",
+                    "name": "Boyd LF"
+                },
+                {
+                    "initials": "GI",
+                    "lastname": "Morozov",
+                    "name": "Morozov GI"
+                },
+                {
+                    "initials": "MG",
+                    "lastname": "Mage",
+                    "name": "Mage MG"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Margulies",
+                    "name": "Margulies DH"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/science.aao5154",
+                    "type": "doi"
+                },
+                {
+                    "id": "29025991",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Science",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Crystal structure of a TAPBPR-MHC-I complex reveals the mechanism of peptide editing in antigen presentation.",
+            "type": "article",
+            "url": "https://www.sciencemag.org/lookup/doi/10.1126/science.aao5154",
+            "volume": [
+                null
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.71",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5wes"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5wes"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Dd binding \"RGPGC\" at 2.71&#8491; resolution",
+    "unique_chain_count": 3
+}

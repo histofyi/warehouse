@@ -1,0 +1,227 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6bxq_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:32.509821"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RVKEKYQHLW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-12-18",
+        "deposition_year": 2017,
+        "release_date": "2018-02-28",
+        "release_year": 2018,
+        "revision_date": "2020-02-12",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6BXQ | HLA-B*57:01 binding \"RVKEKYQHLW\"",
+    "pdb_code": "6bxq",
+    "pdb_title": "Crystal structure of hla-b*57:01 with an hiv peptide rkv",
+    "peptide": {
+        "A": {
+            "actual_length": 8,
+            "actual_sequence": "RVKEQHLW",
+            "chain_id": "A",
+            "features": [
+                "central_gap"
+            ],
+            "full_length": 10,
+            "full_sequence": "RVKEKYQHLW",
+            "gap_ends_at": 7,
+            "gap_length": 2,
+            "gap_sequence": "KY",
+            "gap_start_after": 4,
+            "gapped_sequence": "RVKE--QHLW"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RVKEKYQHLW",
+    "publication": {
+        "abstract": "The recognition of pathogen-derived peptides by T lymphocytes is the cornerstone of adaptive immunity, whereby intracellular antigens are degraded in the cytosol and short peptides assemble with class I human leukocyte antigen (HLA) molecules in the ER. These peptide-HLA complexes egress to the cell surface and are scrutinized by cytotoxic CD8+ T-cells leading to the eradication of the infected cell. Here, naturally presented HLA-B*57:01 bound peptides derived from the envelope protein of the human immunodeficiency virus (HIVenv) are identified. HIVenv peptides are present at a very small percentage of the overall HLA-B*57:01 peptidome (<0.1%) and both native and posttranslationally modified forms of two distinct HIV peptides are identified. Notably, a peptide bearing a natively encoded C-terminal tryptophan residue is also present in a modified form containing a kynurenine residue. Kynurenine is a major product of tryptophan catabolism and is abundant during inflammation and infection. Binding of these peptides at a molecular level and their immunogenicity in preliminary functional studies are examined. Modest immune responses are observed to the modified HIVenv peptide, highlighting a potential role for kynurenine-modified peptides in the immune response to HIV and other viral infections.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SH",
+                    "lastname": "Ramarathinam",
+                    "name": "Ramarathinam SH"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Alcantara",
+                    "name": "Alcantara S"
+                },
+                {
+                    "initials": "AWS",
+                    "lastname": "Yeung",
+                    "name": "Yeung AWS"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Mifsud",
+                    "name": "Mifsud NA"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Sonza",
+                    "name": "Sonza S"
+                },
+                {
+                    "initials": "PT",
+                    "lastname": "Illing",
+                    "name": "Illing PT"
+                },
+                {
+                    "initials": "EN",
+                    "lastname": "Glaros",
+                    "name": "Glaros EN"
+                },
+                {
+                    "initials": "RJ",
+                    "lastname": "Center",
+                    "name": "Center RJ"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Thomas",
+                    "name": "Thomas SR"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Kent",
+                    "name": "Kent SJ"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Ternette",
+                    "name": "Ternette N"
+                },
+                {
+                    "initials": "DFJ",
+                    "lastname": "Purcell",
+                    "name": "Purcell DFJ"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/pmic.201700253",
+                    "type": "doi"
+                },
+                {
+                    "id": "29437277",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Proteomics",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Identification of Native and Post-Translationally Modified HLA-B*57:01-Restricted HIV Envelope Derived Epitopes Using Immunoproteomics.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/pmic.201700253",
+            "volume": [
+                null
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.58",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6bxq"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6bxq"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:override",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:01 binding \"RVKEKYQHLW\" at 1.58&#8491; resolution",
+    "unique_chain_count": 3
+}

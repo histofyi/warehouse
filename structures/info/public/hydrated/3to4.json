@@ -1,0 +1,269 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3to4_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:39:10.703348"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWGSLHHILDAQKMVWNHRHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "TQVEQSPQSLVVRQGENSVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKTVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPENDGGGCK",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "VTLLEQNPRWRLVPRGQAVNLRCILKNSQYPWMSWYQQDLQKQLQWLFTLRSPGDKEVKSLPGADYLATRVTDTELRLQVANMSQGRTLYCTSSADHWTNTGQLYFGEGSKLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVSTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRADQDRGGGCD",
+            "subgroup": "TRBV1"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-09-04",
+        "deposition_year": 2011,
+        "release_date": "2011-12-14",
+        "release_year": 2011,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3TO4 | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "3to4",
+    "pdb_title": "Structure of mouse valpha14vbeta2-mouseCD1d-alpha-galactosylceramide",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Natural killer T cell antigen receptors (NKT TCRs) recognize lipid-based antigens (Ags) presented by CD1d. Although the TCR \u03b1-chain is invariant, NKT TCR V\u03b2 exhibits greater diversity, with one (V\u03b211) and three (V\u03b28, V\u03b27, and V\u03b22) V\u03b2 chains in humans and mice, respectively. With the exception of the V\u03b22 NKT TCR, NKT TCRs possess canonical tyrosine residues within complementarity determining region (CDR) 2\u03b2 that are critical for CD1d binding. Thus, how V\u03b22 NKT TCR docks with CD1d-Ag was unclear. Despite the absence of the CDR2\u03b2-encoded tyrosine residues, we show that the V\u03b22 NKT TCR engaged CD1d-Ag in a similar manner and with a comparable affinity and energetic footprint to the manner observed for the V\u03b28.2 and V\u03b27 NKT TCRs. Accordingly, the germline-encoded regions of the TCR \u03b2-chain do not exclusively dictate the innate NKT TCR-CD1d-Ag docking mode. Nevertheless, clear fine specificity differences for the CD1d-Ag existed between the V\u03b22 NKT TCR and the V\u03b28.2 and V\u03b27 NKT TCRs, with the V\u03b22 NKT TCR exhibiting greater sensitivity to modifications to the glycolipid Ag. Furthermore, within the V\u03b22 NKT TCR-CD1d-\u03b1GalCer complex, the CDR2\u03b2 loop mediated fewer contacts with CD1d, whereas the CDR1\u03b2 and CDR3\u03b2 loops contacted CD1d to a much greater extent compared with most V\u03b211, V\u03b28.2, and V\u03b27 NKT TCRs. Accordingly, there is a greater interplay between the germline- and nongermline-encoded loops within the TCR \u03b2-chain of the V\u03b22 NKT TCR that enables CD1d-Ag ligation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "O",
+                    "lastname": "Patel",
+                    "name": "Patel O"
+                },
+                {
+                    "initials": "DG",
+                    "lastname": "Pellicci",
+                    "name": "Pellicci DG"
+                },
+                {
+                    "initials": "AP",
+                    "lastname": "Uldrich",
+                    "name": "Uldrich AP"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan LC"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bhati",
+                    "name": "Bhati M"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "McKnight",
+                    "name": "McKnight M"
+                },
+                {
+                    "initials": "SK",
+                    "lastname": "Richardson",
+                    "name": "Richardson SK"
+                },
+                {
+                    "initials": "AR",
+                    "lastname": "Howell",
+                    "name": "Howell AR"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mallevaey",
+                    "name": "Mallevaey T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Zhang",
+                    "name": "Zhang J"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Bedel",
+                    "name": "Bedel R"
+                },
+                {
+                    "initials": "GS",
+                    "lastname": "Besra",
+                    "name": "Besra GS"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Porcelli",
+                    "name": "Porcelli SA"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Gapin",
+                    "name": "Gapin L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1109066108",
+                    "type": "doi"
+                },
+                {
+                    "id": "22065767",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "47"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "19007-12"
+            ],
+            "title": "V\ufffd\ufffd2 natural killer T cell antigen receptor-mediated recognition of CD1d-glycolipid antigen.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1109066108",
+            "volume": [
+                "108"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3to4"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3to4"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3to4"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV1"
+        },
+        "pdb_code": "3to4"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 3.10&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,228 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5jhd_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:40:33.475519"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEA"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "H"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GILGFVFTL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MIQTVTQSQPEMSVQEAETVTLSCTYDTSESDYYLFWYKQPPSRQMILVIRQEAYKQQNATENRFSVNFQKAAKSFSLKISDSQLGDAAMYFCAWGVNAGGTSYGKLTFGQGTILTVHPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV38"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MIGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSIGVYGYTFGSGTRLTVVEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV19"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-04-20",
+        "deposition_year": 2016,
+        "release_date": "2017-03-01",
+        "release_year": 2017,
+        "revision_date": "2019-12-11",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5JHD | HLA-A*02:01 presenting \"GILGFVFTL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "5jhd",
+    "pdb_title": "Crystal structure of ls10-TCR/m1-hla-a*02 complex",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "GILGFVFTL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GILGFVFTL"
+        },
+        "H": {
+            "actual_length": 9,
+            "actual_sequence": "GILGFVFTL",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GILGFVFTL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GILGFVFTL",
+    "publication": {
+        "abstract": "A keystone of antiviral immunity is CD8<sup>+</sup> T cell recognition of viral peptides bound to MHC-I proteins. The recognition modes of individual T cell receptors (TCRs) have been studied in some detail, but the role of TCR variation in providing a robust response to viral antigens is unclear. The influenza M1 epitope is an immunodominant target of CD8<sup>+</sup> T cells that help to control influenza in HLA-A2<sup>+</sup> individuals. Here we show that CD8<sup>+</sup> T cells use many distinct TCRs to recognize HLA-A2-M1, which enables the use of different structural solutions to the problem of specifically recognizing a relatively featureless peptide antigen. The vast majority of responding TCRs target a small cleft between HLA-A2 and the bound M1 peptide. These broad repertoires lead to plasticity in antigen recognition and protection against T cell clonal loss and viral escape.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "I",
+                    "lastname": "Song",
+                    "name": "Song I"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Gil",
+                    "name": "Gil A"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Mishra",
+                    "name": "Mishra R"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Ghersi",
+                    "name": "Ghersi D"
+                },
+                {
+                    "initials": "LK",
+                    "lastname": "Selin",
+                    "name": "Selin LK"
+                },
+                {
+                    "initials": "LJ",
+                    "lastname": "Stern",
+                    "name": "Stern LJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/nsmb.3383",
+                    "type": "doi"
+                },
+                {
+                    "id": "28250417",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Struct. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Broad TCR repertoire and diverse structural solutions for recognition of an immunodominant CD8(+) T cell epitope.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/nsmb.3383",
+            "volume": [
+                null
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.46",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5jhd"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5jhd"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5jhd"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV38"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV19"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "5jhd"
+    },
+    "title": "HLA-A*02:01 presenting \"GILGFVFTL\" to Alpha/Beta T cell receptor at 2.46&#8491; resolution",
+    "unique_chain_count": 5
+}

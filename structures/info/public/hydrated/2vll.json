@@ -1,0 +1,199 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2vll_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:11.270093"
+        },
+        "2": {
+            "assembly_name": "2vll_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:43:11.782672"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GILGFVFTL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-01-15",
+        "deposition_year": 2008,
+        "release_date": "2008-01-22",
+        "release_year": 2008,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2VLL | HLA-A*02:01 binding \"GILGFVFTL\"",
+    "pdb_code": "2vll",
+    "pdb_title": "The structural dynamics and energetics of an immunodominant T cell receptor are programmed by its Vbeta domain.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "GILGFVFTL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GILGFVFTL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "GILGFVFTL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GILGFVFTL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GILGFVFTL",
+    "publication": {
+        "abstract": "Immunodominant and public T cell receptor (TCR) usage is relatively common in many viral diseases yet surprising in the context of the large naive TCR repertoire. We examined the highly conserved Vbeta17:Valpha10.2 JM22 T cell response to the influenza matrix peptide (58-66)-HLA-A*0201 (HLA-A2-flu) through extensive kinetic, thermodynamic, and structural analyses. We found several conformational adjustments that accompany JM22-HLA-A2-flu binding and identified a binding \"hotspot\" within the Vbeta domain of the TCR. Within this hotspot, key germline-encoded CDR1 and CDR2 loop residues and a crucial but commonly coded residue in the hypervariable region of CDR3 provide the basis for the substantial bias in the selection of the germline-encoded Vbeta17 domain. The chances of having a substantial number of T cells in the naive repertoire that have HLA-A2-flu-specific Vbeta17 receptors may consequently be relatively high, thus explaining the immunodominant usage of this clonotype.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Ishizuka",
+                    "name": "Ishizuka J"
+                },
+                {
+                    "initials": "GB",
+                    "lastname": "Stewart-Jones",
+                    "name": "Stewart-Jones GB"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "van der Merwe",
+                    "name": "van der Merwe A"
+                },
+                {
+                    "initials": "JI",
+                    "lastname": "Bell",
+                    "name": "Bell JI"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.immuni.2007.12.018",
+                    "type": "doi"
+                },
+                {
+                    "id": "18275829",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "171-82"
+            ],
+            "title": "The structural dynamics and energetics of an immunodominant T cell receptor are programmed by its Vbeta domain.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761308000411",
+            "volume": [
+                "28"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2vll"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2vll"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"GILGFVFTL\" at 1.60&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,268 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5kd7_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:27:00.115265"
+        },
+        "2": {
+            "assembly_name": "5kd7_2",
+            "chains": [
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:27:00.536010"
+        },
+        "3": {
+            "assembly_name": "5kd7_3",
+            "chains": [
+                "F",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:27:00.978271"
+        },
+        "4": {
+            "assembly_name": "5kd7_4",
+            "chains": [
+                "I",
+                "J",
+                "K"
+            ],
+            "downloaded_at": "2022-11-09T14:27:01.274044"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C",
+                "F",
+                "I"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "SHSLRYFVTAVSRPGFGEPRYMEVGYVDNTEFVRFDSDAENPRYEPRARWIEQEGPEYWERETRRAKGNEQSFRVDLRTALRYYNQSAGGSHTLQWMAGCDVESDGRLLRGYWQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAERDRAYLEGECVEWLRRYLKNGNATLLRTDPPKAHVTHHRRPEGDVTLRCWALGFYPADITLTWQLNGEELTQEMELVETRPAGDGTFQKWASVVVPLGKEQKYTCHVEHEGLPEPLTLRWGK"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "E",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "IGPGRAFYV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-06-07",
+        "deposition_year": 2016,
+        "release_date": "2017-10-11",
+        "release_year": 2017,
+        "revision_date": "2020-02-19",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5KD7 | H2-Dd binding \"IGPGRAFYV\"",
+    "pdb_code": "5kd7",
+    "pdb_title": "Crystal structure of murine MHC-i h-2dd in complex with murine beta2-microglobulin and a variant of peptide (pv9) of hiv gp120 mn isolate (IGPGRAFYV)",
+    "peptide": {
+        "E": {
+            "actual_length": 9,
+            "actual_sequence": "IGPGRAFYV",
+            "chain_id": "E",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IGPGRAFYV"
+        },
+        "H": {
+            "actual_length": 9,
+            "actual_sequence": "IGPGRAFYV",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IGPGRAFYV"
+        },
+        "K": {
+            "actual_length": 9,
+            "actual_sequence": "IGPGRAFYV",
+            "chain_id": "K",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IGPGRAFYV"
+        },
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "IGPGRAFYV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IGPGRAFYV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "IGPGRAFYV",
+    "publication": {
+        "abstract": "Unlike cytosolic processing and presentation of viral Ags by virus-infected cells, Ags first expressed in infected nonprofessional APCs, such as CD4<sup>+</sup> T cells in the case of HIV, are taken up by dendritic cells and cross-presented. This generally requires entry through the endocytic pathway, where endosomal proteases have first access for processing. Thus, understanding virus escape during cross-presentation requires an understanding of resistance to endosomal proteases, such as cathepsin S (CatS). We have modified HIV-1<sub>MN</sub> gp120 by mutating a key CatS cleavage site (Thr<sup>322</sup>Thr<sup>323</sup>) in the V3 loop of the immunodominant epitope IGPGRAFY<u>TT</u> to IGPGRAFY<u>VV</u> to prevent digestion. We found this mutation to facilitate cross-presentation and provide evidence from MHC binding and X-ray crystallographic structural studies that this results from preservation of the epitope rather than an increased epitope affinity for the MHC class I molecule. In contrast, when the protein is expressed by a vaccinia virus in the cytosol, the wild-type protein is immunogenic without this mutation. These proof-of-concept results show that a virus like HIV, infecting predominantly nonprofessional presenting cells, can escape T cell recognition by incorporating a CatS cleavage site that leads to destruction of an immunodominant epitope when the Ag undergoes endosomal cross-presentation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "BF",
+                    "lastname": "Frey",
+                    "name": "Frey BF"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Jiang",
+                    "name": "Jiang J"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Sui",
+                    "name": "Sui Y"
+                },
+                {
+                    "initials": "LF",
+                    "lastname": "Boyd",
+                    "name": "Boyd LF"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Yu",
+                    "name": "Yu B"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Tatsuno",
+                    "name": "Tatsuno G"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Billeskov",
+                    "name": "Billeskov R"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Solaymani-Mohammadi",
+                    "name": "Solaymani-Mohammadi S"
+                },
+                {
+                    "initials": "PW",
+                    "lastname": "Berman",
+                    "name": "Berman PW"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Margulies",
+                    "name": "Margulies DH"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Berzofsky",
+                    "name": "Berzofsky JA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1701523",
+                    "type": "doi"
+                },
+                {
+                    "id": "29374075",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Effects of Cross-Presentation, Antigen Processing, and Peptide Binding in HIV Evasion of T Cell Immunity.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1701523",
+            "volume": [
+                null
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.35",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5kd7"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5kd7"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Dd binding \"IGPGRAFYV\" at 2.35&#8491; resolution",
+    "unique_chain_count": 3
+}

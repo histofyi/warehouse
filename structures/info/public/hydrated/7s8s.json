@@ -1,0 +1,242 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7s8s_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:10.095546"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWELSS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RVLVNGTFLK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-09-19",
+        "deposition_year": 2021,
+        "release_date": "2022-02-23",
+        "release_year": 2022,
+        "revision_date": "2022-03-30",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7S8S | HLA-A*11:01 binding \"RVLVNGTFLK\"",
+    "pdb_code": "7s8s",
+    "pdb_title": "Crystal structure of hla a*1101 in complex with RVLVNGTFLK, an 10-mer epitope from influenza b",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "RVLVNGTFLK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RVLVNGTFLK"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RVLVNGTFLK",
+    "publication": {
+        "abstract": "HLA-A*11:01 is one of the most prevalent human leukocyte antigens (HLAs), especially in East Asian and Oceanian populations. It is also highly expressed in Indigenous people who are at high risk of severe influenza disease. As CD8+ T cells can provide broadly cross-reactive immunity to distinct influenza strains and subtypes, including influenza A, B and C viruses, understanding CD8+ T cell immunity to influenza viruses across prominent HLA types is needed to rationally design a universal influenza vaccine and generate protective immunity especially for high-risk populations. As only a handful of HLA-A*11:01-restricted CD8+ T cell epitopes have been described for influenza A viruses (IAVs) and epitopes for influenza B viruses (IBVs) were still unknown, we embarked on an epitope discovery study to define a CD8+ T cell landscape for HLA-A*11:01-expressing Indigenous and non-Indigenous Australian people. Using mass-spectrometry, we identified IAV- and IBV-derived peptides presented by HLA-A*11:01 during infection. 79 IAV and 57 IBV peptides were subsequently screened for immunogenicity in vitro with peripheral blood mononuclear cells from HLA-A*11:01-expressing Indigenous and non-Indigenous Australian donors. CD8+ T cell immunogenicity screening revealed two immunogenic IAV epitopes (A11/PB2320-331 and A11/PB2323-331) and the first HLA-A*11:01-restricted IBV epitopes (A11/M41-49, A11/NS1186-195 and A11/NP511-520). The immunogenic IAV- and IBV-derived peptides were >90% conserved among their respective influenza viruses. Identification of novel immunogenic HLA-A*11:01-restricted CD8+ T cell epitopes has implications for understanding how CD8+ T cell immunity is generated towards IAVs and IBVs. These findings can inform the development of rationally designed, broadly cross-reactive influenza vaccines to ensure protection from severe influenza disease in HLA-A*11:01-expressing individuals.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JR",
+                    "lastname": "Habel",
+                    "name": "Habel JR"
+                },
+                {
+                    "initials": "AT",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen AT"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Rowntree",
+                    "name": "Rowntree LC"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Szeto",
+                    "name": "Szeto C"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Mifsud",
+                    "name": "Mifsud NA"
+                },
+                {
+                    "initials": "EB",
+                    "lastname": "Clemens",
+                    "name": "Clemens EB"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Loh",
+                    "name": "Loh L"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Chen",
+                    "name": "Chen W"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Rockman",
+                    "name": "Rockman S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Nelson",
+                    "name": "Nelson J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Davies",
+                    "name": "Davies J"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Miller",
+                    "name": "Miller A"
+                },
+                {
+                    "initials": "SYC",
+                    "lastname": "Tong",
+                    "name": "Tong SYC"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Hensen",
+                    "name": "Hensen L"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kedzierska",
+                    "name": "Kedzierska K"
+                },
+                {
+                    "initials": "PT",
+                    "lastname": "Illing",
+                    "name": "Illing PT"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.ppat.1010337",
+                    "type": "doi"
+                },
+                {
+                    "id": "35255101",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Pathog",
+                "name": ""
+            },
+            "pages": [
+                "e1010337"
+            ],
+            "title": "HLA-A*11:01-restricted CD8+ T cell immunity against influenza A and influenza B viruses in Indigenous and non-Indigenous people.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.ppat.1010337",
+            "volume": [
+                "18"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.87",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7s8s"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7s8s"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"RVLVNGTFLK\" at 1.87&#8491; resolution",
+    "unique_chain_count": 3
+}

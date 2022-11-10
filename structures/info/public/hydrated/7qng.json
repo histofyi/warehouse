@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7qng_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:45:38.340825"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MGPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "erp57": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "MRLRRLALFPGVALLLAAARLAAASDVLELTDDNFESRISDTGSAGLMLVEFFAPWCGHAKRLAPEYEAAATRLKGIVPLAKVDCTANTNTCNKYGVSGYPTLKIFRDGEEAGAYDGPRTADGIVSHLKKQAGPASVPLRTEEEFKKFISDKDASIVGFFDDSFSEAHSEFLKAASNLRDNYRFAHTNVESLVNEYDDNGEGIILFRPSHLTNKFEDKTVAYTEQKMTSGKIKKFIQENIFGICPHMTEDNKDLIQGKDLLIAYYDVDYEKNAKGSNYWRNRVMMVAKKFLDAGHKLNFAVASRKTFSHELSDFGLESTAGEIPVVAIRTAKGEKFVMQEEFSRDGKALERFLQDYFDGNLKRYLKSEPIPESNDGPVKVVVAENFDEIVNNENKDVLIEFYAPWCGHCKNLEPKYKELGEKLSKDPNIVIAKMDATANDVPSPYEVRGFPTIYFSPANKKLNPKKYEGGRELSDFISYLQREATNPPVIQEEKPKKKKKAQEDL"
+        },
+        "tapasin": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "MKSLSLLLAVALGLATAVSAGPAVIECWFVEDASGKGLAKRPGALLLRQGPGEPPPRPDLDPELYLSVHDPAGALQAAFRRYPRGAPAPHCEMSRFVPLPASAKWASGLTPAQNCPRALDGAWLMVSISSPVLSLSSLLRPQPEPQQEPVLITMATVVLTVLTHTPAPRVRLGQDALLDLSFAYMPPTSEAASSLAPGPPPFGLEWRRQHLGKGHLLLAATPGLNGQMPAAQEGAVAFAAWDDDEPWGPWTGNGTFWLPRVQPFQEGTYLATIHLPYLQGQVTLELAVYKPPKVSLMPATLARAAPGEAPPELLCLVSHFYPSGGLEVEWELRGGPGGRSQKAEGQRWLSALRHHSDGSVSLSGHLQPPPVTTEQHGARYACRIHHPSLPASGRSAEVTLEGSENLYFQGHHHHHHGSE"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-12-20",
+        "deposition_year": 2021,
+        "release_date": "2022-09-28",
+        "release_year": 2022,
+        "revision_date": "2022-09-28",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_erp57_and_tapasin",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "erp57",
+        "tapasin"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7QNG | H2-Db with erp57 and Tapasin",
+    "pdb_code": "7qng",
+    "pdb_title": "Structure of a MHC i-tapasin-erp57 complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Adaptive immunity depends on cell surface presentation of antigenic peptides by major histocompatibility complex class I (MHC I) molecules and on stringent ER quality control in the secretory pathway. The chaperone tapasin in conjunction with the oxidoreductase ERp57 is crucial for MHC I assembly and for shaping the epitope repertoire for high immunogenicity. However, how the tapasin-ERp57 complex engages MHC I clients has not yet been determined at atomic detail. Here, we present the 2.7-\u00c5 crystal structure of a tapasin-ERp57 heterodimer in complex with peptide-receptive MHC I. Our study unveils molecular details of client recognition by the multichaperone complex and highlights elements indispensable for peptide proofreading. The structure of this transient ER quality control complex provides the mechanistic basis for the selector function of tapasin and showcases how the numerous MHC I allomorphs are chaperoned during peptide loading and editing.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "IK",
+                    "lastname": "M\u00fcller",
+                    "name": "M\u00fcller IK"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Winter",
+                    "name": "Winter C"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Thomas",
+                    "name": "Thomas C"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Spaapen",
+                    "name": "Spaapen RM"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Trowitzsch",
+                    "name": "Trowitzsch S"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Tamp\u00e9",
+                    "name": "Tamp\u00e9 R"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-022-32841-9",
+                    "type": "doi"
+                },
+                {
+                    "id": "36104323",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "5383"
+            ],
+            "title": "Structure of an MHC I-tapasin-ERp57 editing complex defines chaperone promiscuity.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41467-022-32841-9",
+            "volume": [
+                "13"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7qng"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7qng"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db with erp57 and Tapasin at 2.70&#8491; resolution",
+    "unique_chain_count": 5
+}

@@ -1,0 +1,213 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34746",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*07:02",
+            "slug": "hla_b_07_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7s7e_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T15:14:00.172234"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIYKAQAQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHDQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQRRAYLEGECVEWLRRYLENGKDKLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LPASPAHQL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-09-15",
+        "deposition_year": 2021,
+        "release_date": "2022-11-02",
+        "release_year": 2022,
+        "revision_date": "2022-11-02",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7S7E | HLA-B*07:02 binding \"LPASPAHQL\"",
+    "pdb_code": "7s7e",
+    "pdb_title": "CRYSTAL STRUCTURE OF HLA-B*07:02 IN COMPLEX WITH DOT1L(998-1006) PEPTIDE AND PHOSPHOPEPTIDE",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LPASPAHQL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LPASPAHQL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LPASPAHQL",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Patskovska, L."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Patskovsky, Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Nyovanie, S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Nataragan, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Joshi, B."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Morin, B."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Brittsan, C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Huber, O."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gordon, S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "MIchelet, X."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Schmitzberger, F."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Stein, R."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Findeis, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Hurwitz, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Van Dijk, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Buell, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Underwood, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Krogsgaard, M."
+                }
+            ],
+            "identifier": [],
+            "title": "CRYSTAL STRUCTURE OF HLA-B*07:02 IN COMPLEX WITH DOT1L(998-1006) PEPTIDE AND PHOSPHOPEPTIDE",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.04",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7s7e"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7s7e"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*07:02 binding \"LPASPAHQL\" at 2.04&#8491; resolution",
+    "unique_chain_count": 3
+}

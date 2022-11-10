@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01897",
+            "locus": "h2-l",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Ld",
+            "slug": "h2_ld",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2e7l_1",
+            "chains": [
+                "A",
+                "D",
+                "E",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:41:39.839485"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "E",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.76,
+            "sequence": "GPHSMRYFETAVSRRGLGEPRYISVGYVDDKEFVRFDSDAENPRYEPQVPWMEQEGPEYWERITQVAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQRMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLRTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNGNATLLR"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "QLSPFPFDL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QSVTQPDARVTVSEGASLQLRCKYSYSATPYLFWYVQYPRQGPQLLLKYYSGDPVVQGVNGFEAEFSKSNSSFHLRKASVHRSDSAVYFCAVSHQGRYLTFGSGTKVIVLPYN",
+            "subgroup": "TRAV9"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "EAAVTQSPRNKVAVTGEKVTLSCNQTNNHNNMYWYRQDTGHELRLIYYSYGAGSTEKGDIPDGYKASRPSQENFSLTLESATPSQTSVYFCASGGGGTLYFGAGTRLSVLSSALEHHHHHH",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2007-01-11",
+        "deposition_year": 2007,
+        "release_date": "2007-04-24",
+        "release_year": 2007,
+        "revision_date": "2011-07-27",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "truncated_class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-l",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2E7L | Truncated H2-Ld presenting \"QLSPFPFDL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "2e7l",
+    "pdb_title": "Structure of a high-affinity mutant of the 2c TCR in complex with ld/ql9",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "QLSPFPFDL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QLSPFPFDL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "QLSPFPFDL",
+    "publication": {
+        "abstract": "alphabeta T cell receptors (TCRs) can crossreact with both self- and foreign- major histocompatibility complex (MHC) proteins in an enigmatic phenomenon termed alloreactivity. Here we present the 2.35 A structure of the 2C TCR complexed with its foreign ligand H-2L(d)-QL9. Surprisingly, we find that this TCR utilizes a different strategy to engage the foreign pMHC in comparison to the manner in which it recognizes a self ligand H-2K(b)-dEV8. 2C engages both shared and polymorphic residues on L(d) and K(b), as well as the unrelated QL9 and dEV8 peptide antigens, in unique pair-wise contacts, resulting in greater structural complementarity with the L(d)-QL9 complex. In the structure of an engineered, high-affinity 2C TCR variant bound to H-2L(d)-QL9, the \"wild-type\" TCR-MHC binding orientation persists despite modified TCR-CDR3alpha interactions with peptide. Thus, a single TCR recognizes two globally similar, but distinct ligands by divergent mechanisms, indicating that receptor-ligand crossreactivity can occur in the absence of molecular mimicry.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LA",
+                    "lastname": "Colf",
+                    "name": "Colf LA"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Bankovich",
+                    "name": "Bankovich AJ"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Hanick",
+                    "name": "Hanick NA"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Bowerman",
+                    "name": "Bowerman NA"
+                },
+                {
+                    "initials": "LL",
+                    "lastname": "Jones",
+                    "name": "Jones LL"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Kranz",
+                    "name": "Kranz DM"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Garcia",
+                    "name": "Garcia KC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.cell.2007.01.048",
+                    "type": "doi"
+                },
+                {
+                    "id": "17418792",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Cell",
+                "name": ""
+            },
+            "pages": [
+                "135-46"
+            ],
+            "title": "How a single T cell receptor recognizes both self and foreign MHC.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0092867407003133",
+            "volume": [
+                "129"
+            ],
+            "year": [
+                2007
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2e7l"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2e7l"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=2e7l"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "A"
+            ],
+            "subgroup": "TRAV9"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "2e7l"
+    },
+    "title": "Truncated H2-Ld presenting \"QLSPFPFDL\" to Alpha/Beta T cell receptor at 2.50&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,276 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3rug_1",
+            "chains": [
+                "A",
+                "B",
+                "E",
+                "F",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:34:49.884074"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWGSLHHILDAQKMVWNHRHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GQQVEQSPASLVLQEGENAELQCTYSTTLNSMQWFYQRPGGRLVSLLYSPSWAEQRGGRLTSSAASNESRSSLHISSSQITDSGTYLCAIASSSFSKLVFGQGTSLSVVPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV13"
+        },
+        "tcr_beta": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "EAAVTQSPRSKVAVTGGKVTLSCHQTNNHDYMYWYRQDTGHGLRLIHYSYVADSTEKGDIPDGYKASRPSQENFSLILELASLSQTAVYFCASRLGGYEQYFGPGTRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-05-05",
+        "deposition_year": 2011,
+        "release_date": "2011-08-03",
+        "release_year": 2011,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3RUG | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "3rug",
+    "pdb_title": "Crystal structure of valpha10-vbeta8.1 nkt TCR in complex with CD1d-alphaglucosylceramide (c20:2)",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Electrochemically converting nitrate, a widespread water pollutant, back to valuable ammonia is a green and delocalized route for ammonia synthesis, and can be an appealing and supplementary alternative to the Haber-Bosch process. However, as there are other nitrate reduction pathways present, selectively guiding the reaction pathway towards ammonia is currently challenged by the lack of efficient catalysts. Here we report a selective and active nitrate reduction to ammonia on Fe single atom catalyst, with a maximal ammonia Faradaic efficiency of ~ 75% and a yield rate of up to ~ 20,000\u2009\u03bcg\u2009h<sup>-1</sup> mg<sub>cat.</sub><sup>-1</sup> (0.46\u2009mmol\u2009h<sup>-1</sup> cm<sup>-2</sup>). Our Fe single atom catalyst can effectively prevent the N-N coupling step required for N<sub>2</sub> due to the lack of neighboring metal sites, promoting ammonia product selectivity. Density functional theory calculations reveal the reaction mechanisms and the potential limiting steps for nitrate reduction on atomically dispersed Fe sites.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AP",
+                    "lastname": "Uldrich",
+                    "name": "Uldrich AP"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Patel",
+                    "name": "Patel O"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Cameron",
+                    "name": "Cameron G"
+                },
+                {
+                    "initials": "DG",
+                    "lastname": "Pellicci",
+                    "name": "Pellicci DG"
+                },
+                {
+                    "initials": "EB",
+                    "lastname": "Day",
+                    "name": "Day EB"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan LC"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kyparissoudis",
+                    "name": "Kyparissoudis K"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Cao",
+                    "name": "Cao B"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Williams",
+                    "name": "Williams SJ"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Illarionov",
+                    "name": "Illarionov P"
+                },
+                {
+                    "initials": "GS",
+                    "lastname": "Besra",
+                    "name": "Besra GS"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Turner",
+                    "name": "Turner SJ"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Porcelli",
+                    "name": "Porcelli SA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "MJ",
+                    "lastname": "Smyth",
+                    "name": "Smyth MJ"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.2051",
+                    "type": "doi"
+                },
+                {
+                    "id": "21666690",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "616-23"
+            ],
+            "title": "A semi-invariant V\ufffd\ufffd10+ T cell antigen receptor defines a population of natural killer T cells with distinct glycolipid antigen-recognition properties.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.2051",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3rug"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3rug"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3rug"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRAV13"
+        },
+        "beta": {
+            "chains": [
+                "F"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "3rug"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 2.20&#8491; resolution",
+    "unique_chain_count": 4
+}

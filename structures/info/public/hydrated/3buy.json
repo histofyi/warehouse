@@ -1,0 +1,192 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3buy_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:30:07.555113"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "PHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LSLRNPILV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-01-03",
+        "deposition_year": 2008,
+        "release_date": "2008-03-25",
+        "release_year": 2008,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3BUY | H2-Db binding \"LSLRNPILV\"",
+    "pdb_code": "3buy",
+    "pdb_title": "Mhc-i in complex with peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LSLRNPILV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LSLRNPILV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LSLRNPILV",
+    "publication": {
+        "abstract": "TCR repertoire diversity has been convincingly shown to facilitate responsiveness of CD8+ T cell populations to mutant virus peptides, thereby safeguarding against viral escape. However, the impact of repertoire diversity on the functionality of the CD8+ T cell response to cognate peptide-MHC class I complex (pMHC) recognition remains unclear. Here, we have compared TCRbeta chain repertoires of three influenza A epitope-specific CD8+ T cell responses in C57BL/6 (B6) mice: D(b)NP(366-374), D(b)PA(224-233), and a recently described epitope derived from the +1 reading frame of the influenza viral polymerase B subunit (residues 62-70) (D(b)PB1-F2(62)). Corresponding to the relative antigenicity of the respective pMHCs, and irrespective of the location of prominent residues, the D(b)PA(224)- and D(b)PB1-F2(62)-specific repertoires were similarly diverse, whereas the D(b)NP(366) population was substantially narrower. Importantly, parallel analysis of response magnitude, cytotoxicity, TCR avidity, and cytokine production for the three epitope-specific responses revealed no obvious functional advantage conferred by increased T cell repertoire diversity. Thus, whereas a diverse repertoire may be important for recognition of epitope variants, its effect on the response to cognate pMHC recognition appears minimal.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "NL",
+                    "lastname": "La Gruta",
+                    "name": "La Gruta NL"
+                },
+                {
+                    "initials": "PG",
+                    "lastname": "Thomas",
+                    "name": "Thomas PG"
+                },
+                {
+                    "initials": "AI",
+                    "lastname": "Webb",
+                    "name": "Webb AI"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Dunstone",
+                    "name": "Dunstone MA"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Cukalac",
+                    "name": "Cukalac T"
+                },
+                {
+                    "initials": "PC",
+                    "lastname": "Doherty",
+                    "name": "Doherty PC"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Turner",
+                    "name": "Turner SJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.0711682102",
+                    "type": "doi"
+                },
+                {
+                    "id": "18238896",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "2034-9"
+            ],
+            "title": "Epitope-specific TCRbeta repertoire diversity imparts no functional advantage on the CD8+ T cell response to cognate viral peptides.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.0711682102",
+            "volume": [
+                "105"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3buy"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3buy"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"LSLRNPILV\" at 2.60&#8491; resolution",
+    "unique_chain_count": 3
+}

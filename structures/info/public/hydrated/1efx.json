@@ -1,0 +1,184 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35364",
+            "locus": "hla-c",
+            "match_type": "histo:exact",
+            "name": "HLA-C*03:04",
+            "slug": "hla_c_03_04",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1efx_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:44:53.053305"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.94,
+            "sequence": "GSHSMRYFYTAVSRPGRGEPHFIAVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVSLRNLRGYYNQSEAGSHIIQRMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQLRAYLEGLCVEWLRRYLKNGKETLQRAEHPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQWDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWEPSS"
+        },
+        "kir": {
+            "chains": [
+                "D",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "HEGVHRKPSLLAHPGRLVKSEETVILQCWSDVRFEHFLLHREGKFKDTLHLIGEHHDGVSKANFSIGPMMQDLAGTYRCYGSVTHSPYQLSAPSDPLDIVITGLYEKPSLSAQPGPTVLAGESVTLSCSSRSSYDMYHLSREGEAHECRFSAGPKVNGTFQADFPLGPATHGGTYRCFGSFRDSPYEWSNSSDPLLVSVI"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GAVDPLLAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2000-02-10",
+        "deposition_year": 2000,
+        "release_date": "2000-06-14",
+        "release_year": 2000,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_kir",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "kir"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-c",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1EFX | HLA-C*03:04 binding \"GAVDPLLAL\" with KIR NK receptor",
+    "pdb_code": "1efx",
+    "pdb_title": "Structure of a complex between the human natural killer cell receptor KIR2dl2 and a Class I MHC ligand hla-cw3",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "GAVDPLLAL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GAVDPLLAL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GAVDPLLAL",
+    "publication": {
+        "abstract": "Target cell lysis is regulated by natural killer (NK) cell receptors that recognize class I MHC molecules. Here we report the crystal structure of the human immunoglobulin-like NK cell receptor KIR2DL2 in complex with its class I ligand HLA-Cw3 and peptide. KIR binds in a nearly orthogonal orientation across the alpha1 and alpha2 helices of Cw3 and directly contacts positions 7 and 8 of the peptide. No significant conformational changes in KIR occur on complex formation. The receptor footprint on HLA overlaps with but is distinct from that of the T-cell receptor. Charge complementarity dominates the KIR/HLA interface and mutations that disrupt interface salt bridges substantially diminish binding. Most contacts in the complex are between KIR and conserved HLA-C residues, but a hydrogen bond between Lys 44 of KIR2DL2 and Asn 80 of Cw3 confers the allotype specificity. KIR contact requires position 8 of the peptide to be a residue smaller than valine. A second KIR/HLA interface produced an ordered receptor-ligand aggregation in the crystal which may resemble receptor clustering during immune synapse formation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JC",
+                    "lastname": "Boyington",
+                    "name": "Boyington JC"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Motyka",
+                    "name": "Motyka SA"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Schuck",
+                    "name": "Schuck P"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "PD",
+                    "lastname": "Sun",
+                    "name": "Sun PD"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/35014520",
+                    "type": "doi"
+                },
+                {
+                    "id": "10850706",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6786"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                "537-43"
+            ],
+            "title": "Crystal structure of an NK cell immunoglobulin-like receptor in complex with its class I MHC ligand.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/35014520",
+            "volume": [
+                "405"
+            ],
+            "year": [
+                2000
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "3.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1efx"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1efx"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-C*03:04 binding \"GAVDPLLAL\" with KIR NK receptor at 3.00&#8491; resolution",
+    "unique_chain_count": 4
+}

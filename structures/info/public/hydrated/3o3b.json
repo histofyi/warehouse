@@ -1,0 +1,218 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3o3b_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:24.681054"
+        },
+        "2": {
+            "assembly_name": "3o3b_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:31:25.148177"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ELAXXLTV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2010-07-23",
+        "deposition_year": 2010,
+        "release_date": "2010-12-08",
+        "release_year": 2010,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3O3B | HLA-A*02:01 binding \"ELAXXLTV\"",
+    "pdb_code": "3o3b",
+    "pdb_title": "Human Class I MHC hla-a2 in complex with the peptidomimetic ela-1.1",
+    "peptide": {
+        "C": {
+            "actual_length": 6,
+            "actual_sequence": "ELALTV",
+            "chain_id": "C",
+            "features": [
+                "contains_unnatural",
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 8,
+            "full_sequence": "ELAXXLTV",
+            "gap_ends_at": 6,
+            "gap_length": 2,
+            "gap_sequence": "XX",
+            "gap_start_after": 3,
+            "gapped_sequence": "ELA--LTV"
+        },
+        "F": {
+            "actual_length": 6,
+            "actual_sequence": "ELALTV",
+            "chain_id": "F",
+            "features": [
+                "contains_unnatural",
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 8,
+            "full_sequence": "ELAXXLTV",
+            "gap_ends_at": 6,
+            "gap_length": 2,
+            "gap_sequence": "XX",
+            "gap_start_after": 3,
+            "gapped_sequence": "ELA--LTV"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "ELAXXLTV",
+    "publication": {
+        "abstract": "There is growing interest in using tumor associated antigens presented by class I major histocompatibility complex (MHC-I) proteins as cancer vaccines. As native peptides are poorly stable in biological fluids, researchers have sought to engineer synthetic peptidomimetics with greater biostability. Here, we demonstrate that antigenic peptidomimetics of the Melan-A/MART-1(26(27L)-35) melanoma antigen adopt strikingly different conformations when bound to MHC-I, highlighting the degeneracy of T cell recognition and revealing the challenges associated with mimicking native peptide conformation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Douat-Casassus",
+                    "name": "Douat-Casassus C"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Borbulevych",
+                    "name": "Borbulevych O"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Tarbe",
+                    "name": "Tarbe M"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Gervois",
+                    "name": "Gervois N"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Jotereau",
+                    "name": "Jotereau F"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Quideau",
+                    "name": "Quideau S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1021/jm100683p",
+                    "type": "doi"
+                },
+                {
+                    "id": "20806940",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "19"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Med. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "7061-6"
+            ],
+            "title": "Crystal structures of HLA-A*0201 complexed with Melan-A/MART-1(26(27L)-35) peptidomimetics reveal conformational heterogeneity and highlight degeneracy of T cell recognition.",
+            "type": "article",
+            "url": "https://pubs.acs.org/doi/10.1021/jm100683p",
+            "volume": [
+                "53"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3o3b"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3o3b"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"ELAXXLTV\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

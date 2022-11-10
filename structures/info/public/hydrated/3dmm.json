@@ -1,0 +1,182 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01900",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Dd",
+            "slug": "h2_dd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3dmm_1",
+            "chains": [
+                "A",
+                "B",
+                "P",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:39:46.652649"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd8a": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.87,
+            "sequence": "GSGEAKPQAPELRIFPKKMDAELGQKVDLVCEVLGSVSQGCSWLFQNSSSKLPQPTFVVYMASSHNKITWDEKLNSSKLFSAMRDTNNKYVLTLNKFSKENEGYYFCSVISNSVMYFSSVVPVLQKVNSTTTKPVLRTPSPVHPTGTSQPQRPEDCRPRGSVKGTG"
+        },
+        "cd8b": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.87,
+            "sequence": "SSALIQTPSSLLVQTNHTAKMSCEVKSISKLTSIYWLRERQDPKDKYFEFLASWSSSKGVLYGESVDKKRNIILESSDSRRPFLSIMNVKPEDSDFYFCATVGSPKMVFGTGTKLTVVDVLPTTAPTKKTTLKMKKKKQCPFPHPETQKG"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.88,
+            "sequence": "MSHSLRYFVTAVSRPGFGEPRYMEVGYVDNTEFVRFDSDAENPRYEPRARWIEQEGPEYWERETRRAKGNEQSFRVDLRTALRYYNQSAGGSHTLQWMAGCDVESDGRLLRGYWQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAERDRAYLEGECVEWLRRYLKNGNATLLRTDPPKAHVTHHRRPEGDVTLRCWALGFYPADITLTWQLNGEELTQEMELVETRPAGDGTFQKWASVVVPLGKEQKYTCHVEHEGLPEPLTLRWG"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RGPGRAFVTI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-07-01",
+        "deposition_year": 2008,
+        "release_date": "2009-07-14",
+        "release_year": 2009,
+        "revision_date": "2017-10-25",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_cd8_dimer",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "cd8a",
+        "cd8b"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3DMM | H2-Dd binding \"RGPGRAFVTI\" with CD8 dimer",
+    "pdb_code": "3dmm",
+    "pdb_title": "Crystal structure of the cd8 alpha beta/h-2dd complex",
+    "peptide": {
+        "P": {
+            "actual_length": 10,
+            "actual_sequence": "RGPGRAFVTI",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RGPGRAFVTI"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RGPGRAFVTI",
+    "publication": {
+        "abstract": "In the immune system, B cells, dendritic cells, NK cells, and T lymphocytes all respond to signals received via ligand binding to receptors and coreceptors. Although the specificity of T cell recognition is determined by the interaction of T cell receptors with MHC/peptide complexes, the development of T cells in the thymus and their sensitivity to Ag are also dependent on coreceptor molecules CD8 (for MHC class I (MHCI)) and CD4 (for MHCII). The CD8alphabeta heterodimer is a potent coreceptor for T cell activation, but efforts to understand its function fully have been hampered by ignorance of the structural details of its interactions with MHCI. In this study we describe the structure of CD8alphabeta in complex with the murine MHCI molecule H-2D(d) at 2.6 A resolution. The focus of the CD8alphabeta interaction is the acidic loop (residues 222-228) of the alpha3 domain of H-2D(d). The beta subunit occupies a T cell membrane proximal position, defining the relative positions of the CD8alpha and CD8beta subunits. Unlike the CD8alphaalpha homodimer, CD8alphabeta does not contact the MHCI alpha(2)- or beta(2)-microglobulin domains. Movements of the CD8alpha CDR2 and CD8beta CDR1 and CDR2 loops as well as the flexibility of the H-2D(d) CD loop facilitate the monovalent interaction. The structure resolves inconclusive data on the topology of the CD8alphabeta/MHCI interaction, indicates that CD8beta is crucial in orienting the CD8alphabeta heterodimer, provides a framework for understanding the mechanistic role of CD8alphabeta in lymphoid cell signaling, and offers a tangible context for design of structurally altered coreceptors for tumor and viral immunotherapy.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "R",
+                    "lastname": "Wang",
+                    "name": "Wang R"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Natarajan",
+                    "name": "Natarajan K"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Margulies",
+                    "name": "Margulies DH"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.0901276",
+                    "type": "doi"
+                },
+                {
+                    "id": "19625641",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "2554-64"
+            ],
+            "title": "Structural basis of the CD8 alpha beta/MHC class I interaction: focused recognition orients CD8 beta to a T cell proximal position.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.0901276",
+            "volume": [
+                "183"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3dmm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3dmm"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Dd binding \"RGPGRAFVTI\" with CD8 dimer at 2.60&#8491; resolution",
+    "unique_chain_count": 5
+}

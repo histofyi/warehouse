@@ -1,0 +1,173 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3tid_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:05.031163"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "IQEEFKMGPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGRDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRWEPC"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AVYNFATM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-08-20",
+        "deposition_year": 2011,
+        "release_date": "2012-08-22",
+        "release_year": 2012,
+        "revision_date": "2016-05-11",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3TID | H2-Kb binding \"AVYNFATM\"",
+    "pdb_code": "3tid",
+    "pdb_title": "Crystal structure of the lcmv derived peptide gp34 in complex with the murine MHC Class I h-2 kb",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "AVYNFATM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length",
+                "incorrect_start"
+            ],
+            "full_length": 8,
+            "full_sequence": "AVYNFATM"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "AVYNFATM",
+    "publication": {
+        "abstract": "Closely related peptide epitopes can be recognized by the same T cells and contribute to the immune response against pathogens encoding those epitopes, but sometimes cross-reactive epitopes share little homology. The degree of structural homology required for such disparate ligands to be recognized by cross-reactive TCRs remains unclear. In this study, we examined the mechanistic basis for cross-reactive T cell responses between epitopes from unrelated and pathogenic viruses, lymphocytic choriomeningitis virus (LCMV) and vaccinia virus. Our results show that the LCMV cross-reactive T cell response toward vaccinia virus is dominated by a shared asparagine residue, together with other shared structural elements conserved in the crystal structures of K(b)-VV-A11R and K(b)-LCMV-gp34. Based on analysis of the crystal structures and the specificity determinants for the cross-reactive T cell response, we were able to manipulate the degree of cross-reactivity of the T cell response, and to predict and generate a LCMV cross-reactive response toward a variant of a null OVA-derived peptide. These results indicate that protective heterologous immune responses can occur for disparate epitopes from unrelated viruses.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "ZT",
+                    "lastname": "Shen",
+                    "name": "Shen ZT"
+                },
+                {
+                    "initials": "TT",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen TT"
+                },
+                {
+                    "initials": "KA",
+                    "lastname": "Daniels",
+                    "name": "Daniels KA"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Welsh",
+                    "name": "Welsh RM"
+                },
+                {
+                    "initials": "LJ",
+                    "lastname": "Stern",
+                    "name": "Stern LJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1300852",
+                    "type": "doi"
+                },
+                {
+                    "id": "24127554",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "5139-52"
+            ],
+            "title": "Disparate epitopes mediating protective heterologous immunity to unrelated viruses share peptide-MHC structural features recognized by cross-reactive T cells.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1300852",
+            "volume": [
+                "191"
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.65",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3tid"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3tid"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"AVYNFATM\" at 1.65&#8491; resolution",
+    "unique_chain_count": 3
+}

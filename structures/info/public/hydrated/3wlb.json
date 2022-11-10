@@ -1,0 +1,227 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3wlb_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:34.752744"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MGSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "NYTPGPGTRF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-11-08",
+        "deposition_year": 2013,
+        "release_date": "2014-06-11",
+        "release_year": 2014,
+        "revision_date": "2017-11-22",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3WLB | HLA-A*24:02 binding \"NYTPGPGTRF\"",
+    "pdb_code": "3wlb",
+    "pdb_title": "Hla-a24 in complex with hiv-1 nef126-10(8t10f)",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "NYTPGPGTRF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "NYTPGPGTRF"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "NYTPGPGTRF",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Han",
+                    "name": "Han C"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Kawana-Tachikawa",
+                    "name": "Kawana-Tachikawa A"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Shimizu",
+                    "name": "Shimizu A"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Zhu",
+                    "name": "Zhu D"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Nakamura",
+                    "name": "Nakamura H"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Adachi",
+                    "name": "Adachi E"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Kikuchi",
+                    "name": "Kikuchi T"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Koga",
+                    "name": "Koga M"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Koibuchi",
+                    "name": "Koibuchi T"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Sato",
+                    "name": "Sato Y"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Yamagata",
+                    "name": "Yamagata A"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Martin",
+                    "name": "Martin E"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Fukai",
+                    "name": "Fukai S"
+                },
+                {
+                    "initials": "ZL",
+                    "lastname": "Brumme",
+                    "name": "Brumme ZL"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Iwamoto",
+                    "name": "Iwamoto A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1186/1742-4690-11-38",
+                    "type": "doi"
+                },
+                {
+                    "id": "24886641",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Retrovirology",
+                "name": ""
+            },
+            "pages": [
+                "38"
+            ],
+            "title": "Switching and emergence of CTL epitopes in HIV-1 infection.",
+            "type": "article",
+            "url": "https://retrovirology.biomedcentral.com/articles/10.1186/1742-4690-11-38",
+            "volume": [
+                "11"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3wlb"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3wlb"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*24:02 binding \"NYTPGPGTRF\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

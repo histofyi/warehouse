@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA24269",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*81:01",
+            "slug": "hla_b_81_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4u1s_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:36:51.890033"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "MGSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIYKAQAQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQISQRKLEAARVAEQLRAYLEGECVEWLRRYLENGKDKLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWTAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "FPRPWLHGL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-07-16",
+        "deposition_year": 2014,
+        "release_date": "2015-04-08",
+        "release_year": 2015,
+        "revision_date": "2017-08-30",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4U1S | HLA-B*81:01 binding \"FPRPWLHGL\"",
+    "pdb_code": "4u1s",
+    "pdb_title": "Hla Class I micropolymorphisms determine peptide-hla landscape and dictate differential hiv-1 escape through identical epitopes",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "FPRPWLHGL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "FPRPWLHGL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "FPRPWLHGL",
+    "publication": {
+        "abstract": "<h4>Background</h4>Presentation of identical HIV-1 peptides by closely related Human Leukocyte Antigen class I (HLAI) molecules can select distinct patterns of escape mutation that have a significant impact on viral fitness and disease progression. The molecular mechanisms by which HLAI micropolymorphisms can induce differential HIV-1 escape patterns within identical peptide epitopes remain unknown.<h4>Results</h4>Here, we undertook genetic and structural analyses of two immunodominant HIV-1 peptides, Gag180-188 (TPQDLNTML, TL9-p24) and Nef71-79 (RPQVPLRPM, RM9-Nef) that are among the most highly targeted epitopes in the global HIV-1 epidemic. We show that single polymorphisms between different alleles of the HLA-B7 superfamily can induce a conformational switch in peptide conformation that is associated with differential HLAI-specific escape mutation and immune control. A dominant R71K mutation in the Nef71-79 occurred in those with HLA-B*07:02 but not B*42:01/02 or B*81:01. No structural difference in the HLA-epitope complexes was detected to explain this observation.<h4>Conclusions</h4>These data suggest that identical peptides presented through very similar HLAI landscapes are recognized as distinct epitopes and provide a novel structural mechanism for previously observed differential HIV-1 escape and disease progression.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "HN",
+                    "lastname": "Kl\u00f8verpris",
+                    "name": "Kl\u00f8verpris HN"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Fuller",
+                    "name": "Fuller A"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Carlson",
+                    "name": "Carlson J"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Beck",
+                    "name": "Beck K"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Schauenburg",
+                    "name": "Schauenburg AJ"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Buus",
+                    "name": "Buus S"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Goulder",
+                    "name": "Goulder P"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1186/s12977-015-0149-5",
+                    "type": "doi"
+                },
+                {
+                    "id": "25808313",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Retrovirology",
+                "name": ""
+            },
+            "pages": [
+                "20"
+            ],
+            "title": "A molecular switch in immunodominant HIV-1-specific CD8 T-cell epitopes shapes differential HLA-restricted escape.",
+            "type": "article",
+            "url": "https://retrovirology.biomedcentral.com/articles/10.1186/s12977-015-0149-5",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2015
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.76",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4u1s"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4u1s"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*81:01 binding \"FPRPWLHGL\" at 1.76&#8491; resolution",
+    "unique_chain_count": 3
+}

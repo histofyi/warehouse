@@ -1,0 +1,202 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3mrl_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:40:21.788750"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPGSLHHILDAQKMVWNHR"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "CINGVVWTV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2010-04-29",
+        "deposition_year": 2010,
+        "release_date": "2011-05-25",
+        "release_year": 2011,
+        "revision_date": "2015-01-28",
+        "revision_year": 2015
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3MRL | HLA-A*02:01 binding \"CINGVVWTV\"",
+    "pdb_code": "3mrl",
+    "pdb_title": "Crystal structure of MHC Class I hla-a2 molecule complexed with hcv ns3-1073-1081 nonapeptide c6v variant",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "CINGVVWTV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "CINGVVWTV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "CINGVVWTV",
+    "publication": {
+        "abstract": "The structural rules governing peptide/MHC (pMHC) recognition by T cells remain unclear. To address this question, we performed a structural characterization of several HLA-A2/peptide complexes and assessed in parallel their antigenicity, by analyzing the frequency of the corresponding Ag-specific naive T cells in A2(+) and A2(-) individuals, as well as within CD4(+) and CD8(+) subsets. We were able to find a correlation between specific naive T cell frequency and peptide solvent accessibility and/or mobility for a subset of moderately prominent peptides. However, one single structural parameter of the pMHC complexes could not be identified to explain each peptide antigenicity. Enhanced pMHC antigenicity was associated with both highly biased TRAV usage, possibly reflecting favored interaction between particular pMHC complexes and germline TRAV loops, and peptide structural features allowing interactions with a broad range of permissive CDR3 loops. In this context of constrained TCR docking mode, an optimal peptide solvent exposed surface leading to an optimal complementarity with TCR interface may constitute one of the key features leading to high frequency of specific T cells. Altogether our results suggest that frequency of specific T cells depends on the fine-tuning of several parameters, the structural determinants governing TCR-pMHC interaction being just one of them.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JB",
+                    "lastname": "Reiser",
+                    "name": "Reiser JB"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Legoux",
+                    "name": "Legoux F"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Trudel",
+                    "name": "Trudel E"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Chouquet",
+                    "name": "Chouquet A"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "L\u00e9ger",
+                    "name": "L\u00e9ger A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Le Gorrec",
+                    "name": "Le Gorrec M"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Machillot",
+                    "name": "Machillot P"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bonneville",
+                    "name": "Bonneville M"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Saulquin",
+                    "name": "Saulquin X"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Housset",
+                    "name": "Housset D"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1303084",
+                    "type": "doi"
+                },
+                {
+                    "id": "25392532",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "5816-26"
+            ],
+            "title": "Analysis of Relationships between Peptide/MHC Structural Features and Naive T Cell Frequency in Humans.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1303084",
+            "volume": [
+                "193"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.41",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3mrl"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3mrl"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"CINGVVWTV\" at 2.41&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA00230",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:09",
+            "slug": "hla_b_27_09",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1jgd_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:32:46.787905"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQHAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RRLLRGHNQY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2001-06-25",
+        "deposition_year": 2001,
+        "release_date": "2003-07-01",
+        "release_year": 2003,
+        "revision_date": "2018-01-24",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1JGD | HLA-B*27:09 binding \"RRLLRGHNQY\"",
+    "pdb_code": "1jgd",
+    "pdb_title": "Hla-b*2709 bound to deca-peptide s10r",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "RRLLRGHNQY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RRLLRGHNQY"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RRLLRGHNQY",
+    "publication": {
+        "abstract": "Selected HLA-B27 subtypes are associated with spondyloarthropathies, but the underlying mechanism is not understood. To explain this association in molecular terms, a comparison of peptide-dependent dynamic and structural properties of the differentially disease-associated subtypes HLA-B*2705 and HLA-B*2709 was carried out. These molecules differ only by a single amino acid at the floor of the peptide binding groove. The thermostabilities of a series of HLA-B27 molecules complexed with nonameric and decameric peptides were determined and revealed substantial differences depending on the subtype as well as the residues at the termini of the peptides. In addition we present the crystal structure of the B*2709 subtype complexed with a decameric peptide. This structure provides an explanation for the preference of HLA-B27 for a peptide with an N-terminal arginine as secondary anchor and the lack of preference for tyrosine as peptide C terminus in B*2709. The data show that differences in thermodynamic properties between peptide-complexed HLA-B27 subtypes are correlated with a variety of structural properties.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "RC",
+                    "lastname": "Hillig",
+                    "name": "Hillig RC"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "H\u00fclsmeyer",
+                    "name": "H\u00fclsmeyer M"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Saenger",
+                    "name": "Saenger W"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Welfle",
+                    "name": "Welfle K"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Misselwitz",
+                    "name": "Misselwitz R"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Welfle",
+                    "name": "Welfle H"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Kozerski",
+                    "name": "Kozerski C"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Volz",
+                    "name": "Volz A"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Uchanska-Ziegler",
+                    "name": "Uchanska-Ziegler B"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Ziegler",
+                    "name": "Ziegler A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M307457200",
+                    "type": "doi"
+                },
+                {
+                    "id": "14555655",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "652-63"
+            ],
+            "title": "Thermodynamic and structural analysis of peptide- and allele-dependent properties of two HLA-B27 subtypes exhibiting differential disease association.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925818528593",
+            "volume": [
+                "279"
+            ],
+            "year": [
+                2004
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1jgd"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1jgd"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:09 binding \"RRLLRGHNQY\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

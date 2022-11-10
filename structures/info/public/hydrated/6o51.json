@@ -1,0 +1,212 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6o51_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:25.825939"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YLVVVGAVGV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-03-01",
+        "deposition_year": 2019,
+        "release_date": "2020-01-15",
+        "release_year": 2020,
+        "revision_date": "2020-01-15",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6O51 | HLA-A*02:01 binding \"YLVVVGAVGV\"",
+    "pdb_code": "6o51",
+    "pdb_title": "Structure of hla-a2:01 with peptide mm90",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "YLVVVGAVGV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "YLVVVGAVGV"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "YLVVVGAVGV",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Mishto",
+                    "name": "Mishto M"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Mansurkhodzhaev",
+                    "name": "Mansurkhodzhaev A"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Ying",
+                    "name": "Ying G"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Bitra",
+                    "name": "Bitra A"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Cordfunke",
+                    "name": "Cordfunke RA"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Henze",
+                    "name": "Henze S"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Paul",
+                    "name": "Paul D"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Sidney",
+                    "name": "Sidney J"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Urlaub",
+                    "name": "Urlaub H"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Neefjes",
+                    "name": "Neefjes J"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Sette",
+                    "name": "Sette A"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Liepe",
+                    "name": "Liepe J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3389/fimmu.2019.02572",
+                    "type": "doi"
+                },
+                {
+                    "id": "31803176",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Front Immunol",
+                "name": ""
+            },
+            "pages": [
+                "2572"
+            ],
+            "title": "An <i>in silico-in vitro</i> Pipeline Identifying an HLA-A<sub>*</sub>02:01<sub>+</sub> KRAS G12V<sub>+</sub> Spliced Epitope Candidate for a Broad Tumor-Immune Response in Cancer Patients.",
+            "type": "article",
+            "url": "https://www.frontiersin.org/article/10.3389/fimmu.2019.02572/full",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.55",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6o51"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6o51"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"YLVVVGAVGV\" at 1.55&#8491; resolution",
+    "unique_chain_count": 3
+}

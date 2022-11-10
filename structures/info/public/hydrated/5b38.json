@@ -1,0 +1,237 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5b38_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "G"
+            ],
+            "downloaded_at": "2022-11-09T14:38:41.146818"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "kir3": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "HMGGQDKPFLSAWPSAVVPRGGHVTLRCHYRHRFNNFMLYKEDRIHIPIFHGRIFQESFNMSPVTTAHAGNYTCRGSHPHSPTGWSAPSNPVVIMVTGNHRKPSLLAHPGPLVKSGERVILQCWSDIMFEHFFLHKEGISKDPSRLVGQIHDGVSKANFSIGPMMLALAGTYRCYGSVTHTSYQLSAPSDPLDIVVTGPYEKPSLSAQPGPKVQAGESVTLSCSSRSSYDMYHLSREGGAHERRLPAVRKVNRTFQADFPLGPATHGGTYRCFGSFRHSPYELSDPSDPLLVSVTGNPS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LSSPVTKSF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-02-12",
+        "deposition_year": 2016,
+        "release_date": "2016-03-30",
+        "release_year": 2016,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_kir3",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "kir3"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5B38 | HLA-B*57:01 binding \"LSSPVTKSF\" with KIR-3 NK receptor",
+    "pdb_code": "5b38",
+    "pdb_title": "Kir3dl1*005 in complex with hla-b*57:01",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LSSPVTKSF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LSSPVTKSF"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LSSPVTKSF",
+    "publication": {
+        "abstract": "Natural killer (NK) cells play a key role in immunity, but how HLA class I (HLA-I) and killer cell immunoglobulin-like receptor 3DL1 (KIR3DL1) polymorphism impacts disease outcome remains unclear. KIR3DL1 (*001/*005/*015) tetramers were screened for reactivity against a panel of HLA-I molecules. This revealed different and distinct hierarchies of specificity for each KIR3DL1 allotype, with KIR3DL1*005 recognizing the widest array of HLA-I ligands. These differences were further reflected in functional studies using NK clones expressing these specific KIR3DL1 allotypes. Unexpectedly, the Ile/Thr80 dimorphism in the Bw4-motif did not categorically define strong/weak KIR3DL1 recognition. Although the KIR3DL1*001, *005, and *015 polymorphisms are remote from the KIR3DL1-HLA-I interface, the structures of these three KIR3DL1-HLA-I complexes showed that the broader HLA-I specificity of KIR3DL1*005 correlated with an altered KIR3DL1*005 interdomain positioning and increased mobility within its ligand-binding site. Collectively, we provide a generic framework for understanding the impact of KIR3DL1 polymorphism on the recognition of HLA-I allomorphs.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "PM",
+                    "lastname": "Saunders",
+                    "name": "Saunders PM"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Pymm",
+                    "name": "Pymm P"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Pietra",
+                    "name": "Pietra G"
+                },
+                {
+                    "initials": "VA",
+                    "lastname": "Hughes",
+                    "name": "Hughes VA"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Hitchen",
+                    "name": "Hitchen C"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "O'Connor",
+                    "name": "O'Connor GM"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Loiacono",
+                    "name": "Loiacono F"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Widjaja",
+                    "name": "Widjaja J"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Falco",
+                    "name": "Falco M"
+                },
+                {
+                    "initials": "MC",
+                    "lastname": "Mingari",
+                    "name": "Mingari MC"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Moretta",
+                    "name": "Moretta L"
+                },
+                {
+                    "initials": "DW",
+                    "lastname": "McVicar",
+                    "name": "McVicar DW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20152023",
+                    "type": "doi"
+                },
+                {
+                    "id": "27045007",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Killer cell immunoglobulin-like receptor 3DL1 polymorphism defines distinct hierarchies of HLA class I recognition.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/213/5/791/42105/Killer-cell-immunoglobulinlike-receptor-3DL1",
+            "volume": [
+                null
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5b38"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5b38"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:01 binding \"LSSPVTKSF\" with KIR-3 NK receptor at 2.30&#8491; resolution",
+    "unique_chain_count": 4
+}

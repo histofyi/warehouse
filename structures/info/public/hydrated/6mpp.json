@@ -1,0 +1,137 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34767",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*01:01",
+            "slug": "hla_a_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6mpp_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:35:45.248588"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.89,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQKMEPRAPWIEQEGPEYWDQETRNMKAHSQTDRANLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAVHAAEQRRVYLEGRCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWELSSQ"
+        },
+        "peptide": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILDTAGKEEY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-10-08",
+        "deposition_year": 2018,
+        "release_date": "2019-10-16",
+        "release_year": 2019,
+        "revision_date": "2022-03-16",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "Solution NMR",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6MPP | HLA-A*01:01 binding \"ILDTAGKEEY\"",
+    "pdb_code": "6mpp",
+    "pdb_title": "Hla-a*01:01 complex with nras q61k peptide by nmr",
+    "peptide": {
+        "B": {
+            "actual_length": 10,
+            "actual_sequence": "ILDTAGKEEY",
+            "chain_id": "B",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "ILDTAGKEEY"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "ILDTAGKEEY",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Flores-Solis, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "McShan, A.C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sgourakis, N.G."
+                }
+            ],
+            "identifier": [],
+            "title": "MHC-I complex determined by NMR",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": null,
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6mpp"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6mpp"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*01:01 binding \"ILDTAGKEEY\"",
+    "unique_chain_count": 3
+}

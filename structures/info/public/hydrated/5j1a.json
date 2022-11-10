@@ -1,0 +1,196 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5j1a_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:29:02.450763"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MSRSVALAVLALLSLSGLEAIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "cd1a": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "MLFLLLPLLAVLPGDGNADGLKEPLSFHVIWIASFYNHSWKQNLVSGWLSDLQTHTWDSNSSTIVFLWPWSRGNFSNEEWKELETLFRIRTIRSFEGIRRYAHELQFEYPFEIQVTGGCELHSGKVSGSFLQLAYQGSDFVSFQNNSWLPYPVAGNMAKHFCKVLNQNQHENDITHNLLSDTCPRFILGLLDAGKAHLQRQVKPEAWLSHGPSPGPGHLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQRGDILPSADGTWYLRATLEVAAGEAADLSCRVKHSSLEGQDIVLYWEGSLVPR"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-03-29",
+        "deposition_year": 2016,
+        "release_date": "2016-08-03",
+        "release_year": 2016,
+        "revision_date": "2018-04-04",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1a",
+    "components": [
+        "cd1a",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5J1A | Non-classical MHC Class I molecule CD1a",
+    "pdb_code": "5j1a",
+    "pdb_title": "Antigen presenting molecule",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Most patients with ovarian cancer experience recurrence and develop resistance to platinum-based agents. The diagnosis of platinum resistance based on the platinum-free interval is not always accurate and timely in clinical settings. Herein, we used laser ablation inductively coupled plasma mass spectrometry to visualize the platinum distribution in the ovarian cancer tissues at the time of interval debulking surgery after neoadjuvant chemotherapy in 27patients with advanced high-grade serous ovarian cancer. Two distinct patterns of platinum distribution were observed. Type A (n\u2009=\u200916): platinum accumulation at the adjacent stroma but little in the tumor; type B (n\u2009=\u200911): even distribution of platinum throughout the tumor and adjacent stroma. The type A patients treated post-surgery with platinum-based adjuvant chemotherapy showed significantly shorter periods of recurrence after the last platinum-based chemotherapy session (p\u2009=\u20090.020) and were diagnosed with \"platinum-resistant recurrence\". Moreover, type A was significantly correlated with worse prognosis (p\u2009=\u20090.031). Post-surgery treatment with non-platinum-based chemotherapy could be effective for the patients classified as type A. Our findings indicate that the platinum resistance can be predicted prior to recurrence, based on the platinum distribution; this could contribute to the selection of more appropriate adjuvant chemotherapy, which may lead to improves prognoses.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JH",
+                    "lastname": "Kim",
+                    "name": "Kim JH"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Hu",
+                    "name": "Hu Y"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Yongqing",
+                    "name": "Yongqing T"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Kim",
+                    "name": "Kim J"
+                },
+                {
+                    "initials": "VA",
+                    "lastname": "Hughes",
+                    "name": "Hughes VA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "EA",
+                    "lastname": "Marquez",
+                    "name": "Marquez EA"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "Q",
+                    "lastname": "Wan",
+                    "name": "Wan Q"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sugita",
+                    "name": "Sugita M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Winau",
+                    "name": "Winau F"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.3523",
+                    "type": "doi"
+                },
+                {
+                    "id": "27548435",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "1159-66"
+            ],
+            "title": "CD1a on Langerhans cells controls inflammatory skin disease.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/ni.3523",
+            "volume": [
+                "17"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.86",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5j1a"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5j1a"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1a at 1.86&#8491; resolution",
+    "unique_chain_count": 2
+}

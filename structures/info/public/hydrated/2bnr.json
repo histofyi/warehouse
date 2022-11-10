@@ -1,0 +1,280 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2bnr_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:40:34.903729"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SLLMWITQC"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QEVTQIPAALSVPEGENLVLNCSFTDSAIYNLQWFRQDPGKGLTSLLLIQSSQREQTSGRLNASLDKSSGRSTLYIAASQPGDSATYLCAVRPTSGGSYIPTFGRGTSLIVHPYIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS",
+            "subgroup": "TRAV21"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GVTQTPKFQVLKTGQSMTLQCAQDMNHEYMSWYRQDPGMGLRLIHYSVGAGITDQGEVPNGYNVSRSTTEDFPLRLLSAAPSQTSVYFCASSYVGNTGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-03-31",
+        "deposition_year": 2005,
+        "release_date": "2005-05-23",
+        "release_year": 2005,
+        "revision_date": "2015-11-25",
+        "revision_year": 2015
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2BNR | HLA-A*02:01 presenting \"SLLMWITQC\" to Alpha/Beta T cell receptor",
+    "pdb_code": "2bnr",
+    "pdb_title": "Structural and kinetic basis for heightened immunogenicity of T cell vaccines.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQC",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQC"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SLLMWITQC",
+    "publication": {
+        "abstract": "Analogue peptides with enhanced binding affinity to major histocompatibility class (MHC) I molecules are currently being used in cancer patients to elicit stronger T cell responses. However, it remains unclear as to how alterations of anchor residues may affect T cell receptor (TCR) recognition. We correlate functional, thermodynamic, and structural parameters of TCR-peptide-MHC binding and demonstrate the effect of anchor residue modifications of the human histocompatibility leukocyte antigens (HLA)-A2 tumor epitope NY-ESO-1(157-165)-SLLMWITQC on TCR recognition. The crystal structure of the wild-type peptide complexed with a specific TCR shows that TCR binding centers on two prominent, sequential, peptide sidechains, methionine-tryptophan. Cysteine-to-valine substitution at peptide position 9, while optimizing peptide binding to the MHC, repositions the peptide main chain and generates subtly enhanced interactions between the analogue peptide and the TCR. Binding analyses confirm tighter binding of the analogue peptide to HLA-A2 and improved soluble TCR binding. Recognition of analogue peptide stimulates faster polarization of lytic granules to the immunological synapse, reduces dependence on CD8 binding, and induces greater numbers of cross-reactive cytotoxic T lymphocyte to SLLMWITQC. These results provide important insights into heightened immunogenicity of analogue peptides and highlight the importance of incorporating structural data into the process of rational optimization of superagonist peptides for clinical trials.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JL",
+                    "lastname": "Chen",
+                    "name": "Chen JL"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Stewart-Jones",
+                    "name": "Stewart-Jones G"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Bossi",
+                    "name": "Bossi G"
+                },
+                {
+                    "initials": "NM",
+                    "lastname": "Lissin",
+                    "name": "Lissin NM"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wooldridge",
+                    "name": "Wooldridge L"
+                },
+                {
+                    "initials": "EM",
+                    "lastname": "Choi",
+                    "name": "Choi EM"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Held",
+                    "name": "Held G"
+                },
+                {
+                    "initials": "PR",
+                    "lastname": "Dunbar",
+                    "name": "Dunbar PR"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Esnouf",
+                    "name": "Esnouf RM"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sami",
+                    "name": "Sami M"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Boulter",
+                    "name": "Boulter JM"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah P"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Renner",
+                    "name": "Renner C"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Sewell",
+                    "name": "Sewell A"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "van der Merwe",
+                    "name": "van der Merwe PA"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Griffiths",
+                    "name": "Griffiths G"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Cerundolo",
+                    "name": "Cerundolo V"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20042323",
+                    "type": "doi"
+                },
+                {
+                    "id": "15837811",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "1243-55"
+            ],
+            "title": "Structural and kinetic basis for heightened immunogenicity of T cell vaccines.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/201/8/1243/52591/Structural-and-kinetic-basis-for-heightened",
+            "volume": [
+                "201"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2bnr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2bnr"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=2bnr"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV21"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "2bnr"
+    },
+    "title": "HLA-A*02:01 presenting \"SLLMWITQC\" to Alpha/Beta T cell receptor at 1.90&#8491; resolution",
+    "unique_chain_count": 5
+}

@@ -1,0 +1,243 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7n6e_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "I",
+                "J"
+            ],
+            "downloaded_at": "2022-11-09T14:29:15.851173"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPSS"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YLQPRTFLL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "RKEVEQDPGPFNVPEGATVAFNCTYSNSASQSFFWYRQDCRKEPKLLMSVYSSGNEDGRFTAQLNRASQYISLLIRDSKLSDSATYLCVVNRNNDMRFGAGTRLTVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "DGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCAGQVTNTGELFFGEGSRLTVLEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV19"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-06-08",
+        "deposition_year": 2021,
+        "release_date": "2021-07-28",
+        "release_year": 2021,
+        "revision_date": "2021-09-22",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7N6E | HLA-A*02:01 presenting \"YLQPRTFLL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "7n6e",
+    "pdb_title": "Tcr peptide hla-a2 complex",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "YLQPRTFLL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLQPRTFLL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "YLQPRTFLL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLQPRTFLL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YLQPRTFLL",
+    "publication": {
+        "abstract": "CD8<sup>+</sup> T cells play an important role in vaccination and immunity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection. Although numerous SARS-CoV-2 CD8<sup>+</sup> T cell epitopes have been identified, the molecular basis underpinning T cell receptor (TCR) recognition of SARS-CoV-2-specific T cells remains unknown. The T cell response directed toward SARS-CoV-2 spike protein-derived S<sup>269-277</sup> peptide presented by the human leukocyte antigen (HLA)-A\u221702:01 allomorph (hereafter the HLA-A2<sup>S269-277</sup> epitope) is, to date, the most immunodominant SARS-CoV-2 epitope found in individuals bearing this allele. As HLA-A2<sup>S269-277</sup>-specific CD8<sup>+</sup> T cells utilize biased TRAV12 gene usage within the TCR \u03b1-chain, we sought to understand the molecular basis underpinning this TRAV12 dominance. We expressed four TRAV12<sup>+</sup> TCRs which bound the HLA-A2<sup>S269-277</sup> complex with low micromolar affinity and determined the crystal structure of the HLA-A2<sup>S269-277</sup> binary complex, and subsequently a ternary structure of the TRAV12<sup>+</sup> TCR complexed to HLA-A2<sup>S269-277</sup>. We found that the TCR made extensive contacts along the entire length of the S<sup>269-277</sup> peptide, suggesting that the TRAV12<sup>+</sup> TCRs would be sensitive to sequence variation within this epitope. To examine this, we investigated cross-reactivity toward analogous peptides from existing SARS-CoV-2 variants and closely related coronaviruses. We show via surface plasmon resonance and tetramer studies that the TRAV12<sup>+</sup> T cell repertoire cross-reacts poorly with these analogous epitopes. Overall, we defined the structural basis underpinning biased TCR recognition of CD8<sup>+</sup> T cells directed at an immunodominant epitope and provide a framework for understanding TCR cross-reactivity toward viral variants within the S<sup>269-277</sup> peptide.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "P",
+                    "lastname": "Chaurasia",
+                    "name": "Chaurasia P"
+                },
+                {
+                    "initials": "THO",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen THO"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Rowntree",
+                    "name": "Rowntree LC"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Juno",
+                    "name": "Juno JA"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Wheatley",
+                    "name": "Wheatley AK"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Kent",
+                    "name": "Kent SJ"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kedzierska",
+                    "name": "Kedzierska K"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Petersen",
+                    "name": "Petersen J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jbc.2021.101065",
+                    "type": "doi"
+                },
+                {
+                    "id": "34384783",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J Biol Chem",
+                "name": ""
+            },
+            "pages": [
+                "101065"
+            ],
+            "title": "Structural basis of biased T cell receptor recognition of an immunodominant HLA-A2 epitope of the SARS-CoV-2 spike protein.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925821008681",
+            "volume": [
+                null
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "3.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7n6e"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7n6e"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=7n6e"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "G"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "H"
+            ],
+            "subgroup": "TRBV19"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "7n6e"
+    },
+    "title": "HLA-A*02:01 presenting \"YLQPRTFLL\" to Alpha/Beta T cell receptor at 3.20&#8491; resolution",
+    "unique_chain_count": 5
+}

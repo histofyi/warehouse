@@ -1,0 +1,161 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34091",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*68:01",
+            "slug": "hla_a_68_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2hla_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:36:32.454948"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.94,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDRNTRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQMMYGCDVGSDGRFLRGYRQDAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQWRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1989-10-05",
+        "deposition_year": 1989,
+        "release_date": "1990-04-15",
+        "release_year": 1990,
+        "revision_date": "2017-11-29",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_possibly_without_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2HLA | HLA-A*68:01 possibly without \"peptide\"",
+    "pdb_code": "2hla",
+    "pdb_title": "Specificity pockets for the side chains of peptide antigens in HLA-Aw68.",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "We have determined the structure of a second human histocompatibility glycoprotein, HLA-Aw68, by X-ray crystallography and refined it to a resolution of 2.6 A. Overall, the structure is extremely similar to that of HLA-A2 (refs 1, 2; and M.A.S. et al., manuscript in preparation), although the 11 amino-acid substitutions at polymorphic residues in the antigen-binding cleft alter the detailed shape and electrostatic charge of that site. A prominent negatively charged pocket within the cleft extends underneath the alpha-helix of the alpha 1-domain, providing a potential subsite for recognizing a positively charged side chain or peptide N terminus. Uninterpreted electron density, presumably representing an unknown 'antigen(s)', which seems to be different from that seen in the HLA-A2 structure, occupies the cleft and extends into the negatively charged pocket in HLA-Aw68. The structures of HLA-Aw68 and HLA-A2 demonstrate how polymorphism creates and alters subsites (pockets) positioned to bind peptide side chains, thereby suggesting the structural basis for allelic specificity in foreign antigen binding.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "TP",
+                    "lastname": "Garrett",
+                    "name": "Garrett TP"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Saper",
+                    "name": "Saper MA"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Bjorkman",
+                    "name": "Bjorkman PJ"
+                },
+                {
+                    "initials": "JL",
+                    "lastname": "Strominger",
+                    "name": "Strominger JL"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Wiley",
+                    "name": "Wiley DC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/342692a0",
+                    "type": "doi"
+                },
+                {
+                    "id": "2594067",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6250"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                "692-6"
+            ],
+            "title": "Specificity pockets for the side chains of peptide antigens in HLA-Aw68.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/342692a0",
+            "volume": [
+                "342"
+            ],
+            "year": [
+                1989
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2hla"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2hla"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*68:01 possibly without \"peptide\" at 2.60&#8491; resolution",
+    "unique_chain_count": 2
+}

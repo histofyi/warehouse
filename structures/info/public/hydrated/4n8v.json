@@ -1,0 +1,206 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4n8v_1",
+            "chains": [
+                "G",
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:36:14.062311"
+        },
+        "2": {
+            "assembly_name": "4n8v_2",
+            "chains": [
+                "I",
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:36:14.576258"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "kir": {
+            "chains": [
+                "G",
+                "I"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "MHEGVHRKPSLLAHPGPLVKSEETVILQCWSDVRFEHFLLHREGKYKDTLHLIGEHHDGVSKANFSIGPMMQDLAGTYRCYGSVTHSPYQLSAPSDPLDIVITGLYEKPSLSAQPGPTVLAGESVTLSCSSRSSYDMYHLSREGEAHERRFSAGPKVNGTFQADFPLGPATHGGTYRCFGSFRDSPYEWSNSSDPLLVSVT"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "MLIYSMWGK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-10-18",
+        "deposition_year": 2013,
+        "release_date": "2014-02-05",
+        "release_year": 2014,
+        "revision_date": "2014-03-12",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_kir",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "kir"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4N8V | HLA-A*11:01 binding \"MLIYSMWGK\" with KIR NK receptor",
+    "pdb_code": "4n8v",
+    "pdb_title": "Crystal structure of killer cell immunoglobulin-like receptor KIR2ds2 in complex with hla-a",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "MLIYSMWGK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MLIYSMWGK"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "MLIYSMWGK",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "MLIYSMWGK"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "MLIYSMWGK",
+    "publication": {
+        "abstract": "Inhibitory killer cell Ig-like receptors (KIRs) are known to recognize HLA ligands mainly of the HLA-C and Bw4 groups, but the ligands for KIRs are poorly understood. We report here the identification of the cognate ligand for the activating KIR 2DS2 as HLA-A*11:01. The crystal structure of the KIR2DS2-HLA-A*11:01 complex was solved at 2.5-\u00c5 resolution and revealed residue-binding characteristics distinct from those of inhibitory KIRs with HLA-C and the critical role of residues Tyr45 and Asp72 in shaping binding specificity to HLA-A*11:01. Using KIR2DS2 tetramers, binding to surface HLA-A*11:01 on live cells was demonstrated and, furthermore, that binding can be altered by residue changes at p8 of the peptide, indicating the influence of peptide sequence on KIR-HLA association. In addition, heteronuclear single quantum coherence NMR was used to map the involvement of critical residues in HLA binding at the interface of KIR and HLA, and validates the data observed in the crystal structure. Our data provide structural evidence of the recognition of A*11:01 by the activating KIR2DS2 and extend our understanding of the KIR-HLA binding spectrum.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Liu",
+                    "name": "Liu J"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Xiao",
+                    "name": "Xiao Z"
+                },
+                {
+                    "initials": "HL",
+                    "lastname": "Ko",
+                    "name": "Ko HL"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Shen",
+                    "name": "Shen M"
+                },
+                {
+                    "initials": "EC",
+                    "lastname": "Ren",
+                    "name": "Ren EC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1322052111",
+                    "type": "doi"
+                },
+                {
+                    "id": "24550293",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "2662-7"
+            ],
+            "title": "Activating killer cell immunoglobulin-like receptor 2DS2 binds to HLA-A*11.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1322052111",
+            "volume": [
+                "111"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4n8v"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4n8v"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"MLIYSMWGK\" with KIR NK receptor at 2.50&#8491; resolution",
+    "unique_chain_count": 4
+}

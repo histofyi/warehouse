@@ -1,0 +1,280 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7re7_1",
+            "chains": [
+                "D",
+                "E",
+                "F",
+                "I_2",
+                "J_2"
+            ],
+            "downloaded_at": "2022-11-09T14:30:57.550672"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "ab_heavy": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Hchain",
+            "sequence": "EVQLVQSGAEVKKPGESLTISCKASGYSFPNYWITWVRQMSGGGLEWMGRIDPGDSYTTYNPSFQGHVTISIDKSTNTAYLHWNSLKASDTAMYYCARYYVSLVDIWGQGTLVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPKSCDKTH"
+        },
+        "ab_light": {
+            "chains": [
+                "L"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Lchain",
+            "sequence": "QSVLTQPASVSGSPGQSITISCTGTSSDVGGYNYVSWYQQHPGKAPKLMIYDVNNRPSEVSNRFSGSKSGNTASLTISGLQAEDEADYYCSSYTTGSRAVFGGGTKLTVLGQPKANPTVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADGSPVKAGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAPTECS"
+        },
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPGSGGGLNDIFEAQKIGWHE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "FMNKFIYEI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-07-12",
+        "deposition_year": 2021,
+        "release_date": "2022-07-27",
+        "release_year": 2022,
+        "revision_date": "2022-08-03",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_antibody",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "ab_heavy",
+        "ab_light"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7RE7 | HLA-A*02:01 binding \"FMNKFIYEI\" with antibody",
+    "pdb_code": "7re7",
+    "pdb_title": "Tcr mimic antibody (fab fragment) in complex with afp/hla-a*02",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "FMNKFIYEI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "FMNKFIYEI"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "FMNKFIYEI",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "FMNKFIYEI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "FMNKFIYEI",
+    "publication": {
+        "abstract": "Monoclonal antibodies are at the vanguard of the most promising cancer treatments. Whereas traditional therapeutic antibodies have been limited to extracellular antigens, T cell receptor mimic (TCRm) antibodies can target intracellular antigens presented by cell surface major histocompatibility complex (MHC) proteins. TCRm antibodies can therefore target a repertoire of otherwise undruggable cancer antigens. However, the consequences of off-target peptide/MHC recognition with engineered T cell therapies are severe, and thus there are significant safety concerns with TCRm antibodies. Here we explored the specificity and safety profile of a new TCRm-based T cell therapy for hepatocellular carcinoma (HCC), a solid tumor for which no effective treatment exists. We targeted an alpha-fetoprotein peptide presented by HLA-A*02 with a highly specific TCRm, which crystallographic structural analysis showed binds directly over the HLA protein and interfaces with the full length of the peptide. We fused the TCRm to the \u03b3 and \u03b4 subunits of a TCR, producing a signaling AbTCR construct. This was combined with an scFv/CD28 co-stimulatory molecule targeting glypican-3 for increased efficacy towards tumor cells. This AbTCR\u2009+\u2009co-stimulatory T cell therapy showed potent activity against AFP-positive cancer cell lines in vitro and an in an in vivo model and undetectable activity against AFP-negative cells. In an in-human safety assessment, no significant adverse events or cytokine release syndrome were observed and evidence of efficacy was seen. Remarkably, one patient with metastatic HCC achieved a complete remission after nine months and ultimately qualified for a liver transplant.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Liu",
+                    "name": "Liu C"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Liu",
+                    "name": "Liu H"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Dasgupta",
+                    "name": "Dasgupta M"
+                },
+                {
+                    "initials": "LM",
+                    "lastname": "Hellman",
+                    "name": "Hellman LM"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Zhang",
+                    "name": "Zhang X"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Qu",
+                    "name": "Qu K"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Xue",
+                    "name": "Xue H"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Wang",
+                    "name": "Wang Y"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Fan",
+                    "name": "Fan F"
+                },
+                {
+                    "initials": "Q",
+                    "lastname": "Chang",
+                    "name": "Chang Q"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Yu",
+                    "name": "Yu D"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Ge",
+                    "name": "Ge L"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Zhang",
+                    "name": "Zhang Y"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Cui",
+                    "name": "Cui Z"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Zhang",
+                    "name": "Zhang P"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Heller",
+                    "name": "Heller B"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Zhang",
+                    "name": "Zhang H"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Shi",
+                    "name": "Shi B"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Liu",
+                    "name": "Liu C"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41598-022-15946-5",
+                    "type": "doi"
+                },
+                {
+                    "id": "35840635",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Sci Rep",
+                "name": ""
+            },
+            "pages": [
+                "12068"
+            ],
+            "title": "Validation and promise of a TCR mimic antibody for cancer immunotherapy of hepatocellular carcinoma.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41598-022-15946-5",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.55",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7re7"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7re7"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"FMNKFIYEI\" with antibody at 2.55&#8491; resolution",
+    "unique_chain_count": 5
+}

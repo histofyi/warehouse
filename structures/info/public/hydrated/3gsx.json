@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3gsx_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:36:57.187894"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "NLVPMVAVV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-03-27",
+        "deposition_year": 2009,
+        "release_date": "2009-08-04",
+        "release_year": 2009,
+        "revision_date": "2021-10-13",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3GSX | HLA-A*02:01 binding \"NLVPMVAVV\"",
+    "pdb_code": "3gsx",
+    "pdb_title": "Crystal structure of the binary complex between hla-a2 and hcmv nlv-t8v peptide variant",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "NLVPMVAVV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "NLVPMVAVV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "NLVPMVAVV",
+    "publication": {
+        "abstract": "Protective T cell responses elicited along chronic human CMV (HCMV) infections are sometimes dominated by CD8 T cell clones bearing highly related or identical public TCR in unrelated individuals. To understand the principles that guide emergence of these public T cell responses, we have performed structural, biophysical, and functional analyses of an immunodominant public TCR (RA14) directed against a major HLA-A*0201-restricted HCMV Ag (pp65(495-503)) and selected in vivo from a diverse repertoire after chronic stimulations. Unlike the two immunodominant public TCRs crystallized so far, which focused on one peptide hotspot, the HCMV-specific RA14 TCR interacts with the full array of available peptide residues. The conservation of some peptide-MHC complex-contacting amino acids by lower-affinity TCRs suggests a shared TCR-peptide-MHC complex docking mode and supports an Ag-driven selection of optimal TCRs. Therefore, the emergence of a public TCR of an oligoclonal Ag-specific response after repeated viral stimulations is based on a receptor displaying a high structural complementarity with the entire peptide and focusing on three peptide hotspots. This highlights key parameters underlying the selection of a protective T cell response against HCMV infection, which remains a major health issue in patients undergoing bone marrow transplantation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Saulquin",
+                    "name": "Saulquin X"
+                },
+                {
+                    "initials": "JB",
+                    "lastname": "Reiser",
+                    "name": "Reiser JB"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Debeaupuis",
+                    "name": "Debeaupuis E"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Echasserieau",
+                    "name": "Echasserieau K"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Kissenpfennig",
+                    "name": "Kissenpfennig A"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Legoux",
+                    "name": "Legoux F"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Chouquet",
+                    "name": "Chouquet A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Le Gorrec",
+                    "name": "Le Gorrec M"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Machillot",
+                    "name": "Machillot P"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Neveu",
+                    "name": "Neveu B"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Thielens",
+                    "name": "Thielens N"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Malissen",
+                    "name": "Malissen B"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bonneville",
+                    "name": "Bonneville M"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Housset",
+                    "name": "Housset D"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.0900556",
+                    "type": "doi"
+                },
+                {
+                    "id": "19542454",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "430-7"
+            ],
+            "title": "Structural bases for the affinity-driven selection of a public TCR against a dominant human cytomegalovirus epitope.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.0900556",
+            "volume": [
+                "183"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3gsx"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3gsx"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"NLVPMVAVV\" at 2.10&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,265 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34767",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*01:01",
+            "slug": "hla_a_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5brz_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:27:16.392215"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.89,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQKMEPRAPWIEQEGPEYWDQETRNMKAHSQTDRANLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAVHAAEQRRVYLEGRCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EVDPIGHLY"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AQEVTQIPAALSVPEGENLVLNCSFTDSAIYNLQWFRQDPGKGLTSLLYVRPYQREQTSGRLNASLDKSSGRSTLYIAASQPGDSATYLCAVRPGGAGPFFVVFGKGTKLSVIPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIP",
+            "subgroup": "TRAV21"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AGVTQTPRYLIKTRGQQVTLSCSPISGHRSVSWYQQTPGQGLQFLFEYFSETQRNKGNFPGRFSGRQFSNSRSEMNVSTLELGDSALYLCASSFNMATGQYFGPGTRLTVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV5"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-06-01",
+        "deposition_year": 2015,
+        "release_date": "2016-03-02",
+        "release_year": 2016,
+        "revision_date": "2016-03-02",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5BRZ | HLA-A*01:01 presenting \"EVDPIGHLY\" to Alpha/Beta T cell receptor",
+    "pdb_code": "5brz",
+    "pdb_title": "Mage-a3 reactive TCR in complex with mage-a3 in hla-a1",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "EVDPIGHLY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EVDPIGHLY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "EVDPIGHLY",
+    "publication": {
+        "abstract": "Natural T-cell responses generally lack the potency to eradicate cancer. Enhanced affinity T-cell receptors (TCRs) provide an ideal approach to target cancer cells, with emerging clinical data showing significant promise. Nevertheless, the risk of off target reactivity remains a key concern, as exemplified in a recent clinical report describing fatal cardiac toxicity, following administration of MAGE-A3 specific TCR-engineered T-cells, mediated through cross-reactivity with an unrelated epitope from the Titin protein presented on cardiac tissue. Here, we investigated the structural mechanism enabling TCR cross-recognition of MAGE-A3 and Titin, and applied the resulting data to rationally design mutants with improved antigen discrimination, providing a proof-of-concept strategy for altering the fine specificity of a TCR towards an intended target antigen. This study represents the first example of direct molecular mimicry leading to clinically relevant fatal toxicity, mediated by a modified enhanced affinity TCR designed for cancer immunotherapy. Furthermore, these data demonstrate that self-antigens that are expressed at high levels on healthy tissue should be treated with extreme caution when designing immuno-therapeutics.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MC",
+                    "lastname": "Raman",
+                    "name": "Raman MC"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Simmons",
+                    "name": "Simmons R"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Donnellan",
+                    "name": "Donnellan Z"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Dukes",
+                    "name": "Dukes J"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Bossi",
+                    "name": "Bossi G"
+                },
+                {
+                    "initials": "GS",
+                    "lastname": "Le Provost",
+                    "name": "Le Provost GS"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Todorov",
+                    "name": "Todorov P"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Baston",
+                    "name": "Baston E"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Hickman",
+                    "name": "Hickman E"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mahon",
+                    "name": "Mahon T"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Hassan",
+                    "name": "Hassan N"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Vuidepot",
+                    "name": "Vuidepot A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sami",
+                    "name": "Sami M"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/srep18851",
+                    "type": "doi"
+                },
+                {
+                    "id": "26758806",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Sci Rep",
+                "name": ""
+            },
+            "pages": [
+                "18851"
+            ],
+            "title": "Direct molecular mimicry enables off-target cardiovascular toxicity by an enhanced affinity TCR designed for cancer immunotherapy.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/srep18851",
+            "volume": [
+                "6"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.62",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5brz"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5brz"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5brz"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV21"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV5"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "5brz"
+    },
+    "title": "HLA-A*01:01 presenting \"EVDPIGHLY\" to Alpha/Beta T cell receptor at 2.62&#8491; resolution",
+    "unique_chain_count": 5
+}

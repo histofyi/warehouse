@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:J9UGS3",
+            "locus": "dla-88",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "DLA-88*50801:",
+            "note": "Match to new nomenclature",
+            "score": null,
+            "slug": "dla_77_50801",
+            "species_stem": "dla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5f1n_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:36:38.539678"
+        },
+        "2": {
+            "assembly_name": "5f1n_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:36:39.059024"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.83,
+            "sequence": "MAPRPALATAGFLALLLILLAACRLDAVQHPPKIQVYSRHPAENGKPNFLNCYVSGFHPPEIEIDLLKNGKEMKAEQTDLSFSKDWTFYLLVHTEFTPNEQDEFSCRVKHVTLSEPQIVKWDRDN"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSLRYFYTSVSRPGRGDPRFIAVGYVDDTQFVRFDSDAATGRTEPRAPWVEQEGPEYWDGETRKVKETAQVYRVDLDTLRGYYNQSEAGSHTIQTMYGCDLGPGGRLLRGYRQDAYDGADYIALNEDLRSWTAADTAAQITRRKWEAAGVAELQWRNYLETTCVEWLQRYLEMGKETLLRAEPPSTRVTRHPISDHEVTLRCWALGFYPAEITLTWQRDGEDQTQDTEVVDTRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLVEPVTRRW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RFLDKDGFIDK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-11-30",
+        "deposition_year": 2015,
+        "release_date": "2016-11-30",
+        "release_year": 2016,
+        "revision_date": "2017-11-15",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "dla-88",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5F1N | DLA-88*50801: binding \"RFLDKDGFIDK\"",
+    "pdb_code": "5f1n",
+    "pdb_title": "Mhc complexed to 11mer peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "RFLDKDGFIDK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "RFLDKDGFIDK"
+        },
+        "F": {
+            "actual_length": 11,
+            "actual_sequence": "RFLDKDGFIDK",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "RFLDKDGFIDK"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "RFLDKDGFIDK",
+    "publication": {
+        "abstract": "Canines represent a crucial animal model for studying human diseases and organ transplantation, as well as the evolution of domestic animals. MHCs, with a central role in cellular immunity, are commonly used in the study of dog population genetics and genome evolution. However, the molecular basis for the peptide presentation of dog MHC remains largely unknown. In this study, peptide presentation by canine MHC class I DLA-88*50801 was structurally determined, revealing diversified anchoring modes of the binding peptides. Flexible and large pockets composed of both hydrophobic and hydrophilic residues can accommodate pathogen-derived peptides with diverse anchor residues, as confirmed by thermostability measurements. Furthermore, DLA-88*50801 contains an unusual \u03b12 helix with a large coil in the TCR contact region. These results further our understanding of canine T cell immunity through peptide presentation of MHC class I and shed light on the molecular basis for vaccine development for canine infectious diseases, for example, canine distemper virus.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Xiao",
+                    "name": "Xiao J"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Xiang",
+                    "name": "Xiang W"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chai",
+                    "name": "Chai Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Haywood",
+                    "name": "Haywood J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Ba",
+                    "name": "Ba L"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Qi",
+                    "name": "Qi P"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Wang",
+                    "name": "Wang M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Liu",
+                    "name": "Liu J"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1600887",
+                    "type": "doi"
+                },
+                {
+                    "id": "27511732",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "2306-15"
+            ],
+            "title": "Diversified Anchoring Features the Peptide Presentation of DLA-88*50801: First Structural Insight into Domestic Dog MHC Class I.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1600887",
+            "volume": [
+                "197"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5f1n"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5f1n"
+        }
+    },
+    "species": {
+        "common_name": "Domestic dog",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Canis lupus familiaris",
+        "slug": "canis_lupus_familiaris"
+    },
+    "tcr": null,
+    "title": "DLA-88*50801: binding \"RFLDKDGFIDK\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

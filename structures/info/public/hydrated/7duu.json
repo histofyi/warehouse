@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35377",
+            "locus": "hla-c",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-C*01:02",
+            "slug": "hla_c_01_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7duu_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:30:01.122990"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "SHSMKYFFTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVSLRNLRGYYNQSEAGSHTLQWMCGCDLGPDGRLLRGYDQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQRRAYLEGTCVEWLRRYLENGKETLQRAEHPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQWDGEDQTQDTELVETRPAGDGTFQKWAAVMVPSGEEQRYTCHVQHEGLPEPLTLRW"
+        },
+        "kir": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "HEGVHRKPSLLAHPGPLVKSEETVILQCWSDVRFEHFLLHREGKYKDTLHLIGEHHDGVSKANFSIGPMMQDLAGTYRCYGSVTHSPYQLSAPSDPLDIVITGLYEKPSLSAQPGPTVLAGESVTLSCSSRSSYDMYHLSREGEAHERRFSAGPKVNGTFQADFPLGPATHGGTYRCFGSFRDSPYEWSNSSDPLLVSVT"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LNPSVAATL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-01-11",
+        "deposition_year": 2021,
+        "release_date": "2022-02-02",
+        "release_year": 2022,
+        "revision_date": "2022-02-23",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_kir",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "kir"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-c",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7DUU | HLA-C*01:02 binding \"LNPSVAATL\" with KIR NK receptor",
+    "pdb_code": "7duu",
+    "pdb_title": "Crystal structure of hla molecule with an KIR receptor",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LNPSVAATL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LNPSVAATL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LNPSVAATL",
+    "publication": {
+        "abstract": "Killer cell immunoglobulin-like receptors (KIRs) are important receptors for regulating the killing of virus-infected or cancer cells of natural killer (NK) cells. KIR2DS2 can recognize peptides derived from hepatitis C virus (HCV) or global flaviviruses (such as dengue and Zika) presented by HLA-C*0102 to activate NK cells, and has shown promising results when used for cancer immunotherapy. Here, we present the complex structure of KIR2DS2 with HLA-C*0102 at a resolution of 2\u00b75\u00c5. Our structure reveals that KIR2DS2 can bind with HLA-C*0102 and HLA-A*1101 in two different directions. Moreover, Tyr45 (in activating receptor KIR2DS2) and Phe45 (in inhibitory KIRs) distinguish the two different binding models and binding affinity between activating KIRs and inhibitory KIRs. The conserved 'AT' motif of the peptide mediates recognition and determines the peptide specificity of recognition. These structural characteristics shed light on how KIRs activate NK cells and can provide a molecular basis for immunotherapy by NK cells.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Yang",
+                    "name": "Yang Y"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Bai",
+                    "name": "Bai H"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Wu",
+                    "name": "Wu Y"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Chen",
+                    "name": "Chen P"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Zhou",
+                    "name": "Zhou J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lei",
+                    "name": "Lei J"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Ye",
+                    "name": "Ye X"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Brown",
+                    "name": "Brown AJ"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Zhou",
+                    "name": "Zhou X"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Shu",
+                    "name": "Shu T"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chen",
+                    "name": "Chen Y"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Wei",
+                    "name": "Wei P"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Yin",
+                    "name": "Yin L"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1111/imm.13439",
+                    "type": "doi"
+                },
+                {
+                    "id": "34967442",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunology",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Activating receptor KIR2DS2 bound to HLA-C1 reveals the novel recognition features of activating receptor.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1111/imm.13439",
+            "volume": [
+                null
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.51",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7duu"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7duu"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-C*01:02 binding \"LNPSVAATL\" with KIR NK receptor at 2.51&#8491; resolution",
+    "unique_chain_count": 4
+}

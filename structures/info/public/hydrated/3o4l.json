@@ -1,0 +1,255 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3o4l_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:43:48.606993"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPCIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GLCTLVAML"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QSLFLSVREGDSSVINCTYTDSSSTYLYWYKQEPGAGLQLLTYIFSNMDMKQDQRKTVLLNKKDKHLSLRIADTQTGDSAIYFCAEDNNARLMFGDGTQLVVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSP",
+            "subgroup": "TRAV5"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GAVVSQHPSWVICKSGTSVKIECRSLDFQATTMFWYRQFPKQSLMLMATSNEGSKATYEQGVEKDKFLINHASLTLSTLTVTSAHPEDSSFYICSARDGTGNGYTFGSGTRLTVVEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV20"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2010-07-27",
+        "deposition_year": 2010,
+        "release_date": "2011-01-12",
+        "release_year": 2011,
+        "revision_date": "2021-10-06",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3O4L | HLA-A*02:01 presenting \"GLCTLVAML\" to Alpha/Beta T cell receptor",
+    "pdb_code": "3o4l",
+    "pdb_title": "Genetic and structural basis for selection of a ubiquitous T cell receptor deployed in Epstein-Barr virus infection.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "GLCTLVAML",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GLCTLVAML"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GLCTLVAML",
+    "publication": {
+        "abstract": "Despite the \u223c10(18) \u03b1\u03b2 T cell receptor (TCR) structures that can be randomly manufactured by the human thymus, some surface more frequently than others. The pinnacles of this distortion are public TCRs, which exhibit amino acid-identical structures across different individuals. Public TCRs are thought to result from both recombinatorial bias and antigen-driven selection, but the mechanisms that underlie inter-individual TCR sharing are still largely theoretical. To examine this phenomenon at the atomic level, we solved the co-complex structure of one of the most widespread and numerically frequent public TCRs in the human population. The archetypal AS01 public TCR recognizes an immunodominant BMLF1 peptide, derived from the ubiquitous Epstein-Barr virus, bound to HLA-A*0201. The AS01 TCR was observed to dock in a diagonal fashion, grasping the solvent exposed peptide crest with two sets of complementarity-determining region (CDR) loops, and was fastened to the peptide and HLA-A*0201 platform with residue sets found only within TCR genes biased in the public response. Computer simulations of a random V(D)J recombination process demonstrated that both TCR\u03b1 and TCR\u03b2 amino acid sequences could be manufactured easily, thereby explaining the prevalence of this receptor across different individuals. Interestingly, the AS01 TCR was encoded largely by germline DNA, indicating that the TCR loci already comprise gene segments that specifically recognize this ancient pathogen. Such pattern recognition receptor-like traits within the \u03b1\u03b2 TCR system further blur the boundaries between the adaptive and innate immune systems.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Bulek",
+                    "name": "Bulek AM"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Gostick",
+                    "name": "Gostick E"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Schauenburg",
+                    "name": "Schauenburg AJ"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Dolton",
+                    "name": "Dolton G"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Venturi",
+                    "name": "Venturi V"
+                },
+                {
+                    "initials": "MP",
+                    "lastname": "Davenport",
+                    "name": "Davenport MP"
+                },
+                {
+                    "initials": "MP",
+                    "lastname": "Tan",
+                    "name": "Tan MP"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wooldridge",
+                    "name": "Wooldridge L"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.ppat.1001198",
+                    "type": "doi"
+                },
+                {
+                    "id": "21124993",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Pathog.",
+                "name": ""
+            },
+            "pages": [
+                "e1001198"
+            ],
+            "title": "Genetic and structural basis for selection of a ubiquitous T cell receptor deployed in Epstein-Barr virus infection.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.ppat.1001198",
+            "volume": [
+                "6"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.54",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3o4l"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3o4l"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3o4l"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV5"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV20"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "3o4l"
+    },
+    "title": "HLA-A*02:01 presenting \"GLCTLVAML\" to Alpha/Beta T cell receptor at 2.54&#8491; resolution",
+    "unique_chain_count": 5
+}

@@ -1,0 +1,258 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2zok_1",
+            "chains": [
+                "A",
+                "B",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:29:35.775251"
+        },
+        "2": {
+            "assembly_name": "2zok_2",
+            "chains": [
+                "C",
+                "D",
+                "J"
+            ],
+            "downloaded_at": "2022-11-09T14:29:36.243669"
+        },
+        "3": {
+            "assembly_name": "2zok_3",
+            "chains": [
+                "E",
+                "F",
+                "K"
+            ],
+            "downloaded_at": "2022-11-09T14:29:36.608589"
+        },
+        "4": {
+            "assembly_name": "2zok_4",
+            "chains": [
+                "G",
+                "H",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:29:36.936449"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWERWE"
+        },
+        "peptide": {
+            "chains": [
+                "I",
+                "L",
+                "J",
+                "K"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ASLWNGPHL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-05-22",
+        "deposition_year": 2008,
+        "release_date": "2008-06-10",
+        "release_year": 2008,
+        "revision_date": "2019-11-06",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2ZOK | H2-Db binding \"ASLWNGPHL\"",
+    "pdb_code": "2zok",
+    "pdb_title": "Crystal structure of h-2db in complex with jhmv epitope s510",
+    "peptide": {
+        "I": {
+            "actual_length": 9,
+            "actual_sequence": "XSLWNGPHL",
+            "chain_id": "I",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "ASLWNGPHL"
+        },
+        "J": {
+            "actual_length": 9,
+            "actual_sequence": "XSLWNGPHL",
+            "chain_id": "J",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "ASLWNGPHL"
+        },
+        "K": {
+            "actual_length": 9,
+            "actual_sequence": "XSLWNGPHL",
+            "chain_id": "K",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "ASLWNGPHL"
+        },
+        "L": {
+            "actual_length": 9,
+            "actual_sequence": "XSLWNGPHL",
+            "chain_id": "L",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "ASLWNGPHL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ASLWNGPHL",
+    "publication": {
+        "abstract": "Cytotoxic T lymphocyte escape occurs in many human infections, as well as mice infected with the JHM strain of mouse hepatitis virus, which exhibit CTL escape variants with mutations in a single epitope from the spike glycoprotein (S510). In all CTL epitopes prone to escape, only a subset of all potential variants is generally detected, even though many of the changes that are not selected would result in evasion of the T cell response. It is postulated that these unselected mutations significantly impair virus fitness. To define more precisely the basis for this preferential selection, we combine x-ray crystallographic studies of the MHC class I (D(b))/S510 complexes with viral reverse genetics to identify a prominent TCR contact residue (tryptophan at position 4) prone to escape mutations. The data show that a mutation that is commonly detected in chronically infected mice (tryptophan to arginine) potently disrupts the topology of the complex, explaining its selection. However, other mutations at this residue, which also abrogate the CTL response, are never selected in vivo even though they do not compromise virus fitness in acutely infected animals or induce a significant de novo CTL response. Thus, while structural analyses of the S510/D(b) complex provide a strong basis for why some CTL escape variants are selected, our results also show that factors other than effects on virus fitness limit the diversification of CD8 T cell epitopes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "NS",
+                    "lastname": "Butler",
+                    "name": "Butler NS"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Theodossis",
+                    "name": "Theodossis A"
+                },
+                {
+                    "initials": "AI",
+                    "lastname": "Webb",
+                    "name": "Webb AI"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Dunstone",
+                    "name": "Dunstone MA"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Nastovska",
+                    "name": "Nastovska R"
+                },
+                {
+                    "initials": "SH",
+                    "lastname": "Ramarathinam",
+                    "name": "Ramarathinam SH"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Perlman",
+                    "name": "Perlman S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.180.6.3926",
+                    "type": "doi"
+                },
+                {
+                    "id": "18322201",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "3926-37"
+            ],
+            "title": "Structural and biological basis of CTL escape in coronavirus-infected mice.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.180.6.3926",
+            "volume": [
+                "180"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2zok"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2zok"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"ASLWNGPHL\" at 2.10&#8491; resolution",
+    "unique_chain_count": 3
+}

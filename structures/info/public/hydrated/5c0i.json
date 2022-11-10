@@ -1,0 +1,232 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5c0i_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:40:04.379180"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RQFGPDFPTI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-06-12",
+        "deposition_year": 2015,
+        "release_date": "2016-05-04",
+        "release_year": 2016,
+        "revision_date": "2016-06-08",
+        "revision_year": 2016
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5C0I | HLA-A*02:01 binding \"RQFGPDFPTI\"",
+    "pdb_code": "5c0i",
+    "pdb_title": "Hal-a02 carrying RQFGPDFPTI",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "RQFGPDFPTI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "RQFGPDFPTI"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "RQFGPDFPTI",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Bulek",
+                    "name": "Bulek AM"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Dolton",
+                    "name": "Dolton G"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Schauenberg",
+                    "name": "Schauenberg AJ"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Szomolay",
+                    "name": "Szomolay B"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Rittase",
+                    "name": "Rittase W"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Trimby",
+                    "name": "Trimby A"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Jothikumar",
+                    "name": "Jothikumar P"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Fuller",
+                    "name": "Fuller A"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Skowera",
+                    "name": "Skowera A"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Zhu",
+                    "name": "Zhu C"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Peakman",
+                    "name": "Peakman M"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wooldridge",
+                    "name": "Wooldridge L"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1172/JCI85679",
+                    "type": "doi"
+                },
+                {
+                    "id": "27183389",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Clin. Invest.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Hotspot autoimmune T cell receptor binding underlies pathogen and insulin peptide cross-reactivity.",
+            "type": "article",
+            "url": "https://www.jci.org/articles/view/85679",
+            "volume": [
+                null
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.53",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5c0i"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5c0i"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"RQFGPDFPTI\" at 1.53&#8491; resolution",
+    "unique_chain_count": 3
+}

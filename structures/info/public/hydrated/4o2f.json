@@ -1,0 +1,204 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA32458",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*39:01",
+            "slug": "hla_b_39_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4o2f_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:07.334248"
+        },
+        "2": {
+            "assembly_name": "4o2f_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:42:07.828977"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.94,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQICKTNTQTDRESLRNLRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGHNQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRTYLEGTCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "HVAVENAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-12-17",
+        "deposition_year": 2013,
+        "release_date": "2014-07-23",
+        "release_year": 2014,
+        "revision_date": "2014-07-23",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4O2F | HLA-B*39:01 binding \"HVAVENAL\"",
+    "pdb_code": "4o2f",
+    "pdb_title": "A peptide complexed with hla-b*3901",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "HVAVENAL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "HVAVENAL"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "HVAVENAL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "HVAVENAL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "HVAVENAL",
+    "publication": {
+        "abstract": "As one of the most common posttranslational modifications (PTMs) of eukaryotic proteins, N(\u03b1)-terminal acetylation (Nt-acetylation) generates a class of N(\u03b1)-acetylpeptides that are known to be presented by MHC class I at the cell surface. Although such PTM plays a pivotal role in adjusting proteolysis, the molecular basis for the presentation and T cell recognition of N(\u03b1)-acetylpeptides remains largely unknown. In this study, we determined a high-resolution crystallographic structure of HLA (HLA)-B*3901 complexed with an N(\u03b1)-acetylpeptide derived from natural cellular processing, also in comparison with the unmodified-peptide complex. Unlike the \u03b1-amino-free P1 residues of unmodified peptide, of which the \u03b1-amino group inserts into pocket A of the Ag-binding groove, the N(\u03b1)-linked acetyl of the acetylated P1-Ser protrudes out of the groove for T cell recognition. Moreover, the Nt-acetylation not only alters the conformation of the peptide but also switches the residues in the \u03b11-helix of HLA-B*3901, which may impact the T cell engagement. The thermostability measurements of complexes between N(\u03b1)-acetylpeptides and a series of MHC class I molecules derived from different species reveal reduced stability. Our findings provide the insight into the mode of N(\u03b1)-acetylpeptide-specific presentation by classical MHC class I molecules and shed light on the potential of acetylepitope-based immune intervene and vaccine development.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Sun",
+                    "name": "Sun M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Liu",
+                    "name": "Liu J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Tefsen",
+                    "name": "Tefsen B"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Shi",
+                    "name": "Shi Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Yan",
+                    "name": "Yan J"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1400199",
+                    "type": "doi"
+                },
+                {
+                    "id": "24829406",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "5509-19"
+            ],
+            "title": "N\ufffd\ufffd-terminal acetylation for T cell recognition: molecular basis of MHC class I-restricted n\ufffd\ufffd-acetylpeptide presentation.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1400199",
+            "volume": [
+                "192"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4o2f"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4o2f"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*39:01 binding \"HVAVENAL\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

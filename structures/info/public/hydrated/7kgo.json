@@ -1,0 +1,202 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7kgo_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:07.784139"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPSS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILLNKHIDA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-10-18",
+        "deposition_year": 2020,
+        "release_date": "2021-01-20",
+        "release_year": 2021,
+        "revision_date": "2021-02-17",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7KGO | HLA-A*02:01 binding \"ILLNKHIDA\"",
+    "pdb_code": "7kgo",
+    "pdb_title": "Crystal structure of hla-a*0201in complex with sars-cov-2 n351-359",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ILLNKHIDA",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILLNKHIDA"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILLNKHIDA",
+    "publication": {
+        "abstract": "CD8+ T\u00a0cells are crucial for anti-viral immunity; however, understanding T\u00a0cell responses requires the identification of epitopes presented by human leukocyte antigens (HLA). To date, few SARS-CoV-2-specific CD8+ T\u00a0cell epitopes have been described. Internal viral proteins are typically more conserved than surface proteins and are often the target of CD8+ T\u00a0cells. Therefore, we have characterized eight peptides derived from the internal SARS-CoV-2 nucleocapsid protein predicted to bind HLA-A<sup>\u2217</sup>02:01, the most common HLA molecule in the global population. We determined not all peptides could form a complex with HLA-A<sup>\u2217</sup>02:01, and the six crystal structures determined revealed that some peptides adopted a mobile conformation. We therefore provide a molecular understanding of SARS-CoV-2 CD8+ T\u00a0cell epitopes. Furthermore, we show that there is limited pre-existing CD8+ T\u00a0cell response toward these epitopes in unexposed individuals. Together, these data show that SARS-CoV-2 nucleocapsid might not contain potent epitopes restricted to HLA-A<sup>\u2217</sup>02:01.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Szeto",
+                    "name": "Szeto C"
+                },
+                {
+                    "initials": "DSM",
+                    "lastname": "Chatzileontiadou",
+                    "name": "Chatzileontiadou DSM"
+                },
+                {
+                    "initials": "AT",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen AT"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Sloane",
+                    "name": "Sloane H"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "Lobos",
+                    "name": "Lobos CA"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Jayasinghe",
+                    "name": "Jayasinghe D"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Halim",
+                    "name": "Halim H"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Smith",
+                    "name": "Smith C"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Riboldi-Tunnicliffe",
+                    "name": "Riboldi-Tunnicliffe A"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Grant",
+                    "name": "Grant EJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.isci.2021.102096",
+                    "type": "doi"
+                },
+                {
+                    "id": "33521593",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "iScience",
+                "name": ""
+            },
+            "pages": [
+                "102096"
+            ],
+            "title": "The presentation of SARS-CoV-2 peptides by the common HLA-A<sub>\ufffd\ufffd\ufffd</sub>02:01 molecule.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S258900422100064X",
+            "volume": [
+                "24"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.15",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7kgo"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7kgo"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"ILLNKHIDA\" at 2.15&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,214 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35265",
+            "locus": "hla-c",
+            "match_type": "histo:exact",
+            "name": "HLA-C*05:01",
+            "slug": "hla_c_05_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7su9_1",
+            "chains": [
+                "D",
+                "E",
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:28:00.153594"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "CSHSMRYFYTAVSRPGRGEPRFIAVGYVDDTQFVQFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQTDRVNLRKLRGYYNQSEAGSHTLQRMYGCDLGPDGRLLRGYNQFAYDGKDYIALNEDLRSWTAADKAAQITQRKWEAAREAEQRRAYLEGTCVEWLRRYLENGKKTLQRAEHPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLTLRWGPSSQP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GADGVGKSL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MAGLAKTTQPISVDSYEGQEVNITCSHNNIATNDYITWYQQFPSQGPRFIIQGYKTKVTNEVASLFIPADRKSSTLSLPRVSLSDTAVYYCLVGDMDQAGTALIFGKGTTLSVSSDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSP",
+            "subgroup": "TRAV4"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MAGVTQSPTHLIKTRGQQVTLRCSPKSGHDTVSWYQQALGQGPQFIFQYYEEEERQRGNFPDRFSGHQFPNYSSELNVNALLLGDSALYLCASSLGEGRVDGYTFGSGTRLTVVEDLRNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV5"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-11-16",
+        "deposition_year": 2021,
+        "release_date": "2022-06-08",
+        "release_year": 2022,
+        "revision_date": "2022-06-08",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-c",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7SU9 | HLA-C*05:01 presenting \"GADGVGKSL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "7su9",
+    "pdb_title": "Kras-g12d specific TCR9a in complex with c*05-GADGVGKSL",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "GADGVGKSL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GADGVGKSL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GADGVGKSL",
+    "publication": {
+        "abstract": "Dimorphic amino acids at positions 77 and 80 delineate HLA-C allotypes into two groups, C1 and C2, which associate with disease through interactions with C1 and C2-specific natural killer cell receptors. How the C1/C2 dimorphism affects T cell recognition is unknown. Using HLA-C allotypes that differ only by the C1/C2-defining residues, we found that KRAS-G12D neoantigen-specific T cell receptors (TCRs) discriminated between C1 and C2 presenting the same KRAS-G12D peptides. Structural and functional experiments, and immunopeptidomics analysis revealed that Ser77 in C1 and Asn77 in C2 influence amino acid preference near the peptide C-terminus (p\u03a9), including the p\u03a9-1 position, in which C1 favors small and C2 prefers large residues. This resulted in weaker TCR affinity for KRAS-G12D-bound C2-HLA-C despite conserved TCR contacts. Thus, the C1/C2 dimorphism on its own impacts peptide presentation and HLA-C-restricted T cell responses, with implications in disease, including adoptive T cell therapy targeting KRAS-G12D-induced cancers.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sim, M.J.W."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Stotz, Z."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Lu, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Brennan, P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Long, E.O."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sun, P.D."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.7554/eLife.75670",
+                    "type": "doi"
+                },
+                {
+                    "id": "35587797",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "-"
+            ],
+            "title": "T cells discriminate between groups C1 and C2 HLA-C.",
+            "type": "article",
+            "url": "https://elifesciences.org/articles/75670",
+            "volume": [
+                "11"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.99",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7su9"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7su9"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=7su9"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV4"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV5"
+        },
+        "pdb_code": "7su9"
+    },
+    "title": "HLA-C*05:01 presenting \"GADGVGKSL\" to Alpha/Beta T cell receptor at 1.99&#8491; resolution",
+    "unique_chain_count": 5
+}

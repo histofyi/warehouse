@@ -1,0 +1,214 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2bck_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:45.695545"
+        },
+        "2": {
+            "assembly_name": "2bck_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:44:46.150633"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.89,
+            "sequence": "GSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPGSGGGLNDIFEAQKIEWH"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VYGFVRACL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-10-19",
+        "deposition_year": 2005,
+        "release_date": "2006-01-10",
+        "release_year": 2006,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2BCK | HLA-A*24:02 binding \"VYGFVRACL\"",
+    "pdb_code": "2bck",
+    "pdb_title": "Crystal structure of HLA-A*2402 complexed with a telomerase peptide.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "VYGFVRACL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VYGFVRACL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "VYGFVRACL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VYGFVRACL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VYGFVRACL",
+    "publication": {
+        "abstract": "HLA-A*2402 is the most commonly expressed HLA allele in oriental populations. It is also widely expressed in the Caucasian population, making it one of, if not the most abundant HLA I types. In order to study its structure in terms of overall fold and peptide presentation, a soluble form of this HLA I (alpha1, alpha2, alpha3 and beta(2)m domains) has been expressed, refolded and crystallized in complex with a cancer-related telomerase peptide (VYGFVRACL), and its structure has been solved to 2.8 A resolution. The overall structure of HLA-A*2402 is virtually identical to other reported peptide-HLA I structures. However, there are distinct features observable from this structure at the HLA I peptide binding pockets. The size and depth of pocket B makes it highly suitable for binding to large aromatic side chains, which explains the high prevalence of tyrosine at peptide position 2. Also, for HLA binding at peptide position 5, there is an additional anchor point, which allows the proximal amino acids to protrude out, providing a prominent feature for TCR interaction. Finally, pocket F allows the anchor residue at position 9 to be bound unusually deeply within the HLA structure.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Gao",
+                    "name": "Gao F"
+                },
+                {
+                    "initials": "NI",
+                    "lastname": "Watson",
+                    "name": "Watson NI"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Boulter",
+                    "name": "Boulter JM"
+                },
+                {
+                    "initials": "JI",
+                    "lastname": "Bell",
+                    "name": "Bell JI"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sami",
+                    "name": "Sami M"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/eji.200535424",
+                    "type": "doi"
+                },
+                {
+                    "id": "16323248",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Eur. J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "170-9"
+            ],
+            "title": "Crystal structure of HLA-A*2402 complexed with a telomerase peptide.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/eji.200535424",
+            "volume": [
+                "36"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2bck"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2bck"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*24:02 binding \"VYGFVRACL\" at 2.80&#8491; resolution",
+    "unique_chain_count": 3
+}

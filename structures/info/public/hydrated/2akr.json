@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2akr_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:30:58.021143"
+        },
+        "2": {
+            "assembly_name": "2akr_2",
+            "chains": [
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:30:58.558782"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-08-03",
+        "deposition_year": 2005,
+        "release_date": "2005-12-06",
+        "release_year": 2005,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2AKR | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "2akr",
+    "pdb_title": "Structural basis of sulfatide presentation by mouse CD1d",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Sulfatide derived from the myelin stimulates a distinct population of CD1d-restricted natural killer T (NKT) cells. Cis-tetracosenoyl sulfatide is one of the immunodominant species in myelin as identified by proliferation, cytokine secretion, and CD1d tetramer staining. The crystal structure of mouse CD1d in complex with cis-tetracosenoyl sulfatide at 1.9 A resolution reveals that the longer cis-tetracosenoyl fatty acid chain fully occupies the A' pocket of the CD1d binding groove, whereas the sphingosine chain fills up the F' pocket. A precise hydrogen bond network in the center of the binding groove orients and positions the ceramide backbone for insertion of the lipid tails in their respective pockets. The 3'-sulfated galactose headgroup is highly exposed for presentation to the T cell receptor and projects up and away from the binding pocket due to its beta linkage, compared with the more intimate binding of the alpha-glactosyl ceramide headgroup to CD1d. These structure and binding data on sulfatide presentation by CD1d have important implications for the design of therapeutics that target T cells reactive for myelin glycolipids in autoimmune diseases of the central nervous system.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Maricic",
+                    "name": "Maricic I"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Wu",
+                    "name": "Wu D"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Halder",
+                    "name": "Halder R"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Roy",
+                    "name": "Roy K"
+                },
+                {
+                    "initials": "CH",
+                    "lastname": "Wong",
+                    "name": "Wong CH"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Kumar",
+                    "name": "Kumar V"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20051625",
+                    "type": "doi"
+                },
+                {
+                    "id": "16314439",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "1517-26"
+            ],
+            "title": "Structural basis for CD1d presentation of a sulfatide derived from myelin and its implications for autoimmunity.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/202/11/1517/52649/Structural-basis-for-CD1d-presentation-of-a",
+            "volume": [
+                "202"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2akr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2akr"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 1.90&#8491; resolution",
+    "unique_chain_count": 2
+}

@@ -1,0 +1,194 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P04223",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kk",
+            "slug": "h2_kk",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3ma7_1",
+            "chains": [
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:26:46.433926"
+        },
+        "2": {
+            "assembly_name": "3ma7_2",
+            "chains": [
+                "A",
+                "B",
+                "F",
+                "G"
+            ],
+            "downloaded_at": "2022-11-09T14:26:46.894502"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "D",
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "C",
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2010-03-23",
+        "deposition_year": 2010,
+        "release_date": "2011-03-16",
+        "release_year": 2011,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3MA7 | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "3ma7",
+    "pdb_title": "Crystal structure of cardiolipin bound to mouse CD1d",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Cardiolipin (CL), a major phospholipid in bacterial cell walls, is sequestered from the immune system in mammalian mitochondria and is, therefore, a potential danger signal. Based on growing evidence that phospholipids constitute natural ligands for CD1 and that CD1d-restricted T cells recognize phospholipids, we hypothesized that CD1d binds and presents CL and that T cells in the normal immune repertoire respond to CL in a CD1d-restricted manner. We determined the murine CD1d-CL crystal structure at 2.3 \u00c5 resolution and established through additional lipid loading experiments that CL, a tetra-acylated phospholipid, binds to murine CD1d with two alkyl chains buried inside the CD1d binding groove and the remaining two exposed into the solvent. We furthermore demonstrate the functional stimulatory activity of CL, showing that splenic and hepatic \u03b3\u03b4 T cells from healthy mice proliferate in vitro in response to mammalian or bacterial CL in a dose-dependent and CD1d-restricted manner, rapidly secreting the cytokines IFN-\u03b3 and RANTES. Finally, we show that hepatic \u03b3\u03b4 T cells are activated in vivo by CD1d-bearing dendritic cells that have been pulsed with CL, but not phosphatidylcholine. Together, these findings demonstrate that CD1d is able to bind and present CL to a subset of CL-responsive \u03b3\u03b4 T cells that exist in the spleen and liver of healthy mice and suggest that these cells could play a role in host responses to bacterial lipids and, potentially, self-CL. We propose that CL-responsive \u03b3\u03b4 T cells play a role in immune surveillance during infection and tissue injury.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Dieud\ufffd\ufffd",
+                    "name": "Dieud\ufffd\ufffd M"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Striegl",
+                    "name": "Striegl H"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Tyznik",
+                    "name": "Tyznik AJ"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "SM",
+                    "lastname": "Behar",
+                    "name": "Behar SM"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "Piccirillo",
+                    "name": "Piccirillo CA"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Levine",
+                    "name": "Levine JS"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rauch",
+                    "name": "Rauch J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1000921",
+                    "type": "doi"
+                },
+                {
+                    "id": "21389252",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "4771-81"
+            ],
+            "title": "Cardiolipin binds to CD1d and stimulates CD1d-restricted \ufffd\ufffd\ufffd\ufffd T cells in the normal murine repertoire.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1000921",
+            "volume": [
+                "186"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.29",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3ma7"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3ma7"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 2.29&#8491; resolution",
+    "unique_chain_count": 2
+}

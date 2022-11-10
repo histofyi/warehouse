@@ -1,0 +1,253 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2f54_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:36:17.479827"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYCTEFTPTEKDEYACRVNHVTLSQPCIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "H"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SLLMWITQC"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "KQQVTQIPAALSVPEGENLVLNCSFTDSAIYNLQWFRQDPGGKLTSLLLIQSSQREQTSGRLNASLDKSAGSSTLYIAASQPGDSATYLCAVRPTSGGSYIPTFGRGTSLIVHPYIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPE",
+            "subgroup": "TRAV21"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GVTQTPKFQVLKTGQSMTLQCAQDMNHEYMSWYRQDPGMGLRLIHYSVGAGITDQGEVPNGYNVSRSTTEDFPLRLLSAAPSQTSVYFCASSYVGNTGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-11-25",
+        "deposition_year": 2005,
+        "release_date": "2006-04-25",
+        "release_year": 2006,
+        "revision_date": "2021-10-20",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2F54 | HLA-A*02:01 presenting \"SLLMWITQC\" to Alpha/Beta T cell receptor",
+    "pdb_code": "2f54",
+    "pdb_title": "Directed evolution of human T cell receptor CDR2 residues by phage display dramatically enhances affinity for cognate peptide-MHC without increasing apparent cross-reactivity.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQC",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQC"
+        },
+        "H": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQC",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQC"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SLLMWITQC",
+    "publication": {
+        "abstract": "The mammalian alpha/beta T cell receptor (TCR) repertoire plays a pivotal role in adaptive immunity by recognizing short, processed, peptide antigens bound in the context of a highly diverse family of cell-surface major histocompatibility complexes (pMHCs). Despite the extensive TCR-MHC interaction surface, peptide-independent cross-reactivity of native TCRs is generally avoided through cell-mediated selection of molecules with low inherent affinity for MHC. Here we show that, contrary to expectations, the germ line-encoded complementarity determining regions (CDRs) of human TCRs, namely the CDR2s, which appear to contact only the MHC surface and not the bound peptide, can be engineered to yield soluble low nanomolar affinity ligands that retain a surprisingly high degree of specificity for the cognate pMHC target. Structural investigation of one such CDR2 mutant implicates shape complementarity of the mutant CDR2 contact interfaces as being a key determinant of the increased affinity. Our results suggest that manipulation of germ line CDR2 loops may provide a useful route to the production of high-affinity TCRs with therapeutic and diagnostic potential.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SM",
+                    "lastname": "Dunn",
+                    "name": "Dunn SM"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Baston",
+                    "name": "Baston E"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mahon",
+                    "name": "Mahon T"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Cameron",
+                    "name": "Cameron B"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Moysey",
+                    "name": "Moysey R"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Gao",
+                    "name": "Gao F"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sami",
+                    "name": "Sami M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Boulter",
+                    "name": "Boulter J"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Li",
+                    "name": "Li Y"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1110/ps.051936406",
+                    "type": "doi"
+                },
+                {
+                    "id": "16600963",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "Protein Sci.",
+                "name": ""
+            },
+            "pages": [
+                "710-21"
+            ],
+            "title": "Directed evolution of human T cell receptor CDR2 residues by phage display dramatically enhances affinity for cognate peptide-MHC without increasing apparent cross-reactivity.",
+            "type": "article",
+            "url": "http://doi.wiley.com/10.1110/ps.051936406",
+            "volume": [
+                "15"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2f54"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2f54"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=2f54"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV21"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "2f54"
+    },
+    "title": "HLA-A*02:01 presenting \"SLLMWITQC\" to Alpha/Beta T cell receptor at 2.70&#8491; resolution",
+    "unique_chain_count": 5
+}

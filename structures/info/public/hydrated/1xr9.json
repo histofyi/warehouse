@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35228",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*15:01",
+            "slug": "hla_b_15_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1xr9_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:39:31.628221"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDRETQISKTNTQTYRESLRNLRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQWRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILGPPGSVY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2004-10-14",
+        "deposition_year": 2004,
+        "release_date": "2005-04-14",
+        "release_year": 2005,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1XR9 | HLA-B*15:01 binding \"ILGPPGSVY\"",
+    "pdb_code": "1xr9",
+    "pdb_title": "Crystal structures of hla-b*1501 in complex with peptides from human ubch6 and epstein-barr virus ebna-3",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ILGPPGSVY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILGPPGSVY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILGPPGSVY",
+    "publication": {
+        "abstract": "MHC class I molecules govern human cytotoxic T cell responses. Their specificity determines which peptides they sample from the intracellular protein environment and then present to human cytotoxic T cells. More than 1100 different MHC class I proteins have been found in human populations and it would be a major undertaking to address each of these specificities individually. Based upon their peptide binding specificity, they are currently subdivided into 12 supertypes. Several of these HLA supertypes have not yet been described at the structural level. To support a comprehensive understanding of human immune responses, the structure of at least one member of each supertype should be determined. Here, the structures of two immunogenic peptide-HLA-B*1501 complexes are described. The structure of HLA-B*1501 in complex with a peptide (LEKARGSTY, corresponding to positions 274-282 in the Epstein-Barr virus nuclear antigen-3A) was determined to 2.3 A resolution. The structure of HLA-B*1501 in complex with a peptide (ILGPPGSVY) derived from human ubiquitin-conjugating enzyme-E2 corresponding to positions 91-99 was solved to 1.8 A resolution. Mutual comparisons of these two structures with structures from other HLA supertypes define and explain the specificity of the P2 and P9 peptide anchor preferences in the B62 HLA supertype. The P2 peptide residue binds to the B-pocket in HLA-B*1501. This pocket is relatively large because of the small Ser67 residue located at the bottom. The peptide proximal part of the B-pocket is hydrophobic, which is consistent with P2 anchor residue preference for Leu. The specificity of the B-pocket is determined by the Met45, Ile66 and Ser67 residues. The apex of the B-pocket is hydrophilic because of the Ser67 residue. The P9 peptide residue binds to the F-pocket in HLA-B*1501. The residues most important for the specificity of this pocket are Tyr74, Leu81, Leu95, Tyr123 and Trp147. These residues create a hydrophobic interior in the F-pocket and their spatial arrangement makes the pocket capable of containing large, bulky peptide side chains. Ser116 is located at the bottom of the F-pocket and makes the bottom of this pocket hydrophilic. Ser116, may act as a hydrogen-bonding partner and as such is a perfect place for binding of a Tyr9 peptide residue. Thus, based on structure information it is now possible to explain the peptide sequence specificity of HLA-B*1501 as previously determined by peptide binding and pool sequencing experiments.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "G",
+                    "lastname": "R\ufffd\ufffdder",
+                    "name": "R\ufffd\ufffdder G"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Blicher",
+                    "name": "Blicher T"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Justesen",
+                    "name": "Justesen S"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Johannesen",
+                    "name": "Johannesen B"
+                },
+                {
+                    "initials": "O",
+                    "lastname": "Kristensen",
+                    "name": "Kristensen O"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Kastrup",
+                    "name": "Kastrup J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Buus",
+                    "name": "Buus S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Gajhede",
+                    "name": "Gajhede M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1107/s0907444906027636",
+                    "type": "doi"
+                },
+                {
+                    "id": "17057332",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "Pt 11"
+            ],
+            "journal": {
+                "iso_abbreviation": "Acta Crystallogr. D Biol. Crystallogr.",
+                "name": ""
+            },
+            "pages": [
+                "1300-10"
+            ],
+            "title": "Crystal structures of two peptide-HLA-B*1501 complexes; structural characterization of the HLA-B62 supertype.",
+            "type": "article",
+            "url": "http://scripts.iucr.org/cgi-bin/paper?S0907444906027636",
+            "volume": [
+                "62"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.79",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1xr9"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1xr9"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*15:01 binding \"ILGPPGSVY\" at 1.79&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,219 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34073",
+            "locus": "hla-e",
+            "match_type": "histo:exact",
+            "name": "HLA-E*01:01",
+            "slug": "hla_e_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3bzf_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:28:58.322064"
+        },
+        "2": {
+            "assembly_name": "3bzf_2",
+            "chains": [
+                "C",
+                "D",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:28:58.772497"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "RTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRFDNDAASPRMVPRAPWMEQEGSEYWDRETRSARDTAQIFRVNLRTLRGYYNQSEAGSHTLQWMHGCELGPDRRFLRGYEQFAYDGKDYLTLNEDLRSWTAVDTAAQISEQKSNDASEAEHQRAYLEDTCVEWLHKYLEKGKETLLHLEPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQQDGEGHTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPVTLRWKP"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VMAPRALLL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-01-17",
+        "deposition_year": 2008,
+        "release_date": "2008-04-29",
+        "release_year": 2008,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-e",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3BZF | HLA-E*01:01 binding \"VMAPRALLL\"",
+    "pdb_code": "3bzf",
+    "pdb_title": "The human non-classical major histocompatibility complex molecule hla-e",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "VMAPRALLL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VMAPRALLL"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "VMAPRALLL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VMAPRALLL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VMAPRALLL",
+    "publication": {
+        "abstract": "Human leukocyte antigen (HLA)-E is a non-classical major histocompatibility complex class I molecule that binds peptides derived from the leader sequences of other HLA class I molecules. Natural killer cell recognition of these HLA-E molecules, via the CD94-NKG2 natural killer family, represents a central innate mechanism for monitoring major histocompatibility complex expression levels within a cell. The leader sequence-derived peptides bound to HLA-E exhibit very limited polymorphism, yet subtle differences affect the recognition of HLA-E by the CD94-NKG2 receptors. To better understand the basis for this peptide-specific recognition, we determined the structure of HLA-E in complex with two leader peptides, namely, HLA-Cw*07 (VMAPRALLL), which is poorly recognised by CD94-NKG2 receptors, and HLA-G*01 (VMAPRTLFL), a high-affinity ligand of CD94-NKG2 receptors. A comparison of these structures, both of which were determined to 2.5-A resolution, revealed that allotypic variations in the bound leader sequences do not result in conformational changes in the HLA-E heavy chain, although subtle changes in the conformation of the peptide within the binding groove of HLA-E were evident. Accordingly, our data indicate that the CD94-NKG2 receptors interact with HLA-E in a manner that maximises the ability of the receptors to discriminate between subtle changes in both the sequence and conformation of peptides bound to HLA-E.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "HL",
+                    "lastname": "Hoare",
+                    "name": "Hoare HL"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan LC"
+                },
+                {
+                    "initials": "CS",
+                    "lastname": "Clements",
+                    "name": "Clements CS"
+                },
+                {
+                    "initials": "LK",
+                    "lastname": "Ely",
+                    "name": "Ely LK"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Beddoe",
+                    "name": "Beddoe T"
+                },
+                {
+                    "initials": "KN",
+                    "lastname": "Henderson",
+                    "name": "Henderson KN"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Lin",
+                    "name": "Lin J"
+                },
+                {
+                    "initials": "HH",
+                    "lastname": "Reid",
+                    "name": "Reid HH"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jmb.2008.01.098",
+                    "type": "doi"
+                },
+                {
+                    "id": "18339401",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "1297-303"
+            ],
+            "title": "Subtle changes in peptide conformation profoundly affect recognition of the non-classical MHC class I molecule HLA-E by the CD94-NKG2 natural killer cell receptors.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283608001770",
+            "volume": [
+                "377"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3bzf"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3bzf"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-E*01:01 binding \"VMAPRALLL\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

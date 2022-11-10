@@ -1,0 +1,220 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4l3e_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:28:42.957027"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ELAGIGILTV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "KEVEQNSGPLSVPEGAIASLNCTYSYRGSQSFFWYRQYSGKSPELIMFIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVNFGGGKLIFGQGTELSVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "IAGITQAPTSQILAAGRRMTLRCTQDMRHNAMYWYRQDLGLGLRLIHYSNTAGTTGKGEVPDGYSVSRANTDDFPLTLASAVPSQTSVYFCASSWSFGTEAFFGQGTRLTVVEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-06-05",
+        "deposition_year": 2013,
+        "release_date": "2014-06-11",
+        "release_year": 2014,
+        "revision_date": "2014-08-27",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4L3E | HLA-A*02:01 presenting \"ELAGIGILTV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "4l3e",
+    "pdb_title": "The complex between high affinity TCR dmf5(alpha-d26y,beta-l98w) and human Class I MHC hla-a2 with the bound mart-1(26-35)(a27l) peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "ELAGIGILTV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "ELAGIGILTV"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "ELAGIGILTV",
+    "publication": {
+        "abstract": "T cell receptors (TCRs) are key to antigen-specific immunity and are increasingly being explored as therapeutics, most visibly in cancer immunotherapy. As TCRs typically possess only low-to-moderate affinity for their peptide/MHC (pMHC) ligands, there is a recognized need to develop affinity-enhanced TCR variants. Previous in vitro engineering efforts have yielded remarkable improvements in TCR affinity, yet concerns exist about the maintenance of peptide specificity and the biological impacts of ultra-high affinity. As opposed to in vitro engineering, computational design can directly address these issues, in theory permitting the rational control of peptide specificity together with relatively controlled increments in affinity. Here we explored the efficacy of computational design with the clinically relevant TCR DMF5, which recognizes nonameric and decameric epitopes from the melanoma-associated Melan-A/MART-1 protein presented by the class I MHC HLA-A2. We tested multiple mutations selected by flexible and rigid modeling protocols, assessed impacts on affinity and specificity, and utilized the data to examine and improve algorithmic performance. We identified multiple mutations that improved binding affinity, and characterized the structure, affinity, and binding kinetics of a previously reported double mutant that exhibits an impressive 400-fold affinity improvement for the decameric pMHC ligand without detectable binding to non-cognate ligands. The structure of this high affinity mutant indicated very little conformational consequences and emphasized the high fidelity of our modeling procedure. Overall, our work showcases the capability of computational design to generate TCRs with improved pMHC affinities while explicitly accounting for peptide specificity, as well as its potential for generating TCRs with customized antigen targeting capabilities.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "BG",
+                    "lastname": "Pierce",
+                    "name": "Pierce BG"
+                },
+                {
+                    "initials": "LM",
+                    "lastname": "Hellman",
+                    "name": "Hellman LM"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Hossain",
+                    "name": "Hossain M"
+                },
+                {
+                    "initials": "NK",
+                    "lastname": "Singh",
+                    "name": "Singh NK"
+                },
+                {
+                    "initials": "CW",
+                    "lastname": "Vander Kooi",
+                    "name": "Vander Kooi CW"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Weng",
+                    "name": "Weng Z"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.pcbi.1003478",
+                    "type": "doi"
+                },
+                {
+                    "id": "24550723",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Comput. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "e1003478"
+            ],
+            "title": "Computational design of the affinity and specificity of a therapeutic T cell receptor.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.pcbi.1003478",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.56",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4l3e"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4l3e"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4l3e"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "4l3e"
+    },
+    "title": "HLA-A*02:01 presenting \"ELAGIGILTV\" to Alpha/Beta T cell receptor at 2.56&#8491; resolution",
+    "unique_chain_count": 5
+}

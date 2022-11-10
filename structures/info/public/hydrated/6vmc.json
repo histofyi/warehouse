@@ -1,0 +1,210 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6vmc_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D_2",
+                "E_2"
+            ],
+            "downloaded_at": "2022-11-09T14:37:28.370579"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILDQVPFSV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MQKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMSIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVNALLGNQFYFGTGTSLTVIPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSMGGTYEQYFGPGTRLTVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV19"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-01-27",
+        "deposition_year": 2020,
+        "release_date": "2021-01-20",
+        "release_year": 2021,
+        "revision_date": "2021-01-27",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6VMC | HLA-A*02:01 presenting \"ILDQVPFSV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "6vmc",
+    "pdb_title": "T4h2 T cell receptor bound to hla-a2 presenting gp100t2l peptide (ILDQVPFSV)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ILDQVPFSV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILDQVPFSV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILDQVPFSV",
+    "publication": {
+        "abstract": "Presentation of peptides by class I MHC proteins underlies T cell immune responses to pathogens and cancer. The association between peptide binding affinity and immunogenicity has led to the engineering of modified peptides with improved MHC binding, with the hope that these peptides would be useful for eliciting cross-reactive immune responses directed toward their weak binding, unmodified counterparts. Increasing evidence, however, indicates that T cell receptors (TCRs) can perceive such anchor-modified peptides differently than wild-type (WT) peptides, although the scope of discrimination is unclear. We show here that even modifications at primary anchors that have no discernible structural impact can lead to substantially stronger or weaker T cell recognition depending on the TCR. Surprisingly, the effect of peptide anchor modification can be sensed by a TCR at regions distant from the site of modification, indicating a through-protein mechanism in which the anchor residue serves as an allosteric modulator for TCR binding. Our findings emphasize caution in the use and interpretation of results from anchor-modified peptides and have implications for how anchor modifications are accounted for in other circumstances, such as predicting the immunogenicity of tumor neoantigens. Our data also highlight an important need to better understand the highly tunable dynamic nature of class I MHC proteins and the impact this has on various forms of immune recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Smith, A.R."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Alonso, J.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Ayres, C.M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Singh, N.K."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Hellman, L.M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Baker, B.M."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.2018125118",
+                    "type": "doi"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "e2018125118-"
+            ],
+            "title": "Structurally silent peptide anchor modifications allosterically modulate T cell recognition in a receptor-dependent manner",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.2018125118",
+            "volume": [
+                "118"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.85",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6vmc"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6vmc"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6vmc"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV19"
+        },
+        "pdb_code": "6vmc"
+    },
+    "title": "HLA-A*02:01 presenting \"ILDQVPFSV\" to Alpha/Beta T cell receptor at 2.85&#8491; resolution",
+    "unique_chain_count": 5
+}

@@ -1,0 +1,227 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34910",
+            "locus": "hla-c",
+            "match_type": "histo:exact",
+            "name": "HLA-C*07:02",
+            "slug": "hla_c_07_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6pag_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:44:09.211737"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "CSHSMRYFDTAVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRGEPRAPWVEQEGPEYWDRETQKYKRQAQADRVSLRNLRGYYNQSEDGSHTLQRMSGCDLGPDGRLLRGYDQSAYDGKDYIALNEDLRSWTAADTAAQITQRKLEAARAAEQLRAYLEGTCVEWLRRYLENGKETLQRAEPPKTHVTHHPLSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHMQHEGLQEPLTLSWEPSS"
+        },
+        "kir": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "HEGVHRKPSLLAHPGPLVKSEETVILQCWSDVRFQHFLLHREGKFKDTLHLIGEHHDGVSKANFSIGPMMQDLAGTYRCYGSVTHSPYQLSAPSDPLDIVITGLYEKPSLSAQPGPTVLAGESVTLSCSSRSSYDMYHLSREGEAHERRFSAGPKVNGTFQADFPLGPATHGGTYRCFGSFRDSPYEWSNSSDPLLVSVTGNPS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RYRPGTVAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-06-11",
+        "deposition_year": 2019,
+        "release_date": "2020-12-16",
+        "release_year": 2020,
+        "revision_date": "2021-12-29",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_kir",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "kir"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-c",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6PAG | HLA-C*07:02 binding \"RYRPGTVAL\" with KIR NK receptor",
+    "pdb_code": "6pag",
+    "pdb_title": "Killer cell immunoglobulin-like receptor 2dl3 in complex with hla-c*07:02",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RYRPGTVAL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RYRPGTVAL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RYRPGTVAL",
+    "publication": {
+        "abstract": "The closely related inhibitory killer-cell immunoglobulin-like receptors (KIR), KIR2DL2 and KIR2DL3, regulate the activation of natural killer cells (NK) by interacting with the human leukocyte antigen-C1 (HLA-C1) group of molecules. KIR2DL2, KIR2DL3 and HLA-C1 are highly polymorphic, with this variation being associated with differences in the onset and progression of some human diseases. However, the molecular bases underlying these associations remain unresolved. Here, we determined the crystal structures of KIR2DL2 and KIR2DL3 in complex with HLA-C*07:02 presenting a self-epitope. KIR2DL2 differed from KIR2DL3 in docking modality over HLA-C*07:02 that correlates with variabilty of recognition of HLA-C1 allotypes. Mutagenesis assays indicated differences in the mechanism of HLA-C1 allotype recognition by KIR2DL2 and KIR2DL3. Similarly, HLA-C1 allotypes differed markedly in their capacity to inhibit activation of primary NK cells. These functional differences derive, in part, from KIR2DS2 suggesting KIR2DL2 and KIR2DL3 binding geometries combine with other factors to distinguish HLA-C1 functional recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Moradi",
+                    "name": "Moradi S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Stankovic",
+                    "name": "Stankovic S"
+                },
+                {
+                    "initials": "GM",
+                    "lastname": "O'Connor",
+                    "name": "O'Connor GM"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Pymm",
+                    "name": "Pymm P"
+                },
+                {
+                    "initials": "BJ",
+                    "lastname": "MacLachlan",
+                    "name": "MacLachlan BJ"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Faoro",
+                    "name": "Faoro C"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Reti\u00e8re",
+                    "name": "Reti\u00e8re C"
+                },
+                {
+                    "initials": "LC",
+                    "lastname": "Sullivan",
+                    "name": "Sullivan LC"
+                },
+                {
+                    "initials": "PM",
+                    "lastname": "Saunders",
+                    "name": "Saunders PM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Widjaja",
+                    "name": "Widjaja J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Cox-Livingstone",
+                    "name": "Cox-Livingstone S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "JP",
+                    "lastname": "Vivian",
+                    "name": "Vivian JP"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-021-22359-x",
+                    "type": "doi"
+                },
+                {
+                    "id": "33846289",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "2173"
+            ],
+            "title": "Structural plasticity of KIR2DL2 and KIR2DL3 enables altered docking geometries atop HLA-C.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-021-22359-x",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6pag"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6pag"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-C*07:02 binding \"RYRPGTVAL\" with KIR NK receptor at 2.50&#8491; resolution",
+    "unique_chain_count": 4
+}

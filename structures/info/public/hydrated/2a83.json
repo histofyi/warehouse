@@ -1,0 +1,192 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34811",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:05",
+            "slug": "hla_b_27_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2a83_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:57.592011"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQDAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RRRWHRWRL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-07-07",
+        "deposition_year": 2005,
+        "release_date": "2005-12-27",
+        "release_year": 2005,
+        "revision_date": "2017-10-11",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2A83 | HLA-B*27:05 binding \"RRRWHRWRL\"",
+    "pdb_code": "2a83",
+    "pdb_title": "Crystal structure of hla-b*2705 complexed with the glucagon receptor (gr) peptide (residues 412-420)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RRRWHRWRL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RRRWHRWRL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RRRWHRWRL",
+    "publication": {
+        "abstract": "An interesting property of certain peptides presented by major histocompatibility complex (MHC) molecules is their acquisition of a dual binding mode within the peptide binding groove. Using x-ray crystallography at 1.4 A resolution, we show here that the glucagon receptor-derived self-peptide pGR ((412)RRRWHRWRL(420)) is presented by the disease-associated human MHC class I subtype HLA-B*2705 in a dual conformation as well, with the middle of the peptide bent toward the floor of the peptide binding groove of the molecule in both binding modes. The conformations of pGR are compared here with those of another self-peptide (pVIPR, RRKWRRWHL) that is also displayed in two binding modes by HLA-B*2705 antigens and with that of the viral peptide pLMP2 (RRRWRRLTV). Conserved structural features suggest that the N-terminal halves of the peptides are crucial in allowing cytotoxic T lymphocyte (CTL) cross-reactivity. In addition, an analysis of T cell receptors (TCRs) from pGR- or pVIPR-directed, HLA-B27-restricted CTL clones demonstrates that TCR from distinct clones but with comparable reactivity may share CDR3alpha but not CDR3beta regions. Therefore, the cross-reactivity of these CTLs depends on TCR-CDR3alpha, is modulated by TCR-CDR3beta sequences, and is ultimately a consequence of the conformational dimorphism that characterizes binding of the self-peptides to HLA-B*2705. These results lend support to the concept that conformational dimorphisms of MHC class I-bound peptides might be connected with the occurrence of self-reactive CTL.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "R\ufffd\ufffdckert",
+                    "name": "R\ufffd\ufffdckert C"
+                },
+                {
+                    "initials": "MT",
+                    "lastname": "Fiorillo",
+                    "name": "Fiorillo MT"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Loll",
+                    "name": "Loll B"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Moretti",
+                    "name": "Moretti R"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Biesiadka",
+                    "name": "Biesiadka J"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Saenger",
+                    "name": "Saenger W"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Ziegler",
+                    "name": "Ziegler A"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Sorrentino",
+                    "name": "Sorrentino R"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Uchanska-Ziegler",
+                    "name": "Uchanska-Ziegler B"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m508528200",
+                    "type": "doi"
+                },
+                {
+                    "id": "16221670",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "2306-16"
+            ],
+            "title": "Conformational dimorphism of self-peptides and molecular mimicry in a disease-associated HLA-B27 subtype.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820707866",
+            "volume": [
+                "281"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2a83"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2a83"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:05 binding \"RRRWHRWRL\" at 1.40&#8491; resolution",
+    "unique_chain_count": 3
+}

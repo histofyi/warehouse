@@ -1,0 +1,238 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1fg2_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:55.467541"
+        },
+        "2": {
+            "assembly_name": "1fg2_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:42:55.874780"
+        },
+        "3": {
+            "assembly_name": "1fg2_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:42:56.167936"
+        },
+        "4": {
+            "assembly_name": "1fg2_4",
+            "chains": [
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:42:56.527841"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEPPPST"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F",
+                "I",
+                "L"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KAVYNFATC"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2000-07-27",
+        "deposition_year": 2000,
+        "release_date": "2000-10-04",
+        "release_year": 2000,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1FG2 | H2-Db binding \"KAVYNFATC\"",
+    "pdb_code": "1fg2",
+    "pdb_title": "Crystal structure of the lcmv peptidic epitope gp33 in complex with the murine Class I MHC molecule h-2db",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "KAVYNFATC",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KAVYNFATC"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "KAVYNFATC",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KAVYNFATC"
+        },
+        "I": {
+            "actual_length": 9,
+            "actual_sequence": "KAVYNFATC",
+            "chain_id": "I",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KAVYNFATC"
+        },
+        "L": {
+            "actual_length": 9,
+            "actual_sequence": "KAVYNFATC",
+            "chain_id": "L",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KAVYNFATC"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KAVYNFATC",
+    "publication": {
+        "abstract": "Viral escape, first characterized for the lymphocytic choriomeningitis virus (LCMV) in a mouse transgenic for the P14 T cell-receptor (TCR), can be due to mutations in T-cell epitopes. We have measured the affinity between the H-2D(b) containing the wild-type and two of its \"viral escape\" epitopes, as well as other altered peptide ligands (APL), by using BIACORE analysis, and solved the crystal structure of H-2D(b) in complex with the wild-type peptide at 2.75 A resolution. We show that viral escape is due to a 50 to 100-fold reduction in the level of affinity between the P14 TCR and the binary complexes of the MHC molecule with the different peptides. Structurally, one of the mutations alters a TCR contact residue, while the effect of the other on the binding of the TCR must be indirect through structural rearrangements. The former is a null ligand, while the latter still leads to some central tolerance. This work defines the structural and energetic threshold for viral escape.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AC",
+                    "lastname": "Tissot",
+                    "name": "Tissot AC"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Ciatto",
+                    "name": "Ciatto C"
+                },
+                {
+                    "initials": "PR",
+                    "lastname": "Mittl",
+                    "name": "Mittl PR"
+                },
+                {
+                    "initials": "MG",
+                    "lastname": "Gr\u00fctter",
+                    "name": "Gr\u00fctter MG"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Pl\u00fcckthun",
+                    "name": "Pl\u00fcckthun A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1006/jmbi.2000.4501",
+                    "type": "doi"
+                },
+                {
+                    "id": "10993729",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "873-85"
+            ],
+            "title": "Viral escape at the molecular level explained by quantitative T-cell receptor/peptide/MHC interactions and the crystal structure of a peptide/MHC complex.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283600945017",
+            "volume": [
+                "302"
+            ],
+            "year": [
+                2000
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.75",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1fg2"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1fg2"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"KAVYNFATC\" at 2.75&#8491; resolution",
+    "unique_chain_count": 3
+}

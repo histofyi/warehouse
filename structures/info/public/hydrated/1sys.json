@@ -1,0 +1,237 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34832",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*44:03",
+            "slug": "hla_b_44_03",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1sys_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:22.184695"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFITVGYVDDTLFVRFDSDATSPRKEPRAPWIEQEGPEYWDRETQISKTNTQTYRENLRTALRYYNQSEAGSHIIQRMYGCDVGPDGRLLRGYDQDAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVESLRRYLENGKETLQRADPPKTHVTHHPISDHEVTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EEPTVIKKY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2004-04-01",
+        "deposition_year": 2004,
+        "release_date": "2004-10-19",
+        "release_year": 2004,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1SYS | HLA-B*44:03 binding \"EEPTVIKKY\"",
+    "pdb_code": "1sys",
+    "pdb_title": "Crystal structure of hla, b*4403, and peptide EEPTVIKKY",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "EEPTVIKKY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EEPTVIKKY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "EEPTVIKKY",
+    "publication": {
+        "abstract": "HLA class I polymorphism creates diversity in epitope specificity and T cell repertoire. We show that HLA polymorphism also controls the choice of Ag presentation pathway. A single amino acid polymorphism that distinguishes HLA-B*4402 (Asp116) from B*4405 (Tyr116) permits B*4405 to constitutively acquire peptides without any detectable incorporation into the transporter associated with Ag presentation (TAP)-associated peptide loading complex even under conditions of extreme peptide starvation. This mode of peptide capture is less susceptible to viral interference than the conventional loading pathway used by HLA-B*4402 that involves assembly of class I molecules within the peptide loading complex. Thus, B*4402 and B*4405 are at opposite extremes of a natural spectrum in HLA class I dependence on the PLC for Ag presentation. These findings unveil a new layer of MHC polymorphism that affects the generic pathway of Ag loading, revealing an unsuspected evolutionary trade-off in selection for optimal HLA class I loading versus effective pathogen evasion.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Zernich",
+                    "name": "Zernich D"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "WA",
+                    "lastname": "Macdonald",
+                    "name": "Macdonald WA"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "LK",
+                    "lastname": "Ely",
+                    "name": "Ely LK"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Laham",
+                    "name": "Laham N"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Crockford",
+                    "name": "Crockford T"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Mifsud",
+                    "name": "Mifsud NA"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bharadwaj",
+                    "name": "Bharadwaj M"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Chang",
+                    "name": "Chang L"
+                },
+                {
+                    "initials": "BD",
+                    "lastname": "Tait",
+                    "name": "Tait BD"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Holdsworth",
+                    "name": "Holdsworth R"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "SP",
+                    "lastname": "Bottomley",
+                    "name": "Bottomley SP"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Beddoe",
+                    "name": "Beddoe T"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "Peh",
+                    "name": "Peh CA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20031680",
+                    "type": "doi"
+                },
+                {
+                    "id": "15226359",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "13-24"
+            ],
+            "title": "Natural HLA class I polymorphism controls the pathway of antigen presentation and susceptibility to viral evasion.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/200/1/13/40092/Natural-HLA-Class-I-Polymorphism-Controls-the",
+            "volume": [
+                "200"
+            ],
+            "year": [
+                2004
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1sys"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1sys"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*44:03 binding \"EEPTVIKKY\" at 2.40&#8491; resolution",
+    "unique_chain_count": 3
+}

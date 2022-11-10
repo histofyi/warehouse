@@ -1,0 +1,207 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7ejl_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:34:38.757945"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "GSSGSSGIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "GSSGSSGGSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "QYIKWPWYI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-04-02",
+        "deposition_year": 2021,
+        "release_date": "2022-01-26",
+        "release_year": 2022,
+        "revision_date": "2022-01-26",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7EJL | HLA-A*24:02 binding \"QYIKWPWYI\"",
+    "pdb_code": "7ejl",
+    "pdb_title": "Complex structure of hla-a*2402 with the peptide from hcov(cov-2) spike protein",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "QYIKWPWYI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QYIKWPWYI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "QYIKWPWYI",
+    "publication": {
+        "abstract": "SARS-CoV-2-specific CD8<sup>+</sup> T cells are scarce but detectable in unexposed healthy donors (UHDs). It remains unclear whether pre-existing human coronavirus (HCoV)-specific CD8<sup>+</sup> T cells are converted to functionally competent T cells cross-reactive to SARS-CoV-2. Here, we identified the HLA-A24-high binding, immunodominant epitopes in SARS-CoV-2 spike region that can be recognized by seasonal coronavirus-specific CD8<sup>+</sup> T cells from HLA-A24<sup>+</sup> UHDs. Cross-reactive CD8<sup>+</sup> T cells were clearly reduced in patients with hematological malignancy, who are usually immunosuppressed, compared to those in UHDs. Furthermore, we showed that CD8<sup>+</sup> T cells in response to a selected dominant epitope display multifunctionality and cross-functionality across HCoVs in HLA-A24<sup>+</sup> donors. Cross-reactivity of T-cell receptors isolated from them exhibited selective diversity at the single-cell level. Taken together, when stimulated well by immunodominant epitopes, selective pre-existing CD8<sup>+</sup> T cells with high functional avidity may be cross-reactive against SARS-CoV-2.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "K",
+                    "lastname": "Shimizu",
+                    "name": "Shimizu K"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Iyoda",
+                    "name": "Iyoda T"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Sanpei",
+                    "name": "Sanpei A"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Nakazato",
+                    "name": "Nakazato H"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Okada",
+                    "name": "Okada M"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Ueda",
+                    "name": "Ueda S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Kato-Murayama",
+                    "name": "Kato-Murayama M"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Murayama",
+                    "name": "Murayama K"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Shirouzu",
+                    "name": "Shirouzu M"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Harada",
+                    "name": "Harada N"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Hidaka",
+                    "name": "Hidaka M"
+                },
+                {
+                    "initials": "SI",
+                    "lastname": "Fujii",
+                    "name": "Fujii SI"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s42003-021-02885-6",
+                    "type": "doi"
+                },
+                {
+                    "id": "34857854",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Commun Biol",
+                "name": ""
+            },
+            "pages": [
+                "1365"
+            ],
+            "title": "Identification of TCR repertoires in functionally competent cytotoxic T cells cross-reactive to SARS-CoV-2.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s42003-021-02885-6",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.89",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7ejl"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7ejl"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*24:02 binding \"QYIKWPWYI\" at 1.89&#8491; resolution",
+    "unique_chain_count": 3
+}

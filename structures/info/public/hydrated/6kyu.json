@@ -1,0 +1,135 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:A0A2Z4U0R6",
+            "locus": "anpl-uaa",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "Anpl-UAA",
+            "note": "Fine exact allele name",
+            "score": null,
+            "slug": "anpl_uaa",
+            "species_stem": "anpl"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6kyu_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:31.558332"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GQAKAAPKVQVYSRHPATAGTENILNCYVEGFHPPKIDIALLKNGEPMKDVKYNDMSFGDDWTFQRLVYAPFTPTKSDVYTCRVDHEAFTEPQSFRWEPDF"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.83,
+            "sequence": "EPHSLRYFDTGVSDPSPGVPRFVSVGYVDGHLIDHYDSETQRTEPRADWFAANTDQQYWDRQTEISRGAEQIFRLDLETLRERYNQSRGSHTWQLMYGCDLLEDGSTRGFRQYGYEGRDFVAFDKDTLTFTAADAGAQITKRKWEQEGTDAERWKFYLENTCIEGLRKYVSYGKDVLERRERPEVQVSGMEADKILTLSCRAHGFYPRPISISWLKDGMVQEQETKRGSTVPNSDGTYHIWATIDVLPGERDKYQCRVEHASLPQPGLFSW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LRKRQLTVL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-09-20",
+        "deposition_year": 2019,
+        "release_date": "2020-09-23",
+        "release_year": 2020,
+        "revision_date": "2020-12-30",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "anpl-uaa",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6KYU | Anpl-UAA binding \"LRKRQLTVL\"",
+    "pdb_code": "6kyu",
+    "pdb_title": "Complex assembly, crystallization and preliminary X-ray crystallographic analysis of the duck pAnpl-UAA",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LRKRQLTVL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LRKRQLTVL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LRKRQLTVL",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Liu, Z.X."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Zhang, N.Z."
+                }
+            ],
+            "identifier": [],
+            "title": "Complex assembly, crystallization and preliminary X-ray crystallographic analysis of the duck pAnpl-UAA",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6kyu"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6kyu"
+        }
+    },
+    "species": {
+        "common_name": "Mallard duck",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Anas platyrhynchos",
+        "slug": "anas_platyrhynchos"
+    },
+    "tcr": null,
+    "title": "Anpl-UAA binding \"LRKRQLTVL\" at 1.50&#8491; resolution",
+    "unique_chain_count": 3
+}

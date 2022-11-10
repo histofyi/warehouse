@@ -1,0 +1,146 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35228",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*15:01",
+            "slug": "hla_b_15_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1je6_1",
+            "chains": [
+                "A"
+            ],
+            "downloaded_at": "2022-11-09T14:36:53.737368"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "micb": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MEPHSLRYNLMVLSQDGSVQSGFLAEGHLDGQPFLRYDRQKRRAKPQGQWAEDVLGAETWDTETEDLTENGQDLRRTLTHIKDQKGGLHSLQEIRVCEIHEDSSTRGSRHFYYNGELFLSQNLETQESTVPQSSRAQTLAMNVTNFWKEDAMKTKTHYRAMQADCLQKLQRYLKSGVAIRRTVPPMVNVTCSEVSEGNITVTCRASSFYPRNITLTWRQDGVSLSHNTQQWGDVLPDGNGTYQTWVATRIRQGEEQRFTCYMEHSGNHGTHPVPS"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2001-06-15",
+        "deposition_year": 2001,
+        "release_date": "2002-08-07",
+        "release_year": 2002,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "micb",
+    "components": [
+        "micb"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1JE6 | Non-classical MHC Class I molecule MICB",
+    "pdb_code": "1je6",
+    "pdb_title": "Structure of the MHC Class I homolog micb",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "MIC-A and MIC-B are distant MHC class I homologs that serve as stress-inducible Ags on epithelial and epithelially derived cells. They are ligands for the widely expressed activating immunoreceptor NKG2D. To define the structural and functional consequences of sequence differences between MIC-A and MIC-B and between alleles of MIC-A and alleles of MIC-B, we determined the crystal structure of one allele of human MIC-B. Comparisons between the two previously reported MIC-A crystal structures and the MIC-B crystal structure show that, as expected, MIC-B is very similar in structure to MIC-A and likely interacts with NKG2D in an analogous manner. The interdomain flexibility observed in the MIC-A structures, a feature unique to MIC proteins among MHC class I proteins and homologs, is also displayed by MIC-B, with an interdomain relationship intermediate between the two examples of MIC-A structures. Mapping sequence variations onto the structures of MIC-A and MIC-B reveals patterns completely distinct from those displayed by classical MHC class I proteins, with a number of substitutions falling on positions likely to affect interactions with NKG2D, but with other positions lying distant from the NKG2D binding sites or buried within the core of the proteins.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MA",
+                    "lastname": "Holmes",
+                    "name": "Holmes MA"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Li",
+                    "name": "Li P"
+                },
+                {
+                    "initials": "EW",
+                    "lastname": "Petersdorf",
+                    "name": "Petersdorf EW"
+                },
+                {
+                    "initials": "RK",
+                    "lastname": "Strong",
+                    "name": "Strong RK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.169.3.1395",
+                    "type": "doi"
+                },
+                {
+                    "id": "12133964",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "1395-400"
+            ],
+            "title": "Structural studies of allelic diversity of the MHC class I homolog MIC-B, a stress-inducible ligand for the activating immunoreceptor NKG2D.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.169.3.1395",
+            "volume": [
+                "169"
+            ],
+            "year": [
+                2002
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1je6"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1je6"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule MICB at 2.50&#8491; resolution",
+    "unique_chain_count": 1
+}

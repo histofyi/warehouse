@@ -1,0 +1,152 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7n9j_1",
+            "chains": [
+                "A",
+                "C",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:30:03.541997"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEPPPST"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YGFRNVVHI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-06-18",
+        "deposition_year": 2021,
+        "release_date": "2022-06-22",
+        "release_year": 2022,
+        "revision_date": "2022-06-22",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7N9J | H2-Db binding \"YGFRNVVHI\"",
+    "pdb_code": "7n9j",
+    "pdb_title": "Crystal structure of h2db in complex with hsf2 melanoma neoantigen",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "YGFRNVVHI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YGFRNVVHI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YGFRNVVHI",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Patskovsky, Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Finnigan, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Patskovska, L."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Newman, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Bhardwaj, N."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Krogsgaard, M."
+                }
+            ],
+            "identifier": [],
+            "title": "Structure of the complex between H2DB and melanoma HSF2 neoantigen YGFRNVVHI",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.74",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7n9j"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7n9j"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"YGFRNVVHI\" at 1.74&#8491; resolution",
+    "unique_chain_count": 3
+}

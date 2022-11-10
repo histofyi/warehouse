@@ -1,0 +1,258 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4wj5_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:33:47.604806"
+        },
+        "2": {
+            "assembly_name": "4wj5_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:33:48.065057"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "XVAGIGILTX"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-09-29",
+        "deposition_year": 2014,
+        "release_date": "2014-10-29",
+        "release_year": 2014,
+        "revision_date": "2014-11-19",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4WJ5 | HLA-A*02:01 binding \"XVAGIGILTX\"",
+    "pdb_code": "4wj5",
+    "pdb_title": "Structure of hla-a2 in complex with an altered peptide ligands based on mart-1 variant epitope",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "XAGIGILT",
+            "chain_id": "C",
+            "features": [
+                "contains_unnatural",
+                "central_gap"
+            ],
+            "full_length": 10,
+            "full_sequence": "XVAGIGILTX",
+            "gapped_sequence": "XAGIGILT"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "XAGIGILT",
+            "chain_id": "F",
+            "features": [
+                "contains_unnatural",
+                "central_gap"
+            ],
+            "full_length": 10,
+            "full_sequence": "XVAGIGILTX",
+            "gapped_sequence": "XAGIGILT"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "XVAGIGILTX",
+    "publication": {
+        "abstract": "Virus or tumor Ag-derived peptides that are displayed by MHC class I molecules are attractive starting points for vaccine development because they induce strong protective and therapeutic cytotoxic T cell responses. In thus study, we show that the MHC binding and consequent T cell reactivity against several HLA-A*02 restricted epitopes can be further improved through the incorporation of nonproteogenic amino acids at primary and secondary anchor positions. We screened more than 90 nonproteogenic, synthetic amino acids through a range of epitopes and tested more than 3000 chemically enhanced altered peptide ligands (CPLs) for binding affinity to HLA-A*0201. With this approach, we designed CPLs of viral epitopes, of melanoma-associated Ags, and of the minor histocompatibility Ag UTA2-1, which is currently being evaluated for its antileukemic activity in clinical dendritic cell vaccination trials. The crystal structure of one of the CPLs in complex with HLA-A*0201 revealed the molecular interactions likely responsible for improved binding. The best CPLs displayed enhanced affinity for MHC, increasing MHC stability and prolonging recognition by Ag-specific T cells and, most importantly, they induced accelerated expansion of antitumor T cell frequencies in vitro and in vivo as compared with the native epitope. Eventually, we were able to construct a toolbox of preferred nonproteogenic residues with which practically any given HLA-A*02 restricted epitope can be readily optimized. These CPLs could improve the therapeutic outcome of vaccination strategies or can be used for ex vivo enrichment and faster expansion of Ag-specific T cells for transfer into patients.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "R",
+                    "lastname": "Hoppes",
+                    "name": "Hoppes R"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Oostvogels",
+                    "name": "Oostvogels R"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Luimstra",
+                    "name": "Luimstra JJ"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Wals",
+                    "name": "Wals K"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Toebes",
+                    "name": "Toebes M"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Bies",
+                    "name": "Bies L"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Ekkebus",
+                    "name": "Ekkebus R"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Rijal",
+                    "name": "Rijal P"
+                },
+                {
+                    "initials": "PH",
+                    "lastname": "Celie",
+                    "name": "Celie PH"
+                },
+                {
+                    "initials": "JH",
+                    "lastname": "Huang",
+                    "name": "Huang JH"
+                },
+                {
+                    "initials": "ME",
+                    "lastname": "Emmelot",
+                    "name": "Emmelot ME"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Spaapen",
+                    "name": "Spaapen RM"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Lokhorst",
+                    "name": "Lokhorst H"
+                },
+                {
+                    "initials": "TN",
+                    "lastname": "Schumacher",
+                    "name": "Schumacher TN"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mutis",
+                    "name": "Mutis T"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Rodenko",
+                    "name": "Rodenko B"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Ovaa",
+                    "name": "Ovaa H"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1400800",
+                    "type": "doi"
+                },
+                {
+                    "id": "25311806",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Altered Peptide Ligands Revisited: Vaccine Design through Chemically Modified HLA-A2-Restricted T Cell Epitopes.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1400800",
+            "volume": [
+                null
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.65",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4wj5"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4wj5"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"XVAGIGILTX\" at 1.65&#8491; resolution",
+    "unique_chain_count": 3
+}

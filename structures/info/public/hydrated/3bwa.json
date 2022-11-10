@@ -1,0 +1,207 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA31926",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:08",
+            "slug": "hla_b_35_08",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3bwa_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:40:14.660757"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQRRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "FPTKDVAL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-01-08",
+        "deposition_year": 2008,
+        "release_date": "2008-04-22",
+        "release_year": 2008,
+        "revision_date": "2017-10-25",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3BWA | HLA-B*35:08 binding \"FPTKDVAL\"",
+    "pdb_code": "3bwa",
+    "pdb_title": "Crystal structure of hla b*3508 in complex with a hcmv 8-mer peptide from the pp65 protein",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "FPTKDVAL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "FPTKDVAL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "FPTKDVAL",
+    "publication": {
+        "abstract": "CD8(+) T-cell responses to persistent viral infections are characterized by the accumulation of an oligoclonal T-cell repertoire and a reduction in the naive T-cell pool. However, the precise mechanism for this phenomenon remains elusive. Here we show that human cytomegalovirus (HCMV)-specific CD8(+) T cells recognizing distinct epitopes from the pp65 protein and restricted through an identical HLA class I allele (HLA B*3508) exhibited either a highly conserved public T-cell repertoire or a private, diverse T-cell response, which was uniquely altered in each donor following in vitro antigen exposure. Selection of a public T-cell receptor (TCR) was coincident with an atypical major histocompatibility complex (MHC)-peptide structure, in that the epitope adopted a helical conformation that bulged from the peptide-binding groove, while a diverse TCR profile was observed in response to the epitope that formed a flatter, more \"featureless\" landscape. Clonotypes with biased TCR usage demonstrated more efficient recognition of virus-infected cells, a greater CD8 dependency, and were more terminally differentiated in their phenotype when compared with the T cells expressing diverse TCR. These findings provide new insights into our understanding on how the biology of antigen presentation in addition to the structural features of the pMHC-I might shape the T-cell repertoire and its phenotype.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "KK",
+                    "lastname": "Wynn",
+                    "name": "Wynn KK"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Fulton",
+                    "name": "Fulton Z"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Cooper",
+                    "name": "Cooper L"
+                },
+                {
+                    "initials": "SL",
+                    "lastname": "Silins",
+                    "name": "Silins SL"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "JK",
+                    "lastname": "Archbold",
+                    "name": "Archbold JK"
+                },
+                {
+                    "initials": "FE",
+                    "lastname": "Tynan",
+                    "name": "Tynan FE"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Khanna",
+                    "name": "Khanna R"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1182/blood-2007-11-122622",
+                    "type": "doi"
+                },
+                {
+                    "id": "18270323",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "Blood",
+                "name": ""
+            },
+            "pages": [
+                "4283-92"
+            ],
+            "title": "Impact of clonal competition for peptide-MHC complexes on the CD8+ T-cell repertoire selection in a persistent viral infection.",
+            "type": "article",
+            "url": "https://ashpublications.org/blood/article/111/8/4283/24620/Impact-of-clonal-competition-for-peptideMHC",
+            "volume": [
+                "111"
+            ],
+            "year": [
+                2008
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3bwa"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3bwa"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:08 binding \"FPTKDVAL\" at 1.30&#8491; resolution",
+    "unique_chain_count": 3
+}

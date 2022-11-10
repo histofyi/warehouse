@@ -1,0 +1,188 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1fzj_1",
+            "chains": [
+                "A",
+                "B",
+                "P",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:38:02.510921"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGAAEYYRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RGYVYQGL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2000-10-03",
+        "deposition_year": 2000,
+        "release_date": "2001-03-28",
+        "release_year": 2001,
+        "revision_date": "2021-11-03",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1FZJ | H2-Kb binding \"RGYVYQGL\"",
+    "pdb_code": "1fzj",
+    "pdb_title": "Mhc Class I natural mutant h-2kbm1 heavy chain complexed with beta-2 microglobulin and vesicular stomatitis virus nucleoprotein",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "RGYVYQGL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RGYVYQGL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RGYVYQGL",
+    "publication": {
+        "abstract": "The K(bm1) and K(bm8) natural mutants of the murine MHC class I molecule H-2K(b) were originally identified by allograft rejection. They also bind viral peptides VSV8 and SEV9 with high affinity, but their peptide complexes have substantially decreased thermostability, and the K(bm1) complexes do not elicit alloreactive T cell responses. Crystal structures of the four mutant complexes at 1.7-1.9 A resolution are similar to the corresponding wild-type K(b) structures, except in the vicinity of the mutated residues, which alter the electrostatic potential, topology, hydrogen bonding, and local water structure of the peptide binding groove. Thus, these natural K(b) mutations define the minimal perturbations in the peptide environment that alter antigen presentation to T cells and abolish alloreactivity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MG",
+                    "lastname": "Rudolph",
+                    "name": "Rudolph MG"
+                },
+                {
+                    "initials": "JA",
+                    "lastname": "Speir",
+                    "name": "Speir JA"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Brunmark",
+                    "name": "Brunmark A"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Mattsson",
+                    "name": "Mattsson N"
+                },
+                {
+                    "initials": "MR",
+                    "lastname": "Jackson",
+                    "name": "Jackson MR"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "Peterson",
+                    "name": "Peterson PA"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Teyton",
+                    "name": "Teyton L"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s1074-7613(01)00105-4",
+                    "type": "doi"
+                },
+                {
+                    "id": "11290333",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "231-42"
+            ],
+            "title": "The crystal structures of K(bm1) and K(bm8) reveal that subtle changes in the peptide environment impact thermostability and alloreactivity.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761301001054",
+            "volume": [
+                "14"
+            ],
+            "year": [
+                2001
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1fzj"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1fzj"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"RGYVYQGL\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

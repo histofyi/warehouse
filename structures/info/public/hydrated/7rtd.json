@@ -1,0 +1,192 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7rtd_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:36:24.102766"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.86,
+            "sequence": "MAVMAPRTLVLLLSGALALTQTWAGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPSSQPTIPIVGIIAGLVLFGAVITGAVVAAVMWRRKSSDRKGGSYSQAASSDSAQGSDVSLTACKV"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YLQPRTFLL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-08-13",
+        "deposition_year": 2021,
+        "release_date": "2021-10-13",
+        "release_year": 2021,
+        "revision_date": "2021-11-03",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7RTD | HLA-A*02:01 binding \"YLQPRTFLL\"",
+    "pdb_code": "7rtd",
+    "pdb_title": "Sars-cov-2 spike-derived peptide s269-277 (YLQPRTFLL) presented by hla-a*02:01",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "YLQPRTFLL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLQPRTFLL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YLQPRTFLL",
+    "publication": {
+        "abstract": "The data currently available on how the immune system recognises the SARS-CoV-2 virus is growing rapidly. While there are structures of some SARS-CoV-2 proteins in complex with antibodies, which helps us understand how the immune system is able to recognise this new virus; however, we lack data on how T cells are able to recognise this virus. T cells, especially the cytotoxic CD8+ T cells, are critical for viral recognition and clearance. Here we report the X-ray crystallography structure of a T cell receptor, shared among unrelated individuals (public TCR) in complex with a dominant spike-derived CD8+ T cell epitope (YLQ peptide). We show that YLQ activates a polyfunctional CD8+ T cell response in COVID-19 recovered patients. We detail the molecular basis for the shared TCR gene usage observed in HLA-A*02:01+ individuals, providing an understanding of TCR recognition towards a SARS-CoV-2 epitope. Interestingly, the YLQ peptide conformation did not change upon TCR binding, facilitating the high-affinity interaction observed.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Szeto",
+                    "name": "Szeto C"
+                },
+                {
+                    "initials": "AT",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen AT"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "Lobos",
+                    "name": "Lobos CA"
+                },
+                {
+                    "initials": "DSM",
+                    "lastname": "Chatzileontiadou",
+                    "name": "Chatzileontiadou DSM"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Jayasinghe",
+                    "name": "Jayasinghe D"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Grant",
+                    "name": "Grant EJ"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Riboldi-Tunnicliffe",
+                    "name": "Riboldi-Tunnicliffe A"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Smith",
+                    "name": "Smith C"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3390/cells10102646",
+                    "type": "doi"
+                },
+                {
+                    "id": "34685626",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "Cells",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Molecular Basis of a Dominant SARS-CoV-2 Spike-Derived Epitope Presented by HLA-A*02:01 Recognised by a Public TCR.",
+            "type": "article",
+            "url": "https://www.mdpi.com/2073-4409/10/10/2646",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.05",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7rtd"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7rtd"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"YLQPRTFLL\" at 2.05&#8491; resolution",
+    "unique_chain_count": 3
+}

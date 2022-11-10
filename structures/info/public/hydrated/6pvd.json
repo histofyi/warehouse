@@ -1,0 +1,240 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34746",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*07:02",
+            "slug": "hla_b_07_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6pvd_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:31:52.735004"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVKDSNYQLIWGAGTKLIIKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MNAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSVWTGEGSGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-07-20",
+        "deposition_year": 2019,
+        "release_date": "2020-04-01",
+        "release_year": 2020,
+        "revision_date": "2020-05-27",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6PVD | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "6pvd",
+    "pdb_title": "Structure of human MAIT a-f7 TCR in complex with human MR1-nv18.1",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The antigen-presenting molecule MR1 presents riboflavin-based metabolites to Mucosal-Associated Invariant T (MAIT) cells. While MR1 egress to the cell surface is ligand-dependent, the ability of small-molecule ligands to impact on MR1 cellular trafficking remains unknown. Arising from an in silico screen of the MR1 ligand-binding pocket, we identify one ligand, 3-([2,6-dioxo-1,2,3,6-tetrahydropyrimidin-4-yl]formamido)propanoic acid, DB28, as well as an analog, methyl 3-([2,6-dioxo-1,2,3,6-tetrahydropyrimidin-4-yl]formamido)propanoate, NV18.1, that down-regulate MR1 from the cell surface and retain MR1 molecules in the endoplasmic reticulum (ER) in an immature form. DB28 and NV18.1 compete with the known MR1 ligands, 5-OP-RU and acetyl-6-FP, for MR1 binding and inhibit MR1-dependent MAIT cell activation. Crystal structures of the MAIT T cell receptor (TCR) complexed with MR1-DB28 and MR1-NV18.1, show that these two ligands reside within the A'-pocket of MR1. Neither ligand forms a Schiff base with MR1 molecules; both are nevertheless sequestered by a network of hydrophobic and polar contacts. Accordingly, we define a class of compounds that inhibits MR1 cellular trafficking.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Salio",
+                    "name": "Salio M"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Awad",
+                    "name": "Awad W"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Veerapen",
+                    "name": "Veerapen N"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Gonzalez-Lopez",
+                    "name": "Gonzalez-Lopez C"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Kulicke",
+                    "name": "Kulicke C"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Waithe",
+                    "name": "Waithe D"
+                },
+                {
+                    "initials": "AWJ",
+                    "lastname": "Martens",
+                    "name": "Martens AWJ"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Lewinsohn",
+                    "name": "Lewinsohn DM"
+                },
+                {
+                    "initials": "JV",
+                    "lastname": "Hobrath",
+                    "name": "Hobrath JV"
+                },
+                {
+                    "initials": "LR",
+                    "lastname": "Cox",
+                    "name": "Cox LR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "GS",
+                    "lastname": "Besra",
+                    "name": "Besra GS"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Cerundolo",
+                    "name": "Cerundolo V"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.2003136117",
+                    "type": "doi"
+                },
+                {
+                    "id": "32341160",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Ligand-dependent downregulation of MR1 cell surface expression.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.2003136117",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.14",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6pvd"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6pvd"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6pvd"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "6pvd"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 2.14&#8491; resolution",
+    "unique_chain_count": 4
+}

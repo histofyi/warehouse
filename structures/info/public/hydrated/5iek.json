@@ -1,0 +1,137 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA33957",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*40:02",
+            "slug": "hla_b_40_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5iek_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:28:35.179122"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "MGSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDATSPRKEPRAPWIEQEGPEYWDRETQISKTNTQTYRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "REFSKEPEL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-02-25",
+        "deposition_year": 2016,
+        "release_date": "2016-12-07",
+        "release_year": 2016,
+        "revision_date": "2019-10-16",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5IEK | HLA-B*40:02 binding \"REFSKEPEL\"",
+    "pdb_code": "5iek",
+    "pdb_title": "Structure of HLA-B*40:02 in complex with the endogenous peptide REFSKEPEL",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "REFSKEPEL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "REFSKEPEL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "REFSKEPEL",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Alpizar, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Marcilla, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Santiago, C."
+                }
+            ],
+            "identifier": [],
+            "title": "Structure of HLA-B*40:02 in complex with the endogenous peptide REFSKEPEL",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5iek"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5iek"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*40:02 binding \"REFSKEPEL\" at 1.80&#8491; resolution",
+    "unique_chain_count": 3
+}

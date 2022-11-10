@@ -1,0 +1,156 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35228",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*15:01",
+            "slug": "hla_b_15_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2wy3_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:42:24.830433"
+        },
+        "2": {
+            "assembly_name": "2wy3_2",
+            "chains": [
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:42:25.279605"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "micb": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "MEPHSLRYNLMVLSQDESVQSGFLAEGHLDGQPFLRYDRQKRRAKPQGQWAEDVLGAETWDTETEDLTENGQDLRRTLTHIKDQKGGLHSLQEIRVCEIHEDSSTRGSRHFYYNGELFLSQNLETQESTVPQSSRAQTLAMNVTNFWKEDAMKTKTHYRAMQADCLQKLQRYLKSGVAIRRTVPPMVNVTCSEVSEGNITVTCRASSFYPRNITLTWRQDGVSLSHNTQQWGDVLPDGNGTYQTWVATRIRQGEEQRFTCYMEHSGNHGTHPVPSGKVLVLQSQRTDFPYVSAAMPCFVIIIILCVPCCKKKTSAAEGP"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-11-11",
+        "deposition_year": 2009,
+        "release_date": "2010-02-02",
+        "release_year": 2010,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "micb",
+    "components": [
+        "micb"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2WY3 | Non-classical MHC Class I molecule MICB",
+    "pdb_code": "2wy3",
+    "pdb_title": "Structure of the HCMV UL16-MICB complex elucidates select binding of a viral immunoevasin to diverse NKG2D ligands.",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The activating immunoreceptor NKG2D promotes elimination of infected or malignant cells by cytotoxic lymphocytes through engagement of stress-induced MHC class I-related ligands. The human cytomegalovirus (HCMV)-encoded immunoevasin UL16 subverts NKG2D-mediated immune responses by retaining a select group of diverse NKG2D ligands inside the cell. We report here the crystal structure of UL16 in complex with the NKG2D ligand MICB at 1.8 A resolution, revealing the molecular basis for the promiscuous, but highly selective, binding of UL16 to unrelated NKG2D ligands. The immunoglobulin-like UL16 protein utilizes a three-stranded beta-sheet to engage the alpha-helical surface of the MHC class I-like MICB platform domain. Intriguingly, residues at the center of this beta-sheet mimic a central binding motif employed by the structurally unrelated C-type lectin-like NKG2D to facilitate engagement of diverse NKG2D ligands. Using surface plasmon resonance, we find that UL16 binds MICB, ULBP1, and ULBP2 with similar affinities that lie in the nanomolar range (12-66 nM). The ability of UL16 to bind its ligands depends critically on the presence of a glutamine (MICB) or closely related glutamate (ULBP1 and ULBP2) at position 169. An arginine residue at this position however, as found for example in MICA or ULBP3, would cause steric clashes with UL16 residues. The inability of UL16 to bind MICA and ULBP3 can therefore be attributed to single substitutions at key NKG2D ligand locations. This indicates that selective pressure exerted by viral immunoevasins such as UL16 contributed to the diversification of NKG2D ligands.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "M\ufffd\ufffdller",
+                    "name": "M\ufffd\ufffdller S"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Zocher",
+                    "name": "Zocher G"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Steinle",
+                    "name": "Steinle A"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Stehle",
+                    "name": "Stehle T"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.ppat.1000723",
+                    "type": "doi"
+                },
+                {
+                    "id": "20090832",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Pathog.",
+                "name": ""
+            },
+            "pages": [
+                "e1000723"
+            ],
+            "title": "Structure of the HCMV UL16-MICB complex elucidates select binding of a viral immunoevasin to diverse NKG2D ligands.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.ppat.1000723",
+            "volume": [
+                "6"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2wy3"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2wy3"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule MICB at 1.80&#8491; resolution",
+    "unique_chain_count": 1
+}

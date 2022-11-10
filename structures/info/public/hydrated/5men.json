@@ -1,0 +1,270 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5men_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:40:48.574663"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILAKFLHWL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "IQVEQSPPDLILQEGANSTLRCNFSDSVNNLQWFHQNPWGQLINLFYIPSGTKQNGRLSATTVATERYSLLYISSSQTTDSGVYFCAVDSATSGTYKYIFGTGTRLKVLANIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS",
+            "subgroup": "TRAV22"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AGVTQTPKFQVLKTGQSMTLQCAQDMNHEYMSWYRQDPGMGLRLIHYSVGAGITDQGEVPNGYNVSRSTTEDFPLRLLSAAPSQTSVYFCASSYQGTEAFFGQGTRLTVVEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-11-16",
+        "deposition_year": 2016,
+        "release_date": "2016-12-07",
+        "release_year": 2016,
+        "revision_date": "2017-03-22",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5MEN | HLA-A*02:01 presenting \"ILAKFLHWL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "5men",
+    "pdb_title": "Human leukocyte antigen a02 presenting ILAKFLHWL, in complex with cognate t-cell receptor",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ILAKFLHWL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILAKFLHWL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILAKFLHWL",
+    "publication": {
+        "abstract": "T-cell cross-reactivity is essential for effective immune surveillance but has also been implicated as a pathway to autoimmunity. Previous studies have demonstrated that T-cell receptors (TCRs) that focus on a minimal motif within the peptide are able to facilitate a high level of T-cell cross-reactivity. However, the structural database shows that most TCRs exhibit less focused antigen binding involving contact with more peptide residues. To further explore the structural features that allow the clonally expressed TCR to functionally engage with multiple peptide-major histocompatibility complexes (pMHCs), we examined the ILA1 CD8<sup>+</sup> T-cell clone that responds to a peptide sequence derived from human telomerase reverse transcriptase. The ILA1 TCR contacted its pMHC with a broad peptide binding footprint encompassing spatially distant peptide residues. Despite the lack of focused TCR-peptide binding, the ILA1 T-cell clone was still cross-reactive. Overall, the TCR-peptide contacts apparent in the structure correlated well with the level of degeneracy at different peptide positions. Thus, the ILA1 TCR was less tolerant of changes at peptide residues that were at, or adjacent to, key contact sites. This study provides new insights into the molecular mechanisms that control T-cell cross-reactivity with important implications for pathogen surveillance, autoimmunity, and transplant rejection.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "HA",
+                    "lastname": "van den Berg",
+                    "name": "van den Berg HA"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Lloyd",
+                    "name": "Lloyd A"
+                },
+                {
+                    "initials": "MD",
+                    "lastname": "Crowther",
+                    "name": "Crowther MD"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Beck",
+                    "name": "Beck K"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Ekeruche-Makinde",
+                    "name": "Ekeruche-Makinde J"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Bulek",
+                    "name": "Bulek AM"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Dolton",
+                    "name": "Dolton G"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Schauenburg",
+                    "name": "Schauenburg AJ"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Wall",
+                    "name": "Wall A"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Fuller",
+                    "name": "Fuller A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Clement",
+                    "name": "Clement M"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Laugel",
+                    "name": "Laugel B"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wooldridge",
+                    "name": "Wooldridge L"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M116.741603",
+                    "type": "doi"
+                },
+                {
+                    "id": "27903649",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Structural mechanism underpinning cross-reactivity of a CD8+ T-cell clone that recognises a peptide derived from human telomerase reverse transcriptase.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820402613",
+            "volume": [
+                null
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.81",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5men"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5men"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5men"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV22"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "5men"
+    },
+    "title": "HLA-A*02:01 presenting \"ILAKFLHWL\" to Alpha/Beta T cell receptor at 2.81&#8491; resolution",
+    "unique_chain_count": 5
+}

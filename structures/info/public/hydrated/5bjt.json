@@ -1,0 +1,336 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {},
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "fcrn": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "AESHLSLLYHLTAVSSPAPGTPAFWVSGWLGPQQYLSYNSLRGEAEPCGAWVWENQVSWYWEKETTDLRIKEKLFLEAFKALGGKGPYTLQGLLGCELGPDNTSVPTAKFALNGEEFMNFDLKQGTWGGDWPEALAISQRWQQQDKAANKELTFLLFSCPHRLREHLERGRGNLEWKEPPSMRLKARPSSPGFSVLTCSAFSFYPPELQLRFLRNGLAAGTGQGDFGPNSDGSFHASSSLTVKSGDEHHYCCIVQHAGLAQPLRVEL"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q",
+                "R",
+                "S",
+                "T",
+                "U",
+                "V"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "XRYFCTKWKHGWCEEVGTX"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-10-23",
+        "deposition_year": 2016,
+        "release_date": "2017-03-22",
+        "release_year": 2017,
+        "revision_date": "2017-04-19",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "fcrn_with_peptide_and_beta2m",
+    "components": [
+        "fcrn",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5BJT | Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with \"XRYFCTKWKHGWCEEVGTX\"",
+    "pdb_code": "5bjt",
+    "pdb_title": "Crystal structure of human fcrn with a peptide inhibitor at multiple sites",
+    "peptide": {
+        "P": {
+            "actual_length": 16,
+            "actual_sequence": "RYFCTKWKHGWCEEVG",
+            "chain_id": "P",
+            "features": [
+                "contains_unnatural",
+                "missing_start"
+            ],
+            "full_length": 19,
+            "full_sequence": "XRYFCTKWKHGWCEEVGTX"
+        },
+        "Q": {
+            "actual_length": 16,
+            "actual_sequence": "RYFCTKWKHGWCEEVG",
+            "chain_id": "Q",
+            "features": [
+                "contains_unnatural",
+                "missing_start"
+            ],
+            "full_length": 19,
+            "full_sequence": "XRYFCTKWKHGWCEEVGTX"
+        },
+        "R": {
+            "actual_length": 16,
+            "actual_sequence": "RYFCTKWKHGWCEEVG",
+            "chain_id": "R",
+            "features": [
+                "contains_unnatural",
+                "missing_start"
+            ],
+            "full_length": 19,
+            "full_sequence": "XRYFCTKWKHGWCEEVGTX"
+        },
+        "S": {
+            "actual_length": 16,
+            "actual_sequence": "RYFCTKWKHGWCEEVG",
+            "chain_id": "S",
+            "features": [
+                "contains_unnatural",
+                "missing_start"
+            ],
+            "full_length": 19,
+            "full_sequence": "XRYFCTKWKHGWCEEVGTX"
+        },
+        "T": {
+            "actual_length": 16,
+            "actual_sequence": "RYFCTKWKHGWCEEVG",
+            "chain_id": "T",
+            "features": [
+                "contains_unnatural",
+                "missing_start"
+            ],
+            "full_length": 19,
+            "full_sequence": "XRYFCTKWKHGWCEEVGTX"
+        },
+        "U": {
+            "actual_length": 16,
+            "actual_sequence": "RYFCTKWKHGWCEEVG",
+            "chain_id": "U",
+            "features": [
+                "contains_unnatural",
+                "missing_start"
+            ],
+            "full_length": 19,
+            "full_sequence": "XRYFCTKWKHGWCEEVGTX"
+        },
+        "V": {
+            "actual_length": 16,
+            "actual_sequence": "RYFCTKWKHGWCEEVG",
+            "chain_id": "V",
+            "features": [
+                "contains_unnatural",
+                "missing_start"
+            ],
+            "full_length": 19,
+            "full_sequence": "XRYFCTKWKHGWCEEVGTX"
+        }
+    },
+    "peptide_length": 19,
+    "peptide_length_name": "nonadecamer",
+    "peptide_sequence": "XRYFCTKWKHGWCEEVGTX",
+    "publication": {
+        "abstract": "The neonatal crystallizable fragment receptor (FcRn) is responsible for maintaining the long half-life and high levels of the two most abundant circulating proteins, albumin and IgG. In the latter case, the protective mechanism derives from FcRn binding to IgG in the weakly acidic environment contained within endosomes of hematopoietic and parenchymal cells, whereupon IgG is diverted from degradation in lysosomes and is recycled. The cellular location and mechanism by which FcRn protects albumin are partially understood. Here we demonstrate that mice with global or liver-specific FcRn deletion exhibit hypoalbuminemia, albumin loss into the bile, and increased albumin levels in the hepatocyte. In vitro models with polarized cells illustrate that FcRn mediates basal recycling and bidirectional transcytosis of albumin and uniquely determines the physiologic release of newly synthesized albumin into the basal milieu. These properties allow hepatic FcRn to mediate albumin delivery and maintenance in the circulation, but they also enhance sensitivity to the albumin-bound hepatotoxin, acetaminophen (APAP). As such, global or liver-specific deletion of FcRn results in resistance to APAP-induced liver injury through increased albumin loss into the bile and increased intracellular albumin scavenging of reactive oxygen species. Further, protection from injury is achieved by pharmacologic blockade of FcRn-albumin interactions with monoclonal antibodies or peptide mimetics, which cause hypoalbuminemia, biliary loss of albumin, and increased intracellular accumulation of albumin in the hepatocyte. Together, these studies demonstrate that the main function of hepatic FcRn is to direct albumin into the circulation, thereby also increasing hepatocyte sensitivity to toxicity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Pyzik",
+                    "name": "Pyzik M"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Rath",
+                    "name": "Rath T"
+                },
+                {
+                    "initials": "TT",
+                    "lastname": "Kuo",
+                    "name": "Kuo TT"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Win",
+                    "name": "Win S"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Baker",
+                    "name": "Baker K"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Hubbard",
+                    "name": "Hubbard JJ"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Grenha",
+                    "name": "Grenha R"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Gandhi",
+                    "name": "Gandhi A"
+                },
+                {
+                    "initials": "TD",
+                    "lastname": "Kr\ufffd\ufffdmer",
+                    "name": "Kr\ufffd\ufffdmer TD"
+                },
+                {
+                    "initials": "AR",
+                    "lastname": "Mezo",
+                    "name": "Mezo AR"
+                },
+                {
+                    "initials": "ZS",
+                    "lastname": "Taylor",
+                    "name": "Taylor ZS"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "McDonnell",
+                    "name": "McDonnell K"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Nienaber",
+                    "name": "Nienaber V"
+                },
+                {
+                    "initials": "JT",
+                    "lastname": "Andersen",
+                    "name": "Andersen JT"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Mizoguchi",
+                    "name": "Mizoguchi A"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Blumberg",
+                    "name": "Blumberg L"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Purohit",
+                    "name": "Purohit S"
+                },
+                {
+                    "initials": "SD",
+                    "lastname": "Jones",
+                    "name": "Jones SD"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Christianson",
+                    "name": "Christianson G"
+                },
+                {
+                    "initials": "WI",
+                    "lastname": "Lencer",
+                    "name": "Lencer WI"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Sandlie",
+                    "name": "Sandlie I"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Kaplowitz",
+                    "name": "Kaplowitz N"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Roopenian",
+                    "name": "Roopenian DC"
+                },
+                {
+                    "initials": "RS",
+                    "lastname": "Blumberg",
+                    "name": "Blumberg RS"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1618291114",
+                    "type": "doi"
+                },
+                {
+                    "id": "28330995",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Hepatic FcRn regulates albumin homeostasis and susceptibility to liver injury.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1618291114",
+            "volume": [
+                null
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5bjt"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5bjt"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with \"XRYFCTKWKHGWCEEVGTX\" at 3.20&#8491; resolution",
+    "unique_chain_count": 3
+}

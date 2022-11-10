@@ -1,0 +1,194 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2mha_1",
+            "chains": [
+                "A",
+                "B",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:40:56.394176"
+        },
+        "2": {
+            "assembly_name": "2mha_2",
+            "chains": [
+                "C",
+                "D",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:40:56.771493"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPL"
+        },
+        "peptide": {
+            "chains": [
+                "E",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RGYVYQGL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1993-07-21",
+        "deposition_year": 1993,
+        "release_date": "1993-10-31",
+        "release_year": 1993,
+        "revision_date": "2019-08-14",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2MHA | H2-Kb binding \"RGYVYQGL\"",
+    "pdb_code": "2mha",
+    "pdb_title": "Crystal structure of the major histocompatibility complex class I H-2Kb molecule containing a single viral peptide: implications for peptide binding and T-cell receptor recognition.",
+    "peptide": {
+        "E": {
+            "actual_length": 8,
+            "actual_sequence": "RGYVYQGL",
+            "chain_id": "E",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RGYVYQGL"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "RGYVYQGL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RGYVYQGL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RGYVYQGL",
+    "publication": {
+        "abstract": "To study the structure of a homogenous major histocompatibility complex (MHC) class I molecule containing a single bound peptide, a complex of recombinant mouse H-2Kb, beta 2-microglobulin (beta 2m), and a fragment of the vesicular stomatitis virus (VSV) nuclear capsid protein, VSV-(N52-59) octapeptide (Arg-Gly-Tyr-Val-Tyr-Gln-Gly-Leu), was prepared by exploiting a high-yield bacterial expression system and in vitro cocomplex formation. The structure of mouse H-2Kb revealed its similarity to three human class I HLA molecules, consistent with the high primary sequence homology and common function of these peptide-presenting molecules. Electron density was located in the peptide-binding groove, to which a single peptide in a unique conformation was unambiguously fit. The peptide extends the length of the groove, parallel to the alpha-helices, and assumes an extended, mostly beta-strand conformation. The peptide is constrained within the groove by hydrogen bonding of its main-chain atoms and by contacts of its side chains with the H-2Kb molecule. The amino-terminal nitrogen atom of the peptide forms a hydrogen bond with the hydroxyl group of Tyr-171 of H-2Kb at one end of the groove, while the carboxyl-terminal oxygen forms a hydrogen bond with the hydroxyl group of Tyr-84 at the other end. Since the amino acids at both ends are conserved among human and mouse MHC molecules, this anchoring of each end of the peptide appears to be a general feature of peptide-MHC class I molecule binding and imposes restrictions on its length. The side chains of residues Tyr-3, Tyr-5, and Leu-8 of the VSV octapeptide fit into the interior of the H-2Kb molecule with no appreciable surface exposure, a finding in support of previous biological studies that showed the importance of these residues for binding. Thus, the basis for binding of specific peptide sequences to the MHC class I molecule is the steric restriction imposed on the peptide side chains by the architecture of the floor and sides of the groove. The side chains of Arg-1, Val-4, and Gln-6 and the main-chain of Gly-7 of the octapeptide are exposed on the surface of the complex, thus confirming their availability for T-cell receptor contact, as previously demonstrated by T-cell recognition experiments.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "W",
+                    "lastname": "Zhang",
+                    "name": "Zhang W"
+                },
+                {
+                    "initials": "AC",
+                    "lastname": "Young",
+                    "name": "Young AC"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Imarai",
+                    "name": "Imarai M"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Nathenson",
+                    "name": "Nathenson SG"
+                },
+                {
+                    "initials": "JC",
+                    "lastname": "Sacchettini",
+                    "name": "Sacchettini JC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.89.17.8403",
+                    "type": "doi"
+                },
+                {
+                    "id": "1325657",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "17"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "8403-7"
+            ],
+            "title": "Crystal structure of the major histocompatibility complex class I H-2Kb molecule containing a single viral peptide: implications for peptide binding and T-cell receptor recognition.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.89.17.8403",
+            "volume": [
+                "89"
+            ],
+            "year": [
+                1992
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2mha"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2mha"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"RGYVYQGL\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

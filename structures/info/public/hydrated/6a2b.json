@@ -1,0 +1,199 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:Q9TPA7",
+            "locus": "Xela-UAA",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "Xela-UAAg",
+            "score": null,
+            "slug": "xela_uaag",
+            "species_stem": "xela"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6a2b_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:34:20.370869"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "ISPPVVKVYTAEPVDFGKTNEVICYVYNYHPPRLEMRLEKNGVEIPDCKQTDPSFQHNWKYYTTKSTHVHIDKGDKVECVVSHNGNPSKKYRLD"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSLRYYYTAVSDRAFGLPEFSIVGYVDDTQSFRYNSDNQKAEPATQWMKQKEGPEYWEQQTQIAKGSEPVHKHDVKTAMDRFNQTSGTHSLQVMYGCELREDNSIRSYHQYGYDGREFIALDTERWVYVPSVREAQLTEQKWNSPEVNAPERNKNYLQNLCIEGLKRYLSYGRAELERRVHPHVRISDHQSDDATELRCHAYGFYPREIDVKWVKNGRADVHSEAAKEILPNPDGSYQLRVTAEITPSEGDSYACHVEHSSLKEKLIVVW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YMMPRHWPI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-06-10",
+        "deposition_year": 2018,
+        "release_date": "2019-10-23",
+        "release_year": 2019,
+        "revision_date": "2020-01-01",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "Xela-UAA",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6A2B | Xela-UAAg binding \"YMMPRHWPI\"",
+    "pdb_code": "6a2b",
+    "pdb_title": "Crystal structure of xenopus laevis MHC i complex",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "YMMPRHWPI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YMMPRHWPI"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YMMPRHWPI",
+    "publication": {
+        "abstract": "The African clawed frog, Xenopus laevis, is a model species for amphibians. Before metamorphosis, tadpoles do not efficiently express the single classical MHC class I (MHC-I) molecule Xela-UAA, but after metamorphosis, adults express this molecule in abundance. To elucidate the Ag-presenting mechanism of Xela-UAA, in this study, the Xela-UAA structure complex (pXela-UAAg) bound with a peptide from a synthetic random peptide library was determined. The amino acid homology between the Xela-UAA and MHC-I sequences of different species is <45%, and these differences are fully reflected in the three-dimensional structure of pXela-UAAg. Because of polymorphisms and interspecific differences in amino acid sequences, pXela-UAAg forms a distinct peptide-binding groove and presents a unique peptide profile. The most important feature of pXela-UAAg is the two-amino acid insertion in the \u03b12-helical region, which forms a protrusion of \u223c3.8 \u00c5 that is involved in TCR docking. Comparison of peptide-MHC-I complex (pMHC-I) structures showed that only four amino acids in \u03b22-microglobulin that were bound to MHC-I are conserved in almost all jawed vertebrates, and the most unique feature in nonmammalian pMHC-I molecules is that the AB loop bound \u03b22-microglobulin. Additionally, the binding distance between pMHC-I and CD8 molecules in nonmammals is different from that in mammals. These unique features of pXela-UAAg provide enhanced knowledge of T cell immunity and bridge the knowledge gap regarding the coevolutionary progression of the MHC-I complex from aquatic to terrestrial species.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Ma",
+                    "name": "Ma L"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Zhang",
+                    "name": "Zhang N"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Qu",
+                    "name": "Qu Z"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Liang",
+                    "name": "Liang R"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Zhang",
+                    "name": "Zhang L"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Zhang",
+                    "name": "Zhang B"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Meng",
+                    "name": "Meng G"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Dijkstra",
+                    "name": "Dijkstra JM"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Li",
+                    "name": "Li S"
+                },
+                {
+                    "initials": "MC",
+                    "lastname": "Xia",
+                    "name": "Xia MC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1900865",
+                    "type": "doi"
+                },
+                {
+                    "id": "31776204",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "A Glimpse of the Peptide Profile Presentation by <i>Xenopus laevis</i> MHC Class I: Crystal Structure of p<i>Xela</i>-UAA Reveals a Distinct Peptide-Binding Groove.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1900865",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6a2b"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6a2b"
+        }
+    },
+    "species": {
+        "common_name": "African clawed frog",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Xenopus laevis",
+        "slug": "xenopus_laevis"
+    },
+    "tcr": null,
+    "title": "Xela-UAAg binding \"YMMPRHWPI\" at 2.80&#8491; resolution",
+    "unique_chain_count": 3
+}

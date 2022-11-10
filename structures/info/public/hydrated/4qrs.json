@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34671",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*08:01",
+            "slug": "hla_b_08_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4qrs_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:20.858601"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "MGQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFDTAMSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIFKTNTQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARVAEQDRAYLEGTCVEWLRRYLENGKDTLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ELKRKMIYM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-07-02",
+        "deposition_year": 2014,
+        "release_date": "2014-12-10",
+        "release_year": 2014,
+        "revision_date": "2019-07-17",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4QRS | HLA-B*08:01 binding \"ELKRKMIYM\"",
+    "pdb_code": "4qrs",
+    "pdb_title": "Crystal structure of hla b*0801 in complex with elk_iym, ELKRKMIYM",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ELKRKMIYM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ELKRKMIYM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ELKRKMIYM",
+    "publication": {
+        "abstract": "Exposure to naturally occurring variants of herpesviruses in clinical settings can have a dramatic impact on anti-viral immunity. Here we have evaluated the molecular imprint of variant peptide-MHC complexes on the T-cell repertoire during human cytomegalovirus (CMV) infection and demonstrate that primary co-infection with genetic variants of CMV was coincident with development of strain-specific T-cell immunity followed by emergence of cross-reactive virus-specific T-cells. Cross-reactive CMV-specific T cells exhibited a highly conserved public T cell repertoire, while T cells directed towards specific genetic variants displayed oligoclonal repertoires, unique to each individual. T cell recognition foot-print and pMHC-I structural analyses revealed that the cross-reactive T cells accommodate alterations in the pMHC complex with a broader foot-print focussing on the core of the peptide epitope. These findings provide novel molecular insight into how infection with naturally occurring genetic variants of persistent human herpesviruses imprints on the evolution of the anti-viral T-cell repertoire.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "C",
+                    "lastname": "Smith",
+                    "name": "Smith C"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Brennan",
+                    "name": "Brennan RM"
+                },
+                {
+                    "initials": "NL",
+                    "lastname": "Bird",
+                    "name": "Bird NL"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Valkenburg",
+                    "name": "Valkenburg SA"
+                },
+                {
+                    "initials": "KA",
+                    "lastname": "Twist",
+                    "name": "Twist KA"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Burrows",
+                    "name": "Burrows JM"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Chambers",
+                    "name": "Chambers D"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Bell",
+                    "name": "Bell S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Campbell",
+                    "name": "Campbell S"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kedzierska",
+                    "name": "Kedzierska K"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Khanna",
+                    "name": "Khanna R"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/srep03993",
+                    "type": "doi"
+                },
+                {
+                    "id": "24509977",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Sci Rep",
+                "name": ""
+            },
+            "pages": [
+                "3993"
+            ],
+            "title": "Molecular imprint of exposure to naturally occurring genetic variants of human cytomegalovirus on the T cell repertoire.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/srep03993",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4qrs"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4qrs"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*08:01 binding \"ELKRKMIYM\" at 1.40&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,175 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5nqk_1",
+            "chains": [
+                "H",
+                "L",
+                "P",
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:44:27.880097"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "L"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ELAGIGILTV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MQQKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMSIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAGGGGADGLTFGKGTHLIIQPYIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPENDGGGCK",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSQGLAGAGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYCLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRADQDRGGGCD",
+            "subgroup": "TRBV19"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-04-20",
+        "deposition_year": 2017,
+        "release_date": "2018-05-30",
+        "release_year": 2018,
+        "revision_date": "2018-05-30",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5NQK | HLA-A*02:01 presenting \"ELAGIGILTV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "5nqk",
+    "pdb_title": "human 199.16 TCR in complex with Melan-A/MART-1 (26-35) peptide and HLA-A2",
+    "peptide": {
+        "P": {
+            "actual_length": 10,
+            "actual_sequence": "ELAGIGILTV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "ELAGIGILTV"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "ELAGIGILTV",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Exertier, C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Reiser, J.-B."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Housset, D."
+                }
+            ],
+            "identifier": [],
+            "title": "human 199.16 TCR in complex with Melan-A/MART-1 (26-35) peptide and HLA-A2",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "3.25",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5nqk"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5nqk"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5nqk"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "A"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "B"
+            ],
+            "subgroup": "TRBV19"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "5nqk"
+    },
+    "title": "HLA-A*02:01 presenting \"ELAGIGILTV\" to Alpha/Beta T cell receptor at 3.25&#8491; resolution",
+    "unique_chain_count": 5
+}

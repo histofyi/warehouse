@@ -1,0 +1,209 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5u98_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:59.956966"
+        },
+        "2": {
+            "assembly_name": "5u98_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:30:00.435099"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "MGSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VTTDIQVKV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-12-15",
+        "deposition_year": 2016,
+        "release_date": "2017-07-19",
+        "release_year": 2017,
+        "revision_date": "2019-12-11",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5U98 | HLA-B*57:01 binding \"VTTDIQVKV\"",
+    "pdb_code": "5u98",
+    "pdb_title": "The crystal structure of a self-peptide complexed to abacavir and hla-b*57:01",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "VTTDIQVKV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VTTDIQVKV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "VTTDIQVKV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VTTDIQVKV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VTTDIQVKV",
+    "publication": {
+        "abstract": "Adverse drug reactions are one of the leading causes of morbidity and mortality in health care worldwide. Human leukocyte antigen (HLA) alleles have been strongly associated with drug hypersensitivities, and the causative drugs have been shown to stimulate specific T cells at the sites of autoimmune destruction. The structural elements recognized by drug-specific T cell receptors (TCRs) in vivo are poorly defined. Drug-stimulated T cells express TCRs specific for peptide/HLA complexes, but the characteristics of peptides (sequence, or endogenous or exogenous origin) presented in the context of small molecule drugs are not well studied. Using HLA-B*57:01 mediated hypersensitivity to abacavir as a model system, this study examines structural similarities of HLA presented peptides recognized by drug-specific TCRs. Using the crystal structure of HLA-B*57:01 complexed with abacavir and an immunogenic self peptide, VTTDIQVKV SPT5a 976-984, peptide side chains exhibiting flexibility and solvent exposure were identified as potential drug-specific T cell recognition motifs. Viral sequences with structural motifs similar to the immunogenic self peptide were identified. Abacavir-specific T cell clones were used to determine if virus peptides presented in the context of abacavir stimulate T cell responsiveness. An abacavir-specific T cell clone was stimulated by VTQQAQVRL, corresponding to HSV1/2 230-238, in the context of HLA-B*57:01. These data suggest the T cell polyclonal response to abacavir consists of multiple subsets, including T cells that recognize self peptide/HLA-B*57:01 complexes and crossreact with viral peptide/HLA-B*57:01 complexes due to similarity in TCR contact residues.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Yerly",
+                    "name": "Yerly D"
+                },
+                {
+                    "initials": "YA",
+                    "lastname": "Pompeu",
+                    "name": "Pompeu YA"
+                },
+                {
+                    "initials": "RJ",
+                    "lastname": "Schutte",
+                    "name": "Schutte RJ"
+                },
+                {
+                    "initials": "KK",
+                    "lastname": "Eriksson",
+                    "name": "Eriksson KK"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Strhyn",
+                    "name": "Strhyn A"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Bracey",
+                    "name": "Bracey AW"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Buus",
+                    "name": "Buus S"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Ostrov",
+                    "name": "Ostrov DA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3390/ijms18071464",
+                    "type": "doi"
+                },
+                {
+                    "id": "28686208",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "Int J Mol Sci",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Structural Elements Recognized by Abacavir-Induced T Cells.",
+            "type": "article",
+            "url": "http://www.mdpi.com/1422-0067/18/7/1464",
+            "volume": [
+                "18"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5u98"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5u98"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:01 binding \"VTTDIQVKV\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

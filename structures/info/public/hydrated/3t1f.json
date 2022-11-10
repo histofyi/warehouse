@@ -1,0 +1,267 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA32021",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*14:02",
+            "slug": "hla_b_14_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3t1f_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:38:50.469082"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-07-21",
+        "deposition_year": 2011,
+        "release_date": "2011-09-21",
+        "release_year": 2011,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3T1F | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "3t1f",
+    "pdb_title": "Crystal structure of the mouse CD1d-glc-dag-s2 complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Kinjo",
+                    "name": "Kinjo Y"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Illarionov",
+                    "name": "Illarionov P"
+                },
+                {
+                    "initials": "JL",
+                    "lastname": "Vela",
+                    "name": "Vela JL"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Pei",
+                    "name": "Pei B"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Girardi",
+                    "name": "Girardi E"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Li",
+                    "name": "Li X"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Li",
+                    "name": "Li Y"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Imamura",
+                    "name": "Imamura M"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Kaneko",
+                    "name": "Kaneko Y"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Okawara",
+                    "name": "Okawara A"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Miyazaki",
+                    "name": "Miyazaki Y"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "G\u00f3mez-Velasco",
+                    "name": "G\u00f3mez-Velasco A"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Rogers",
+                    "name": "Rogers P"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Dahesh",
+                    "name": "Dahesh S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Uchiyama",
+                    "name": "Uchiyama S"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Khurana",
+                    "name": "Khurana A"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kawahara",
+                    "name": "Kawahara K"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Yesilkaya",
+                    "name": "Yesilkaya H"
+                },
+                {
+                    "initials": "PW",
+                    "lastname": "Andrew",
+                    "name": "Andrew PW"
+                },
+                {
+                    "initials": "CH",
+                    "lastname": "Wong",
+                    "name": "Wong CH"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kawakami",
+                    "name": "Kawakami K"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Nizet",
+                    "name": "Nizet V"
+                },
+                {
+                    "initials": "GS",
+                    "lastname": "Besra",
+                    "name": "Besra GS"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Tsuji",
+                    "name": "Tsuji M"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Kronenberg",
+                    "name": "Kronenberg M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.2096",
+                    "type": "doi"
+                },
+                {
+                    "id": "21892173",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "10"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "966-74"
+            ],
+            "title": "Invariant natural killer T cells recognize glycolipids from pathogenic Gram-positive bacteria.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.2096",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3t1f"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3t1f"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 1.70&#8491; resolution",
+    "unique_chain_count": 2
+}

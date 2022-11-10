@@ -1,0 +1,237 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7llj_1",
+            "chains": [
+                "K",
+                "L",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:38:55.769120"
+        },
+        "2": {
+            "assembly_name": "7llj_2",
+            "chains": [
+                "A",
+                "B",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:38:56.506351"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "D",
+                "H"
+            ],
+            "match_type": "histo:override",
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "C",
+                "G"
+            ],
+            "match_type": "histo:override",
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "note": "not yet in STCRdab",
+        "tcr_delta": {
+            "chains": [
+                "L",
+                "B"
+            ],
+            "match_type": "histo:override",
+            "sequence": "SDKVTQSSPDQTVASGSEVVLLCTYDTVYSNPDLFWYRIRPDYSFQFVFYGDNSRSEGADFTQGRFSVKHILTQKAFHLVISPVRTEDSATYYCATRLWLGDPHTDKLIFGKGTRVTVEPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS"
+        },
+        "tcr_gamma": {
+            "chains": [
+                "K",
+                "A"
+            ],
+            "match_type": "histo:override",
+            "sequence": "TGSSNLEGRTKSVTRPTGSSAVITCDLPVENAVYTHWYLHQEGKAPQRLLYYDSYNSRVVLESGISREKYHTYASTGKSLKFILENLIERDSGVYYCATWDYKKLFGSGTTLVVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-02-04",
+        "deposition_year": 2021,
+        "release_date": "2021-11-17",
+        "release_year": 2021,
+        "revision_date": "2021-12-08",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_gamma_delta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_delta",
+        "tcr_gamma"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7LLJ | Non-classical MHC Class I molecule MR1 with Gamma/Delta T cell receptor",
+    "pdb_code": "7llj",
+    "pdb_title": "Inhibitory immune receptor protein complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Unlike conventional \u03b1\u03b2 T cells, \u03b3\u03b4 T cells typically recognize nonpeptide ligands independently of major histocompatibility complex (MHC) restriction. Accordingly, the \u03b3\u03b4 T cell receptor (TCR) can potentially recognize a wide array of ligands; however, few ligands have been described to date. While there is a growing appreciation of the molecular bases underpinning variable (V)\u03b41<sup>+</sup> and V\u03b42<sup>+</sup> \u03b3\u03b4 TCR-mediated ligand recognition, the mode of V\u03b43<sup>+</sup> TCR ligand engagement is unknown. MHC class I-related protein, MR1, presents vitamin B metabolites to \u03b1\u03b2 T cells known as mucosal-associated invariant T cells, diverse MR1-restricted T cells, and a subset of human \u03b3\u03b4 T cells. Here, we identify V\u03b41/2<sup>-</sup> \u03b3\u03b4 T cells in the blood and duodenal biopsy specimens of children that showed metabolite-independent binding of MR1 tetramers. Characterization of one V\u03b43V\u03b38 TCR clone showed MR1 reactivity was independent of the presented antigen. Determination of two V\u03b43V\u03b38 TCR-MR1-antigen complex structures revealed a recognition mechanism by the V\u03b43 TCR chain that mediated specific contacts to the side of the MR1 antigen-binding groove, representing a previously uncharacterized MR1 docking topology. The binding of the V\u03b43<sup>+</sup> TCR to MR1 did not involve contacts with the presented antigen, providing a basis for understanding its inherent MR1 autoreactivity. We provide molecular insight into antigen-independent recognition of MR1 by a V\u03b43<sup>+</sup> \u03b3\u03b4 TCR that strengthens an emerging paradigm of antibody-like ligand engagement by \u03b3\u03b4 TCRs.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MT",
+                    "lastname": "Rice",
+                    "name": "Rice MT"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "von Borstel",
+                    "name": "von Borstel A"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Chevour",
+                    "name": "Chevour P"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Awad",
+                    "name": "Awad W"
+                },
+                {
+                    "initials": "LJ",
+                    "lastname": "Howson",
+                    "name": "Howson LJ"
+                },
+                {
+                    "initials": "DR",
+                    "lastname": "Littler",
+                    "name": "Littler DR"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Gherardin",
+                    "name": "Gherardin NA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Le Nours",
+                    "name": "Le Nours J"
+                },
+                {
+                    "initials": "EM",
+                    "lastname": "Giles",
+                    "name": "Giles EM"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Berry",
+                    "name": "Berry R"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                },
+                {
+                    "initials": "MS",
+                    "lastname": "Davey",
+                    "name": "Davey MS"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "BS",
+                    "lastname": "Gully",
+                    "name": "Gully BS"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.2110288118",
+                    "type": "doi"
+                },
+                {
+                    "id": "34845016",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "49"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc Natl Acad Sci U S A",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Recognition of the antigen-presenting molecule MR1 by a V\ufffd\ufffd3<sub>+</sub> \ufffd\ufffd\ufffd\ufffd T cell receptor.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.2110288118",
+            "volume": [
+                "118"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.15",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7llj"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7llj"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule MR1 with Gamma/Delta T cell receptor at 3.15&#8491; resolution",
+    "unique_chain_count": 4
+}

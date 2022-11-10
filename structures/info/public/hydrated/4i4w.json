@@ -1,0 +1,262 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4i4w_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:28:27.842162"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILAKFLHRL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-11-28",
+        "deposition_year": 2012,
+        "release_date": "2013-01-02",
+        "release_year": 2013,
+        "revision_date": "2015-11-25",
+        "revision_year": 2015
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4I4W | HLA-A*02:01 binding \"ILAKFLHRL\"",
+    "pdb_code": "4i4w",
+    "pdb_title": "Peptide length determines the outcome of T cell receptor/peptide-MHCI engagement.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ILAKFLHRL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILAKFLHRL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILAKFLHRL",
+    "publication": {
+        "abstract": "\u03b1\u03b2-TCRs expressed at the CD8(+) T-cell surface interact with short peptide fragments (p) bound to MHC class I molecules (pMHCI). The TCR/pMHCI interaction is pivotal in all aspects of CD8(+) T-cell immunity. However, the rules that govern the outcome of TCR/pMHCI engagement are not entirely understood, and this is a major barrier to understanding the requirements for both effective immunity and vaccination. In the present study, we discovered an unexpected feature of the TCR/pMHCI interaction by showing that any given TCR exhibits an explicit preference for a single MHCI-peptide length. Agonists of nonpreferred length were extremely rare, suboptimal, and often entirely distinct in sequence. Structural analysis indicated that alterations in peptide length have a major impact on antigenic complexity, to which individual TCRs are unable to adapt. This novel finding demonstrates that the outcome of TCR/pMHCI engagement is determined by peptide length in addition to the sequence identity of the MHCI-bound peptide. Accordingly, the effective recognition of pMHCI Ag, which is a prerequisite for successful CD8(+) T-cell immunity and protective vaccination, can only be achieved by length-matched Ag-specific CD8(+) T-cell clonotypes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Ekeruche-Makinde",
+                    "name": "Ekeruche-Makinde J"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "HA",
+                    "lastname": "van den Berg",
+                    "name": "van den Berg HA"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Skowera",
+                    "name": "Skowera A"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Dolton",
+                    "name": "Dolton G"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Schauenburg",
+                    "name": "Schauenburg AJ"
+                },
+                {
+                    "initials": "MP",
+                    "lastname": "Tan",
+                    "name": "Tan MP"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Pentier",
+                    "name": "Pentier JM"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Llewellyn-Lacey",
+                    "name": "Llewellyn-Lacey S"
+                },
+                {
+                    "initials": "KM",
+                    "lastname": "Miles",
+                    "name": "Miles KM"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Bulek",
+                    "name": "Bulek AM"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Clement",
+                    "name": "Clement M"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Williams",
+                    "name": "Williams T"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Trimby",
+                    "name": "Trimby A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bailey",
+                    "name": "Bailey M"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah P"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Peakman",
+                    "name": "Peakman M"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wooldridge",
+                    "name": "Wooldridge L"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1182/blood-2012-06-437202",
+                    "type": "doi"
+                },
+                {
+                    "id": "23255554",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Blood",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Peptide length determines the outcome of T cell receptor/peptide-MHCI engagement.",
+            "type": "article",
+            "url": "https://ashpublications.org/blood/article/121/7/1112/31552/Peptide-length-determines-the-outcome-of",
+            "volume": [
+                null
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.77",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4i4w"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4i4w"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"ILAKFLHRL\" at 1.77&#8491; resolution",
+    "unique_chain_count": 3
+}

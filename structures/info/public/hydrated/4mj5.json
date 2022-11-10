@@ -1,0 +1,227 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4mj5_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:54.320327"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "TIAMELIRMIK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-09-03",
+        "deposition_year": 2013,
+        "release_date": "2014-10-08",
+        "release_year": 2014,
+        "revision_date": "2022-08-24",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4MJ5 | HLA-A*11:01 binding \"TIAMELIRMIK\"",
+    "pdb_code": "4mj5",
+    "pdb_title": "Crystal structure of hla-a*1101 in complex with h1-22, an influenza a(h1n1) virus epitope",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "TIAMELIRMIK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "TIAMELIRMIK"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "TIAMELIRMIK",
+    "publication": {
+        "abstract": "<h4>Background</h4>\u2003The emergence of infections by the novel avian influenza A(H7N9) virus has posed a threat to human health. Cross-immunity between A(H7N9) and other heterosubtypic influenza viruses affected by antigenicity-dependent substitutions needs to be investigated.<h4>Methods</h4>\u2003We investigated the cellular and humoral immune responses against A(H7N9) and 2009 pandemic influenza A(H1N1) virus (A[H1N1]pdm09), by serological and T-cell-specific assays, in a healthy population. The molecular bases of the cellular and humoral antigenic variability of A(H7N9) were illuminated by structural determination.<h4>Results</h4>\u2003We not only found that antibodies against A(H7N9) were lacking in the studied population, but also revealed that both CD4<sup>+</sup> and CD8<sup>+</sup> T cells that cross-reacted with A(H7N9) were at significantly lower levels than those against the A(H1N1)pdm09 peptides with substitutions. Moreover, individual peptides for A(H7N9) with low cross-reactivity were identified. Structural determination indicated that substitutions within these peptides influence the antigenic variability of A(H7N9) through both major histocompatibility complex (MHC) binding and T-cell receptor docking.<h4>Conclusions</h4>\u2003The impact of antigenicity-dependent substitutions on cross-reactivity of T-cell immunity against the novel influenza virus A(H7N9) in the healthy population benefits the understanding of immune evasion of influenza viruses and provides a useful reference for universal vaccine development.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "WJ",
+                    "lastname": "Liu",
+                    "name": "Liu WJ"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tan",
+                    "name": "Tan S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Zhao",
+                    "name": "Zhao M"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Quan",
+                    "name": "Quan C"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Bi",
+                    "name": "Bi Y"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Wu",
+                    "name": "Wu Y"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Zhang",
+                    "name": "Zhang S"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Zhang",
+                    "name": "Zhang H"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Xiao",
+                    "name": "Xiao H"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Yan",
+                    "name": "Yan J"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Liu",
+                    "name": "Liu W"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Yu",
+                    "name": "Yu H"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Shu",
+                    "name": "Shu Y"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Wu",
+                    "name": "Wu G"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1093/infdis/jiw471",
+                    "type": "doi"
+                },
+                {
+                    "id": "27738054",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "J Infect Dis",
+                "name": ""
+            },
+            "pages": [
+                "1937-1946"
+            ],
+            "title": "Cross-immunity Against Avian Influenza A(H7N9) Virus in the Healthy Population Is Affected by Antigenicity-Dependent Substitutions.",
+            "type": "article",
+            "url": "https://academic.oup.com/jid/article-lookup/doi/10.1093/infdis/jiw471",
+            "volume": [
+                "214"
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4mj5"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4mj5"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"TIAMELIRMIK\" at 2.40&#8491; resolution",
+    "unique_chain_count": 3
+}

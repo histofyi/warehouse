@@ -1,0 +1,192 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA31926",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:08",
+            "slug": "hla_b_35_08",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4pre_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:38:32.145588"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQRRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "HPVGQADYFEY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-03-05",
+        "deposition_year": 2014,
+        "release_date": "2014-04-16",
+        "release_year": 2014,
+        "revision_date": "2017-11-22",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4PRE | HLA-B*35:08 binding \"HPVGQADYFEY\"",
+    "pdb_code": "4pre",
+    "pdb_title": "Crystal structure of a hla-b*35:08-hpvg-q5",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "HPVGQADYFEY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "HPVGQADYFEY"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "HPVGQADYFEY",
+    "publication": {
+        "abstract": "Mutations within T cell epitopes represent a common mechanism of viral escape from the host protective immune response. The diverse T cell repertoire and the extensive human leukocyte antigen (HLA) polymorphism across populations is the evolutionary response to viral mutation. However, the molecular basis underpinning the interplay between HLA polymorphism, the T cell repertoire, and viral escape is unclear. Here we investigate the T cell response to a HLA-B*35:01- and HLA-B*35:08-restricted (407)HPVGEADYFEY(417) epitope from Epstein-Barr virus and naturally occurring variants at positions 4 and 5 thereof. Each viral variant differently impacted on the epitope's flexibility and conformation when bound to HLA-B*35:08 or HLA-B*35:01. We provide a molecular basis for understanding how the single residue polymorphism that discriminates between HLA-B*35:01/08 profoundly impacts on T cell receptor recognition. Surprisingly, one viral variant (P5-Glu to P5-Asp) effectively changed restriction preference from HLA-B*35:01 to HLA-B*35:08. Collectively, our study portrays the interplay between the T cell response, viral escape, and HLA polymorphism, whereby HLA polymorphism enables altered presentation of epitopes from different strains of Epstein-Barr virus.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "YC",
+                    "lastname": "Liu",
+                    "name": "Liu YC"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "MA",
+                    "lastname": "Neller",
+                    "name": "Neller MA"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.M114.563502",
+                    "type": "doi"
+                },
+                {
+                    "id": "24759101",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "24"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "16688-16698"
+            ],
+            "title": "A Molecular Basis for the Interplay between T Cells, Viral Mutants, and Human Leukocyte Antigen Micropolymorphism.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S002192582040643X",
+            "volume": [
+                "289"
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.65",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4pre"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4pre"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:08 binding \"HPVGQADYFEY\" at 1.65&#8491; resolution",
+    "unique_chain_count": 3
+}

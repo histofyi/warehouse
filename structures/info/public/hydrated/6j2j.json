@@ -1,0 +1,241 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:A0A125R585",
+            "locus": "ptal-n",
+            "match_type": "histo:exact",
+            "name": "Ptal-N*01:01",
+            "slug": "ptal_n_01_01",
+            "species_stem": "ptal"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6j2j_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:36:33.420564"
+        },
+        "2": {
+            "assembly_name": "6j2j_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:36:33.921679"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GFHSLRYFYTAWSRPGSGEPRFVAVGYVDDTQFVRFDSDNASPRAEPRAPWMDLVEQQDPQYWDRNTRNARDAAQTYRVGLDNVRGYYNQSEAGSHTIQRMYGCDVGPHGRLLRGYDQLAYDGADYIALNEDLRSWTAADLAAQNTRRKWEEAGYAERDRAYLEGECVEWLLKHLENGRETLLRADPPKTHITHHPISDREVTLRCWALGFYPEEITLTWQHDGEDQTQEMELVETRPDGNGAFQKWAALVVPSGEEQRYTCHVQHEGLPQPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "DFTCSQISP"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-01-01",
+        "deposition_year": 2019,
+        "release_date": "2019-09-18",
+        "release_year": 2019,
+        "revision_date": "2019-12-04",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "ptal-n",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6J2J | Ptal-N*01:01 binding \"DFTCSQISP\"",
+    "pdb_code": "6j2j",
+    "pdb_title": "Crystal structure of bat (pteropus alecto) MHC Class I ptal-n*01:01 in complex with mers-cov-derived peptide mers-cov-s3",
+    "peptide": {
+        "C": {
+            "actual_length": 3,
+            "actual_sequence": "DFP",
+            "chain_id": "C",
+            "features": [
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 9,
+            "full_sequence": "DFTCSQISP",
+            "gap_ends_at": 8,
+            "gap_length": 5,
+            "gap_sequence": "TCSQI",
+            "gap_start_after": 2,
+            "gapped_sequence": "DF-----P"
+        },
+        "F": {
+            "actual_length": 3,
+            "actual_sequence": "DFP",
+            "chain_id": "F",
+            "features": [
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 9,
+            "full_sequence": "DFTCSQISP",
+            "gap_ends_at": 8,
+            "gap_length": 5,
+            "gap_sequence": "TCSQI",
+            "gap_start_after": 2,
+            "gapped_sequence": "DF-----P"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "DFTCSQISP",
+    "publication": {
+        "abstract": "Bats harbor many zoonotic viruses, including highly pathogenic viruses of humans and other mammals, but they are typically asymptomatic in bats. To further understand the antiviral immunity of bats, we screened and identified a series of bat major histocompatibility complex (MHC) I Ptal-N*01:01-binding peptides derived from four different bat-borne viruses, i.e., Hendra virus (HeV), Ebola virus (EBOV), Middle East respiratory syndrome coronavirus (MERS-CoV), and H17N10 influenza-like virus. The structures of Ptal-N*01:01 display unusual peptide presentation features in that the bat-specific 3-amino acid (aa) insertion enables the tight \"surface anchoring\" of the P1-Asp in pocket A of bat MHC I. As the classical primary anchoring positions, the B and F pockets of Ptal-N*01:01 also show unconventional conformations, which contribute to unusual peptide motifs and distinct peptide presentation. Notably, the features of bat MHC I may be shared by MHC I from various marsupials. Our study sheds light on bat adaptive immunity and may benefit future vaccine development against bat-borne viruses of high impact on humans.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Lu",
+                    "name": "Lu D"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Liu",
+                    "name": "Liu K"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Zhang",
+                    "name": "Zhang D"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Yue",
+                    "name": "Yue C"
+                },
+                {
+                    "initials": "Q",
+                    "lastname": "Lu",
+                    "name": "Lu Q"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Cheng",
+                    "name": "Cheng H"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wang",
+                    "name": "Wang L"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Chai",
+                    "name": "Chai Y"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qi",
+                    "name": "Qi J"
+                },
+                {
+                    "initials": "LF",
+                    "lastname": "Wang",
+                    "name": "Wang LF"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "WJ",
+                    "lastname": "Liu",
+                    "name": "Liu WJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1371/journal.pbio.3000436",
+                    "type": "doi"
+                },
+                {
+                    "id": "31498797",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "9"
+            ],
+            "journal": {
+                "iso_abbreviation": "PLoS Biol.",
+                "name": ""
+            },
+            "pages": [
+                "e3000436"
+            ],
+            "title": "Peptide presentation by bat MHC class I provides new insight into the antiviral immunity of bats.",
+            "type": "article",
+            "url": "https://dx.plos.org/10.1371/journal.pbio.3000436",
+            "volume": [
+                "17"
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6j2j"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6j2j"
+        }
+    },
+    "species": {
+        "common_name": "Black fruit bat",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Pteropus alecto",
+        "slug": "pteropus_alecto"
+    },
+    "tcr": null,
+    "title": "Ptal-N*01:01 binding \"DFTCSQISP\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

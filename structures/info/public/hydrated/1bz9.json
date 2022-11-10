@@ -1,0 +1,167 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1bz9_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:39:52.117108"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "PHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWERWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "FAPGVFPYM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1998-11-06",
+        "deposition_year": 1998,
+        "release_date": "1999-05-24",
+        "release_year": 1999,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1BZ9 | H2-Db binding \"FAPGVFPYM\"",
+    "pdb_code": "1bz9",
+    "pdb_title": "Crystal structure of murine Class I MHC H2-Db complexed with a synthetic peptide p1027",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "FAPGVFPYM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "FAPGVFPYM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "FAPGVFPYM",
+    "publication": {
+        "abstract": "The T cell receptor (TCR), from a xeno-reactive murine cytotoxic T lymphocyte clone AHIII12.2, recognizes murine H-2Db complexed with peptide p1027 (FAPGVFPYM), as well as human HLA-A2.1 complexed with peptide p1049 (ALWGFFPVL). A commonly proposed model (the molecular mimicry model) used to explain TCR cross-reactivity suggests that the molecular surfaces of the recognized complexes are similar in shape, charge, or both, in spite of the primary sequence differences. To examine the mechanism of xeno-reactivity of AHIII12.2, we have determined the crystal structures of A2/p1049 and Db/p1027 to 2.5 A and 2.8 A resolution, respectively. The crystal structures show that the TCR footprint regions of the two class I complexes are significantly different in shape and charge. We propose that rather than simple molecular mimicry, unpredictable arrays of common and differential contacts on the two class I complexes are used for their recognition by the same TCR.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "R",
+                    "lastname": "Zhao",
+                    "name": "Zhao R"
+                },
+                {
+                    "initials": "DJ",
+                    "lastname": "Loftus",
+                    "name": "Loftus DJ"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Appella",
+                    "name": "Appella E"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Collins",
+                    "name": "Collins EJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.189.2.359",
+                    "type": "doi"
+                },
+                {
+                    "id": "9892618",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "2"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "359-70"
+            ],
+            "title": "Structural evidence of T cell xeno-reactivity in the absence of molecular mimicry.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/189/2/359/7848/Structural-Evidence-of-T-Cell-Xenoreactivity-in",
+            "volume": [
+                "189"
+            ],
+            "year": [
+                1999
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1bz9"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1bz9"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"FAPGVFPYM\" at 2.80&#8491; resolution",
+    "unique_chain_count": 3
+}

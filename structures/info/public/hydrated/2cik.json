@@ -1,0 +1,177 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2cik_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:33.483029"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KPIVVLHGY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2006-03-22",
+        "deposition_year": 2006,
+        "release_date": "2006-10-25",
+        "release_year": 2006,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2CIK | HLA-B*35:01 binding \"KPIVVLHGY\"",
+    "pdb_code": "2cik",
+    "pdb_title": "Insights into crossreactivity in human allorecognition: the structure of hla-b35011 presenting an epitope derived from cytochrome p450.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "KPIVVLHGY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KPIVVLHGY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KPIVVLHGY",
+    "publication": {
+        "abstract": "Virus-specific T cell populations have been implicated in allo-recognition. The subdominant T cell receptor JL12 recognizes both HLA-B*0801 presenting the Epstein-Barr virus-derived peptide FLRGRAYGL and also HLA-B*3501 presenting the cytochrome p450 self peptide KPIVVLHGY. This cross-reactivity could promote the rejection of HLA-B*3501-positive cells in Epstein-Barr virus-exposed HLA-B*0801 recipients. LC13, the dominant TCR against the HLA-B*0801:FLRGRAYGL complex, fails to recognize HLA-B*3501:KPIVVLHGY. We report the 1.75-Angstrom resolution crystal structure of the human allo-ligand HLA-B*3501:KPIVVLHGY. Similarities between this structure and that of HLA-B*0801:FLRGRAYGL may facilitate cross-recognition by JL12. Moreover, the elevated peptide position in HLA-B*3501:KPIVVLHGY would provide steric hindrance to LC13, preventing it from interacting in the manner in which it interacts with HLA-B*0801:FLRGRAYGL. These findings are relevant to understanding the basis of T cell cross-reactivity in allo-recognition, optimal transplant donor-recipient matching and developing specific molecular inhibitors of allo-recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "CS",
+                    "lastname": "Hourigan",
+                    "name": "Hourigan CS"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Harkiolaki",
+                    "name": "Harkiolaki M"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Peterson",
+                    "name": "Peterson NA"
+                },
+                {
+                    "initials": "JI",
+                    "lastname": "Bell",
+                    "name": "Bell JI"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "O'Callaghan",
+                    "name": "O'Callaghan CA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/eji.200636234",
+                    "type": "doi"
+                },
+                {
+                    "id": "17109469",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "Eur. J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "3288-93"
+            ],
+            "title": "The structure of the human allo-ligand HLA-B*3501 in complex with a cytochrome p450 peptide: steric hindrance influences TCR allo-recognition.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/eji.200636234",
+            "volume": [
+                "36"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.75",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2cik"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2cik"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:01 binding \"KPIVVLHGY\" at 1.75&#8491; resolution",
+    "unique_chain_count": 3
+}

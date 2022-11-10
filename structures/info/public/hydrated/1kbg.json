@@ -1,0 +1,169 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1kbg_1",
+            "chains": [
+                "H",
+                "L",
+                "P",
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:40:03.753103"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "L"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RGYVYMGL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1998-08-28",
+        "deposition_year": 1998,
+        "release_date": "1999-02-09",
+        "release_year": 1999,
+        "revision_date": "2021-11-03",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1KBG | H2-Kb binding \"RGYVYMGL\"",
+    "pdb_code": "1kbg",
+    "pdb_title": "Mhc Class I h-2kb presented glycopeptide rgy8-6h-gal2",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "RGYVYXGL",
+            "chain_id": "P",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 8,
+            "full_sequence": "RGYVYMGL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RGYVYMGL",
+    "publication": {
+        "abstract": "T cell receptor (TCR) recognition of nonpeptidic and modified peptide antigens has been recently uncovered but is still poorly understood. Immunization with an H-2Kb-restricted glycopeptide RGY8-6H-Gal2 generates a population of cytotoxic T cells that express both alpha/beta TCR, specific for glycopeptide, and gamma/delta TCR, specific for the disaccharide, even on glycolipids. The crystal structure of Kb/RGY8-6H-Gal2 now demonstrates that the peptide and H-2Kb structures are unaffected by the peptide glycosylation, but the central region of the putative TCR binding site is dominated by the extensive exposure of the tethered carbohydrate. These features of the Kb/RGY8-6H-Gal2 structure are consistent with the individual ligand binding preferences identified for the alpha/beta and gamma/delta TCRs and thus explain the generation of a carbohydrate-specific T cell response.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JA",
+                    "lastname": "Speir",
+                    "name": "Speir JA"
+                },
+                {
+                    "initials": "UM",
+                    "lastname": "Abdel-Motal",
+                    "name": "Abdel-Motal UM"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Jondal",
+                    "name": "Jondal M"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s1074-7613(00)80006-0",
+                    "type": "doi"
+                },
+                {
+                    "id": "10023770",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "51-61"
+            ],
+            "title": "Crystal structure of an MHC class I presented glycopeptide that generates carbohydrate-specific CTL.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761300800060",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                1999
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.20",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1kbg"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1kbg"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"RGYVYMGL\" at 2.20&#8491; resolution",
+    "unique_chain_count": 3
+}

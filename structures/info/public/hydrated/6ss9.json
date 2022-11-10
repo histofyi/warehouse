@@ -1,0 +1,209 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6ss9_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:39.911869"
+        },
+        "2": {
+            "assembly_name": "6ss9_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:29:40.340089"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLWNGPMHV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-09-06",
+        "deposition_year": 2019,
+        "release_date": "2020-07-15",
+        "release_year": 2020,
+        "revision_date": "2020-07-22",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6SS9 | HLA-A*02:01 binding \"LLWNGPMHV\"",
+    "pdb_code": "6ss9",
+    "pdb_title": "Human leukocyte antigen Class I a02 carrying LLWNGPMHV",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LLWNGPMHV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLWNGPMHV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "LLWNGPMHV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLWNGPMHV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LLWNGPMHV",
+    "publication": {
+        "abstract": "The CD8 T cell response to the HLA-A2-restricted epitope LLWNGPMAV (LLW) of the non-structural protein 4b of Yellow Fever Virus (YFV) is remarkably immunodominant, highly prevalent and powerful in YFV-vaccinated humans. Here we used a combinatorial peptide library screening in the context of an A2/LLW-specific CD8 T cell clone to identify a superagonist that features a methionine to isoleucine substitution at position 7. Based on in silico modeling, the functional enhancement of this LLW-7I mutation was associated with alterations in the structural dynamics of the peptide in the major histocompatibility complex (pMHC) binding with the T cell receptor (TCR). While the TCR off-rate of LLW-7I pMHC is comparable to the wild type peptide, the rigidity of the 7I peptide seems to confer less entropy loss upon TCR binding. This LLW-7I superagonist is an example of improved functionality in human CD8 T cells associated with optimized ligand rigidity for TCR binding and not with changes in TCR:pMHC off-rate kinetics.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "A",
+                    "lastname": "Bovay",
+                    "name": "Bovay A"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Zoete",
+                    "name": "Zoete V"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Beck",
+                    "name": "Beck K"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Delbreil",
+                    "name": "Delbreil P"
+                },
+                {
+                    "initials": "DE",
+                    "lastname": "Speiser",
+                    "name": "Speiser DE"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Fuertes Marraco",
+                    "name": "Fuertes Marraco SA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.molimm.2020.06.025",
+                    "type": "doi"
+                },
+                {
+                    "id": "32645549",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Mol. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "43-50"
+            ],
+            "title": "Identification of a superagonist variant of the immunodominant Yellow fever virus epitope NS4b <sub>214-222</sub> by combinatorial peptide library screening.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S016158902030403X",
+            "volume": [
+                "125"
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6ss9"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6ss9"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"LLWNGPMHV\" at 2.70&#8491; resolution",
+    "unique_chain_count": 3
+}

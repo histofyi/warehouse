@@ -1,0 +1,199 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01897",
+            "locus": "h2-l",
+            "match_type": "histo:exact",
+            "name": "H2-Ld",
+            "slug": "h2_ld",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1ld9_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:31.191846"
+        },
+        "2": {
+            "assembly_name": "1ld9_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:31:31.937052"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GPHSMRYFETAVSRPGLGEPRYISVGYVDNKEFVRFDSDAENPRYEPQAPWMEQEGPEYWERITQIAKGQEQWFRVNLRTLLGYYNQSAGGTHTLQWMYGCDVGSDGRLLRGYEQFAYDGCDYIALNEDLKTWTAADMAAQITRRKWEQAGAAEYYRAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YPNVNIHNF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1997-04-24",
+        "deposition_year": 1997,
+        "release_date": "1998-05-06",
+        "release_year": 1998,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-l",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1LD9 | H2-Ld binding \"YPNVNIHNF\"",
+    "pdb_code": "1ld9",
+    "pdb_title": "The three-dimensional structure of an H-2Ld-peptide complex explains the unique interaction of Ld with beta-2 microglobulin and peptide.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "YPNVNIHNF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YPNVNIHNF"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "YPNVNIHNF",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YPNVNIHNF"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YPNVNIHNF",
+    "publication": {
+        "abstract": "Solution at 2.5-A resolution of the three-dimensional structure of H-2Ld with a single nine-residue peptide provides a structural basis for understanding its unique interaction with beta-2 microglobulin (beta2m) and peptide. Consistent with the biological data that show an unusually weak association of Ld with beta2m, a novel orientation of the alpha1/alpha2 domains of Ld relative to beta2m results in a dearth of productive contacts compared with other class I proteins. Characteristics of the Ld antigen-binding cleft determine the unique motif of peptides that it binds. Ld has no central anchor residue due to the presence of several bulky side chains in its mid-cleft region. Also, its cleft is significantly more hydrophobic than that of the other class I molecules for which structures are known, resulting in many fewer H-bonds between peptide and cleft residues. The choice of Pro as a consensus anchor at peptide position 2 appears to be related to the hydrophobicity of the B pocket, and to the unique occurrence of Ile (which mirrors Pro in its inability to form H-bonds) at position 63 on the edge of this pocket. Thus, the paucity of stabilizing H-bonds combined with poor complementarity between peptide postion 2 Pro and the B pocket contribute to the weak association between Ld and its peptide antigen. The unique structural interactions of Ld with beta2m and peptide could make Ld more suited than other classical class I molecules to play a role in alternative pathways of antigen presentation.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "GK",
+                    "lastname": "Balendiran",
+                    "name": "Balendiran GK"
+                },
+                {
+                    "initials": "JC",
+                    "lastname": "Solheim",
+                    "name": "Solheim JC"
+                },
+                {
+                    "initials": "AC",
+                    "lastname": "Young",
+                    "name": "Young AC"
+                },
+                {
+                    "initials": "TH",
+                    "lastname": "Hansen",
+                    "name": "Hansen TH"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Nathenson",
+                    "name": "Nathenson SG"
+                },
+                {
+                    "initials": "JC",
+                    "lastname": "Sacchettini",
+                    "name": "Sacchettini JC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.94.13.6880",
+                    "type": "doi"
+                },
+                {
+                    "id": "9192660",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "13"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "6880-5"
+            ],
+            "title": "The three-dimensional structure of an H-2Ld-peptide complex explains the unique interaction of Ld with beta-2 microglobulin and peptide.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.94.13.6880",
+            "volume": [
+                "94"
+            ],
+            "year": [
+                1997
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1ld9"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1ld9"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Ld binding \"YPNVNIHNF\" at 2.40&#8491; resolution",
+    "unique_chain_count": 3
+}

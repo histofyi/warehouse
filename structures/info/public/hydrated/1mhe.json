@@ -1,0 +1,208 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34073",
+            "locus": "hla-e",
+            "match_type": "histo:exact",
+            "name": "HLA-E*01:01",
+            "slug": "hla_e_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1mhe_1",
+            "chains": [
+                "A",
+                "C",
+                "B",
+                "D",
+                "P",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:31:51.700621"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GSHSLKYFHTSVSRPGRGEPRFISVGYVDDTQFVRFDNDAASPRMVPRAPWMEQEGSEYWDRETRSARDTAQIFRVNLRTLRGYYNQSEAGSHTLQWMHGCELGPDRRFLRGYEQFAYDGKDYLTLNEDLRSWTAVDTAAQISEQKSNDASEAEHQRAYLEDTCVEWLHKYLEKGKETLLHLEPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQQDGEGHTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPVTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VMAPRTVLL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1998-08-24",
+        "deposition_year": 1998,
+        "release_date": "1999-03-23",
+        "release_year": 1999,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-e",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1MHE | HLA-E*01:01 binding \"VMAPRTVLL\"",
+    "pdb_code": "1mhe",
+    "pdb_title": "The human non-classical major histocompatibility complex molecule hla-e",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "VMAPRTVLL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VMAPRTVLL"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "VMAPRTVLL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VMAPRTVLL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VMAPRTVLL",
+    "publication": {
+        "abstract": "The crystal structure of the nonclassical human class lb MHC molecule HLA-E has been determined in complex with a prototypic ligand, the nonamer peptide (VMAPRTVLL), derived from the highly conserved residues 3-11 of the human MHC class la leader sequence. The mode of peptide binding retains some of the standard features observed in MHC class la complexes, but novel features imply that HLA-E has evolved to mediate specific binding to a tightly defined set of almost identical hydrophobic peptides from the highly conserved class l leader sequences. These molecular adaptations make HLA-E a rigorous checkpoint at the cell surface reporting on the integrity of the antigen processing pathway to CD94/NKG2 receptor-bearing natural killer cells.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "CA",
+                    "lastname": "O'Callaghan",
+                    "name": "O'Callaghan CA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Tormo",
+                    "name": "Tormo J"
+                },
+                {
+                    "initials": "BE",
+                    "lastname": "Willcox",
+                    "name": "Willcox BE"
+                },
+                {
+                    "initials": "VM",
+                    "lastname": "Braud",
+                    "name": "Braud VM"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Stuart",
+                    "name": "Stuart DI"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "JI",
+                    "lastname": "Bell",
+                    "name": "Bell JI"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s1097-2765(00)80053-2",
+                    "type": "doi"
+                },
+                {
+                    "id": "9660937",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "Mol. Cell",
+                "name": ""
+            },
+            "pages": [
+                "531-41"
+            ],
+            "title": "Structural features impose tight peptide binding specificity in the nonclassical MHC molecule HLA-E.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1097276500800532",
+            "volume": [
+                "1"
+            ],
+            "year": [
+                1998
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.85",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1mhe"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1mhe"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-E*01:01 binding \"VMAPRTVLL\" at 2.85&#8491; resolution",
+    "unique_chain_count": 3
+}

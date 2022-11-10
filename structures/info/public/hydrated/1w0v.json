@@ -1,0 +1,192 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34811",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:05",
+            "slug": "hla_b_27_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1w0v_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:43.443637"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFITVGYVDDTLFVRFDSDAASPREEPRAPWIEQEGPEYWDRETQICKAKAQTDREDLRTLLRYYNQSEAGSHTLQNMYGCDVGPDGRLLRGYHQDAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGECVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RRLPIFSRL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2004-06-14",
+        "deposition_year": 2004,
+        "release_date": "2005-03-07",
+        "release_year": 2005,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1W0V | HLA-B*27:05 binding \"RRLPIFSRL\"",
+    "pdb_code": "1w0v",
+    "pdb_title": "Crystal structure of hla-b*2705 complexed with the self-peptide tis from egf-response factor 1",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RRLPIFSRL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RRLPIFSRL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RRLPIFSRL",
+    "publication": {
+        "abstract": "The F pocket of major histocompatibility complex (in humans HLA) class I molecules accommodates the C terminus of the bound peptide. Residues forming this pocket exhibit considerable polymorphism, and a single difference (Asp116 in HLA-B*2705 and His116 in HLA-B*2709 heavy chains) confers differential association of these two HLA-B27 subtypes to the autoimmune disease ankylosing spondylitis. As peptide presentation by HLA molecules is of central importance for immune responses, we performed thermodynamic (circular dichroism, differential scanning calorimetry, fluorescence polarization) and X-ray crystallographic analyses of both HLA-B27 subtypes complexed with the epidermal growth factor response factor 1-derived self-peptide TIS (RRLPIFSRL) to understand the impact of the Asp116His exchange on peptide display. This peptide is known to be presented in vivo by both subtypes, and as expected for a self-peptide, TIS-reactive cytotoxic T lymphocytes are absent in the respective individuals. The thermodynamic analyses reveal that both HLA-B27:TIS complexes exhibit comparable, relatively high thermostability (Tm approximately 60 degrees C) and undergo multi-step unfolding reactions, with dissociation of the peptide in the first step. As shown by X-ray crystallography, only subtle structural differences between the subtypes were observed regarding the architecture of their F pockets, including the presence of distinct networks of water molecules. However, no consistent structural differences were found between the peptide presentation modes. In contrast to other peptides displayed by the two HLA-subtypes which show either structural or dynamical differences in their peptide presentation modes, the TIS-complexed HLA-B*2705 and HLA-B*2709 subtypes are an example for thermodynamic and structural equivalence, in agreement with functional data.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "H\u00fclsmeyer",
+                    "name": "H\u00fclsmeyer M"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Welfle",
+                    "name": "Welfle K"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "P\u00f6hlmann",
+                    "name": "P\u00f6hlmann T"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Misselwitz",
+                    "name": "Misselwitz R"
+                },
+                {
+                    "initials": "U",
+                    "lastname": "Alexiev",
+                    "name": "Alexiev U"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Welfle",
+                    "name": "Welfle H"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Saenger",
+                    "name": "Saenger W"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Uchanska-Ziegler",
+                    "name": "Uchanska-Ziegler B"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Ziegler",
+                    "name": "Ziegler A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.jmb.2004.12.047",
+                    "type": "doi"
+                },
+                {
+                    "id": "15713487",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "1367-79"
+            ],
+            "title": "Thermodynamic and structural equivalence of two HLA-B27 subtypes complexed with a self-peptide.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283604016171",
+            "volume": [
+                "346"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.27",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1w0v"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1w0v"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*27:05 binding \"RRLPIFSRL\" at 2.27&#8491; resolution",
+    "unique_chain_count": 3
+}

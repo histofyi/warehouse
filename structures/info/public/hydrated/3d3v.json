@@ -1,0 +1,225 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3d3v_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:34:45.315917"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "LLFGFPVYV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "KEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMSIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVTTDSWGKLQFGAGTQVVVTPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKTVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHEYMSWYRQDPGMGLRLIHYSVGAGITDQGEVPNGYNVSRSTTEDFPLRLLSAAPSQTSVYFCASRPGLAGGRPEQYFGPGTRLTVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVSTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-05-12",
+        "deposition_year": 2008,
+        "release_date": "2009-06-16",
+        "release_year": 2009,
+        "revision_date": "2015-01-21",
+        "revision_year": 2015
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3D3V | HLA-A*02:01 presenting \"LLFGFPVYV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "3d3v",
+    "pdb_title": "The complex between TCR a6 and human Class I MHC hla-a2 with the modified htlv-1 tax (y5(3,4-difluorophenylalanine)) peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "LLFGXPVYV",
+            "chain_id": "C",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "LLFGFPVYV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "LLFGFPVYV",
+    "publication": {
+        "abstract": "TCR (T-cell receptor) recognition of antigenic peptides bound and presented by MHC (major histocompatibility complex) molecules forms the basis of the cellular immune response to pathogens and cancer. TCRs bind peptide-MHC complexes weakly and with fast kinetics, features which have hindered detailed biophysical studies of these interactions. Modified peptides resulting in enhanced TCR binding could help overcome these challenges. Furthermore, there is considerable interest in using modified peptides with enhanced TCR binding as the basis for clinical vaccines. In the present study, we examined how fluorine substitutions in an antigenic peptide can selectively impact TCR recognition. Using a structure-guided design approach, we found that fluorination of the Tax peptide [HTLV (human T-cell lymphotropic virus)-1 Tax(11-19)] enhanced binding by the Tax-specific TCR A6, yet weakened binding by the Tax-specific TCR B7. The changes in affinity were consistent with crystallographic structures and fluorine chemistry, and with the A6 TCR independent of other substitutions in the interface. Peptide fluorination thus provides a means to selectively modulate TCR binding affinity without significantly perturbing peptide composition or structure. Lastly, we probed the mechanism of fluorine's effect on TCR binding and we conclude that our results were most consistent with a 'polar hydrophobicity' mechanism, rather than a purely hydrophobic- or electrostatic-based mechanism. This finding should have an impact on other attempts to alter molecular recognition with fluorine.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "KH",
+                    "lastname": "Piepenbrink",
+                    "name": "Piepenbrink KH"
+                },
+                {
+                    "initials": "OY",
+                    "lastname": "Borbulevych",
+                    "name": "Borbulevych OY"
+                },
+                {
+                    "initials": "RF",
+                    "lastname": "Sommese",
+                    "name": "Sommese RF"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Clemens",
+                    "name": "Clemens J"
+                },
+                {
+                    "initials": "KM",
+                    "lastname": "Armstrong",
+                    "name": "Armstrong KM"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Desmond",
+                    "name": "Desmond C"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Do",
+                    "name": "Do P"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "Baker",
+                    "name": "Baker BM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1042/BJ20090732",
+                    "type": "doi"
+                },
+                {
+                    "id": "19698083",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Biochem. J.",
+                "name": ""
+            },
+            "pages": [
+                "353-61"
+            ],
+            "title": "Fluorine substitutions in an antigenic peptide selectively modulate T-cell receptor binding in a minimally perturbing manner.",
+            "type": "article",
+            "url": "https://portlandpress.com/biochemj/article/423/3/353/79709/Fluorine-substitutions-in-an-antigenic-peptide",
+            "volume": [
+                "423"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3d3v"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3d3v"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3d3v"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "3d3v"
+    },
+    "title": "HLA-A*02:01 presenting \"LLFGFPVYV\" to Alpha/Beta T cell receptor at 2.80&#8491; resolution",
+    "unique_chain_count": 5
+}

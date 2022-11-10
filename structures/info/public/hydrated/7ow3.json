@@ -1,0 +1,215 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7ow3_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:30:52.782212"
+        },
+        "2": {
+            "assembly_name": "7ow3_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:30:53.263783"
+        },
+        "3": {
+            "assembly_name": "7ow3_3",
+            "chains": [
+                "G",
+                "H",
+                "I"
+            ],
+            "downloaded_at": "2022-11-09T14:30:53.565168"
+        },
+        "4": {
+            "assembly_name": "7ow3_4",
+            "chains": [
+                "J",
+                "K",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:30:53.947879"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E",
+                "H",
+                "K"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D",
+                "G",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F",
+                "I",
+                "L"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VVVGAGGVGK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-06-16",
+        "deposition_year": 2021,
+        "release_date": "2022-07-20",
+        "release_year": 2022,
+        "revision_date": "2022-10-12",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7OW3 | HLA-A*11:01 binding \"VVVGAGGVGK\"",
+    "pdb_code": "7ow3",
+    "pdb_title": "Crystal structure of HLA-A*11:01 in complex with KRAS peptide (VVVGAGGVGK)",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "VVVGAGGVGK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "VVVGAGGVGK"
+        },
+        "F": {
+            "actual_length": 7,
+            "actual_sequence": "VVVGVGK",
+            "chain_id": "F",
+            "features": [
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 10,
+            "full_sequence": "VVVGAGGVGK",
+            "gap_ends_at": 8,
+            "gap_length": 3,
+            "gap_sequence": "AGG",
+            "gap_start_after": 4,
+            "gapped_sequence": "VVVG---VGK"
+        },
+        "I": {
+            "actual_length": 6,
+            "actual_sequence": "VVVVGK",
+            "chain_id": "I",
+            "features": [
+                "central_gap",
+                "short_peptide"
+            ],
+            "full_length": 10,
+            "full_sequence": "VVVGAGGVGK",
+            "gap_ends_at": 8,
+            "gap_length": 4,
+            "gap_sequence": "GAGG",
+            "gap_start_after": 3,
+            "gapped_sequence": "VVV----VGK"
+        },
+        "L": {
+            "actual_length": 10,
+            "actual_sequence": "VVVGAGGVGK",
+            "chain_id": "L",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "VVVGAGGVGK"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "VVVGAGGVGK",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Coles, C.H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Karuppiah, V."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Robinson, R.A."
+                }
+            ],
+            "identifier": [],
+            "title": "Crystal structure of HLA-A*11:01 in complex with KRAS peptide (VVVGAGGVGK)",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.46",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7ow3"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7ow3"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"VVVGAGGVGK\" at 2.46&#8491; resolution",
+    "unique_chain_count": 3
+}

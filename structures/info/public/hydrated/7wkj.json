@@ -1,0 +1,187 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34732",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*11:01",
+            "slug": "hla_a_11_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7wkj_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:26:32.216372"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHAAEQQRAYLEGRCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KTFPPTEPK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2022-01-10",
+        "deposition_year": 2022,
+        "release_date": "2022-03-02",
+        "release_year": 2022,
+        "revision_date": "2022-03-09",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7WKJ | HLA-A*11:01 binding \"KTFPPTEPK\"",
+    "pdb_code": "7wkj",
+    "pdb_title": "A COVID-19 T-Cell Response Detection Method Based on a Newly Identified Human CD8<sub>+</sub> T Cell Epitope from SARS-CoV-2 - Hubei Province, China, 2021.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "KTFPPTEPK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KTFPPTEPK"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KTFPPTEPK",
+    "publication": {
+        "abstract": "<h4>Introduction</h4>Similar to antibody detection, severe acute respiratory syndrome coronavirus type 2 (SARS-CoV-2)-specific T-cell response evaluation is also pivotal among the coronavirus disease 2019 (COVID-19) convalescents and the vaccinated populations. Nucleocapsid (N) protein is one of the main structural proteins of SARS-CoV-2 and can trigger T-cell responses in humans.<h4>Methods</h4>An overlapping peptide pool covering the full length of the N protein was designed, peptides with positive T-cell activating potency in COVID-19 convalescents were screened, and CD8<sup>+</sup> T cell epitopes were further identified. The epitope was used to detect the SARS-CoV-2-specific CD8<sup>+</sup> T cell responses in COVID-19 convalescents based in intracellular cytokine staining and tetramer staining in flow cytometry.<h4>Results</h4>A human leukocyte antigen A (HLA-A)*1101-restricted CD8<sup>+</sup> T cell epitope, which could stimulate the production of IFN-\u03b3 via peripheral blood mononuclear cells (PBMCs) of the convalescents was defined, and the tetramer generated with this epitope could detect SARS-CoV-2-specific T cells in the PBMCs of the convalescents. The structural investigation eliminated that the epitope was a typical HLA-A*1101-restricted T-cell epitope which was conserved among all the sarbecoviruses.<h4>Discussion</h4>The newly identified SARS-CoV-2-derived T-cell epitope was helpful to detect the cellular immunity against different sarbecoviruses including SARS-CoV and SARS-CoV-2. This study provided an evaluation method and also a peptide candidate for the research and development of T-cell based vaccine for the virus.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Zhang",
+                    "name": "Zhang J"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Lu",
+                    "name": "Lu D"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Li",
+                    "name": "Li M"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Liu",
+                    "name": "Liu M"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Yao",
+                    "name": "Yao S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Zhan",
+                    "name": "Zhan J"
+                },
+                {
+                    "initials": "WJ",
+                    "lastname": "Liu",
+                    "name": "Liu WJ"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.46234/ccdcw2021.258",
+                    "type": "doi"
+                },
+                {
+                    "id": "35186375",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "China CDC Wkly",
+                "name": ""
+            },
+            "pages": [
+                "83-87"
+            ],
+            "title": "A COVID-19 T-Cell Response Detection Method Based on a Newly Identified Human CD8<sub>+</sub> T Cell Epitope from SARS-CoV-2 - Hubei Province, China, 2021.",
+            "type": "article",
+            "url": "http://weekly.chinacdc.cn/en/article/doi/10.46234/ccdcw2021.258",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7wkj"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7wkj"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*11:01 binding \"KTFPPTEPK\" at 1.50&#8491; resolution",
+    "unique_chain_count": 3
+}

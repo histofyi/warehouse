@@ -1,0 +1,228 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1g6r_1",
+            "chains": [
+                "A",
+                "B",
+                "H",
+                "L",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:43:42.553119"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "L",
+                "M"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "H",
+                "I"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SIYRYYGL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QSVTQPDARVTVSEGASLQLRCKYSYSATPYLFWYVQYPRQGLQLLLKYYSGDPVVQGVNGFEAEFSKSNSSFHLRKASVHWSDSAVYFCAVSGFASALTFGSGTKVIVLPYIQNPEPAVYALKDPRSQDSTLCLFTDFDSQINVPKTMESGTFITDATVLDMKAMDSKSNGAIAWSNQTSFTCQDIFKETNATYPSSDVPC",
+            "subgroup": "TRAV9"
+        },
+        "tcr_beta": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "EAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGGGGTLYFGAGTRLSVLEDLRNVTPPKVSLFEPSKAEIANKQKATLVCLARGFFPDHVELSWWVNGKEVHSGVSTDPQAYKESNYSYCLSSRLRVSATFWHNPRNHFRCQVQFHGLSEEDKWPEGSPKPVTQNISAEAWGRADC",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2000-11-07",
+        "deposition_year": 2000,
+        "release_date": "2000-11-15",
+        "release_year": 2000,
+        "revision_date": "2018-01-31",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1G6R | H2-Kb presenting \"SIYRYYGL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "1g6r",
+    "pdb_title": "A functional hot spot for antigen recognition in a superagonist TCR/MHC complex.",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "SIYRYYGL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SIYRYYGL"
+        },
+        "Q": {
+            "actual_length": 8,
+            "actual_sequence": "SIYRYYGL",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SIYRYYGL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "SIYRYYGL",
+    "publication": {
+        "abstract": "A longstanding question in T cell receptor signaling is how structurally similar ligands, with similar affinities, can have substantially different biological activity. The crystal structure of the 2C TCR complex of H-2Kb with superagonist peptide SIYR at 2.8 A elucidates a structural basis for TCR discrimination of altered peptide ligands. The difference in antigen potency is modulated by two cavities in the TCR combining site, formed mainly by CDRs 3alpha, 3beta, and 1beta, that complement centrally located peptide residues. This \"functional hot spot\" allows the TCR to finely discriminate amongst energetically similar interactions within different ligands for those in which the peptide appropriately stabilizes the TCR/pMHC complex and provides a new structural perspective for understanding differential signaling resulting from T cell cross-reactivity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Degano",
+                    "name": "Degano M"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Garcia",
+                    "name": "Garcia KC"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Apostolopoulos",
+                    "name": "Apostolopoulos V"
+                },
+                {
+                    "initials": "MG",
+                    "lastname": "Rudolph",
+                    "name": "Rudolph MG"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Teyton",
+                    "name": "Teyton L"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s1074-7613(00)80178-8",
+                    "type": "doi"
+                },
+                {
+                    "id": "10755612",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "251-61"
+            ],
+            "title": "A functional hot spot for antigen recognition in a superagonist TCR/MHC complex.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761300801788",
+            "volume": [
+                "12"
+            ],
+            "year": [
+                2000
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1g6r"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1g6r"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=1g6r"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "A"
+            ],
+            "subgroup": "TRAV9"
+        },
+        "beta": {
+            "chains": [
+                "B"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "1g6r"
+    },
+    "title": "H2-Kb presenting \"SIYRYYGL\" to Alpha/Beta T cell receptor at 2.80&#8491; resolution",
+    "unique_chain_count": 5
+}

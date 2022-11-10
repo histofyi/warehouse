@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6x00_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:27:07.302027"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEPPPST"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SGPDNGAVAVL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-05-14",
+        "deposition_year": 2020,
+        "release_date": "2020-09-16",
+        "release_year": 2020,
+        "revision_date": "2020-10-07",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6X00 | H2-Db binding \"SGPDNGAVAVL\"",
+    "pdb_code": "6x00",
+    "pdb_title": "Structure of dbna(11) peptides bound to h-2db MHC-i",
+    "peptide": {
+        "C": {
+            "actual_length": 11,
+            "actual_sequence": "SGPDNGAVAVL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 11,
+            "full_sequence": "SGPDNGAVAVL"
+        }
+    },
+    "peptide_length": 11,
+    "peptide_length_name": "undecamer",
+    "peptide_sequence": "SGPDNGAVAVL",
+    "publication": {
+        "abstract": "The presentation of pathogen-derived peptides on MHC class I molecules is essential for the initiation of adaptive CD8<sup>+</sup> T cell immunity, which in turn is critical for effective control of many significant human infections. The identification of immunogenic pathogen-derived epitopes and a detailed understanding of how they are recognized by TCRs is essential for the design of effective T cell-based vaccines. In this study, we have characterized the T cell recognition and immune responses in mice to two naturally presented influenza A virus-derived peptides previously identified from virally infected cells via mass spectrometry. These neuraminidase-derived peptides, NA<sub>181-190</sub> (SGPDNGAVAV) and NA<sub>181-191</sub> (SGPDNGAVAVL), are completely overlapping with the exception of a 1 aa extension at the C terminus of the longer peptide. This minor peptidic difference results in the induction of two completely independent and non-cross-reactive T cell populations that show distinct functional characteristics after influenza A virus infection of B6 mice. We show that the unique TCR reactivity to the overlapping peptides is present in the naive repertoire prior to immune expansion in B6 mice. Moreover, we provide a structural explanation underlying the distinct CD8<sup>+</sup> T cell reactivities, which reinforces the concept that peptide length is a key determinant of Ag specificity in CD8<sup>+</sup> T cell responses.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LM",
+                    "lastname": "Assmus",
+                    "name": "Assmus LM"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Guan",
+                    "name": "Guan J"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Wu",
+                    "name": "Wu T"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Farenc",
+                    "name": "Farenc C"
+                },
+                {
+                    "initials": "XYX",
+                    "lastname": "Sng",
+                    "name": "Sng XYX"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Zareie",
+                    "name": "Zareie P"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen A"
+                },
+                {
+                    "initials": "AT",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen AT"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Tscharke",
+                    "name": "Tscharke DC"
+                },
+                {
+                    "initials": "PG",
+                    "lastname": "Thomas",
+                    "name": "Thomas PG"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "NP",
+                    "lastname": "Croft",
+                    "name": "Croft NP"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "NL",
+                    "lastname": "La Gruta",
+                    "name": "La Gruta NL"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.2000689",
+                    "type": "doi"
+                },
+                {
+                    "id": "32868409",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Overlapping Peptides Elicit Distinct CD8<sub>+</sub> T Cell Responses following Influenza A Virus Infection.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.2000689",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.55",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6x00"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6x00"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"SGPDNGAVAVL\" at 1.55&#8491; resolution",
+    "unique_chain_count": 3
+}

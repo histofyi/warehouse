@@ -1,0 +1,196 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34781",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*42:01",
+            "slug": "hla_b_42_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7dzn_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:27:13.994558"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "MGGSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIYKAQAQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARVAEQDRAYLEGTCVEWLRRYLENGKDTLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "TPQDLNTML"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGDAKTTQPPSMDCAEGRAANLPCNHSTISGNEYVYWYRQIHSQGPQYIIHGLKNNETNEMASLIITEDRKSSTLILPHATLRDTAVYYCIVRGLNNAGNMLTFGGGTRLMVKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPS",
+            "subgroup": "TRAV26"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGDAGVIQSPRHEVTEMGQEVTLRCKPISGHNSLFWYRQTMMRGLELLIYFNNNVPIDDSGMPEDRFSAKMPNASFSTLKIQPSEPRDSAVYFCASSLGIDAIYFGEGSWLTVVEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV12"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-01-25",
+        "deposition_year": 2021,
+        "release_date": "2022-01-26",
+        "release_year": 2022,
+        "revision_date": "2022-01-26",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7DZN | HLA-B*42:01 presenting \"TPQDLNTML\" to Alpha/Beta T cell receptor",
+    "pdb_code": "7dzn",
+    "pdb_title": "Crystal structure of the cross-restricted t18a TCR and hlab4201 bound to hiv-1 gag tl9 peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "TPQDLNTML",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "TPQDLNTML"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "TPQDLNTML",
+    "publication": {
+        "abstract": "<h4>ABSTRACT</h4> Although both HLA B*81:01 and HLA B*42:01 are members of the B7 supertype and can present many of the same HIV-1 epitopes, the identification of a dual-reactive T-cell phenotype was unexpected, since structural data suggested that TL9 peptide binds to each allele in a distinct conformation. How the dual-reactive TCR recognizes these radically distinct p-MHC surfaces is revealed by our structural study, that the introduction of TCR T18A induces a molecular switch of the TL9 peptide in B4201 to approach its conformation in B8101. Most importantly, unique docking of CDR3\u03b2 towards MHC but not peptide ligand strengthens the peptide tolerance of T18A, extends the ability of TCR to adapt mutations. Moreover, the high affinity of dual-reactive TCR for WT and escape mutant TL9 highlights the functional advantage of the alloreactive phenotype.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Liu, Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "San, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Yin, L."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1101/2021.06.06.447276",
+                    "type": "doi"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "-"
+            ],
+            "title": "Cross-reactive TCR with alloreactivity for immunodominant HIV-1 epitope Gag TL9 with enhanced control of viral infection",
+            "type": "article",
+            "url": "http://biorxiv.org/lookup/doi/10.1101/2021.06.06.447276",
+            "volume": [
+                null
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.63",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7dzn"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7dzn"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=7dzn"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRAV26"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV12"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "7dzn"
+    },
+    "title": "HLA-B*42:01 presenting \"TPQDLNTML\" to Alpha/Beta T cell receptor at 2.63&#8491; resolution",
+    "unique_chain_count": 5
+}

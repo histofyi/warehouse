@@ -1,0 +1,181 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08576",
+            "locus": "gaga-bf2",
+            "match_type": "histo:exact",
+            "name": "Gaga-BF2*015:01",
+            "slug": "gaga_bf2_015_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1gzq_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:45:28.320166"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "cd1b": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MGSEHAFQGPTSFHVIQTSSFTNSTWAQTQGSGWLDDLQIHGWDSDSGTAIFLKPWSKGNFSDKEVAELEEIFRVYIFGFAREVQDFAGDFQMKYPFEIQGIAGCELHSGGAIVSFLRGALGGLDFLSVKNASCVPSPEGGSRAQKFCALIIQYQGIMETVRILLYETCPRYLLGVLNAGKADLQRQVKPEAWLSSGPSPGPGRLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQLGDILPNANWTWYLRATLDVADGEAAGLSCRVKHSSLEGQDIILYWGPGSGGGLNDIFEAQKIEWH"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2002-05-24",
+        "deposition_year": 2002,
+        "release_date": "2002-07-31",
+        "release_year": 2002,
+        "revision_date": "2019-05-08",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1b",
+    "components": [
+        "cd1b",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1GZQ | Non-classical MHC Class I molecule CD1b",
+    "pdb_code": "1gzq",
+    "pdb_title": "Cd1b in complex with phophatidylinositol",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The human genome encodes five nonpolymorphic major histocompatibility complex class I-like glycoproteins, CD1a to CD1e, that present lipid antigens for specific recognition by T lymphocytes. Using single alkyl chain detergents, we developed a protocol to generate recombinant human CD1b-lipid complexes. We present here the crystal structures of CD1b in complex with either phosphatidylinositol or ganglioside GM2 at 2.3 A and 2.8 A resolutions, respectively. The antigen-binding groove houses four interlinked hydrophobic channels that are occupied by the alkyl chains of the glycolipid plus two detergent molecules. A distinct exit beneath the alpha 2 helix further contributes to the plasticity of the binding groove. These structures reveal the mechanism by which two alkyl chain lipids bind to CD1b, and how CD1b can adapt to ligands of different alkyl chain length. They also suggest how very long alkyl chains, such as those of mycolic acid, could be fully contained within the binding groove. These results extend the spectrum of potential CD1b ligands by revealing that, in addition to two alkyl chain lipids, mono-alkyl and triple-alkyl chain lipids can be accommodated in the binding groove.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SD",
+                    "lastname": "Gadola",
+                    "name": "Gadola SD"
+                },
+                {
+                    "initials": "NR",
+                    "lastname": "Zaccai",
+                    "name": "Zaccai NR"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Harlos",
+                    "name": "Harlos K"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Shepherd",
+                    "name": "Shepherd D"
+                },
+                {
+                    "initials": "JC",
+                    "lastname": "Castro-Palomino",
+                    "name": "Castro-Palomino JC"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Ritter",
+                    "name": "Ritter G"
+                },
+                {
+                    "initials": "RR",
+                    "lastname": "Schmidt",
+                    "name": "Schmidt RR"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Cerundolo",
+                    "name": "Cerundolo V"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni821",
+                    "type": "doi"
+                },
+                {
+                    "id": "12118248",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "721-6"
+            ],
+            "title": "Structure of human CD1b with bound ligands at 2.3 A, a maze for alkyl chains.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni821",
+            "volume": [
+                "3"
+            ],
+            "year": [
+                2002
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.26",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1gzq"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1gzq"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1b at 2.26&#8491; resolution",
+    "unique_chain_count": 2
+}

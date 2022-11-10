@@ -1,0 +1,194 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6vr1_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:36:44.873551"
+        },
+        "2": {
+            "assembly_name": "6vr1_2",
+            "chains": [
+                "D",
+                "E",
+                "Q"
+            ],
+            "downloaded_at": "2022-11-09T14:36:45.309020"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "MGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEGGGLNDIFEAQKIEWHE"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "HMTEVVRRC"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2020-02-06",
+        "deposition_year": 2020,
+        "release_date": "2020-06-10",
+        "release_year": 2020,
+        "revision_date": "2020-06-24",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6VR1 | HLA-A*02:01 binding \"HMTEVVRRC\"",
+    "pdb_code": "6vr1",
+    "pdb_title": "Complex of hla-a2, a Class I MHC, with a p53 peptide",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "HMTEVVRRC",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "HMTEVVRRC"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "HMTEVVRRC",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "HMTEVVRRC"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "HMTEVVRRC",
+    "publication": {
+        "abstract": "Adoptive cell therapy (ACT) with tumor-specific T cells can mediate cancer regression. The main target of tumor-specific T cells are neoantigens arising from mutations in self-proteins. Although the majority of cancer neoantigens are unique to each patient, and therefore not broadly useful for ACT, some are shared. We studied oligoclonal T-cell receptors (TCRs) that recognize a shared neoepitope arising from a driver mutation in the p53 oncogene (p53R175H) presented by HLA-A2. Here we report structures of wild-type and mutant p53-HLA-A2 ligands, as well as structures of three tumor-specific TCRs bound to p53R175H-HLA-A2. These structures reveal how a driver mutation in p53 rendered a self-peptide visible to T cells. The TCRs employ structurally distinct strategies that are highly focused on the mutation to discriminate between mutant and wild-type p53. The TCR-p53R175H-HLA-A2 complexes provide a framework for designing TCRs to improve potency for ACT without sacrificing specificity.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "D",
+                    "lastname": "Wu",
+                    "name": "Wu D"
+                },
+                {
+                    "initials": "DT",
+                    "lastname": "Gallagher",
+                    "name": "Gallagher DT"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Gowthaman",
+                    "name": "Gowthaman R"
+                },
+                {
+                    "initials": "BG",
+                    "lastname": "Pierce",
+                    "name": "Pierce BG"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Mariuzza",
+                    "name": "Mariuzza RA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-020-16755-y",
+                    "type": "doi"
+                },
+                {
+                    "id": "32518267",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "2908"
+            ],
+            "title": "Structural basis for oligoclonal T cell recognition of a shared p53 cancer neoantigen.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-020-16755-y",
+            "volume": [
+                "11"
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.37",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6vr1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6vr1"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"HMTEVVRRC\" at 2.37&#8491; resolution",
+    "unique_chain_count": 3
+}

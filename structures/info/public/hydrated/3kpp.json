@@ -1,0 +1,242 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA30859",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*44:05",
+            "slug": "hla_b_44_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3kpp_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:33.978581"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFITVGYVDDTLFVRFDSDATSPRKEPRAPWIEQEGPEYWDRETQISKTNTQTYRENLRTALRYYNQSEAGSHIIQRMYGCDVGPDGRLLRGYDQYAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQDRAYLEGLCVESLRRYLENGKETLQRADPPKTHVTHHPISDHEVTLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EEYLQAFTY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-11-16",
+        "deposition_year": 2009,
+        "release_date": "2009-12-22",
+        "release_year": 2009,
+        "revision_date": "2017-10-11",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3KPP | HLA-B*44:05 binding \"EEYLQAFTY\"",
+    "pdb_code": "3kpp",
+    "pdb_title": "Crystal structure of hla b*4405 in complex with EEYLQAFTY a self peptide from the abcd3 protein",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "EEYLQAFTY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EEYLQAFTY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "EEYLQAFTY",
+    "publication": {
+        "abstract": "T cells often alloreact with foreign human leukocyte antigens (HLA). Here we showed the LC13 T cell receptor (TCR), selected for recognition on self-HLA-B( *)0801 bound to a viral peptide, alloreacts with B44 allotypes (HLA-B( *)4402 and HLA-B( *)4405) bound to two different allopeptides. Despite extensive polymorphism between HLA-B( *)0801, HLA-B( *)4402, and HLA-B( *)4405 and the disparate sequences of the viral and allopeptides, the LC13 TCR engaged these peptide-HLA (pHLA) complexes identically, accommodating mimicry of the viral peptide by the allopeptide. The viral and allopeptides adopted similar conformations only after TCR ligation, revealing an induced-fit mechanism of molecular mimicry. The LC13 T cells did not alloreact against HLA-B( *)4403, and the single residue polymorphism between HLA-B( *)4402 and HLA-B( *)4403 affected the plasticity of the allopeptide, revealing that molecular mimicry was associated with TCR specificity. Accordingly, molecular mimicry that is HLA and peptide dependent is a mechanism for human T cell alloreactivity between disparate cognate and allogeneic pHLA complexes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "WA",
+                    "lastname": "Macdonald",
+                    "name": "Macdonald WA"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "JK",
+                    "lastname": "Archbold",
+                    "name": "Archbold JK"
+                },
+                {
+                    "initials": "FE",
+                    "lastname": "Tynan",
+                    "name": "Tynan FE"
+                },
+                {
+                    "initials": "CS",
+                    "lastname": "Clements",
+                    "name": "Clements CS"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bharadwaj",
+                    "name": "Bharadwaj M"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "PM",
+                    "lastname": "Saunders",
+                    "name": "Saunders PM"
+                },
+                {
+                    "initials": "MC",
+                    "lastname": "Wilce",
+                    "name": "Wilce MC"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Crawford",
+                    "name": "Crawford F"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Stadinsky",
+                    "name": "Stadinsky B"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Jackson",
+                    "name": "Jackson D"
+                },
+                {
+                    "initials": "AG",
+                    "lastname": "Brooks",
+                    "name": "Brooks AG"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "JW",
+                    "lastname": "Kappler",
+                    "name": "Kappler JW"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Burrows",
+                    "name": "Burrows SR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.immuni.2009.09.025",
+                    "type": "doi"
+                },
+                {
+                    "id": "20064448",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "897-908"
+            ],
+            "title": "T cell allorecognition via molecular mimicry.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S107476130900510X",
+            "volume": [
+                "31"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3kpp"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3kpp"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*44:05 binding \"EEYLQAFTY\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

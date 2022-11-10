@@ -1,0 +1,114 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "",
+            "locus": "HLA-A",
+            "match_type": "histo:override",
+            "mutations": [],
+            "name": "HLA-A*02:01 with H2-K alpha 3 domain",
+            "note": "",
+            "score": null,
+            "slug": "hla_a_02_01_with_h2_k_alpha_3_domain",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6e1i_1",
+            "chains": [
+                "A"
+            ],
+            "downloaded_at": "2022-11-09T14:29:15.068298"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.71,
+            "sequence": "METDTLLLWVLLLWVPGSTGYMLDLQPETGGGGSGGGGSGGGGSIQRTPQIQVYSRHPPENGKPNILNCYVTQFHPSDIEIQMLKNGKKIPKVEMSDLSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDMGGGGSGGGGSGGGGSGGGGSGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGAYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDSPKAHVTYHPRSQVDVTLRCWALGFYPADITLTWQLNGEDLTQDMELVETRPAGDGTFQKWAAVVVPLGKEQNYTCHVHHEGLPEPLTLRWENLYF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-07-09",
+        "deposition_year": 2018,
+        "release_date": "2019-07-17",
+        "release_year": 2019,
+        "revision_date": "2019-07-17",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "single_chain_class_i_construct",
+    "components": [
+        "class_i_alpha"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "HLA-A",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6E1I | Single chain construct of HLA-A*02:01 with H2-K alpha 3 domain binding \"None\"",
+    "pdb_code": "6e1i",
+    "pdb_title": "HLA-A*0201 single chain trimer with murine  H2K alpha 3 domain and HPV.16 E7 peptide YMLDLQPET",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Finton, K.A.K."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Rusnac, D.V."
+                }
+            ],
+            "identifier": [],
+            "title": "HLA-A*0201 single chain trimer with murine  H2K alpha 3 domain and HPV.16 E7 peptide YMLDLQPET",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.99",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6e1i"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6e1i"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Single chain construct of HLA-A*02:01 with H2-K alpha 3 domain binding \"None\" at 1.99&#8491; resolution",
+    "unique_chain_count": 1
+}

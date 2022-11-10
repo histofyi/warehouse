@@ -1,0 +1,176 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34811",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*27:05",
+            "slug": "hla_b_27_05",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1cd1_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:37:54.892385"
+        },
+        "2": {
+            "assembly_name": "1cd1_2",
+            "chains": [
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:37:55.271043"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "QQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWDARQAPVGLIVFIVLIMLVVVGAVVYYIWRRRSAYQDIR"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1997-04-02",
+        "deposition_year": 1997,
+        "release_date": "1997-10-15",
+        "release_year": 1997,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d",
+    "components": [
+        "cd1d",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1CD1 | Non-classical MHC Class I molecule CD1d",
+    "pdb_code": "1cd1",
+    "pdb_title": "Cd1(mouse) antigen presenting molecule",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "CD1 represents a third lineage of antigen-presenting molecules that are distantly related to major histocompatibility complex (MHC) molecules in the immune system. The crystal structure of mouse CD1d1, corresponding to human CD1d, at 2.8  resolution shows that CD1 adopts an MHC fold that is more closely related to that of MHC class I than to that of MHC class II. The binding groove, although significantly narrower, is substantially larger because of increased depth and it has only two major pockets that are almost completely hydrophobic. The extreme hydrophobicity and shape of the binding site are consistent with observations that human CD1b and CD1c can present mycobacterial cell wall antigens, such as mycolic acid and lipoarabinomannans. However, mouse CD1d1 can present very hydrophobic peptides, but must do so in a very different way from MHC class Ia and class II molecules.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Z",
+                    "lastname": "Zeng",
+                    "name": "Zeng Z"
+                },
+                {
+                    "initials": "AR",
+                    "lastname": "Casta\u00f1o",
+                    "name": "Casta\u00f1o AR"
+                },
+                {
+                    "initials": "BW",
+                    "lastname": "Segelke",
+                    "name": "Segelke BW"
+                },
+                {
+                    "initials": "EA",
+                    "lastname": "Stura",
+                    "name": "Stura EA"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "Peterson",
+                    "name": "Peterson PA"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/science.277.5324.339",
+                    "type": "doi"
+                },
+                {
+                    "id": "9219685",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5324"
+            ],
+            "journal": {
+                "iso_abbreviation": "Science",
+                "name": ""
+            },
+            "pages": [
+                "339-45"
+            ],
+            "title": "Crystal structure of mouse CD1: An MHC-like fold with a large hydrophobic binding groove.",
+            "type": "article",
+            "url": "https://www.science.org/doi/10.1126/science.277.5324.339",
+            "volume": [
+                "277"
+            ],
+            "year": [
+                1997
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.67",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1cd1"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1cd1"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d at 2.67&#8491; resolution",
+    "unique_chain_count": 2
+}

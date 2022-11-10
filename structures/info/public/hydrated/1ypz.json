@@ -1,0 +1,199 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34760",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*53:01",
+            "slug": "hla_b_53_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1ypz_1",
+            "chains": [
+                "A",
+                "C",
+                "B",
+                "D",
+                "E",
+                "G",
+                "F",
+                "H",
+                "I",
+                "L",
+                "J",
+                "K",
+                "M"
+            ],
+            "downloaded_at": "2022-11-09T14:29:31.616622"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "ADPIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "h2-t22": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSLRYFYTAVSRPGLGEPWFIIVGYVDDMQVLRFSSKEETPRMAPWLEQEEADNWEQQTRIVTIQGQLSERNLMTLVHFYNKSMDDSHTLQWLQGCDVEPDRHLCLWYNQLAYDSEDLPTLNENPSSCTVGNSTVPHISQDLKSHCSDLLQKYLEKGKERLLRSDPPKAHVTRHPRPEGDVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWAAVVVPLGKEQSYTCHVYHEGLPEPLILRWGG"
+        },
+        "tcr_delta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GDQVEQSPSALSLHEGTDSALRCNFTTTMRSVQWFRQNSRGSLISLFYLASGTKENGRLKSAFDSKERRYSTLHIRDAQLEDSGTYFCAADTWHISEGYELGTDKLVFGQGTQVTVEPKSQPPAKPSVFIMKNGTNVACLVKDFYPKEVTISLRSSKKIVEFDPAIVISPSGKYSAVKLGQYGDSNSVTCSVQHNSETVHSTDFEAA",
+            "subgroup": "TRDV10"
+        },
+        "tcr_gamma": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "HGKLEQPEISISRPRDETAQISCKVFIESFRSVTIHWYRQKPNQGLEFLLYVLATPTHIFLDKEYKKMEASKNPSASTSILTIYSLEEEDEAIYYCSYGEGSSGFHKVFAEGTKLIVIPSDKRLDADISPKPTIFLPSVAETNLHKTGTYLCLLEAFFPDVIRVYWKEKDGNTILDSQEGDTLKTNDTYMKFSWLTVPERAMGKEHRCIVKHENNKGGADQAIFFPSIKK",
+            "subgroup": "TRGV4"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2005-01-31",
+        "deposition_year": 2005,
+        "release_date": "2005-04-12",
+        "release_year": 2005,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "h2_22_with_gamma_delta_tcr",
+    "components": [
+        "h2-t22",
+        "beta2m",
+        "tcr_delta",
+        "tcr_gamma"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1YPZ | Mouse Non-classical MHC Class I molecule H2-T22 with Gamma/Delta T cell receptor",
+    "pdb_code": "1ypz",
+    "pdb_title": "Immune receptor",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Gammadelta T cell receptors (TCRs), alphabeta TCRs, and antibodies are the three lineages of somatically recombined antigen receptors. The structural basis for ligand recognition is well defined for alphabeta TCR and antibodies but is lacking for gammadelta TCRs. We present the 3.4 A structure of the murine gammadelta TCR G8 bound to its major histocompatibility complex (MHC) class Ib ligand, T22. G8 predominantly uses germline-encoded residues of its delta chain complementarity-determining region 3 (CDR3) loop to bind T22 in an orientation substantially different from that seen in alphabeta TCR/peptide-MHC. That junctionally encoded G8 residues play an ancillary role in binding suggests a fusion of innate and adaptive recognition strategies.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "EJ",
+                    "lastname": "Adams",
+                    "name": "Adams EJ"
+                },
+                {
+                    "initials": "YH",
+                    "lastname": "Chien",
+                    "name": "Chien YH"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Garcia",
+                    "name": "Garcia KC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1126/science.1106885",
+                    "type": "doi"
+                },
+                {
+                    "id": "15821084",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5719"
+            ],
+            "journal": {
+                "iso_abbreviation": "Science",
+                "name": ""
+            },
+            "pages": [
+                "227-31"
+            ],
+            "title": "Structure of a gammadelta T cell receptor in complex with the nonclassical MHC T22.",
+            "type": "article",
+            "url": "https://www.science.org/doi/10.1126/science.1106885",
+            "volume": [
+                "308"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "3.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1ypz"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1ypz"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=1ypz"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "delta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRDV10"
+        },
+        "gamma": {
+            "chains": [
+                "F"
+            ],
+            "subgroup": "TRGV4"
+        },
+        "pdb_code": "1ypz"
+    },
+    "title": "Mouse Non-classical MHC Class I molecule H2-T22 with Gamma/Delta T cell receptor at 3.40&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,287 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7mja_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:39:01.508251"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "MASGSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPSSQP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "QYNPIRTTF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-04-19",
+        "deposition_year": 2021,
+        "release_date": "2021-08-18",
+        "release_year": 2021,
+        "revision_date": "2021-12-01",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7MJA | HLA-A*24:02 binding \"QYNPIRTTF\"",
+    "pdb_code": "7mja",
+    "pdb_title": "Hla-a*24:02 bound to neuroblastoma derived phox2b peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "QYNPIRTTF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "QYNPIRTTF"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "QYNPIRTTF",
+    "publication": {
+        "abstract": "The majority of oncogenic drivers are intracellular proteins, thus constraining their immunotherapeutic targeting to mutated peptides (neoantigens) presented by individual human leukocyte antigen (HLA) allotypes<sup>1</sup>. However, most cancers have a modest mutational burden that is insufficient to generate responses using neoantigen-based therapies<sup>2,3</sup>. Neuroblastoma is a paediatric cancer that harbours few mutations and is instead driven by epigenetically deregulated transcriptional networks<sup>4</sup>. Here we show that the neuroblastoma immunopeptidome is enriched with peptides derived from proteins that are essential for tumourigenesis and focus on targeting the unmutated peptide QYNPIRTTF, discovered on HLA-A*24:02, which is derived from the neuroblastoma dependency gene and master transcriptional regulator PHOX2B. To target QYNPIRTTF, we developed peptide-centric chimeric antigen receptors (CARs) using a counter-panning strategy with predicted potentially cross-reactive peptides. We further hypothesized that peptide-centric CARs could recognize peptides on additional HLA allotypes when presented in a similar manner. Informed by computational modelling, we showed that PHOX2B peptide-centric\u00a0CARs also recognize QYNPIRTTF presented by HLA-A*23:01 and the highly divergent HLA-B*14:02. Finally, we demonstrated potent and specific killing of neuroblastoma cells expressing these HLAs in vitro and complete tumour regression in mice. These data suggest that peptide-centric\u00a0CARs have the potential to vastly expand the pool of immunotherapeutic targets to include non-immunogenic intracellular oncoproteins and widen the population of patients who would benefit from such therapy by breaking conventional HLA restriction.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Yarmarkovich",
+                    "name": "Yarmarkovich M"
+                },
+                {
+                    "initials": "QF",
+                    "lastname": "Marshall",
+                    "name": "Marshall QF"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Warrington",
+                    "name": "Warrington JM"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Premaratne",
+                    "name": "Premaratne R"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Farrel",
+                    "name": "Farrel A"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Groff",
+                    "name": "Groff D"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Li",
+                    "name": "Li W"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "di Marco",
+                    "name": "di Marco M"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Runbeck",
+                    "name": "Runbeck E"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Truong",
+                    "name": "Truong H"
+                },
+                {
+                    "initials": "JS",
+                    "lastname": "Toor",
+                    "name": "Toor JS"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tripathi",
+                    "name": "Tripathi S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen S"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Shen",
+                    "name": "Shen H"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Noel",
+                    "name": "Noel T"
+                },
+                {
+                    "initials": "NL",
+                    "lastname": "Church",
+                    "name": "Church NL"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Weiner",
+                    "name": "Weiner A"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Kendsersky",
+                    "name": "Kendsersky N"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Martinez",
+                    "name": "Martinez D"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Weisberg",
+                    "name": "Weisberg R"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Christie",
+                    "name": "Christie M"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Eisenlohr",
+                    "name": "Eisenlohr L"
+                },
+                {
+                    "initials": "KR",
+                    "lastname": "Bosse",
+                    "name": "Bosse KR"
+                },
+                {
+                    "initials": "DS",
+                    "lastname": "Dimitrov",
+                    "name": "Dimitrov DS"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Stevanovic",
+                    "name": "Stevanovic S"
+                },
+                {
+                    "initials": "NG",
+                    "lastname": "Sgourakis",
+                    "name": "Sgourakis NG"
+                },
+                {
+                    "initials": "BR",
+                    "lastname": "Kiefel",
+                    "name": "Kiefel BR"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Maris",
+                    "name": "Maris JM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41586-021-04061-6",
+                    "type": "doi"
+                },
+                {
+                    "id": "34732890",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nature",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Cross-HLA targeting of intracellular oncoproteins with peptide-centric CARs.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41586-021-04061-6",
+            "volume": [
+                null
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.69",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7mja"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7mja"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*24:02 binding \"QYNPIRTTF\" at 1.69&#8491; resolution",
+    "unique_chain_count": 3
+}

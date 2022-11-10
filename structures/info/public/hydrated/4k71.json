@@ -1,0 +1,233 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4k71_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:30:45.211543"
+        },
+        "2": {
+            "assembly_name": "4k71_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:30:46.013009"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "fcrn": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "AESHLSLLYHLTAVSSPAPGTPAFWVSGWLGPQQYLSYNSLRGEAEPCGAWVWENQVSWYWEKETTDLRIKEKLFLEAFKALGGKGPYTLQGLLGCELGPDNTSVPTAKFALNGEEFMNFDLKQGTWGGDWPEALAISQRWQQQDKAANKELTFLLFSCPHRLREHLERGRGNLEWKEPPSMRLKARPSSPGFSVLTCSAFSFYPPELQLRFLRNGLAAGTGQGDFGPNSDGSFHASSSLTVKSGDEHHYCCIVQHAGLAQPLRVELESPAKSS"
+        },
+        "serum_albumin": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "DAHKSEVAHRFKDLGEENFKALVLIAFAQYLQQCPFEDHVKLVNEVTEFAKTCVADESAENCDKSLHTLFGDKLCTVATLRETYGEMADCCAKQEPERNECFLQHKDDNPNLPRLVRPEVDVMCTAFHDNEETFLKKYLYEIARRHPYFYAPELLFFAKRYKAAFTECCQAADKAACLLPKLDELRDEGKASSAKQRLKCASLQKFGERAFKAWAVARLSQRFPKAEFAEVSKLVTDLTKVHTECCHGDLLECADDRADLAKYICENQDSISSKLKECCEKPLLEKSHCIAEVENDEMPADLPSLAADFVESKDVCKNYAEAKDVFLGMFLYEYARRHPDYSVVLLLRLAKTYETTLEKCCAAADPHECYAKVFDEFKPLVEEPQNLIKQNCELFEQLGEYKFQNALLVRYTKKVPQMSAPTLVEVSRNLGKVGSKCCKHPEAKRMPCAEDYLSVVLNQLCVLHEKTPVSDRVTKCCTESLVNRRPCFSALEVDETYVPKEFNAGTFTFHADICTLSEKERQIKKQTALVELVKHKPKATKEQLKAAMDDFAAFVEKCCKADDKETCFAEEGKKLVAASQAALGL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-04-16",
+        "deposition_year": 2013,
+        "release_date": "2013-10-23",
+        "release_year": 2013,
+        "revision_date": "2014-02-05",
+        "revision_year": 2014
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "fcrn_with_beta2m_and_serum_albumin",
+    "components": [
+        "fcrn",
+        "beta2m",
+        "serum_albumin"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4K71 | Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with serum albumin",
+    "pdb_code": "4k71",
+    "pdb_title": "Crystal structure of a high affinity human serum albumin variant bound to the neonatal fc receptor",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The long circulating half-life of serum albumin, the most abundant protein in mammalian plasma, derives from pH-dependent endosomal salvage from degradation, mediated by the neonatal Fc receptor (FcRn). Using yeast display, we identified human serum albumin (HSA) variants with increased affinity for human FcRn at endosomal pH, enabling us to solve the crystal structure of a variant HSA/FcRn complex. We find an extensive, primarily hydrophobic interface stabilized by hydrogen-bonding networks involving protonated histidines internal to each protein. The interface features two key FcRn tryptophan side chains inserting into deep hydrophobic pockets on HSA that overlap albumin ligand binding sites. We find that fatty acids (FAs) compete with FcRn, revealing a clash between ligand binding and recycling, and that our high-affinity HSA variants have significantly increased circulating half-lives in mice and monkeys. These observations open the way for the creation of biotherapeutics with significantly improved pharmacokinetics.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MM",
+                    "lastname": "Schmidt",
+                    "name": "Schmidt MM"
+                },
+                {
+                    "initials": "SA",
+                    "lastname": "Townson",
+                    "name": "Townson SA"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Andreucci",
+                    "name": "Andreucci AJ"
+                },
+                {
+                    "initials": "BM",
+                    "lastname": "King",
+                    "name": "King BM"
+                },
+                {
+                    "initials": "EB",
+                    "lastname": "Schirmer",
+                    "name": "Schirmer EB"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Murillo",
+                    "name": "Murillo AJ"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Dombrowski",
+                    "name": "Dombrowski C"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Tisdale",
+                    "name": "Tisdale AW"
+                },
+                {
+                    "initials": "PA",
+                    "lastname": "Lowden",
+                    "name": "Lowden PA"
+                },
+                {
+                    "initials": "AL",
+                    "lastname": "Masci",
+                    "name": "Masci AL"
+                },
+                {
+                    "initials": "JT",
+                    "lastname": "Kovalchin",
+                    "name": "Kovalchin JT"
+                },
+                {
+                    "initials": "DV",
+                    "lastname": "Erbe",
+                    "name": "Erbe DV"
+                },
+                {
+                    "initials": "KD",
+                    "lastname": "Wittrup",
+                    "name": "Wittrup KD"
+                },
+                {
+                    "initials": "ES",
+                    "lastname": "Furfine",
+                    "name": "Furfine ES"
+                },
+                {
+                    "initials": "TM",
+                    "lastname": "Barnes",
+                    "name": "Barnes TM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.str.2013.08.022",
+                    "type": "doi"
+                },
+                {
+                    "id": "24120761",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "Structure",
+                "name": ""
+            },
+            "pages": [
+                "1966-78"
+            ],
+            "title": "Crystal structure of an HSA/FcRn complex reveals recycling by competitive mimicry of HSA ligands at a pH-dependent hydrophobic interface.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0969212613003432",
+            "volume": [
+                "21"
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4k71"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4k71"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule Feonatal Fc receptor (FcRn) with serum albumin at 2.40&#8491; resolution",
+    "unique_chain_count": 3
+}

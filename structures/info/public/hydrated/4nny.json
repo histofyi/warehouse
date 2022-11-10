@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4nny_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:34:18.021099"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RQASLSISV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-11-19",
+        "deposition_year": 2013,
+        "release_date": "2014-11-19",
+        "release_year": 2014,
+        "revision_date": "2019-05-29",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4NNY | HLA-A*02:01 binding \"RQASLSISV\"",
+    "pdb_code": "4nny",
+    "pdb_title": "Crystal structure of non-phosphorylated form of pkd2 phosphopeptide bound to hla-a2",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RQASLSISV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RQASLSISV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RQASLSISV",
+    "publication": {
+        "abstract": "Dysregulated post-translational modification provides a source of altered self-antigens that can stimulate immune responses in autoimmunity, inflammation, and cancer. In recent years, phosphorylated peptides have emerged as a group of tumour-associated antigens presented by MHC molecules and recognised by T cells, and represent promising candidates for cancer immunotherapy. However, the impact of phosphorylation on the antigenic identity of phosphopeptide epitopes is unclear. Here we examined this by determining structures of MHC-bound phosphopeptides bearing canonical position 4-phosphorylations in the presence and absence of their phosphate moiety, and examining phosphopeptide recognition by the T cell receptor (TCR). Strikingly, two peptides exhibited major conformational changes upon phosphorylation, involving a similar molecular mechanism, which focussed changes on the central peptide region most critical for T cell recognition. In contrast, a third epitope displayed little conformational alteration upon phosphorylation. In addition, binding studies demonstrated TCR interaction with an MHC-bound phosphopeptide was both epitope-specific and absolutely dependent upon phosphorylation status. These results highlight the critical influence of phosphorylation on the antigenic identity of naturally processed class I MHC epitopes. In doing so they provide a molecular framework for understanding phosphopeptide-specific immune responses, and have implications for the development of phosphopeptide antigen-specific cancer immunotherapy approaches.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "F",
+                    "lastname": "Mohammed",
+                    "name": "Mohammed F"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Stones",
+                    "name": "Stones DH"
+                },
+                {
+                    "initials": "AL",
+                    "lastname": "Zarling",
+                    "name": "Zarling AL"
+                },
+                {
+                    "initials": "CR",
+                    "lastname": "Willcox",
+                    "name": "Willcox CR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Shabanowitz",
+                    "name": "Shabanowitz J"
+                },
+                {
+                    "initials": "KL",
+                    "lastname": "Cummings",
+                    "name": "Cummings KL"
+                },
+                {
+                    "initials": "DF",
+                    "lastname": "Hunt",
+                    "name": "Hunt DF"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Cobbold",
+                    "name": "Cobbold M"
+                },
+                {
+                    "initials": "VH",
+                    "lastname": "Engelhard",
+                    "name": "Engelhard VH"
+                },
+                {
+                    "initials": "BE",
+                    "lastname": "Willcox",
+                    "name": "Willcox BE"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.18632/oncotarget.16952",
+                    "type": "doi"
+                },
+                {
+                    "id": "28903331",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "33"
+            ],
+            "journal": {
+                "iso_abbreviation": "Oncotarget",
+                "name": ""
+            },
+            "pages": [
+                "54160-54172"
+            ],
+            "title": "The antigenic identity of human class I MHC phosphopeptides is critically dependent upon phosphorylation status.",
+            "type": "article",
+            "url": "https://www.oncotarget.com/lookup/doi/10.18632/oncotarget.16952",
+            "volume": [
+                "8"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4nny"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4nny"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"RQASLSISV\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

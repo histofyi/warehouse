@@ -1,0 +1,212 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35228",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*15:01",
+            "slug": "hla_b_15_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5vz5_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:18.845559"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDRETQISKTNTQTYRESLRNLRGYYNQSEAGSHTLQRMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAAREAEQWRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPSSQS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "AQDIYRASYY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-05-26",
+        "deposition_year": 2017,
+        "release_date": "2018-03-21",
+        "release_year": 2018,
+        "revision_date": "2018-03-21",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5VZ5 | HLA-B*15:01 binding \"AQDIYRASYY\"",
+    "pdb_code": "5vz5",
+    "pdb_title": "Crystal structure of an anaplastic lymphoma kinase-derived neuroblastoma tumor antigen bound to the human major histocompatibility complex Class I molecule hla-b*1501",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "AQDIYRASYY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "AQDIYRASYY"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "AQDIYRASYY",
+    "publication": {
+        "abstract": "The identification of recurrent human leukocyte antigen (HLA) neoepitopes driving T cell responses against tumors poses a significant bottleneck in the development of approaches for precision cancer therapeutics. Here, we employ a bioinformatics method, Prediction of T Cell Epitopes for Cancer Therapy, to analyze sequencing data from neuroblastoma patients and identify a recurrent anaplastic lymphoma kinase mutation (ALK R1275Q) that leads to two high affinity neoepitopes when expressed in complex with common HLA alleles. Analysis of the X-ray structures of the two peptides bound to HLA-B*15:01 reveals drastically different conformations with measurable changes in the stability of the protein complexes, while the self-epitope is excluded from binding due to steric hindrance in the MHC groove. To evaluate the range of HLA alleles that could display the ALK neoepitopes, we used structure-based Rosetta comparative modeling calculations, which accurately predict several additional high affinity interactions and compare our results with commonly used prediction tools. Subsequent determination of the X-ray structure of an HLA-A*01:01 bound neoepitope validates atomic features seen in our Rosetta models with respect to key residues relevant for MHC stability and T cell receptor recognition. Finally, MHC tetramer staining of peripheral blood mononuclear cells from HLA-matched donors shows that the two neoepitopes are recognized by CD8+ T cells. This work provides a rational approach toward high-throughput identification and further optimization of putative neoantigen/HLA targets with desired recognition features for cancer immunotherapy.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JS",
+                    "lastname": "Toor",
+                    "name": "Toor JS"
+                },
+                {
+                    "initials": "AA",
+                    "lastname": "Rao",
+                    "name": "Rao AA"
+                },
+                {
+                    "initials": "AC",
+                    "lastname": "McShan",
+                    "name": "McShan AC"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Yarmarkovich",
+                    "name": "Yarmarkovich M"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Nerli",
+                    "name": "Nerli S"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Yamaguchi",
+                    "name": "Yamaguchi K"
+                },
+                {
+                    "initials": "AA",
+                    "lastname": "Madejska",
+                    "name": "Madejska AA"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Nguyen",
+                    "name": "Nguyen S"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Tripathi",
+                    "name": "Tripathi S"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Maris",
+                    "name": "Maris JM"
+                },
+                {
+                    "initials": "SR",
+                    "lastname": "Salama",
+                    "name": "Salama SR"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Haussler",
+                    "name": "Haussler D"
+                },
+                {
+                    "initials": "NG",
+                    "lastname": "Sgourakis",
+                    "name": "Sgourakis NG"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3389/fimmu.2018.00099",
+                    "type": "doi"
+                },
+                {
+                    "id": "29441070",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Front Immunol",
+                "name": ""
+            },
+            "pages": [
+                "99"
+            ],
+            "title": "A Recurrent Mutation in Anaplastic Lymphoma Kinase with Distinct Neoepitope Conformations.",
+            "type": "article",
+            "url": "http://journal.frontiersin.org/article/10.3389/fimmu.2018.00099/full",
+            "volume": [
+                "9"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.59",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5vz5"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5vz5"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*15:01 binding \"AQDIYRASYY\" at 2.59&#8491; resolution",
+    "unique_chain_count": 3
+}

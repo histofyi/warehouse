@@ -1,0 +1,165 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:BoLA03187",
+            "locus": "bola-2",
+            "match_type": "histo:fuzzy",
+            "name": "BoLA-2*018:01",
+            "slug": "bola_2_018_01",
+            "species_stem": "BoLA"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5efi_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:33:45.491436"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSADGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YEHDFHHIREKGNHWKNFLAVM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2015-10-23",
+        "deposition_year": 2015,
+        "release_date": "2016-03-30",
+        "release_year": 2016,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_b2m_and_peptide",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "bola-2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5EFI | Non-classical MHC Class I molecule CD1d binding \"YEHDFHHIREKGNHWKNFLAVM\"",
+    "pdb_code": "5efi",
+    "pdb_title": "Crystal structure of mouse CD1d in complex with the p99p lipopeptide",
+    "peptide": {
+        "C": {
+            "actual_length": 16,
+            "actual_sequence": "DFHHIREKGNHWKNFL",
+            "chain_id": "C",
+            "features": [
+                "missing_start",
+                "incorrect_start"
+            ],
+            "full_length": 22,
+            "full_sequence": "YEHDFHHIREKGNHWKNFLAVM"
+        }
+    },
+    "peptide_length": 22,
+    "peptide_length_name": null,
+    "peptide_sequence": "YEHDFHHIREKGNHWKNFLAVM",
+    "publication": {
+        "abstract": "Mouse CD1d is a nonclassical MHC molecule able to present lipids and glycolipids to a specialized subset of T cells known as natural killer T cells. The antigens presented by CD1d have been shown to cover a broad range of chemical structures and to follow precise rules determining the potency of the antigen in the context of T cell activation. Together with lipids, initial reports suggested that CD1d can also bind and present hydrophobic peptides with (F/W)XX(I/L/M)XXW. However, the exact location of peptide binding and the molecular basis for the required motif are currently unknown. Here we present the crystal structure of the first peptide identified to bind CD1d, p99, and show that it binds in the antigen-binding groove of CD1d in a manner compatible with its presentation to T cell receptors. Interestingly, the peptide adopts an \u03b1-helical conformation, which orients the motif residues toward its deep binding groove, therefore explaining the molecular requirements for peptide binding. Moreover, we demonstrate that a lipopeptide version of the same peptide is able to bind CD1d in a similar conformation, identifying another class of molecules binding this antigen-presenting molecule.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "E",
+                    "lastname": "Girardi",
+                    "name": "Girardi E"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m115.702118",
+                    "type": "doi"
+                },
+                {
+                    "id": "27006394",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Structure of an \ufffd\ufffd-helical peptide and lipopeptide bound to the non-classical MHC class I molecule CD1d.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820401000",
+            "volume": [
+                null
+            ],
+            "year": [
+                2016
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5efi"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5efi"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Non-classical MHC Class I molecule CD1d binding \"YEHDFHHIREKGNHWKNFLAVM\" at 1.80&#8491; resolution",
+    "unique_chain_count": 3
+}

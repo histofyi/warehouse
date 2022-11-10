@@ -1,0 +1,241 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7phr_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "e",
+                "H",
+                "L",
+                "P",
+                "Z",
+                "z"
+            ],
+            "downloaded_at": "2022-11-09T14:43:24.086910"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "L"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.95,
+            "sequence": "MGSSHHHHHHGSGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPSSQPEDQVDPRLIDGK"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "YLEPGPVTV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MSQQGEEDPQALSIQEGENATMNCSYKTSINNLQWYRQNSGRGLVHLILIRSNEREKHSGRLRVTLDTSKKSSSLLITASRAADTASYFCATDGSTPMQFGKGTRLSVIPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKTVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESSCDVKLVEKSFETDTNLNFQNLSVIGFRILLLKVAGFNLLMTLRLWSS",
+            "subgroup": "TRAV17"
+        },
+        "tcr_beta": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MDGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSWAQGDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSWGAPYEQYFGPGTRLTVTEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFFPDHVELSWWVNGKEVHSGVSTDPQPLKEQPALNDSRYCLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRADCGFTSVSYQQGVLSATILYEILLGKATLYAVLVSALVLMAMVKRKDF",
+            "subgroup": "TRBV19"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-08-18",
+        "deposition_year": 2021,
+        "release_date": "2022-08-31",
+        "release_year": 2022,
+        "revision_date": "2022-08-31",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "Electron Microscopy",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7PHR | HLA-A*02:01 presenting \"YLEPGPVTV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "7phr",
+    "pdb_title": "Structure of a fully assembled t-cell receptor engaging a tumor-associated peptide-MHC i",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "YLEPGPVTV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "YLEPGPVTV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "YLEPGPVTV",
+    "publication": {
+        "abstract": "The T\u00a0cell receptor (TCR) expressed by T lymphocytes initiates protective immune responses to pathogens and tumors. To explore the structural basis of how TCR signaling is initiated when the receptor binds to peptide-loaded major histocompatibility complex (pMHC) molecules, we used cryogenic electron microscopy to determine the structure of a tumor-reactive TCR\u03b1\u03b2/CD3\u03b4\u03b3\u03b5<sub>2</sub>\u03b6<sub>2</sub> complex bound to a melanoma-specific human class I pMHC at 3.08\u00a0\u00c5 resolution. The antigen-bound complex comprises 11 subunits stabilized by multivalent interactions across three structural layers, with clustered membrane-proximal cystines stabilizing the CD3-\u03b5\u03b4 and CD3-\u03b5\u03b3 heterodimers. Extra density sandwiched between transmembrane helices reveals the involvement of sterol lipids in TCR assembly. The geometry of the pMHC/TCR complex suggests that efficient TCR scanning of pMHC requires accurate pre-positioning of T\u00a0cell and antigen-presenting cell membranes. Comparisons of the ligand-bound and unliganded receptors, along with molecular dynamics simulations, indicate that TCRs can be triggered in the absence of spontaneous structural rearrangements.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "L",
+                    "lastname": "Su\u0161ac",
+                    "name": "Su\u0161ac L"
+                },
+                {
+                    "initials": "MT",
+                    "lastname": "Vuong",
+                    "name": "Vuong MT"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Thomas",
+                    "name": "Thomas C"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "von B\u00fclow",
+                    "name": "von B\u00fclow S"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "O'Brien-Ball",
+                    "name": "O'Brien-Ball C"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Santos",
+                    "name": "Santos AM"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Fernandes",
+                    "name": "Fernandes RA"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Hummer",
+                    "name": "Hummer G"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Tamp\u00e9",
+                    "name": "Tamp\u00e9 R"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Davis",
+                    "name": "Davis SJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.cell.2022.07.010",
+                    "type": "doi"
+                },
+                {
+                    "id": "35985289",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "17"
+            ],
+            "journal": {
+                "iso_abbreviation": "Cell",
+                "name": ""
+            },
+            "pages": [
+                "3201-3213.e19"
+            ],
+            "title": "Structure of a fully assembled tumor-specific T cell receptor ligated by pMHC.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0092867422009138",
+            "volume": [
+                "185"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "3.08",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7phr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7phr"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=7phr"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:override",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "A"
+            ],
+            "subgroup": "TRAV17"
+        },
+        "beta": {
+            "chains": [
+                "B"
+            ],
+            "subgroup": "TRBV19"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "7phr"
+    },
+    "title": "HLA-A*02:01 presenting \"YLEPGPVTV\" to Alpha/Beta T cell receptor at 3.08&#8491; resolution",
+    "unique_chain_count": 5
+}

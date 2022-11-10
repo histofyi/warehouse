@@ -1,0 +1,318 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6rp9_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:39:47.406870"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "H"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SLLMWITQV"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MQKEVEQNSGPLSVPEGAIASLNCTYSDRGSQSFFWYRQYSGKSPELIMFIYSNGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCALTRGPGNQFYFGTGTSLTVIPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGAGVSQSPRYKVTKRGQDVALRCDPISGHVSLYWYRQALGQGPEFLTYFNYEAQQDKSGLPNDRFSAERPEGSISTLTIQRTEQRDSAMYRCASSSPGGVSTEAFFGQGTRLTVVEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV7"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-05-14",
+        "deposition_year": 2019,
+        "release_date": "2020-01-15",
+        "release_year": 2020,
+        "revision_date": "2020-04-08",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6RP9 | HLA-A*02:01 presenting \"SLLMWITQV\" to Alpha/Beta T cell receptor",
+    "pdb_code": "6rp9",
+    "pdb_title": "Crystal structure of the t-cell receptor nye_s3 bound to hla a2*01-SLLMWITQV",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQV"
+        },
+        "H": {
+            "actual_length": 9,
+            "actual_sequence": "SLLMWITQV",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "SLLMWITQV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "SLLMWITQV",
+    "publication": {
+        "abstract": "The molecular rules driving TCR cross-reactivity are poorly understood and, consequently, it is unclear the extent to which TCRs targeting the same Ag recognize the same off-target peptides. We determined TCR-peptide-HLA crystal structures and, using a single-chain peptide-HLA phage library, we generated peptide specificity profiles for three newly identified human TCRs specific for the cancer testis Ag NY-ESO-1157-165-HLA-A2. Two TCRs engaged the same central peptide feature, although were more permissive at peripheral peptide positions and, accordingly, possessed partially overlapping peptide specificity profiles. The third TCR engaged a flipped peptide conformation, leading to the recognition of off-target peptides sharing little similarity with the cognate peptide. These data show that TCRs specific for a cognate peptide recognize discrete peptide repertoires and reconciles how an individual's limited TCR repertoire following negative selection in the thymus is able to recognize a vastly larger antigenic pool.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "CH",
+                    "lastname": "Coles",
+                    "name": "Coles CH"
+                },
+                {
+                    "initials": "RM",
+                    "lastname": "Mulvaney",
+                    "name": "Mulvaney RM"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Malla",
+                    "name": "Malla S"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Walker",
+                    "name": "Walker A"
+                },
+                {
+                    "initials": "KJ",
+                    "lastname": "Smith",
+                    "name": "Smith KJ"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Lloyd",
+                    "name": "Lloyd A"
+                },
+                {
+                    "initials": "KL",
+                    "lastname": "Lowe",
+                    "name": "Lowe KL"
+                },
+                {
+                    "initials": "ML",
+                    "lastname": "McCully",
+                    "name": "McCully ML"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Martinez Hague",
+                    "name": "Martinez Hague R"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Aleksic",
+                    "name": "Aleksic M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Harper",
+                    "name": "Harper J"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Paston",
+                    "name": "Paston SJ"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Donnellan",
+                    "name": "Donnellan Z"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Chester",
+                    "name": "Chester F"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Wiederhold",
+                    "name": "Wiederhold K"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Robinson",
+                    "name": "Robinson RA"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Knox",
+                    "name": "Knox A"
+                },
+                {
+                    "initials": "AR",
+                    "lastname": "Stacey",
+                    "name": "Stacey AR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Dukes",
+                    "name": "Dukes J"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Baston",
+                    "name": "Baston E"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Griffin",
+                    "name": "Griffin S"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Vuidepot",
+                    "name": "Vuidepot A"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Harper",
+                    "name": "Harper S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1900915",
+                    "type": "doi"
+                },
+                {
+                    "id": "32102902",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "TCRs with Distinct Specificity Profiles Use Different Binding Modes to Engage an Identical Peptide-HLA Complex.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1900915",
+            "volume": [
+                null
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.12",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6rp9"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6rp9"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6rp9"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV7"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "6rp9"
+    },
+    "title": "HLA-A*02:01 presenting \"SLLMWITQV\" to Alpha/Beta T cell receptor at 3.12&#8491; resolution",
+    "unique_chain_count": 5
+}

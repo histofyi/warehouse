@@ -1,0 +1,233 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5til_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:33:35.302151"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KAPYNFATM"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "G"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "QQKEKHDQQQVRQSPQSLTVWEGGTTVLTCSYEDSTFNYFPWYQQFPGEGPALLISILSVSDKKEDGRFTTFFNKREKKLSLHIIDSQPGDSATYFCAALYGNEKITFGAGTKLTIKPNIQNPEPAVYQLKDPRSQDSTLCLFTDFDSQINVPKTMESGTFITDKCVLDMKAMDSKSNGAIAWSNQTSFTCQDIFKETNATYPSS",
+            "subgroup": "TRAV14"
+        },
+        "tcr_beta": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AVTQSPRSKVAVTGGKVTLSCHQTNNHDYMYWYRQDTGHGLRLIHYSYVADSTEKGDIPDGYKASRPSQENFSLILELASLSQTAVYFCASSDAGGRNTLYFGAGTRLSVLEDLRNVTPPKVSLFEPSKAEIANKQKATLVCLARGFFPDHVELSWWVNGKEVHSGVCTDPQAYKESNYSYSLSSRLRVSATFWHNPRNHFRCQVQFHGLSEEDKWPEGSPKPVTQNISAEAWGRADC",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-10-03",
+        "deposition_year": 2016,
+        "release_date": "2017-11-01",
+        "release_year": 2017,
+        "revision_date": "2017-11-01",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5TIL | H2-Db presenting \"KAPYNFATM\" to Alpha/Beta T cell receptor",
+    "pdb_code": "5til",
+    "pdb_title": "Murine Class I major histocompatibility complex h-2 db in complex with lcmv-derived gp33 altered peptide v3p and t-cell receptor p14",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "KAPYNFATM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KAPYNFATM"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "KAPYNFATM",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KAPYNFATM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KAPYNFATM",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Allerbring, E."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Duru, A.D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sun, R."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Han, X."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Uchtenhagen, H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Madhurantakam, C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Popov, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Markoba, N."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Talyzina, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Nygren, P.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sandalova, T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Achour, A."
+                }
+            ],
+            "identifier": [],
+            "title": "Ternary complexes of TCR P14 give insights into the mechanisms behind reestablishment of CTL responses against a viral escape mutant",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.83",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5til"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5til"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5til"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "G"
+            ],
+            "subgroup": "TRAV14"
+        },
+        "beta": {
+            "chains": [
+                "H"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "5til"
+    },
+    "title": "H2-Db presenting \"KAPYNFATM\" to Alpha/Beta T cell receptor at 2.83&#8491; resolution",
+    "unique_chain_count": 5
+}

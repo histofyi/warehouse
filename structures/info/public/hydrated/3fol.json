@@ -1,0 +1,222 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:D2YW38",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kwm7",
+            "slug": "h2_kwm7",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3fol_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:41:13.912688"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.9,
+            "sequence": "GSHSLRYFVTAVSRPGHGKPRYMEVGYVDDTEFVRFDSDAENPRYEPRTPWMEQVEPEYWEGQTQIAKGNEQSSRVDLRTALRYYNQSAGGSHTIQRMRGCEVGSDGRLLRGYQQVAYDGRDYIALNEDLKTWTAADMAALITKHKWEQAGAAERDRAYLEGACVEWLRRYLELGNATLLRTDSPKAHVTHHSRPKDKVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCHVYHEGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VNDIFERI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2008-12-30",
+        "deposition_year": 2008,
+        "release_date": "2010-01-12",
+        "release_year": 2010,
+        "revision_date": "2017-11-01",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3FOL | H2-Kwm7 binding \"VNDIFERI\"",
+    "pdb_code": "3fol",
+    "pdb_title": "Crystal structure of the Class I MHC molecule h-2kwm7 with a single self peptide VNDIFERI",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "VNDIFERI",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "VNDIFERI"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "VNDIFERI",
+    "publication": {
+        "abstract": "Type 1 diabetes (T1D) is an autoimmune disease characterized by T cell-mediated destruction of insulin-producing pancreatic beta cells. In both humans and the non-obese diabetic (NOD) mouse model of T1D, class II MHC alleles are the primary determinant of disease susceptibility. However, class I MHC genes also influence risk. These findings are consistent with the requirement for both CD4(+) and CD8(+) T cells in the pathogenesis of T1D. Although a large body of work has permitted the identification of multiple mechanisms to explain the diabetes-protective effect of particular class II MHC alleles, studies examining the protective influence of class I alleles are lacking. Here, we explored this question by performing biochemical and structural analyses of the murine class I MHC molecule H-2K(wm7), which exerts a diabetes-protective effect in NOD mice. We have found that H-2K(wm7) molecules are predominantly occupied by the single self-peptide VNDIFERI, derived from the ubiquitous protein histone H2B. This unexpected finding suggests that the inability of H-2K(wm7) to support T1D development could be due, at least in part, to the failure of peptides from critical beta-cell antigens to adequately compete for binding and be presented to T cells. Predominant presentation of a single peptide would also be expected to influence T-cell selection, potentially leading to a reduced ability to select a diabetogenic CD8(+) T-cell repertoire. The report that one of the predominant peptides bound by T1D-protective HLA-A*31 is histone derived suggests the potential translation of our findings to human diabetes-protective class I MHC molecules.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DR",
+                    "lastname": "Brims",
+                    "name": "Brims DR"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Qian",
+                    "name": "Qian J"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Jarchum",
+                    "name": "Jarchum I"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Mikesh",
+                    "name": "Mikesh L"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Palmieri",
+                    "name": "Palmieri E"
+                },
+                {
+                    "initials": "UA",
+                    "lastname": "Ramagopal",
+                    "name": "Ramagopal UA"
+                },
+                {
+                    "initials": "VN",
+                    "lastname": "Malashkevich",
+                    "name": "Malashkevich VN"
+                },
+                {
+                    "initials": "RJ",
+                    "lastname": "Chaparro",
+                    "name": "Chaparro RJ"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Lund",
+                    "name": "Lund T"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Hattori",
+                    "name": "Hattori M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Shabanowitz",
+                    "name": "Shabanowitz J"
+                },
+                {
+                    "initials": "DF",
+                    "lastname": "Hunt",
+                    "name": "Hunt DF"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Nathenson",
+                    "name": "Nathenson SG"
+                },
+                {
+                    "initials": "SC",
+                    "lastname": "Almo",
+                    "name": "Almo SC"
+                },
+                {
+                    "initials": "TP",
+                    "lastname": "Dilorenzo",
+                    "name": "Dilorenzo TP"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1093/intimm/dxp127",
+                    "type": "doi"
+                },
+                {
+                    "id": "20093428",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Int. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "191-203"
+            ],
+            "title": "Predominant occupation of the class I MHC molecule H-2Kwm7 with a single self-peptide suggests a mechanism for its diabetes-protective effect.",
+            "type": "article",
+            "url": "https://academic.oup.com/intimm/article-lookup/doi/10.1093/intimm/dxp127",
+            "volume": [
+                "22"
+            ],
+            "year": [
+                2010
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3fol"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3fol"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kwm7 binding \"VNDIFERI\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,188 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1g7q_1",
+            "chains": [
+                "A",
+                "B",
+                "P",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:45.089371"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SAPDTRPA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2000-11-13",
+        "deposition_year": 2000,
+        "release_date": "2002-07-17",
+        "release_year": 2002,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1G7Q | H2-Kb binding \"SAPDTRPA\"",
+    "pdb_code": "1g7q",
+    "pdb_title": "Crystal structure of MHC Class I h-2kb heavy chain complexed with beta-2 microglobulin and muc1 vntr peptide SAPDTRPA",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "SAPDTRPA",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SAPDTRPA"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "SAPDTRPA",
+    "publication": {
+        "abstract": "Peptides bind with high affinity to MHC class I molecules by anchoring certain side-chains (anchors) into specificity pockets in the MHC peptide-binding groove. Peptides that do not contain these canonical anchor residues normally have low affinity, resulting in impaired pMHC stability and loss of immunogenicity. Here, we report the crystal structure at 1.6 A resolution of an immunogenic, low-affinity peptide from the tumor-associated antigen MUC1, bound to H-2Kb. Stable binding is still achieved despite small, non-canonical residues in the C and F anchor pockets. This structure reveals how low-affinity peptides can be utilized in the design of novel peptide-based tumor vaccines. The molecular interactions elucidated in this non-canonical low-affinity peptide MHC complex should help uncover additional immunogenic peptides from primary protein sequences and aid in the design of alternative approaches for T-cell vaccines.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "V",
+                    "lastname": "Apostolopoulos",
+                    "name": "Apostolopoulos V"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Yu",
+                    "name": "Yu M"
+                },
+                {
+                    "initials": "AL",
+                    "lastname": "Corper",
+                    "name": "Corper AL"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Teyton",
+                    "name": "Teyton L"
+                },
+                {
+                    "initials": "GA",
+                    "lastname": "Pietersz",
+                    "name": "Pietersz GA"
+                },
+                {
+                    "initials": "IF",
+                    "lastname": "McKenzie",
+                    "name": "McKenzie IF"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Plebanski",
+                    "name": "Plebanski M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s0022-2836(02)00196-1",
+                    "type": "doi"
+                },
+                {
+                    "id": "12083518",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "5"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Mol. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "1293-305"
+            ],
+            "title": "Crystal structure of a non-canonical low-affinity peptide complexed with MHC class I: a new approach for vaccine design.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0022283602001961",
+            "volume": [
+                "318"
+            ],
+            "year": [
+                2002
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1g7q"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1g7q"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"SAPDTRPA\" at 1.60&#8491; resolution",
+    "unique_chain_count": 3
+}

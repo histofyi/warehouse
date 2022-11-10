@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34773",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*03:01",
+            "slug": "hla_a_03_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6o9c_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:28:33.047981"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MSRSVALAVLALLSLSGLEAIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.89,
+            "sequence": "MASGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDQETRNVKAQSQTDRVDLGTLRGYYNQSEAGSHTIQIMYGCDVGSDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAAHEAEQLRAYLDGTCVEWLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWELSSQPGSLHHILDAQKMVWNHR"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "TTAPFLSGK"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-03-13",
+        "deposition_year": 2019,
+        "release_date": "2019-11-13",
+        "release_year": 2019,
+        "revision_date": "2019-12-25",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6O9C | HLA-A*03:01 binding \"TTAPFLSGK\"",
+    "pdb_code": "6o9c",
+    "pdb_title": "Crystal structure of hla-a3*01 in complex with a mutant beta-catenin peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "TTAPFLSGK",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "TTAPFLSGK"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "TTAPFLSGK",
+    "publication": {
+        "abstract": "Mutations in <i>CTNNB1</i>, the gene encoding \u03b2-catenin, are common in colon and liver cancers, the most frequent mutation affecting Ser-45 in \u03b2-catenin. Peptides derived from WT \u03b2-catenin have previously been shown to be presented on the cell surface as part of major histocompatibility complex (MHC) class I, suggesting an opportunity for targeting this common driver gene mutation with antibody-based therapies. Here, crystal structures of both the WT and S45F mutant peptide bound to HLA-A*03:01 at 2.20 and 2.45 \u00c5 resolutions, respectively, confirmed the accessibility of the phenylalanine residue for antibody recognition. Phage display was then used to identify single-chain variable fragment clones that selectively bind the S45F mutant peptide presented in HLA-A*03:01 and have minimal WT or other off-target binding. Following the initial characterization of five clones, we selected a single clone, E10, for further investigation. We developed a computational model of the binding of E10 to the mutant peptide-bound HLA-A3, incorporating data from affinity maturation as initial validation. In the future, our model may be used to design clones with maintained specificity and higher affinity. Such derivatives could be adapted into either cell-based (CAR-T) or protein-based (bispecific T-cell engagers) therapies to target cancer cells harboring the S45F mutation in <i>CTNNB1</i>.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MS",
+                    "lastname": "Miller",
+                    "name": "Miller MS"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Douglass",
+                    "name": "Douglass J"
+                },
+                {
+                    "initials": "MS",
+                    "lastname": "Hwang",
+                    "name": "Hwang MS"
+                },
+                {
+                    "initials": "AD",
+                    "lastname": "Skora",
+                    "name": "Skora AD"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Murphy",
+                    "name": "Murphy M"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Papadopoulos",
+                    "name": "Papadopoulos N"
+                },
+                {
+                    "initials": "KW",
+                    "lastname": "Kinzler",
+                    "name": "Kinzler KW"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Vogelstein",
+                    "name": "Vogelstein B"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Zhou",
+                    "name": "Zhou S"
+                },
+                {
+                    "initials": "SB",
+                    "lastname": "Gabelli",
+                    "name": "Gabelli SB"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.RA119.010251",
+                    "type": "doi"
+                },
+                {
+                    "id": "31690625",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "An engineered antibody fragment targeting mutant \ufffd\ufffd-catenin via Major Histocompatibility Complex I neoantigen presentation.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820308413",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.45",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6o9c"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6o9c"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*03:01 binding \"TTAPFLSGK\" at 2.45&#8491; resolution",
+    "unique_chain_count": 3
+}

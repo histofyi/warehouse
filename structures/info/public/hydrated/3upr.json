@@ -1,0 +1,289 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34051",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*57:01",
+            "slug": "hla_b_57_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3upr_1",
+            "chains": [
+                "A",
+                "P",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:34:21.638950"
+        },
+        "2": {
+            "assembly_name": "3upr_2",
+            "chains": [
+                "C",
+                "Q",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:34:22.109300"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "MGSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRMAPRAPWIEQEGPEYWDGETRNMKASAQTYRENLRIALRYYNQSEAGSHIIQVMYGCDVGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "P",
+                "Q"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "HSITYLLPV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-11-18",
+        "deposition_year": 2011,
+        "release_date": "2012-06-13",
+        "release_year": 2012,
+        "revision_date": "2012-11-14",
+        "revision_year": 2012
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3UPR | HLA-B*57:01 binding \"HSITYLLPV\"",
+    "pdb_code": "3upr",
+    "pdb_title": "Hla-b*57:01 complexed to pep-v and abacavir",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "HSITYLLPV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "HSITYLLPV"
+        },
+        "Q": {
+            "actual_length": 9,
+            "actual_sequence": "HSITYLLPV",
+            "chain_id": "Q",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "HSITYLLPV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "HSITYLLPV",
+    "publication": {
+        "abstract": "Idiosyncratic adverse drug reactions are unpredictable, dose-independent and potentially life threatening; this makes them a major factor contributing to the cost and uncertainty of drug development. Clinical data suggest that many such reactions involve immune mechanisms, and genetic association studies have identified strong linkages between drug hypersensitivity reactions to several drugs and specific HLA alleles. One of the strongest such genetic associations found has been for the antiviral drug abacavir, which causes severe adverse reactions exclusively in patients expressing the HLA molecular variant B*57:01. Abacavir adverse reactions were recently shown to be driven by drug-specific activation of cytokine-producing, cytotoxic CD8(+) T cells that required HLA-B*57:01 molecules for their function; however, the mechanism by which abacavir induces this pathologic T-cell response remains unclear. Here we show that abacavir can bind within the F pocket of the peptide-binding groove of HLA-B*57:01, thereby altering its specificity. This provides an explanation for HLA-linked idiosyncratic adverse drug reactions, namely that drugs can alter the repertoire of self-peptides presented to T cells, thus causing the equivalent of an alloreactive T-cell response. Indeed, we identified specific self-peptides that are presented only in the presence of abacavir and that were recognized by T cells of hypersensitive patients. The assays that we have established can be applied to test additional compounds with suspected HLA-linked hypersensitivities in vitro. Where successful, these assays could speed up the discovery and mechanistic understanding of HLA-linked hypersensitivities, and guide the development of safer drugs.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "DA",
+                    "lastname": "Ostrov",
+                    "name": "Ostrov DA"
+                },
+                {
+                    "initials": "BJ",
+                    "lastname": "Grant",
+                    "name": "Grant BJ"
+                },
+                {
+                    "initials": "YA",
+                    "lastname": "Pompeu",
+                    "name": "Pompeu YA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Sidney",
+                    "name": "Sidney J"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Harndahl",
+                    "name": "Harndahl M"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Southwood",
+                    "name": "Southwood S"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Oseroff",
+                    "name": "Oseroff C"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Lu",
+                    "name": "Lu S"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Jakoncic",
+                    "name": "Jakoncic J"
+                },
+                {
+                    "initials": "CA",
+                    "lastname": "de Oliveira",
+                    "name": "de Oliveira CA"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Yang",
+                    "name": "Yang L"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Mei",
+                    "name": "Mei H"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Shi",
+                    "name": "Shi L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Shabanowitz",
+                    "name": "Shabanowitz J"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "English",
+                    "name": "English AM"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Wriston",
+                    "name": "Wriston A"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Lucas",
+                    "name": "Lucas A"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Phillips",
+                    "name": "Phillips E"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Mallal",
+                    "name": "Mallal S"
+                },
+                {
+                    "initials": "HM",
+                    "lastname": "Grey",
+                    "name": "Grey HM"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Sette",
+                    "name": "Sette A"
+                },
+                {
+                    "initials": "DF",
+                    "lastname": "Hunt",
+                    "name": "Hunt DF"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Buus",
+                    "name": "Buus S"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Peters",
+                    "name": "Peters B"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1207934109",
+                    "type": "doi"
+                },
+                {
+                    "id": "22645359",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Drug hypersensitivity caused by alteration of the MHC-presented self-peptide repertoire.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1207934109",
+            "volume": [
+                null
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3upr"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3upr"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*57:01 binding \"HSITYLLPV\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

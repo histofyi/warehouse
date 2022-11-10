@@ -1,0 +1,233 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34073",
+            "locus": "hla-e",
+            "match_type": "histo:exact",
+            "name": "HLA-E*01:01",
+            "slug": "hla_e_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7ryn_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:28:28.577241"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.96,
+            "sequence": "DAGIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDMGSLVPR"
+        },
+        "cd1a": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "DAATGLKEPLSFHVIWIASFYNHSWKQNLVSGWLSDLQTHTWDSNSSTIVFLWPWSRGNFSNEEWKELETLFRIRTIRSFEGIRRYAHELQFEYPFEIQVTGGCELHSGKVSGSFLQLAYQGSDFVSFQNNSWLPYPVAGNMAKHFCKVLNQNQHENDITHNLLSDTCPRFILGLLDAGKAHLQRQVKPEAWLSHGPSPGPGHLQLVCHVSGFYPKPVWVMWMRGEQEQQGTQRGDILPSADGTWYLRATLEVAAGEAADLSCRVKHSSLEGQDIVLYWEGSLVPR"
+        },
+        "tcr_delta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MAQKVTQAQSSVSMPVRKAVTLNCLYETSWWSYYIFWYKQLPSKEMIFLIRQGSDEQNAKSGRYSVNFKKAAKSVALTISALQLEDSAKYFCALGELRWPDKLIFGKGTRVTVEPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRDV1"
+        },
+        "tcr_gamma": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MASSNLEGRTKSVIRQTGSSAEITCDLAEGSTGYIHWYLHQEGKAPQRLLYYDSYTSSVVLESGISPGKYDTYGSTRKNLRMILRNLIENDSGVYYCATWDGDYYKKLFGSGTTLVVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRGV4"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-08-25",
+        "deposition_year": 2021,
+        "release_date": "2022-05-18",
+        "release_year": 2022,
+        "revision_date": "2022-07-13",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1a_with_nkt_gamma_delta_tcr",
+    "components": [
+        "cd1a",
+        "beta2m",
+        "tcr_delta",
+        "tcr_gamma"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-e",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7RYN | Non-classical MHC Class I molecule CD1a with Natural Killer Gamma/Delta T cell receptor",
+    "pdb_code": "7ryn",
+    "pdb_title": "Cd1a-sulfatide-gdTCR complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "CD1a is a monomorphic antigen-presenting molecule on dendritic cells that presents lipids to \u03b1\u03b2 T cells. Whether CD1a represents a ligand for other immune receptors remains unknown. Here we use CD1a tetramers to show that CD1a is a ligand for V\u03b41<sup>+</sup> \u03b3\u03b4 T cells. Functional studies suggest that two \u03b3\u03b4 T cell receptors (TCRs) bound CD1a in a lipid-independent manner. The crystal structures of three V\u03b34V\u03b41 TCR-CD1a-lipid complexes reveal that the \u03b3\u03b4 TCR binds at the extreme far side and parallel to the long axis of the \u03b2-sheet floor of CD1a's antigen-binding cleft. Here, the \u03b3\u03b4 TCR co-recognises the CD1a heavy chain and \u03b22 microglobulin in a manner that is distinct from all other previously observed \u03b3\u03b4 TCR docking modalities. The 'sideways' and lipid antigen independent mode of autoreactive CD1a recognition induces TCR clustering on the cell surface and proximal T cell signalling as measured by CD3\u03b6 phosphorylation. In contrast with the 'end to end' binding of \u03b1\u03b2 TCRs that typically contact carried antigens, autoreactive \u03b3\u03b4 TCRs support geometrically diverse approaches to CD1a, as well as antigen independent recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Wegrecki, M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Ocampo, T.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gunasinghe, S.D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "von Borstel, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Tin, S.Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Reijneveld, J.F."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Cao, T.P."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gully, B.S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Le Nours, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Moody, D.B."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Van Rhijn, I."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Rossjohn, J."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-022-31443-9",
+                    "type": "doi"
+                },
+                {
+                    "id": "35790773",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "3872-3872"
+            ],
+            "title": "Atypical sideways recognition of CD1a by autoreactive gamma delta T cell receptors.",
+            "type": "article",
+            "url": "https://www.nature.com/articles/s41467-022-31443-9",
+            "volume": [
+                "13"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7ryn"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7ryn"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=7ryn"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "delta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRDV1"
+        },
+        "gamma": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRGV4"
+        },
+        "pdb_code": "7ryn"
+    },
+    "title": "Non-classical MHC Class I molecule CD1a with Natural Killer Gamma/Delta T cell receptor at 2.70&#8491; resolution",
+    "unique_chain_count": 4
+}

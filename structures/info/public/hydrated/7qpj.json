@@ -1,0 +1,205 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7qpj_1",
+            "chains": [
+                "C",
+                "D",
+                "E",
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:45:37.329048"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GLYDGMEHL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MQKEVEQNSGPLSVPEGAIASLNCTYSDRGSSSFFWYRQYSGKSPELIMSIYANGDKEDGRFTAQLNKASQYVSLLIRDSQPSDSATYLCAVRGTGRRALTFGSGTRLQVQPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV12"
+        },
+        "tcr_beta": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MNAGVTQTPKFRILKIGQSMTLQCAQDMNHNYMYWYRQDPGMGLKLIYYSVGAGITDKGEVPNGYNVSRSTTEDFPLRLELAAPSQTSVYFCASSFATEAFFGQGTRLTVVEDLNKVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQDPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2022-01-04",
+        "deposition_year": 2022,
+        "release_date": "2022-08-03",
+        "release_year": 2022,
+        "revision_date": "2022-08-03",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7QPJ | HLA-A*02:01 presenting \"GLYDGMEHL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "7qpj",
+    "pdb_title": "Crystal structure of engineered TCR (756) complexed to hla-a*02:01 presenting mage-a10 9-mer peptide",
+    "peptide": {
+        "E": {
+            "actual_length": 9,
+            "actual_sequence": "GLYDGMEHL",
+            "chain_id": "E",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GLYDGMEHL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GLYDGMEHL",
+    "publication": {
+        "abstract": "<h4>Background</h4>T-cell receptor (TCR) immunotherapy is becoming a viable modality in cancer treatment with efficacy in clinical trials. The safety of patients is paramount, so innovative cell engineering methods are being employed to exploit adaptive immunity while controlling the factors governing antigen receptor (ie, TCR) specificity and cross-reactivity. We recently reported a TCR engineering campaign and selectivity profiling assay (X-scan) targeting a melanoma antigen gene (MAGE)-A10 peptide. This helped to distinguish between two well-performing TCRs based on cross-reactivity potential during preclinical drug evaluation, allowing one to be advanced to T-cell immunotherapeutic clinical trials. Here, we present three-dimensional structural information on those TCRs, highlighting engineering improvements and molecular mechanisms likely underpinning differential selectivity.<h4>Methods</h4>Parental and engineered TCRs were purified and crystallized either alone or complexed to human leucocyte antigen (HLA)-A*02:01 presenting the MAGE-A10 9-mer peptide, GLYDGMEHL (pHLA/MAGE-A10-9). Using X-ray diffraction, we solved four high-resolution crystal structures and evaluated them relative to previously reported functional results.<h4>Results</h4>The unligated parental TCR displayed similar complementarity-determining region (CDR) loop conformations when bound to pHLA/MAGE-A10-9; a rigid-body movement of TCR beta chain variable domain (TRBV) relative to TCR alpha chain variable domain helped optimal pHLA engagement. This first view of an HLA-bound MAGE-A10 peptide revealed an intrachain non-covalent 'staple' between peptide Tyr3 and Glu7. A subtle Glu53-Asp mutation in \u03b2CDR2 of the parental TCR generated a high-affinity derivative. Its pHLA-complexed structure shows that the shorter Asp leans toward the pHLA with resulting rigid-body TRBV shift, creating localized changes around the peptide's C-terminus. Structural comparison with a less selective TCR indicated that differential cross-reactivity to MAGE-A10 peptide variants is most readily explained by alterations in surface electrostatics, and the size and geometry of TCR-peptide interfacial cavities.<h4>Conclusions</h4>Modest changes in engineered TCRs targeting MAGE-A10 produced significantly different properties. Conformational invariance of TCR and antigen peptide plus more space-filling CDR loop sequences may be desirable properties for clinically relevant TCR-pHLA systems to reduce the likelihood of structurally similar peptide mimics being tolerated by a TCR. Such properties may partially explain why the affinity-enhanced, in vitro-selected TCR has been generally well tolerated in patients.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "PC",
+                    "lastname": "Simister",
+                    "name": "Simister PC"
+                },
+                {
+                    "initials": "EC",
+                    "lastname": "Border",
+                    "name": "Border EC"
+                },
+                {
+                    "initials": "JF",
+                    "lastname": "Vieira",
+                    "name": "Vieira JF"
+                },
+                {
+                    "initials": "NJ",
+                    "lastname": "Pumphrey",
+                    "name": "Pumphrey NJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1136/jitc-2022-004600",
+                    "type": "doi"
+                },
+                {
+                    "id": "35851311",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "J Immunother Cancer",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Structural insights into engineering a T-cell receptor targeting MAGE-A10 with higher affinity and specificity for cancer immunotherapy.",
+            "type": "article",
+            "url": "https://jitc.bmj.com/lookup/doi/10.1136/jitc-2022-004600",
+            "volume": [
+                "10"
+            ],
+            "year": [
+                2022
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.54",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7qpj"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7qpj"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=7qpj"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "A"
+            ],
+            "subgroup": "TRAV12"
+        },
+        "beta": {
+            "chains": [
+                "B"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "7qpj"
+    },
+    "title": "HLA-A*02:01 presenting \"GLYDGMEHL\" to Alpha/Beta T cell receptor at 1.54&#8491; resolution",
+    "unique_chain_count": 5
+}

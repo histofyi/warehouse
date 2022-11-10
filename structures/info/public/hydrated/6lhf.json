@@ -1,0 +1,225 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:CHICKEN08576",
+            "locus": "gaga-bf2",
+            "match_type": "histo:exact",
+            "name": "Gaga-BF2*015:01",
+            "slug": "gaga_bf2_015_01",
+            "species_stem": "Gaga"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6lhf_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:29:24.004132"
+        },
+        "2": {
+            "assembly_name": "6lhf_2",
+            "chains": [
+                "D",
+                "E",
+                "F",
+                "I",
+                "J"
+            ],
+            "downloaded_at": "2022-11-09T14:29:24.623768"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "LTPKVQVYSRFPASAGTKNVLNCFAAGFHPPKISITLMKDGVPMEGAQYSDMSFNDDWTFQRLVHADFTPSSGSTYACKVEHETLKEPQVYKWDPE"
+        },
+        "cd8a": {
+            "chains": [
+                "G",
+                "H",
+                "I",
+                "J"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "TMEARFLNRNMKHPQEGQPLELECMPFNIDNGVSWIRQDKDGKLHFIVYISPLSRTAFPRNERTSSQFEGSKQGSSFRLVVKNFRAQDQGTYFCIANINQMLYFSSGQPAFF"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "ELHTLRYISTAMTDPGPGQPWYVDVGYVDGELFTHYNSTARRAVPRTEWIAANTDQQYWDSETQTSQRTEQIDRDGLGTLQRRYNQTGGSHTVQLMYGCDILEDGTIRGYSQDAYDGRDFIAFDKDTMTFTAAVPEAVPTKRKWEEGDYAEGLKQYLEETCVEWLRRYVEYGKAELGRRERPEVRVWGKEADGILTLSCRAHGFYPRPIAVSWLKDGAVQGQDAQSGGIVPNGDGTYHTWVTIDAQPGDGDKYQCRVEHASLPQPGLYSW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RRREQTDY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2019-12-08",
+        "deposition_year": 2019,
+        "release_date": "2020-12-09",
+        "release_year": 2020,
+        "revision_date": "2021-06-23",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_cd8a",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "cd8a"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "gaga-bf2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6LHF | Gaga-BF2*015:01 binding \"RRREQTDY\" with CD8a",
+    "pdb_code": "6lhf",
+    "pdb_title": "Crystal structure of chicken ccd8aa/pbf2*15:01",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "RRREQTDY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RRREQTDY"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "RRREQTDY",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RRREQTDY"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RRREQTDY",
+    "publication": {
+        "abstract": "The CD8\u03b1\u03b1 homodimer is crucial to both thymic T cell selection and the antigen recognition of cytotoxic T cells. The CD8-pMHC-I interaction can enhance CTL immunity <i>via</i> stabilizing the TCR-pMHC-I interaction and optimizing the cross-reactivity and Ag sensitivity of CD8<sup>+</sup> T cells at various stages of development. To date, only human and mouse CD8-pMHC-I complexes have been determined. Here, we resolved the pBF2*1501 complex and the cCD8\u03b1\u03b1/pBF2*1501 and cCD8\u03b1\u03b1/pBF2*0401 complexes in nonmammals for the first time. Remarkably, cCD8\u03b1\u03b1/pBF2*1501 and the cCD8\u03b1\u03b1/pBF2*0401 complex both exhibited two binding modes, including an \"antibody-like\" mode similar to that of the known mammal CD8/pMHC-I complexes and a \"face-to-face\" mode that has been observed only in chickens to date. Compared to the \"antibody-like\" mode, the \"face-to-face\" binding mode changes the binding orientation of the cCD8\u03b1\u03b1 homodimer to pMHC-I, which might facilitate abundant \u03b3\u03b4T cells to bind diverse peptides presented by limited BF2 alleles in chicken. Moreover, the forces involving in the interaction of cCD8\u03b1\u03b1/pBF2*1501 and the cCD8\u03b1\u03b1/pBF2*0401 are different in this two binding model, which might change the strength of the CD8-pMHC-I interaction, amplifying T cell cross-reactivity in chickens. The coreceptor CD8\u03b1\u03b1 of TCR has evolved two peptide-MHC-I binding patterns in chickens, which might enhance the T cell response to major or emerging pathogens, including chicken-derived pathogens that are relevant to human health, such as high-pathogenicity influenza viruses.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Liu",
+                    "name": "Liu Y"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Chen",
+                    "name": "Chen R"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Liang",
+                    "name": "Liang R"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Sun",
+                    "name": "Sun B"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Wu",
+                    "name": "Wu Y"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Zhang",
+                    "name": "Zhang L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Kaufman",
+                    "name": "Kaufman J"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Xia",
+                    "name": "Xia C"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3389/fimmu.2020.605085",
+                    "type": "doi"
+                },
+                {
+                    "id": "33329601",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Front Immunol",
+                "name": ""
+            },
+            "pages": [
+                "605085"
+            ],
+            "title": "The Combination of CD8\ufffd\ufffd\ufffd\ufffd and Peptide-MHC-I in a Face-to-Face Mode Promotes Chicken \ufffd\ufffd\ufffd\ufffdT Cells Response.",
+            "type": "article",
+            "url": "https://www.frontiersin.org/articles/10.3389/fimmu.2020.605085/full",
+            "volume": [
+                "11"
+            ],
+            "year": [
+                2020
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.70",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6lhf"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6lhf"
+        }
+    },
+    "species": {
+        "common_name": "Chicken",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Gallus gallus",
+        "slug": "gallus_gallus"
+    },
+    "tcr": null,
+    "title": "Gaga-BF2*015:01 binding \"RRREQTDY\" with CD8a at 2.70&#8491; resolution",
+    "unique_chain_count": 4
+}

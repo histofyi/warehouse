@@ -1,0 +1,230 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34746",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*07:02",
+            "slug": "hla_b_07_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6avf_1",
+            "chains": [
+                "M",
+                "A",
+                "B",
+                "P",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:40:47.286739"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "M"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.81,
+            "sequence": "MLVMAPRTVLLLLSAALALTETWAGSHSMRYFYTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIYKAQAQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHDQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAAREAEQRRAYLEGECVEWLRRYLENGKDKLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPSSQSTVPIVGIVAGLAVLAVVVIGAVVAAVMCRRKSSGGKGGSYSQAACSDSAQGSDVSLTA"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "APRGPHGGAASGL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MLAKTTQPISMDSYEGQEVNITCSHNNIATNDYITWYQQFPSQGPRFIIQGYKTKVTNEVASLFIPADRKSSTLSLPRVSLSDTAVYYCLVGEILDNFNKFYFGSGTKLNVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV4"
+        },
+        "tcr_beta": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MDVKVTQSSRYLVKRTGEKVFLECVQDMDHENMFWYRQDPGLGLRLIYFSYDVKMKEKGDIPEGYSVSREKKERFSLILESASTNQTSMYLCASSQRQEGDTQYFGPGTRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV28"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-09-02",
+        "deposition_year": 2017,
+        "release_date": "2018-02-28",
+        "release_year": 2018,
+        "revision_date": "2019-04-17",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6AVF | HLA-B*07:02 presenting \"APRGPHGGAASGL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "6avf",
+    "pdb_title": "Crystal structure of the kfj5 TCR-ny-eso-1-hla-b*07:02 complex",
+    "peptide": {
+        "P": {
+            "actual_length": 13,
+            "actual_sequence": "APRGPHGGAASGL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 13,
+            "full_sequence": "APRGPHGGAASGL"
+        }
+    },
+    "peptide_length": 13,
+    "peptide_length_name": "tridecamer",
+    "peptide_sequence": "APRGPHGGAASGL",
+    "publication": {
+        "abstract": "Human leukocyte antigen (HLA)-I molecules generally bind short peptides (8-10 amino acids), although extended HLA-I restricted peptides (>10 amino acids) can be presented to T cells. However, the function of such extended HLA-I epitopes in tumour immunity, and how they would be recognised by T-cell receptors (TCR) remains unclear. Here we show that the structures of two distinct TCRs (TRAV4+TRAJ21+-TRBV28+TRBJ2-3+ and TRAV4 + TRAJ8+-TRBV9+TRBJ2-1+), originating from a polyclonal T-cell repertoire, bind to HLA-B*07:02, presenting a 13-amino-acid-long tumour-associated peptide, NY-ESO-160-72. Comparison of the structures reveals that the two TCRs differentially binds NY-ESO-160-72-HLA-B*07:02 complex, and induces differing extent of conformational change of the NY-ESO-160-72 epitope. Accordingly, polyclonal TCR usage towards an extended HLA-I restricted tumour epitope translates to differing TCR recognition modes, whereby extensive flexibility at the TCR-pHLA-I interface engenders recognition.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "KF",
+                    "lastname": "Chan",
+                    "name": "Chan KF"
+                },
+                {
+                    "initials": "BS",
+                    "lastname": "Gully",
+                    "name": "Gully BS"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "DX",
+                    "lastname": "Beringer",
+                    "name": "Beringer DX"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Cebon",
+                    "name": "Cebon J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Chen",
+                    "name": "Chen W"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-018-03321-w",
+                    "type": "doi"
+                },
+                {
+                    "id": "29531227",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "1026"
+            ],
+            "title": "Divergent T-cell receptor recognition modes of a HLA-I restricted extended tumour-associated peptide.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-018-03321-w",
+            "volume": [
+                "9"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.03",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6avf"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6avf"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6avf"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "A"
+            ],
+            "subgroup": "TRAV4"
+        },
+        "beta": {
+            "chains": [
+                "B"
+            ],
+            "subgroup": "TRBV28"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "6avf"
+    },
+    "title": "HLA-B*07:02 presenting \"APRGPHGGAASGL\" to Alpha/Beta T cell receptor at 2.03&#8491; resolution",
+    "unique_chain_count": 5
+}

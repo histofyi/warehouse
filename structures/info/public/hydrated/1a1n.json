@@ -1,0 +1,177 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1a1n_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:12.377515"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRPPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VPLRPMTY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "1997-12-11",
+        "deposition_year": 1997,
+        "release_date": "1998-04-08",
+        "release_year": 1998,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1A1N | HLA-B*35:01 binding \"VPLRPMTY\"",
+    "pdb_code": "1a1n",
+    "pdb_title": "Mhc Class I molecule b*3501 complexed with peptide VPLRPMTY from the nef protein (75-82) of hiv1",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "VPLRPMTY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "VPLRPMTY"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "VPLRPMTY",
+    "publication": {
+        "abstract": "The crystal structure of the human major histocompatibility complex class I B allele HLA B*3501 complexed with the 8-mer peptide epitope HIV1 Nef 75-82 (VPLRPMTY) has been determined at 2.0 angstrom resolution. Comparison with the crystal structure of the closely related allele HLA B*5301 reveals the structural basis for the tyrosine specificity of the B*3501 F pocket. The structure also reveals a novel conformation of the 8-mer peptide within the binding groove. The positions of the peptide N and C termini are nonstandard, but the classic pattern of hydrogen bonding to nonpolymorphic MHC class I residues is maintained, at the N terminus by addition of a water molecule, and at the C terminus by a substantial shift in the alpha 2 helix.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "KJ",
+                    "lastname": "Smith",
+                    "name": "Smith KJ"
+                },
+                {
+                    "initials": "SW",
+                    "lastname": "Reid",
+                    "name": "Reid SW"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Stuart",
+                    "name": "Stuart DI"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                },
+                {
+                    "initials": "JI",
+                    "lastname": "Bell",
+                    "name": "Bell JI"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s1074-7613(00)80429-x",
+                    "type": "doi"
+                },
+                {
+                    "id": "8624811",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "203-13"
+            ],
+            "title": "An altered position of the alpha 2 helix of MHC class I is revealed by the crystal structure of HLA-B*3501.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S107476130080429X",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                1996
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1a1n"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1a1n"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:01 binding \"VPLRPMTY\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

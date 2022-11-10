@@ -1,0 +1,234 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4huv_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:28:48.686668"
+        },
+        "2": {
+            "assembly_name": "4huv_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:28:49.066789"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGPHSMRYFETAVSRPGLEEPRYISVGYVDNKEFVRFDSDAENPRYEPRAPWMEQEGPEYWERETQKAKGQEQWFRVSLRNLLGYYNQSAGGSHTLQQMSGCDLGSDWRLLRGYLQFAYEGRDYIALNEDLKTWTAADMAAQITRRKWEQSGAAEHYKAYLEGECVEWLHRYLKNGNATLLRTDSPKAHVTHHPRSKGEVTLRCWALGFYPADITLTWQLNGEELTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVYHEGLPEPLTLRWEPPPST"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ASNENWETM"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2012-11-04",
+        "deposition_year": 2012,
+        "release_date": "2013-02-27",
+        "release_year": 2013,
+        "revision_date": "2020-02-05",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4HUV | H2-Db binding \"ASNENWETM\"",
+    "pdb_code": "4huv",
+    "pdb_title": "Crystal structure of h2db-npm6w",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ASNENWETM",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ASNENWETM"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "ASNENWETM",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ASNENWETM"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ASNENWETM",
+    "publication": {
+        "abstract": "A reverse-genetics approach has been used to probe the mechanism underlying immune escape for influenza A virus-specific CD8(+) T cells responding to the immunodominant D(b)NP366 epitope. Engineered viruses with a substitution at a critical residue (position 6, P6M) all evaded recognition by WT D(b)NP366-specific CD8(+) T cells, but only the NPM6I and NPM6T mutants altered the topography of a key residue (His155) in the MHC class I binding site. Following infection with the engineered NPM6I and NPM6T influenza viruses, both mutations were associated with a substantial \"hole\" in the na\u00efve T-cell receptor repertoire, characterized by very limited T-cell receptor diversity and minimal primary responses to the NPM6I and NPM6T epitopes. Surprisingly, following respiratory challenge with a serologically distinct influenza virus carrying the same mutation, preemptive immunization against these escape variants led to the generation of secondary CD8(+) T-cell responses that were comparable in magnitude to those found for the WT NP epitope. Consequently, it might be possible to generate broadly protective T-cell immunity against commonly occurring virus escape mutants. If this is generally true for RNA viruses (like HIV, hepatitis C virus, and influenza) that show high mutation rates, priming against predicted mutants before an initial encounter could function to prevent the emergence of escape variants in infected hosts. That process could be a step toward preserving immune control of particularly persistent RNA viruses and may be worth considering for future vaccine strategies.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "SA",
+                    "lastname": "Valkenburg",
+                    "name": "Valkenburg SA"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Guillonneau",
+                    "name": "Guillonneau C"
+                },
+                {
+                    "initials": "LA",
+                    "lastname": "Hatton",
+                    "name": "Hatton LA"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Bird",
+                    "name": "Bird NA"
+                },
+                {
+                    "initials": "KA",
+                    "lastname": "Twist",
+                    "name": "Twist KA"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Halim",
+                    "name": "Halim H"
+                },
+                {
+                    "initials": "DC",
+                    "lastname": "Jackson",
+                    "name": "Jackson DC"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Turner",
+                    "name": "Turner SJ"
+                },
+                {
+                    "initials": "PC",
+                    "lastname": "Doherty",
+                    "name": "Doherty PC"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kedzierska",
+                    "name": "Kedzierska K"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.1302935110",
+                    "type": "doi"
+                },
+                {
+                    "id": "23493558",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Preemptive priming readily overcomes structure-based mechanisms of virus escape.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.1302935110",
+            "volume": [
+                null
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4huv"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4huv"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Db binding \"ASNENWETM\" at 2.50&#8491; resolution",
+    "unique_chain_count": 3
+}

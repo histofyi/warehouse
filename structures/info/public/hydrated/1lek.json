@@ -1,0 +1,183 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1lek_1",
+            "chains": [
+                "A",
+                "B",
+                "P",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:42:14.321911"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVSLRTLLGYYNQSAGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EQYKFYSV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2002-04-09",
+        "deposition_year": 2002,
+        "release_date": "2002-06-26",
+        "release_year": 2002,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1LEK | H2-Kb binding \"EQYKFYSV\"",
+    "pdb_code": "1lek",
+    "pdb_title": "Crystal structure of h-2kbm3 bound to dev8",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "EQYKFYSV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "EQYKFYSV"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "EQYKFYSV",
+    "publication": {
+        "abstract": "The crystal structures of the 2C/H-2K(bm3)-dEV8 allogeneic complex at 2.4 A and H-2K(bm3)-dEV8 at 2.15 A, when compared with their syngeneic counterparts, elucidate structural changes that induce an alloresponse. The Asp77Ser mutation that imbues H-2K(bm3)-dEV8 with its alloreactive properties is located beneath the peptide and does not directly contact the T cell receptor (TCR). However, the buried mutation induces local rearrangement of the peptide itself to preserve hydrogen bonding interactions between the peptide and the alpha(1) 77 residue. The COOH terminus of the peptide main chain is tugged toward the alpha(1)-helix such that its presentation to the TCR is altered. These changes increase the stability of the allogeneic peptide-major histocompatibility complex (pMHC) complex and increase complementarity in the TCR-pMHC interface, placing greater emphasis on recognition of the pMHC by the TCR beta-chain, evinced by an increase in shape complementarity, buried surface area, and number of TCR-pMHC contacting residues. A nearly fourfold increase in the number of beta-chain-pMHC contacts is accompanied by a concomitant 64% increase in beta-chain-pMHC shape complementarity. Thus, the allogeneic mutation causes the same peptide to be presented differently, temporally and spatially, by the allogeneic and syngeneic MHCs.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JG",
+                    "lastname": "Luz",
+                    "name": "Luz JG"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Huang",
+                    "name": "Huang M"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Garcia",
+                    "name": "Garcia KC"
+                },
+                {
+                    "initials": "MG",
+                    "lastname": "Rudolph",
+                    "name": "Rudolph MG"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Apostolopoulos",
+                    "name": "Apostolopoulos V"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Teyton",
+                    "name": "Teyton L"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1084/jem.20011644",
+                    "type": "doi"
+                },
+                {
+                    "id": "11994422",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "9"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Exp. Med.",
+                "name": ""
+            },
+            "pages": [
+                "1175-86"
+            ],
+            "title": "Structural comparison of allogeneic and syngeneic T cell receptor-peptide-major histocompatibility complex complexes: a buried alloreactive mutation subtly alters peptide presentation substantially increasing V(beta) Interactions.",
+            "type": "article",
+            "url": "https://rupress.org/jem/article/195/9/1175/39596/Structural-Comparison-of-Allogeneic-and-Syngeneic",
+            "volume": [
+                "195"
+            ],
+            "year": [
+                2002
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.15",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1lek"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1lek"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"EQYKFYSV\" at 2.15&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,206 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1p4l_1",
+            "chains": [
+                "A",
+                "B",
+                "P",
+                "D",
+                "A_2",
+                "B_2",
+                "P_2",
+                "D_2"
+            ],
+            "downloaded_at": "2022-11-09T14:31:19.274807"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRW"
+        },
+        "ly49c": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.94,
+            "sequence": "RGVKYWFCYSTKCYYFIMNKTTWSGCKANCQHYGVPILKIEDEDELKFLQRHVIPGNYWIGLSYDKKKKEWAWIDNGPSKLDMKIKKMNFKSRGCVFLSKARIEDIDCNIPYYCICGKKLDK"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "SIINFEKL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2003-04-23",
+        "deposition_year": 2003,
+        "release_date": "2003-11-11",
+        "release_year": 2003,
+        "revision_date": "2021-10-27",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_ly49c",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "ly49c"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1P4L | H2-Kb binding \"SIINFEKL\" with Ly49c NK receptor",
+    "pdb_code": "1p4l",
+    "pdb_title": "Crystal structure of nk receptor ly49c mutant with its MHC Class I ligand h-2kb",
+    "peptide": {
+        "P": {
+            "actual_length": 8,
+            "actual_sequence": "SIINFEKL",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "SIINFEKL"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "SIINFEKL",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Dam",
+                    "name": "Dam J"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Guan",
+                    "name": "Guan R"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Natarajan",
+                    "name": "Natarajan K"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Dimasi",
+                    "name": "Dimasi N"
+                },
+                {
+                    "initials": "LK",
+                    "lastname": "Chlewicki",
+                    "name": "Chlewicki LK"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Kranz",
+                    "name": "Kranz DM"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Schuck",
+                    "name": "Schuck P"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Margulies",
+                    "name": "Margulies DH"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Mariuzza",
+                    "name": "Mariuzza RA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni1006",
+                    "type": "doi"
+                },
+                {
+                    "id": "14595439",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "12"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "1213-22"
+            ],
+            "title": "Variable MHC class I engagement by Ly49 natural killer cell receptors demonstrated by the crystal structure of Ly49C bound to H-2K(b).",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni1006",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2003
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1p4l"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1p4l"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"SIINFEKL\" with Ly49c NK receptor at 2.90&#8491; resolution",
+    "unique_chain_count": 4
+}

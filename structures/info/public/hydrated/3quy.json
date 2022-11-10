@@ -1,0 +1,254 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3quy_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:41:44.738622"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKTQVEQSPQSLVVRQGENCVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDEGYTQYFGPGTRLLVLEDLRNVTPPKVSLFEPSKAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-02-24",
+        "deposition_year": 2011,
+        "release_date": "2011-06-29",
+        "release_year": 2011,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3QUY | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "3quy",
+    "pdb_title": "Structure of the mouse CD1d-bnnh-gsl-1'-inkt TCR complex",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Invariant natural killer T (iNKT) cells are known to have marked immunomodulatory capacity due to their ability to produce copious amounts of effector cytokines. Here, we report the structure and function of a novel class of aromatic \u03b1-galactosylceramide structurally related glycolipids with marked Th1 bias in both mice and men, leading to superior tumour protection in vivo. The strength of the Th1 response correlates well with enhanced lipid binding to CD1d as a result of an induced fit mechanism that binds the aromatic substitution as a third anchor, in addition to the two lipid chains. This induced fit is in contrast to another Th1-biasing glycolipid, \u03b1-C-GalCer, whose CD1d binding follows a conventional key-lock principle. These findings highlight the previously unexploited flexibility of CD1d in accommodating galactose-modified glycolipids and broaden the range of glycolipids that can stimulate iNKT cells. We speculate that glycolipids can be designed that induce a similar fit, thereby leading to superior and more sustained iNKT cell responses in vivo.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "S",
+                    "lastname": "Aspeslagh",
+                    "name": "Aspeslagh S"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Li",
+                    "name": "Li Y"
+                },
+                {
+                    "initials": "ED",
+                    "lastname": "Yu",
+                    "name": "Yu ED"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Pauwels",
+                    "name": "Pauwels N"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Trappeniers",
+                    "name": "Trappeniers M"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Girardi",
+                    "name": "Girardi E"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Decruy",
+                    "name": "Decruy T"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Van Beneden",
+                    "name": "Van Beneden K"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Venken",
+                    "name": "Venken K"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Drennan",
+                    "name": "Drennan M"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Leybaert",
+                    "name": "Leybaert L"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "RW",
+                    "lastname": "Franck",
+                    "name": "Franck RW"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Van Calenbergh",
+                    "name": "Van Calenbergh S"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Elewaut",
+                    "name": "Elewaut D"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/emboj.2011.145",
+                    "type": "doi"
+                },
+                {
+                    "id": "21552205",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "EMBO J.",
+                "name": ""
+            },
+            "pages": [
+                "2294-305"
+            ],
+            "title": "Galactose-modified iNKT cell agonists stabilized by an induced fit of CD1d prevent tumour metastasis.",
+            "type": "article",
+            "url": "http://emboj.embopress.org/cgi/doi/10.1038/emboj.2011.145",
+            "volume": [
+                "30"
+            ],
+            "year": [
+                2011
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.25",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3quy"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3quy"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=3quy"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "3quy"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 2.25&#8491; resolution",
+    "unique_chain_count": 4
+}

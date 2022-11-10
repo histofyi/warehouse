@@ -1,0 +1,197 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34729",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*37:01",
+            "slug": "hla_b_37_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6mt4_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:26:43.006474"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.94,
+            "sequence": "GSHSMRYFHTSVSRPGRGEPRFISVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRETQISKTNTQTYREDLRTLLRYYNQSEAGSHTIQRMSGCDVGPDGRLLRGYNQFAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQDRAYLEGTCVEWLRRYLENGKETLQRADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "FEDLRVSSF"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-10-19",
+        "deposition_year": 2018,
+        "release_date": "2019-02-13",
+        "release_year": 2019,
+        "revision_date": "2019-02-13",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6MT4 | HLA-B*37:01 binding \"FEDLRVSSF\"",
+    "pdb_code": "6mt4",
+    "pdb_title": "Crystal structure of hla-b*37:01 in complex with np338-l7s influenza peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "FEDLRVSSF",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "FEDLRVSSF"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "FEDLRVSSF",
+    "publication": {
+        "abstract": "Newly-emerged and vaccine-mismatched influenza A viruses (IAVs) result in a rapid global spread of the virus due to minimal antibody-mediated immunity. In that case, established CD8+ T-cells can reduce disease severity. However, as mutations occur sporadically within immunogenic IAV-derived T-cell peptides, understanding of T-cell receptor (TCR\u03b1\u03b2) cross-reactivity towards IAV variants is needed for a vaccine design. Here, we investigate TCR\u03b1\u03b2 cross-strain recognition across IAV variants within two immunodominant human IAV-specific CD8+ T-cell epitopes, HLA-B*37:01-restricted NP338-346 (B37-NP338) and HLA-A*01:01-restricted NP44-52 (A1-NP44). We find high abundance of cross-reactive TCR\u03b1\u03b2 clonotypes recognizing distinct IAV variants. Structures of the wild-type and variant peptides revealed preserved conformation of the bound peptides. Structures of a cross-reactive TCR-HLA-B37-NP338 complex suggest that the conserved conformation of the variants underpins TCR cross-reactivity. Overall, cross-reactive CD8+ T-cell responses, underpinned by conserved epitope structure, facilitates recognition of distinct IAV variants, thus CD8+ T-cell-targeted vaccines could provide protection across different IAV strains.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "EJ",
+                    "lastname": "Grant",
+                    "name": "Grant EJ"
+                },
+                {
+                    "initials": "TM",
+                    "lastname": "Josephs",
+                    "name": "Josephs TM"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Loh",
+                    "name": "Loh L"
+                },
+                {
+                    "initials": "EB",
+                    "lastname": "Clemens",
+                    "name": "Clemens EB"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Sant",
+                    "name": "Sant S"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bharadwaj",
+                    "name": "Bharadwaj M"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Chen",
+                    "name": "Chen W"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kedzierska",
+                    "name": "Kedzierska K"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/s41467-018-07815-5",
+                    "type": "doi"
+                },
+                {
+                    "id": "30575715",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat Commun",
+                "name": ""
+            },
+            "pages": [
+                "5427"
+            ],
+            "title": "Broad CD8<sub>+</sub> T cell cross-recognition of distinct influenza A strains in humans.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/s41467-018-07815-5",
+            "volume": [
+                "9"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.55",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6mt4"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6mt4"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*37:01 binding \"FEDLRVSSF\" at 1.55&#8491; resolution",
+    "unique_chain_count": 3
+}

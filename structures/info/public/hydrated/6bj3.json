@@ -1,0 +1,285 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6bj3_1",
+            "chains": [
+                "A",
+                "B",
+                "D",
+                "H",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:30:10.475252"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "IPLTEEAEL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MQKVTQAQSSVSMPVRKAVTLNCLYETSWWSYYIFWYKQLPSKEMIFLIRQGSDEQNAKSGRYSVNFKKAAKSVALTISALQLEDSAKYFCALGEGGAQKLVFGQGTRLTINPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSP",
+            "subgroup": null
+        },
+        "tcr_beta": {
+            "chains": [
+                "H"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASRTRGGTLIEQYFGPGTRLTVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYCLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2017-11-03",
+        "deposition_year": 2017,
+        "release_date": "2018-07-25",
+        "release_year": 2018,
+        "revision_date": "2019-12-11",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6BJ3 | HLA-B*35:01 presenting \"IPLTEEAEL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "6bj3",
+    "pdb_title": "Tcr55 in complex with hiv(pol448-456)/hla-b35",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "IPLTEEAEL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IPLTEEAEL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "IPLTEEAEL",
+    "publication": {
+        "abstract": "TCR-signaling strength generally correlates with peptide-MHC binding affinity; however, exceptions exist. We find high-affinity, yet non-stimulatory, interactions occur with high frequency in the human T\u00a0cell repertoire. Here, we studied human TCRs that are refractory to activation by pMHC ligands despite robust binding. Analysis of 3D affinity, 2D dwell time, and crystal structures of stimulatory versus non-stimulatory TCR-pMHC interactions failed to account for their different signaling outcomes. Using yeast pMHC display, we identified peptide agonists of a formerly non-responsive TCR. Single-molecule force measurements demonstrated the emergence of catch bonds in the activating TCR-pMHC interactions, correlating with exclusion of CD45 from the TCR-APC contact site. Molecular dynamics simulations of TCR-pMHC disengagement distinguished agonist from non-agonist ligands based on the acquisition of catch bonds within\u00a0the TCR-pMHC interface. The isolation of catch bonds as a parameter mediating the coupling of TCR binding and signaling has important implications for TCR and antigen engineering for immunotherapy.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "LV",
+                    "lastname": "Sibener",
+                    "name": "Sibener LV"
+                },
+                {
+                    "initials": "RA",
+                    "lastname": "Fernandes",
+                    "name": "Fernandes RA"
+                },
+                {
+                    "initials": "EM",
+                    "lastname": "Kolawole",
+                    "name": "Kolawole EM"
+                },
+                {
+                    "initials": "CB",
+                    "lastname": "Carbone",
+                    "name": "Carbone CB"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Liu",
+                    "name": "Liu F"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "McAffee",
+                    "name": "McAffee D"
+                },
+                {
+                    "initials": "ME",
+                    "lastname": "Birnbaum",
+                    "name": "Birnbaum ME"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Yang",
+                    "name": "Yang X"
+                },
+                {
+                    "initials": "LF",
+                    "lastname": "Su",
+                    "name": "Su LF"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Yu",
+                    "name": "Yu W"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Dong",
+                    "name": "Dong S"
+                },
+                {
+                    "initials": "MH",
+                    "lastname": "Gee",
+                    "name": "Gee MH"
+                },
+                {
+                    "initials": "KM",
+                    "lastname": "Jude",
+                    "name": "Jude KM"
+                },
+                {
+                    "initials": "MM",
+                    "lastname": "Davis",
+                    "name": "Davis MM"
+                },
+                {
+                    "initials": "JT",
+                    "lastname": "Groves",
+                    "name": "Groves JT"
+                },
+                {
+                    "initials": "WA",
+                    "lastname": "Goddard",
+                    "name": "Goddard WA"
+                },
+                {
+                    "initials": "JR",
+                    "lastname": "Heath",
+                    "name": "Heath JR"
+                },
+                {
+                    "initials": "BD",
+                    "lastname": "Evavold",
+                    "name": "Evavold BD"
+                },
+                {
+                    "initials": "RD",
+                    "lastname": "Vale",
+                    "name": "Vale RD"
+                },
+                {
+                    "initials": "KC",
+                    "lastname": "Garcia",
+                    "name": "Garcia KC"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.cell.2018.06.017",
+                    "type": "doi"
+                },
+                {
+                    "id": "30053426",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Cell",
+                "name": ""
+            },
+            "pages": [
+                "672-687.e27"
+            ],
+            "title": "Isolation of a Structural Mechanism for Uncoupling T Cell Receptor Signaling from Peptide-MHC Binding.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0092867418307852",
+            "volume": [
+                "174"
+            ],
+            "year": [
+                2018
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6bj3"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6bj3"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6bj3"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": null
+        },
+        "beta": {
+            "chains": [
+                "H"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "6bj3"
+    },
+    "title": "HLA-B*35:01 presenting \"IPLTEEAEL\" to Alpha/Beta T cell receptor at 1.90&#8491; resolution",
+    "unique_chain_count": 5
+}

@@ -1,0 +1,235 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:BoLA03187",
+            "locus": "bola-2",
+            "match_type": "histo:fuzzy",
+            "name": "BoLA-2*018:01",
+            "slug": "bola_2_018_01",
+            "species_stem": "BoLA"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4mng_1",
+            "chains": [
+                "B",
+                "A",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:33:03.950729"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.73,
+            "sequence": "ADPVPQRLFPLRCLQISSFANSSWTRTDGLAWLGELQTHSWSNDSDTVRSLKPWSQGTFSDQQWETLQHIFRVYRSSFTRDVKEFAKMLRLSYPLELQVSAGCEVHPGNASNNFFHVAFQGKDILSFQGTSWEPTQEAPLWVNLAIQVLNQDKWTRETVQWLLNGTCPQFVSGLLESGKSELKKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWSGR"
+        },
+        "tcr_delta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "AQKVTQAQSSVSMPVRKAVTLNCLYETSWWSYYIFWYKQLPSKEMIFLIRQGSDEQNAKSGRYSVNFKKAAKSVALTISALQLEDSAKYFCALGEPSYWGFPRTTRVIFGKGTRVTVEPGGGGSGGGGSGGGGSGGGGSSSNLEGRTKSVIRQTGSSAEITCDLAEGSTGYIHWYLHQEGKAPQRLLYYDSYTSSVVLESGISPGKYDTYGSTRKNLRMILRNLIENDSGVYYCATWDEKYYKKLFGSGTKLIITDAASGAD",
+            "subgroup": "TRDV1"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-09-10",
+        "deposition_year": 2013,
+        "release_date": "2013-12-18",
+        "release_year": 2013,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_single_chain_trc",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_delta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "bola-2",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4MNG | Non-classical MHC Class I molecule CD1d with single chain gamma TCR construct",
+    "pdb_code": "4mng",
+    "pdb_title": "Structure of the dp10.7 TCR with CD1d-sulfatide",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "The nature of the antigens recognized by \u03b3\u03b4 T cells and their potential recognition of major histocompatibility complex (MHC)-like molecules has remained unclear. Members of the CD1 family of lipid-presenting molecules are suggested ligands for V\u03b41 TCR-expressing \u03b3\u03b4 T cells, the major \u03b3\u03b4 lymphocyte population in epithelial tissues. We crystallized a V\u03b41 TCR in complex with CD1d and the self-lipid sulfatide, revealing the unusual recognition of CD1d by germline V\u03b41 residues spanning all complementarity-determining region (CDR) loops, as well as sulfatide recognition separately encoded by nongermline CDR3\u03b4 residues. Binding and functional analysis showed that CD1d presenting self-lipids, including sulfatide, was widely recognized by gut V\u03b41+ \u03b3\u03b4 T cells. These findings provide structural demonstration of MHC-like recognition of a self-lipid by \u03b3\u03b4 T cells and reveal the prevalence of lipid recognition by innate-like T cell populations.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AM",
+                    "lastname": "Luoma",
+                    "name": "Luoma AM"
+                },
+                {
+                    "initials": "CD",
+                    "lastname": "Castro",
+                    "name": "Castro CD"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Mayassi",
+                    "name": "Mayassi T"
+                },
+                {
+                    "initials": "LA",
+                    "lastname": "Bembinster",
+                    "name": "Bembinster LA"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Bai",
+                    "name": "Bai L"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Picard",
+                    "name": "Picard D"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Anderson",
+                    "name": "Anderson B"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Scharf",
+                    "name": "Scharf L"
+                },
+                {
+                    "initials": "JE",
+                    "lastname": "Kung",
+                    "name": "Kung JE"
+                },
+                {
+                    "initials": "LV",
+                    "lastname": "Sibener",
+                    "name": "Sibener LV"
+                },
+                {
+                    "initials": "PB",
+                    "lastname": "Savage",
+                    "name": "Savage PB"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Jabri",
+                    "name": "Jabri B"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Bendelac",
+                    "name": "Bendelac A"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Adams",
+                    "name": "Adams EJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.immuni.2013.11.001",
+                    "type": "doi"
+                },
+                {
+                    "id": "24239091",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Crystal Structure of V\ufffd\ufffd1\ufffd\ufffdT Cell Receptor in Complex with CD1d-Sulfatide Shows MHC-like Recognition of a Self-Lipid by Human \ufffd\ufffd\ufffd\ufffd T Cells.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761313004780",
+            "volume": [
+                null
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.01",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4mng"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4mng"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4mng"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "delta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRDV1"
+        },
+        "gamma": {
+            "chains": [
+                "e"
+            ],
+            "subgroup": "TRGV4"
+        },
+        "pdb_code": "4mng"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with single chain gamma TCR construct at 3.01&#8491; resolution",
+    "unique_chain_count": 3
+}

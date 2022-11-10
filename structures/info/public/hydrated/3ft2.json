@@ -1,0 +1,207 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3ft2_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:43:32.923797"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWVAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VLRDDLLEA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-01-12",
+        "deposition_year": 2009,
+        "release_date": "2009-04-28",
+        "release_year": 2009,
+        "revision_date": "2021-10-20",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3FT2 | HLA-A*02:01 binding \"VLRDDLLEA\"",
+    "pdb_code": "3ft2",
+    "pdb_title": "Crystal structure of a citrulline peptide variant of the minor histocompatibility peptide ha-1 in complex with hla-a2",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "VLXDDLLEA",
+            "chain_id": "P",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "VLRDDLLEA"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VLRDDLLEA",
+    "publication": {
+        "abstract": "The di-allelic HLA-A2 restricted minor histocompatibility Ag HA-1 locus codes for the highly immunogenic HA-1(His) and the nonimmunogenic HA-1(Arg) nonapeptides, differing in one amino acid. The HA-1(His) peptide is currently used for boosting the graft-vs-tumor responses after HLA matched HA-1 mismatched stem cell transplantation; usage of the HA-1(Arg) peptide would significantly enlarge the applicability for this therapy. Our studies on mechanisms causing the HA-1 unidirectional immunogenicity revealed marginal differences in proteasomal digestion, TAP translocation, and binding affinity, whereas both dissociation rates and structural analyses clearly showed marked differences in the stability of these two HLA-A2 bound alleles. These data provide a rationale for the lack of HA-1(Arg) peptide immunogenicity essential for the choice of tumor peptides for stem cell-based immunotherapeutic application.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "E",
+                    "lastname": "Spierings",
+                    "name": "Spierings E"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "JB",
+                    "lastname": "Reiser",
+                    "name": "Reiser JB"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Mommaas",
+                    "name": "Mommaas B"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Almekinders",
+                    "name": "Almekinders M"
+                },
+                {
+                    "initials": "MG",
+                    "lastname": "Kester",
+                    "name": "Kester MG"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Chouquet",
+                    "name": "Chouquet A"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Le Gorrec",
+                    "name": "Le Gorrec M"
+                },
+                {
+                    "initials": "JW",
+                    "lastname": "Drijfhout",
+                    "name": "Drijfhout JW"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Ossendorp",
+                    "name": "Ossendorp F"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Housset",
+                    "name": "Housset D"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Goulmy",
+                    "name": "Goulmy E"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.0803911",
+                    "type": "doi"
+                },
+                {
+                    "id": "19342659",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "4809-16"
+            ],
+            "title": "Steric hindrance and fast dissociation explain the lack of immunogenicity of the minor histocompatibility HA-1Arg Null allele.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.0803911",
+            "volume": [
+                "182"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3ft2"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3ft2"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"VLRDDLLEA\" at 1.80&#8491; resolution",
+    "unique_chain_count": 3
+}

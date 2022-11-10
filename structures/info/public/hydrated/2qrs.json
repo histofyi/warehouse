@@ -1,0 +1,164 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2qrs_1",
+            "chains": [
+                "A"
+            ],
+            "downloaded_at": "2022-11-09T14:41:23.951524"
+        },
+        "2": {
+            "assembly_name": "2qrs_2",
+            "chains": [
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:41:24.472504"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.79,
+            "sequence": "SIINFEKLGGGASGGGGSGGGGSIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDMGGGGSGGGGSGGGGSGGGGSGPHSLRYFVTAVSRPGLGEPRYMEVGYVDDTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGAYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRWEPPPST"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2007-07-29",
+        "deposition_year": 2007,
+        "release_date": "2007-11-06",
+        "release_year": 2007,
+        "revision_date": "2021-10-20",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "single_chain_class_i_construct",
+    "components": [
+        "class_i_alpha"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2QRS | Single chain construct of H2-Kb binding \"None\"",
+    "pdb_code": "2qrs",
+    "pdb_title": "Crystal structure of a single chain trimer composed of the MHC i heavy chain h-2kb y84a, beta-2microglobulin, and ovalbumin-derived peptide.",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "MHC class I peptide complexes (pMHC) are routinely used to enumerate T cell populations and are currently being evaluated as vaccines to tumors and specific pathogens. Herein, we describe the structures of three generations of single-chain pMHC progressively designed for the optimal presentation of covalently associated epitopes. Our ultimate design employs a versatile disulfide trap between an invariant MHC residue and a short C-terminal peptide extension. This general strategy is nondisruptive of native pMHC conformation and T cell receptor engagement. Indeed, cell-surface-expressed MHC complexes with disulfide-trapped epitopes are refractory to peptide exchange, suggesting they will make safe and effective vaccines. Furthermore, we find that disulfide-trap stabilized, recombinant pMHC reagents reliably detect polyclonal CD8 T cell populations as proficiently as conventional reagents and are thus well suited to monitor or modulate immune responses during pathogenesis.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "V",
+                    "lastname": "Mitaksov",
+                    "name": "Mitaksov V"
+                },
+                {
+                    "initials": "SM",
+                    "lastname": "Truscott",
+                    "name": "Truscott SM"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Lybarger",
+                    "name": "Lybarger L"
+                },
+                {
+                    "initials": "JM",
+                    "lastname": "Connolly",
+                    "name": "Connolly JM"
+                },
+                {
+                    "initials": "TH",
+                    "lastname": "Hansen",
+                    "name": "Hansen TH"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Fremont",
+                    "name": "Fremont DH"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.chembiol.2007.07.010",
+                    "type": "doi"
+                },
+                {
+                    "id": "17719490",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "Chem. Biol.",
+                "name": ""
+            },
+            "pages": [
+                "909-22"
+            ],
+            "title": "Structural engineering of pMHC reagents for T cell vaccines and diagnostics.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074552107002499",
+            "volume": [
+                "14"
+            ],
+            "year": [
+                2007
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2qrs"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2qrs"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Single chain construct of H2-Kb binding \"None\" at 2.00&#8491; resolution",
+    "unique_chain_count": 1
+}

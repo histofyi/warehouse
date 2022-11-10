@@ -1,0 +1,280 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01899",
+            "locus": "h2-d",
+            "match_type": "histo:exact",
+            "name": "H2-Db",
+            "slug": "h2_db",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5u16_1",
+            "chains": [
+                "A",
+                "B",
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:31:48.548720"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "mr1": {
+            "chains": [
+                "A",
+                "C"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MRTHSLRYFRLGVSDPIHGVPEFISVGYVDSHPITTYDSVTRQKEPRAPWMAENLAPDHWERYTQLLRGWQQMFKVELKRLQRHYNHSGSHTYQRMIGCELLEDGSTTGFLQYAYDGQDFLIFNKDTLSWLAVDNVAHTIKQAWEANQHELLYQKNWLEEECIAWLKRFLEYGKDTLQRTEPPLVRVNRKETFPGVTALFCKAHGFYPPEIYMTWMKNGEEIVQEIDYGDILPSGDGTYQAWASIELDPQSSNLYSCHVEHSGVHMVLQVP"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "GQNIDQPTEMTATEGAIVQINCTYQTSGFNGLFWYQQHAGEAPTFLSYNVLDGLEEKGRFSSFLSRSKGYSYLLLKELQMKDSASYLCAVKDSNYQLIWGAGTKLIIKPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV1"
+        },
+        "tcr_beta": {
+            "chains": [
+                "F"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "NAGVTQTPKFQVLKTGQSMTLQCAQDMNHNSMYWYRQDPGMGLRLIYYSASEGTTDKGEVPNGYNVSRLNKREFSLRLESAAPSQTSVYFCASSVWTGEGSGELFFGEGSRLTVLEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV6"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-11-27",
+        "deposition_year": 2016,
+        "release_date": "2017-02-15",
+        "release_year": 2017,
+        "revision_date": "2020-01-01",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "mr1_with_alpha_beta_tcr",
+    "components": [
+        "mr1",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-d",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5U16 | Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor",
+    "pdb_code": "5u16",
+    "pdb_title": "Structure of human MR1-2-oh-1-na in complex with human MAIT a-f7 TCR",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "L1<sub>0</sub>-ordered FeNi alloy (tetrataenite), a promising candidate for rare-earth-free and low-cost permanent magnet applications, is attracting increasing attention from academic and industrial communities. Highly ordered single-phase L1<sub>0</sub>-FeNi is difficult to synthesis efficiently because of its low chemical order-disorder transition temperature (200-320\u00a0\u00b0C). A non-equilibrium synthetic route utilizing a nitrogen topotactic reaction has been considered a valid approach, although the phase transformation mechanism is currently unknown. Herein, we investigated the basis of this reaction, namely the formation mechanism of the tetragonal FeNiN precursor phase during the nitridation of FeNi nanopowders. Detailed microstructure analysis revealed that the FeNiN precursor phase could preferentially nucleate at the nanotwinned region during nitridation and subsequently grow following a massive transformation, with high-index irrational orientation relationships and ledgewise growth motion detected at the migrating phase interface. This is the first report of a massive phase transformation detected in an Fe-Ni-N system and provides new insights into the phase transformation during the nitriding process. This work is expected to promote the synthetic optimization of fully ordered FeNi alloys for various magnetic applications.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AN",
+                    "lastname": "Keller",
+                    "name": "Keller AN"
+                },
+                {
+                    "initials": "SB",
+                    "lastname": "Eckle",
+                    "name": "Eckle SB"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Xu",
+                    "name": "Xu W"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Liu",
+                    "name": "Liu L"
+                },
+                {
+                    "initials": "VA",
+                    "lastname": "Hughes",
+                    "name": "Hughes VA"
+                },
+                {
+                    "initials": "JY",
+                    "lastname": "Mak",
+                    "name": "Mak JY"
+                },
+                {
+                    "initials": "BS",
+                    "lastname": "Meehan",
+                    "name": "Meehan BS"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Pediongco",
+                    "name": "Pediongco T"
+                },
+                {
+                    "initials": "RW",
+                    "lastname": "Birkinshaw",
+                    "name": "Birkinshaw RW"
+                },
+                {
+                    "initials": "Z",
+                    "lastname": "Chen",
+                    "name": "Chen Z"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Wang",
+                    "name": "Wang H"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "D'Souza",
+                    "name": "D'Souza C"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Gherardin",
+                    "name": "Gherardin NA"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Godfrey",
+                    "name": "Godfrey DI"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kostenko",
+                    "name": "Kostenko L"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "Corbett",
+                    "name": "Corbett AJ"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "DP",
+                    "lastname": "Fairlie",
+                    "name": "Fairlie DP"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.3679",
+                    "type": "doi"
+                },
+                {
+                    "id": "28166217",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "Drugs and drug-like molecules can modulate the function of mucosal-associated invariant T cells.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.3679",
+            "volume": [
+                null
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5u16"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5u16"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=5u16"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRAV1"
+        },
+        "beta": {
+            "chains": [
+                "F"
+            ],
+            "subgroup": "TRBV6"
+        },
+        "pdb_code": "5u16"
+    },
+    "title": "Non-classical MHC Class I molecule MR1 with Alpha/Beta T cell receptor at 2.00&#8491; resolution",
+    "unique_chain_count": 4
+}

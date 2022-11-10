@@ -1,0 +1,183 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34423",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*35:01",
+            "slug": "hla_b_35_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7m8u_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:34:16.093131"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "GSHSMRYFYTAMSRPGRGEPRFIAVGYVDDTQFVRFDSDAASPRTEPRAPWIEQEGPEYWDRNTQIFKTNTQTYRESLRNLRGYYNQSEAGSHIIQRMYGCDLGPDGRLLRGHDQSAYDGKDYIALNEDLSSWTAADTAAQITQRKWEAARVAEQLRAYLEGLCVEWLRRYLENGKETLQRADPPKTHVTHHPVSDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEPS"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "IPFAMQMAY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-03-30",
+        "deposition_year": 2021,
+        "release_date": "2021-06-23",
+        "release_year": 2021,
+        "revision_date": "2021-06-23",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7M8U | HLA-B*35:01 binding \"IPFAMQMAY\"",
+    "pdb_code": "7m8u",
+    "pdb_title": "Crystal structure of hla-b*35:01 in complex with IPFAMQMAY, an 9-mer epitope from sars-cov-2 spike (s896-904)",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "IPFAMQMAY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "IPFAMQMAY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "IPFAMQMAY",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Nguyen, A.T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Szeto, C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Jayasinghe, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Lobos, C.A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Halim, H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Chatzileontiadou, D.S.M."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Grant, E.J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gras, S."
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.3390/biophysica1020015",
+                    "type": "doi"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": null,
+                "name": ""
+            },
+            "pages": [
+                "-"
+            ],
+            "title": "SARS-CoV-2 Spike-Derived Peptides Presented by HLA Molecules",
+            "type": "article",
+            "url": "https://www.mdpi.com/2673-4125/1/2/15",
+            "volume": [
+                "1"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "1.45",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7m8u"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7m8u"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-B*35:01 binding \"IPFAMQMAY\" at 1.45&#8491; resolution",
+    "unique_chain_count": 3
+}

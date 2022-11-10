@@ -1,0 +1,191 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1r3h_1",
+            "chains": [
+                "A",
+                "B"
+            ],
+            "downloaded_at": "2022-11-09T14:31:19.714639"
+        },
+        "2": {
+            "assembly_name": "1r3h_2",
+            "chains": [
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:31:20.114924"
+        },
+        "3": {
+            "assembly_name": "1r3h_3",
+            "chains": [
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:31:20.377257"
+        },
+        "4": {
+            "assembly_name": "1r3h_4",
+            "chains": [
+                "G",
+                "H"
+            ],
+            "downloaded_at": "2022-11-09T14:31:20.707387"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "D",
+                "F",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "h2-t22": {
+            "chains": [
+                "A",
+                "C",
+                "E",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.93,
+            "sequence": "GSHSLRYFYTAVSRPGLGEPWFIIVGYVDDMQVLRFSSKEETPRMAPWLEQEEADDWEQQTHIVTIQGQLSERNLMTLVHFYNKSMDDSHTLQWLQDCDVEPDRHLCLWYNQLAYDSEDLPTLSENPSSCTVGNSTVPQISQHLEGHCSDVLQKYLEKGKERLLRSDPPKAHVTRHPRPEGDVTLRCWALGFYPADITLTWQKDGEELTQDVEFVETRPAGDGTFQKWAAVVVPLGKVQSYTCHVDHEGLPEPLTLRWEP"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2003-10-02",
+        "deposition_year": 2003,
+        "release_date": "2004-03-30",
+        "release_year": 2004,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "h2-t22",
+    "components": [
+        "h2-t22",
+        "beta2m"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1R3H | Mouse Non-classical MHC Class I molecule H2-T22",
+    "pdb_code": "1r3h",
+    "pdb_title": "Crystal structure of t10",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "T10 is a non-classical class Ib-like major histocompatibility complex (MHC) cell-surface antigen which binds directly to certain gammadelta T-cell receptors in the absence of any exogenous and endogenous ligands, such as peculiar lipids or glycolipids. The crystal structure at 2.5 A resolution of murine T10 was determined by molecular replacement using data from an almost perfectly twinned monoclinic crystal. The space group is P2(1), with unit-cell parameters a = 78.2, b = 70.0, c = 139.2 A, beta = 106.8 degrees. Self-rotation function analysis and various intensity statistics revealed the presence of pseudo-merohedral twinning, but these tests underestimated the true twin fraction of alpha approximately 0.46. Native Patterson analyses pointed to the presence of pseudo-translation among the four molecules present in the asymmetric unit. Data analysis, structure determination and model refinement are discussed.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "MG",
+                    "lastname": "Rudolph",
+                    "name": "Rudolph MG"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Wingren",
+                    "name": "Wingren C"
+                },
+                {
+                    "initials": "MP",
+                    "lastname": "Crowley",
+                    "name": "Crowley MP"
+                },
+                {
+                    "initials": "YH",
+                    "lastname": "Chien",
+                    "name": "Chien YH"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1107/s0907444904002239",
+                    "type": "doi"
+                },
+                {
+                    "id": "15039553",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "Pt 4"
+            ],
+            "journal": {
+                "iso_abbreviation": "Acta Crystallogr. D Biol. Crystallogr.",
+                "name": ""
+            },
+            "pages": [
+                "656-64"
+            ],
+            "title": "Combined pseudo-merohedral twinning, non-crystallographic symmetry and pseudo-translation in a monoclinic crystal form of the gammadelta T-cell ligand T10.",
+            "type": "article",
+            "url": "http://scripts.iucr.org/cgi-bin/paper?S0907444904002239",
+            "volume": [
+                "60"
+            ],
+            "year": [
+                2004
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1r3h"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1r3h"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "Mouse Non-classical MHC Class I molecule H2-T22 at 2.50&#8491; resolution",
+    "unique_chain_count": 2
+}

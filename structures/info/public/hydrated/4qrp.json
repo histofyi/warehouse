@@ -1,0 +1,263 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34671",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*08:01",
+            "slug": "hla_b_08_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4qrp_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:34:23.922631"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "G"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "F"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.92,
+            "sequence": "GSHSMRYFDTAMSRPGRGEPRFISVGYVDDTQFVRFDSDAASPREEPRAPWIEQEGPEYWDRNTQIFKTNTQTDRESLRNLRGYYNQSEAGSHTLQSMYGCDVGPDGRLLRGHNQYAYDGKDYIALNEDLRSWTAADTAAQITQRKWEAARVAEQDRAYLEGTCVEWLRRYLENGKDTLERADPPKTHVTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDRTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "H"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "HSKKKCDEL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MGDSVTQMEGPVTLSEEAFLTINCTYTATGYPSLFWYVQYPGEGLQLLLKATKADDKGSNKGFEATYRKETTSFHLEKGSVQVSDSAVYFCALSDPVNDMRFGAGTRLTVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV9"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "EAGVAQSPRYKIIEKRQSVAFWCNPISGHATLYWYQQILGQGPKLLIQFQNNGVVDDSQLPKDRFSAERLKGVDSTLKIQPAKLEDSAVYLCASSLRGRGDQPQHFGDGTRLSILEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYALSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRAD",
+            "subgroup": "TRBV11"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-07-02",
+        "deposition_year": 2014,
+        "release_date": "2014-11-12",
+        "release_year": 2014,
+        "revision_date": "2020-09-16",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4QRP | HLA-B*08:01 presenting \"HSKKKCDEL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "4qrp",
+    "pdb_title": "Crystal structure of hla b*0801 in complex with HSKKKCDEL and dd31 TCR",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "HSKKKCDEL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "HSKKKCDEL"
+        },
+        "H": {
+            "actual_length": 9,
+            "actual_sequence": "HSKKKCDEL",
+            "chain_id": "H",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "HSKKKCDEL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "HSKKKCDEL",
+    "publication": {
+        "abstract": "Mutations in T cell epitopes are implicated in hepatitis C virus (HCV) persistence and can impinge on vaccine development. We recently demonstrated a narrow bias in the human TCR repertoire targeted at an immunodominant, but highly mutable, HLA-B*0801-restricted epitope ((1395)HSKKKCDEL(1403) [HSK]). To investigate if the narrow TCR repertoire facilitates CTL escape, structural and biophysical studies were undertaken, alongside comprehensive functional analysis of T cells targeted at the natural variants of HLA-B*0801-HSK in different HCV genotypes and quasispecies. Interestingly, within the TCR-HLA-B*0801-HSK complex, the TCR contacts all available surface-exposed residues of the HSK determinant. This broad epitope coverage facilitates cross-genotypic reactivity and recognition of common mutations reported in HCV quasispecies, albeit to a varying degree. Certain mutations did abrogate T cell reactivity; however, natural variants comprising these mutations are reportedly rare and transient in nature, presumably due to fitness costs. Overall, despite a narrow bias, the TCR accommodated frequent mutations by acting like a blanket over the hypervariable epitope, thereby providing effective viral immunity. Our findings simultaneously advance the understanding of anti-HCV immunity and indicate the potential for cross-genotype HCV vaccines.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "UK",
+                    "lastname": "Nivarthi",
+                    "name": "Nivarthi UK"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Kjer-Nielsen",
+                    "name": "Kjer-Nielsen L"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Berry",
+                    "name": "Berry R"
+                },
+                {
+                    "initials": "IS",
+                    "lastname": "Lucet",
+                    "name": "Lucet IS"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "SL",
+                    "lastname": "Tracy",
+                    "name": "Tracy SL"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                },
+                {
+                    "initials": "DS",
+                    "lastname": "Bowden",
+                    "name": "Bowden DS"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Hellard",
+                    "name": "Hellard M"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "McCluskey",
+                    "name": "McCluskey J"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Bharadwaj",
+                    "name": "Bharadwaj M"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.4049/jimmunol.1401357",
+                    "type": "doi"
+                },
+                {
+                    "id": "25355921",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "An Extensive Antigenic Footprint Underpins Immunodominant TCR Adaptability against a Hypervariable Viral Determinant.",
+            "type": "article",
+            "url": "http://www.jimmunol.org/lookup/doi/10.4049/jimmunol.1401357",
+            "volume": [
+                null
+            ],
+            "year": [
+                2014
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4qrp"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4qrp"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=4qrp"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV9"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV11"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "4qrp"
+    },
+    "title": "HLA-B*08:01 presenting \"HSKKKCDEL\" to Alpha/Beta T cell receptor at 2.90&#8491; resolution",
+    "unique_chain_count": 5
+}

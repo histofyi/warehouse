@@ -1,0 +1,214 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34671",
+            "locus": "hla-b",
+            "match_type": "histo:exact",
+            "name": "HLA-B*08:01",
+            "slug": "hla_b_08_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "6cxe_1",
+            "chains": [
+                "C",
+                "D",
+                "A",
+                "B",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:27:52.368169"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHASMAEPKTVYWDRDM"
+        },
+        "cd1d": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.97,
+            "sequence": "SEAQQKNYTFRCLQMSSFANRSWSRTDSVVWLGDLQTHRWSNDSATISFTKPWSQGKLSNQQWEKLQHMFQVYRVSFTRDIQELVKMMSPKEDYPIEIQLSAGCEMYPGNASESFLHVAFQGKYVVRFWGTSWQTVPGAPSWLDLPIKVLNADQGTSATVQMLLNDTCPLFVRGLLEAGKSDLEKQEKPVAWLSSVPSSAHGHRQLVCHVSGFYPKPVWVMWMRGDQEQQGTHRGDFLPNADETWYLQATLDVEAGEEAGLACRVKHSSLGGQDIILYWHHHHHH"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MKTQVEQSPQSLVVRQGENCVLQCNYSVTPDNHLRWFKQDTGKGLVSLTVLVDQKDKTSNGRYSATLDKDAKHSTLHITATLLDDTATYICVVGDRGSALGRLHFGAGTQLIVIPDIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKCVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPESS",
+            "subgroup": "TRAV11"
+        },
+        "tcr_beta": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MEAAVTQSPRNKVAVTGGKVTLSCNQTNNHNNMYWYRQDTGHGLRLIHYSYGAGSTEKGDIPDGYKASRPSQENFSLILELATPSQTSVYFCASGDEGYTQYFGPGTRLLVLEDLRNVTPPKVSLFEPSKAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVCTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRA",
+            "subgroup": "TRBV13"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2018-04-02",
+        "deposition_year": 2018,
+        "release_date": "2019-04-10",
+        "release_year": 2019,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": false,
+    "complex_type": "cd1d_with_nkt_alpha_beta_tcr",
+    "components": [
+        "cd1d",
+        "beta2m",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-b",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "6CXE | Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor",
+    "pdb_code": "6cxe",
+    "pdb_title": "Structure of alpha-gsa[26,6p] bound by CD1d and in complex with the va14vb8.2 TCR",
+    "peptide": {
+        "actual_sequence": null,
+        "epitope_info": {},
+        "features": [],
+        "full_sequence": null,
+        "gap_info": {},
+        "gapped_sequence": null,
+        "length": {
+            "numeric": null,
+            "text": null
+        },
+        "unnatural_amino_acids": []
+    },
+    "publication": {
+        "abstract": "Type I natural killer T (NKT) cells are a population of innate like T lymphocytes that rapidly respond to \u03b1-GalCer presented by CD1d via the production of both pro- and anti-inflammatory cytokines. While developing novel \u03b1-GalCer analogs that were meant to be utilized as potential adjuvants because of their production of pro-inflammatory cytokines (Th1 skewers), we generated \u03b1-galactosylsphingamides (\u03b1GSA). Surprisingly, \u03b1GSAs are not potent antigens <i>in vivo</i> despite their strong T-cell receptor (TCR)-binding affinities. Here, using surface plasmon resonance (SPR), antigen presentation assays, and X-ray crystallography (yielding crystal structures of 19 different binary (CD1d-glycolipid) or ternary (CD1d-glycolipid-TCR) complexes at resolutions between 1.67 and 2.85 \u00c5), we characterized the biochemical and structural details of \u03b1GSA recognition by murine NKT cells. We identified a molecular switch within murine (m)CD1d that modulates NKT cell activation by \u03b1GSAs. We found that the molecular switch involves a hydrogen bond interaction between Tyr-73 of mCD1d and the amide group oxygen of \u03b1GSAs. We further established that the length of the acyl chain controls the positioning of the amide group with respect to the molecular switch and works synergistically with Tyr-73 to control NKT cell activity. In conclusion, our findings reveal important mechanistic insights into the presentation and recognition of glycolipids with polar moieties in an otherwise apolar milieu. These observations may inform the development \u03b1GSAs as specific NKT cell antagonists to modulate immune responses.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Wang",
+                    "name": "Wang J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Guillaume",
+                    "name": "Guillaume J"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Janssens",
+                    "name": "Janssens J"
+                },
+                {
+                    "initials": "SG",
+                    "lastname": "Remesh",
+                    "name": "Remesh SG"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Ying",
+                    "name": "Ying G"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Bitra",
+                    "name": "Bitra A"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Van Calenbergh",
+                    "name": "Van Calenbergh S"
+                },
+                {
+                    "initials": "DM",
+                    "lastname": "Zajonc",
+                    "name": "Zajonc DM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.RA119.009963",
+                    "type": "doi"
+                },
+                {
+                    "id": "31391251",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                null
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                null
+            ],
+            "title": "A molecular switch in mouse CD1d modulates natural killer T cell activation by \ufffd\ufffd-galactosylsphingamides.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820349930",
+            "volume": [
+                null
+            ],
+            "year": [
+                2019
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.05",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/6cxe"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/6cxe"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=6cxe"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "C"
+            ],
+            "subgroup": "TRAV11"
+        },
+        "beta": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRBV13"
+        },
+        "pdb_code": "6cxe"
+    },
+    "title": "Non-classical MHC Class I molecule CD1d with Natural Killer Alpha/Beta T cell receptor at 2.05&#8491; resolution",
+    "unique_chain_count": 4
+}

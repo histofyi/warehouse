@@ -1,0 +1,202 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34359",
+            "locus": "hla-g",
+            "match_type": "histo:fuzzy",
+            "name": "HLA-G*01:01",
+            "slug": "hla_g_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2dyp_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D"
+            ],
+            "downloaded_at": "2022-11-09T14:38:35.280094"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MGSHSMRYFSAAVSRPGRGEPRFIAMGYVDDTQFVRFDSDSASPRMEPRAPWVEQEGPEYWEEETRNTKAHAQTDRMNLQTLRGYYNQSEASSHTLQWMIGCDLGSDGRLLRGYEQYAYDGKDYLALNEDLRSWTAADTAAQISKRKCEAANVAEQRRAYLEGTCVEWLHRYLENGKEMLQRADPPKTHVTHHPVFDYEATLRCWALGFYPAEIILTWQRDGEDQTQDVELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPEPLMLRWKQ"
+        },
+        "lir2": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GTIPKPTLWAEPDSVITQGSPVTLSCQGSLEAQEYRLYREKKSASWITRIRPELVKNGQFRIPSITWEHTGRYGCQYYSRARWSELSDPLVLVMTGAYPKPTLSAQPSPVVTSGGRVTLQCESQVAFGGFILCKEGEDEHPQCLNSQPHARGSSRAIFSVGPVSPNRRWSHRCYGYDLNSPYVWSSPSDLLELLVP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RIIPRHLQL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2006-09-15",
+        "deposition_year": 2006,
+        "release_date": "2006-11-07",
+        "release_year": 2006,
+        "revision_date": "2021-11-10",
+        "revision_year": 2021
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_lir2",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "lir2"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-g",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2DYP | HLA-G*01:01 binding \"RIIPRHLQL\" with LIR-2 NK receptor",
+    "pdb_code": "2dyp",
+    "pdb_title": "Crystal structure of lilrb2(LIR2/ilt4/cd85d) complexed with hla-g",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "RIIPRHLQL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "RIIPRHLQL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "RIIPRHLQL",
+    "publication": {
+        "abstract": "HLA-G is a nonclassical MHC class I (MHCI) molecule that can suppress a wide range of immune responses in the maternal-fetal interface. The human inhibitory immune receptors leukocyte Ig-like receptor (LILR) B1 [also called LIR1, Ig-like transcript 2 (ILT2), or CD85j] and LILRB2 (LIR2/ILT4/CD85d) preferentially recognize HLA-G. HLA-G inherently exhibits various forms, including beta(2)-microglobulin (beta(2)m)-free and disulfide-linked dimer forms. Notably, LILRB1 cannot recognize the beta(2)m-free form of HLA-G or HLA-B27, but LILRB2 can recognize the beta(2)m-free form of HLA-B27. To date, the structural basis for HLA-G/LILR recognition remains to be examined. Here, we report the 2.5-A resolution crystal structure of the LILRB2/HLA-G complex. LILRB2 exhibits an overlapping but distinct MHCI recognition mode compared with LILRB1 and dominantly recognizes the hydrophobic site of the HLA-G alpha3 domain. NMR binding studies also confirmed these LILR recognition differences on both conformed (heavy chain/peptide/beta(2)m) and free forms of beta(2)m. Binding studies using beta(2)m-free MHCIs revealed differential beta(2)m-dependent LILR-binding specificities. These results suggest that subtle structural differences between LILRB family members cause the distinct binding specificities to various forms of HLA-G and other MHCIs, which may in turn regulate immune suppression.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "Shiroishi",
+                    "name": "Shiroishi M"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kuroki",
+                    "name": "Kuroki K"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Rasubala",
+                    "name": "Rasubala L"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Tsumoto",
+                    "name": "Tsumoto K"
+                },
+                {
+                    "initials": "I",
+                    "lastname": "Kumagai",
+                    "name": "Kumagai I"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Kurimoto",
+                    "name": "Kurimoto E"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Kato",
+                    "name": "Kato K"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Kohda",
+                    "name": "Kohda D"
+                },
+                {
+                    "initials": "K",
+                    "lastname": "Maenaka",
+                    "name": "Maenaka K"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.0605228103",
+                    "type": "doi"
+                },
+                {
+                    "id": "17056715",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "44"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "16412-7"
+            ],
+            "title": "Structural basis for recognition of the nonclassical MHC molecule HLA-G by the leukocyte Ig-like receptor B2 (LILRB2/LIR2/ILT4/CD85d).",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.0605228103",
+            "volume": [
+                "103"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.50",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2dyp"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2dyp"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-G*01:01 binding \"RIIPRHLQL\" with LIR-2 NK receptor at 2.50&#8491; resolution",
+    "unique_chain_count": 4
+}

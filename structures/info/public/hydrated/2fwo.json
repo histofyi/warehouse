@@ -1,0 +1,157 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01902",
+            "locus": "h2-k",
+            "match_type": "histo:exact",
+            "name": "H2-Kd",
+            "slug": "h2_kd",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2fwo_1",
+            "chains": [
+                "A",
+                "B",
+                "P"
+            ],
+            "downloaded_at": "2022-11-09T14:27:34.209293"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.83,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRFIAVGYVDDTQFVRFDSDADNPRFEPRAPWMEQEGPEYWEEQTQRAKSDEQWFRVSLRTAQRYYNQSKGGSHTFQRMFGCDVGSDWRLLRGYQQFAYDGRDYIALNEDLKTWTAADTAALITRRKWEQAGDAEYYRAYLEGECVEWLRRYLELGNETLLRTDSPKAHVTYHPRSQVDVTLRCWALGFYPADITLTWQLNGEDLTQDMELVETRPAGDGTFQKWAAVVVPLGKEQNYTCHVHHKGLPEPLTLRWKLPPSTVSN"
+        },
+        "peptide": {
+            "chains": [
+                "P"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "TYQRTRALV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2006-02-02",
+        "deposition_year": 2006,
+        "release_date": "2006-02-21",
+        "release_year": 2006,
+        "revision_date": "2017-10-18",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2FWO | H2-Kd binding \"TYQRTRALV\"",
+    "pdb_code": "2fwo",
+    "pdb_title": "Mhc Class I h-2kd heavy chain in complex with beta-2microglobulin and peptide derived from influenza nucleoprotein",
+    "peptide": {
+        "P": {
+            "actual_length": 9,
+            "actual_sequence": "TYQRTRALV",
+            "chain_id": "P",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "TYQRTRALV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "TYQRTRALV",
+    "publication": {
+        "abstract": "Classic major histocompatibility complex (MHC) proteins associate with antigen- and self-derived peptides in an allele-specific manner. Herein we present the crystal structure of the MHC class I protein H-2K(d) (K(d)) expressed by BALB/c mice in complex with an antigenic peptide derived from influenza A/PR/8/34 nucleoprotein (Flu, residues 147-155, TYQRTRALV). Analysis of our structure in conjunction with the sequences of naturally processed epitopes provides a comprehensive understanding of the dominant K(d) peptide-binding motif. We find that Flu residues Tyr(P2), Thr(P5), and Val(P9) are sequestered into the B, C, and F pockets of the K(d) groove, respectively. The shape and chemistry of the polymorphic B pocket make it an optimal binding site for the side chain of Tyr(P2) as the dominant anchoring residue of nonameric peptides. The non-polar F pocket limits the amino acid repertoire at P9 to hydrophobic residues such as Ile, Leu, or Val, whereas the C pocket restricts the size of the P5-anchoring side chain. We also show that Flu is accommodated in the complex through an unfavorable kink in the otherwise extended peptide backbone due to the presence of a prominent ridge in the K(d) groove. Surprisingly, this backbone conformation is strikingly similar to D(b)-presented peptides despite the fact that these proteins employ distinct motif-anchoring strategies. The results presented in this study provide a solid foundation for the understanding of K(d)-restricted antigen presentation and recognition events.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "V",
+                    "lastname": "Mitaksov",
+                    "name": "Mitaksov V"
+                },
+                {
+                    "initials": "DH",
+                    "lastname": "Fremont",
+                    "name": "Fremont DH"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m510511200",
+                    "type": "doi"
+                },
+                {
+                    "id": "16473882",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "15"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "10618-25"
+            ],
+            "title": "Structural definition of the H-2Kd peptide-binding motif.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925819564183",
+            "volume": [
+                "281"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.60",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2fwo"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2fwo"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kd binding \"TYQRTRALV\" at 2.60&#8491; resolution",
+    "unique_chain_count": 3
+}

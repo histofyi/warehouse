@@ -1,0 +1,209 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34790",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*24:02",
+            "slug": "hla_a_24_02",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4wu7_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:43:03.727012"
+        },
+        "2": {
+            "assembly_name": "4wu7_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:43:04.137458"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.91,
+            "sequence": "MGSHSMRYFSTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDEETGKVKAHSQTDRENLRIALRYYNQSEAGSHTLQMMFGCDVGSDGRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQITKRKWEAAHVAEQQRAYLEGTCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "RFPLTFGW"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2014-10-31",
+        "deposition_year": 2014,
+        "release_date": "2015-05-06",
+        "release_year": 2015,
+        "revision_date": "2020-02-05",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4WU7 | HLA-A*24:02 binding \"RFPLTFGW\"",
+    "pdb_code": "4wu7",
+    "pdb_title": "Hla-a24 in complex with hiv-1 nef134-8(2f)",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "RFPLTFGW",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RFPLTFGW"
+        },
+        "F": {
+            "actual_length": 8,
+            "actual_sequence": "RFPLTFGW",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "RFPLTFGW"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "RFPLTFGW",
+    "publication": {
+        "abstract": null,
+        "bibjson": {
+            "author": [
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Kato, J."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Kawana, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Shimizu, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Zhu, D."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Han, C."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Nakamura, H."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Koibuchi, T."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Sato, Y."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Yamagata, A."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Fukai, S."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Gao, G.F."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Brumme, Z.L."
+                },
+                {
+                    "initials": null,
+                    "lastname": null,
+                    "name": "Iwamoto, A."
+                }
+            ],
+            "identifier": [],
+            "title": "Crystal structure of Nef134-8 epitope presented by HLA-A24",
+            "type": "article",
+            "url": ""
+        },
+        "in_pmc": null,
+        "in_pmce": null,
+        "open_access": null
+    },
+    "resolution": "2.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4wu7"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4wu7"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*24:02 binding \"RFPLTFGW\" at 2.30&#8491; resolution",
+    "unique_chain_count": 3
+}

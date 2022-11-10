@@ -1,0 +1,240 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA34767",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*01:01",
+            "slug": "hla_a_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1w72_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "H",
+                "L"
+            ],
+            "downloaded_at": "2022-11-09T14:45:29.626832"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "ab_heavy": {
+            "chains": [
+                "I"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Hchain",
+            "sequence": "EVQLVESGGGLVQPGRSLRLSCAASGFTFDDYAMHWVRQAPGKGLEWVSGISWNSGSIGYADSVKGRFTISRDNAKNSLYLQMNSLRAEDTAVYYCARGRGFHYYYYGMDIWGQGTTVTVSSASTKGPSVFPLAPSSKSTSGGTAALGCLVKDYFPEPVTVSWNSGALTSGVHTFPAVLQSSGLYSLSSVVTVPSSSLGTQTYICNVNHKPSNTKVDKKVEPK"
+        },
+        "ab_light": {
+            "chains": [
+                "M"
+            ],
+            "match_type": "sabdab",
+            "sabdab": "Lchain",
+            "sequence": "SYVLTQPPSVSVAPGQTARITCGGNNIGSRSVHWYQQKPGQAPVLVVYDDSDRPSGIPERFSGSNSGNMATLTISRVEAGDEADYYCQVWDSRTDHWVFGGGTDLTVLGQPKAAPSVTLFPPSSEELQANKATLVCLISDFYPGAVTVAWKADGSPVKAGVETTKPSKQSNNKYAASSYLSLTPEQWKSHRSYSCQVTHEGSTVEKTVAP"
+        },
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.89,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQKMEPRAPWIEQEGPEYWDQETRNMKAHSQTDRANLGTLRGYYNQSEDGSHTIQIMYGCDVGPDGRFLRGYRQDAYDGKDYIALNEDLRSWTAADMAAQITKRKWEAVHAAEQRRVYLEGRCVDGLRRYLENGKETLQRTDPPKTHMTHHPISDHEATLRCWALGFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPKPLTLRW"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "EADPTGHSY"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2004-08-27",
+        "deposition_year": 2004,
+        "release_date": "2004-11-09",
+        "release_year": 2004,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_antibody",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "ab_heavy",
+        "ab_light"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1W72 | HLA-A*01:01 binding \"EADPTGHSY\" with antibody",
+    "pdb_code": "1w72",
+    "pdb_title": "Crystal structure of hla-a1:mage-a1 in complex with fab-hyb3",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "EADPTGHSY",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EADPTGHSY"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "EADPTGHSY",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "EADPTGHSY"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "EADPTGHSY",
+    "publication": {
+        "abstract": "Antibodies with T cell receptor-like specificity possess a considerable diagnostic and therapeutic potential, but the structural basis of the interaction between an antibody and an histocompatibility antigen has so far not been determined. We present here the crystal structure (at 2.15 A resolution) of the recombinant, affinity-matured human antibody fragment Fab-Hyb3 bound to the tumor-associated human leukocyte antigen (HLA)/peptide complex HLA-A1.MAGE-A1. Fab-Hyb3 employs a diagonal docking mode resembling that of T cell receptors. However, other than these natural ligands, the antibody uses only four of its six complementarity-determining regions for direct interactions with the target. It recognizes the C-terminal half of the MAGE-A1 peptide, the HLA-A1 alpha1-helix, and N-terminal residues of the alpha2-helix, accompanied by a large tilting angle between the two types of molecules within the complex. Interestingly, only a single hydrogen bond between a peptide side chain and Fab-Hyb3 contributes to the interaction, but large buried surface areas with pronounced shape complementarity assure high affinity and specificity for MAGE-A1. The HLA-A1.MAGE-A1.antibody structure is discussed in comparison with those of natural ligands recognizing HLA.peptide complexes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "M",
+                    "lastname": "H\ufffd\ufffdlsmeyer",
+                    "name": "H\ufffd\ufffdlsmeyer M"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Chames",
+                    "name": "Chames P"
+                },
+                {
+                    "initials": "RC",
+                    "lastname": "Hillig",
+                    "name": "Hillig RC"
+                },
+                {
+                    "initials": "RL",
+                    "lastname": "Stanfield",
+                    "name": "Stanfield RL"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Held",
+                    "name": "Held G"
+                },
+                {
+                    "initials": "PG",
+                    "lastname": "Coulie",
+                    "name": "Coulie PG"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Alings",
+                    "name": "Alings C"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Wille",
+                    "name": "Wille G"
+                },
+                {
+                    "initials": "W",
+                    "lastname": "Saenger",
+                    "name": "Saenger W"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Uchanska-Ziegler",
+                    "name": "Uchanska-Ziegler B"
+                },
+                {
+                    "initials": "HR",
+                    "lastname": "Hoogenboom",
+                    "name": "Hoogenboom HR"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Ziegler",
+                    "name": "Ziegler A"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1074/jbc.m411323200",
+                    "type": "doi"
+                },
+                {
+                    "id": "15537658",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "4"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Biol. Chem.",
+                "name": ""
+            },
+            "pages": [
+                "2972-80"
+            ],
+            "title": "A major histocompatibility complex-peptide-restricted antibody and t cell receptor molecules recognize their target by distinct binding modes: crystal structure of human leukocyte antigen (HLA)-A1-MAGE-A1 in complex with FAB-HYB3.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S0021925820763507",
+            "volume": [
+                "280"
+            ],
+            "year": [
+                2005
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.15",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1w72"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1w72"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*01:01 binding \"EADPTGHSY\" with antibody at 2.15&#8491; resolution",
+    "unique_chain_count": 5
+}

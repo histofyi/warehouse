@@ -1,0 +1,204 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "7eu2_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:29:46.561251"
+        },
+        "2": {
+            "assembly_name": "7eu2_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:29:47.065841"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "GSVDMIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.94,
+            "sequence": "MNSVDGSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEPGSGLNDIFEAQKIEWHAAALEHHHHHH"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "KIADYNYKL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2021-05-15",
+        "deposition_year": 2021,
+        "release_date": "2021-08-25",
+        "release_year": 2021,
+        "revision_date": "2022-03-09",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "7EU2 | HLA-A*02:01 binding \"KIADYNYKL\"",
+    "pdb_code": "7eu2",
+    "pdb_title": "Complex structure of hla0201 with recognizing sars-cov-2 epitope s1",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "KIADYNYKL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KIADYNYKL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "KIADYNYKL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "KIADYNYKL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "KIADYNYKL",
+    "publication": {
+        "abstract": "Cellular immunity is important in determining the disease severity of COVID-19 patients. However, current understanding of SARS-CoV-2 epitopes mediating cellular immunity is limited. Here we apply T-Scan, a recently developed method, to identify CD8<sup>+</sup> T\u00a0cell epitopes from COVID-19 patients of four major HLA-A alleles. Several identified epitopes are conserved across human coronaviruses, which might mediate pre-existing cellular immunity to SARS-CoV-2. In addition, we identify and validate four epitopes that were mutated in the newly circulating variants, including the Delta variant. The mutations significantly reduce T\u00a0cell responses to the epitope peptides in convalescent and vaccinated samples. We further determine the crystal structure of HLA-A<sup>\u2217</sup>02:01/HLA-A<sup>\u2217</sup>24:02 in complex with the epitope KIA_S/NYN_S, respectively, which reveals the importance of K417 and L452 of the spike protein for binding to HLA. Our data suggest that evading cellular immunity might contribute to the increased transmissibility and disease severity associated with the new SARS-CoV-2 variants.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "H",
+                    "lastname": "Zhang",
+                    "name": "Zhang H"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Deng",
+                    "name": "Deng S"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Ren",
+                    "name": "Ren L"
+                },
+                {
+                    "initials": "P",
+                    "lastname": "Zheng",
+                    "name": "Zheng P"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Hu",
+                    "name": "Hu X"
+                },
+                {
+                    "initials": "T",
+                    "lastname": "Jin",
+                    "name": "Jin T"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Tan",
+                    "name": "Tan X"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.celrep.2021.109708",
+                    "type": "doi"
+                },
+                {
+                    "id": "34506741",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "11"
+            ],
+            "journal": {
+                "iso_abbreviation": "Cell Rep",
+                "name": ""
+            },
+            "pages": [
+                "109708"
+            ],
+            "title": "Profiling CD8<sub>+</sub> T\ufffd\ufffdcell epitopes of COVID-19 convalescents reveals reduced cellular immune responses to SARS-CoV-2 variants.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S2211124721011554",
+            "volume": [
+                "36"
+            ],
+            "year": [
+                2021
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "2.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/7eu2"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/7eu2"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"KIADYNYKL\" at 2.80&#8491; resolution",
+    "unique_chain_count": 3
+}

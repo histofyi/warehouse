@@ -1,0 +1,214 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "uniprot:P01901",
+            "locus": "h2-k",
+            "match_type": "histo:fuzzy",
+            "name": "H2-Kb",
+            "slug": "h2_kb",
+            "species_stem": "H2"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2clz_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:36:15.093892"
+        },
+        "2": {
+            "assembly_name": "2clz_2",
+            "chains": [
+                "H",
+                "P",
+                "M"
+            ],
+            "downloaded_at": "2022-11-09T14:36:15.512047"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "P"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNILNCYVTQFHPPHIEIQMLKNGKKIPKVEMSDMSFSKDWSFYILAHTEFTPTETDTYACRVKHDSMAEPKTVYWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "H"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.98,
+            "sequence": "GPHSLRYFVTAVSRPGLGEPRFISVGYVDNTEFVRFDSDAENPRYEPRARWMEQEGPEYWERETQKAKGNEQSFRVDLRTLLGYYNQSKGGSHTIQVISGCEVGSDGRLLRGYQQYAYDGCDYIALNEDLKTWTAADMAALITKHKWEQAGEAERLRAYLEGTCVEWLRRYLKNGNATLLRTDSPKAHVTHHSRPEDKVTLRCWALGFYPADITLTWQLNGEELIQDMELVETRPAGDGTFQKWASVVVPLGKEQYYTCHVYHQGLPEPLTLRWEPPPS"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "M"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "INFDFNTI"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2006-05-03",
+        "deposition_year": 2006,
+        "release_date": "2006-06-14",
+        "release_year": 2006,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "h2-k",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2CLZ | H2-Kb binding \"INFDFNTI\"",
+    "pdb_code": "2clz",
+    "pdb_title": "Mhc Class I natural mutant h-2kbm8 heavy chain complexed with beta-2 microglobulin and pbm1 peptide",
+    "peptide": {
+        "C": {
+            "actual_length": 8,
+            "actual_sequence": "INFDFNTI",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "INFDFNTI"
+        },
+        "M": {
+            "actual_length": 8,
+            "actual_sequence": "INFDFNTI",
+            "chain_id": "M",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 8,
+            "full_sequence": "INFDFNTI"
+        }
+    },
+    "peptide_length": 8,
+    "peptide_length_name": "octamer",
+    "peptide_sequence": "INFDFNTI",
+    "publication": {
+        "abstract": "We have characterized three different programs of activation for alloreactive CD8 T cells expressing the BM3.3 TCR, their elicitation depending on the characteristics of the stimulating peptide/MHC complex. The high-affinity interaction between the TCR and the K(b)-associated endogenous peptide pBM1 (INFDFNTI) induced a complete differentiation program into effector cells correlated with sustained ERK activation. The K(bm8) variant elicited a partial activation program with delayed T cell proliferation, poor CTL activity and undetectable ERK phosphorylation; this resulted from a low-avidity interaction of TCR BM3.3 with a newly identified endogenous peptide, pBM8 (SQYYYNSL). Interestingly, mismatched pBM1/K(bm8) complexes induced a split response in BM3.3 T cells, with total reconstitution of T cell proliferation but defective generation of CTL activity that was correlated with strong but shortened ERK phosphorylation. Crystal structures highlight the molecular basis for the higher stability of pBM8/K(bm8) compared to pBM1/K(bm8) complexes that exist in two conformers. This study illustrates the importance of the stability of both peptide/MHC and peptide/MHC-TCR interactions for induction of sustained signaling required to induce optimal CTL effector functions. Subtle allelic structural variations, amplified by peptide selection, may thus orient distinct outcomes of alloreactive TCR-based therapies.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "N",
+                    "lastname": "Auphan-Anezin",
+                    "name": "Auphan-Anezin N"
+                },
+                {
+                    "initials": "C",
+                    "lastname": "Mazza",
+                    "name": "Mazza C"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Guimezanes",
+                    "name": "Guimezanes A"
+                },
+                {
+                    "initials": "GA",
+                    "lastname": "Barrett-Wilt",
+                    "name": "Barrett-Wilt GA"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Montero-Julian",
+                    "name": "Montero-Julian F"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Roussel",
+                    "name": "Roussel A"
+                },
+                {
+                    "initials": "DF",
+                    "lastname": "Hunt",
+                    "name": "Hunt DF"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Malissen",
+                    "name": "Malissen B"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Schmitt-Verhulst",
+                    "name": "Schmitt-Verhulst AM"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1002/eji.200635895",
+                    "type": "doi"
+                },
+                {
+                    "id": "16761314",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "Eur. J. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "1856-66"
+            ],
+            "title": "Distinct orientation of the alloreactive monoclonal CD8 T cell activation program by three different peptide/MHC complexes.",
+            "type": "article",
+            "url": "https://onlinelibrary.wiley.com/doi/10.1002/eji.200635895",
+            "volume": [
+                "36"
+            ],
+            "year": [
+                2006
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.90",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2clz"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2clz"
+        }
+    },
+    "species": {
+        "common_name": "Mouse",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Mus musculus",
+        "slug": "mus_musculus"
+    },
+    "tcr": null,
+    "title": "H2-Kb binding \"INFDFNTI\" at 1.90&#8491; resolution",
+    "unique_chain_count": 3
+}

@@ -1,0 +1,252 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3utq_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:41:21.084897"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ALWGPDPAAA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2011-11-26",
+        "deposition_year": 2011,
+        "release_date": "2012-01-25",
+        "release_year": 2012,
+        "revision_date": "2012-03-07",
+        "revision_year": 2012
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3UTQ | HLA-A*02:01 binding \"ALWGPDPAAA\"",
+    "pdb_code": "3utq",
+    "pdb_title": "Human hla-a*0201-ALWGPDPAAA",
+    "peptide": {
+        "C": {
+            "actual_length": 10,
+            "actual_sequence": "ALWGPDPAAA",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 10,
+            "full_sequence": "ALWGPDPAAA"
+        }
+    },
+    "peptide_length": 10,
+    "peptide_length_name": "decamer",
+    "peptide_sequence": "ALWGPDPAAA",
+    "publication": {
+        "abstract": "In this study, we demonstrate three-dimensional (3D) hollow nanosphere electrocatalysts for CO<sub>2</sub> conversion into formate with excellent H-Cell performance and industrially-relevant current density in a 25\u00a0cm<sup>2</sup> membrane electrode assembly electrolyzer device. Varying calcination temperature maximized formate production via optimizing the crystallinity and particle size of the constituent SnO<sub>2</sub> nanoparticles. The best performing SnO<sub>2</sub> nanosphere catalysts contained\u2009~\u20097.5\u00a0nm nanocrystals and produced 71-81% formate Faradaic efficiency (FE) between -0.9\u00a0V and -1.3\u00a0V vs. the reversible hydrogen electrode (RHE) at a maximum formate partial current density of 73\u2009\u00b1\u20092\u00a0mA cm<sub>geo</sub><sup>-2</sup> at -1.3\u00a0V vs. RHE. The higher performance of nanosphere catalysts over SnO<sub>2</sub> nanoparticles and commercially-available catalyst could be ascribed to their initial structure providing higher electrochemical surface area and preventing extensive nanocrystal growth during CO<sub>2</sub> reduction. Our results are among the highest performance reported for SnO<sub>2</sub> electrocatalysts in aqueous H-cells. We observed an average 68\u2009\u00b1\u20098% FE over 35\u00a0h of operation with multiple on/off cycles. In situ Raman and time-dependent X-ray diffraction measurements identified metallic Sn as electrocatalytic active sites during long-term operation. Further evaluation in a 25 cm<sup>2</sup> electrolyzer cell demonstrated impressive performance with a sustained current density of 500\u00a0mA cm<sub>geo</sub><sup>-2</sup> and an average 75\u2009\u00b1\u20096% formate FE over 24\u00a0h of operation. Our results provide additional design concepts for boosting the performance of formate-producing catalysts.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "AM",
+                    "lastname": "Bulek",
+                    "name": "Bulek AM"
+                },
+                {
+                    "initials": "DK",
+                    "lastname": "Cole",
+                    "name": "Cole DK"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Skowera",
+                    "name": "Skowera A"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Dolton",
+                    "name": "Dolton G"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Gras",
+                    "name": "Gras S"
+                },
+                {
+                    "initials": "F",
+                    "lastname": "Madura",
+                    "name": "Madura F"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Fuller",
+                    "name": "Fuller A"
+                },
+                {
+                    "initials": "JJ",
+                    "lastname": "Miles",
+                    "name": "Miles JJ"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Gostick",
+                    "name": "Gostick E"
+                },
+                {
+                    "initials": "DA",
+                    "lastname": "Price",
+                    "name": "Price DA"
+                },
+                {
+                    "initials": "JW",
+                    "lastname": "Drijfhout",
+                    "name": "Drijfhout JW"
+                },
+                {
+                    "initials": "RR",
+                    "lastname": "Knight",
+                    "name": "Knight RR"
+                },
+                {
+                    "initials": "GC",
+                    "lastname": "Huang",
+                    "name": "Huang GC"
+                },
+                {
+                    "initials": "N",
+                    "lastname": "Lissin",
+                    "name": "Lissin N"
+                },
+                {
+                    "initials": "PE",
+                    "lastname": "Molloy",
+                    "name": "Molloy PE"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Wooldridge",
+                    "name": "Wooldridge L"
+                },
+                {
+                    "initials": "BK",
+                    "lastname": "Jakobsen",
+                    "name": "Jakobsen BK"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Peakman",
+                    "name": "Peakman M"
+                },
+                {
+                    "initials": "PJ",
+                    "lastname": "Rizkallah",
+                    "name": "Rizkallah PJ"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Sewell",
+                    "name": "Sewell AK"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni.2206",
+                    "type": "doi"
+                },
+                {
+                    "id": "22245737",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "3"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "283-9"
+            ],
+            "title": "Structural basis for the killing of human beta cells by CD8(+) T cells in type 1 diabetes.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni.2206",
+            "volume": [
+                "13"
+            ],
+            "year": [
+                2012
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "Y"
+    },
+    "resolution": "1.67",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3utq"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3utq"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"ALWGPDPAAA\" at 1.67&#8491; resolution",
+    "unique_chain_count": 3
+}

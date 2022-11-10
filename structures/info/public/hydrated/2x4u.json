@@ -1,0 +1,199 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "2x4u_1",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:44:08.261262"
+        },
+        "2": {
+            "assembly_name": "2x4u_2",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:44:08.677043"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILKEPVHGV"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2010-02-02",
+        "deposition_year": 2010,
+        "release_date": "2010-03-02",
+        "release_year": 2010,
+        "revision_date": "2019-10-16",
+        "revision_year": 2019
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "2X4U | HLA-A*02:01 binding \"ILKEPVHGV\"",
+    "pdb_code": "2x4u",
+    "pdb_title": "Crystal structure of MHC Class I hla-a2.1 bound to hiv-1 peptide rt468-476",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "ILKEPVHGV",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILKEPVHGV"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "ILKEPVHGV",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "ILKEPVHGV"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "ILKEPVHGV",
+    "publication": {
+        "abstract": "High-throughput structure determination of protein-ligand complexes is central in drug development and structural proteomics. To facilitate such high-throughput structure determination we designed an induced replacement strategy. Crystals of a protein complex bound to a photosensitive ligand are exposed to UV light, inducing the departure of the bound ligand, allowing a new ligand to soak in. We exemplify the approach for a class of protein complexes that is especially recalcitrant to high-throughput strategies: the MHC class I proteins. We developed a UV-sensitive, \"conditional\", peptide ligand whose UV-induced cleavage in the crystals leads to the exchange of the low-affinity lytic fragments for full-length peptides introduced in the crystallant solution. This \"in crystallo\" exchange is monitored by the loss of seleno-methionine anomalous diffraction signal of the conditional peptide compared to the signal of labeled MHC beta2m subunit. This method has the potential to facilitate high-throughput crystallography in various protein families.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "PH",
+                    "lastname": "Celie",
+                    "name": "Celie PH"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Toebes",
+                    "name": "Toebes M"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Rodenko",
+                    "name": "Rodenko B"
+                },
+                {
+                    "initials": "H",
+                    "lastname": "Ovaa",
+                    "name": "Ovaa H"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "Perrakis",
+                    "name": "Perrakis A"
+                },
+                {
+                    "initials": "TN",
+                    "lastname": "Schumacher",
+                    "name": "Schumacher TN"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1021/ja9037559",
+                    "type": "doi"
+                },
+                {
+                    "id": "19655750",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "34"
+            ],
+            "journal": {
+                "iso_abbreviation": "J. Am. Chem. Soc.",
+                "name": ""
+            },
+            "pages": [
+                "12298-304"
+            ],
+            "title": "UV-induced ligand exchange in MHC class I protein crystals.",
+            "type": "article",
+            "url": "https://pubs.acs.org/doi/10.1021/ja9037559",
+            "volume": [
+                "131"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.10",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/2x4u"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/2x4u"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"ILKEPVHGV\" at 2.10&#8491; resolution",
+    "unique_chain_count": 3
+}

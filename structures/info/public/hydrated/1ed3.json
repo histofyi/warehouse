@@ -1,0 +1,194 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-mhc:RT108344",
+            "locus": "rano-a",
+            "match_type": "histo:exact",
+            "name": "Rano-A*av1",
+            "slug": "rano_a_av1",
+            "species_stem": "Rano"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1ed3_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:45:49.507486"
+        },
+        "2": {
+            "assembly_name": "1ed3_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:45:49.959462"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "IQKTPQIQVYSRHPPENGKPNFLNCYVSQFHPPQIEIELLKNGKKIPNIEMSDLSFSKDWSFYILAHTEFTPTETDVYACRVKHVTLKEPKTVTWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSLRYFYTAVSRPGLGEPRFIAVGYVDDTEFVRFDSDAENPRMEPRARWMEREGPEYWEQQTRIAKEWEQIYRVDLRTLRGYYNQSEGGSHTIQEMYGCDVGSDGSLLRGYRQDAYDGRDYIALNEDLKTWTAADFAAQITRNKWERARYAERLRAYLEGTCVEWLSRYLELGKETLLRSDPPEAHVTLHPRPEGDVTLRCWALGFYPADITLTWQLNGEDLTQDMELVETRPAGDGTFQKWASVVVPLGKEQNYTCRVEHEGLPKPLSQRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILFPSSERLISNR"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2000-01-26",
+        "deposition_year": 2000,
+        "release_date": "2001-02-28",
+        "release_year": 2001,
+        "revision_date": "2018-01-24",
+        "revision_year": 2018
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "rano-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1ED3 | Rano-A*av1 binding \"ILFPSSERLISNR\"",
+    "pdb_code": "1ed3",
+    "pdb_title": "Crystal structure of rat minor histocompatibility antigen complex rt1-aa/mtf-e.",
+    "peptide": {
+        "C": {
+            "actual_length": 13,
+            "actual_sequence": "ILFPSSERLISNR",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 13,
+            "full_sequence": "ILFPSSERLISNR"
+        },
+        "F": {
+            "actual_length": 13,
+            "actual_sequence": "ILFPSSERLISNR",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 13,
+            "full_sequence": "ILFPSSERLISNR"
+        }
+    },
+    "peptide_length": 13,
+    "peptide_length_name": "tridecamer",
+    "peptide_sequence": "ILFPSSERLISNR",
+    "publication": {
+        "abstract": "The rat MHC class Ia molecule RT1-Aa has the unusual capacity to bind long peptides ending in arginine, such as MTF-E, a thirteen-residue, maternally transmitted minor histocompatibility antigen. The antigenic structure of MTF-E was unpredictable due to its extraordinary length and two arginines that could serve as potential anchor residues. The crystal structure of RT1-Aa-MTF-E at 2.55 A shows that both peptide termini are anchored, as in other class I molecules, but the central residues in two independent pMHC complexes adopt completely different bulged conformations based on local environment. The MTF-E epitope is fully exposed within the putative T cell receptor (TCR) footprint. The flexibility demonstrated by the MTF-E structures illustrates how different TCRs may be raised against chemically identical, but structurally dissimilar, pMHC complexes.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "JA",
+                    "lastname": "Speir",
+                    "name": "Speir JA"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Stevens",
+                    "name": "Stevens J"
+                },
+                {
+                    "initials": "E",
+                    "lastname": "Joly",
+                    "name": "Joly E"
+                },
+                {
+                    "initials": "GW",
+                    "lastname": "Butcher",
+                    "name": "Butcher GW"
+                },
+                {
+                    "initials": "IA",
+                    "lastname": "Wilson",
+                    "name": "Wilson IA"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/s1074-7613(01)00091-7",
+                    "type": "doi"
+                },
+                {
+                    "id": "11163232",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "1"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "81-92"
+            ],
+            "title": "Two different, highly exposed, bulged structures for an unusually long peptide bound to rat MHC class I RT1-Aa.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761301000917",
+            "volume": [
+                "14"
+            ],
+            "year": [
+                2001
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "2.55",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1ed3"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1ed3"
+        }
+    },
+    "species": {
+        "common_name": "Norway Rat",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Rattus norvegicus",
+        "slug": "rattus_norvegicus"
+    },
+    "tcr": null,
+    "title": "Rano-A*av1 binding \"ILFPSSERLISNR\" at 2.55&#8491; resolution",
+    "unique_chain_count": 3
+}

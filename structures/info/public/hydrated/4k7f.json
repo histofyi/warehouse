@@ -1,0 +1,219 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "4k7f_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:21.598962"
+        },
+        "2": {
+            "assembly_name": "4k7f_2",
+            "chains": [
+                "D",
+                "E",
+                "F"
+            ],
+            "downloaded_at": "2022-11-09T14:31:22.162921"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B",
+                "E"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A",
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C",
+                "F"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "VCWGELMNL"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2013-04-17",
+        "deposition_year": 2013,
+        "release_date": "2013-06-05",
+        "release_year": 2013,
+        "revision_date": "2022-08-24",
+        "revision_year": 2022
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "4K7F | HLA-A*02:01 binding \"VCWGELMNL\"",
+    "pdb_code": "4k7f",
+    "pdb_title": "Newly identified epitope v60 from hbv core protein complexed with hla-a*0201",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "VCWGELMNL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VCWGELMNL"
+        },
+        "F": {
+            "actual_length": 9,
+            "actual_sequence": "VCWGELMNL",
+            "chain_id": "F",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "VCWGELMNL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "VCWGELMNL",
+    "publication": {
+        "abstract": "Nipah and Hendra viruses (NiV and HeV) exhibit high lethality in humans and are biosafety level 4 (BSL-4) paramyxoviruses in the growing genus Henipavirus The attachment (G) and fusion (F) envelope glycoproteins are both required for viral entry into cells and for cell-cell fusion, which is pathognomonic of henipaviral infections. Here, we compared the fusogenic capacities between homologous and heterologous pairs of NiV and HeV glycoproteins. Importantly, to accurately measure their fusogenic capacities, as these depend on glycoprotein cell surface expression (CSE) levels, we inserted identical extracellular tags to both fusion (FLAG tags) or both attachment (hemagglutinin [HA] tags) glycoproteins. Importantly, these tags were placed in extracellular sites where they did not affect glycoprotein expression or function. NiV and HeV glycoproteins induced comparable levels of homologous HEK293T cell-cell fusion. Surprisingly, however, while the heterologous NiV F/HeV G (NF/HG) combination yielded a hypofusogenic phenotype, the heterologous HeV F/NiV G (HF/NG) combination yielded a hyperfusogenic phenotype. Pseudotyped viral entry levels primarily corroborated the fusogenic phenotypes of the glycoprotein pairs analyzed. Furthermore, we constructed G and F chimeras that allowed us to map the overall regions in G and F that contributed to these hyperfusogenic or hypofusogenic phenotypes. Importantly, the fusogenic phenotypes of the glycoprotein combinations negatively correlated with the avidities of F-G interactions, supporting the F/G dissociation model of henipavirus-induced membrane fusion, even in the context of heterologous glycoprotein pairs.IMPORTANCE The NiV and HeV henipaviruses are BSL-4 pathogens transmitted from bats. NiV and HeV often lead to human death and animal diseases. The formation of multinucleated cells (syncytia) is a hallmark of henipaviral infections and is caused by fusion of cells coordinated by interactions of the viral attachment (G) and fusion (F) glycoproteins. We found via various assays that viral entry and syncytium formation depend on the viral origin of the glycoproteins, with HeV F and NiV G promoting higher membrane fusion levels than their counterparts. This is important knowledge, since both viruses use the same bat vector species and potential coinfections of these or subsequent hosts may alter the outcome of disease.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "Y",
+                    "lastname": "Zhang",
+                    "name": "Zhang Y"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Ren",
+                    "name": "Ren Y"
+                },
+                {
+                    "initials": "Y",
+                    "lastname": "Wu",
+                    "name": "Wu Y"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Zhao",
+                    "name": "Zhao B"
+                },
+                {
+                    "initials": "L",
+                    "lastname": "Qiu",
+                    "name": "Qiu L"
+                },
+                {
+                    "initials": "X",
+                    "lastname": "Li",
+                    "name": "Li X"
+                },
+                {
+                    "initials": "D",
+                    "lastname": "Xu",
+                    "name": "Xu D"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Liu",
+                    "name": "Liu J"
+                },
+                {
+                    "initials": "GF",
+                    "lastname": "Gao",
+                    "name": "Gao GF"
+                },
+                {
+                    "initials": "S",
+                    "lastname": "Meng",
+                    "name": "Meng S"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1128/JVI.00577-13",
+                    "type": "doi"
+                },
+                {
+                    "id": "23678186",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "14"
+            ],
+            "journal": {
+                "iso_abbreviation": "J Virol",
+                "name": ""
+            },
+            "pages": [
+                "8075-84"
+            ],
+            "title": "The L60V variation in hepatitis B virus core protein elicits new epitope-specific cytotoxic T lymphocytes and enhances viral replication.",
+            "type": "article",
+            "url": "https://journals.asm.org/doi/10.1128/JVI.00577-13",
+            "volume": [
+                "87"
+            ],
+            "year": [
+                2013
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "2.00",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/4k7f"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/4k7f"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"VCWGELMNL\" at 2.00&#8491; resolution",
+    "unique_chain_count": 3
+}

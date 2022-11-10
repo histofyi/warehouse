@@ -1,0 +1,202 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "3fqu_1",
+            "chains": [
+                "A",
+                "B",
+                "C"
+            ],
+            "downloaded_at": "2022-11-09T14:31:18.385846"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "QRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWE"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GLLGSPVRA"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2009-01-07",
+        "deposition_year": 2009,
+        "release_date": "2009-03-03",
+        "release_year": 2009,
+        "revision_date": "2017-11-01",
+        "revision_year": 2017
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "3FQU | HLA-A*02:01 binding \"GLLGSPVRA\"",
+    "pdb_code": "3fqu",
+    "pdb_title": "Phosphorylated self-peptides alter human leukocyte antigen class I-restricted antigen presentation and generate tumor-specific epitopes.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "GLLGXPVRA",
+            "chain_id": "C",
+            "features": [
+                "sequence_mismatch"
+            ],
+            "full_length": 9,
+            "full_sequence": "GLLGSPVRA"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GLLGSPVRA",
+    "publication": {
+        "abstract": "Human leukocyte antigen (HLA) class I molecules present a variety of posttranslationally modified epitopes at the cell surface, although the consequences of such presentation remain largely unclear. Phosphorylation plays a critical cellular role, and deregulation in phosphate metabolism is associated with disease, including autoimmunity and tumor immunity. We have solved the high-resolution structures of 3 HLA A2-restricted phosphopeptides associated with tumor immunity and compared them with the structures of their nonphosphorylated counterparts. Phosphorylation of the epitope was observed to affect the structure and mobility of the bound epitope. In addition, the phosphoamino acid stabilized the HLA peptide complex in an epitope-specific manner and was observed to exhibit discrete flexibility within the antigen-binding cleft. Collectively, our data suggest that phosphorylation generates neoepitopes that represent demanding targets for T-cell receptor ligation. These findings provide insights into the mode of phosphopeptide presentation by HLA as well as providing a platform for the rational design of a generation of posttranslationally modified tumor vaccines.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "J",
+                    "lastname": "Petersen",
+                    "name": "Petersen J"
+                },
+                {
+                    "initials": "SJ",
+                    "lastname": "Wurzbacher",
+                    "name": "Wurzbacher SJ"
+                },
+                {
+                    "initials": "NA",
+                    "lastname": "Williamson",
+                    "name": "Williamson NA"
+                },
+                {
+                    "initials": "SH",
+                    "lastname": "Ramarathinam",
+                    "name": "Ramarathinam SH"
+                },
+                {
+                    "initials": "HH",
+                    "lastname": "Reid",
+                    "name": "Reid HH"
+                },
+                {
+                    "initials": "AK",
+                    "lastname": "Nair",
+                    "name": "Nair AK"
+                },
+                {
+                    "initials": "AY",
+                    "lastname": "Zhao",
+                    "name": "Zhao AY"
+                },
+                {
+                    "initials": "R",
+                    "lastname": "Nastovska",
+                    "name": "Nastovska R"
+                },
+                {
+                    "initials": "G",
+                    "lastname": "Rudge",
+                    "name": "Rudge G"
+                },
+                {
+                    "initials": "J",
+                    "lastname": "Rossjohn",
+                    "name": "Rossjohn J"
+                },
+                {
+                    "initials": "AW",
+                    "lastname": "Purcell",
+                    "name": "Purcell AW"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1073/pnas.0812901106",
+                    "type": "doi"
+                },
+                {
+                    "id": "19196958",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "8"
+            ],
+            "journal": {
+                "iso_abbreviation": "Proc. Natl. Acad. Sci. U.S.A.",
+                "name": ""
+            },
+            "pages": [
+                "2776-81"
+            ],
+            "title": "Phosphorylated self-peptides alter human leukocyte antigen class I-restricted antigen presentation and generate tumor-specific epitopes.",
+            "type": "article",
+            "url": "https://pnas.org/doi/full/10.1073/pnas.0812901106",
+            "volume": [
+                "106"
+            ],
+            "year": [
+                2009
+            ]
+        },
+        "in_pmc": "Y",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "1.80",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/3fqu"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/3fqu"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-A*02:01 binding \"GLLGSPVRA\" at 1.80&#8491; resolution",
+    "unique_chain_count": 3
+}

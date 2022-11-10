@@ -1,0 +1,224 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35225",
+            "locus": "hla-f",
+            "match_type": "histo:exact",
+            "name": "HLA-F*01:01",
+            "slug": "hla_f_01_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "5knm_1",
+            "chains": [
+                "A",
+                "B",
+                "D",
+                "N"
+            ],
+            "downloaded_at": "2022-11-09T14:37:56.145774"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.7,
+            "sequence": "MLLVNQSHQGFNKEHTSKMVSAIVLYVLLAAAAHSAFAADLHHHHHHHHGSGGLEVLFQGPEFGGSADPIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDMGGGGSGGSGSGGGS"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.82,
+            "sequence": "GSHSLRYFSTAVSRPGRGEPRYIAVEYVDDTQFLRFDSDAAIPRMEPREPWVEQEGPQYWEWTTGYAKANAQTDRVALRNLLRRYNQSEAGSHTLQGMNGCDMGPDGRLLRGYHQHAYDGKDYISLNEDLRSWTAADTVAQITQRFYEAEEYAEEFRTYLEGECLELLRRYLENGKETLQRADPPKAHVAHHPISDHEATLRCWALGFYPAEITLTWQRDGEEQTQDTELVETRPAGDGTFQKWAAVVVPSGEEQRYTCHVQHEGLPQPLILRWEQSPQPTIPI"
+        },
+        "lir1": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "MLLVNQSHQGFNKEHTSKMVSAIVLYVLLAAAAHSAFAADLHHHHHHHHGSGGLEVLFQGPEFGGSADLGHLPKPTLWAEPGSVITQGSPVTLRCQGGQETQEYRLYREKKTALWITRIPQELVKKGQFPIPSITWEHAGRYRCYYGSDTAGRSESSDPLELVVTGAYIKPTLSAQPSPVVNSGGNVILQCDSQVAFDGFSLCKEGEDEHPQCLNSQPHARGSSRAIFSVGPVSPSRRWWYRCYAYDSNSPYEWSLPSDLLELLVLG"
+        },
+        "peptide": {
+            "chains": [
+                "N"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "ILRWEQ"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2016-06-28",
+        "deposition_year": 2016,
+        "release_date": "2017-06-14",
+        "release_year": 2017,
+        "revision_date": "2020-07-29",
+        "revision_year": 2020
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_lir1",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "lir1"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-f",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "5KNM | HLA-F*01:01 binding \"ILRWEQ\" with LIR-1 NK receptor",
+    "pdb_code": "5knm",
+    "pdb_title": "Human Leukocyte Antigen F Presents Peptides and Regulates Immunity through Interactions with NK Cell Receptors.",
+    "peptide": {
+        "N": {
+            "actual_length": 6,
+            "actual_sequence": "ILRWEQ",
+            "chain_id": "N",
+            "features": [
+                "correct_sequence_and_length",
+                "incorrect_start",
+                "short_peptide"
+            ],
+            "full_length": 6,
+            "full_sequence": "ILRWEQ"
+        }
+    },
+    "peptide_length": 6,
+    "peptide_length_name": "hexamer",
+    "peptide_sequence": "ILRWEQ",
+    "publication": {
+        "abstract": "Evidence is mounting that the major histocompatibility complex (MHC) molecule HLA-F (human leukocyte antigen\u00a0F) regulates the immune system in pregnancy, infection, and autoimmunity by signaling through NK\u00a0cell receptors (NKRs). We present structural, biochemical, and evolutionary analyses demonstrating that HLA-F presents peptides of unconventional length dictated by a newly arisen mutation (R62W) that has produced an open-ended groove accommodating particularly long peptides. Compared to empty HLA-F open conformers (OCs), HLA-F tetramers bound with human-derived peptides differentially stained leukocytes, suggesting peptide-dependent engagement. Our in\u00a0vitro studies confirm that NKRs differentiate between peptide-bound and peptide-free HLA-F. The complex structure of peptide-loaded \u03b2<sub>2</sub>m-HLA-F bound to the inhibitory LIR1 revealed similarities to high-affinity recognition of the viral MHC-I mimic UL18 and a docking strategy that relies on contacts with HLA-F as well as \u03b2<sub>2</sub>m, thus precluding binding to HLA-F OCs. These findings provide a biochemical framework to understand how HLA-F could regulate immunity via interactions with NKRs.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "CL",
+                    "lastname": "Dulberger",
+                    "name": "Dulberger CL"
+                },
+                {
+                    "initials": "CP",
+                    "lastname": "McMurtrey",
+                    "name": "McMurtrey CP"
+                },
+                {
+                    "initials": "A",
+                    "lastname": "H\u00f6lzemer",
+                    "name": "H\u00f6lzemer A"
+                },
+                {
+                    "initials": "KE",
+                    "lastname": "Neu",
+                    "name": "Neu KE"
+                },
+                {
+                    "initials": "V",
+                    "lastname": "Liu",
+                    "name": "Liu V"
+                },
+                {
+                    "initials": "AM",
+                    "lastname": "Steinbach",
+                    "name": "Steinbach AM"
+                },
+                {
+                    "initials": "WF",
+                    "lastname": "Garcia-Beltran",
+                    "name": "Garcia-Beltran WF"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Sulak",
+                    "name": "Sulak M"
+                },
+                {
+                    "initials": "B",
+                    "lastname": "Jabri",
+                    "name": "Jabri B"
+                },
+                {
+                    "initials": "VJ",
+                    "lastname": "Lynch",
+                    "name": "Lynch VJ"
+                },
+                {
+                    "initials": "M",
+                    "lastname": "Altfeld",
+                    "name": "Altfeld M"
+                },
+                {
+                    "initials": "WH",
+                    "lastname": "Hildebrand",
+                    "name": "Hildebrand WH"
+                },
+                {
+                    "initials": "EJ",
+                    "lastname": "Adams",
+                    "name": "Adams EJ"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1016/j.immuni.2017.06.002",
+                    "type": "doi"
+                },
+                {
+                    "id": "28636952",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "6"
+            ],
+            "journal": {
+                "iso_abbreviation": "Immunity",
+                "name": ""
+            },
+            "pages": [
+                "1018-1029.e7"
+            ],
+            "title": "Human Leukocyte Antigen F Presents Peptides and Regulates Immunity through Interactions with NK Cell Receptors.",
+            "type": "article",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S1074761317302297",
+            "volume": [
+                "46"
+            ],
+            "year": [
+                2017
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "Y",
+        "open_access": "N"
+    },
+    "resolution": "3.30",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/5knm"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/5knm"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": null,
+    "title": "HLA-F*01:01 binding \"ILRWEQ\" with LIR-1 NK receptor at 3.30&#8491; resolution",
+    "unique_chain_count": 4
+}

@@ -1,0 +1,210 @@
+{
+    "allele": {
+        "alpha": {
+            "identifier": "ipd-imgt:HLA35266",
+            "locus": "hla-a",
+            "match_type": "histo:exact",
+            "name": "HLA-A*02:01",
+            "slug": "hla_a_02_01",
+            "species_stem": "hla"
+        },
+        "beta": {}
+    },
+    "assemblies": {
+        "1": {
+            "assembly_name": "1oga_1",
+            "chains": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "downloaded_at": "2022-11-09T14:42:41.725256"
+        }
+    },
+    "assembly_count": null,
+    "assigned_chains": {
+        "beta2m": {
+            "chains": [
+                "B"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 0.99,
+            "sequence": "MIQRTPKIQVYSRHPAENGKSNFLNCYVSGFHPSDIEVDLLKNGERIEKVEHSDLSFSKDWSFYLLYYTEFTPTEKDEYACRVNHVTLSQPKIVKWDRDM"
+        },
+        "class_i_alpha": {
+            "chains": [
+                "A"
+            ],
+            "match_type": "histo:assign_chains",
+            "score": 1.0,
+            "sequence": "GSHSMRYFFTSVSRPGRGEPRFIAVGYVDDTQFVRFDSDAASQRMEPRAPWIEQEGPEYWDGETRKVKAHSQTHRVDLGTLRGYYNQSEAGSHTVQRMYGCDVGSDWRFLRGYHQYAYDGKDYIALKEDLRSWTAADMAAQTTKHKWEAAHVAEQLRAYLEGTCVEWLRRYLENGKETLQRTDAPKTHMTHHAVSDHEATLRCWALSFYPAEITLTWQRDGEDQTQDTELVETRPAGDGTFQKWAAVVVPSGQEQRYTCHVQHEGLPKPLTLRWEP"
+        },
+        "peptide": {
+            "chains": [
+                "C"
+            ],
+            "match_type": "histo:classify_peptide",
+            "sequence": "GILGFVFTL"
+        },
+        "tcr_alpha": {
+            "chains": [
+                "D"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MQLLEQSPQFLSIQEGENLTVYCNSSSVFSSLQWYRQEPGEGPVLLVTVVTGGEVKKLKRLTFQFGDARKDSSLHITAAQPGDTGLYLCAGAGSQGNLIFGKGTKLSVKPNIQNPDPAVYQLRDSKSSDKSVCLFTDFDSQTNVSQSKDSDVYITDKTVLDMRSMDFKSNSAVAWSNKSDFACANAFNNSIIPEDTFFPSPENDGGGCKHHHHHH",
+            "subgroup": "TRAV27"
+        },
+        "tcr_beta": {
+            "chains": [
+                "E"
+            ],
+            "match_type": "stcrdab",
+            "sequence": "MVDGGITQSPKYLFRKEGQNVTLSCEQNLNHDAMYWYRQDPGQGLRLIYYSQIVNDFQKGDIAEGYSVSREKKESFPLTVTSAQKNPTAFYLCASSSRSSYEQYFGPGTRLTVTEDLKNVFPPEVAVFEPSEAEISHTQKATLVCLATGFYPDHVELSWWVNGKEVHSGVSTDPQPLKEQPALNDSRYSLSSRLRVSATFWQNPRNHFRCQVQFYGLSENDEWTQDRAKPVTQIVSAEAWGRADQDRGGGCD",
+            "subgroup": "TRBV19"
+        }
+    },
+    "chronology": {
+        "deposition_date": "2003-04-28",
+        "deposition_year": 2003,
+        "release_date": "2003-06-19",
+        "release_year": 2003,
+        "revision_date": "2011-07-13",
+        "revision_year": 2011
+    },
+    "class": "class_i",
+    "classical": true,
+    "complex_type": "class_i_with_peptide_and_alpha_beta_tcr",
+    "components": [
+        "class_i_alpha",
+        "beta2m",
+        "peptide",
+        "tcr_alpha",
+        "tcr_beta"
+    ],
+    "experimental_method": "X-ray diffraction",
+    "facets": {},
+    "ligands": [],
+    "locus": "hla-a",
+    "manually_edited": {},
+    "missing_residues": [],
+    "page_title": "1OGA | HLA-A*02:01 presenting \"GILGFVFTL\" to Alpha/Beta T cell receptor",
+    "pdb_code": "1oga",
+    "pdb_title": "A structural basis for immunodominant human T cell receptor recognition.",
+    "peptide": {
+        "C": {
+            "actual_length": 9,
+            "actual_sequence": "GILGFVFTL",
+            "chain_id": "C",
+            "features": [
+                "correct_sequence_and_length"
+            ],
+            "full_length": 9,
+            "full_sequence": "GILGFVFTL"
+        }
+    },
+    "peptide_length": 9,
+    "peptide_length_name": "nonamer",
+    "peptide_sequence": "GILGFVFTL",
+    "publication": {
+        "abstract": "The anti-influenza CD8+ T cell response in HLA-A2-positive adults is almost exclusively directed at residues 58-66 of the virus matrix protein (MP(58-66)). V(beta)17V(alpha)10.2 T cell receptors (TCRs) containing a conserved arginine-serine-serine sequence in complementarity determining region 3 (CDR3) of the V(beta) segment dominate this response. To investigate the molecular basis of immunodominant selection in an outbred population, we have determined the crystal structure of V(beta)17V(alpha)10.2 in complex with MP(58-66)-HLA-A2 at a resolution of 1.4 A. We show that, whereas the TCR typically fits over an exposed side chain of the peptide, in this structure MP(58-66) exposes only main chain atoms. This distinctive orientation of V(beta)17V(alpha)10.2, which is almost orthogonal to the peptide-binding groove of HLA-A2, facilitates insertion of the conserved arginine in V(beta) CDR3 into a notch in the surface of MP(58-66)-HLA-A2. This previously unknown binding mode underlies the immunodominant T cell response.",
+        "bibjson": {
+            "author": [
+                {
+                    "initials": "GB",
+                    "lastname": "Stewart-Jones",
+                    "name": "Stewart-Jones GB"
+                },
+                {
+                    "initials": "AJ",
+                    "lastname": "McMichael",
+                    "name": "McMichael AJ"
+                },
+                {
+                    "initials": "JI",
+                    "lastname": "Bell",
+                    "name": "Bell JI"
+                },
+                {
+                    "initials": "DI",
+                    "lastname": "Stuart",
+                    "name": "Stuart DI"
+                },
+                {
+                    "initials": "EY",
+                    "lastname": "Jones",
+                    "name": "Jones EY"
+                }
+            ],
+            "identifier": [
+                {
+                    "id": "10.1038/ni942",
+                    "type": "doi"
+                },
+                {
+                    "id": "12796775",
+                    "type": "pubmed"
+                }
+            ],
+            "issue": [
+                "7"
+            ],
+            "journal": {
+                "iso_abbreviation": "Nat. Immunol.",
+                "name": ""
+            },
+            "pages": [
+                "657-63"
+            ],
+            "title": "A structural basis for immunodominant human T cell receptor recognition.",
+            "type": "article",
+            "url": "http://www.nature.com/articles/ni942",
+            "volume": [
+                "4"
+            ],
+            "year": [
+                2003
+            ]
+        },
+        "in_pmc": "N",
+        "in_pmce": "N",
+        "open_access": "N"
+    },
+    "resolution": "1.40",
+    "same_as": {
+        "pdbe": {
+            "url": "https://www.ebi.ac.uk/pdbe/entry/pdb/1oga"
+        },
+        "rcsb": {
+            "url": "https://www.rcsb.org/structure/1oga"
+        },
+        "stcrdab": {
+            "url": "http://opig.stats.ox.ac.uk/webapps/stcrdab/StrViewer?pdb=1oga"
+        }
+    },
+    "species": {
+        "common_name": "Human",
+        "match_type": "histo:assign_species",
+        "scientific_name": "Homo sapiens",
+        "slug": "homo_sapiens"
+    },
+    "tcr": {
+        "alpha": {
+            "chains": [
+                "D"
+            ],
+            "subgroup": "TRAV27"
+        },
+        "beta": {
+            "chains": [
+                "E"
+            ],
+            "subgroup": "TRBV19"
+        },
+        "mhc_type": "class_i",
+        "pdb_code": "1oga"
+    },
+    "title": "HLA-A*02:01 presenting \"GILGFVFTL\" to Alpha/Beta T cell receptor at 1.40&#8491; resolution",
+    "unique_chain_count": 5
+}
