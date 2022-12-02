@@ -28,12 +28,12 @@
             "9": {
                 "neighbours": [
                     {
-                        "position": 3,
-                        "residue": "GLU"
-                    },
-                    {
                         "position": 2,
                         "residue": "PRO"
+                    },
+                    {
+                        "position": 3,
+                        "residue": "GLU"
                     }
                 ],
                 "position": 9,
@@ -62,12 +62,12 @@
             "62": {
                 "neighbours": [
                     {
-                        "position": 4,
-                        "residue": "PRO"
-                    },
-                    {
                         "position": 1,
                         "residue": "LEU"
+                    },
+                    {
+                        "position": 4,
+                        "residue": "PRO"
                     }
                 ],
                 "position": 62,
@@ -100,6 +100,10 @@
             "66": {
                 "neighbours": [
                     {
+                        "position": 2,
+                        "residue": "PRO"
+                    },
+                    {
                         "position": 4,
                         "residue": "PRO"
                     },
@@ -110,10 +114,6 @@
                     {
                         "position": 3,
                         "residue": "GLU"
-                    },
-                    {
-                        "position": 2,
-                        "residue": "PRO"
                     }
                 ],
                 "position": 66,
@@ -160,12 +160,12 @@
             "73": {
                 "neighbours": [
                     {
-                        "position": 12,
-                        "residue": "ALA"
-                    },
-                    {
                         "position": 11,
                         "residue": "THR"
+                    },
+                    {
+                        "position": 12,
+                        "residue": "ALA"
                     },
                     {
                         "position": 10,
@@ -198,12 +198,12 @@
             "77": {
                 "neighbours": [
                     {
-                        "position": 13,
-                        "residue": "TYR"
-                    },
-                    {
                         "position": 12,
                         "residue": "ALA"
+                    },
+                    {
+                        "position": 13,
+                        "residue": "TYR"
                     }
                 ],
                 "position": 77,
@@ -212,12 +212,12 @@
             "80": {
                 "neighbours": [
                     {
-                        "position": 13,
-                        "residue": "TYR"
-                    },
-                    {
                         "position": 12,
                         "residue": "ALA"
+                    },
+                    {
+                        "position": 13,
+                        "residue": "TYR"
                     }
                 ],
                 "position": 80,
@@ -280,12 +280,12 @@
             "99": {
                 "neighbours": [
                     {
-                        "position": 3,
-                        "residue": "GLU"
-                    },
-                    {
                         "position": 2,
                         "residue": "PRO"
+                    },
+                    {
+                        "position": 3,
+                        "residue": "GLU"
                     }
                 ],
                 "position": 99,
@@ -354,16 +354,16 @@
             "146": {
                 "neighbours": [
                     {
-                        "position": 11,
-                        "residue": "THR"
-                    },
-                    {
                         "position": 12,
                         "residue": "ALA"
                     },
                     {
                         "position": 13,
                         "residue": "TYR"
+                    },
+                    {
+                        "position": 11,
+                        "residue": "THR"
                     }
                 ],
                 "position": 146,
@@ -372,16 +372,16 @@
             "147": {
                 "neighbours": [
                     {
+                        "position": 11,
+                        "residue": "THR"
+                    },
+                    {
                         "position": 12,
                         "residue": "ALA"
                     },
                     {
                         "position": 13,
                         "residue": "TYR"
-                    },
-                    {
-                        "position": 11,
-                        "residue": "THR"
                     }
                 ],
                 "position": 147,
@@ -410,16 +410,16 @@
             "155": {
                 "neighbours": [
                     {
-                        "position": 11,
-                        "residue": "THR"
-                    },
-                    {
                         "position": 6,
                         "residue": "PRO"
                     },
                     {
                         "position": 3,
                         "residue": "GLU"
+                    },
+                    {
+                        "position": 11,
+                        "residue": "THR"
                     }
                 ],
                 "position": 155,
@@ -442,16 +442,16 @@
                         "residue": "PRO"
                     },
                     {
-                        "position": 1,
-                        "residue": "LEU"
+                        "position": 2,
+                        "residue": "PRO"
                     },
                     {
                         "position": 3,
                         "residue": "GLU"
                     },
                     {
-                        "position": 2,
-                        "residue": "PRO"
+                        "position": 1,
+                        "residue": "LEU"
                     }
                 ],
                 "position": 159,
@@ -496,15 +496,31 @@
             "1": {
                 "neighbours": [
                     {
+                        "position": 62,
+                        "residue": "ARG"
+                    },
+                    {
                         "position": 5,
                         "residue": "MET"
+                    },
+                    {
+                        "position": 163,
+                        "residue": "LEU"
                     },
                     {
                         "position": 167,
                         "residue": "TRP"
                     },
                     {
+                        "position": 33,
+                        "residue": "PHE"
+                    },
+                    {
                         "position": 59,
+                        "residue": "TYR"
+                    },
+                    {
+                        "position": 171,
                         "residue": "TYR"
                     },
                     {
@@ -514,22 +530,6 @@
                     {
                         "position": 63,
                         "residue": "ASN"
-                    },
-                    {
-                        "position": 33,
-                        "residue": "PHE"
-                    },
-                    {
-                        "position": 171,
-                        "residue": "TYR"
-                    },
-                    {
-                        "position": 62,
-                        "residue": "ARG"
-                    },
-                    {
-                        "position": 163,
-                        "residue": "LEU"
                     },
                     {
                         "position": 7,
@@ -542,23 +542,15 @@
             "2": {
                 "neighbours": [
                     {
-                        "position": 63,
-                        "residue": "ASN"
+                        "position": 67,
+                        "residue": "PHE"
                     },
                     {
                         "position": 9,
                         "residue": "TYR"
                     },
                     {
-                        "position": 67,
-                        "residue": "PHE"
-                    },
-                    {
-                        "position": 66,
-                        "residue": "ILE"
-                    },
-                    {
-                        "position": 7,
+                        "position": 159,
                         "residue": "TYR"
                     },
                     {
@@ -566,8 +558,16 @@
                         "residue": "TYR"
                     },
                     {
-                        "position": 159,
+                        "position": 7,
                         "residue": "TYR"
+                    },
+                    {
+                        "position": 63,
+                        "residue": "ASN"
+                    },
+                    {
+                        "position": 66,
+                        "residue": "ILE"
                     }
                 ],
                 "position": 2,
@@ -576,27 +576,11 @@
             "3": {
                 "neighbours": [
                     {
-                        "position": 9,
+                        "position": 99,
                         "residue": "TYR"
                     },
                     {
-                        "position": 114,
-                        "residue": "ASP"
-                    },
-                    {
-                        "position": 156,
-                        "residue": "ARG"
-                    },
-                    {
-                        "position": 66,
-                        "residue": "ILE"
-                    },
-                    {
-                        "position": 155,
-                        "residue": "GLN"
-                    },
-                    {
-                        "position": 99,
+                        "position": 9,
                         "residue": "TYR"
                     },
                     {
@@ -604,7 +588,23 @@
                         "residue": "TYR"
                     },
                     {
+                        "position": 155,
+                        "residue": "GLN"
+                    },
+                    {
                         "position": 97,
+                        "residue": "ARG"
+                    },
+                    {
+                        "position": 66,
+                        "residue": "ILE"
+                    },
+                    {
+                        "position": 114,
+                        "residue": "ASP"
+                    },
+                    {
+                        "position": 156,
                         "residue": "ARG"
                     }
                 ],
@@ -614,20 +614,20 @@
             "4": {
                 "neighbours": [
                     {
-                        "position": 66,
-                        "residue": "ILE"
+                        "position": 159,
+                        "residue": "TYR"
                     },
                     {
                         "position": 163,
                         "residue": "LEU"
                     },
                     {
-                        "position": 159,
-                        "residue": "TYR"
-                    },
-                    {
                         "position": 62,
                         "residue": "ARG"
+                    },
+                    {
+                        "position": 66,
+                        "residue": "ILE"
                     }
                 ],
                 "position": 4,
@@ -636,12 +636,12 @@
             "5": {
                 "neighbours": [
                     {
-                        "position": 66,
-                        "residue": "ILE"
-                    },
-                    {
                         "position": 70,
                         "residue": "ASN"
+                    },
+                    {
+                        "position": 66,
+                        "residue": "ILE"
                     },
                     {
                         "position": 65,
@@ -686,20 +686,8 @@
             "11": {
                 "neighbours": [
                     {
-                        "position": 146,
-                        "residue": "LYS"
-                    },
-                    {
                         "position": 147,
                         "residue": "TRP"
-                    },
-                    {
-                        "position": 155,
-                        "residue": "GLN"
-                    },
-                    {
-                        "position": 150,
-                        "residue": "ALA"
                     },
                     {
                         "position": 152,
@@ -708,6 +696,18 @@
                     {
                         "position": 73,
                         "residue": "THR"
+                    },
+                    {
+                        "position": 150,
+                        "residue": "ALA"
+                    },
+                    {
+                        "position": 155,
+                        "residue": "GLN"
+                    },
+                    {
+                        "position": 146,
+                        "residue": "LYS"
                     }
                 ],
                 "position": 11,
@@ -716,28 +716,28 @@
             "12": {
                 "neighbours": [
                     {
-                        "position": 147,
-                        "residue": "TRP"
-                    },
-                    {
-                        "position": 73,
-                        "residue": "THR"
-                    },
-                    {
-                        "position": 146,
-                        "residue": "LYS"
-                    },
-                    {
-                        "position": 80,
-                        "residue": "ASN"
+                        "position": 77,
+                        "residue": "SER"
                     },
                     {
                         "position": 76,
                         "residue": "GLU"
                     },
                     {
-                        "position": 77,
-                        "residue": "SER"
+                        "position": 80,
+                        "residue": "ASN"
+                    },
+                    {
+                        "position": 146,
+                        "residue": "LYS"
+                    },
+                    {
+                        "position": 147,
+                        "residue": "TRP"
+                    },
+                    {
+                        "position": 73,
+                        "residue": "THR"
                     }
                 ],
                 "position": 12,
@@ -750,28 +750,20 @@
                         "residue": "SER"
                     },
                     {
-                        "position": 95,
-                        "residue": "ILE"
-                    },
-                    {
-                        "position": 77,
-                        "residue": "SER"
-                    },
-                    {
-                        "position": 143,
-                        "residue": "THR"
-                    },
-                    {
-                        "position": 147,
-                        "residue": "TRP"
-                    },
-                    {
-                        "position": 123,
-                        "residue": "TYR"
+                        "position": 81,
+                        "residue": "LEU"
                     },
                     {
                         "position": 74,
                         "residue": "TYR"
+                    },
+                    {
+                        "position": 96,
+                        "residue": "GLN"
+                    },
+                    {
+                        "position": 143,
+                        "residue": "THR"
                     },
                     {
                         "position": 97,
@@ -782,28 +774,36 @@
                         "residue": "ASN"
                     },
                     {
-                        "position": 142,
-                        "residue": "ILE"
+                        "position": 146,
+                        "residue": "LYS"
                     },
                     {
-                        "position": 81,
-                        "residue": "LEU"
+                        "position": 147,
+                        "residue": "TRP"
                     },
                     {
                         "position": 84,
                         "residue": "TYR"
                     },
                     {
+                        "position": 123,
+                        "residue": "TYR"
+                    },
+                    {
+                        "position": 95,
+                        "residue": "ILE"
+                    },
+                    {
+                        "position": 77,
+                        "residue": "SER"
+                    },
+                    {
                         "position": 124,
                         "residue": "ILE"
                     },
                     {
-                        "position": 96,
-                        "residue": "GLN"
-                    },
-                    {
-                        "position": 146,
-                        "residue": "LYS"
+                        "position": 142,
+                        "residue": "ILE"
                     }
                 ],
                 "position": 13,
